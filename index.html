@@ -861,6 +861,12 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
 </div>
 
 <script>
+window.onerror = function(msg, url, line, col, err) {
+  var d = document.createElement('div');
+  d.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:99999;background:#1c1010;border-bottom:2px solid #f85149;color:#f85149;padding:12px 16px;font:12px monospace';
+  d.textContent = 'JS Error (line ' + line + '): ' + msg;
+  document.body.appendChild(d);
+};
 
 const PROPS = ['RAM','45703','45711','45713','45715','45716','45718','45720','45724','45725','45726','45727','45728','45729'];
 const PLABELS = {'RAM':'RAM Preserve at Riverwalk','JULIA':'The Julia','45703':'SKYE at Hunters Creek','45708':'SKYE Isle','45709':'Chimney Hill','45710':'Skye at Love','45711':'Skye Ridge','45713':'Nightingale on 25th','45715':'Ninety-Nine44 on Walnut','45716':'Parks at Walnut','45718':'Skye at Conway','45720':'Skye Reserve','45724':'Upland Townhomes','45725':'The Park at Peachtree Hills','45726':'The Boardwalk','45727':'The Flats','45728':'Skye Oaks','45729':'Hanley Place','45711':'Skye Ridge','45713':'Nightingale on 25th','45715':'Ninety-Nine44 on Walnut','45716':'Parks at Walnut','45718':'Skye at Conway','45720':'Skye Reserve','45724':'Upland Townhomes','45725':'The Park at Peachtree Hills','45726':'The Boardwalk','45727':'The Flats','45728':'Skye Oaks','45729':'Hanley Place'};
@@ -1149,6 +1155,8 @@ function getStatus(p) {
 function loadProp(pid) {
   if(!pid) return;
   const p = PROP_DATA[pid];
+  if(!p) { console.error('No data for pid:', pid); return; }
+  try {
   document.getElementById('emptyState').style.display='none';
   document.getElementById('kpiStrip').style.display='grid';
   document.getElementById('mainTabs').style.display='flex';
@@ -1188,6 +1196,7 @@ function loadProp(pid) {
   buildPrio(p);
   buildIssues(p);
   buildSafety(p);
+  } catch(e) { console.error('loadProp error:', e); document.getElementById('emptyState').style.display='block'; document.getElementById('emptyState').innerHTML='<div style="color:#f85149;font-size:14px;padding:40px">Error loading property: '+e.message+'</div>'; }
 }
 
 function buildTrends(p) {
