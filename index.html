@@ -222,7 +222,17 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
     <h2>Portfolio Work Order Overview</h2>
     <p><span class="hl">5,381 WOs</span> · Sep 2025–Feb 2026 · RAM Preserve · The Julia · 16 RPM Properties · <span class="alert">32 mold WOs detected · 13 smoke/fire alarm slow responses</span></p>
   </div>
-  <div class="kpi-row k5">
+<div style="padding:0 18px 8px">
+<div style="background:#0d1117;border:1px solid #21262d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #56d4dd">
+    <div style="font-size:9px;font-weight:800;color:#56d4dd;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">HOW TO READ THIS PAGE</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong style="color:#e2e8f0">This page shows your entire 18-property portfolio at a glance.</strong> The KPIs above are the numbers your leadership team should track monthly. The three tabs below break the data down by time (Trends), repair type (Categories), and individual property (Properties).</div><div style="margin-bottom:6px"><strong>How to use this page:</strong> Start with the KPIs — if the portfolio average is above 3.5 days or same-day close rate is below 50%, something systemic needs attention. Then check Trends to see if you're improving or declining. Categories shows where the portfolio is struggling. Properties shows who's pulling the average up or down.</div></div></div>
+<div style="background:#0d1117;border:1px solid #21262d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #58a6ff">
+    <div style="font-size:9px;font-weight:800;color:#58a6ff;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">KEY INSIGHT</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong style="color:#3fb950">Portfolio speed improved 59% over 6 months</strong> — from 4.22d avg in September to 1.71d in February. This is a significant operational improvement. Whatever changes were made in Q4 2025 are working.</div><div style="margin-bottom:6px"><strong style="color:#e3b341">53.5% same-day close rate means roughly half of residents wait more than a day.</strong> Industry top-performers close 65-70% same-day. Closing the gap from 53% to 65% would meaningfully improve resident satisfaction scores.</div><div style="margin-bottom:6px"><strong style="color:#f85149">32 mold WOs across 5 properties is the biggest compliance risk in this portfolio.</strong> 9 of these are at The Julia with no completion date — they may be unresolved. Mold is a habitability issue with legal liability in most jurisdictions.</div><div style="margin-bottom:6px"><strong style="color:#e2e8f0">The gap between best and worst is enormous:</strong> Skye Oaks (0.43d avg, 88% same-day, zero slow WOs) vs Hanley Place (5.55d avg, 32% same-day, 164 slow WOs). Same portfolio, very different execution. The best property proves the standard is achievable.</div></div></div>
+<div style="background:#10101c;border:1px solid #15153d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #a371f7">
+    <div style="font-size:9px;font-weight:800;color:#a371f7;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">RECOMMENDED ACTIONS</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong>1. Weekly ops review: use the Scorecard page.</strong> Sort by Slow WOs column to immediately identify which properties need intervention this week.</div><div style="margin-bottom:6px"><strong>2. Monthly deep-dive: use the Asset Drill-Down.</strong> Pick the 3 worst-performing properties and review their Subcategories tab to find exactly which repair types are dragging them down.</div><div style="margin-bottom:6px"><strong>3. Immediate action: The Julia mold WOs.</strong> Confirm whether those 9 mold WOs are actually resolved. If not, remediation needs to start this week.</div><div style="margin-bottom:6px"><strong>4. Hanley Place needs a staffing intervention.</strong> 27% of their WOs take 7+ days. No amount of process improvement fixes this without adequate maintenance capacity.</div></div></div>
+</div>  <div class="kpi-row k5">
     <div class="kpi kb"><div class="kl">Total Work Orders</div><div class="kv">5,381</div><div class="ks">18 properties · 6 months</div></div>
     <div class="kpi ko"><div class="kl">Portfolio Avg Days</div><div class="kv">3.12</div><div class="ks">Sep: 4.22 → Feb: 1.71</div><span class="badge bg">↓ 59% improvement</span></div>
     <div class="kpi kg"><div class="kl">Completed ≤ 24h</div><div class="kv">53.5%</div><div class="ks">2,396 of 4,482 completed</div></div>
@@ -235,6 +245,11 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
     <div class="tab" onclick="switchTab('ov','props',this)">🏢 Properties</div>
   </div>
   <div id="ov-trends" class="panel active">
+    <div style="padding:12px 18px 4px">
+    <div style="background:#0d1117;border:1px solid #21262d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #58a6ff">
+    <div style="font-size:9px;font-weight:800;color:#58a6ff;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">KEY INSIGHT</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong style="color:#e2e8f0">These charts show the portfolio-wide trend over 6 months.</strong> The top-left chart (Avg Completion Days) is the most important — it should be going down over time. The top-right (% in 24h) should be going up.</div><div style="margin-bottom:6px"><strong style="color:#3fb950">September started rough at 4.22 days average, but February closed at 1.71 days.</strong> The improvement was steady, not a one-time jump. This suggests process improvements are taking hold.</div><div style="margin-bottom:6px"><strong style="color:#e3b341">Volume peaked in September (1,002 WOs) and has been lower since.</strong> If the lower volume is driving the speed improvement (fewer WOs = faster response), the speed gains may not hold if volume returns to September levels. Watch whether speed holds as spring volume picks up.</div></div></div>
+    </div>
     <div class="g2">
       <div class="card"><div class="ct"><span class="dot db"></span>Avg Completion Days — Monthly</div><canvas id="c-ptAvg" height="195"></canvas></div>
       <div class="card"><div class="ct"><span class="dot dg"></span>% Completed Within 24 Hours</div><canvas id="c-pt24h" height="195"></canvas></div>
@@ -245,6 +260,11 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
     </div>
   </div>
   <div id="ov-cats" class="panel">
+    <div style="padding:12px 18px 4px">
+    <div style="background:#0d1117;border:1px solid #21262d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #58a6ff">
+    <div style="font-size:9px;font-weight:800;color:#58a6ff;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">KEY INSIGHT</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong style="color:#e2e8f0">Category charts show which repair types dominate the portfolio.</strong> The "Risk Matrix" bubble chart (bottom-right) is the most actionable — categories in the upper-right (high volume AND slow speed) are your biggest problems.</div><div style="margin-bottom:6px"><strong style="color:#f85149">Appliances are the biggest pain point:</strong> highest volume AND one of the slowest categories. Washers (5.25d avg), dishwashers (6.41d), and dryers (5.66d) are the worst offenders. These are all mechanical items where parts availability often drives the delay.</div><div style="margin-bottom:6px"><strong style="color:#3fb950">HVAC is the success story:</strong> high volume (353 WOs) but fast resolution (1.71d avg, 65% same-day). This proves that high-volume categories CAN be handled quickly with the right parts and vendor relationships.</div></div></div>
+    </div>
     <div class="g2">
       <div class="card"><div class="ct"><span class="dot db"></span>Category Volume (All Properties)</div><canvas id="c-pcVol" height="225"></canvas></div>
       <div class="card"><div class="ct"><span class="dot dr"></span>Avg Days by Category — color = speed tier</div><canvas id="c-pcDays" height="225"></canvas></div>
@@ -255,6 +275,11 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
     </div>
   </div>
   <div id="ov-props" class="panel">
+    <div style="padding:12px 18px 4px">
+    <div style="background:#0d1117;border:1px solid #21262d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #58a6ff">
+    <div style="font-size:9px;font-weight:800;color:#58a6ff;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">KEY INSIGHT</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong style="color:#e2e8f0">This tab ranks all 18 properties side by side.</strong> The bar charts below the table make it easy to spot the outliers. Properties on the far right of "Avg Days" are your problem children.</div><div style="margin-bottom:6px"><strong style="color:#f85149">Three properties need immediate intervention:</strong> Hanley Place (5.55d, 164 slow WOs), The Flats (5.43d, 20% of WOs over 7 days), and Skye Reserve (5.18d, 120 slow WOs). Together these three properties account for 73% of all slow WOs in the portfolio.</div><div style="margin-bottom:6px"><strong style="color:#3fb950">Six properties are performing at or above standard:</strong> Skye Oaks, Skye at Love, Skye at Conway, Parks at Walnut, Ninety-Nine44 on Walnut, and RAM Riverwalk. These should be studied as models for the underperformers.</div></div></div>
+    </div>
     <div class="gfull">
       <div class="card">
         <div class="ct"><span class="dot db"></span>All Property Scorecard</div>
@@ -275,7 +300,17 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
     <h2>Subcategory Drill-Down — What's Actually Breaking</h2>
     <p>Specific repair types ranked by volume, speed, and slow-WO count across all properties</p>
   </div>
-  <div class="kpi-row k4">
+<div style="padding:0 18px 8px">
+<div style="background:#0d1117;border:1px solid #21262d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #56d4dd">
+    <div style="font-size:9px;font-weight:800;color:#56d4dd;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">HOW TO READ THIS PAGE</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong style="color:#e2e8f0">This page drills into specific repair types across the entire portfolio.</strong> While the Portfolio page shows categories (Plumbing, Appliances, HVAC), this page shows <em>subcategories</em> — the exact repair: Toilet vs Sink vs Water Heater, Washer vs Dryer vs Dishwasher.</div><div style="margin-bottom:6px"><strong>Why this matters:</strong> "Plumbing is slow" isn't actionable. "Tub/Shower repairs take 4.23 days and have 31 slow WOs" is. Each tab below covers one major category. The "All Subcategories" tab shows everything ranked together.</div></div></div>
+<div style="background:#0d1117;border:1px solid #21262d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #58a6ff">
+    <div style="font-size:9px;font-weight:800;color:#58a6ff;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">KEY INSIGHT</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong style="color:#f85149">Dishwasher is the slowest subcategory</strong> at 6.41 avg days with 24 slow WOs. This is almost certainly a parts issue — dishwasher repairs frequently require ordering specific components. Consider stocking common dishwasher parts (pumps, door latches, spray arms) locally.</div><div style="margin-bottom:6px"><strong style="color:#f85149">Washer has the most slow WOs: 34.</strong> At 5.25 avg days, washers are consistently problematic. For units with 3+ washer WOs, the appliance has reached end-of-life and should be replaced rather than repaired.</div><div style="margin-bottom:6px"><strong style="color:#3fb950">Pest Control is the fastest at 1.13 days</strong> (81% same-day). AC/HVAC is fast too at 1.71 days. These categories show what's possible when vendors and parts are available.</div></div></div>
+<div style="background:#10101c;border:1px solid #15153d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #a371f7">
+    <div style="font-size:9px;font-weight:800;color:#a371f7;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">RECOMMENDED ACTIONS</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong>1. Stock common appliance parts locally.</strong> Dishwasher, washer, and dryer parts delays are the #1 driver of slow WOs. A $2,000 parts inventory would eliminate most of the waiting.</div><div style="margin-bottom:6px"><strong>2. Set a 3-repair trigger for appliance replacement.</strong> Any appliance with 3+ WOs in 6 months should be flagged for replacement — continued repair is more expensive.</div><div style="margin-bottom:6px"><strong>3. Use the tables in each tab to identify exact subcategories where same-day rate is below 40%.</strong> Those are the repair types where residents are consistently waiting multiple days.</div></div></div>
+</div>  <div class="kpi-row k4">
     <div class="kpi kr"><div class="kl">Slowest Subcategory</div><div class="kv">Dishwasher</div><div class="ks">6.41 avg days · 24 slow WOs</div></div>
     <div class="kpi kr"><div class="kl">Most Slow WOs</div><div class="kv">Washer</div><div class="ks">34 WOs over 7 days</div></div>
     <div class="kpi kg"><div class="kl">Fastest Subcategory</div><div class="kv">Pest Control</div><div class="ks">1.13 avg days · 81% in 24h</div></div>
@@ -292,6 +327,11 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
 
   <!-- PLUMBING -->
   <div id="sc-plumbing" class="panel active">
+    <div style="padding:12px 18px 4px">
+    <div style="background:#0d1117;border:1px solid #21262d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #58a6ff">
+    <div style="font-size:9px;font-weight:800;color:#58a6ff;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">KEY INSIGHT</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong style="color:#f85149">Tub/Shower is the plumbing emergency:</strong> 181 WOs at 4.23 days average with 31 slow WOs. That is 31 residents who could not use their shower for a week or more. This drives more negative reviews than any other plumbing subcategory.</div><div style="margin-bottom:6px"><strong style="color:#e3b341">Plumbing General (196 WOs, 3.49d) has 31 slow WOs too.</strong> "General" plumbing means the WO was not categorized specifically — it could be anything. Better categorization at the time of WO creation would help target the actual issue.</div><div style="margin-bottom:6px"><strong style="color:#3fb950">Leak/Water Damage is handled fast (0.88d, 82% same-day).</strong> When leaks are treated as emergencies, they get fixed fast. Apply that same urgency to tub/shower and toilet issues.</div></div></div>
+    </div>
     <div class="g2">
       <div class="card"><div class="ct"><span class="dot db"></span>Plumbing Subcategory Volume</div><canvas id="c-plVol" height="200"></canvas></div>
       <div class="card"><div class="ct"><span class="dot dr"></span>Plumbing Subcategory Avg Days</div><canvas id="c-plDays" height="200"></canvas></div>
@@ -316,6 +356,11 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
 
   <!-- APPLIANCES -->
   <div id="sc-appliances" class="panel">
+    <div style="padding:12px 18px 4px">
+    <div style="background:#0d1117;border:1px solid #21262d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #58a6ff">
+    <div style="font-size:9px;font-weight:800;color:#58a6ff;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">KEY INSIGHT</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong style="color:#f85149">Appliances are the single biggest category driving slow WOs.</strong> Dishwasher (6.41d), Dryer (5.66d), and Washer (5.25d) are all above 5 days average. Residents without a working washer or dishwasher for 5+ days are extremely frustrated.</div><div style="margin-bottom:6px"><strong style="color:#e3b341">The pattern across all appliance types is the same:</strong> initial dispatch is fast, but the repair stalls waiting for parts or a specialized vendor. The fix is upstream — parts stocking and vendor SLAs, not faster dispatch.</div><div style="margin-bottom:6px"><strong style="color:#e2e8f0">Stove/Oven is the highest-volume appliance (237 WOs)</strong> at 2.42d avg — not great but manageable. AC/HVAC (353 WOs at 1.71d) proves appliances CAN be resolved fast when the right parts are available.</div></div></div>
+    </div>
     <div class="g2">
       <div class="card"><div class="ct"><span class="dot db"></span>Appliance Subcategory Volume</div><canvas id="c-apVol" height="200"></canvas></div>
       <div class="card"><div class="ct"><span class="dot dr"></span>Appliance Subcategory Avg Days</div><canvas id="c-apDays" height="200"></canvas></div>
@@ -420,7 +465,11 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
     <h2>Side-by-Side Property Comparison</h2>
     <p>Pick a subcategory and a view style — compare all properties on that single repair type</p>
   </div>
-  <div style="padding:12px 18px 0;display:flex;align-items:center;gap:16px;flex-wrap:wrap;border-bottom:1px solid #21262d;padding-bottom:12px">
+<div style="padding:0 18px 8px">
+<div style="background:#0d1117;border:1px solid #21262d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #56d4dd">
+    <div style="font-size:9px;font-weight:800;color:#56d4dd;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">HOW TO READ THIS PAGE</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong style="color:#e2e8f0">This page lets you compare all properties on a single repair type.</strong> Pick a subcategory (e.g., "AC/HVAC" or "Toilet") from the buttons below, then switch between 4 view modes to analyze performance.</div><div style="margin-bottom:6px"><strong>Which view to use:</strong> <strong style="color:#58a6ff">Bar Charts</strong> for a quick visual. <strong style="color:#58a6ff">Data Table</strong> for exact numbers and letter grades (best for reports). <strong style="color:#58a6ff">Radar</strong> to see which properties are well-rounded vs lopsided. <strong style="color:#58a6ff">Heat Map</strong> to see ALL subcategories × ALL properties at once — green=fast, red=slow. If an entire column is red, that subcategory has a portfolio-wide problem.</div><div style="margin-bottom:6px"><strong style="color:#e3b341">Look for patterns, not just outliers.</strong> If one property is slow on Toilets, that's a property issue. If ALL properties are slow on Toilets, that's a vendor, parts, or skills issue that needs a portfolio-wide solution.</div></div></div>
+</div>  <div style="padding:12px 18px 0;display:flex;align-items:center;gap:16px;flex-wrap:wrap;border-bottom:1px solid #21262d;padding-bottom:12px">
     <div>
       <div class="ct" style="margin-bottom:5px"><span class="dot db"></span>Subcategory</div>
       <div class="cat-select" id="catBtns"></div>
@@ -485,7 +534,14 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
     <h2>Make Ready / Move-In Work Orders</h2>
     <p>Unit turn speed directly impacts vacancy days and lost revenue. Every extra day is a day of rent not collected.</p>
   </div>
-  <div class="kpi-row k4">
+<div style="padding:0 18px 8px">
+<div style="background:#0d1117;border:1px solid #21262d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #58a6ff">
+    <div style="font-size:9px;font-weight:800;color:#58a6ff;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">KEY INSIGHT</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong style="color:#e2e8f0">Make-ready speed directly translates to revenue.</strong> Every day a unit sits vacant during a turn is a day of lost rent. At an average rent of $1,500/month ($50/day), even small improvements in turn speed add up across dozens of annual turns.</div><div style="margin-bottom:6px"><strong style="color:#3fb950">Skye Oaks sets the standard: 0.28 day average, 100% same-day.</strong> Their make-ready process gets units market-ready within hours, not days. RAM Riverwalk is close behind at 0.81 days. These two prove that same-day make-ready is achievable.</div><div style="margin-bottom:6px"><strong style="color:#f85149">Nightingale on 25th at 9.6 days average costs ~$480/unit in vacancy.</strong> With an estimated 14 turns in 6 months, that's roughly $6,700 in lost revenue from slow make-ready alone. Fixing this is one of the highest-ROI actions available.</div><div style="margin-bottom:6px"><strong style="color:#e3b341">Skye Reserve's 30.9 day average is almost certainly a stuck/zombie WO</strong> — one forgotten ticket dragging the number up. Audit and close it, and their real average will likely be much better.</div></div></div>
+<div style="background:#10101c;border:1px solid #15153d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #a371f7">
+    <div style="font-size:9px;font-weight:800;color:#a371f7;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">RECOMMENDED ACTIONS</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong>1. Create a make-ready checklist and timeline.</strong> Define what "make-ready" means (clean, paint, fix, inspect) and set a standard timeline: 1 day for express turns, 3 days for full turns. Track against the standard.</div><div style="margin-bottom:6px"><strong>2. Pre-stage make-ready supplies.</strong> Paints, cleaning supplies, common replacement items (light bulbs, outlet covers, door stops) should be ready before the resident moves out, not ordered after.</div><div style="margin-bottom:6px"><strong>3. Nightingale on 25th: audit the 3 make-ready WOs.</strong> At 9.6 days avg with 0% same-day, there's likely a process bottleneck — waiting for move-out inspection? Waiting for vendor scheduling? Identify and fix.</div></div></div>
+</div>  <div class="kpi-row k4">
     <div class="kpi kb"><div class="kl">Total Make Ready WOs</div><div class="kv">148</div><div class="ks">Tracked across portfolio</div></div>
     <div class="kpi kg"><div class="kl">Fastest Property</div><div class="kv">Skye Oaks</div><div class="ks">0.28 avg days · 100% same-day</div></div>
     <div class="kpi kr"><div class="kl">Slowest Property</div><div class="kv">Skye Reserve</div><div class="ks">30.9 avg days — likely stuck WO</div></div>
@@ -526,7 +582,14 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
     <h2>⚠️ Mold, Mildew & Safety Compliance</h2>
     <p class="alert">32 mold/mildew WOs detected across 5 properties · 3 smoke detector WOs taking 7+ days · This is a legal liability and habitability issue</p>
   </div>
-  <div class="kpi-row k4">
+<div style="padding:0 18px 8px">
+<div style="background:#1c1010;border:1px solid #3d1515;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #f85149">
+    <div style="font-size:9px;font-weight:800;color:#f85149;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">ACTION REQUIRED</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong style="color:#f85149">This page tracks your highest-liability maintenance items.</strong> Mold and mildew are habitability issues with legal consequences. Smoke/CO detector delays are life-safety compliance gaps. Every item on this page should be reviewed monthly by a property manager or regional director.</div><div style="margin-bottom:6px"><strong style="color:#f85149">The Julia's 9 mold WOs with no completion date are the single biggest risk in this portfolio.</strong> If these are actually unresolved, you have 9 units with potentially active mold growth and no documentation of remediation. This needs to be confirmed this week — not next month.</div><div style="margin-bottom:6px"><strong style="color:#e3b341">The Boardwalk has 9 mold WOs — the most of any property with completion data.</strong> Two separate bedrooms reported "growth growing" — this isn't random. It's a building moisture problem (likely HVAC condensate or exterior water penetration) that will keep generating WOs until the root cause is fixed.</div><div style="margin-bottom:6px"><strong style="color:#e3b341">Upland Townhomes' 13-day mold WO (Feb 13–26) is a compliance concern.</strong> Mold should be remediated within 48-72 hours of report. 13 days means either the scope was larger than expected (requiring professional remediation) or it was deprioritized. Either way, documentation is critical.</div></div></div>
+<div style="background:#10101c;border:1px solid #15153d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #a371f7">
+    <div style="font-size:9px;font-weight:800;color:#a371f7;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">RECOMMENDED ACTIONS</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong>1. The Julia: Confirm status of all 9 mold WOs by end of this week.</strong> If unresolved, engage a licensed mold remediation vendor immediately. Document everything — photos, air quality tests, remediation reports.</div><div style="margin-bottom:6px"><strong>2. The Boardwalk: Schedule a building moisture assessment.</strong> 9 mold WOs in 5 months = systemic issue. Check: HVAC condensate drain lines, bathroom exhaust fan function, exterior wall/window seals, roof/gutter drainage near affected units.</div><div style="margin-bottom:6px"><strong>3. All properties: Implement a mold response protocol.</strong> (a) Initial response within 24 hours. (b) Professional assessment within 48 hours. (c) Remediation within 72 hours. (d) Post-remediation moisture check at 30 days.</div><div style="margin-bottom:6px"><strong>4. Smoke detector WOs: Any taking 7+ days should trigger an incident report.</strong> Non-functional smoke detectors are a fire code violation. The 3 slow responses at Skye Reserve (avg 26 days) need immediate audit.</div></div></div>
+</div>  <div class="kpi-row k4">
     <div class="kpi kr"><div class="kl">Total Mold / Mildew WOs</div><div class="kv">32</div><div class="ks">5 properties · some unresolved</div><span class="badge br">⚠ Legal risk</span></div>
     <div class="kpi kr"><div class="kl">Worst: The Boardwalk</div><div class="kv">9 WOs</div><div class="ks">Recurring growth/black spots</div></div>
     <div class="kpi ko"><div class="kl">The Julia</div><div class="kv">9 WOs</div><div class="ks">ALL have no completion date</div><span class="badge br">Unresolved?</span></div>
@@ -591,7 +654,17 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
     <h2>Emergency & Priority Response Analysis</h2>
     <p>How fast is the portfolio responding based on urgency? Low-priority WOs taking 5+ days are a hidden review risk.</p>
   </div>
-  <div class="kpi-row k4">
+<div style="padding:0 18px 8px">
+<div style="background:#0d1117;border:1px solid #21262d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #56d4dd">
+    <div style="font-size:9px;font-weight:800;color:#56d4dd;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">HOW TO READ THIS PAGE</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong style="color:#e2e8f0">This page shows whether your triage system is actually working.</strong> If higher-priority WOs are resolved faster than lower-priority ones, your dispatch team is doing their job. If not, priority labels are just labels — they're not changing behavior.</div><div style="margin-bottom:6px"><strong>How to read the KPIs above:</strong> Emergency (0.93d) is fast — good. High (2.54d) is acceptable but could be faster. Medium (2.43d) is slightly faster than High — that means triage isn't differentiated at these levels. Low (5.03d, only 38.8% same-day) is where residents feel forgotten.</div></div></div>
+<div style="background:#0d1117;border:1px solid #21262d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #58a6ff">
+    <div style="font-size:9px;font-weight:800;color:#58a6ff;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">KEY INSIGHT</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong style="color:#e3b341">High Priority (2.54d) is almost identical to Medium (2.43d).</strong> This means priority classification isn't influencing dispatch speed at these levels. High-priority WOs should be noticeably faster — ideally under 1.5 days.</div><div style="margin-bottom:6px"><strong style="color:#f85149">Hanley Place: High priority WOs average 6.65 days.</strong> That's not a prioritization problem — it's a capacity crisis. When even "urgent" requests take a week, the maintenance team is overwhelmed.</div><div style="margin-bottom:6px"><strong style="color:#f85149">Skye Reserve: Low priority WOs average 8.21 days.</strong> While deprioritizing low-urgency items is normal, 8+ days means residents are waiting over a week for cosmetic or minor repairs. They don't know it's "low priority" — they just see nothing happening.</div><div style="margin-bottom:6px"><strong style="color:#3fb950">Parks at Walnut shows what's possible:</strong> 1.23d for High and 1.04d for Low — fast across ALL priority levels. Their team isn't just triaging well, they're fast enough that triage barely matters.</div></div></div>
+<div style="background:#10101c;border:1px solid #15153d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #a371f7">
+    <div style="font-size:9px;font-weight:800;color:#a371f7;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">RECOMMENDED ACTIONS</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong>1. Set time targets by priority level.</strong> Emergency: 4 hours. High: 24 hours. Medium: 48 hours. Low: 5 business days. Track compliance weekly.</div><div style="margin-bottom:6px"><strong>2. Hanley Place: immediate staffing review.</strong> 6.65d on High priority = the team cannot keep up. Either add a maintenance tech, add a reliable vendor, or both.</div><div style="margin-bottom:6px"><strong>3. Automate resident communication for Low priority.</strong> If a Low WO will take 3+ days, send an automatic text: "We've received your request and it's scheduled for [date]." This manages expectations and prevents negative reviews.</div><div style="margin-bottom:6px"><strong>4. Review the table below for priority inversions.</strong> Any property where Low is faster than High has a misclassification problem — WOs are being labeled incorrectly.</div></div></div>
+</div>  <div class="kpi-row k4">
     <div class="kpi kr"><div class="kl">Emergency Avg Days</div><div class="kv">0.93</div><div class="ks">11 WOs · 63.6% in 24h</div></div>
     <div class="kpi ko"><div class="kl">High Priority Avg</div><div class="kv">2.54</div><div class="ks">1,763 WOs · 61.7% in 24h</div></div>
     <div class="kpi kg"><div class="kl">Medium Priority Avg</div><div class="kv">2.43</div><div class="ks">642 WOs · 54.8% in 24h</div></div>
@@ -639,7 +712,17 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
     <p>All properties ranked across 5 key metrics · Click property tabs in the nav for individual drill-downs</p>
   </div>
   <div style="padding:14px 18px">
-    <div class="gfull"><div class="card">
+<div style="padding:0 0 8px">
+<div style="background:#0d1117;border:1px solid #21262d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #56d4dd">
+    <div style="font-size:9px;font-weight:800;color:#56d4dd;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">HOW TO READ THIS PAGE</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong style="color:#e2e8f0">This is your weekly ops review page.</strong> Every property ranked on every metric. Sort by the column that matters most to your current priority. For most teams, <strong>"Slow WOs (7+d)"</strong> is the most actionable — it tells you where residents are having the worst experiences right now.</div><div style="margin-bottom:6px"><strong>How to read the "Overall" column:</strong> ⭐ Best = benchmark the rest against. Strong/Good = on track, maintain. Monitor/Watch = trending in the wrong direction or has a specific concern (mold, slow make-ready). 🚨 Critical = needs intervention this week.</div></div></div>
+<div style="background:#0d1117;border:1px solid #21262d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #58a6ff">
+    <div style="font-size:9px;font-weight:800;color:#58a6ff;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">KEY INSIGHT</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong style="color:#f85149">Bottom 3 properties account for 73% of all slow WOs:</strong> Hanley Place (164), Skye Reserve (120), and The Boardwalk (71). The remaining 15 properties combined have only 133 slow WOs. This is a concentrated problem, not a portfolio-wide one.</div><div style="margin-bottom:6px"><strong style="color:#e3b341">The Julia (888 WOs) has NO completion data</strong> — we can't calculate speed metrics. This is the second-highest volume property and we're flying blind on performance. Fixing their PM system to track completion dates is a prerequisite for managing this property.</div><div style="margin-bottom:6px"><strong style="color:#3fb950">Top 6 properties average under 1.5 days.</strong> Skye Oaks (0.43d), Skye at Love (0.99d), Skye at Conway (1.00d), Parks at Walnut (1.23d), Ninety-Nine44 (1.46d), and RAM Riverwalk (1.61d). These properties resolve most WOs the same day they're submitted.</div></div></div>
+<div style="background:#10101c;border:1px solid #15153d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #a371f7">
+    <div style="font-size:9px;font-weight:800;color:#a371f7;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">RECOMMENDED ACTIONS</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong>1. Focus resources on Hanley Place, Skye Reserve, and The Flats.</strong> These three properties need different interventions: Hanley needs staffing, Skye Reserve needs a WO audit (many are likely stuck/zombie tickets), and The Flats needs process improvement (low volume but very slow).</div><div style="margin-bottom:6px"><strong>2. Get completion date tracking working at The Julia.</strong> 888 WOs with no speed data means you can't manage what you can't measure. This should be a top IT/operations priority.</div><div style="margin-bottom:6px"><strong>3. Properties in "Monitor" status should get a check-in every 2 weeks.</strong> They're not failing yet but could slide without attention.</div></div></div>
+</div>    <div class="gfull"><div class="card">
       <div class="ct"><span class="dot db"></span>Full Portfolio Scorecard — All Metrics</div>
       <table class="tbl">
         <thead><tr><th>#</th><th>Property</th><th>Total WOs</th><th>Avg Days</th><th>Median Days</th><th>% ≤24h</th><th>% ≤48h</th><th>Slow WOs (7+d)</th><th>Slow %</th><th>Mold WOs</th><th>MakeReady Avg</th><th>Overall</th></tr></thead>
@@ -680,7 +763,17 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
     <p>Based on actual WO data — ranked by resident impact and review likelihood</p>
   </div>
   <div style="padding:14px 18px">
-    <div class="g2" style="margin-bottom:12px">
+<div style="padding:0 0 8px">
+<div style="background:#0d1117;border:1px solid #21262d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #56d4dd">
+    <div style="font-size:9px;font-weight:800;color:#56d4dd;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">HOW TO READ THIS PAGE</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong style="color:#e2e8f0">This page connects work order performance directly to resident reviews.</strong> The research is clear: maintenance response time is the #1 factor in apartment review scores, ahead of amenities, location, and price. A 1-star review typically follows a 7+ day WO, not a 1-day WO.</div><div style="margin-bottom:6px"><strong>The math:</strong> A single 1-star review requires 8-10 five-star reviews to offset. Preventing one bad maintenance experience is worth more than earning several good ones. That's why eliminating slow WOs matters more than speeding up already-fast ones.</div></div></div>
+<div style="background:#0d1117;border:1px solid #21262d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #58a6ff">
+    <div style="font-size:9px;font-weight:800;color:#58a6ff;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">KEY INSIGHT</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong style="color:#f85149">Appliance downtime is the #1 review killer.</strong> Washers (5.25d), dishwashers (6.41d), and dryers (5.66d) leave residents without essential daily-use items. A resident without a working washer for a week WILL mention it in their next review.</div><div style="margin-bottom:6px"><strong style="color:#f85149">Unresolved mold creates the most damaging reviews.</strong> Mold reviews mention health concerns and frequently trigger prospective resident anxiety. The Julia's 9 potentially-unresolved mold WOs could generate reviews that damage leasing for months.</div><div style="margin-bottom:6px"><strong style="color:#3fb950">Properties with 65%+ same-day close rates rarely get negative maintenance reviews.</strong> Skye Oaks (88%), Parks at Walnut (67%), and RAM Riverwalk (67%) are delivering the kind of speed that generates positive mentions.</div></div></div>
+<div style="background:#10101c;border:1px solid #15153d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #a371f7">
+    <div style="font-size:9px;font-weight:800;color:#a371f7;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">RECOMMENDED ACTIONS</div>
+    <div style="font-size:11px;color:#c9d1d9;line-height:1.7"><div style="margin-bottom:6px"><strong>1. Appliance loaner program.</strong> If a washer/dryer repair will take 3+ days, offer a temporary portable unit or laundry credit. This turns a negative experience into a "they really took care of me" story.</div><div style="margin-bottom:6px"><strong>2. Proactive communication on every WO over 48 hours.</strong> A simple text: "We're still working on your [issue]. Here's the current status: [waiting for part / scheduled for Thursday]." Residents don't mind waiting if they know you haven't forgotten.</div><div style="margin-bottom:6px"><strong>3. After every slow WO (7+ days), have the property manager call the resident.</strong> Apologize, explain what happened, and ask if everything is working. This personal touch often prevents the review entirely.</div><div style="margin-bottom:6px"><strong>4. Review response strategy:</strong> When a negative maintenance review appears, respond publicly with specifics: "We've since [fixed the issue / hired additional staff / changed our process]. Average maintenance response is now [X] days." This shows prospective residents you take it seriously.</div></div></div>
+</div>    <div class="g2" style="margin-bottom:12px">
       <div class="card">
         <div class="ct"><span class="dot dr"></span>What's Hurting Reviews Right Now</div>
         <div style="font-size:10.5px;color:#8b949e;line-height:1.75">
@@ -828,6 +921,7 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
   </div>
 
   <div id="ui-pest" class="panel">
+    <div style="padding:8px 18px 0;font-size:10px;color:#6e7681;line-height:1.6"><strong>12</strong> of 18 properties reported pest-related work orders. 6 properties (SKYE Isle, Chimney Hill, Skye at Love, Skye Ridge, Parks at Walnut, Skye at Conway) had zero pest WOs during this period.</div>
     <div style="padding:12px 18px 0"><div style="padding:12px 18px 0">
     <div style="background:#0d1117;border:1px solid #21262d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #58a6ff">
     <div style="font-size:9px;font-weight:800;color:#58a6ff;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">KEY TAKEAWAY</div>
@@ -958,6 +1052,7 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
   </div>
 
   <div id="pt-weekend" class="panel">
+    <div style="padding:8px 18px 0;font-size:10px;color:#6e7681;line-height:1.6"><strong>13</strong> of 18 properties included. Excluded: SKYE Isle (1 WO), Chimney Hill (4 WOs), The Flats (no weekend WOs), Skye Oaks (2 weekend WOs — too few for meaningful comparison), The Julia (no completion dates).</div>
     <div style="padding:12px 18px 0"><div style="padding:12px 18px 0">
     <div style="background:#0d1117;border:1px solid #21262d;border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid #58a6ff">
     <div style="font-size:9px;font-weight:800;color:#58a6ff;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">KEY TAKEAWAY</div>
@@ -1135,6 +1230,7 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
 
 <!-- TRENDS -->
 <div id="tab-trends" class="panel active">
+  <div id="nar-trends" style="padding:12px 18px 0"></div>
   <div class="g2">
     <div class="card"><div class="ct"><span class="dot db"></span>Monthly Avg Completion Days</div><canvas id="c-avgTrend" height="200"></canvas></div>
     <div class="card"><div class="ct"><span class="dot dg"></span>% Completed Within 24 Hours</div><canvas id="c-24Trend" height="200"></canvas></div>
@@ -1150,6 +1246,7 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
 
 <!-- CATEGORIES -->
 <div id="tab-cats" class="panel">
+  <div id="nar-cats" style="padding:12px 18px 0"></div>
   <div class="g2">
     <div class="card"><div class="ct"><span class="dot db"></span>Category Volume</div><canvas id="c-catVol" height="230"></canvas></div>
     <div class="card"><div class="ct"><span class="dot dr"></span>Avg Days by Category</div><canvas id="c-catDays" height="230"></canvas></div>
@@ -1166,6 +1263,7 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
 
 <!-- SUBCATEGORIES -->
 <div id="tab-subs" class="panel">
+  <div id="nar-subs" style="padding:12px 18px 0"></div>
   <div class="g2">
     <div class="card"><div class="ct"><span class="dot db"></span>Top Subcategories by Volume</div><canvas id="c-subVol" height="260"></canvas></div>
     <div class="card"><div class="ct"><span class="dot dr"></span>Avg Days by Subcategory</div><canvas id="c-subDays" height="260"></canvas></div>
@@ -1182,6 +1280,7 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
 
 <!-- SPEED ANALYSIS -->
 <div id="tab-speed" class="panel">
+  <div id="nar-speed" style="padding:12px 18px 0"></div>
   <div class="g3">
     <div class="card"><div class="ct"><span class="dot dg"></span>Same Day (≤24h)</div><div class="kv" id="sp-24" style="font-size:28px;font-weight:800;color:#3fb950;margin:6px 0 3px">—</div><div class="ks">of completed WOs</div></div>
     <div class="card"><div class="ct"><span class="dot db"></span>Within 48 Hours</div><div class="kv" id="sp-48" style="font-size:28px;font-weight:800;color:#58a6ff;margin:6px 0 3px">—</div><div class="ks">of completed WOs</div></div>
@@ -1195,11 +1294,13 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
 
 <!-- PRIORITY -->
 <div id="tab-prio" class="panel">
+  <div id="nar-prio" style="padding:12px 18px 0"></div>
   <div id="prioDash"></div>
 </div>
 
 <!-- RECURRING ISSUES -->
 <div id="tab-issues" class="panel">
+  <div id="nar-issues" style="padding:12px 18px 0"></div>
   <div class="g2">
     <div class="card"><div class="ct"><span class="dot dr"></span>Top Keywords in Work Order Descriptions</div><div id="kwViz"></div></div>
     <div class="card"><div class="ct"><span class="dot do"></span>Categories With Most Slow WOs (7+d)</div><canvas id="c-slowCats" height="220"></canvas></div>
@@ -1212,6 +1313,7 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
 
 <!-- SAFETY -->
 <div id="tab-safety" class="panel">
+  <div id="nar-safety" style="padding:12px 18px 0"></div>
   <div id="safetyDash"></div>
 </div>
 
@@ -1560,6 +1662,7 @@ function loadProp(pid) {
   buildPrio(p);
   buildIssues(p);
   buildSafety(p);
+  buildNarratives(p);
   } catch(e) { console.error('loadProp error:', e); document.getElementById('emptyState').style.display='block'; document.getElementById('emptyState').innerHTML='<div style="color:#f85149;font-size:14px;padding:40px">Error loading property: '+e.message+'</div>'; }
 }
 
@@ -1812,6 +1915,418 @@ switchTab = function(page, tab, el) {
   const pageMap = { ui: 'unitintel', pt: 'patterns', ops: 'operations' };
   if (pageMap[page]) renderAnalysisCharts(pageMap[page]);
 };
+
+
+
+// ─── Dynamic Narrative Builder for Asset Drill-Down ───
+function nBox(items, style) {
+  var colors = {
+    crit: { bg:'#1c1010', border:'#3d1515', accent:'#f85149', tag:'ACTION REQUIRED' },
+    warn: { bg:'#1c1a10', border:'#3d3515', accent:'#e3b341', tag:'MONITOR' },
+    good: { bg:'#0d1310', border:'#1a3020', accent:'#3fb950', tag:'STRONG PERFORMANCE' },
+    info: { bg:'#0d1117', border:'#21262d', accent:'#58a6ff', tag:'KEY INSIGHT' },
+    action: { bg:'#10101c', border:'#15153d', accent:'#a371f7', tag:'RECOMMENDED ACTIONS' }
+  };
+  var c = colors[style] || colors.info;
+  var body = items.map(function(item){ return '<div style="margin-bottom:6px">'+item+'</div>'; }).join('');
+  return '<div style="background:'+c.bg+';border:1px solid '+c.border+';border-radius:8px;padding:14px 16px;margin-bottom:12px;border-left:3px solid '+c.accent+'">'+
+    '<div style="font-size:9px;font-weight:800;color:'+c.accent+';text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">'+c.tag+'</div>'+
+    '<div style="font-size:11px;color:#c9d1d9;line-height:1.7">'+body+'</div></div>';
+}
+
+function buildNarratives(p) {
+  var name = p.name;
+  var pid = p.pid;
+
+  // ── Trends Tab ──
+  (function(){
+    var el = document.getElementById('nar-trends');
+    if(!el) return;
+    if(p.avg === null) {
+      el.innerHTML = nBox(['<strong style="color:#f85149">'+name+' has no completion date data.</strong> All '+p.total+' work orders are missing completion timestamps. Until the property management system is configured to record completion dates, speed metrics cannot be calculated.','<strong>Action:</strong> Contact the PM software administrator to enable completion date tracking. Every WO should auto-stamp when marked "Complete."'], 'crit');
+      return;
+    }
+
+    var months = ['2025-09','2025-10','2025-11','2025-12','2026-01','2026-02'];
+    var mLabels = ['Sep','Oct','Nov','Dec','Jan','Feb'];
+    var avgs = months.map(function(m){ return p.monthly[m] ? p.monthly[m].avg : null; });
+    var vols = months.map(function(m){ return p.monthly[m] ? p.monthly[m].vol : 0; });
+    var p24s = months.map(function(m){ return p.monthly[m] ? p.monthly[m].p24 : null; });
+
+    // Trend direction — compare first 3 months vs last 3 months
+    var firstHalf = avgs.slice(0,3).filter(function(v){return v!==null;});
+    var secondHalf = avgs.slice(3).filter(function(v){return v!==null;});
+    var firstAvg = firstHalf.length ? firstHalf.reduce(function(a,b){return a+b;},0)/firstHalf.length : null;
+    var secondAvg = secondHalf.length ? secondHalf.reduce(function(a,b){return a+b;},0)/secondHalf.length : null;
+
+    var trendDir = 'stable';
+    var trendDelta = 0;
+    if(firstAvg !== null && secondAvg !== null) {
+      trendDelta = secondAvg - firstAvg;
+      if(trendDelta > 0.5) trendDir = 'worsening';
+      else if(trendDelta < -0.5) trendDir = 'improving';
+    }
+
+    // Best and worst months
+    var bestMonth = null, worstMonth = null, bestVal = 999, worstVal = -1;
+    avgs.forEach(function(v,i){
+      if(v!==null && v<bestVal){ bestVal=v; bestMonth=mLabels[i]; }
+      if(v!==null && v>worstVal){ worstVal=v; worstMonth=mLabels[i]; }
+    });
+
+    // Volume trend
+    var totalVol = vols.reduce(function(a,b){return a+b;},0);
+    var recentVol = vols.slice(4).reduce(function(a,b){return a+b;},0);
+    var earlyVol = vols.slice(0,2).reduce(function(a,b){return a+b;},0);
+
+    // Build narrative
+    var insights = [];
+    if(trendDir === 'worsening') {
+      insights.push('<strong style="color:#f85149">'+name+' is getting slower.</strong> Average completion time increased from '+firstAvg.toFixed(1)+'d (Sep–Nov) to '+secondAvg.toFixed(1)+'d (Dec–Feb), a change of +'+trendDelta.toFixed(1)+' days. This is not a seasonal blip if it continues into March.');
+    } else if(trendDir === 'improving') {
+      insights.push('<strong style="color:#3fb950">'+name+' is improving.</strong> Average completion time dropped from '+firstAvg.toFixed(1)+'d (Sep–Nov) to '+secondAvg.toFixed(1)+'d (Dec–Feb) — that\'s '+Math.abs(trendDelta).toFixed(1)+' days faster. Whatever changed in operations is working.');
+    } else {
+      insights.push('<strong style="color:#e2e8f0">'+name+' has been relatively stable</strong> at around '+p.avg+'d average across the 6-month period. No major acceleration or deterioration in maintenance speed.');
+    }
+
+    if(bestMonth && worstMonth && bestMonth !== worstMonth) {
+      insights.push('<strong>Best month: '+bestMonth+'</strong> ('+bestVal.toFixed(1)+'d avg). <strong>Toughest month: '+worstMonth+'</strong> ('+worstVal.toFixed(1)+'d avg). '+(worstVal > bestVal*2 ? 'That\'s more than 2x slower — worth investigating what happened that month (staffing change? vendor issue? surge in volume?).' : 'The spread is manageable but watch for the pattern repeating.'));
+    }
+
+    if(p.avg > PF_AVG) {
+      insights.push('At <strong style="color:#e3b341">'+p.avg+'d average</strong>, this property is '+(p.avg - PF_AVG).toFixed(1)+' days slower than the portfolio average ('+PF_AVG+'d). Closing this gap would require either faster dispatch, better parts availability, or additional maintenance capacity.');
+    } else {
+      insights.push('At <strong style="color:#3fb950">'+p.avg+'d average</strong>, this property is '+(PF_AVG - p.avg).toFixed(1)+' days faster than the portfolio average ('+PF_AVG+'d). This is strong — the focus should be maintaining this pace as volume changes.');
+    }
+
+    var style = trendDir === 'worsening' ? 'warn' : trendDir === 'improving' ? 'good' : 'info';
+    var out = nBox(insights, style);
+
+    // Action items
+    var actions = [];
+    if(trendDir === 'worsening') {
+      actions.push('<strong>1. Investigate the slowdown.</strong> Pull the last 60 days of WOs and identify: Are more WOs coming in? Are the same number of techs available? Is a specific category dragging the average up?');
+      actions.push('<strong>2. Check for stuck tickets.</strong> Open WOs older than 14 days are often forgotten tickets, not active repairs. Close or escalate them.');
+    }
+    if(p.p24 < 50) {
+      actions.push('<strong>'+(actions.length+1)+'. Prioritize same-day closes.</strong> Only '+p.p24+'% of WOs close within 24 hours (portfolio avg: '+PF_P24+'%). Target: get 3 additional WOs per week closed same-day. That alone would move the needle.');
+    }
+    if(p.slow > 10) {
+      actions.push('<strong>'+(actions.length+1)+'. Audit the '+p.slow+' slow WOs (7+ days).</strong> Categorize them: waiting for parts, waiting for vendor, waiting for resident access, or just forgotten? Each cause has a different fix.');
+    }
+    if(recentVol > earlyVol * 1.3 && earlyVol > 0) {
+      actions.push('<strong>'+(actions.length+1)+'. Volume is rising.</strong> Recent months show higher WO submissions than early months. If staffing hasn\'t scaled, response times will degrade. Review tech-to-unit ratios.');
+    }
+    if(actions.length === 0) {
+      actions.push('<strong>Maintain current pace.</strong> No urgent trend issues detected. Continue monitoring monthly averages to catch any changes early.');
+    }
+    out += nBox(actions, 'action');
+    el.innerHTML = out;
+  })();
+
+  // ── Categories Tab ──
+  (function(){
+    var el = document.getElementById('nar-cats');
+    if(!el) return;
+    if(!p.cats || !p.cats.length) { el.innerHTML = ''; return; }
+
+    var worst = p.cats.slice().sort(function(a,b){ return b.avg - a.avg; })[0];
+    var mostSlow = p.cats.slice().sort(function(a,b){ return b.slow - a.slow; })[0];
+    var best = p.cats.filter(function(c){return c.count>=5;}).sort(function(a,b){ return a.avg - b.avg; })[0];
+    var biggest = p.cats[0]; // already sorted by count desc
+
+    var insights = [];
+    insights.push('<strong style="color:#e2e8f0">'+biggest.name+'</strong> is the highest-volume category with <strong>'+biggest.count+' WOs</strong> ('+Math.round(biggest.count/p.total*100)+'% of all work orders). '+(biggest.avg > 3 ? 'At '+biggest.avg+'d avg, it\'s also slow — this is where speed improvements will have the biggest impact on resident experience.' : 'At '+biggest.avg+'d avg, it\'s being handled at a reasonable pace.'));
+
+    if(worst && worst.avg > 3) {
+      insights.push('<strong style="color:#f85149">'+worst.name+' is the slowest category</strong> at '+worst.avg+'d average. '+(worst.count >= 10 ? 'With '+worst.count+' WOs, this isn\'t a one-off — it\'s a systemic issue that needs dedicated attention.' : 'Volume is low ('+worst.count+' WOs), so a few outliers may be skewing the average. Check for any 20+ day WOs dragging it up.'));
+    }
+
+    if(mostSlow && mostSlow.slow > 3) {
+      if(!worst || mostSlow.name !== worst.name) {
+        insights.push('<strong style="color:#e3b341">'+mostSlow.name+' has the most chronic slow WOs</strong> ('+mostSlow.slow+' WOs over 7 days). Even though the average might look OK, these long-tail WOs are creating the worst resident experiences.');
+      }
+    }
+
+    if(best) {
+      insights.push('<strong style="color:#3fb950">'+best.name+' is the strongest category</strong> — '+best.avg+'d avg with '+best.p24+'% same-day completion. Use this as the internal benchmark for other categories.');
+    }
+
+    el.innerHTML = nBox(insights, worst && worst.avg > 5 ? 'warn' : 'info');
+
+    // Actions
+    var actions = [];
+    if(worst && worst.avg > 4) {
+      actions.push('<strong>1. Deep-dive into '+worst.name+'.</strong> Pull all '+worst.name+' WOs from the last 90 days. Are the slow ones waiting for parts? Vendor scheduling? Resident access? The fix depends on the bottleneck.');
+    }
+    if(mostSlow && mostSlow.slow > 5) {
+      actions.push('<strong>'+(actions.length+1)+'. Audit '+mostSlow.name+' slow WOs.</strong> '+mostSlow.slow+' work orders over 7 days in a single category suggests either a parts supply issue or a skills gap. Consider a dedicated vendor contract for this category.');
+    }
+    var lowP24 = p.cats.filter(function(c){return c.p24 < 40 && c.count >= 5;});
+    if(lowP24.length > 0) {
+      actions.push('<strong>'+(actions.length+1)+'. '+lowP24.map(function(c){return c.name;}).join(', ')+' — same-day rate below 40%.</strong> Residents are waiting multiple days for these repairs. If parts aren\'t in stock locally, set up a next-day parts delivery arrangement with your supplier.');
+    }
+    if(actions.length === 0) {
+      actions.push('<strong>No critical category issues detected.</strong> All categories are within acceptable performance ranges. Continue monitoring for any individual category exceeding 5d average.');
+    }
+    el.innerHTML += nBox(actions, 'action');
+  })();
+
+  // ── Subcategories Tab ──
+  (function(){
+    var el = document.getElementById('nar-subs');
+    if(!el) return;
+    if(!p.subs || !p.subs.length) { el.innerHTML = ''; return; }
+
+    var critSubs = p.subs.filter(function(s){ return s.avg > 5 && s.count >= 3; });
+    var slowSubs = p.subs.filter(function(s){ return s.slow > 3; });
+    var applianceSubs = p.subs.filter(function(s){
+      return ['Washer','Dryer','Dishwasher','Stove/Oven','Refrigerator','AC/HVAC'].indexOf(s.name) >= 0 && s.count >= 8 && s.avg > 4;
+    });
+
+    var insights = [];
+
+    if(critSubs.length > 0) {
+      insights.push('<strong style="color:#f85149">Critical subcategories (avg > 5 days):</strong> ' + critSubs.map(function(s){ return '<strong>'+s.name+'</strong> ('+s.count+' WOs, '+s.avg+'d avg)'; }).join(', ') + '. These are the specific repair types dragging down your overall average. Each one needs a targeted fix.');
+    }
+
+    if(slowSubs.length > 0) {
+      insights.push('<strong style="color:#e3b341">Subcategories with chronic backlogs:</strong> ' + slowSubs.slice(0,4).map(function(s){ return s.name+' ('+s.slow+' WOs over 7d)'; }).join(', ') + '. '+(slowSubs.length > 4 ? 'Plus '+(slowSubs.length-4)+' more.' : '')+ ' Slow WOs are the #1 driver of negative resident reviews.');
+    }
+
+    var topPerformers = p.subs.filter(function(s){ return s.count >= 5 && s.avg < 1 && s.p24 >= 75; });
+    if(topPerformers.length > 0) {
+      insights.push('<strong style="color:#3fb950">Well-handled subcategories:</strong> ' + topPerformers.slice(0,3).map(function(s){ return s.name+' ('+s.avg+'d, '+s.p24+'% same-day)'; }).join(', ') + '. These are running efficiently.');
+    }
+
+    if(insights.length === 0) {
+      insights.push('<strong style="color:#e2e8f0">'+name+' has '+p.subs.length+' active subcategories.</strong> Review the table below — sort by "Slow (7+d)" to find where residents are waiting the longest, or by "Avg Days" to find the most consistently slow repair types.');
+    }
+
+    el.innerHTML = nBox(insights, critSubs.length > 0 ? 'warn' : 'info');
+
+    // Actions
+    var actions = [];
+    applianceSubs.forEach(function(s){
+      actions.push('<strong>'+s.name+' — evaluate replace vs. repair.</strong> With '+s.count+' WOs averaging '+s.avg+' days, repeated repairs on the same appliance models aren\'t cost-effective. If units are 8+ years old, budget for replacement.');
+    });
+    critSubs.forEach(function(s){
+      if(!applianceSubs.some(function(a){return a.name===s.name;})) {
+        actions.push('<strong>'+s.name+' — investigate root cause.</strong> '+s.avg+'d average across '+s.count+' WOs. Is this a vendor scheduling issue, parts availability, or skills gap?');
+      }
+    });
+    if(actions.length === 0) {
+      actions.push('<strong>No critical subcategory issues.</strong> All repair types are within manageable ranges. Focus on keeping the highest-volume subcategories fast, as those impact the most residents.');
+    }
+    el.innerHTML += nBox(actions, 'action');
+  })();
+
+  // ── Speed Analysis Tab ──
+  (function(){
+    var el = document.getElementById('nar-speed');
+    if(!el) return;
+    if(p.avg === null) { el.innerHTML = nBox(['No completion data available for speed analysis.'], 'warn'); return; }
+
+    var insights = [];
+    var diff = p.avg - PF_AVG;
+    var s24 = p.p24 || 0;
+    var sOver7 = p.slow_pct || 0;
+
+    if(diff > 2) {
+      insights.push('<strong style="color:#f85149">'+name+' is significantly slower than the portfolio.</strong> At '+p.avg+'d vs '+PF_AVG+'d portfolio average, residents here wait '+(diff).toFixed(1)+' extra days for repairs. That\'s the difference between "fixed today" and "fixed later this week" — and residents feel it in their review scores.');
+    } else if(diff > 0) {
+      insights.push('<strong style="color:#e3b341">'+name+' is slightly above portfolio average</strong> ('+p.avg+'d vs '+PF_AVG+'d). The gap of '+(diff).toFixed(1)+' days is manageable but watch for it widening.');
+    } else {
+      insights.push('<strong style="color:#3fb950">'+name+' is faster than the portfolio average</strong> ('+p.avg+'d vs '+PF_AVG+'d). '+(Math.abs(diff) > 1 ? 'Significantly faster — this property is a top performer in maintenance speed.' : 'Marginally faster — solid performance, room to become a top performer.'));
+    }
+
+    // Same-day analysis
+    if(s24 >= 65) {
+      insights.push('<strong style="color:#3fb950">'+s24+'% of WOs close within 24 hours</strong> — well above the 53.5% portfolio average. Most residents get same-day resolution, which directly drives positive reviews.');
+    } else if(s24 >= 45) {
+      insights.push('<strong style="color:#e3b341">'+s24+'% same-day close rate</strong> is near the portfolio average (53.5%). Pushing this above 60% would be noticeable to residents. The gap between "average" and "good" in resident perception is often just 5-10% more same-day closes.');
+    } else {
+      insights.push('<strong style="color:#f85149">Only '+s24+'% same-day close rate</strong> — below the 53.5% portfolio average. Most residents are waiting more than one day. This is the single metric most correlated with negative maintenance reviews.');
+    }
+
+    // Slow WO analysis
+    if(sOver7 > 8) {
+      insights.push('<strong style="color:#f85149">'+p.slow+' WOs ('+sOver7+'%) take 7+ days.</strong> This backlog tail is pulling the average up and creating extremely frustrated residents. Even if you can\'t speed up everything, eliminating the 7+ day WOs would dramatically improve the average.');
+    }
+
+    el.innerHTML = nBox(insights, diff > 2 ? 'warn' : diff > 0 ? 'info' : 'good');
+
+    // Actions
+    var actions = [];
+    if(s24 < 55) {
+      actions.push('<strong>1. Target same-day closes.</strong> Have dispatchers tag WOs that can realistically be closed today (simple fixes: clogs, resets, lockouts, filter changes). Set a daily target of closing '+Math.max(1,Math.round((p.total/180)*0.1))+' more WOs same-day than current pace.');
+    }
+    if(sOver7 > 5) {
+      actions.push('<strong>'+(actions.length+1)+'. Eliminate the 7+ day backlog.</strong> These '+p.slow+' WOs need a one-time blitz: schedule a dedicated "catch-up day" where the team focuses only on aged tickets. Then implement a 5-day escalation trigger to prevent new ones.');
+    }
+    if(diff > 1) {
+      var bestProp = 'Skye Oaks (0.43d)';
+      actions.push('<strong>'+(actions.length+1)+'. Benchmark against the best.</strong> '+bestProp+' handles similar WO types in a fraction of the time. Request a process comparison: how do they dispatch? What parts do they stock? How many techs per unit?');
+    }
+    if(actions.length === 0) {
+      actions.push('<strong>Maintain current speed.</strong> Performance is strong. Focus on consistency — make sure the speed holds during high-volume months and when staff are on PTO.');
+    }
+    el.innerHTML += nBox(actions, 'action');
+  })();
+
+  // ── Priority Tab ──
+  (function(){
+    var el = document.getElementById('nar-prio');
+    if(!el) return;
+    if(!Object.keys(p.prio).length) { el.innerHTML = ''; return; }
+
+    var insights = [];
+    var pr = p.prio;
+
+    // Priority inversion check
+    var hasInversion = false;
+    if(pr['High'] && pr['Medium'] && pr['High'].avg > pr['Medium'].avg) {
+      hasInversion = true;
+      insights.push('<strong style="color:#f85149">Priority inversion detected:</strong> High priority WOs average '+pr['High'].avg+'d, but Medium priority averages only '+pr['Medium'].avg+'d. High-priority work orders should be resolved <em>faster</em> than medium. This suggests the triage system isn\'t being used to prioritize dispatch — techs are treating all WOs the same regardless of urgency level.');
+    }
+    if(pr['Emergency'] && pr['Emergency'].avg > 1) {
+      insights.push('<strong style="color:#f85149">Emergency response time: '+pr['Emergency'].avg+'d.</strong> Emergency WOs should ideally close within hours, not days. If emergencies are averaging over 1 day, either the "Emergency" label is being applied to non-emergencies, or the response process needs an overhaul.');
+    } else if(pr['Emergency'] && pr['Emergency'].avg <= 1) {
+      insights.push('<strong style="color:#3fb950">Emergency response is strong</strong> at '+pr['Emergency'].avg+'d average with '+pr['Emergency'].p24+'% same-day resolution. Emergencies are being treated with appropriate urgency.');
+    }
+
+    // Overall triage assessment
+    if(!hasInversion && pr['High'] && pr['High'].avg < 2) {
+      insights.push('<strong style="color:#3fb950">Triage is working well.</strong> Higher-priority WOs are being resolved faster than lower-priority ones, which is exactly how the system should work.');
+    }
+
+    if(pr['Low'] && pr['Low'].count > 0) {
+      insights.push('<strong>Low priority WOs:</strong> '+pr['Low'].count+' WOs at '+pr['Low'].avg+'d avg. '+(pr['Low'].avg > 5 ? 'These are being deprioritized heavily — make sure residents know their request is acknowledged even if it takes longer.' : 'Even low-priority items are being handled reasonably quickly.'));
+    }
+
+    el.innerHTML = nBox(insights, hasInversion ? 'crit' : 'info');
+
+    var actions = [];
+    if(hasInversion) {
+      actions.push('<strong>1. Retrain on priority dispatch.</strong> When a WO comes in marked "High," it should go to the top of the queue, not the back. Review the dispatch workflow with the maintenance lead.');
+      actions.push('<strong>2. Audit priority labels.</strong> If too many WOs are marked "High" when they\'re actually routine, the label loses meaning. Consider having a supervisor review and re-classify priority levels weekly.');
+    }
+    if(pr['Emergency'] && pr['Emergency'].avg > 1.5) {
+      actions.push('<strong>'+(actions.length+1)+'. Set up an emergency hotline or on-call rotation.</strong> Emergencies (floods, lockouts, gas leaks, no heat in winter) need a response within 2-4 hours, not next-day. If you don\'t have after-hours coverage, this is the gap.');
+    }
+    if(actions.length > 0) {
+      el.innerHTML += nBox(actions, 'action');
+    }
+  })();
+
+  // ── Recurring Issues Tab ──
+  (function(){
+    var el = document.getElementById('nar-issues');
+    if(!el) return;
+
+    var kws = p.keywords;
+    var sc = p.slow_cats;
+    var kwEntries = Object.entries(kws).sort(function(a,b){return b[1]-a[1];});
+    var scEntries = Object.entries(sc).sort(function(a,b){return b[1]-a[1];});
+
+    var insights = [];
+
+    // Keyword pattern analysis
+    if(kwEntries.length >= 3) {
+      var top3 = kwEntries.slice(0,3);
+      insights.push('<strong style="color:#e2e8f0">Most common repair keywords at '+name+':</strong> ' + top3.map(function(e){return '<strong style="color:#58a6ff">'+e[0]+'</strong> (×'+e[1]+')';}).join(', ') + '.');
+
+      // Detect infrastructure vs maintenance patterns
+      var waterKws = ['leak','water','clog','flood','drip','pipe'].reduce(function(sum,k){ return sum + (kws[k]||0); },0);
+      var doorKws = ['door','lock','key','mailbox'].reduce(function(sum,k){ return sum + (kws[k]||0); },0);
+      var appKws = ['washer','dryer','stove','dishwasher','refrigerator','oven'].reduce(function(sum,k){ return sum + (kws[k]||0); },0);
+
+      if(waterKws > 30) {
+        insights.push('<strong style="color:#f85149">Water/plumbing keywords appear '+waterKws+' times.</strong> This volume suggests infrastructure-level plumbing problems — aging pipes, failing supply lines, or drainage issues. This is a <em>building problem</em>, not a maintenance team problem. The fix is capital investment in plumbing infrastructure, not faster repairs.');
+      }
+      if(doorKws > 30) {
+        insights.push('<strong style="color:#e3b341">Door/lock keywords appear '+doorKws+' times.</strong> High door and lock volume often indicates: (a) aging hardware that needs bulk replacement, or (b) a security concern driving lock-change requests. Consider a door hardware refresh program if units are 10+ years old.');
+      }
+      if(appKws > 25) {
+        insights.push('<strong style="color:#e3b341">Appliance keywords appear '+appKws+' times.</strong> If these are concentrated in specific models or unit vintages, a bulk replacement program would be more cost-effective than continued individual repairs.');
+      }
+    }
+
+    // Chronic slow categories
+    if(scEntries.length > 0) {
+      insights.push('<strong style="color:#e3b341">Categories with the most 7+ day WOs:</strong> ' + scEntries.slice(0,3).map(function(e){return e[0]+' ('+e[1]+' slow)';}).join(', ') + '. These are the categories where residents are having the worst experiences. Each slow WO is a potential negative review.');
+    }
+
+    if(insights.length === 0) {
+      insights.push('Not enough keyword data to identify recurring patterns at this property.');
+    }
+
+    el.innerHTML = nBox(insights, 'info');
+
+    // Actions
+    var actions = [];
+    if(kwEntries.length > 0) {
+      var topKw = kwEntries[0];
+      if(topKw[1] >= 15) {
+        actions.push('<strong>1. "'+topKw[0]+'" is your #1 keyword (×'+topKw[1]+').</strong> Pull every WO containing this word and categorize them by unit. If the same units appear repeatedly, those units need a comprehensive fix, not individual ticket repairs.');
+      }
+    }
+    if(scEntries.length > 0 && scEntries[0][1] > 5) {
+      actions.push('<strong>'+(actions.length+1)+'. Dedicate a vendor or tech to '+scEntries[0][0]+'.</strong> With '+scEntries[0][1]+' slow WOs, this category needs specialized attention — either a dedicated vendor with faster turnaround or a tech with specific training.');
+    }
+    if(p.mold_count > 0) {
+      actions.push('<strong>'+(actions.length+1)+'. Mold/mildew: '+p.mold_count+' WOs detected.</strong> Every mold WO needs documented remediation with photos. Check HVAC condensate lines and exterior water penetration at affected units. This is both a health and a legal liability issue.');
+    }
+    if(actions.length > 0) {
+      el.innerHTML += nBox(actions, 'action');
+    }
+  })();
+
+  // ── Safety Tab ──
+  (function(){
+    var el = document.getElementById('nar-safety');
+    if(!el) return;
+
+    var insights = [];
+    if(p.mold_count > 0) {
+      var avgMoldDays = p.mold_wos.filter(function(m){return m.days!==null;});
+      var avgD = avgMoldDays.length ? (avgMoldDays.reduce(function(s,m){return s+m.days;},0)/avgMoldDays.length).toFixed(1) : 'unknown';
+      var slowMold = p.mold_wos.filter(function(m){return m.days!==null && m.days>7;});
+
+      insights.push('<strong style="color:#f85149">'+p.mold_count+' mold/mildew work orders detected at '+name+'.</strong> Average resolution: '+avgD+' days. '+
+        (slowMold.length > 0 ? slowMold.length+' of these took over 7 days, which creates both health risk and potential legal exposure.' : 'All were resolved within 7 days.')
+      );
+
+      var noDate = p.mold_wos.filter(function(m){return m.days===null;});
+      if(noDate.length > 0) {
+        insights.push('<strong style="color:#f85149">'+noDate.length+' mold WO(s) have no completion date.</strong> These may be unresolved. Verify immediately — unresolved mold is a health code violation in most jurisdictions and a significant liability risk.');
+      }
+
+      insights.push('<strong>Mold action protocol:</strong> (1) Document every mold WO with dated photos before and after remediation. (2) Identify moisture source — HVAC condensate? Plumbing leak? Exterior infiltration? Condensation from poor ventilation? (3) The remediation isn\'t done until the moisture source is fixed, not just the visible mold.');
+    } else {
+      insights.push('<strong style="color:#3fb950">No mold or mildew work orders detected at '+name+'.</strong> This is a clean bill of health on the mold front. Continue monitoring — mold issues can appear suddenly after weather events or HVAC changes.');
+    }
+
+    // Slow WO safety concern
+    if(p.slow > 20) {
+      insights.push('<strong style="color:#f85149">'+p.slow+' WOs taking 7+ days ('+p.slow_pct+'% of total).</strong> Beyond the resident experience issue, some of these may be safety-related (smoke detectors, locks, water shut-offs). Audit the 7+ day list for any WOs that have safety implications and escalate immediately.');
+    }
+
+    el.innerHTML = nBox(insights, p.mold_count > 0 ? 'crit' : 'good');
+
+    if(p.mold_count > 0 || p.slow > 20) {
+      var actions = [];
+      if(p.mold_count > 0) {
+        actions.push('<strong>1. Walk every unit with a mold WO this week.</strong> Confirm remediation was completed and no new growth has appeared. Document with dated photos for the compliance file.');
+        actions.push('<strong>2. Schedule HVAC condensate line inspection</strong> for all affected buildings. Clogged condensate is the #1 cause of indoor mold in multifamily properties.');
+      }
+      if(p.slow > 15) {
+        actions.push('<strong>'+(actions.length+1)+'. Run a safety audit on all 7+ day WOs.</strong> Filter for keywords: smoke, detector, lock, flood, gas, mold, leak. Any safety-related WO over 7 days needs immediate closure or documented justification for the delay.');
+      }
+      el.innerHTML += nBox(actions, 'action');
+    }
+  })();
+}
 
 </script>
 </body>
