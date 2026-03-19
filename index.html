@@ -2,6 +2,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 
@@ -1168,7 +1170,7 @@ function loadProp(pid) {
   // Status badge
   const st = getStatus(p);
   document.getElementById('propStatusBadge').innerHTML = `<span class="prop-status ${st.cls}">${st.label}</span>`;
-  document.getElementById('propMeta').innerHTML = `${p.total} Work Orders &nbsp;·&nbsp; Sep 2025–Feb 2026`;
+  const pm = document.getElementById('propMeta'); if(pm) pm.innerHTML = `${p.total} Work Orders &nbsp;·&nbsp; Sep 2025–Feb 2026`;
 
   // KPI strip
   const avgCol = p.avg===null?'#6e7681':p.avg>4?'#f85149':p.avg>2.5?'#e3b341':'#3fb950';
