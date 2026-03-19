@@ -742,7 +742,7 @@ select#propSelect:focus{outline:none;border-color:#58a6ff;}
 
 <div id="page-asset" class="page">
   <div class="pg-header" style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
-    <div><h2>Asset Drill-Down</h2><p>Select any property to see granular trends, categories, subcategories, priority breakdown, recurring issues, and safety data</p></div>
+    <div><h2>Asset Drill-Down</h2><p id="propMeta">Select any property to see granular trends, categories, subcategories, priority breakdown, recurring issues, and safety data</p></div>
     <div style="display:flex;align-items:center;gap:10px;margin-left:auto;flex-wrap:wrap">
       <select id="propSelect" onchange="loadProp(this.value)" style="background:#0d1117;border:1px solid #30363d;color:#e2e8f0;font-size:12px;font-weight:600;padding:8px 32px 8px 12px;border-radius:7px;cursor:pointer;min-width:250px;appearance:none;background-image:url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' viewBox='0 0 10 7'%3E%3Cpath fill='%2358a6ff' d='M0 0l5 7 5-7z'/%3E%3C/svg%3E&quot;);background-repeat:no-repeat;background-position:right 10px center">
         <option value="">— Choose a Property —</option>
