@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Segoe UI',Arial,sans-serif; background:#0d1117; color:#e2e8f0; }
+
+.topnav { background:#0d1117; border-bottom:1px solid #21262d; display:flex; align-items:center; padding:0 16px; position:sticky; top:0; z-index:100; gap:0; }
+.logo { font-size:13px; font-weight:800; color:#58a6ff; padding:13px 14px 13px 0; border-right:1px solid #21262d; margin-right:12px; white-space:nowrap; }
+.nav-scroll { display:flex; overflow-x:auto; gap:0; }
+.nav-scroll::-webkit-scrollbar { height:3px; } .nav-scroll::-webkit-scrollbar-thumb { background:#30363d; border-radius:3px; }
+.navbtn { padding:11px 13px; font-size:11px; font-weight:600; color:#8b949e; cursor:pointer; border-bottom:2px solid transparent; white-space:nowrap; transition:all .15s; }
+.navbtn:hover { color:#c9d1d9; } .navbtn.active { color:#58a6ff; border-bottom-color:#58a6ff; }
+
+.pg-header { background:#161b22; padding:16px 20px 14px; border-bottom:1px solid #21262d; }
+.pg-header h2 { font-size:17px; font-weight:700; color:#f0f6ff; }
+.pg-header p { font-size:11px; color:#6e7681; margin-top:2px; }
+.hl { color:#58a6ff; font-weight:600; }
+.alert { color:#f85149; font-weight:600; }
+
+.page { display:none; } .page.active { display:block; }
+.panel { display:none; padding:14px 18px; } .panel.active { display:block; }
+
+.kpi-row { display:grid; gap:9px; padding:12px 18px; }
+.k5 { grid-template-columns:repeat(5,1fr); } .k4 { grid-template-columns:repeat(4,1fr); } .k3 { grid-template-columns:repeat(3,1fr); }
+.kpi { background:#161b22; border:1px solid #21262d; border-radius:8px; padding:11px 13px; position:relative; overflow:hidden; }
+.kpi::before { content:''; position:absolute; top:0; left:0; right:0; height:2px; }
+.kb::before{background:#58a6ff;} .kg::before{background:#3fb950;} .ko::before{background:#e3b341;} .kr::before{background:#f85149;} .kp::before{background:#a371f7;}
+.kl { font-size:9px; color:#6e7681; text-transform:uppercase; letter-spacing:.7px; font-weight:600; }
+.kv { font-size:21px; font-weight:800; margin:3px 0 2px; }
+.kb .kv{color:#58a6ff;} .kg .kv{color:#3fb950;} .ko .kv{color:#e3b341;} .kr .kv{color:#f85149;} .kp .kv{color:#a371f7;}
+.ks { font-size:9.5px; color:#6e7681; line-height:1.4; }
+.badge { font-size:8px; padding:2px 5px; border-radius:3px; font-weight:700; display:inline-block; margin-top:2px; }
+.bg{background:rgba(63,185,80,.15);color:#3fb950;} .bw{background:rgba(227,179,65,.15);color:#e3b341;} .br{background:rgba(248,81,73,.15);color:#f85149;}
+
+.tabs { display:flex; padding:0 18px; background:#0d1117; border-bottom:1px solid #21262d; overflow-x:auto; flex-shrink:0; }
+.tab { padding:9px 14px; font-size:11px; font-weight:600; color:#6e7681; cursor:pointer; border-bottom:2px solid transparent; white-space:nowrap; transition:all .15s; }
+.tab.active { color:#58a6ff; border-bottom-color:#58a6ff; } .tab:hover:not(.active) { color:#c9d1d9; }
+
+.g2 { display:grid; grid-template-columns:1fr 1fr; gap:11px; margin-bottom:11px; }
+.g3 { display:grid; grid-template-columns:1fr 1fr 1fr; gap:11px; margin-bottom:11px; }
+.gfull { margin-bottom:11px; }
+.card { background:#161b22; border:1px solid #21262d; border-radius:8px; padding:13px; }
+.ct { font-size:10px; font-weight:700; color:#6e7681; text-transform:uppercase; letter-spacing:.7px; margin-bottom:10px; display:flex; align-items:center; gap:5px; flex-wrap:wrap; }
+.dot { width:7px; height:7px; border-radius:2px; display:inline-block; flex-shrink:0; }
+.db{background:#58a6ff;} .dg{background:#3fb950;} .do{background:#e3b341;} .dr{background:#f85149;} .dp{background:#a371f7;} .dy{background:#e3b341;}
+
+.tbl { width:100%; border-collapse:collapse; font-size:10.5px; }
+.tbl th { padding:5px 7px; color:#6e7681; font-weight:600; text-transform:uppercase; letter-spacing:.4px; font-size:9px; border-bottom:1px solid #21262d; text-align:left; }
+.tbl td { padding:5px 7px; border-bottom:1px solid #161b22; color:#c9d1d9; }
+.tbl tr:hover td { background:#1c2128; }
+.mb { height:5px; border-radius:3px; background:#21262d; overflow:hidden; min-width:50px; }
+.mbf { height:100%; border-radius:3px; }
+.fl { font-size:8px; padding:2px 5px; border-radius:3px; font-weight:700; white-space:nowrap; }
+.flr{background:rgba(248,81,73,.15);color:#f85149;} .flg{background:rgba(63,185,80,.15);color:#3fb950;} .fly{background:rgba(227,179,65,.15);color:#e3b341;} .flb{background:rgba(88,166,255,.15);color:#58a6ff;}
+
+.igrid { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+.ic { background:#161b22; border:1px solid #21262d; border-radius:8px; padding:12px 14px; border-left:3px solid; }
+.ic.crit{border-left-color:#f85149;} .ic.warn{border-left-color:#e3b341;} .ic.good{border-left-color:#3fb950;} .ic.info{border-left-color:#58a6ff;}
+.ic-tag { font-size:8px; font-weight:800; text-transform:uppercase; letter-spacing:1px; margin-bottom:4px; }
+.ic.crit .ic-tag{color:#f85149;} .ic.warn .ic-tag{color:#e3b341;} .ic.good .ic-tag{color:#3fb950;} .ic.info .ic-tag{color:#58a6ff;}
+.ic-title { font-size:12px; font-weight:700; color:#e2e8f0; margin-bottom:3px; }
+.ic-stat { font-size:16px; font-weight:800; color:#f0f6ff; margin:4px 0 3px; }
+.ic-body { font-size:10.5px; color:#8b949e; line-height:1.5; }
+
+.mold-row { background:#1c1010; border:1px solid #3d1515; border-radius:6px; padding:8px 10px; margin-bottom:6px; display:flex; align-items:flex-start; gap:10px; }
+.mold-icon { font-size:16px; flex-shrink:0; margin-top:1px; }
+.mold-prop { font-size:10px; font-weight:700; color:#f85149; }
+.mold-desc { font-size:10.5px; color:#c9d1d9; }
+.mold-meta { font-size:9px; color:#6e7681; margin-top:2px; }
+.mold-days-ok { color:#3fb950; font-weight:700; }
+.mold-days-warn { color:#e3b341; font-weight:700; }
+.mold-days-crit { color:#f85149; font-weight:700; }
+
+.cat-select { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:14px; }
+.cat-btn { padding:5px 11px; border-radius:6px; font-size:10px; font-weight:600; cursor:pointer; border:1px solid #30363d; background:#161b22; color:#8b949e; transition:all .15s; }
+.cat-btn:hover { border-color:#58a6ff; color:#58a6ff; }
+.cat-btn.active { background:rgba(88,166,255,.15); border-color:#58a6ff; color:#58a6ff; }
+
+.prio-legend { display:flex; gap:12px; margin-bottom:10px; flex-wrap:wrap; }
+.pleg { display:flex; align-items:center; gap:5px; font-size:10px; color:#8b949e; }
+.pleg-dot { width:10px; height:10px; border-radius:50%; }
+
+
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Segoe UI',Arial,sans-serif;background:#0d1117;color:#e2e8f0;min-height:100vh;}
+/* ── HEADER ── */
+.topbar{background:#161b22;border-bottom:1px solid #21262d;padding:12px 20px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;}
+.topbar h1{font-size:15px;font-weight:800;color:#f0f6ff;white-space:nowrap;}
+.topbar p{font-size:10.5px;color:#6e7681;}
+select#propSelect{background:#0d1117;border:1px solid #30363d;color:#e2e8f0;font-size:12px;font-weight:600;padding:8px 14px;border-radius:7px;cursor:pointer;min-width:260px;appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%2358a6ff' d='M0 0l6 8 6-8z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 10px center;padding-right:30px;}
+select#propSelect:focus{outline:none;border-color:#58a6ff;}
+/* ── STATUS BADGE ── */
+.prop-status{display:inline-flex;align-items:center;gap:5px;padding:5px 10px;border-radius:6px;font-size:10px;font-weight:700;}
+.st-best{background:rgba(63,185,80,.15);color:#3fb950;border:1px solid rgba(63,185,80,.25);}
+.st-good{background:rgba(88,166,255,.12);color:#58a6ff;border:1px solid rgba(88,166,255,.25);}
+.st-warn{background:rgba(227,179,65,.12);color:#e3b341;border:1px solid rgba(227,179,65,.25);}
+.st-crit{background:rgba(248,81,73,.12);color:#f85149;border:1px solid rgba(248,81,73,.25);}
+.st-na{background:rgba(110,118,129,.12);color:#6e7681;border:1px solid rgba(110,118,129,.25);}
+/* ── KPI STRIP ── */
+.kpi-strip{display:grid;grid-template-columns:repeat(6,1fr);gap:9px;padding:12px 18px;background:#0d1117;}
+@media(max-width:900px){.kpi-strip{grid-template-columns:repeat(3,1fr);}}
+.kpi{background:#161b22;border:1px solid #21262d;border-radius:8px;padding:10px 12px;position:relative;overflow:hidden;}
+.kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;}
+.kb::before{background:#58a6ff;}.kg::before{background:#3fb950;}.ko::before{background:#e3b341;}.kr::before{background:#f85149;}.kp::before{background:#a371f7;}.ky::before{background:#e3b341;}
+.kl{font-size:9px;color:#6e7681;text-transform:uppercase;letter-spacing:.7px;font-weight:600;}
+.kv{font-size:20px;font-weight:800;margin:3px 0 1px;}
+.kb .kv{color:#58a6ff;}.kg .kv{color:#3fb950;}.ko .kv{color:#e3b341;}.kr .kv{color:#f85149;}.kp .kv{color:#a371f7;}
+.ks{font-size:9px;color:#6e7681;line-height:1.3;}
+/* ── TABS ── */
+.tabs{display:flex;padding:0 18px;background:#0d1117;border-bottom:1px solid #21262d;overflow-x:auto;flex-shrink:0;}
+.tabs::-webkit-scrollbar{height:2px;}.tabs::-webkit-scrollbar-thumb{background:#30363d;}
+.tab{padding:9px 14px;font-size:11px;font-weight:600;color:#6e7681;cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;transition:all .15s;}
+.tab.active{color:#58a6ff;border-bottom-color:#58a6ff;}.tab:hover:not(.active){color:#c9d1d9;}
+/* ── PANELS / GRIDS ── */
+.panel{display:none;padding:14px 18px;}.panel.active{display:block;}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-bottom:11px;}
+.g3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:11px;margin-bottom:11px;}
+.gf{margin-bottom:11px;}
+@media(max-width:750px){.g2,.g3{grid-template-columns:1fr;}}
+.card{background:#161b22;border:1px solid #21262d;border-radius:8px;padding:13px;}
+.ct{font-size:10px;font-weight:700;color:#6e7681;text-transform:uppercase;letter-spacing:.7px;margin-bottom:10px;display:flex;align-items:center;gap:5px;}
+.dot{width:7px;height:7px;border-radius:2px;display:inline-block;flex-shrink:0;}
+.db{background:#58a6ff;}.dg{background:#3fb950;}.do{background:#e3b341;}.dr{background:#f85149;}.dp{background:#a371f7;}
+/* ── TABLES ── */
+.tbl{width:100%;border-collapse:collapse;font-size:10.5px;}
+.tbl th{padding:5px 7px;color:#6e7681;font-weight:600;text-transform:uppercase;letter-spacing:.4px;font-size:9px;border-bottom:1px solid #21262d;text-align:left;}
+.tbl td{padding:5px 7px;border-bottom:1px solid #161b22;color:#c9d1d9;}
+.tbl tr:hover td{background:#1c2128;}
+.mb{height:5px;border-radius:3px;background:#21262d;overflow:hidden;min-width:50px;}
+.mbf{height:100%;border-radius:3px;}
+.fl{font-size:8px;padding:2px 5px;border-radius:3px;font-weight:700;white-space:nowrap;}
+.flr{background:rgba(248,81,73,.15);color:#f85149;}.flg{background:rgba(63,185,80,.15);color:#3fb950;}.fly{background:rgba(227,179,65,.15);color:#e3b341;}.flb{background:rgba(88,166,255,.15);color:#58a6ff;}
+/* ── MOLD LOG ── */
+.mold-row{background:#1c1010;border:1px solid #3d1515;border-radius:6px;padding:8px 10px;margin-bottom:5px;display:flex;gap:10px;align-items:flex-start;}
+.mold-row .date{font-size:9px;color:#6e7681;white-space:nowrap;margin-top:1px;}
+.mold-row .desc{font-size:10.5px;color:#e2e8f0;}
+.mold-row .days-ok{color:#3fb950;font-weight:700;font-size:10px;}
+.mold-row .days-w{color:#e3b341;font-weight:700;font-size:10px;}
+.mold-row .days-c{color:#f85149;font-weight:700;font-size:10px;}
+/* ── KEYWORD PILLS ── */
+.kw-pills{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px;}
+.kpill{display:inline-block;padding:3px 8px;border-radius:10px;font-size:9px;font-weight:700;}
+.kp-r{background:rgba(248,81,73,.12);color:#f85149;border:1px solid rgba(248,81,73,.2);}
+.kp-y{background:rgba(227,179,65,.12);color:#e3b341;border:1px solid rgba(227,179,65,.2);}
+.kp-b{background:rgba(88,166,255,.12);color:#58a6ff;border:1px solid rgba(88,166,255,.2);}
+/* ── SPEED BAR ── */
+.speed-stack{display:flex;height:14px;border-radius:4px;overflow:hidden;gap:1px;margin-top:8px;}
+.ss{height:100%;transition:width .3s;}
+.ss-label{font-size:9px;display:flex;gap:12px;margin-top:5px;flex-wrap:wrap;}
+.ss-item{display:flex;align-items:center;gap:4px;color:#8b949e;}
+.ss-dot{width:8px;height:8px;border-radius:2px;}
+/* ── NO DATA ── */
+.no-data{padding:30px;text-align:center;color:#6e7681;font-size:12px;}
+
+
+/* ── VIEW MODE BUTTONS ── */
+.view-btn{padding:6px 12px;border-radius:6px;font-size:10.5px;font-weight:600;cursor:pointer;border:1px solid #30363d;background:#161b22;color:#8b949e;transition:all .15s;white-space:nowrap;}
+.view-btn:hover{border-color:#58a6ff;color:#58a6ff;}
+.view-btn.active{background:rgba(88,166,255,.15);border-color:#58a6ff;color:#58a6ff;}
+/* ── PROP SELECTOR (asset page) ── */
+.prop-status{display:inline-flex;align-items:center;gap:5px;padding:5px 10px;border-radius:6px;font-size:10px;font-weight:700;}
+.st-best{background:rgba(63,185,80,.15);color:#3fb950;border:1px solid rgba(63,185,80,.25);}
+.st-good{background:rgba(88,166,255,.12);color:#58a6ff;border:1px solid rgba(88,166,255,.25);}
+.st-warn{background:rgba(227,179,65,.12);color:#e3b341;border:1px solid rgba(227,179,65,.25);}
+.st-crit{background:rgba(248,81,73,.12);color:#f85149;border:1px solid rgba(248,81,73,.25);}
+.st-na{background:rgba(110,118,129,.12);color:#6e7681;border:1px solid rgba(110,118,129,.25);}
+/* ── HEAT MAP ── */
+.hm-table{border-collapse:collapse;font-size:9px;}
+.hm-table th{padding:4px 6px;color:#6e7681;font-weight:600;text-align:center;background:#0d1117;position:sticky;top:0;}
+.hm-table .hm-prop{text-align:left;white-space:nowrap;padding:4px 8px;font-weight:600;color:#c9d1d9;background:#0d1117;position:sticky;left:0;}
+.hm-cell{padding:5px 8px;text-align:center;font-weight:700;font-size:9px;border:1px solid #0d1117;}
+/* ── SPEED BAR STACK ── */
+.speed-stack{display:flex;height:14px;border-radius:4px;overflow:hidden;gap:1px;margin-top:8px;}
+.ss{height:100%;transition:width .3s;}
+.ss-label{font-size:9px;display:flex;gap:12px;margin-top:5px;flex-wrap:wrap;}
+.ss-item{display:flex;align-items:center;gap:4px;color:#8b949e;}
+.ss-dot{width:8px;height:8px;border-radius:2px;}
+/* ── KW PILLS ── */
+.kw-pills{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px;}
+.kpill{display:inline-block;padding:3px 8px;border-radius:10px;font-size:9px;font-weight:700;}
+.kp-r{background:rgba(248,81,73,.12);color:#f85149;border:1px solid rgba(248,81,73,.2);}
+.kp-y{background:rgba(227,179,65,.12);color:#e3b341;border:1px solid rgba(227,179,65,.2);}
+.kp-b{background:rgba(88,166,255,.12);color:#58a6ff;border:1px solid rgba(88,166,255,.2);}
+/* ── MOLD LOG ── */
+.mold-row{background:#1c1010;border:1px solid #3d1515;border-radius:6px;padding:8px 10px;margin-bottom:5px;display:flex;gap:10px;align-items:flex-start;}
+.mold-row .m-date{font-size:9px;color:#6e7681;white-space:nowrap;margin-top:1px;}
+.mold-row .m-desc{font-size:10.5px;color:#e2e8f0;}
+.mold-row .m-meta{font-size:9px;color:#6e7681;margin-top:2px;}
+.days-ok{color:#3fb950;font-weight:700;}.days-w{color:#e3b341;font-weight:700;}.days-c{color:#f85149;font-weight:700;}
+/* ── ASSET KPI STRIP ── */
+.asset-kpi-strip{display:grid;grid-template-columns:repeat(6,1fr);gap:9px;padding:12px 18px;background:#0d1117;}
+
+</style>
+</head>
+<body>
+<div class="topnav">
+  <div class="logo">🏢 WO Analytics</div>
+  <div class="nav-scroll">
+    <div class="navbtn active" onclick="showPage('overview')">📊 Portfolio</div>
+    <div class="navbtn" onclick="showPage('subcats')">🔧 Subcategories</div>
+    <div class="navbtn" onclick="showPage('compare')">↔ Compare</div>
+    <div class="navbtn" onclick="showPage('makeready')">🏠 Make Ready</div>
+    <div class="navbtn" onclick="showPage('mold')">⚠️ Mold & Safety</div>
+    <div class="navbtn" onclick="showPage('priority')">🚨 Priority</div>
+    <div class="navbtn" onclick="showPage('scorecard')">🏢 Scorecard</div>
+    <div class="navbtn" onclick="showPage('asset')" style="border-left:1px solid #21262d;margin-left:4px">🏘 Asset Drill-Down</div>
+    <div class="navbtn" onclick="showPage('reviews')">📣 Reviews</div>
+  </div>
+</div>
+<div id="page-overview" class="page active">
+  <div class="pg-header">
+    <h2>Portfolio Work Order Overview</h2>
+    <p><span class="hl">5,381 WOs</span> · Sep 2025–Feb 2026 · RAM Preserve · The Julia · 16 RPM Properties · <span class="alert">32 mold WOs detected · 13 smoke/fire alarm slow responses</span></p>
+  </div>
+  <div class="kpi-row k5">
+    <div class="kpi kb"><div class="kl">Total Work Orders</div><div class="kv">5,381</div><div class="ks">18 properties · 6 months</div></div>
+    <div class="kpi ko"><div class="kl">Portfolio Avg Days</div><div class="kv">3.12</div><div class="ks">Sep: 4.22 → Feb: 1.71</div><span class="badge bg">↓ 59% improvement</span></div>
+    <div class="kpi kg"><div class="kl">Completed ≤ 24h</div><div class="kv">53.5%</div><div class="ks">2,396 of 4,482 completed</div></div>
+    <div class="kpi kr"><div class="kl">Mold / Mildew WOs</div><div class="kv">32</div><div class="ks">5 properties affected</div><span class="badge br">⚠ Legal risk</span></div>
+    <div class="kpi kp"><div class="kl">Best Property</div><div class="kv">Skye Oaks</div><div class="ks">0.43 avg days · 88% in 24h</div><span class="badge bg">Benchmark</span></div>
+  </div>
+  <div class="tabs">
+    <div class="tab active" onclick="switchTab('ov','trends',this)">📈 Trends</div>
+    <div class="tab" onclick="switchTab('ov','cats',this)">📂 Categories</div>
+    <div class="tab" onclick="switchTab('ov','props',this)">🏢 Properties</div>
+  </div>
+  <div id="ov-trends" class="panel active">
+    <div class="g2">
+      <div class="card"><div class="ct"><span class="dot db"></span>Avg Completion Days — Monthly</div><canvas id="c-ptAvg" height="195"></canvas></div>
+      <div class="card"><div class="ct"><span class="dot dg"></span>% Completed Within 24 Hours</div><canvas id="c-pt24h" height="195"></canvas></div>
+    </div>
+    <div class="g2">
+      <div class="card"><div class="ct"><span class="dot dp"></span>Monthly Work Order Volume</div><canvas id="c-ptVol" height="185"></canvas></div>
+      <div class="card"><div class="ct"><span class="dot do"></span>Completion Speed Distribution (All Properties)</div><canvas id="c-ptDist" height="185"></canvas></div>
+    </div>
+  </div>
+  <div id="ov-cats" class="panel">
+    <div class="g2">
+      <div class="card"><div class="ct"><span class="dot db"></span>Category Volume (All Properties)</div><canvas id="c-pcVol" height="225"></canvas></div>
+      <div class="card"><div class="ct"><span class="dot dr"></span>Avg Days by Category — color = speed tier</div><canvas id="c-pcDays" height="225"></canvas></div>
+    </div>
+    <div class="g2">
+      <div class="card"><div class="ct"><span class="dot dg"></span>% Completed Within 24h by Category</div><canvas id="c-pc24h" height="220"></canvas></div>
+      <div class="card"><div class="ct"><span class="dot do"></span>Risk Matrix: Volume vs Avg Days</div><canvas id="c-pcBubble" height="220"></canvas></div>
+    </div>
+  </div>
+  <div id="ov-props" class="panel">
+    <div class="gfull">
+      <div class="card">
+        <div class="ct"><span class="dot db"></span>All Property Scorecard</div>
+        <table class="tbl" id="allPropTbl"></table>
+      </div>
+    </div>
+    <div class="g2">
+      <div class="card"><div class="ct"><span class="dot dg"></span>Avg Completion Days — Best to Worst</div><canvas id="c-ppAvg" height="270"></canvas></div>
+      <div class="card"><div class="ct"><span class="dot dp"></span>% Completed in 24h by Property</div><canvas id="c-pp24h" height="270"></canvas></div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== SUBCATEGORIES ==================== -->
+
+<div id="page-subcats" class="page">
+  <div class="pg-header">
+    <h2>Subcategory Drill-Down — What's Actually Breaking</h2>
+    <p>Specific repair types ranked by volume, speed, and slow-WO count across all properties</p>
+  </div>
+  <div class="kpi-row k4">
+    <div class="kpi kr"><div class="kl">Slowest Subcategory</div><div class="kv">Dishwasher</div><div class="ks">6.41 avg days · 24 slow WOs</div></div>
+    <div class="kpi kr"><div class="kl">Most Slow WOs</div><div class="kv">Washer</div><div class="ks">34 WOs over 7 days</div></div>
+    <div class="kpi kg"><div class="kl">Fastest Subcategory</div><div class="kv">Pest Control</div><div class="ks">1.13 avg days · 81% in 24h</div></div>
+    <div class="kpi kb"><div class="kl">Highest Volume</div><div class="kv">AC/HVAC</div><div class="ks">353 WOs · 65% in 24h</div></div>
+  </div>
+  <div class="tabs">
+    <div class="tab active" onclick="switchTab('sc','plumbing',this)">🚰 Plumbing</div>
+    <div class="tab" onclick="switchTab('sc','appliances',this)">🍳 Appliances</div>
+    <div class="tab" onclick="switchTab('sc','hvac',this)">❄️ HVAC</div>
+    <div class="tab" onclick="switchTab('sc','doors',this)">🚪 Doors & Locks</div>
+    <div class="tab" onclick="switchTab('sc','electrical',this)">💡 Electrical</div>
+    <div class="tab" onclick="switchTab('sc','all',this)">📋 All Subcategories</div>
+  </div>
+
+  <!-- PLUMBING -->
+  <div id="sc-plumbing" class="panel active">
+    <div class="g2">
+      <div class="card"><div class="ct"><span class="dot db"></span>Plumbing Subcategory Volume</div><canvas id="c-plVol" height="200"></canvas></div>
+      <div class="card"><div class="ct"><span class="dot dr"></span>Plumbing Subcategory Avg Days</div><canvas id="c-plDays" height="200"></canvas></div>
+    </div>
+    <div class="gfull"><div class="card">
+      <div class="ct"><span class="dot do"></span>Plumbing Subcategory — Full Stats</div>
+      <table class="tbl">
+        <thead><tr><th>Subcategory</th><th>Total WOs</th><th>Avg Days</th><th>% in 24h</th><th>Slow (7+d)</th><th>Speed</th><th>Action</th></tr></thead>
+        <tbody>
+          <tr><td>Toilet</td><td>163</td><td>2.91</td><td>53.4%</td><td>14</td><td><div class="mb"><div class="mbf" style="width:35%;background:#e3b341"></div></div></td><td><span class="fly">Monitor</span></td></tr>
+          <tr><td>Tub / Shower</td><td>181</td><td>4.23</td><td>37.6%</td><td>31</td><td><div class="mb"><div class="mbf" style="width:60%;background:#f85149"></div></div></td><td><span class="flr">SLA Review</span></td></tr>
+          <tr><td>Sink</td><td>164</td><td>3.17</td><td>47.6%</td><td>18</td><td><div class="mb"><div class="mbf" style="width:42%;background:#e3b341"></div></div></td><td><span class="fly">Monitor</span></td></tr>
+          <tr><td>Plumbing General</td><td>196</td><td>3.49</td><td>48.0%</td><td>31</td><td><div class="mb"><div class="mbf" style="width:48%;background:#e3b341"></div></div></td><td><span class="fly">Monitor</span></td></tr>
+          <tr><td>Garbage Disposal</td><td>66</td><td>2.31</td><td>56.1%</td><td>3</td><td><div class="mb"><div class="mbf" style="width:28%;background:#3fb950"></div></div></td><td><span class="flg">OK</span></td></tr>
+          <tr><td>Water Heater</td><td>75</td><td>2.72</td><td>57.3%</td><td>8</td><td><div class="mb"><div class="mbf" style="width:33%;background:#e3b341"></div></div></td><td><span class="fly">Monitor</span></td></tr>
+          <tr><td>Faucet</td><td>43</td><td>3.13</td><td>48.8%</td><td>6</td><td><div class="mb"><div class="mbf" style="width:41%;background:#e3b341"></div></div></td><td><span class="fly">Monitor</span></td></tr>
+          <tr><td>Leak / Water Damage</td><td>11</td><td>0.88</td><td>81.8%</td><td>0</td><td><div class="mb"><div class="mbf" style="width:10%;background:#3fb950"></div></div></td><td><span class="flg">OK</span></td></tr>
+        </tbody>
+      </table>
+    </div></div>
+  </div>
+
+  <!-- APPLIANCES -->
+  <div id="sc-appliances" class="panel">
+    <div class="g2">
+      <div class="card"><div class="ct"><span class="dot db"></span>Appliance Subcategory Volume</div><canvas id="c-apVol" height="200"></canvas></div>
+      <div class="card"><div class="ct"><span class="dot dr"></span>Appliance Subcategory Avg Days</div><canvas id="c-apDays" height="200"></canvas></div>
+    </div>
+    <div class="gfull"><div class="card">
+      <div class="ct"><span class="dot do"></span>Appliance Subcategory — Full Stats</div>
+      <table class="tbl">
+        <thead><tr><th>Subcategory</th><th>Total WOs</th><th>Avg Days</th><th>% in 24h</th><th>Slow (7+d)</th><th>Speed</th><th>Action</th></tr></thead>
+        <tbody>
+          <tr><td>Washer</td><td>163</td><td>5.25</td><td>35.0%</td><td>34</td><td><div class="mb"><div class="mbf" style="width:75%;background:#f85149"></div></div></td><td><span class="flr">🚨 Critical</span></td></tr>
+          <tr><td>Stove / Oven / Cook Top</td><td>210</td><td>3.43</td><td>49.0%</td><td>28</td><td><div class="mb"><div class="mbf" style="width:47%;background:#e3b341"></div></div></td><td><span class="fly">Monitor</span></td></tr>
+          <tr><td>Dishwasher</td><td>98</td><td>6.41</td><td>37.8%</td><td>24</td><td><div class="mb"><div class="mbf" style="width:85%;background:#f85149"></div></div></td><td><span class="flr">🚨 Critical</span></td></tr>
+          <tr><td>Refrigerator / Freezer</td><td>101</td><td>3.54</td><td>47.5%</td><td>14</td><td><div class="mb"><div class="mbf" style="width:49%;background:#e3b341"></div></div></td><td><span class="fly">Monitor</span></td></tr>
+          <tr><td>Dryer</td><td>73</td><td>4.81</td><td>42.5%</td><td>11</td><td><div class="mb"><div class="mbf" style="width:65%;background:#f85149"></div></div></td><td><span class="flr">SLA Review</span></td></tr>
+          <tr><td>Microwave</td><td>7</td><td>1.80</td><td>57.1%</td><td>0</td><td><div class="mb"><div class="mbf" style="width:22%;background:#3fb950"></div></div></td><td><span class="flg">OK</span></td></tr>
+        </tbody>
+      </table>
+    </div></div>
+  </div>
+
+  <!-- HVAC -->
+  <div id="sc-hvac" class="panel">
+    <div class="g2">
+      <div class="card"><div class="ct"><span class="dot db"></span>HVAC Subcategory Volume</div><canvas id="c-hvVol" height="195"></canvas></div>
+      <div class="card"><div class="ct"><span class="dot dr"></span>HVAC Subcategory Avg Days</div><canvas id="c-hvDays" height="195"></canvas></div>
+    </div>
+    <div class="gfull"><div class="card">
+      <div class="ct"><span class="dot do"></span>HVAC Subcategory — Full Stats</div>
+      <table class="tbl">
+        <thead><tr><th>Subcategory</th><th>Total WOs</th><th>Avg Days</th><th>% in 24h</th><th>Slow (7+d)</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>AC / Air Conditioner</td><td>353</td><td>1.71</td><td>65.2%</td><td>15</td><td><span class="flg">✓ Strong</span></td></tr>
+          <tr><td>Heater / Heating</td><td>70</td><td>1.43</td><td>62.9%</td><td>2</td><td><span class="flg">✓ Strong</span></td></tr>
+          <tr><td>Thermostat</td><td>14</td><td>2.10</td><td>50.0%</td><td>1</td><td><span class="fly">Monitor</span></td></tr>
+          <tr><td>Vents / Ducts</td><td>16</td><td>2.40</td><td>56.3%</td><td>2</td><td><span class="fly">Monitor</span></td></tr>
+        </tbody>
+      </table>
+      <div style="margin-top:10px;padding:8px 10px;background:#0d1117;border-radius:6px;font-size:10.5px;color:#8b949e;line-height:1.6">
+        <strong style="color:#3fb950">HVAC is the strongest major category in the portfolio.</strong> AC and Heater both average under 1.75 days. This is the team's biggest competitive advantage for resident retention — especially in hot/cold months when a broken unit triggers immediate reviews.
+      </div>
+    </div></div>
+  </div>
+
+  <!-- DOORS -->
+  <div id="sc-doors" class="panel">
+    <div class="g2">
+      <div class="card"><div class="ct"><span class="dot db"></span>Doors & Locks Volume</div><canvas id="c-dkVol" height="195"></canvas></div>
+      <div class="card"><div class="ct"><span class="dot dr"></span>Doors & Locks Avg Days</div><canvas id="c-dkDays" height="195"></canvas></div>
+    </div>
+    <div class="gfull"><div class="card">
+      <div class="ct"><span class="dot do"></span>Doors & Locks — Full Stats</div>
+      <table class="tbl">
+        <thead><tr><th>Subcategory</th><th>Total WOs</th><th>Avg Days</th><th>% in 24h</th><th>Slow (7+d)</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>Entry / Main Door</td><td>97</td><td>1.95</td><td>61.9%</td><td>6</td><td><span class="fly">Monitor — security sensitive</span></td></tr>
+          <tr><td>Interior Door</td><td>44</td><td>4.16</td><td>31.8%</td><td>4</td><td><span class="flr">SLA Review</span></td></tr>
+          <tr><td>Patio / Sliding Door</td><td>25</td><td>6.57</td><td>40.0%</td><td>7</td><td><span class="flr">🚨 Critical</span></td></tr>
+          <tr><td>Mailbox / Keys</td><td>133</td><td>2.76</td><td>44.4%</td><td>12</td><td><span class="fly">Monitor</span></td></tr>
+          <tr><td>Lock (standalone)</td><td>43</td><td>1.16</td><td>67.4%</td><td>1</td><td><span class="flg">✓ Good</span></td></tr>
+        </tbody>
+      </table>
+      <div style="margin-top:10px;padding:8px 10px;background:#0d1117;border-radius:6px;font-size:10.5px;color:#8b949e;line-height:1.6">
+        <strong style="color:#f85149">Patio/Sliding Door averaging 6.57 days</strong> — this is a security and habitability issue. Residents with a broken patio door latch can't secure their unit. Set a 24-hour SLA for any patio door or entry door WO. Interior doors (4.16 days, only 31.8% same-day) also need a triage improvement.
+      </div>
+    </div></div>
+  </div>
+
+  <!-- ELECTRICAL -->
+  <div id="sc-electrical" class="panel">
+    <div class="g2">
+      <div class="card"><div class="ct"><span class="dot db"></span>Electrical Subcategory Volume</div><canvas id="c-elVol" height="195"></canvas></div>
+      <div class="card"><div class="ct"><span class="dot dr"></span>Electrical Subcategory Avg Days</div><canvas id="c-elDays" height="195"></canvas></div>
+    </div>
+    <div class="gfull"><div class="card">
+      <div class="ct"><span class="dot do"></span>Electrical — Full Stats</div>
+      <table class="tbl">
+        <thead><tr><th>Subcategory</th><th>Total WOs</th><th>Avg Days</th><th>% in 24h</th><th>Slow (7+d)</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>Lighting / Ceiling Fan</td><td>118</td><td>3.81</td><td>47.5%</td><td>17</td><td><span class="fly">Monitor</span></td></tr>
+          <tr><td>Outlet / Switch</td><td>69</td><td>3.34</td><td>46.4%</td><td>8</td><td><span class="fly">Monitor</span></td></tr>
+          <tr><td>Circuit Breaker</td><td>12</td><td>2.20</td><td>41.7%</td><td>1</td><td><span class="flb">Low vol</span></td></tr>
+          <tr><td>Smoke / CO Detector</td><td>33</td><td>1.75</td><td>60.6%</td><td>3</td><td><span class="fly">⚠ 3 slow — compliance risk</span></td></tr>
+          <tr><td>Fire Alarm</td><td>11</td><td>2.80</td><td>45.5%</td><td>2</td><td><span class="flr">⚠ Compliance — 48h max</span></td></tr>
+        </tbody>
+      </table>
+    </div></div>
+  </div>
+
+  <!-- ALL SUBCATS -->
+  <div id="sc-all" class="panel">
+    <div class="g2">
+      <div class="card"><div class="ct"><span class="dot dr"></span>All Subcategories — Avg Days (Top 20)</div><canvas id="c-allDays" height="290"></canvas></div>
+      <div class="card"><div class="ct"><span class="dot db"></span>All Subcategories — Volume (Top 20)</div><canvas id="c-allVol" height="290"></canvas></div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== SIDE-BY-SIDE ==================== -->
+
+<div id="page-compare" class="page">
+  <div class="pg-header">
+    <h2>Side-by-Side Property Comparison</h2>
+    <p>Pick a subcategory and a view style — compare all properties on that single repair type</p>
+  </div>
+  <div style="padding:12px 18px 0;display:flex;align-items:center;gap:16px;flex-wrap:wrap;border-bottom:1px solid #21262d;padding-bottom:12px">
+    <div>
+      <div class="ct" style="margin-bottom:5px"><span class="dot db"></span>Subcategory</div>
+      <div class="cat-select" id="catBtns"></div>
+    </div>
+    <div style="margin-left:auto">
+      <div class="ct" style="margin-bottom:5px"><span class="dot dp"></span>View Mode</div>
+      <div style="display:flex;gap:6px">
+        <div class="view-btn active" onclick="setView('bars',this)">📊 Bar Charts</div>
+        <div class="view-btn" onclick="setView('table',this)">📋 Data Table</div>
+        <div class="view-btn" onclick="setView('radar',this)">🕸 Radar</div>
+        <div class="view-btn" onclick="setView('heatmap',this)">🌡 Heat Map</div>
+      </div>
+    </div>
+  </div>
+  <!-- BAR CHARTS VIEW -->
+  <div id="view-bars" style="padding:14px 18px">
+    <div class="g2">
+      <div class="card"><div class="ct"><span class="dot dr"></span>Avg Days — <span id="cmp-title1" style="color:#58a6ff;text-transform:none;letter-spacing:0">AC/HVAC</span></div><canvas id="c-cmpDays" height="255"></canvas></div>
+      <div class="card"><div class="ct"><span class="dot dg"></span>% in 24h — <span id="cmp-title2" style="color:#58a6ff;text-transform:none;letter-spacing:0">AC/HVAC</span></div><canvas id="c-cmp24h" height="255"></canvas></div>
+    </div>
+    <div class="gfull"><div class="card">
+      <div class="ct"><span class="dot do"></span>Detail Table — <span id="cmp-title3" style="color:#58a6ff;text-transform:none;letter-spacing:0">AC/HVAC</span></div>
+      <table class="tbl" id="cmpTbl"></table>
+    </div></div>
+  </div>
+  <!-- TABLE VIEW -->
+  <div id="view-table" style="display:none;padding:14px 18px">
+    <div class="gfull"><div class="card">
+      <div class="ct"><span class="dot db"></span>Full Comparison Table — <span id="tbl-title" style="color:#58a6ff;text-transform:none;letter-spacing:0">AC/HVAC</span></div>
+      <table class="tbl" id="viewTbl">
+        <thead><tr><th>Property</th><th>WOs</th><th>Avg Days</th><th>vs Portfolio</th><th>% in 24h</th><th>Speed Grade</th></tr></thead>
+        <tbody id="viewTblBody"></tbody>
+      </table>
+    </div></div>
+  </div>
+  <!-- RADAR VIEW -->
+  <div id="view-radar" style="display:none;padding:14px 18px">
+    <div class="g2">
+      <div class="card" style="min-height:320px"><div class="ct"><span class="dot dp"></span>Radar: Top 8 Properties — Multi-Metric</div><canvas id="c-radar" height="280"></canvas></div>
+      <div class="card"><div class="ct"><span class="dot db"></span>Radar Metrics Explained</div>
+        <div style="font-size:10.5px;color:#8b949e;line-height:1.8;margin-top:4px">
+          <div><strong style="color:#e2e8f0">% in 24h</strong> — same-day close rate (higher = better)</div>
+          <div><strong style="color:#e2e8f0">Speed Score</strong> — inverse of avg days, scaled 0–100 (higher = faster)</div>
+          <div><strong style="color:#e2e8f0">Volume</strong> — WO count for this subcategory (relative)</div>
+          <div><strong style="color:#e2e8f0">No Slow WOs</strong> — 100 minus slow WO % (higher = fewer 7+d tickets)</div>
+          <div><strong style="color:#e2e8f0">vs Portfolio</strong> — performance relative to all-property average</div>
+          <div style="margin-top:10px;padding:8px;background:#0d1117;border-radius:6px;font-size:10px">The radar shows up to 8 properties with enough volume. Ideal shape = large and symmetrical. A lopsided radar shows where a property has one strong metric but struggles elsewhere.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- HEAT MAP VIEW -->
+  <div id="view-heatmap" style="display:none;padding:14px 18px">
+    <div class="gfull"><div class="card">
+      <div class="ct"><span class="dot do"></span>Heat Map — All Properties × All Subcategories (Avg Days · Green = Fast, Red = Slow)</div>
+      <div id="heatmapContainer" style="overflow-x:auto;margin-top:4px"></div>
+    </div></div>
+  </div>
+</div>
+<div id="page-makeready" class="page">
+  <div class="pg-header">
+    <h2>Make Ready / Move-In Work Orders</h2>
+    <p>Unit turn speed directly impacts vacancy days and lost revenue. Every extra day is a day of rent not collected.</p>
+  </div>
+  <div class="kpi-row k4">
+    <div class="kpi kb"><div class="kl">Total Make Ready WOs</div><div class="kv">148</div><div class="ks">Tracked across portfolio</div></div>
+    <div class="kpi kg"><div class="kl">Fastest Property</div><div class="kv">Skye Oaks</div><div class="ks">0.28 avg days · 100% same-day</div></div>
+    <div class="kpi kr"><div class="kl">Slowest Property</div><div class="kv">Skye Reserve</div><div class="ks">30.9 avg days — likely stuck WO</div></div>
+    <div class="kpi ko"><div class="kl">Portfolio Avg</div><div class="kv">3.29d</div><div class="ks">51% close in 24h</div></div>
+  </div>
+  <div style="padding:14px 18px">
+    <div class="g2">
+      <div class="card"><div class="ct"><span class="dot dr"></span>Make Ready Avg Days by Property</div><canvas id="c-mrDays" height="230"></canvas></div>
+      <div class="card"><div class="ct"><span class="dot db"></span>Make Ready Volume by Property</div><canvas id="c-mrVol" height="230"></canvas></div>
+    </div>
+    <div class="gfull"><div class="card">
+      <div class="ct"><span class="dot do"></span>Make Ready / Move-In — Property Detail</div>
+      <table class="tbl">
+        <thead><tr><th>Property</th><th>Make Ready WOs</th><th>Avg Days</th><th>% in 24h</th><th>Speed</th><th>Revenue Impact</th></tr></thead>
+        <tbody>
+          <tr><td>Skye Oaks</td><td>4</td><td>0.28</td><td>100%</td><td><div class="mb"><div class="mbf" style="width:3%;background:#3fb950"></div></div></td><td><span class="flg">✓ Minimal vacancy loss</span></td></tr>
+          <tr><td>RAM Riverwalk</td><td>11</td><td>0.81</td><td>90.9%</td><td><div class="mb"><div class="mbf" style="width:9%;background:#3fb950"></div></div></td><td><span class="flg">✓ Good</span></td></tr>
+          <tr><td>The Park at Peachtree Hills</td><td>5</td><td>2.28</td><td>60%</td><td><div class="mb"><div class="mbf" style="width:25%;background:#e3b341"></div></div></td><td><span class="fly">Monitor</span></td></tr>
+          <tr><td>SKYE at Hunters Creek</td><td>6</td><td>2.74</td><td>33%</td><td><div class="mb"><div class="mbf" style="width:30%;background:#e3b341"></div></div></td><td><span class="fly">Monitor</span></td></tr>
+          <tr><td>Hanley Place</td><td>4</td><td>3.75</td><td>75%</td><td><div class="mb"><div class="mbf" style="width:40%;background:#e3b341"></div></div></td><td><span class="fly">Monitor</span></td></tr>
+          <tr><td>The Boardwalk</td><td>7</td><td>3.94</td><td>43%</td><td><div class="mb"><div class="mbf" style="width:43%;background:#e3b341"></div></div></td><td><span class="fly">Monitor</span></td></tr>
+          <tr><td>Upland Townhomes</td><td>17</td><td>4.08</td><td>29%</td><td><div class="mb"><div class="mbf" style="width:47%;background:#f85149"></div></div></td><td><span class="flr">⚠ Revenue risk</span></td></tr>
+          <tr><td>Nightingale on 25th</td><td>3</td><td>9.64</td><td>0%</td><td><div class="mb"><div class="mbf" style="width:80%;background:#f85149"></div></div></td><td><span class="flr">🚨 High vacancy cost</span></td></tr>
+          <tr><td>Skye Reserve</td><td>1</td><td>30.88</td><td>0%</td><td><div class="mb"><div class="mbf" style="width:100%;background:#f85149"></div></div></td><td><span class="flr">🚨 Audit — likely stuck WO</span></td></tr>
+        </tbody>
+      </table>
+      <div style="margin-top:12px;padding:10px;background:#0d1117;border-radius:6px;font-size:10.5px;color:#8b949e;line-height:1.6">
+        <strong style="color:#e3b341">Revenue Impact Math:</strong> If average rent is $1,500/month ($50/day), Upland Townhomes's 4-day make-ready average costs ~$200/unit in vacancy. Nightingale on 25th at 9.6 days costs ~$480/unit. For Skye Reserve's single 30-day WO, that's potentially $1,500 in lost rent on that unit. Make-ready speed is one of the highest-ROI maintenance metrics to optimize.
+      </div>
+    </div></div>
+  </div>
+</div>
+
+<!-- ==================== MOLD & SAFETY ==================== -->
+
+<div id="page-mold" class="page">
+  <div class="pg-header">
+    <h2>⚠️ Mold, Mildew & Safety Compliance</h2>
+    <p class="alert">32 mold/mildew WOs detected across 5 properties · 3 smoke detector WOs taking 7+ days · This is a legal liability and habitability issue</p>
+  </div>
+  <div class="kpi-row k4">
+    <div class="kpi kr"><div class="kl">Total Mold / Mildew WOs</div><div class="kv">32</div><div class="ks">5 properties · some unresolved</div><span class="badge br">⚠ Legal risk</span></div>
+    <div class="kpi kr"><div class="kl">Worst: The Boardwalk</div><div class="kv">9 WOs</div><div class="ks">Recurring growth/black spots</div></div>
+    <div class="kpi ko"><div class="kl">The Julia</div><div class="kv">9 WOs</div><div class="ks">ALL have no completion date</div><span class="badge br">Unresolved?</span></div>
+    <div class="kpi ko"><div class="kl">Smoke/Fire Alarm WOs</div><div class="kv">63</div><div class="ks">3 slow at Skye Reserve (avg 26d)</div><span class="badge br">Compliance gap</span></div>
+  </div>
+  <div style="padding:14px 18px">
+    <div class="g2">
+      <div class="card">
+        <div class="ct"><span class="dot dr"></span>Mold / Mildew WOs by Property</div>
+        <canvas id="c-moldBar" height="200"></canvas>
+      </div>
+      <div class="card">
+        <div class="ct"><span class="dot do"></span>Smoke / CO Detector Response by Property</div>
+        <canvas id="c-smokeBar" height="200"></canvas>
+      </div>
+    </div>
+    <div class="gfull"><div class="card">
+      <div class="ct"><span class="dot dr"></span>Every Mold / Mildew Work Order — Full Log</div>
+      <table class="tbl">
+        <thead><tr><th>Property</th><th>Description</th><th>Call Date</th><th>Completion</th><th>Days</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td><strong>The Boardwalk</strong></td><td>growth</td><td>Nov 24, 2025</td><td>Dec 2, 2025</td><td class="mold-days-warn">7.74</td><td><span class="fly">Slow close</span></td></tr>
+          <tr><td><strong>The Boardwalk</strong></td><td>black spots on ceiling</td><td>Dec 1, 2025</td><td>Dec 2, 2025</td><td class="mold-days-ok">1.11</td><td><span class="flg">OK</span></td></tr>
+          <tr><td><strong>The Boardwalk</strong></td><td>mold smell</td><td>Dec 8, 2025</td><td>Dec 11, 2025</td><td class="mold-days-warn">3.10</td><td><span class="fly">Monitor</span></td></tr>
+          <tr><td><strong>The Boardwalk</strong></td><td>Growth growing in shower area</td><td>Dec 10, 2025</td><td>Dec 10, 2025</td><td class="mold-days-ok">0.00</td><td><span class="flg">Same-day</span></td></tr>
+          <tr><td><strong>The Boardwalk</strong></td><td>Growth growing in bedroom</td><td>Dec 19, 2025</td><td>Dec 26, 2025</td><td class="mold-days-crit">7.08</td><td><span class="flr">⚠ Slow</span></td></tr>
+          <tr><td><strong>The Boardwalk</strong></td><td>Growth growing in bedroom</td><td>Dec 22, 2025</td><td>Dec 23, 2025</td><td class="mold-days-ok">1.18</td><td><span class="flg">OK</span></td></tr>
+          <tr><td><strong>The Boardwalk</strong></td><td>smell</td><td>Dec 31, 2025</td><td>Jan 5, 2026</td><td class="mold-days-warn">5.28</td><td><span class="fly">Monitor</span></td></tr>
+          <tr><td><strong>The Boardwalk</strong></td><td>Ceiling of washer/dryer has growth</td><td>Jan 25, 2026</td><td>Jan 27, 2026</td><td class="mold-days-ok">1.92</td><td><span class="flg">OK</span></td></tr>
+          <tr><td><strong>The Boardwalk</strong></td><td>"mold"</td><td>Jan 27, 2026</td><td>Jan 27, 2026</td><td class="mold-days-ok">0.04</td><td><span class="flg">Same-day</span></td></tr>
+          <tr><td><strong>Upland Townhomes</strong></td><td>Growth (kitchen area)</td><td>Dec 23, 2025</td><td>Dec 24, 2025</td><td class="mold-days-ok">0.65</td><td><span class="flg">OK</span></td></tr>
+          <tr><td><strong>Upland Townhomes</strong></td><td>Mold</td><td>Dec 29, 2025</td><td>Dec 31, 2025</td><td class="mold-days-ok">1.73</td><td><span class="flg">OK</span></td></tr>
+          <tr><td><strong>Upland Townhomes</strong></td><td>Mold under kitchen area — unresolved</td><td>Feb 13, 2026</td><td>Feb 26, 2026</td><td class="mold-days-crit">13.24</td><td><span class="flr">🚨 13 days — investigate</span></td></tr>
+          <tr><td><strong>The Park at Peachtree Hills</strong></td><td>Mold in pipes</td><td>Nov 8, 2025</td><td>Nov 9, 2025</td><td class="mold-days-ok">0.75</td><td><span class="flg">OK</span></td></tr>
+          <tr><td><strong>The Park at Peachtree Hills</strong></td><td>MOLD</td><td>Nov 8, 2025</td><td>Nov 10, 2025</td><td class="mold-days-ok">1.81</td><td><span class="flg">OK</span></td></tr>
+          <tr><td><strong>The Park at Peachtree Hills</strong></td><td>Mold</td><td>Nov 29, 2025</td><td>Dec 1, 2025</td><td class="mold-days-ok">2.33</td><td><span class="flg">OK</span></td></tr>
+          <tr><td><strong>Hanley Place</strong></td><td>tub resurfaced (mold subcategory)</td><td>Dec 17, 2025</td><td>Jan 5, 2026</td><td class="mold-days-crit">18.86</td><td><span class="flr">🚨 19 days</span></td></tr>
+          <tr><td><strong>Hanley Place</strong></td><td>ventilation fan mildew</td><td>Jan 9, 2026</td><td>Jan 20, 2026</td><td class="mold-days-crit">10.99</td><td><span class="flr">🚨 11 days</span></td></tr>
+          <tr><td><strong>Hanley Place</strong></td><td>mildew remediation</td><td>Feb 5, 2026</td><td>Feb 6, 2026</td><td class="mold-days-ok">0.76</td><td><span class="flg">OK</span></td></tr>
+          <tr><td><strong>Hanley Place</strong></td><td>Mildew</td><td>Feb 6, 2026</td><td>Feb 9, 2026</td><td class="mold-days-ok">3.00</td><td><span class="flg">OK</span></td></tr>
+          <tr><td><strong>Hanley Place</strong></td><td>mildew bathroom ceiling</td><td>Feb 13, 2026</td><td>Feb 13, 2026</td><td class="mold-days-ok">0.19</td><td><span class="flg">Same-day</span></td></tr>
+          <tr><td><strong>Nightingale on 25th</strong></td><td>Mold in Bathroom</td><td>Feb 16, 2026</td><td>Feb 17, 2026</td><td class="mold-days-ok">0.82</td><td><span class="flg">OK</span></td></tr>
+          <tr><td><strong>RAM Preserve</strong></td><td>Rust and slight mold from gunk</td><td>Oct 13, 2025</td><td>Oct 14, 2025</td><td class="mold-days-ok">1.00</td><td><span class="flg">OK</span></td></tr>
+          <tr style="background:#1c1010"><td><strong style="color:#f85149">The Julia</strong></td><td>Mold / Mildew Issue (×9)</td><td>Sep–Feb</td><td style="color:#f85149">NO COMPLETION DATE</td><td class="mold-days-crit">Unknown</td><td><span class="flr">🚨 Unresolved?</span></td></tr>
+        </tbody>
+      </table>
+      <div style="margin-top:12px;padding:10px;background:#1c1010;border:1px solid #3d1515;border-radius:6px;font-size:10.5px;color:#c9a0a0;line-height:1.6">
+        <strong style="color:#f85149">⚠ PRIORITY ACTIONS:</strong><br>
+        1. <strong>The Julia — 9 mold WOs with no completion date.</strong> Confirm whether these were actually resolved or are still open. If open, this is an active habitability and legal liability issue.<br>
+        2. <strong>Upland Townhomes — mold under kitchen area open for 13 days</strong> (Feb 13–26). Confirm full remediation was completed and document.<br>
+        3. <strong>Hanley Place — 19-day mold WO in Dec.</strong> Was this a proper mold remediation? If not, that unit may still have active growth.<br>
+        4. <strong>The Boardwalk — 9 mold WOs, recurring.</strong> Two separate bedrooms had "growth." This suggests building moisture issue, not just tenant behavior. Inspect HVAC, ventilation, and exterior water penetration.
+      </div>
+    </div></div>
+  </div>
+</div>
+
+<!-- ==================== PRIORITY / EMERGENCY ==================== -->
+
+<div id="page-priority" class="page">
+  <div class="pg-header">
+    <h2>Emergency & Priority Response Analysis</h2>
+    <p>How fast is the portfolio responding based on urgency? Low-priority WOs taking 5+ days are a hidden review risk.</p>
+  </div>
+  <div class="kpi-row k4">
+    <div class="kpi kr"><div class="kl">Emergency Avg Days</div><div class="kv">0.93</div><div class="ks">11 WOs · 63.6% in 24h</div></div>
+    <div class="kpi ko"><div class="kl">High Priority Avg</div><div class="kv">2.54</div><div class="ks">1,763 WOs · 61.7% in 24h</div></div>
+    <div class="kpi kg"><div class="kl">Medium Priority Avg</div><div class="kv">2.43</div><div class="ks">642 WOs · 54.8% in 24h</div></div>
+    <div class="kpi kr"><div class="kl">Low Priority Avg</div><div class="kv">5.03</div><div class="ks">775 WOs · Only 38.8% in 24h</div><span class="badge br">Review risk</span></div>
+  </div>
+  <div style="padding:14px 18px">
+    <div class="g2">
+      <div class="card"><div class="ct"><span class="dot dr"></span>Priority Level — Avg Days Comparison</div><canvas id="c-prioAvg" height="195"></canvas></div>
+      <div class="card"><div class="ct"><span class="dot dg"></span>Priority Level — % Completed in 24h</div><canvas id="c-prio24h" height="195"></canvas></div>
+    </div>
+    <div class="gfull"><div class="card">
+      <div class="ct"><span class="dot db"></span>High vs Low Priority Response — By Property</div>
+      <table class="tbl">
+        <thead><tr><th>Property</th><th>High WOs</th><th>High Avg Days</th><th>Low WOs</th><th>Low Avg Days</th><th>Gap</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>RAM Riverwalk</td><td>70</td><td>1.35</td><td>4</td><td>2.77</td><td style="color:#3fb950">2.1×</td><td><span class="flg">Appropriate gap</span></td></tr>
+          <tr><td>SKYE at Hunters Creek</td><td>14</td><td>1.44</td><td>3</td><td>5.18</td><td style="color:#e3b341">3.6×</td><td><span class="fly">Monitor low priority</span></td></tr>
+          <tr><td>Skye Ridge</td><td>62</td><td>1.29</td><td>73</td><td>1.96</td><td style="color:#3fb950">1.5×</td><td><span class="flg">Consistent</span></td></tr>
+          <tr><td>Nightingale on 25th</td><td>12</td><td>3.01</td><td>1</td><td>0.01</td><td style="color:#6e7681">N/A</td><td><span class="fly">High priority slow</span></td></tr>
+          <tr><td>Ninety-Nine44 on Walnut</td><td>84</td><td>0.89</td><td>48</td><td>2.48</td><td style="color:#3fb950">2.8×</td><td><span class="flg">Good triage</span></td></tr>
+          <tr><td>Parks at Walnut</td><td>117</td><td>1.23</td><td>22</td><td>1.04</td><td style="color:#3fb950">1.0×</td><td><span class="flg">Fast across all</span></td></tr>
+          <tr><td>Skye at Conway</td><td>103</td><td>1.10</td><td>23</td><td>0.63</td><td style="color:#3fb950">0.6×</td><td><span class="flg">Excellent</span></td></tr>
+          <tr><td>Skye Reserve</td><td>592</td><td>2.84</td><td>353</td><td>8.21</td><td style="color:#f85149">2.9×</td><td><span class="flr">🚨 Low = 8 days avg</span></td></tr>
+          <tr><td>Upland Townhomes</td><td>157</td><td>1.20</td><td>219</td><td>2.34</td><td style="color:#3fb950">2.0×</td><td><span class="flg">Good</span></td></tr>
+          <tr><td>The Park at Peachtree Hills</td><td>61</td><td>2.11</td><td>7</td><td>4.14</td><td style="color:#e3b341">2.0×</td><td><span class="fly">Monitor</span></td></tr>
+          <tr><td>The Boardwalk</td><td>306</td><td>2.30</td><td>8</td><td>1.70</td><td style="color:#3fb950">0.7×</td><td><span class="flg">Consistent</span></td></tr>
+          <tr><td>The Flats</td><td>10</td><td>4.64</td><td>3</td><td>3.93</td><td style="color:#f85149">—</td><td><span class="flr">🚨 Both priority levels slow</span></td></tr>
+          <tr><td>Skye Oaks</td><td>—</td><td>—</td><td>1</td><td>3.00</td><td>—</td><td><span class="flg">All fast regardless</span></td></tr>
+          <tr><td>Hanley Place</td><td>176</td><td>6.65</td><td>12</td><td>6.33</td><td style="color:#f85149">—</td><td><span class="flr">🚨 High priority = 6.65 days</span></td></tr>
+        </tbody>
+      </table>
+      <div style="margin-top:12px;padding:10px;background:#0d1117;border-radius:6px;font-size:10.5px;color:#8b949e;line-height:1.6">
+        <strong style="color:#f85149">Critical finding — Hanley Place:</strong> High priority WOs average 6.65 days. This means urgent requests from residents are taking nearly a week. That's not a prioritization problem — that's a capacity problem. <br><br>
+        <strong style="color:#e3b341">Watch — Skye Reserve Low Priority:</strong> Low-priority WOs average 8.21 days. While low-priority WOs are acceptable to defer, 8+ days is long enough that residents feel ignored. A 3–4 day cap on low-priority WOs would meaningfully improve perception without taxing the team.
+      </div>
+    </div></div>
+  </div>
+</div>
+
+<!-- ==================== SCORECARD ==================== -->
+
+<div id="page-scorecard" class="page">
+  <div class="pg-header">
+    <h2>Property Scorecard — Full Rankings</h2>
+    <p>All properties ranked across 5 key metrics · Click property tabs in the nav for individual drill-downs</p>
+  </div>
+  <div style="padding:14px 18px">
+    <div class="gfull"><div class="card">
+      <div class="ct"><span class="dot db"></span>Full Portfolio Scorecard — All Metrics</div>
+      <table class="tbl">
+        <thead><tr><th>#</th><th>Property</th><th>Total WOs</th><th>Avg Days</th><th>Median Days</th><th>% ≤24h</th><th>% ≤48h</th><th>Slow WOs (7+d)</th><th>Slow %</th><th>Mold WOs</th><th>MakeReady Avg</th><th>Overall</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Skye Oaks ⭐</td><td>186</td><td style="color:#3fb950">0.43</td><td>0.25</td><td style="color:#3fb950">88.2%</td><td>98.9%</td><td style="color:#3fb950">0</td><td style="color:#3fb950">0%</td><td>0</td><td>0.28d</td><td><span class="flg">⭐ Best</span></td></tr>
+          <tr><td>2</td><td>Skye at Love</td><td>35</td><td style="color:#3fb950">0.99</td><td>0.34</td><td>57.6%</td><td>87.9%</td><td style="color:#3fb950">0</td><td>0%</td><td>0</td><td>—</td><td><span class="flg">Strong</span></td></tr>
+          <tr><td>3</td><td>Skye at Conway</td><td>128</td><td style="color:#3fb950">1.00</td><td>0.70</td><td style="color:#3fb950">60.2%</td><td>85.2%</td><td style="color:#3fb950">0</td><td style="color:#3fb950">0%</td><td>0</td><td>—</td><td><span class="flg">Strong</span></td></tr>
+          <tr><td>3</td><td>SKYE Isle</td><td>1</td><td style="color:#3fb950">1.04</td><td>1.04</td><td style="color:#f85149">0%</td><td>100%</td><td style="color:#3fb950">0</td><td>0%</td><td>0</td><td>—</td><td><span class="flb">Low vol (1 WO)</span></td></tr>
+          <tr><td>4</td><td>Parks at Walnut</td><td>142</td><td style="color:#3fb950">1.23</td><td>0.63</td><td style="color:#3fb950">66.9%</td><td>81.0%</td><td style="color:#3fb950">2</td><td>1.4%</td><td>0</td><td>—</td><td><span class="flg">Strong</span></td></tr>
+          <tr><td>4</td><td>Ninety-Nine44 on Walnut</td><td>133</td><td style="color:#3fb950">1.46</td><td>0.87</td><td>61.7%</td><td>88.7%</td><td>2</td><td>1.5%</td><td>0</td><td>2.28d</td><td><span class="flg">Good</span></td></tr>
+          <tr><td>5</td><td>RAM Riverwalk</td><td>446</td><td style="color:#3fb950">1.61</td><td>1.00</td><td style="color:#3fb950">67.3%</td><td>80.7%</td><td>19</td><td>4.3%</td><td>1</td><td>0.81d</td><td><span class="flg">Good</span></td></tr>
+          <tr><td>6</td><td>SKYE at Hunters Creek</td><td>356</td><td style="color:#3fb950">1.66</td><td>0.98</td><td>52.2%</td><td>72.5%</td><td>18</td><td>5.1%</td><td>0</td><td>2.74d</td><td><span class="flg">Good</span></td></tr>
+          <tr><td>7</td><td>Skye Ridge</td><td>138</td><td style="color:#e3b341">1.89</td><td>1.22</td><td>43.8%</td><td>62.8%</td><td>1</td><td>0.7%</td><td>0</td><td>1.59d</td><td><span class="fly">Monitor</span></td></tr>
+          <tr><td>8</td><td>The Park at Peachtree Hills</td><td>98</td><td style="color:#e3b341">2.00</td><td>0.92</td><td>53.1%</td><td>68.4%</td><td>4</td><td>4.1%</td><td>3</td><td>2.28d</td><td><span class="fly">Monitor ⚠ Mold</span></td></tr>
+          <tr><td>9</td><td>Chimney Hill</td><td>4</td><td style="color:#3fb950">2.12</td><td>2.12</td><td>50.0%</td><td>50.0%</td><td style="color:#3fb950">0</td><td>0%</td><td>0</td><td>—</td><td><span class="flb">Low vol (4 WOs)</span></td></tr>
+          <tr><td>10</td><td>Upland Townhomes</td><td>444</td><td style="color:#e3b341">2.03</td><td>0.95</td><td>54.7%</td><td>73.6%</td><td>24</td><td>5.4%</td><td>3</td><td>4.08d</td><td><span class="fly">Monitor ⚠ Mold</span></td></tr>
+          <tr><td>10</td><td>The Boardwalk</td><td>625</td><td style="color:#e3b341">2.64</td><td>1.03</td><td>48.3%</td><td>66.6%</td><td>71</td><td>11.4%</td><td>9</td><td>3.94d</td><td><span class="fly">Watch ⚠ Mold×9</span></td></tr>
+          <tr><td>11</td><td>Nightingale on 25th</td><td>158</td><td style="color:#e3b341">3.50</td><td>0.90</td><td>53.9%</td><td>63.6%</td><td>20</td><td>13%</td><td>1</td><td>9.64d</td><td><span class="fly">Watch</span></td></tr>
+          <tr><td>12</td><td>Skye Reserve</td><td>960</td><td style="color:#f85149">5.18</td><td>0.84</td><td>55.5%</td><td>69.7%</td><td>120</td><td style="color:#f85149">12.5%</td><td>0</td><td>30.88d</td><td><span class="flr">🚨 Critical</span></td></tr>
+          <tr><td>13</td><td>The Flats</td><td>40</td><td style="color:#f85149">5.43</td><td>2.84</td><td style="color:#f85149">28.2%</td><td>38.5%</td><td>8</td><td style="color:#f85149">20.5%</td><td>0</td><td>—</td><td><span class="flr">🚨 Critical</span></td></tr>
+          <tr><td>14</td><td>Hanley Place</td><td>599</td><td style="color:#f85149">5.55</td><td>2.25</td><td style="color:#f85149">31.9%</td><td>45.9%</td><td>164</td><td style="color:#f85149">27.4%</td><td>5</td><td>3.75d</td><td><span class="flr">🚨 Worst</span></td></tr>
+          <tr style="background:#0d1310"><td>18</td><td>The Julia</td><td>888</td><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td><td>—</td><td>—</td><td style="color:#f85149">9 open?</td><td>—</td><td><span class="flr">⚠ 9 mold unresolved</span></td></tr>
+        </tbody>
+      </table>
+    </div></div>
+    <div class="g2">
+      <div class="card"><div class="ct"><span class="dot dr"></span>Properties at a Glance — Avg Days</div><canvas id="c-scAvg" height="265"></canvas></div>
+      <div class="card"><div class="ct"><span class="dot dp"></span>Slow WO Count (7+ Days) by Property</div><canvas id="c-scSlow" height="265"></canvas></div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== REVIEWS ==================== -->
+
+<div id="page-reviews" class="page">
+  <div class="pg-header">
+    <h2>📣 Review Improvement Action Plan</h2>
+    <p>Based on actual WO data — ranked by resident impact and review likelihood</p>
+  </div>
+  <div style="padding:14px 18px">
+    <div class="g2" style="margin-bottom:12px">
+      <div class="card">
+        <div class="ct"><span class="dot dr"></span>What's Hurting Reviews Right Now</div>
+        <div style="font-size:10.5px;color:#8b949e;line-height:1.75">
+          <div>🔴 <strong style="color:#e2e8f0">Washer/Dryer downtime</strong> — 5.25 avg days. Laundry is a daily necessity. Residents without it write reviews that week.</div>
+          <div>🔴 <strong style="color:#e2e8f0">Dishwasher at 6.41 days</strong> — slowest appliance subcategory. 24 slow WOs portfolio-wide.</div>
+          <div>🔴 <strong style="color:#e2e8f0">Tub/Shower at 4.23 days</strong> — 31 slow WOs. Can't use your shower for 7+ days = guaranteed negative review.</div>
+          <div>🔴 <strong style="color:#e2e8f0">Patio doors at 6.57 days</strong> — security issue. Residents feel unsafe with a broken patio latch.</div>
+          <div>🔴 <strong style="color:#e2e8f0">9 unresolved mold WOs at The Julia</strong> — no completion date on any of them.</div>
+          <div>🟡 <strong style="color:#e2e8f0">Low priority WOs ignored for 5+ days</strong> — residents don't know their WO is "low priority." They just see nothing happening.</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="ct"><span class="dot dg"></span>What's Earning You Good Reviews</div>
+        <div style="font-size:10.5px;color:#8b949e;line-height:1.75">
+          <div>✅ <strong style="color:#e2e8f0">AC/HVAC at 1.71 days</strong> — 65% same-day. Best possible impression in summer and winter.</div>
+          <div>✅ <strong style="color:#e2e8f0">Pest Control at 1.13 days</strong> — 81% same-day. Residents feel heard when bug/pest issues close fast.</div>
+          <div>✅ <strong style="color:#e2e8f0">Heater at 1.43 days</strong> — critical comfort item handled well.</div>
+          <div>✅ <strong style="color:#e2e8f0">Skye Oaks overall</strong> — 88% same-day. Every resident there is getting 5-star maintenance.</div>
+          <div>✅ <strong style="color:#e2e8f0">Feb 2026 at 1.71 avg days</strong> — improving trend means improving reviews in Q2 2026.</div>
+          <div>✅ <strong style="color:#e2e8f0">Smoke/CO detector response</strong> — 60.6% same-day. Residents notice when safety issues are taken seriously.</div>
+        </div>
+      </div>
+    </div>
+    <div style="font-size:11px;font-weight:700;color:#58a6ff;text-transform:uppercase;letter-spacing:.7px;margin-bottom:10px">7 Highest-Impact Actions — Ranked</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+      <div style="background:#161b22;border:1px solid #21262d;border-radius:8px;padding:12px 14px;border-left:3px solid #f85149">
+        <div style="font-size:9px;font-weight:800;color:#f85149;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px">🔴 Do First</div>
+        <div style="font-size:12px;font-weight:700;color:#e2e8f0;margin-bottom:3px">Resolve The Julia's 9 Open Mold WOs</div>
+        <div style="font-size:10.5px;color:#8b949e;line-height:1.5">9 "Mold / Mildew Issue" WOs with zero completion dates. Confirm with The Julia's team whether these are resolved. If not, this is an active habitability issue that will generate both reviews and legal exposure. Verify and document today.</div>
+      </div>
+      <div style="background:#161b22;border:1px solid #21262d;border-radius:8px;padding:12px 14px;border-left:3px solid #f85149">
+        <div style="font-size:9px;font-weight:800;color:#f85149;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px">🔴 Do First</div>
+        <div style="font-size:12px;font-weight:700;color:#e2e8f0;margin-bottom:3px">Set a 24h SLA for Washers, Tubs & Patio Doors</div>
+        <div style="font-size:10.5px;color:#8b949e;line-height:1.5">Washers (5.25d), Tub/Shower (4.23d), and Patio Doors (6.57d) are the three subcategories most likely to generate 1-star reviews. These are daily-use or security items. Create a dedicated morning route for these three categories before any other WOs are dispatched.</div>
+      </div>
+      <div style="background:#161b22;border:1px solid #21262d;border-radius:8px;padding:12px 14px;border-left:3px solid #e3b341">
+        <div style="font-size:9px;font-weight:800;color:#e3b341;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px">🟡 High Impact</div>
+        <div style="font-size:12px;font-weight:700;color:#e2e8f0;margin-bottom:3px">Text Residents on Every WO Open Past 24h</div>
+        <div style="font-size:10.5px;color:#8b949e;line-height:1.5">46.5% of WOs don't close same-day. A single "We have your request — waiting on [part/vendor], expected [date]" message turns a frustrated resident into an understanding one. This costs nothing and is the single highest-ROI communication change you can make. Silence reads as abandonment.</div>
+      </div>
+      <div style="background:#161b22;border:1px solid #21262d;border-radius:8px;padding:12px 14px;border-left:3px solid #e3b341">
+        <div style="font-size:9px;font-weight:800;color:#e3b341;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px">🟡 High Impact</div>
+        <div style="font-size:12px;font-weight:700;color:#e2e8f0;margin-bottom:3px">Ask for Reviews Immediately After Fast Closes</div>
+        <div style="font-size:10.5px;color:#8b949e;line-height:1.5">You have 2,396 same-day closes this period. That's 2,396 residents who had a positive last experience with maintenance. Trigger an automated text within 2 hours of WO close: "Glad we could help! If you have 60 seconds, a review on Google helps others find us." Even 3% conversion = 72 new positive reviews.</div>
+      </div>
+      <div style="background:#161b22;border:1px solid #21262d;border-radius:8px;padding:12px 14px;border-left:3px solid #58a6ff">
+        <div style="font-size:9px;font-weight:800;color:#58a6ff;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px">🔵 Strategic</div>
+        <div style="font-size:12px;font-weight:700;color:#e2e8f0;margin-bottom:3px">Export Skye Oaks's Process to Hanley Place and 45727</div>
+        <div style="font-size:10.5px;color:#8b949e;line-height:1.5">Same portfolio. 45728 closes 88% in 24h. 45729 closes 32% in 24h. That gap is entirely operational. Interview the 45728 maintenance team: staffing ratio, vendor contact list, dispatch priority order, morning routine. Run a 60-day process transplant at 45729. That property alone has 599 WOs — fixing it moves your entire portfolio average.</div>
+      </div>
+      <div style="background:#161b22;border:1px solid #21262d;border-radius:8px;padding:12px 14px;border-left:3px solid #58a6ff">
+        <div style="font-size:9px;font-weight:800;color:#58a6ff;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px">🔵 Strategic</div>
+        <div style="font-size:12px;font-weight:700;color:#e2e8f0;margin-bottom:3px">Preventative Plumbing Audit at Top 3 Leak Properties</div>
+        <div style="font-size:10.5px;color:#8b949e;line-height:1.5">The Boardwalk (leak×79), Hanley Place (leak×58), Upland Townhomes (leak×39) — 176 leak WOs combined. Recurring leaks mean the same residents are reporting the same issues repeatedly. A one-time plumbing walkthrough (supply lines, shutoff valves, drain condition) could eliminate 30%+ of repeat WOs and prevent the "this keeps happening" reviews.</div>
+      </div>
+      <div style="background:#161b22;border:1px solid #21262d;border-radius:8px;padding:12px 14px;border-left:3px solid #3fb950;grid-column:1/-1">
+        <div style="font-size:9px;font-weight:800;color:#3fb950;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px">🟢 Use Your Wins</div>
+        <div style="font-size:12px;font-weight:700;color:#e2e8f0;margin-bottom:3px">Use HVAC Speed as a Renewal & Marketing Talking Point</div>
+        <div style="font-size:10.5px;color:#8b949e;line-height:1.5">Your HVAC team closes 65% of AC and Heating tickets within 24 hours. This is a genuine, data-backed differentiator. Put it in renewal letters: <em>"When your AC stops working, we respond in under 24 hours in most cases."</em> Put it on your listing page. Most competitors can't say this with data. You can.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="page-asset" class="page">
+  <div class="pg-header" style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+    <div><h2>Asset Drill-Down</h2><p>Select any property to see granular trends, categories, subcategories, priority breakdown, recurring issues, and safety data</p></div>
+    <div style="display:flex;align-items:center;gap:10px;margin-left:auto;flex-wrap:wrap">
+      <select id="propSelect" onchange="loadProp(this.value)" style="background:#0d1117;border:1px solid #30363d;color:#e2e8f0;font-size:12px;font-weight:600;padding:8px 32px 8px 12px;border-radius:7px;cursor:pointer;min-width:250px;appearance:none;background-image:url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' viewBox='0 0 10 7'%3E%3Cpath fill='%2358a6ff' d='M0 0l5 7 5-7z'/%3E%3C/svg%3E&quot;);background-repeat:no-repeat;background-position:right 10px center">
+        <option value="">— Choose a Property —</option>
+      </select>
+      <span id="propStatusBadge"></span>
+    </div>
+  </div>
+  <div id="kpiStrip" class="kpi-strip" style="display:none">
+  <div class="kpi kb"><div class="kl">Total WOs</div><div class="kv" id="k-total">—</div><div class="ks" id="k-completed">—</div></div>
+  <div class="kpi ko"><div class="kl">Avg Days</div><div class="kv" id="k-avg">—</div><div class="ks" id="k-median">—</div></div>
+  <div class="kpi kg"><div class="kl">Completed ≤ 24h</div><div class="kv" id="k-p24">—</div><div class="ks" id="k-p48">—</div></div>
+  <div class="kpi kr"><div class="kl">Slow WOs (7+d)</div><div class="kv" id="k-slow">—</div><div class="ks" id="k-slow-pct">—</div></div>
+  <div class="kpi kp"><div class="kl">Mold / Safety</div><div class="kv" id="k-mold">—</div><div class="ks">mold/mildew WOs</div></div>
+  <div class="kpi kb"><div class="kl">vs Portfolio Avg</div><div class="kv" id="k-vs">—</div><div class="ks">Portfolio: 3.12d avg</div></div>
+</div>
+
+<div id="mainTabs" class="tabs" style="display:none">
+  <div class="tab active" onclick="showTab('trends',this)">📈 Trends</div>
+  <div class="tab" onclick="showTab('cats',this)">📂 Categories</div>
+  <div class="tab" onclick="showTab('subs',this)">🔧 Subcategories</div>
+  <div class="tab" onclick="showTab('speed',this)">⚡ Speed Analysis</div>
+  <div class="tab" onclick="showTab('prio',this)">🚨 Priority</div>
+  <div class="tab" onclick="showTab('issues',this)">🔍 Recurring Issues</div>
+  <div class="tab" onclick="showTab('safety',this)">⚠️ Safety</div>
+</div>
+
+<!-- TRENDS -->
+<div id="tab-trends" class="panel active">
+  <div class="g2">
+    <div class="card"><div class="ct"><span class="dot db"></span>Monthly Avg Completion Days</div><canvas id="c-avgTrend" height="200"></canvas></div>
+    <div class="card"><div class="ct"><span class="dot dg"></span>% Completed Within 24 Hours</div><canvas id="c-24Trend" height="200"></canvas></div>
+  </div>
+  <div class="g2">
+    <div class="card"><div class="ct"><span class="dot dp"></span>Monthly Work Order Volume</div><canvas id="c-volTrend" height="190"></canvas></div>
+    <div class="card"><div class="ct"><span class="dot do"></span>Completion Speed Breakdown</div>
+      <div id="speedStackBar" style="margin-top:10px"></div>
+      <div id="speedBarMonths" style="margin-top:12px"></div>
+    </div>
+  </div>
+</div>
+
+<!-- CATEGORIES -->
+<div id="tab-cats" class="panel">
+  <div class="g2">
+    <div class="card"><div class="ct"><span class="dot db"></span>Category Volume</div><canvas id="c-catVol" height="230"></canvas></div>
+    <div class="card"><div class="ct"><span class="dot dr"></span>Avg Days by Category</div><canvas id="c-catDays" height="230"></canvas></div>
+  </div>
+  <div class="g2">
+    <div class="card"><div class="ct"><span class="dot dg"></span>% Completed in 24h by Category</div><canvas id="c-cat24h" height="220"></canvas></div>
+    <div class="card"><div class="ct"><span class="dot dr"></span>Slow WOs (7+d) by Category</div><canvas id="c-catSlow" height="220"></canvas></div>
+  </div>
+  <div class="gf"><div class="card">
+    <div class="ct"><span class="dot do"></span>Category Detail Table</div>
+    <table class="tbl" id="catTable"></table>
+  </div></div>
+</div>
+
+<!-- SUBCATEGORIES -->
+<div id="tab-subs" class="panel">
+  <div class="g2">
+    <div class="card"><div class="ct"><span class="dot db"></span>Top Subcategories by Volume</div><canvas id="c-subVol" height="260"></canvas></div>
+    <div class="card"><div class="ct"><span class="dot dr"></span>Avg Days by Subcategory</div><canvas id="c-subDays" height="260"></canvas></div>
+  </div>
+  <div class="g2">
+    <div class="card"><div class="ct"><span class="dot dg"></span>% in 24h by Subcategory</div><canvas id="c-sub24h" height="260"></canvas></div>
+    <div class="card"><div class="ct"><span class="dot dr"></span>Slow WOs (7+d) by Subcategory</div><canvas id="c-subSlow" height="260"></canvas></div>
+  </div>
+  <div class="gf"><div class="card">
+    <div class="ct"><span class="dot do"></span>Full Subcategory Table</div>
+    <table class="tbl" id="subTable"></table>
+  </div></div>
+</div>
+
+<!-- SPEED ANALYSIS -->
+<div id="tab-speed" class="panel">
+  <div class="g3">
+    <div class="card"><div class="ct"><span class="dot dg"></span>Same Day (≤24h)</div><div class="kv" id="sp-24" style="font-size:28px;font-weight:800;color:#3fb950;margin:6px 0 3px">—</div><div class="ks">of completed WOs</div></div>
+    <div class="card"><div class="ct"><span class="dot db"></span>Within 48 Hours</div><div class="kv" id="sp-48" style="font-size:28px;font-weight:800;color:#58a6ff;margin:6px 0 3px">—</div><div class="ks">of completed WOs</div></div>
+    <div class="card"><div class="ct"><span class="dot dp"></span>Within 72 Hours</div><div class="kv" id="sp-72" style="font-size:28px;font-weight:800;color:#a371f7;margin:6px 0 3px">—</div><div class="ks">of completed WOs</div></div>
+  </div>
+  <div class="g2">
+    <div class="card"><div class="ct"><span class="dot do"></span>Speed Distribution vs Portfolio</div><canvas id="c-speedComp" height="230"></canvas></div>
+    <div class="card"><div class="ct"><span class="dot dr"></span>Monthly Avg Days vs Portfolio Average (3.12d)</div><canvas id="c-monthVsPf" height="230"></canvas></div>
+  </div>
+</div>
+
+<!-- PRIORITY -->
+<div id="tab-prio" class="panel">
+  <div id="prioDash"></div>
+</div>
+
+<!-- RECURRING ISSUES -->
+<div id="tab-issues" class="panel">
+  <div class="g2">
+    <div class="card"><div class="ct"><span class="dot dr"></span>Top Keywords in Work Order Descriptions</div><div id="kwViz"></div></div>
+    <div class="card"><div class="ct"><span class="dot do"></span>Categories With Most Slow WOs (7+d)</div><canvas id="c-slowCats" height="220"></canvas></div>
+  </div>
+  <div class="gf"><div class="card">
+    <div class="ct"><span class="dot dr"></span>Recurring Issue Assessment</div>
+    <div id="issueAssessment" style="font-size:10.5px;color:#8b949e;line-height:1.7;"></div>
+  </div></div>
+</div>
+
+<!-- SAFETY -->
+<div id="tab-safety" class="panel">
+  <div id="safetyDash"></div>
+</div>
+
+<div id="emptyState" style="padding:60px 20px;text-align:center;color:#6e7681;">
+  <div style="font-size:32px;margin-bottom:12px">🏢</div>
+  <div style="font-size:14px;font-weight:600;color:#c9d1d9;margin-bottom:6px">Select a Property</div>
+  <div style="font-size:11px">Choose any of the 18 assets from the dropdown above to view granular work order analytics</div>
+</div>
+
+
+</div>
+
+<script>
+
+const PROPS = ['RAM','45703','45711','45713','45715','45716','45718','45720','45724','45725','45726','45727','45728','45729'];
+const PLABELS = {'RAM':'RAM Preserve at Riverwalk','JULIA':'The Julia','45703':'SKYE at Hunters Creek','45708':'SKYE Isle','45709':'Chimney Hill','45710':'Skye at Love','45711':'Skye Ridge','45713':'Nightingale on 25th','45715':'Ninety-Nine44 on Walnut','45716':'Parks at Walnut','45718':'Skye at Conway','45720':'Skye Reserve','45724':'Upland Townhomes','45725':'The Park at Peachtree Hills','45726':'The Boardwalk','45727':'The Flats','45728':'Skye Oaks','45729':'Hanley Place','45711':'Skye Ridge','45713':'Nightingale on 25th','45715':'Ninety-Nine44 on Walnut','45716':'Parks at Walnut','45718':'Skye at Conway','45720':'Skye Reserve','45724':'Upland Townhomes','45725':'The Park at Peachtree Hills','45726':'The Boardwalk','45727':'The Flats','45728':'Skye Oaks','45729':'Hanley Place'};
+const MONTHS = ['Sep 25','Oct 25','Nov 25','Dec 25','Jan 26','Feb 26'];
+const d = {x:{grid:{color:'#21262d'},ticks:{color:'#6e7681',font:{size:9.5}}},y:{grid:{color:'#21262d'},ticks:{color:'#6e7681',font:{size:9.5}}}};
+const nl = {plugins:{legend:{display:false}}};
+const chartReg = {};
+
+function mkChart(id, cfg) {
+  if (chartReg[id]) chartReg[id].destroy();
+  chartReg[id] = new Chart(document.getElementById(id), cfg);
+}
+
+// ===================== OVERVIEW CHARTS =====================
+mkChart('c-ptAvg',{type:'line',data:{labels:MONTHS,datasets:[{data:[4.22,3.26,2.90,3.46,2.84,1.71],borderColor:'#58a6ff',backgroundColor:'rgba(88,166,255,0.08)',borderWidth:2.5,pointRadius:5,pointBackgroundColor:'#58a6ff',fill:true,tension:0.3}]},options:{responsive:true,maintainAspectRatio:true,...nl,scales:d}});
+mkChart('c-pt24h',{type:'bar',data:{labels:MONTHS,datasets:[{data:[53.95,54.30,51.19,51.76,49.93,59.33],backgroundColor:[53.95,54.30,51.19,51.76,49.93,59.33].map(v=>v>=55?'rgba(63,185,80,0.7)':'rgba(88,166,255,0.6)'),borderRadius:4}]},options:{responsive:true,maintainAspectRatio:true,...nl,scales:{x:d.x,y:{...d.y,min:45,max:65,ticks:{callback:v=>v+'%',color:'#6e7681',font:{size:9.5}}}}}});
+mkChart('c-ptVol',{type:'bar',data:{labels:MONTHS,datasets:[{data:[873,825,629,740,697,718],backgroundColor:'rgba(167,113,247,0.65)',borderRadius:4}]},options:{responsive:true,maintainAspectRatio:true,...nl,scales:d}});
+mkChart('c-ptDist',{type:'doughnut',data:{labels:['≤24h','1–2d','2–3d','3–7d','7+d'],datasets:[{data:[53.5,16.3,8.3,10.6,11.3],backgroundColor:['#3fb950','#58a6ff','#e3b341','#e67e22','#f85149'],borderWidth:0}]},options:{responsive:true,maintainAspectRatio:true,plugins:{legend:{display:true,position:'bottom',labels:{color:'#8b949e',font:{size:9.5},padding:6,boxWidth:10}}}}});
+const cL=['AC/HVAC','Stove/Oven','Plumbing Gen','Tub/Shower','Sink','Washer','Toilet','Paint/Drywall','Mailbox/Keys','Lighting/Fan','Refrigerator','Dishwasher','Entry Door','Water Heater'];
+const cCt=[353,210,196,181,164,163,163,122,133,118,101,98,97,75];
+const cD=[1.71,3.43,3.49,4.23,3.17,5.25,2.91,4.77,2.76,3.81,3.54,6.41,1.95,2.72];
+const c24=[65.2,49.1,48.0,37.6,47.6,35.0,53.4,41.0,44.4,47.5,47.5,37.8,61.9,57.3];
+const colD=cD.map(v=>v>=5?'rgba(248,81,73,0.8)':v>=3.5?'rgba(227,179,65,0.75)':'rgba(63,185,80,0.7)');
+mkChart('c-pcVol',{type:'bar',data:{labels:cL,datasets:[{data:cCt,backgroundColor:'rgba(88,166,255,0.65)',borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,indexAxis:'y',scales:{x:d.x,y:{...d.y,ticks:{color:'#8b949e',font:{size:9.5}}}}}});
+mkChart('c-pcDays',{type:'bar',data:{labels:cL,datasets:[{data:cD,backgroundColor:colD,borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,indexAxis:'y',scales:{x:{...d.x,title:{display:true,text:'Avg Days',color:'#6e7681',font:{size:9}}},y:{...d.y,ticks:{color:'#8b949e',font:{size:9.5}}}}}});
+mkChart('c-pc24h',{type:'bar',data:{labels:cL,datasets:[{data:c24,backgroundColor:c24.map(v=>v>=60?'rgba(63,185,80,0.7)':v>=45?'rgba(88,166,255,0.6)':'rgba(248,81,73,0.7)'),borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,indexAxis:'y',scales:{x:{...d.x,max:100,ticks:{callback:v=>v+'%',color:'#6e7681',font:{size:9.5}}},y:{...d.y,ticks:{color:'#8b949e',font:{size:9.5}}}}}});
+mkChart('c-pcBubble',{type:'bubble',data:{datasets:cL.map((l,i)=>({label:l,data:[{x:cCt[i],y:cD[i],r:Math.max(5,Math.sqrt(cCt[i])*0.75)}],backgroundColor:cD[i]>=5?'rgba(248,81,73,0.7)':cD[i]>=3.5?'rgba(227,179,65,0.7)':'rgba(63,185,80,0.7)'}))},options:{responsive:true,maintainAspectRatio:true,...nl,scales:{x:{...d.x,title:{display:true,text:'# WOs',color:'#6e7681',font:{size:9}}},y:{...d.y,title:{display:true,text:'Avg Days',color:'#6e7681',font:{size:9}}}},plugins:{tooltip:{callbacks:{label:c=>`${c.dataset.label}: ${c.raw.x} WOs, ${c.raw.y.toFixed(1)}d`}}}}});
+const pL=['Skye Oaks','Skye at Conway','Parks at Walnut','Ninety-Nine44 on Walnut','RAM Riverwalk','SKYE at Hunters Creek','Skye Ridge','The Park at Peachtree Hills','Upland Townhomes','The Boardwalk','Nightingale on 25th','Skye Reserve','The Flats','Hanley Place'];
+const pA=[0.43,0.99,1.00,1.04,1.23,1.46,1.61,1.66,1.89,2.00,2.03,2.12,2.64,3.50,5.18,5.43,5.55,null];
+const p24h=[88.2,57.6,60.2,0.0,66.9,61.7,67.3,52.2,43.8,53.1,54.7,50.0,48.3,53.9,55.5,28.2,31.9,null];
+const pV=[186,35,128,1,142,133,446,356,138,98,444,4,625,158,960,40,599,888];
+const pSlow=[0,0,0,0,2,2,19,18,1,4,24,0,71,20,120,8,164,0];
+const pColA=pA.map(v=>v>4?'rgba(248,81,73,0.75)':v>2.5?'rgba(227,179,65,0.7)':'rgba(63,185,80,0.7)');
+const tbl = document.getElementById('allPropTbl');
+tbl.innerHTML='<thead><tr><th>Property</th><th>WOs</th><th>Avg Days</th><th>% ≤24h</th><th>Slow 7+d</th><th>Speed</th><th>Status</th></tr></thead><tbody>'+
+pL.map((p,i)=>{
+  if(pA[i]==null){return `<tr style="background:#0d1117"><td style="font-weight:600;color:#e2e8f0">${p}</td><td>${pV[i]}</td><td style="color:#6e7681">N/A</td><td style="color:#6e7681">N/A</td><td>0</td><td><div class="mb"><div class="mbf" style="width:0%;background:#21262d"></div></div></td><td><span class="fl flb">No comp. data</span></td></tr>`;}
+  const bc=pA[i]>4?'#f85149':pA[i]>2.5?'#e3b341':'#3fb950';const bw=Math.min(100,(pA[i]/6)*100);
+  const fl=pA[i]>4?'<span class="fl flr">🚨 Critical</span>':pA[i]>2.5?'<span class="fl fly">Monitor</span>':'<span class="fl flg">✓ OK</span>';
+  const note=pV[i]<=5?'<span class="fl flb" style="margin-left:4px">Low vol</span>':'';
+  return `<tr><td style="font-weight:600;color:#e2e8f0">${p}${note}</td><td>${pV[i]}</td><td style="color:${bc};font-weight:700">${pA[i]}</td><td>${p24h[i]}%</td><td style="color:${pSlow[i]>20?'#f85149':pSlow[i]>5?'#e3b341':'#3fb950'}">${pSlow[i]}</td><td><div class="mb"><div class="mbf" style="width:${bw}%;background:${bc}"></div></div></td><td>${fl}</td></tr>`;
+}).join('')+'</tbody>';
+mkChart('c-ppAvg',{type:'bar',data:{labels:pL,datasets:[{data:pA,backgroundColor:pColA,borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,indexAxis:'y',scales:{x:{...d.x,title:{display:true,text:'Avg Days',color:'#6e7681',font:{size:9}}},y:{...d.y,ticks:{color:'#8b949e',font:{size:9}}}}}});
+mkChart('c-pp24h',{type:'bar',data:{labels:pL,datasets:[{data:p24h,backgroundColor:p24h.map(v=>v>=65?'rgba(63,185,80,0.7)':v>=50?'rgba(88,166,255,0.6)':'rgba(248,81,73,0.7)'),borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,indexAxis:'y',scales:{x:{...d.x,max:100,ticks:{callback:v=>v+'%',color:'#6e7681',font:{size:9.5}}},y:{...d.y,ticks:{color:'#8b949e',font:{size:9}}}}}});
+
+// ===================== SUBCAT CHARTS =====================
+const plVols=[163,181,164,196,66,75,43,11]; const plDays=[2.91,4.23,3.17,3.49,2.31,2.72,3.13,0.88]; const plL=['Toilet','Tub/Shower','Sink','Plumbing Gen','Disposal','Water Heater','Faucet','Leak/Damage'];
+mkChart('c-plVol',{type:'bar',data:{labels:plL,datasets:[{data:plVols,backgroundColor:'rgba(88,166,255,0.65)',borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,indexAxis:'y',scales:{x:d.x,y:{...d.y,ticks:{color:'#8b949e',font:{size:10}}}}}});
+mkChart('c-plDays',{type:'bar',data:{labels:plL,datasets:[{data:plDays,backgroundColor:plDays.map(v=>v>=4?'rgba(248,81,73,0.75)':v>=3?'rgba(227,179,65,0.7)':'rgba(63,185,80,0.7)'),borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,indexAxis:'y',scales:{x:{...d.x,title:{display:true,text:'Avg Days',color:'#6e7681',font:{size:9}}},y:{...d.y,ticks:{color:'#8b949e',font:{size:10}}}}}});
+const apL=['Washer','Stove/Oven','Dishwasher','Refrigerator','Dryer','Microwave']; const apVols=[163,210,98,101,73,7]; const apDays=[5.25,3.43,6.41,3.54,4.81,1.80];
+mkChart('c-apVol',{type:'bar',data:{labels:apL,datasets:[{data:apVols,backgroundColor:'rgba(88,166,255,0.65)',borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,indexAxis:'y',scales:{x:d.x,y:{...d.y,ticks:{color:'#8b949e',font:{size:10}}}}}});
+mkChart('c-apDays',{type:'bar',data:{labels:apL,datasets:[{data:apDays,backgroundColor:apDays.map(v=>v>=5?'rgba(248,81,73,0.8)':v>=3.5?'rgba(227,179,65,0.75)':'rgba(63,185,80,0.7)'),borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,indexAxis:'y',scales:{x:{...d.x,title:{display:true,text:'Avg Days',color:'#6e7681',font:{size:9}}},y:{...d.y,ticks:{color:'#8b949e',font:{size:10}}}}}});
+const hvL=['AC/HVAC','Heater','Thermostat','Vents/Ducts']; const hvVols=[353,70,14,16]; const hvDays=[1.71,1.43,2.10,2.40];
+mkChart('c-hvVol',{type:'bar',data:{labels:hvL,datasets:[{data:hvVols,backgroundColor:'rgba(88,166,255,0.65)',borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,scales:{x:d.x,y:{...d.y,ticks:{color:'#8b949e',font:{size:10}}}}}});
+mkChart('c-hvDays',{type:'bar',data:{labels:hvL,datasets:[{data:hvDays,backgroundColor:'rgba(63,185,80,0.7)',borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,scales:{x:d.x,y:{...d.y,ticks:{color:'#8b949e',font:{size:10}}}}}});
+const dkL=['Entry Door','Mailbox/Keys','Lock','Interior Door','Patio Door']; const dkVols=[97,133,43,44,25]; const dkDays=[1.95,2.76,1.16,4.16,6.57];
+mkChart('c-dkVol',{type:'bar',data:{labels:dkL,datasets:[{data:dkVols,backgroundColor:'rgba(88,166,255,0.65)',borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,scales:{x:d.x,y:{...d.y,ticks:{color:'#8b949e',font:{size:10}}}}}});
+mkChart('c-dkDays',{type:'bar',data:{labels:dkL,datasets:[{data:dkDays,backgroundColor:dkDays.map(v=>v>=5?'rgba(248,81,73,0.8)':v>=3?'rgba(227,179,65,0.75)':'rgba(63,185,80,0.7)'),borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,scales:{x:d.x,y:{...d.y,ticks:{color:'#8b949e',font:{size:10}}}}}});
+const elL=['Lighting/Fan','Outlet/Switch','Smoke/CO Det','Fire Alarm','Circuit Breaker']; const elVols=[118,69,33,11,12]; const elDays=[3.81,3.34,1.75,2.80,2.20];
+mkChart('c-elVol',{type:'bar',data:{labels:elL,datasets:[{data:elVols,backgroundColor:'rgba(88,166,255,0.65)',borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,scales:{x:d.x,y:{...d.y,ticks:{color:'#8b949e',font:{size:10}}}}}});
+mkChart('c-elDays',{type:'bar',data:{labels:elL,datasets:[{data:elDays,backgroundColor:elDays.map(v=>v>=4?'rgba(248,81,73,0.75)':v>=2.5?'rgba(227,179,65,0.7)':'rgba(63,185,80,0.7)'),borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,scales:{x:d.x,y:{...d.y,ticks:{color:'#8b949e',font:{size:10}}}}}});
+const allSubL=['Dishwasher','Washer','Patio Door','Cabinets','Dryer','Tub/Shower','Bathrm Hdwr','Stove/Oven','Plumbing Gen','Sink','Paint/Drywall','Lighting/Fan','Interior Door','Refrigerator','Outlet/Switch','Faucet','Toilet','Water Heater','Entry Door','Disposal','Smoke/CO Det','AC/HVAC','Heater','Pest Control','Lock'];
+const allSubD=[6.41,5.25,6.57,5.76,4.81,4.23,5.29,3.43,3.49,3.17,4.77,3.81,4.16,3.54,3.34,3.13,2.91,2.72,1.95,2.31,1.75,1.71,1.43,1.13,1.16];
+const allSubV=[98,163,25,62,73,181,48,210,196,164,122,118,44,101,69,43,163,75,97,66,33,353,70,43,43];
+const sorted = allSubL.map((l,i)=>({l,d:allSubD[i],v:allSubV[i]})).sort((a,b)=>b.d-a.d);
+mkChart('c-allDays',{type:'bar',data:{labels:sorted.map(x=>x.l),datasets:[{data:sorted.map(x=>x.d),backgroundColor:sorted.map(x=>x.d>=5?'rgba(248,81,73,0.8)':x.d>=3.5?'rgba(227,179,65,0.75)':'rgba(63,185,80,0.7)'),borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,indexAxis:'y',scales:{x:{...d.x,title:{display:true,text:'Avg Days',color:'#6e7681',font:{size:9}}},y:{...d.y,ticks:{color:'#8b949e',font:{size:8.5}}}}}});
+const sortedV = allSubL.map((l,i)=>({l,d:allSubD[i],v:allSubV[i]})).sort((a,b)=>b.v-a.v);
+mkChart('c-allVol',{type:'bar',data:{labels:sortedV.map(x=>x.l),datasets:[{data:sortedV.map(x=>x.v),backgroundColor:'rgba(88,166,255,0.65)',borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,indexAxis:'y',scales:{x:d.x,y:{...d.y,ticks:{color:'#8b949e',font:{size:8.5}}}}}});
+
+// ===================== SIDE-BY-SIDE =====================
+const compareData = {
+  'AC/HVAC':{props:['RAM','45726','45729','45703','45713','45724','45728','45720','45718','45716','45715','45725','45710','45711','45727'],ct:[83,74,48,43,21,20,18,17,8,7,4,4,3,2,1],avg:[0.95,1.29,2.20,0.95,3.33,2.22,0.23,6.72,1.08,3.25,2.06,1.67,0.40,0.22,0.90],p24:[78.3,60.8,50.0,69.8,71.4,65.0,100,23.5,50.0,28.6,75.0,50.0,66.7,100,100]},
+  'Toilet':{props:['45726','45724','RAM','45729','45720','45728','45713','45703','45715','45711','45725','45710','45716','45718'],ct:[36,29,23,23,15,10,9,8,3,2,2,1,1,1],avg:[1.80,1.20,0.81,8.48,7.03,0.27,1.67,3.08,1.76,2.62,1.17,0.17,0.20,0.11],p24:[50,62.1,73.9,17.4,33.3,90,66.7,62.5,33.3,0,50,100,100,100]},
+  'Washer':{props:['45729','45703','RAM','45728','45726','45720','45724','45725','45711','45713','45716','45718','45727'],ct:[49,26,19,18,16,14,7,4,3,3,2,1,1],avg:[8.18,2.26,2.27,0.42,2.88,16.25,3.71,2.11,2.09,8.54,0.41,2.55,2.74],p24:[10.2,46.2,47.4,88.9,50,7.1,42.9,25,0,0,100,0,0]},
+  'Dishwasher':{props:['45703','45720','45729','45713','45726','45724','45725','45728','45716','45711','45727','RAM'],ct:[34,21,14,7,5,4,3,3,2,2,2,1],avg:[2.08,18.02,7.01,2.36,5.98,2.65,1.02,0.72,2.74,2.66,3.92,0],p24:[47.1,19.0,28.6,57.1,20,25,66.7,66.7,50,0,50,100]},
+  'Tub/Shower':{props:['45726','45729','45724','45720','RAM','45728','45725','45715','45713','45703','45711','45710','45716'],ct:[42,37,29,20,12,9,9,8,5,4,3,2,1],avg:[3.77,7.45,2.26,7.99,1.91,0.46,2.65,1.93,3.51,2.80,3.73,0.12,0.09],p24:[28.6,21.6,44.8,10,66.7,88.9,66.7,50,60,25,0,100,100]},
+  'Stove/Oven':{props:['45726','45703','45716','45729','45724','45720','45710','45728','RAM','45711','45713','45715','45718','45727'],ct:[50,39,32,26,16,10,10,7,6,4,4,2,1,1],avg:[3.42,1.32,1.23,9.22,0.93,14.57,0.97,0.53,3.52,2.85,1.17,1.05,1.01,1.89],p24:[34,59,81.3,23.1,62.5,10,60,100,50,0,75,0,0,0]},
+  'Refrigerator':{props:['RAM','45726','45703','45729','45713','45720','45724','45711','45710','45725','45728','45716','45718','45715'],ct:[21,15,13,12,9,6,6,4,3,3,3,2,2,1],avg:[2.76,1.61,2.15,8.14,5.40,9.64,2.20,2.66,1.64,0.33,0.75,1.86,0.78,0.25],p24:[52.4,60,53.8,33.3,22.2,16.7,66.7,0,66.7,100,66.7,0,100,100]},
+  'Make Ready':{props:['45724','RAM','45703','45729','45726','45713','45728','45725','45720'],ct:[17,11,6,4,7,3,3,1,1],avg:[4.08,0.81,1.86,3.75,3.94,9.64,0.04,0.60,15.80],p24:[29.4,90.9,33.3,75,42.9,0,100,100,0]},
+  'Entry Door':{props:['RAM','45703','45724','45726','45728','45729','45720','45711','45716','45713','45725','45727'],ct:[45,14,8,8,7,4,3,2,2,2,1,1],avg:[0.81,1.45,1.24,2.36,0.25,8.74,17.13,2.00,1.65,1.74,1.05,3.85],p24:[75.6,50,62.5,50,85.7,25,0,50,50,50,0,0]},
+  'Pest Control':{props:['RAM','45726','45725','45724','45720','45728','45703','45727','45729'],ct:[15,9,7,4,3,2,1,1,1],avg:[0.93,0.10,0.97,0.71,1.24,0.13,6.00,0.05,14.18],p24:[80,100,85.7,75,66.7,100,0,100,0]},
+};
+const catBtns = document.getElementById('catBtns');
+let cmpChart1, cmpChart2;
+Object.keys(compareData).forEach((cat,i)=>{
+  const btn = document.createElement('div');
+  btn.className = 'cat-btn' + (i===0?' active':'');
+  btn.textContent = cat;
+  btn.onclick = ()=>{ document.querySelectorAll('.cat-btn').forEach(b=>b.classList.remove('active')); btn.classList.add('active'); renderCompare(cat); afterRenderCompare(cat); };
+  catBtns.appendChild(btn);
+});
+function renderCompare(cat) {
+  const cd = compareData[cat];
+  document.querySelectorAll('[id^="cmp-title"]').forEach(el=>el.textContent=cat);
+  const labels = cd.props.map(p=>PLABELS[p]||p);
+  const colAvg = cd.avg.map(v=>v>4?'rgba(248,81,73,0.75)':v>2?'rgba(227,179,65,0.7)':'rgba(63,185,80,0.7)');
+  const col24 = cd.p24.map(v=>v>=65?'rgba(63,185,80,0.7)':v>=45?'rgba(88,166,255,0.6)':'rgba(248,81,73,0.7)');
+  mkChart('c-cmpDays',{type:'bar',data:{labels,datasets:[{data:cd.avg,backgroundColor:colAvg,borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,indexAxis:'y',scales:{x:{...d.x,title:{display:true,text:'Avg Days',color:'#6e7681',font:{size:9}}},y:{...d.y,ticks:{color:'#8b949e',font:{size:9.5}}}}}});
+  mkChart('c-cmp24h',{type:'bar',data:{labels,datasets:[{data:cd.p24,backgroundColor:col24,borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,indexAxis:'y',scales:{x:{...d.x,max:100,ticks:{callback:v=>v+'%',color:'#6e7681',font:{size:9.5}}},y:{...d.y,ticks:{color:'#8b949e',font:{size:9.5}}}}}});
+  const tbl = document.getElementById('cmpTbl');
+  tbl.innerHTML='<thead><tr><th>Property</th><th>WOs</th><th>Avg Days</th><th>% in 24h</th><th>Speed</th><th>Rating</th></tr></thead><tbody>'+
+  cd.props.map((p,i)=>{const bc=cd.avg[i]>4?'#f85149':cd.avg[i]>2?'#e3b341':'#3fb950';const bw=Math.min(100,(cd.avg[i]/12)*100);const fl=cd.avg[i]>4?'<span class="fl flr">Slow</span>':cd.avg[i]>2?'<span class="fl fly">OK</span>':'<span class="fl flg">Fast</span>';
+  return `<tr><td style="font-weight:600;color:#e2e8f0">${PLABELS[p]||p}</td><td>${cd.ct[i]}</td><td style="color:${bc};font-weight:700">${cd.avg[i].toFixed(2)}</td><td>${cd.p24[i].toFixed(1)}%</td><td><div class="mb"><div class="mbf" style="width:${bw}%;background:${bc}"></div></div></td><td>${fl}</td></tr>`;
+  }).join('')+'</tbody>';
+}
+renderCompare('AC/HVAC');
+
+// ===================== MAKE READY CHARTS =====================
+const mrProps=['Skye Oaks','RAM Riverwalk','The Park at Peachtree Hills','SKYE at Hunters Creek','Hanley Place','The Boardwalk','Upland Townhomes','Nightingale on 25th','Skye Reserve'];
+const mrDays=[0.28,0.81,2.28,2.74,3.75,3.94,4.08,9.64,30.88];
+const mrVols=[4,11,5,6,4,7,17,3,1];
+mkChart('c-mrDays',{type:'bar',data:{labels:mrProps,datasets:[{data:mrDays,backgroundColor:mrDays.map(v=>v>7?'rgba(248,81,73,0.75)':v>3?'rgba(227,179,65,0.7)':'rgba(63,185,80,0.7)'),borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,indexAxis:'y',scales:{x:{...d.x,title:{display:true,text:'Avg Days',color:'#6e7681',font:{size:9}}},y:{...d.y,ticks:{color:'#8b949e',font:{size:9.5}}}}}});
+mkChart('c-mrVol',{type:'bar',data:{labels:mrProps,datasets:[{data:mrVols,backgroundColor:'rgba(88,166,255,0.65)',borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,indexAxis:'y',scales:{x:d.x,y:{...d.y,ticks:{color:'#8b949e',font:{size:9.5}}}}}});
+
+// ===================== MOLD / SMOKE CHARTS =====================
+mkChart('c-moldBar',{type:'bar',data:{labels:['The Boardwalk','The Julia','Hanley Place','Upland Townhomes','The Park at Peachtree Hills','Nightingale on 25th','RAM Riverwalk'],datasets:[{data:[9,9,5,3,3,1,1],backgroundColor:['#f85149','#f85149','#e3b341','#e3b341','#e3b341','#58a6ff','#3fb950'],borderRadius:4}]},options:{responsive:true,maintainAspectRatio:true,...nl,indexAxis:'y',scales:{x:{...d.x,title:{display:true,text:'Mold WOs',color:'#6e7681',font:{size:9}}},y:{...d.y,ticks:{color:'#8b949e',font:{size:9.5}}}}}});
+mkChart('c-smokeBar',{type:'bar',data:{labels:['RAM Riverwalk','Skye Oaks','Hanley Place','The Boardwalk','Skye Ridge','Upland Townhomes','Skye Reserve','Nightingale on 25th','Ninety-Nine44 on Walnut','Parks at Walnut'],datasets:[{label:'Smoke/CO WOs',data:[13,5,9,6,4,2,4,1,2,1],backgroundColor:'rgba(88,166,255,0.6)',borderRadius:3},{label:'Slow (3+d)',data:[0,0,1,1,2,1,3,0,1,0],backgroundColor:'rgba(248,81,73,0.75)',borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,plugins:{legend:{display:true,position:'top',labels:{color:'#8b949e',font:{size:9.5},boxWidth:10}}},scales:{x:d.x,y:{...d.y,ticks:{color:'#8b949e',font:{size:9.5}}}}}});
+
+// ===================== PRIORITY CHARTS =====================
+mkChart('c-prioAvg',{type:'bar',data:{labels:['Emergency','High','Medium','Low'],datasets:[{data:[0.93,2.54,2.43,5.03],backgroundColor:['rgba(63,185,80,0.75)','rgba(88,166,255,0.65)','rgba(227,179,65,0.7)','rgba(248,81,73,0.75)'],borderRadius:4}]},options:{responsive:true,maintainAspectRatio:true,...nl,scales:{x:d.x,y:{...d.y,title:{display:true,text:'Avg Days',color:'#6e7681',font:{size:9}}}}}});
+mkChart('c-prio24h',{type:'bar',data:{labels:['Emergency','High','Medium','Low'],datasets:[{data:[63.6,61.7,54.8,38.8],backgroundColor:['rgba(63,185,80,0.75)','rgba(88,166,255,0.65)','rgba(227,179,65,0.7)','rgba(248,81,73,0.75)'],borderRadius:4}]},options:{responsive:true,maintainAspectRatio:true,...nl,scales:{x:d.x,y:{...d.y,max:100,ticks:{callback:v=>v+'%',color:'#6e7681',font:{size:9.5}}}}}});
+
+// ===================== SCORECARD CHARTS =====================
+const scL=['Skye Oaks','Skye at Love','Skye at Conway','SKYE Isle','Parks at Walnut','Ninety-Nine44 on Walnut','RAM Preserve at Riverwalk','SKYE at Hunters Creek','Skye Ridge','The Park at Peachtree Hills','Upland Townhomes','Chimney Hill','The Boardwalk','Nightingale on 25th','Skye Reserve','The Flats','Hanley Place'];
+const scA=[0.43,0.99,1.00,1.04,1.23,1.46,1.61,1.66,1.89,2.00,2.03,2.12,2.64,3.50,5.18,5.43,5.55];
+const scSlow=[0,0,0,0,2,2,19,18,1,4,24,0,71,20,120,8,164];
+mkChart('c-scAvg',{type:'bar',data:{labels:scL,datasets:[{data:scA,backgroundColor:scA.map(v=>v>4?'rgba(248,81,73,0.75)':v>2.5?'rgba(227,179,65,0.7)':'rgba(63,185,80,0.7)'),borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,indexAxis:'y',scales:{x:{...d.x,title:{display:true,text:'Avg Days',color:'#6e7681',font:{size:9}}},y:{...d.y,ticks:{color:'#8b949e',font:{size:9}}}}}});
+mkChart('c-scSlow',{type:'bar',data:{labels:scL,datasets:[{data:scSlow,backgroundColor:scSlow.map(v=>v>50?'rgba(248,81,73,0.75)':v>10?'rgba(227,179,65,0.7)':'rgba(63,185,80,0.7)'),borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...nl,indexAxis:'y',scales:{x:{...d.x,title:{display:true,text:'WOs Taking 7+ Days',color:'#6e7681',font:{size:9}}},y:{...d.y,ticks:{color:'#8b949e',font:{size:9}}}}}});
+
+// ===================== NAV =====================
+function showPage(id){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.navbtn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('page-'+id).classList.add('active');
+  document.querySelector(`[onclick="showPage('${id}')"]`).classList.add('active');
+}
+function switchTab(page,tab,el){
+  const panels=document.querySelectorAll(`[id^="${page}-"]`);
+  panels.forEach(p=>p.classList.remove('active'));
+  document.getElementById(`${page}-${tab}`).classList.add('active');
+  el.closest('.tabs').querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  el.classList.add('active');
+}
+
+const PROP_DATA = {"RAM": {"name": "RAM Preserve at Riverwalk", "pid": "RAM", "total": 446, "completed": 446, "avg": 1.61, "median": 1.0, "p24": 67.3, "p48": 80.7, "p72": 88.3, "slow": 19, "slow_pct": 4.3, "mold_count": 1, "mold_wos": [{"desc": "Rust and slight mold from gunk b", "date": "2025-10-13", "days": 1.0}], "monthly": {"2025-09": {"avg": 1.39, "p24": 72.1, "vol": 183}, "2025-10": {"avg": 0.91, "p24": 82.7, "vol": 81}, "2025-11": {"avg": 3.16, "p24": 43.5, "vol": 62}, "2025-12": {"avg": 1.75, "p24": 68.4, "vol": 38}, "2026-01": {"avg": 1.36, "p24": 65.8, "vol": 38}, "2026-02": {"avg": 1.7, "p24": 52.3, "vol": 44}}, "cats": [{"name": "Appliances", "count": 98, "avg": 2.17, "p24": 59.2, "slow": 7}, {"name": "HVAC", "count": 83, "avg": 0.99, "p24": 78.3, "slow": 2}, {"name": "Plumbing & Bath", "count": 77, "avg": 1.18, "p24": 67.5, "slow": 1}, {"name": "Doors & Locks", "count": 55, "avg": 0.82, "p24": 76.4, "slow": 0}, {"name": "Misc", "count": 39, "avg": 2.48, "p24": 59.0, "slow": 3}, {"name": "Lighting", "count": 22, "avg": 2.27, "p24": 72.7, "slow": 1}, {"name": "Pest Control", "count": 14, "avg": 1.07, "p24": 78.6, "slow": 0}, {"name": "Exterior", "count": 10, "avg": 1.31, "p24": 80.0, "slow": 1}, {"name": "Electrical", "count": 10, "avg": 1.39, "p24": 50.0, "slow": 0}, {"name": "Common Area", "count": 8, "avg": 0.83, "p24": 75.0, "slow": 0}, {"name": "Access", "count": 6, "avg": 1.51, "p24": 33.3, "slow": 0}, {"name": "Preventative", "count": 6, "avg": 2.65, "p24": 83.3, "slow": 1}], "subs": [{"name": "AC/HVAC", "count": 83, "avg": 0.95, "p24": 78.3, "slow": 2}, {"name": "Entry Door", "count": 45, "avg": 0.81, "p24": 75.6, "slow": 0}, {"name": "Toilet", "count": 23, "avg": 0.81, "p24": 73.9, "slow": 0}, {"name": "Misc/General", "count": 23, "avg": 3.25, "p24": 56.5, "slow": 3}, {"name": "Refrigerator", "count": 21, "avg": 2.76, "p24": 52.4, "slow": 1}, {"name": "Sink", "count": 20, "avg": 1.64, "p24": 60.0, "slow": 1}, {"name": "Washer", "count": 19, "avg": 2.27, "p24": 47.4, "slow": 1}, {"name": "Mailbox/Keys", "count": 18, "avg": 0.99, "p24": 55.6, "slow": 0}, {"name": "Garbage Disposal", "count": 16, "avg": 0.77, "p24": 75.0, "slow": 0}, {"name": "Lighting/Fan", "count": 16, "avg": 2.8, "p24": 56.2, "slow": 1}, {"name": "Plumbing General", "count": 16, "avg": 1.65, "p24": 50.0, "slow": 0}, {"name": "Common Areas", "count": 16, "avg": 1.36, "p24": 81.2, "slow": 1}, {"name": "Appliance General", "count": 16, "avg": 2.94, "p24": 50.0, "slow": 3}, {"name": "Pest Control", "count": 15, "avg": 0.93, "p24": 80.0, "slow": 0}, {"name": "Smoke/CO Detector", "count": 13, "avg": 0.57, "p24": 84.6, "slow": 0}, {"name": "Dryer", "count": 13, "avg": 1.76, "p24": 61.5, "slow": 0}, {"name": "Tub/Shower", "count": 12, "avg": 1.91, "p24": 66.7, "slow": 1}, {"name": "Make Ready", "count": 11, "avg": 0.81, "p24": 90.9, "slow": 0}, {"name": "Leak/Water Damage", "count": 11, "avg": 0.88, "p24": 81.8, "slow": 0}, {"name": "Stove/Oven", "count": 6, "avg": 3.52, "p24": 50.0, "slow": 1}], "prio": {"Emergency": {"count": 11, "avg": 0.93, "p24": 63.6}, "High": {"count": 70, "avg": 1.35, "p24": 71.4}, "Medium": {"count": 355, "avg": 1.55, "p24": 67.6}, "Low": {"count": 4, "avg": 2.77, "p24": 50.0}}, "slow_cats": {"Appliances": 7, "Misc": 3, "HVAC": 2, "Carpentry": 1, "Flooring": 1, "Exterior": 1}, "keywords": {"door": 47, "ac": 35, "toilet": 24, "lock": 22, "sink": 20, "washer": 17, "dryer": 13, "leak": 12, "smoke": 11, "clog": 9}}, "JULIA": {"name": "The Julia", "pid": "JULIA", "total": 888, "completed": 0, "avg": null, "median": null, "p24": null, "p48": null, "p72": null, "slow": 0, "slow_pct": 0, "mold_count": 9, "mold_wos": [{"desc": "Mold / Mildew Issue", "date": "2025-09-18", "days": null}, {"desc": "Mold / Mildew Issue", "date": "2025-10-02", "days": null}, {"desc": "Mold / Mildew Issue", "date": "2025-10-15", "days": null}, {"desc": "Mold / Mildew Issue", "date": "2025-11-01", "days": null}, {"desc": "Mold / Mildew Issue", "date": "2025-11-15", "days": null}, {"desc": "Mold / Mildew Issue", "date": "2025-12-15", "days": null}, {"desc": "Mold / Mildew Issue", "date": "2025-12-29", "days": null}, {"desc": "Mold / Mildew Issue", "date": "2026-01-01", "days": null}, {"desc": "Mold / Mildew Issue", "date": "2026-02-19", "days": null}], "monthly": {"2025-09": {"avg": null, "p24": null, "vol": 141}, "2025-10": {"avg": null, "p24": null, "vol": 147}, "2025-11": {"avg": null, "p24": null, "vol": 147}, "2025-12": {"avg": null, "p24": null, "vol": 156}, "2026-01": {"avg": null, "p24": null, "vol": 139}, "2026-02": {"avg": null, "p24": null, "vol": 158}}, "cats": [], "subs": [], "prio": {}, "slow_cats": {}, "keywords": {"washer": 86, "door": 70, "toilet": 44, "pest": 40, "sink": 37, "dryer": 30, "leak": 27, "ac": 27, "heat": 25, "lock": 17}}, "45703": {"name": "SKYE at Hunters Creek", "pid": "45703", "total": 356, "completed": 356, "avg": 1.66, "median": 0.98, "p24": 52.2, "p48": 72.5, "p72": 81.7, "slow": 18, "slow_pct": 5.1, "mold_count": 0, "mold_wos": [], "monthly": {"2025-09": {"avg": 2.64, "p24": 38.9, "vol": 72}, "2025-10": {"avg": 1.88, "p24": 51.6, "vol": 64}, "2025-11": {"avg": 1.74, "p24": 44.7, "vol": 76}, "2025-12": {"avg": 0.73, "p24": 65.3, "vol": 49}, "2026-01": {"avg": 1.11, "p24": 64.4, "vol": 45}, "2026-02": {"avg": 1.25, "p24": 60.0, "vol": 50}}, "cats": [{"name": "Appliances", "count": 148, "avg": 1.85, "p24": 50.0, "slow": 9}, {"name": "HVAC", "count": 51, "avg": 0.84, "p24": 74.5, "slow": 1}, {"name": "Doors & Locks", "count": 48, "avg": 1.52, "p24": 52.1, "slow": 3}, {"name": "Plumbing & Bath", "count": 35, "avg": 2.11, "p24": 48.6, "slow": 2}, {"name": "Interior", "count": 27, "avg": 2.22, "p24": 33.3, "slow": 1}, {"name": "Common Area", "count": 25, "avg": 1.07, "p24": 60.0, "slow": 0}, {"name": "Electrical", "count": 14, "avg": 1.2, "p24": 50.0, "slow": 1}, {"name": "Housekeeping", "count": 3, "avg": 3.36, "p24": 0.0, "slow": 0}, {"name": "Windows", "count": 2, "avg": 5.02, "p24": 0.0, "slow": 1}], "subs": [{"name": "AC/HVAC", "count": 43, "avg": 0.95, "p24": 69.8, "slow": 1}, {"name": "Stove/Oven", "count": 39, "avg": 1.32, "p24": 59.0, "slow": 2}, {"name": "Dishwasher", "count": 34, "avg": 2.08, "p24": 47.1, "slow": 4}, {"name": "Washer", "count": 26, "avg": 2.26, "p24": 46.2, "slow": 0}, {"name": "Lock", "count": 16, "avg": 1.24, "p24": 56.2, "slow": 0}, {"name": "Garbage Disposal", "count": 16, "avg": 1.07, "p24": 62.5, "slow": 0}, {"name": "Entry Door", "count": 14, "avg": 1.45, "p24": 50.0, "slow": 1}, {"name": "Common Areas", "count": 13, "avg": 0.78, "p24": 76.9, "slow": 0}, {"name": "Refrigerator", "count": 13, "avg": 2.15, "p24": 53.8, "slow": 1}, {"name": "Mailbox/Keys", "count": 12, "avg": 1.73, "p24": 58.3, "slow": 1}, {"name": "Cabinets/Shelves", "count": 10, "avg": 2.38, "p24": 50.0, "slow": 1}, {"name": "Toilet", "count": 8, "avg": 3.08, "p24": 62.5, "slow": 1}, {"name": "Paint/Drywall", "count": 7, "avg": 2.17, "p24": 28.6, "slow": 0}, {"name": "Dryer", "count": 7, "avg": 1.64, "p24": 57.1, "slow": 1}, {"name": "Plumbing General", "count": 7, "avg": 2.24, "p24": 71.4, "slow": 1}], "prio": {"High": {"count": 14, "avg": 1.44, "p24": 71.4}, "Medium": {"count": 4, "avg": 3.51, "p24": 25.0}, "Low": {"count": 3, "avg": 5.18, "p24": 0.0}}, "slow_cats": {"Appliances": 9, "Doors & Locks": 3, "Plumbing & Bath": 2, "Electrical": 1, "HVAC": 1, "Interior": 1}, "keywords": {"washer": 43, "lock": 34, "ac": 33, "door": 25, "leak": 16, "sink": 14, "toilet": 12, "clog": 8, "heat": 8, "dryer": 7}}, "45708": {"name": "SKYE Isle", "pid": "45708", "total": 1, "completed": 1, "avg": 1.04, "median": 1.04, "p24": 0.0, "p48": 100.0, "p72": 100.0, "slow": 0, "slow_pct": 0.0, "mold_count": 0, "mold_wos": [], "monthly": {"2025-09": {"avg": null, "p24": null, "vol": 0}, "2025-10": {"avg": 1.04, "p24": 0.0, "vol": 1}, "2025-11": {"avg": null, "p24": null, "vol": 0}, "2025-12": {"avg": null, "p24": null, "vol": 0}, "2026-01": {"avg": null, "p24": null, "vol": 0}, "2026-02": {"avg": null, "p24": null, "vol": 0}}, "cats": [{"name": "Appliances", "count": 1, "avg": 1.04, "p24": 0.0, "slow": 0}], "subs": [{"name": "Stove/Oven", "count": 1, "avg": 1.04, "p24": 0.0, "slow": 0}], "prio": {}, "slow_cats": {}, "keywords": {}}, "45709": {"name": "Chimney Hill", "pid": "45709", "total": 4, "completed": 2, "avg": 2.12, "median": 2.12, "p24": 50.0, "p48": 50.0, "p72": 50.0, "slow": 0, "slow_pct": 0.0, "mold_count": 0, "mold_wos": [], "monthly": {"2025-09": {"avg": null, "p24": null, "vol": 0}, "2025-10": {"avg": 4.24, "p24": 0.0, "vol": 1}, "2025-11": {"avg": null, "p24": null, "vol": 0}, "2025-12": {"avg": null, "p24": null, "vol": 1}, "2026-01": {"avg": 0.0, "p24": 100.0, "vol": 2}, "2026-02": {"avg": null, "p24": null, "vol": 0}}, "cats": [{"name": "Common Area", "count": 1, "avg": 4.24, "p24": 0.0, "slow": 0}, {"name": "Electrical", "count": 1, "avg": 0.0, "p24": 100.0, "slow": 0}], "subs": [{"name": "Mailbox/Keys", "count": 1, "avg": 4.24, "p24": 0.0, "slow": 0}, {"name": "Outlet/Switch", "count": 1, "avg": 0.0, "p24": 100.0, "slow": 0}], "prio": {}, "slow_cats": {}, "keywords": {}}, "45710": {"name": "Skye at Love", "pid": "45710", "total": 35, "completed": 33, "avg": 0.99, "median": 0.34, "p24": 57.6, "p48": 87.9, "p72": 90.9, "slow": 0, "slow_pct": 0.0, "mold_count": 0, "mold_wos": [], "monthly": {"2025-09": {"avg": null, "p24": null, "vol": 0}, "2025-10": {"avg": 0.65, "p24": 76.5, "vol": 17}, "2025-11": {"avg": null, "p24": null, "vol": 0}, "2025-12": {"avg": 0.5, "p24": 66.7, "vol": 3}, "2026-01": {"avg": 2.2, "p24": 16.7, "vol": 7}, "2026-02": {"avg": 1.0, "p24": 42.9, "vol": 8}}, "cats": [{"name": "Appliances", "count": 14, "avg": 1.21, "p24": 57.1, "slow": 0}, {"name": "Plumbing & Bath", "count": 8, "avg": 0.65, "p24": 62.5, "slow": 0}, {"name": "HVAC", "count": 5, "avg": 0.52, "p24": 60.0, "slow": 0}, {"name": "Electrical", "count": 2, "avg": 2.43, "p24": 50.0, "slow": 0}, {"name": "Exterior", "count": 1, "avg": 1.75, "p24": 0.0, "slow": 0}, {"name": "Doors & Locks", "count": 1, "avg": 0.01, "p24": 100.0, "slow": 0}], "subs": [{"name": "Stove/Oven", "count": 10, "avg": 0.97, "p24": 60.0, "slow": 0}, {"name": "Sink", "count": 3, "avg": 1.25, "p24": 33.3, "slow": 0}, {"name": "AC/HVAC", "count": 3, "avg": 0.4, "p24": 66.7, "slow": 0}, {"name": "Refrigerator", "count": 3, "avg": 1.64, "p24": 66.7, "slow": 0}, {"name": "Thermostat", "count": 2, "avg": 0.71, "p24": 50.0, "slow": 0}, {"name": "Outlet/Switch", "count": 2, "avg": 2.43, "p24": 50.0, "slow": 0}, {"name": "Tub/Shower", "count": 2, "avg": 0.12, "p24": 100.0, "slow": 0}], "prio": {}, "slow_cats": {}, "keywords": {"leak": 7, "ac": 4, "sink": 2}}, "45711": {"name": "Skye Ridge", "pid": "45711", "total": 138, "completed": 137, "avg": 1.89, "median": 1.22, "p24": 43.8, "p48": 62.8, "p72": 76.6, "slow": 1, "slow_pct": 0.7, "mold_count": 0, "mold_wos": [], "monthly": {"2025-09": {"avg": 2.63, "p24": 17.1, "vol": 41}, "2025-10": {"avg": 2.33, "p24": 43.8, "vol": 32}, "2025-11": {"avg": 1.38, "p24": 66.7, "vol": 15}, "2025-12": {"avg": 1.04, "p24": 72.7, "vol": 12}, "2026-01": {"avg": 1.14, "p24": 55.2, "vol": 29}, "2026-02": {"avg": 1.28, "p24": 55.6, "vol": 9}}, "cats": [{"name": "Plumbing & Bath", "count": 26, "avg": 1.97, "p24": 50.0, "slow": 1}, {"name": "Appliances", "count": 22, "avg": 2.4, "p24": 13.6, "slow": 0}, {"name": "Doors & Locks", "count": 9, "avg": 2.73, "p24": 22.2, "slow": 0}, {"name": "Safety", "count": 4, "avg": 2.6, "p24": 25.0, "slow": 0}, {"name": "HVAC", "count": 4, "avg": 2.33, "p24": 50.0, "slow": 0}, {"name": "Flooring", "count": 4, "avg": 2.24, "p24": 25.0, "slow": 0}, {"name": "Interior", "count": 4, "avg": 2.8, "p24": 25.0, "slow": 0}], "subs": [{"name": "Plumbing General", "count": 14, "avg": 1.14, "p24": 78.6, "slow": 0}, {"name": "Mailbox/Keys", "count": 6, "avg": 2.89, "p24": 16.7, "slow": 0}, {"name": "Garbage Disposal", "count": 4, "avg": 1.52, "p24": 50.0, "slow": 0}, {"name": "Smoke/CO Detector", "count": 4, "avg": 2.6, "p24": 25.0, "slow": 0}, {"name": "Refrigerator", "count": 4, "avg": 2.66, "p24": 0.0, "slow": 0}, {"name": "Stove/Oven", "count": 4, "avg": 2.85, "p24": 0.0, "slow": 0}, {"name": "Water Heater", "count": 4, "avg": 3.63, "p24": 25.0, "slow": 1}, {"name": "Washer", "count": 3, "avg": 2.09, "p24": 0.0, "slow": 0}, {"name": "Tub/Shower", "count": 3, "avg": 3.73, "p24": 0.0, "slow": 0}, {"name": "Dryer", "count": 3, "avg": 3.09, "p24": 0.0, "slow": 0}], "prio": {"High": {"count": 62, "avg": 1.29, "p24": 67.7}, "Low": {"count": 72, "avg": 2.41, "p24": 23.6}}, "slow_cats": {"Plumbing & Bath": 1}, "keywords": {"leak": 10, "door": 7, "heat": 5, "toilet": 3, "ac": 2, "washer": 2, "dryer": 2}}, "45713": {"name": "Nightingale on 25th", "pid": "45713", "total": 158, "completed": 154, "avg": 3.5, "median": 0.9, "p24": 53.9, "p48": 63.6, "p72": 68.2, "slow": 20, "slow_pct": 13.0, "mold_count": 1, "mold_wos": [{"desc": "Mold in Bathroom", "date": "2026-02-16", "days": 0.8}], "monthly": {"2025-09": {"avg": 4.73, "p24": 50.0, "vol": 18}, "2025-10": {"avg": 4.97, "p24": 58.5, "vol": 45}, "2025-11": {"avg": 1.04, "p24": 86.7, "vol": 15}, "2025-12": {"avg": 2.36, "p24": 59.3, "vol": 27}, "2026-01": {"avg": 4.38, "p24": 17.4, "vol": 23}, "2026-02": {"avg": 2.32, "p24": 56.7, "vol": 30}}, "cats": [{"name": "Plumbing & Bath", "count": 37, "avg": 3.52, "p24": 59.5, "slow": 4}, {"name": "Appliances", "count": 26, "avg": 4.32, "p24": 38.5, "slow": 5}, {"name": "Interior", "count": 23, "avg": 4.62, "p24": 47.8, "slow": 4}, {"name": "HVAC", "count": 22, "avg": 3.26, "p24": 68.2, "slow": 3}, {"name": "Doors & Locks", "count": 18, "avg": 2.13, "p24": 55.6, "slow": 1}, {"name": "Electrical", "count": 12, "avg": 1.71, "p24": 66.7, "slow": 0}, {"name": "Windows", "count": 3, "avg": 8.3, "p24": 66.7, "slow": 1}], "subs": [{"name": "AC/HVAC", "count": 21, "avg": 3.33, "p24": 71.4, "slow": 3}, {"name": "Paint/Drywall", "count": 11, "avg": 4.83, "p24": 54.5, "slow": 1}, {"name": "Sink", "count": 10, "avg": 4.0, "p24": 50.0, "slow": 1}, {"name": "Lighting/Fan", "count": 9, "avg": 1.74, "p24": 66.7, "slow": 0}, {"name": "Mailbox/Keys", "count": 9, "avg": 2.51, "p24": 44.4, "slow": 1}, {"name": "Refrigerator", "count": 9, "avg": 5.4, "p24": 22.2, "slow": 2}, {"name": "Toilet", "count": 9, "avg": 1.67, "p24": 66.7, "slow": 0}, {"name": "Plumbing General", "count": 8, "avg": 3.47, "p24": 50.0, "slow": 1}, {"name": "Dishwasher", "count": 7, "avg": 2.36, "p24": 57.1, "slow": 0}, {"name": "Tub/Shower", "count": 5, "avg": 3.51, "p24": 60.0, "slow": 1}, {"name": "Make Ready", "count": 3, "avg": 9.64, "p24": 0.0, "slow": 3}, {"name": "Washer", "count": 3, "avg": 8.54, "p24": 0.0, "slow": 2}, {"name": "Bathroom Hardware", "count": 2, "avg": 14.05, "p24": 50.0, "slow": 1}], "prio": {"High": {"count": 12, "avg": 3.01, "p24": 58.3}, "Low": {"count": 1, "avg": 0.01, "p24": 100.0}}, "slow_cats": {"Appliances": 5, "Interior": 4, "Plumbing & Bath": 4, "HVAC": 3, "Doors & Locks": 1, "Windows": 1}, "keywords": {"toilet": 7, "door": 6, "leak": 4, "ac": 4, "lock": 3, "washer": 3, "heat": 2}}, "45715": {"name": "Ninety-Nine44 on Walnut", "pid": "45715", "total": 133, "completed": 133, "avg": 1.46, "median": 0.87, "p24": 61.7, "p48": 88.7, "p72": 91.0, "slow": 2, "slow_pct": 1.5, "mold_count": 0, "mold_wos": [], "monthly": {"2025-09": {"avg": 0.44, "p24": 100.0, "vol": 20}, "2025-10": {"avg": 0.66, "p24": 71.4, "vol": 14}, "2025-11": {"avg": 1.05, "p24": 58.3, "vol": 12}, "2025-12": {"avg": 0.96, "p24": 57.9, "vol": 19}, "2026-01": {"avg": 2.39, "p24": 51.5, "vol": 33}, "2026-02": {"avg": 1.91, "p24": 48.6, "vol": 35}}, "cats": [{"name": "Plumbing & Bath", "count": 15, "avg": 1.65, "p24": 40.0, "slow": 0}, {"name": "Interior", "count": 7, "avg": 2.35, "p24": 42.9, "slow": 1}, {"name": "HVAC", "count": 7, "avg": 1.6, "p24": 57.1, "slow": 0}, {"name": "Appliances", "count": 6, "avg": 7.94, "p24": 33.3, "slow": 1}, {"name": "Electrical", "count": 6, "avg": 1.65, "p24": 50.0, "slow": 0}, {"name": "Doors & Locks", "count": 2, "avg": 0.07, "p24": 100.0, "slow": 0}, {"name": "Safety", "count": 2, "avg": 2.25, "p24": 0.0, "slow": 0}], "subs": [{"name": "Tub/Shower", "count": 8, "avg": 1.93, "p24": 50.0, "slow": 0}, {"name": "AC/HVAC", "count": 4, "avg": 2.06, "p24": 75.0, "slow": 0}, {"name": "Paint/Drywall", "count": 4, "avg": 2.6, "p24": 50.0, "slow": 1}, {"name": "Toilet", "count": 3, "avg": 1.76, "p24": 33.3, "slow": 0}, {"name": "Heater", "count": 3, "avg": 0.99, "p24": 33.3, "slow": 0}, {"name": "Microwave", "count": 2, "avg": 22.58, "p24": 0.0, "slow": 1}, {"name": "Cabinets/Shelves", "count": 3, "avg": 2.03, "p24": 33.3, "slow": 0}], "prio": {"High": {"count": 84, "avg": 0.89, "p24": 71.4}, "Low": {"count": 48, "avg": 2.48, "p24": 43.8}}, "slow_cats": {"Appliances": 1, "Interior": 1}, "keywords": {"toilet": 4, "ac": 3, "leak": 2}}, "45716": {"name": "Parks at Walnut", "pid": "45716", "total": 142, "completed": 142, "avg": 1.23, "median": 0.63, "p24": 66.9, "p48": 81.0, "p72": 90.1, "slow": 2, "slow_pct": 1.4, "mold_count": 0, "mold_wos": [], "monthly": {"2025-09": {"avg": 0.98, "p24": 71.4, "vol": 21}, "2025-10": {"avg": 3.02, "p24": 37.5, "vol": 16}, "2025-11": {"avg": 1.58, "p24": 66.7, "vol": 24}, "2025-12": {"avg": 0.72, "p24": 68.6, "vol": 35}, "2026-01": {"avg": 0.39, "p24": 89.7, "vol": 29}, "2026-02": {"avg": 1.84, "p24": 47.1, "vol": 17}}, "cats": [{"name": "Appliances", "count": 40, "avg": 1.35, "p24": 75.0, "slow": 1}, {"name": "Plumbing & Bath", "count": 21, "avg": 0.56, "p24": 90.5, "slow": 0}, {"name": "HVAC", "count": 13, "avg": 2.11, "p24": 38.5, "slow": 1}, {"name": "Windows", "count": 5, "avg": 1.69, "p24": 40.0, "slow": 0}, {"name": "Electrical", "count": 4, "avg": 1.97, "p24": 25.0, "slow": 0}, {"name": "Exterior", "count": 4, "avg": 1.71, "p24": 0.0, "slow": 0}], "subs": [{"name": "Stove/Oven", "count": 32, "avg": 1.23, "p24": 81.2, "slow": 1}, {"name": "Plumbing General", "count": 13, "avg": 0.16, "p24": 100.0, "slow": 0}, {"name": "AC/HVAC", "count": 7, "avg": 3.25, "p24": 28.6, "slow": 1}, {"name": "Paint/Drywall", "count": 5, "avg": 1.67, "p24": 0.0, "slow": 0}, {"name": "Heater", "count": 5, "avg": 0.48, "p24": 60.0, "slow": 0}, {"name": "Windows/Blinds", "count": 5, "avg": 1.69, "p24": 40.0, "slow": 0}, {"name": "Water Heater", "count": 2, "avg": 3.23, "p24": 0.0, "slow": 0}], "prio": {"High": {"count": 117, "avg": 1.23, "p24": 65.8}, "Low": {"count": 22, "avg": 1.04, "p24": 72.7}}, "slow_cats": {"Appliances": 1, "HVAC": 1}, "keywords": {"leak": 3}}, "45718": {"name": "Skye at Conway", "pid": "45718", "total": 128, "completed": 128, "avg": 1.0, "median": 0.7, "p24": 60.2, "p48": 85.2, "p72": 97.7, "slow": 0, "slow_pct": 0.0, "mold_count": 0, "mold_wos": [], "monthly": {"2025-09": {"avg": 0.95, "p24": 62.1, "vol": 29}, "2025-10": {"avg": 1.19, "p24": 44.4, "vol": 27}, "2025-11": {"avg": 0.9, "p24": 61.1, "vol": 18}, "2025-12": {"avg": 1.02, "p24": 72.4, "vol": 29}, "2026-01": {"avg": 0.41, "p24": 70.0, "vol": 10}, "2026-02": {"avg": 1.22, "p24": 53.3, "vol": 15}}, "cats": [{"name": "HVAC", "count": 14, "avg": 1.0, "p24": 57.1, "slow": 0}, {"name": "Common Area", "count": 13, "avg": 0.8, "p24": 76.9, "slow": 0}, {"name": "Plumbing & Bath", "count": 9, "avg": 1.11, "p24": 55.6, "slow": 0}, {"name": "Doors & Locks", "count": 5, "avg": 0.29, "p24": 100.0, "slow": 0}, {"name": "Appliances", "count": 4, "avg": 1.28, "p24": 50.0, "slow": 0}, {"name": "Interior", "count": 2, "avg": 0.4, "p24": 100.0, "slow": 0}], "subs": [{"name": "Common Areas", "count": 9, "avg": 0.55, "p24": 88.9, "slow": 0}, {"name": "AC/HVAC", "count": 8, "avg": 1.08, "p24": 50.0, "slow": 0}, {"name": "Water Heater", "count": 3, "avg": 1.83, "p24": 33.3, "slow": 0}, {"name": "Mailbox/Keys", "count": 3, "avg": 0.85, "p24": 66.7, "slow": 0}, {"name": "Refrigerator", "count": 2, "avg": 0.78, "p24": 100.0, "slow": 0}], "prio": {"High": {"count": 103, "avg": 1.1, "p24": 54.4}, "Low": {"count": 23, "avg": 0.63, "p24": 82.6}}, "slow_cats": {}, "keywords": {"ac": 5, "leak": 3, "hvac": 3, "heat": 3, "drain": 2, "door": 2}}, "45720": {"name": "Skye Reserve", "pid": "45720", "total": 960, "completed": 959, "avg": 5.18, "median": 0.84, "p24": 55.5, "p48": 69.7, "p72": 77.6, "slow": 120, "slow_pct": 12.5, "mold_count": 0, "mold_wos": [], "monthly": {"2025-09": {"avg": 8.45, "p24": 48.1, "vol": 240}, "2025-10": {"avg": 4.08, "p24": 61.4, "vol": 197}, "2025-11": {"avg": 4.56, "p24": 55.6, "vol": 117}, "2025-12": {"avg": 4.99, "p24": 51.6, "vol": 159}, "2026-01": {"avg": 4.86, "p24": 52.8, "vol": 125}, "2026-02": {"avg": 1.7, "p24": 68.0, "vol": 122}}, "cats": [{"name": "Plumbing & Bath", "count": 94, "avg": 10.06, "p24": 26.6, "slow": 27}, {"name": "Appliances", "count": 91, "avg": 13.09, "p24": 20.9, "slow": 37}, {"name": "HVAC", "count": 38, "avg": 4.51, "p24": 34.2, "slow": 4}, {"name": "Doors & Locks", "count": 37, "avg": 12.58, "p24": 27.0, "slow": 14}, {"name": "Common Area", "count": 19, "avg": 30.83, "p24": 10.5, "slow": 14}, {"name": "Electrical", "count": 18, "avg": 18.71, "p24": 11.1, "slow": 9}, {"name": "Interior", "count": 17, "avg": 16.04, "p24": 17.6, "slow": 6}, {"name": "Flooring", "count": 5, "avg": 31.48, "p24": 0.0, "slow": 3}], "subs": [{"name": "Dishwasher", "count": 21, "avg": 18.02, "p24": 19.0, "slow": 11}, {"name": "Tub/Shower", "count": 20, "avg": 7.99, "p24": 10.0, "slow": 6}, {"name": "Sink", "count": 19, "avg": 10.66, "p24": 15.8, "slow": 5}, {"name": "AC/HVAC", "count": 17, "avg": 6.72, "p24": 23.5, "slow": 2}, {"name": "Dryer", "count": 16, "avg": 10.42, "p24": 25.0, "slow": 5}, {"name": "Toilet", "count": 15, "avg": 7.03, "p24": 33.3, "slow": 3}, {"name": "Washer", "count": 14, "avg": 16.25, "p24": 7.1, "slow": 6}, {"name": "Interior Door", "count": 12, "avg": 9.7, "p24": 16.7, "slow": 4}, {"name": "Stove/Oven", "count": 10, "avg": 14.57, "p24": 10.0, "slow": 5}, {"name": "Lighting/Fan", "count": 9, "avg": 18.98, "p24": 11.1, "slow": 6}, {"name": "Garbage Disposal", "count": 9, "avg": 7.51, "p24": 44.4, "slow": 2}, {"name": "Plumbing General", "count": 11, "avg": 6.41, "p24": 36.4, "slow": 2}], "prio": {"High": {"count": 592, "avg": 2.84, "p24": 70.8}, "Low": {"count": 352, "avg": 8.23, "p24": 31.5}}, "slow_cats": {"Appliances": 37, "Plumbing & Bath": 27, "Common Area": 14, "Doors & Locks": 14, "Electrical": 9, "Interior": 6}, "keywords": {"leak": 59, "washer": 33, "door": 29, "sink": 19, "dryer": 19, "toilet": 16, "a/c": 13, "hvac": 11, "ac": 10, "clog": 9}}, "45724": {"name": "Upland Townhomes", "pid": "45724", "total": 444, "completed": 444, "avg": 2.03, "median": 0.95, "p24": 54.7, "p48": 73.6, "p72": 81.5, "slow": 24, "slow_pct": 5.4, "mold_count": 4, "mold_wos": [{"desc": "Growth", "date": "2025-12-23", "days": 0.7}, {"desc": "Mold", "date": "2025-12-29", "days": 1.7}, {"desc": "Mold under the kitchen area", "date": "2026-02-13", "days": 13.2}, {"desc": "Leak into cabinet (mold flag)", "date": "2026-02-14", "days": 2.2}], "monthly": {"2025-09": {"avg": 2.65, "p24": 52.9, "vol": 51}, "2025-10": {"avg": 0.78, "p24": 78.4, "vol": 51}, "2025-11": {"avg": 1.09, "p24": 72.2, "vol": 54}, "2025-12": {"avg": 2.9, "p24": 46.2, "vol": 91}, "2026-01": {"avg": 1.83, "p24": 47.2, "vol": 89}, "2026-02": {"avg": 2.25, "p24": 49.1, "vol": 108}}, "cats": [{"name": "Plumbing & Bath", "count": 144, "avg": 1.31, "p24": 58.3, "slow": 1}, {"name": "HVAC", "count": 56, "avg": 1.81, "p24": 60.7, "slow": 3}, {"name": "Interior", "count": 45, "avg": 5.04, "p24": 26.7, "slow": 8}, {"name": "Appliances", "count": 42, "avg": 2.11, "p24": 52.4, "slow": 4}, {"name": "Doors & Locks", "count": 37, "avg": 1.71, "p24": 59.5, "slow": 2}, {"name": "Electrical", "count": 35, "avg": 1.19, "p24": 65.7, "slow": 1}, {"name": "Windows", "count": 15, "avg": 2.56, "p24": 40.0, "slow": 2}, {"name": "Housekeeping", "count": 14, "avg": 1.07, "p24": 57.1, "slow": 0}, {"name": "Flooring", "count": 9, "avg": 7.58, "p24": 33.3, "slow": 1}], "subs": [{"name": "Tub/Shower", "count": 29, "avg": 2.26, "p24": 44.8, "slow": 1}, {"name": "Toilet", "count": 29, "avg": 1.2, "p24": 62.1, "slow": 0}, {"name": "Sink", "count": 27, "avg": 0.86, "p24": 66.7, "slow": 0}, {"name": "Heater", "count": 26, "avg": 1.71, "p24": 61.5, "slow": 1}, {"name": "AC/HVAC", "count": 20, "avg": 2.22, "p24": 65.0, "slow": 2}, {"name": "Lighting/Fan", "count": 19, "avg": 0.9, "p24": 78.9, "slow": 0}, {"name": "Make Ready", "count": 17, "avg": 4.08, "p24": 29.4, "slow": 3}, {"name": "Water Heater", "count": 17, "avg": 0.65, "p24": 76.5, "slow": 0}, {"name": "Plumbing General", "count": 16, "avg": 1.78, "p24": 37.5, "slow": 0}, {"name": "Stove/Oven", "count": 16, "avg": 0.93, "p24": 62.5, "slow": 0}, {"name": "Paint/Drywall", "count": 10, "avg": 6.05, "p24": 30.0, "slow": 2}, {"name": "Faucet", "count": 10, "avg": 1.26, "p24": 40.0, "slow": 0}, {"name": "Washer", "count": 7, "avg": 3.71, "p24": 42.9, "slow": 2}, {"name": "Refrigerator", "count": 6, "avg": 2.2, "p24": 66.7, "slow": 1}], "prio": {"High": {"count": 157, "avg": 1.2, "p24": 70.1}, "Medium": {"count": 33, "avg": 2.52, "p24": 45.5}, "Low": {"count": 219, "avg": 2.34, "p24": 47.0}}, "slow_cats": {"Interior": 8, "Appliances": 4, "HVAC": 3, "Doors & Locks": 2, "Windows": 2, "Electrical": 1}, "keywords": {"leak": 39, "sink": 28, "toilet": 25, "heat": 25, "clog": 21, "door": 18, "drain": 11, "ac": 11, "lock": 11, "washer": 7}}, "45725": {"name": "The Park at Peachtree Hills", "pid": "45725", "total": 98, "completed": 98, "avg": 2.0, "median": 0.92, "p24": 53.1, "p48": 68.4, "p72": 83.7, "slow": 4, "slow_pct": 4.1, "mold_count": 3, "mold_wos": [{"desc": "Mold in pipes", "date": "2025-11-08", "days": 0.8}, {"desc": "MOLD", "date": "2025-11-08", "days": 1.8}, {"desc": "Mold", "date": "2025-11-29", "days": 2.3}], "monthly": {"2025-09": {"avg": 1.71, "p24": 25.0, "vol": 8}, "2025-10": {"avg": 1.96, "p24": 41.7, "vol": 12}, "2025-11": {"avg": 2.06, "p24": 60.0, "vol": 30}, "2025-12": {"avg": 2.94, "p24": 37.9, "vol": 29}, "2026-01": {"avg": 0.27, "p24": 100.0, "vol": 8}, "2026-02": {"avg": 0.89, "p24": 72.7, "vol": 11}}, "cats": [{"name": "HVAC", "count": 29, "avg": 1.44, "p24": 48.3, "slow": 0}, {"name": "Plumbing & Bath", "count": 20, "avg": 1.83, "p24": 65.0, "slow": 1}, {"name": "Appliances", "count": 15, "avg": 1.09, "p24": 66.7, "slow": 0}, {"name": "Electrical", "count": 13, "avg": 2.75, "p24": 30.8, "slow": 1}, {"name": "Interior", "count": 10, "avg": 4.98, "p24": 40.0, "slow": 2}, {"name": "Housekeeping", "count": 7, "avg": 0.97, "p24": 85.7, "slow": 0}, {"name": "Windows", "count": 3, "avg": 2.59, "p24": 33.3, "slow": 0}], "subs": [{"name": "Heater", "count": 14, "avg": 1.47, "p24": 57.1, "slow": 0}, {"name": "Tub/Shower", "count": 9, "avg": 2.65, "p24": 66.7, "slow": 1}, {"name": "Pest Control", "count": 7, "avg": 0.97, "p24": 85.7, "slow": 0}, {"name": "Paint/Drywall", "count": 4, "avg": 10.78, "p24": 25.0, "slow": 2}, {"name": "AC/HVAC", "count": 4, "avg": 1.67, "p24": 50.0, "slow": 0}, {"name": "Washer", "count": 4, "avg": 2.11, "p24": 25.0, "slow": 0}, {"name": "Sink", "count": 4, "avg": 0.87, "p24": 75.0, "slow": 0}], "prio": {"High": {"count": 61, "avg": 2.11, "p24": 45.9}, "Medium": {"count": 25, "avg": 1.09, "p24": 72.0}, "Low": {"count": 7, "avg": 4.14, "p24": 42.9}}, "slow_cats": {"Interior": 2, "Electrical": 1, "Plumbing & Bath": 1}, "keywords": {"heat": 18, "washer": 7, "leak": 5, "ac": 4, "mold": 3, "drain": 2, "toilet": 2, "sink": 2, "door": 2, "roach": 2}}, "45726": {"name": "The Boardwalk", "pid": "45726", "total": 625, "completed": 625, "avg": 2.64, "median": 1.03, "p24": 48.3, "p48": 66.6, "p72": 76.3, "slow": 71, "slow_pct": 11.4, "mold_count": 9, "mold_wos": [{"desc": "growth", "date": "2025-11-24", "days": 7.7}, {"desc": "black spots on ceiling", "date": "2025-12-01", "days": 1.1}, {"desc": "mold smell", "date": "2025-12-08", "days": 3.1}, {"desc": "Growth in shower area", "date": "2025-12-10", "days": 0.0}, {"desc": "Growth in bedroom", "date": "2025-12-19", "days": 7.1}, {"desc": "Growth in bedroom", "date": "2025-12-22", "days": 1.2}, {"desc": "smell", "date": "2025-12-31", "days": 5.3}, {"desc": "Ceiling of washer/dryer growth", "date": "2026-01-25", "days": 1.9}, {"desc": "mold", "date": "2026-01-27", "days": 0.0}], "monthly": {"2025-09": {"avg": 1.59, "p24": 65.7, "vol": 99}, "2025-10": {"avg": 3.57, "p24": 40.2, "vol": 122}, "2025-11": {"avg": 3.9, "p24": 20.5, "vol": 73}, "2025-12": {"avg": 3.15, "p24": 47.0, "vol": 115}, "2026-01": {"avg": 2.72, "p24": 39.3, "vol": 117}, "2026-02": {"avg": 0.9, "p24": 73.7, "vol": 99}}, "cats": [{"name": "Plumbing & Bath", "count": 202, "avg": 2.58, "p24": 48.5, "slow": 21}, {"name": "HVAC", "count": 114, "avg": 1.09, "p24": 70.2, "slow": 2}, {"name": "Appliances", "count": 114, "avg": 3.3, "p24": 38.6, "slow": 19}, {"name": "Interior", "count": 49, "avg": 4.24, "p24": 38.8, "slow": 7}, {"name": "Electrical", "count": 47, "avg": 1.81, "p24": 40.4, "slow": 4}, {"name": "Doors & Locks", "count": 42, "avg": 2.96, "p24": 40.5, "slow": 5}, {"name": "Housekeeping", "count": 19, "avg": 2.07, "p24": 57.9, "slow": 3}, {"name": "Windows", "count": 12, "avg": 7.15, "p24": 25.0, "slow": 6}], "subs": [{"name": "AC/HVAC", "count": 74, "avg": 1.29, "p24": 60.8, "slow": 1}, {"name": "Stove/Oven", "count": 50, "avg": 3.42, "p24": 34.0, "slow": 10}, {"name": "Tub/Shower", "count": 42, "avg": 3.77, "p24": 28.6, "slow": 6}, {"name": "Toilet", "count": 36, "avg": 1.8, "p24": 50.0, "slow": 2}, {"name": "Water Heater", "count": 25, "avg": 2.3, "p24": 64.0, "slow": 3}, {"name": "Plumbing General", "count": 29, "avg": 1.58, "p24": 62.1, "slow": 2}, {"name": "Sink", "count": 25, "avg": 2.38, "p24": 36.0, "slow": 4}, {"name": "Outlet/Switch", "count": 24, "avg": 1.65, "p24": 41.7, "slow": 1}, {"name": "Mailbox/Keys", "count": 24, "avg": 3.27, "p24": 41.7, "slow": 3}, {"name": "Paint/Drywall", "count": 22, "avg": 2.81, "p24": 50.0, "slow": 2}, {"name": "Washer", "count": 16, "avg": 2.88, "p24": 50.0, "slow": 3}, {"name": "Dryer", "count": 8, "avg": 8.31, "p24": 25.0, "slow": 2}, {"name": "MOLD", "count": 9, "avg": 3.05, "p24": 22.2, "slow": 2}, {"name": "Stove/Oven", "count": 50, "avg": 3.42, "p24": 34.0, "slow": 10}], "prio": {"High": {"count": 306, "avg": 2.3, "p24": 52.6}, "Medium": {"count": 161, "avg": 3.37, "p24": 37.3}, "Low": {"count": 8, "avg": 1.7, "p24": 62.5}}, "slow_cats": {"Plumbing & Bath": 21, "Appliances": 19, "Interior": 7, "Windows": 6, "Doors & Locks": 5, "Electrical": 4}, "keywords": {"leak": 79, "ac": 55, "sink": 39, "toilet": 34, "door": 27, "heat": 26, "washer": 25, "clog": 24, "cool": 12, "dryer": 12}}, "45727": {"name": "The Flats", "pid": "45727", "total": 40, "completed": 39, "avg": 5.43, "median": 2.84, "p24": 28.2, "p48": 38.5, "p72": 51.3, "slow": 8, "slow_pct": 20.5, "mold_count": 0, "mold_wos": [], "monthly": {"2025-09": {"avg": null, "p24": null, "vol": 0}, "2025-10": {"avg": 1.42, "p24": 60.0, "vol": 5}, "2025-11": {"avg": 2.74, "p24": 57.1, "vol": 7}, "2025-12": {"avg": 4.55, "p24": 20.0, "vol": 5}, "2026-01": {"avg": 11.24, "p24": 0.0, "vol": 4}, "2026-02": {"avg": 6.54, "p24": 16.7, "vol": 19}}, "cats": [{"name": "Appliances", "count": 10, "avg": 5.99, "p24": 20.0, "slow": 2}, {"name": "Electrical", "count": 9, "avg": 4.87, "p24": 44.4, "slow": 1}, {"name": "Interior", "count": 5, "avg": 10.89, "p24": 0.0, "slow": 3}, {"name": "Plumbing & Bath", "count": 5, "avg": 6.33, "p24": 20.0, "slow": 2}, {"name": "Doors & Locks", "count": 4, "avg": 2.27, "p24": 25.0, "slow": 0}, {"name": "HVAC", "count": 2, "avg": 3.36, "p24": 50.0, "slow": 0}], "subs": [{"name": "Lighting/Fan", "count": 6, "avg": 6.07, "p24": 50.0, "slow": 1}, {"name": "Mailbox/Keys", "count": 4, "avg": 1.72, "p24": 25.0, "slow": 0}, {"name": "Garbage Disposal", "count": 3, "avg": 4.2, "p24": 0.0, "slow": 0}, {"name": "Cabinets/Shelves", "count": 2, "avg": 20.01, "p24": 0.0, "slow": 2}, {"name": "Dishwasher", "count": 2, "avg": 3.92, "p24": 50.0, "slow": 1}, {"name": "Microwave", "count": 1, "avg": 28.18, "p24": 0.0, "slow": 1}, {"name": "Sink", "count": 1, "avg": 15.86, "p24": 0.0, "slow": 1}], "prio": {"High": {"count": 9, "avg": 5.16, "p24": 44.4}, "Medium": {"count": 2, "avg": 9.44, "p24": 0.0}, "Low": {"count": 3, "avg": 3.93, "p24": 0.0}}, "slow_cats": {"Interior": 3, "Appliances": 2, "Plumbing & Bath": 2, "Electrical": 1}, "keywords": {"clog": 2, "drain": 2}}, "45728": {"name": "Skye Oaks", "pid": "45728", "total": 186, "completed": 186, "avg": 0.43, "median": 0.25, "p24": 88.2, "p48": 98.9, "p72": 99.5, "slow": 0, "slow_pct": 0.0, "mold_count": 0, "mold_wos": [], "monthly": {"2025-09": {"avg": 0.84, "p24": 50.0, "vol": 10}, "2025-10": {"avg": 0.12, "p24": 100.0, "vol": 24}, "2025-11": {"avg": 0.37, "p24": 100.0, "vol": 42}, "2025-12": {"avg": 0.37, "p24": 91.1, "vol": 45}, "2026-01": {"avg": 0.65, "p24": 69.7, "vol": 33}, "2026-02": {"avg": 0.45, "p24": 90.6, "vol": 32}}, "cats": [{"name": "Appliances", "count": 53, "avg": 0.6, "p24": 79.2, "slow": 0}, {"name": "Plumbing & Bath", "count": 39, "avg": 0.39, "p24": 92.3, "slow": 0}, {"name": "HVAC", "count": 27, "avg": 0.22, "p24": 100.0, "slow": 0}, {"name": "Doors & Locks", "count": 24, "avg": 0.42, "p24": 83.3, "slow": 0}, {"name": "Interior", "count": 15, "avg": 0.27, "p24": 100.0, "slow": 0}, {"name": "Electrical", "count": 12, "avg": 0.35, "p24": 91.7, "slow": 0}, {"name": "Safety", "count": 6, "avg": 0.62, "p24": 83.3, "slow": 0}], "subs": [{"name": "AC/HVAC", "count": 18, "avg": 0.23, "p24": 100.0, "slow": 0}, {"name": "Washer", "count": 18, "avg": 0.42, "p24": 88.9, "slow": 0}, {"name": "Dryer", "count": 15, "avg": 0.69, "p24": 60.0, "slow": 0}, {"name": "Toilet", "count": 10, "avg": 0.27, "p24": 90.0, "slow": 0}, {"name": "Tub/Shower", "count": 9, "avg": 0.46, "p24": 88.9, "slow": 0}, {"name": "Entry Door", "count": 7, "avg": 0.25, "p24": 85.7, "slow": 0}, {"name": "Stove/Oven", "count": 7, "avg": 0.53, "p24": 100.0, "slow": 0}, {"name": "Sink", "count": 7, "avg": 0.11, "p24": 100.0, "slow": 0}, {"name": "Smoke/CO Detector", "count": 5, "avg": 0.57, "p24": 80.0, "slow": 0}, {"name": "Water Heater", "count": 5, "avg": 0.82, "p24": 80.0, "slow": 0}, {"name": "Heater", "count": 5, "avg": 0.25, "p24": 100.0, "slow": 0}, {"name": "Lighting/Fan", "count": 5, "avg": 0.46, "p24": 100.0, "slow": 0}, {"name": "Patio Door", "count": 5, "avg": 0.34, "p24": 100.0, "slow": 0}], "prio": {"Low": {"count": 1, "avg": 3.0, "p24": 0.0}}, "slow_cats": {}, "keywords": {"washer": 24, "ac": 15, "dryer": 15, "door": 14, "toilet": 11, "clog": 10, "leak": 7, "sink": 7, "heat": 7, "smoke": 6}}, "45729": {"name": "Hanley Place", "pid": "45729", "total": 599, "completed": 599, "avg": 5.55, "median": 2.25, "p24": 31.9, "p48": 45.9, "p72": 55.3, "slow": 164, "slow_pct": 27.4, "mold_count": 5, "mold_wos": [{"desc": "tub resurfaced (mold)", "date": "2025-12-17", "days": 18.9}, {"desc": "ventilation fan mildew", "date": "2026-01-09", "days": 11.0}, {"desc": "mildew remediation", "date": "2026-02-05", "days": 0.8}, {"desc": "Mildew", "date": "2026-02-06", "days": 3.0}, {"desc": "mildew bathroom ceiling", "date": "2026-02-13", "days": 0.2}], "monthly": {"2025-09": {"avg": 8.01, "p24": 34.1, "vol": 82}, "2025-10": {"avg": 6.68, "p24": 22.5, "vol": 120}, "2025-11": {"avg": 4.98, "p24": 25.0, "vol": 84}, "2025-12": {"avg": 8.97, "p24": 14.1, "vol": 85}, "2026-01": {"avg": 4.5, "p24": 34.6, "vol": 107}, "2026-02": {"avg": 1.67, "p24": 54.5, "vol": 121}}, "cats": [{"name": "Plumbing & Bath", "count": 214, "avg": 5.78, "p24": 30.4, "slow": 61}, {"name": "Appliances", "count": 117, "avg": 8.06, "p24": 17.1, "slow": 44}, {"name": "Interior", "count": 68, "avg": 4.39, "p24": 42.6, "slow": 15}, {"name": "HVAC", "count": 65, "avg": 2.03, "p24": 56.9, "slow": 4}, {"name": "Doors & Locks", "count": 54, "avg": 5.21, "p24": 31.5, "slow": 11}, {"name": "Electrical", "count": 44, "avg": 5.76, "p24": 22.7, "slow": 17}, {"name": "Flooring", "count": 8, "avg": 7.1, "p24": 0.0, "slow": 5}], "subs": [{"name": "Plumbing General", "count": 76, "avg": 5.74, "p24": 28.9, "slow": 24}, {"name": "Washer", "count": 49, "avg": 8.18, "p24": 10.2, "slow": 20}, {"name": "AC/HVAC", "count": 48, "avg": 2.2, "p24": 50.0, "slow": 3}, {"name": "Paint/Drywall", "count": 45, "avg": 4.27, "p24": 40.0, "slow": 9}, {"name": "Sink", "count": 40, "avg": 3.26, "p24": 42.5, "slow": 6}, {"name": "Tub/Shower", "count": 37, "avg": 7.45, "p24": 21.6, "slow": 15}, {"name": "Stove/Oven", "count": 26, "avg": 9.22, "p24": 23.1, "slow": 9}, {"name": "Mailbox/Keys", "count": 26, "avg": 3.11, "p24": 34.6, "slow": 3}, {"name": "Toilet", "count": 23, "avg": 8.48, "p24": 17.4, "slow": 8}, {"name": "Outlet/Switch", "count": 16, "avg": 5.15, "p24": 31.2, "slow": 5}, {"name": "Lighting/Fan", "count": 16, "avg": 5.28, "p24": 12.5, "slow": 6}, {"name": "Dishwasher", "count": 14, "avg": 7.01, "p24": 28.6, "slow": 6}, {"name": "Patio Door", "count": 11, "avg": 13.53, "p24": 0.0, "slow": 7}, {"name": "Refrigerator", "count": 12, "avg": 8.14, "p24": 33.3, "slow": 5}, {"name": "Ventilation Fan", "count": 6, "avg": 10.28, "p24": 0.0, "slow": 4}], "prio": {"High": {"count": 176, "avg": 6.65, "p24": 35.8}, "Medium": {"count": 62, "avg": 5.24, "p24": 29.0}, "Low": {"count": 12, "avg": 6.33, "p24": 25.0}}, "slow_cats": {"Plumbing & Bath": 61, "Appliances": 44, "Electrical": 17, "Interior": 15, "Doors & Locks": 11, "Flooring": 5}, "keywords": {"washer": 63, "leak": 58, "sink": 47, "ac": 46, "clog": 45, "dryer": 28, "toilet": 26, "door": 21, "heat": 13, "lock": 9}}}
+
+
+// ===================== VIEW MODE (Compare Page) =====================
+let currentView = 'bars';
+function setView(v, el) {
+  currentView = v;
+  document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+  ['bars','table','radar','heatmap'].forEach(id => {
+    document.getElementById('view-'+id).style.display = id===v ? 'block' : 'none';
+  });
+  const activeCat = document.querySelector('.cat-btn.active')?.textContent || 'AC/HVAC';
+  if(v==='heatmap') renderHeatmap();
+  else if(v==='radar') renderRadar(activeCat);
+  else renderCompare(activeCat);
+}
+
+function renderTableView(cat) {
+  const cd = compareData[cat];
+  document.getElementById('tbl-title').textContent = cat;
+  const pfAvgForCat = cd.avg.reduce((a,b)=>a+(b||0),0)/cd.avg.filter(Boolean).length;
+  document.getElementById('viewTblBody').innerHTML = cd.props.map((p,i)=>{
+    const bc = cd.avg[i]>4?'#f85149':cd.avg[i]>2?'#e3b341':'#3fb950';
+    const diff = cd.avg[i] - pfAvgForCat;
+    const diffStr = diff>=0?`+${diff.toFixed(2)}d`:`${diff.toFixed(2)}d`;
+    const diffCol = diff<=0?'#3fb950':'#f85149';
+    const grade = cd.avg[i]<=1?'A':cd.avg[i]<=2?'B':cd.avg[i]<=3.5?'C':cd.avg[i]<=5?'D':'F';
+    const gradeCl = grade==='A'||grade==='B'?'flg':grade==='C'?'flb':grade==='D'?'fly':'flr';
+    return `<tr><td style="font-weight:600;color:#e2e8f0">${(PLABELS[p]||p)}</td><td>${cd.ct[i]}</td>
+    <td style="color:${bc};font-weight:700">${cd.avg[i].toFixed(2)}d</td>
+    <td style="color:${diffCol};font-weight:700">${diffStr}</td>
+    <td>${cd.p24[i].toFixed(1)}%</td>
+    <td><span class="fl ${gradeCl}">${grade}</span></td></tr>`;
+  }).join('');
+}
+
+function renderRadar(cat) {
+  const cd = compareData[cat];
+  const maxAvg = Math.max(...cd.avg.filter(Boolean));
+  // Pick top 7 by volume
+  const idxs = cd.props.map((_,i)=>i).sort((a,b)=>cd.ct[b]-cd.ct[a]).slice(0,7);
+  const labels = ['% in 24h','Speed','Volume','No Slow WOs','Consistency'];
+  const pfSpeed = 100 - Math.min(100,(3.12/15)*100);
+  const datasets = idxs.map(i => {
+    const speed = Math.max(0, 100 - Math.min(100,(cd.avg[i]/15)*100));
+    const maxCt = Math.max(...cd.ct);
+    const volScore = (cd.ct[i]/maxCt)*100;
+    const noSlow = Math.max(0, 100 - (((cd.avg[i]>7?1:0)*100)));
+    const consistency = cd.p24[i] > 50 && cd.avg[i] < 3 ? 85 : cd.p24[i];
+    const col = cd.avg[i]>4?'rgba(248,81,73,0.6)':cd.avg[i]>2?'rgba(227,179,65,0.6)':'rgba(63,185,80,0.6)';
+    return {
+      label: PLABELS[cd.props[i]]||cd.props[i],
+      data:[cd.p24[i],speed,volScore,noSlow,consistency],
+      backgroundColor:col,borderColor:col.replace('0.6','1'),borderWidth:1.5,pointRadius:3
+    };
+  });
+  if(charts['c-radar']) charts['c-radar'].destroy();
+  charts['c-radar'] = new Chart(document.getElementById('c-radar'),{
+    type:'radar',
+    data:{labels,datasets},
+    options:{responsive:true,maintainAspectRatio:true,scales:{r:{grid:{color:'#21262d'},ticks:{display:false},pointLabels:{color:'#8b949e',font:{size:9}},min:0,max:100}},plugins:{legend:{display:true,position:'bottom',labels:{color:'#8b949e',font:{size:8.5},boxWidth:8,padding:6}}}}
+  });
+}
+
+function renderHeatmap() {
+  const subcats = Object.keys(compareData);
+  const allProps = [...new Set(subcats.flatMap(s=>compareData[s].props))].slice(0,14);
+  const propNames = allProps.map(p=>(PLABELS[p]||p).replace(' at ',' @ ').replace('Ninety-Nine44','99-44').replace('Preserve at','Preserve@').replace('Peachtree Hills','Peachtree'));
+  let html = '<table class="hm-table"><thead><tr><th class="hm-prop">Property</th>';
+  subcats.forEach(s=>{ html+=`<th style="max-width:60px;overflow:hidden">${s}</th>`; });
+  html+='</tr></thead><tbody>';
+  allProps.forEach((pid,pi)=>{
+    html+=`<tr><td class="hm-prop">${propNames[pi]}</td>`;
+    subcats.forEach(s=>{
+      const cd=compareData[s];
+      const idx=cd.props.indexOf(pid);
+      if(idx<0){html+='<td class="hm-cell" style="background:#161b22;color:#30363d">—</td>';return;}
+      const v=cd.avg[idx];
+      const r=v>8?220:v>5?210:v>3?170:v>1.5?100:40;
+      const g=v>8?50:v>5?80:v>3?160:v>1.5?185:185;
+      const b=v>8?40:v>5?40:v>3?40:v>1.5?80:80;
+      const a=v>8?0.9:v>5?0.8:v>3?0.7:v>1.5?0.6:0.5;
+      const textc=v>3?'#f0e8e8':'#0d2010';
+      html+=`<td class="hm-cell" style="background:rgba(${r},${g},${b},${a});color:${textc}">${v.toFixed(1)}</td>`;
+    });
+    html+='</tr>';
+  });
+  html+='</tbody></table>';
+  document.getElementById('heatmapContainer').innerHTML=html;
+}
+
+// Table/radar update hook - called after renderCompare
+function afterRenderCompare(cat) {
+  renderTableView(cat);
+  if(currentView==='radar') renderRadar(cat);
+}
+
+// ===================== ASSET DRILL-DOWN =====================
+
+
+
+// ===================== DATA =====================
+
+
+const A_MONTHS = ['2025-09','2025-10','2025-11','2025-12','2026-01','2026-02'];
+const MLABELS = ['Sep 25','Oct 25','Nov 25','Dec 25','Jan 26','Feb 26'];
+const PF_AVG = 3.12;
+const charts = {};
+
+// ── POPULATE DROPDOWN ──
+const sel = document.getElementById('propSelect');
+const order = ['RAM','JULIA','45703','45708','45709','45710','45711','45713','45715','45716','45718','45720','45724','45725','45726','45727','45728','45729'];
+order.forEach(pid => {
+  const o = document.createElement('option');
+  o.value = pid; o.text = PROP_DATA[pid].name;
+  sel.appendChild(o);
+});
+
+// ── CHART HELPERS ──
+const dOpt = {x:{grid:{color:'#21262d'},ticks:{color:'#6e7681',font:{size:9.5}}},y:{grid:{color:'#21262d'},ticks:{color:'#6e7681',font:{size:9.5}}}};
+const anl = {plugins:{legend:{display:false}}};
+function mk(id, cfg) {
+  if(charts[id]) charts[id].destroy();
+  const el = document.getElementById(id);
+  if(!el) return;
+  charts[id] = new Chart(el, cfg);
+}
+function colorAvg(v) { return v===null?'#21262d':v>5?'rgba(248,81,73,0.8)':v>3?'rgba(227,179,65,0.75)':v>1.5?'rgba(88,166,255,0.65)':'rgba(63,185,80,0.7)'; }
+function color24(v) { return v===null?'#21262d':v>=65?'rgba(63,185,80,0.7)':v>=45?'rgba(88,166,255,0.6)':'rgba(248,81,73,0.7)'; }
+
+// ── STATUS HELPER ──
+function getStatus(p) {
+  if(!p.avg) return {cls:'st-na',label:'No completion data'};
+  if(p.avg<=1 && p.p24>=65) return {cls:'st-best',label:'⭐ Best in Class'};
+  if(p.avg<=2 && p.slow_pct<5) return {cls:'st-good',label:'✓ On Track'};
+  if(p.avg<=3.5 || p.slow_pct<15) return {cls:'st-warn',label:'⚠ Monitor'};
+  return {cls:'st-crit',label:'🚨 Needs Attention'};
+}
+
+// ── MAIN LOAD ──
+function loadProp(pid) {
+  if(!pid) return;
+  const p = PROP_DATA[pid];
+  document.getElementById('emptyState').style.display='none';
+  document.getElementById('kpiStrip').style.display='grid';
+  document.getElementById('mainTabs').style.display='flex';
+  document.querySelectorAll('.panel').forEach(el=>el.classList.remove('active'));
+  document.getElementById('tab-trends').classList.add('active');
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.querySelector('.tab').classList.add('active');
+
+  // Status badge
+  const st = getStatus(p);
+  document.getElementById('propStatusBadge').innerHTML = `<span class="prop-status ${st.cls}">${st.label}</span>`;
+  document.getElementById('propMeta').innerHTML = `${p.total} Work Orders &nbsp;·&nbsp; Sep 2025–Feb 2026`;
+
+  // KPI strip
+  const avgCol = p.avg===null?'#6e7681':p.avg>4?'#f85149':p.avg>2.5?'#e3b341':'#3fb950';
+  document.getElementById('k-total').textContent = p.total.toLocaleString();
+  document.getElementById('k-completed').textContent = p.completed===p.total ? 'All completed' : `${p.completed} completed`;
+  document.getElementById('k-avg').innerHTML = p.avg===null ? '<span style="color:#6e7681;font-size:14px">N/A</span>' : `<span style="color:${avgCol}">${p.avg}d</span>`;
+  document.getElementById('k-median').textContent = p.median ? `Median: ${p.median}d` : 'No completion data';
+  document.getElementById('k-p24').innerHTML = p.p24===null ? '<span style="color:#6e7681;font-size:14px">N/A</span>' : `${p.p24}%`;
+  document.getElementById('k-p48').textContent = p.p48 ? `${p.p48}% in 48h · ${p.p72}% in 72h` : '';
+  document.getElementById('k-slow').innerHTML = `<span style="color:${p.slow>20?'#f85149':p.slow>5?'#e3b341':'#3fb950'}">${p.slow}</span>`;
+  document.getElementById('k-slow-pct').textContent = `${p.slow_pct}% of total`;
+  document.getElementById('k-mold').innerHTML = `<span style="color:${p.mold_count>0?'#f85149':'#3fb950'}">${p.mold_count}</span>`;
+  if(p.avg !== null) {
+    const diff = p.avg - PF_AVG;
+    const vsCol = diff<=0?'#3fb950':'#f85149';
+    document.getElementById('k-vs').innerHTML = `<span style="color:${vsCol}">${diff>=0?'+':''}${diff.toFixed(2)}d</span>`;
+  } else {
+    document.getElementById('k-vs').innerHTML = '<span style="color:#6e7681;font-size:14px">N/A</span>';
+  }
+
+  buildTrends(p);
+  buildCats(p);
+  buildSubs(p);
+  buildSpeed(p);
+  buildPrio(p);
+  buildIssues(p);
+  buildSafety(p);
+}
+
+function buildTrends(p) {
+  const avgs = A_MONTHS.map(m => p.monthly[m]?.avg ?? null);
+  const p24s = A_MONTHS.map(m => p.monthly[m]?.p24 ?? null);
+  const vols = A_MONTHS.map(m => p.monthly[m]?.vol ?? 0);
+  mk('c-avgTrend',{type:'line',data:{labels:MLABELS,datasets:[{data:avgs,borderColor:'#58a6ff',backgroundColor:'rgba(88,166,255,0.08)',borderWidth:2.5,pointRadius:5,pointBackgroundColor:avgs.map(v=>v===null?'transparent':colorAvg(v)),fill:true,tension:0.3,spanGaps:true}]},options:{responsive:true,maintainAspectRatio:true,...anl,scales:{x:dOpt.x,y:{...dOpt.y,beginAtZero:true}}}});
+  mk('c-24Trend',{type:'bar',data:{labels:MLABELS,datasets:[{data:p24s,backgroundColor:p24s.map(v=>v===null?'#21262d':v>=60?'rgba(63,185,80,0.7)':'rgba(88,166,255,0.6)'),borderRadius:4}]},options:{responsive:true,maintainAspectRatio:true,...anl,scales:{x:dOpt.x,y:{...dOpt.y,min:0,max:100,ticks:{callback:v=>v+'%',color:'#6e7681',font:{size:9.5}}}}}});
+  mk('c-volTrend',{type:'bar',data:{labels:MLABELS,datasets:[{data:vols,backgroundColor:'rgba(167,113,247,0.65)',borderRadius:4}]},options:{responsive:true,maintainAspectRatio:true,...anl,scales:dOpt}});
+  // Speed stack per month
+  const sb = document.getElementById('speedStackBar');
+  const sbl = document.getElementById('speedBarMonths');
+  if(p.avg===null){sb.innerHTML='<div style="color:#6e7681;font-size:11px;padding:20px 0">No completion time data available for this property.</div>';sbl.innerHTML='';return;}
+  // Simple overall speed donut replaced with text bars
+  const s24=p.p24||0, s48=(p.p48||0)-s24, s72=(p.p72||0)-(p.p48||0), sOver=100-(p.p72||0);
+  sb.innerHTML=`<div style="font-size:10px;color:#6e7681;margin-bottom:6px">Overall Completion Speed Distribution</div>
+  <div class="speed-stack">
+    <div class="ss" style="width:${s24}%;background:#3fb950"></div>
+    <div class="ss" style="width:${s48}%;background:#58a6ff"></div>
+    <div class="ss" style="width:${s72}%;background:#e3b341"></div>
+    <div class="ss" style="width:${sOver}%;background:#f85149"></div>
+  </div>
+  <div class="ss-label">
+    <span class="ss-item"><span class="ss-dot" style="background:#3fb950"></span>≤24h: ${s24.toFixed(1)}%</span>
+    <span class="ss-item"><span class="ss-dot" style="background:#58a6ff"></span>24–48h: ${s48.toFixed(1)}%</span>
+    <span class="ss-item"><span class="ss-dot" style="background:#e3b341"></span>48–72h: ${s72.toFixed(1)}%</span>
+    <span class="ss-item"><span class="ss-dot" style="background:#f85149"></span>3+d: ${sOver.toFixed(1)}%</span>
+  </div>`;
+  // Monthly bars
+  let mHtml = '<div style="margin-top:12px;font-size:10px;color:#6e7681;margin-bottom:8px">Monthly % Completed in 24h</div>';
+  A_MONTHS.forEach((m,i)=>{
+    const v=p.monthly[m]?.p24;
+    if(v===null||v===undefined) return;
+    const col=v>=60?'#3fb950':'#58a6ff';
+    mHtml+=`<div style="display:flex;align-items:center;gap:8px;margin-bottom:5px"><div style="font-size:9px;color:#6e7681;width:42px">${MLABELS[i]}</div><div style="flex:1;height:10px;background:#21262d;border-radius:3px;overflow:hidden"><div style="height:100%;width:${v}%;background:${col};border-radius:3px"></div></div><div style="font-size:9px;color:${col};width:32px;text-align:right">${v}%</div></div>`;
+  });
+  sbl.innerHTML=mHtml;
+}
+
+function buildCats(p) {
+  if(!p.cats.length){document.getElementById('catTable').innerHTML='<tr><td style="padding:20px;color:#6e7681">No category data available.</td></tr>';return;}
+  const labels=p.cats.map(c=>c.name);
+  const colorsD=p.cats.map(c=>colorAvg(c.avg));
+  mk('c-catVol',{type:'bar',data:{labels,datasets:[{data:p.cats.map(c=>c.count),backgroundColor:'rgba(88,166,255,0.65)',borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...anl,indexAxis:'y',scales:{x:dOpt.x,y:{...dOpt.y,ticks:{color:'#8b949e',font:{size:9.5}}}}}});
+  mk('c-catDays',{type:'bar',data:{labels,datasets:[{data:p.cats.map(c=>c.avg),backgroundColor:colorsD,borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...anl,indexAxis:'y',scales:{x:{...dOpt.x,title:{display:true,text:'Avg Days',color:'#6e7681',font:{size:9}}},y:{...dOpt.y,ticks:{color:'#8b949e',font:{size:9.5}}}}}});
+  mk('c-cat24h',{type:'bar',data:{labels,datasets:[{data:p.cats.map(c=>c.p24),backgroundColor:p.cats.map(c=>color24(c.p24)),borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...anl,indexAxis:'y',scales:{x:{...dOpt.x,max:100,ticks:{callback:v=>v+'%',color:'#6e7681',font:{size:9.5}}},y:{...dOpt.y,ticks:{color:'#8b949e',font:{size:9.5}}}}}});
+  const hasSlow=p.cats.some(c=>c.slow>0);
+  mk('c-catSlow',{type:'bar',data:{labels,datasets:[{data:p.cats.map(c=>c.slow),backgroundColor:p.cats.map(c=>c.slow>10?'rgba(248,81,73,0.75)':c.slow>3?'rgba(227,179,65,0.7)':'rgba(63,185,80,0.5)'),borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...anl,indexAxis:'y',scales:{x:{...dOpt.x,title:{display:true,text:'WOs >7d',color:'#6e7681',font:{size:9}}},y:{...dOpt.y,ticks:{color:'#8b949e',font:{size:9.5}}}}}});
+  document.getElementById('catTable').innerHTML='<thead><tr><th>Category</th><th>WOs</th><th>Avg Days</th><th>% in 24h</th><th>Slow (7+d)</th><th>Speed</th><th>Flag</th></tr></thead><tbody>'+
+  p.cats.map(c=>{const bc=colorAvg(c.avg).replace('rgba(','').replace(')','').split(',').slice(0,3).join(',');const bw=Math.min(100,(c.avg/10)*100);const fl=c.avg>5?'<span class="fl flr">Slow</span>':c.avg>3?'<span class="fl fly">Watch</span>':'<span class="fl flg">OK</span>';
+  return `<tr><td style="font-weight:600;color:#e2e8f0">${c.name}</td><td>${c.count}</td><td style="color:${colorAvg(c.avg).includes('248,81')? '#f85149':colorAvg(c.avg).includes('227,179')?'#e3b341':colorAvg(c.avg).includes('88,166')?'#58a6ff':'#3fb950'};font-weight:700">${c.avg}</td><td>${c.p24}%</td><td style="color:${c.slow>10?'#f85149':c.slow>3?'#e3b341':'#3fb950'}">${c.slow}</td><td><div class="mb"><div class="mbf" style="width:${bw}%;background:${colorAvg(c.avg)}"></div></div></td><td>${fl}</td></tr>`;}).join('')+'</tbody>';
+}
+
+function buildSubs(p) {
+  if(!p.subs.length){document.getElementById('subTable').innerHTML='<tr><td style="padding:20px;color:#6e7681">No subcategory data available.</td></tr>';return;}
+  const top=p.subs.slice(0,15);
+  const labels=top.map(s=>s.name);
+  mk('c-subVol',{type:'bar',data:{labels,datasets:[{data:top.map(s=>s.count),backgroundColor:'rgba(88,166,255,0.65)',borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...anl,indexAxis:'y',scales:{x:dOpt.x,y:{...dOpt.y,ticks:{color:'#8b949e',font:{size:9}}}}}});
+  mk('c-subDays',{type:'bar',data:{labels,datasets:[{data:top.map(s=>s.avg),backgroundColor:top.map(s=>colorAvg(s.avg)),borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...anl,indexAxis:'y',scales:{x:{...dOpt.x,title:{display:true,text:'Avg Days',color:'#6e7681',font:{size:9}}},y:{...dOpt.y,ticks:{color:'#8b949e',font:{size:9}}}}}});
+  mk('c-sub24h',{type:'bar',data:{labels,datasets:[{data:top.map(s=>s.p24),backgroundColor:top.map(s=>color24(s.p24)),borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...anl,indexAxis:'y',scales:{x:{...dOpt.x,max:100,ticks:{callback:v=>v+'%',color:'#6e7681',font:{size:9.5}}},y:{...dOpt.y,ticks:{color:'#8b949e',font:{size:9}}}}}});
+  mk('c-subSlow',{type:'bar',data:{labels,datasets:[{data:top.map(s=>s.slow),backgroundColor:top.map(s=>s.slow>5?'rgba(248,81,73,0.75)':s.slow>2?'rgba(227,179,65,0.7)':'rgba(63,185,80,0.5)'),borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...anl,indexAxis:'y',scales:{x:{...dOpt.x,title:{display:true,text:'WOs >7d',color:'#6e7681',font:{size:9}}},y:{...dOpt.y,ticks:{color:'#8b949e',font:{size:9}}}}}});
+  const getAvgColor=v=>{if(v>5)return'#f85149';if(v>3)return'#e3b341';if(v>1.5)return'#58a6ff';return'#3fb950';};
+  document.getElementById('subTable').innerHTML='<thead><tr><th>Subcategory</th><th>WOs</th><th>Avg Days</th><th>% in 24h</th><th>Slow (7+d)</th><th>Speed</th><th>Flag</th></tr></thead><tbody>'+
+  p.subs.map(s=>{const bw=Math.min(100,(s.avg/15)*100);const fl=s.avg>7?'<span class="fl flr">🚨 Critical</span>':s.avg>4?'<span class="fl flr">Slow</span>':s.avg>2?'<span class="fl fly">Watch</span>':'<span class="fl flg">OK</span>';
+  return `<tr><td style="font-weight:600;color:#e2e8f0">${s.name}</td><td>${s.count}</td><td style="color:${getAvgColor(s.avg)};font-weight:700">${s.avg}</td><td>${s.p24}%</td><td style="color:${s.slow>5?'#f85149':s.slow>2?'#e3b341':'#3fb950'}">${s.slow}</td><td><div class="mb"><div class="mbf" style="width:${bw}%;background:${colorAvg(s.avg)}"></div></div></td><td>${fl}</td></tr>`;}).join('')+'</tbody>';
+}
+
+function buildSpeed(p) {
+  document.getElementById('sp-24').textContent=p.p24!==null?p.p24+'%':'N/A';
+  document.getElementById('sp-48').textContent=p.p48!==null?p.p48+'%':'N/A';
+  document.getElementById('sp-72').textContent=p.p72!==null?p.p72+'%':'N/A';
+  const pfSpeeds=[53.5,16.3,8.3,11.3,10.6];
+  const propSpeeds=p.p24!==null?[p.p24,(p.p48||0)-p.p24,(p.p72||0)-(p.p48||0),(100-(p.p72||0))]:null;
+  mk('c-speedComp',{type:'bar',data:{labels:['≤24h','24–48h','48–72h','3–7d','7+d'],datasets:[{label:'This Property',data:propSpeeds||[0,0,0,0,0],backgroundColor:'rgba(88,166,255,0.7)',borderRadius:3},{label:'Portfolio Avg',data:pfSpeeds,backgroundColor:'rgba(110,118,129,0.45)',borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,plugins:{legend:{display:true,position:'top',labels:{color:'#8b949e',font:{size:9.5},boxWidth:10}}},scales:{x:dOpt.x,y:{...dOpt.y,max:100,ticks:{callback:v=>v+'%',color:'#6e7681',font:{size:9.5}}}}}});
+  const avgs=A_MONTHS.map(m=>p.monthly[m]?.avg??null);
+  mk('c-monthVsPf',{type:'line',data:{labels:MLABELS,datasets:[{label:'This Property',data:avgs,borderColor:'#58a6ff',backgroundColor:'rgba(88,166,255,0.08)',borderWidth:2.5,pointRadius:5,pointBackgroundColor:'#58a6ff',fill:true,tension:0.3,spanGaps:true},{label:'Portfolio (3.12d)',data:A_MONTHS.map(()=>3.12),borderColor:'rgba(110,118,129,0.6)',borderWidth:1.5,borderDash:[4,4],pointRadius:0}]},options:{responsive:true,maintainAspectRatio:true,plugins:{legend:{display:true,position:'top',labels:{color:'#8b949e',font:{size:9.5},boxWidth:10}}},scales:{x:dOpt.x,y:{...dOpt.y,beginAtZero:true}}}});
+}
+
+function buildPrio(p) {
+  const container=document.getElementById('prioDash');
+  if(!Object.keys(p.prio).length){container.innerHTML='<div class="panel active"><div class="no-data">No priority data recorded for this property.</div></div>';return;}
+  const pLabs=Object.keys(p.prio);
+  const pAvgs=pLabs.map(k=>p.prio[k].avg);
+  const p24s=pLabs.map(k=>p.prio[k].p24);
+  const pCts=pLabs.map(k=>p.prio[k].count);
+  const pColors={'Emergency':'rgba(248,81,73,0.8)','High':'rgba(227,179,65,0.75)','Medium':'rgba(88,166,255,0.65)','Low':'rgba(110,118,129,0.55)'};
+  container.innerHTML=`<div style="padding:14px 18px"><div class="g2">
+  <div class="card"><div class="ct"><span class="dot do"></span>Avg Days by Priority</div><canvas id="c-prioAvg" height="210"></canvas></div>
+  <div class="card"><div class="ct"><span class="dot dg"></span>% in 24h by Priority</div><canvas id="c-prio24h" height="210"></canvas></div>
+  </div><div class="gf"><div class="card"><div class="ct"><span class="dot db"></span>Priority Summary Table</div>
+  <table class="tbl"><thead><tr><th>Priority</th><th>WOs</th><th>Avg Days</th><th>% in 24h</th><th>Flag</th></tr></thead><tbody>${
+  pLabs.map(k=>{const pr=p.prio[k];const fl=pr.avg>5?'<span class="fl flr">Slow</span>':pr.avg>2?'<span class="fl fly">Watch</span>':'<span class="fl flg">OK</span>';
+  return `<tr><td style="font-weight:600;color:#e2e8f0">${k}</td><td>${pr.count}</td><td style="font-weight:700;color:${pr.avg>5?'#f85149':pr.avg>2?'#e3b341':'#3fb950'}">${pr.avg}d</td><td>${pr.p24}%</td><td>${fl}</td></tr>`;}).join('')
+  }</tbody></table></div></div></div>`;
+  setTimeout(()=>{
+    mk('c-prioAvg',{type:'bar',data:{labels:pLabs,datasets:[{data:pAvgs,backgroundColor:pLabs.map(k=>pColors[k]||'rgba(88,166,255,0.65)'),borderRadius:4}]},options:{responsive:true,maintainAspectRatio:true,...anl,scales:{x:dOpt.x,y:{...dOpt.y,title:{display:true,text:'Avg Days',color:'#6e7681',font:{size:9}}}}}});
+    mk('c-prio24h',{type:'bar',data:{labels:pLabs,datasets:[{data:p24s,backgroundColor:p24s.map(v=>color24(v)),borderRadius:4}]},options:{responsive:true,maintainAspectRatio:true,...anl,scales:{x:dOpt.x,y:{...dOpt.y,max:100,ticks:{callback:v=>v+'%',color:'#6e7681',font:{size:9.5}}}}}});
+  },50);
+}
+
+function buildIssues(p) {
+  const kws=p.keywords;
+  const sc=p.slow_cats;
+  // Keywords viz
+  const kwEl=document.getElementById('kwViz');
+  if(!Object.keys(kws).length){kwEl.innerHTML='<div class="no-data">No keyword data available.</div>';} else {
+    const max=Math.max(...Object.values(kws));
+    kwEl.innerHTML='<div class="kw-pills">'+Object.entries(kws).sort((a,b)=>b[1]-a[1]).map(([k,v])=>{
+      const cls=v>=30?'kp-r':v>=10?'kp-y':'kp-b';
+      return `<span class="kpill ${cls}">${k} ×${v}</span>`;
+    }).join('')+'</div><div style="margin-top:14px">'+Object.entries(kws).sort((a,b)=>b[1]-a[1]).map(([k,v])=>{
+      const col=v>=30?'#f85149':v>=10?'#e3b341':'#58a6ff';const w=(v/max*100).toFixed(0);
+      return `<div style="display:flex;align-items:center;gap:8px;margin-bottom:5px"><div style="font-size:9px;color:#6e7681;width:60px">${k}</div><div style="flex:1;height:8px;background:#21262d;border-radius:3px;overflow:hidden"><div style="height:100%;width:${w}%;background:${col};border-radius:3px"></div></div><div style="font-size:9px;color:${col};width:25px;text-align:right">×${v}</div></div>`;
+    }).join('')+'</div>';
+  }
+  // Slow cats chart
+  if(Object.keys(sc).length){
+    mk('c-slowCats',{type:'bar',data:{labels:Object.keys(sc),datasets:[{data:Object.values(sc),backgroundColor:Object.values(sc).map(v=>v>20?'rgba(248,81,73,0.75)':v>5?'rgba(227,179,65,0.7)':'rgba(63,185,80,0.5)'),borderRadius:3}]},options:{responsive:true,maintainAspectRatio:true,...anl,indexAxis:'y',scales:{x:{...dOpt.x,title:{display:true,text:'WOs >7d',color:'#6e7681',font:{size:9}}},y:{...dOpt.y,ticks:{color:'#8b949e',font:{size:9.5}}}}}});
+  } else {
+    document.getElementById('c-slowCats').parentElement.innerHTML='<div class="ct"><span class="dot do"></span>Slow WOs (7+d) by Category</div><div style="padding:20px;text-align:center;color:#3fb950;font-size:11px">✓ No categories with chronic slow WOs</div>';
+  }
+  // Assessment text
+  const assess=document.getElementById('issueAssessment');
+  let txt='';
+  const topKws=Object.entries(kws).sort((a,b)=>b[1]-a[1]).slice(0,3);
+  if(topKws.length){txt+=`<strong style="color:#e2e8f0">Top recurring keywords:</strong> ${topKws.map(([k,v])=>`<span style="color:#58a6ff">${k}</span> (×${v})`).join(', ')}. These represent the most frequently reported issue types at this property.<br><br>`;}
+  if(p.mold_count>0){txt+=`<strong style="color:#f85149">⚠ Mold/Mildew:</strong> ${p.mold_count} mold-related WOs detected. Review each for full remediation documentation and check for recurring moisture sources (HVAC condensate, plumbing leaks, or exterior water infiltration).<br><br>`;}
+  const topSlow=Object.entries(sc).sort((a,b)=>b[1]-a[1]).slice(0,2);
+  if(topSlow.length){txt+=`<strong style="color:#e3b341">Chronic slow categories:</strong> ${topSlow.map(([k,v])=>`${k} (${v} WOs over 7 days)`).join(', ')}. These need dedicated vendor review or staffing intervention.<br><br>`;}
+  if(p.avg!==null&&p.avg>PF_AVG){txt+=`<strong style="color:#e3b341">Overall pace:</strong> This property's ${p.avg}d average is ${(p.avg-PF_AVG).toFixed(2)} days above the portfolio average of ${PF_AVG}d. Closing this gap is the single highest-impact operational action here.`;}
+  else if(p.avg!==null){txt+=`<strong style="color:#3fb950">Overall pace:</strong> This property's ${p.avg}d average is ${(PF_AVG-p.avg).toFixed(2)} days faster than the portfolio average. Strong performance — focus on maintaining it.`;}
+  assess.innerHTML=txt||'Insufficient data for assessment.';
+}
+
+function buildSafety(p) {
+  const container=document.getElementById('safetyDash');
+  const hasMold=p.mold_count>0;
+  const moldRows=p.mold_wos.map(m=>{
+    const dc=m.days===null?'<span style="color:#f85149">Unknown</span>':m.days>7?`<span class="mold-row"><span class="days-c">${m.days}d</span></span>`:m.days>3?`<span class="days-w">${m.days}d</span>`:`<span class="days-ok">${m.days}d</span>`;
+    return `<div class="mold-row"><div class="date">${m.date}</div><div style="flex:1"><div class="desc">${m.desc}</div><div class="mold-meta">Resolution: ${dc}</div></div></div>`;
+  }).join('');
+  container.innerHTML=`<div style="padding:14px 18px">
+  ${hasMold?`<div style="background:#1c1010;border:1px solid #3d1515;border-radius:8px;padding:12px 14px;margin-bottom:12px">
+    <div style="font-size:11px;font-weight:700;color:#f85149;margin-bottom:8px">⚠ ${p.mold_count} Mold / Mildew Work Orders — Review Required</div>
+    ${moldRows}
+  </div>`:`<div style="background:#0d1310;border:1px solid #1a3020;border-radius:8px;padding:12px 14px;margin-bottom:12px;font-size:11px;color:#3fb950">✓ No mold or mildew work orders detected at this property.</div>`}
+  <div class="g2">
+    <div class="card"><div class="ct"><span class="dot dr"></span>Safety Checklist</div>
+    <table class="tbl"><thead><tr><th>Item</th><th>Status</th><th>Action</th></tr></thead><tbody>
+    <tr><td>Mold / Mildew WOs</td><td style="color:${hasMold?'#f85149':'#3fb950'}">${p.mold_count} found</td><td>${hasMold?'<span class="fl flr">Review & Document</span>':'<span class="fl flg">Clear</span>'}</td></tr>
+    <tr><td>WOs Over 7 Days</td><td style="color:${p.slow>20?'#f85149':p.slow>5?'#e3b341':'#3fb950'}">${p.slow} WOs (${p.slow_pct}%)</td><td>${p.slow>20?'<span class="fl flr">Audit Required</span>':p.slow>5?'<span class="fl fly">Monitor</span>':'<span class="fl flg">OK</span>'}</td></tr>
+    <tr><td>Avg Response Time</td><td style="color:${p.avg===null?'#6e7681':p.avg>4?'#f85149':p.avg>2?'#e3b341':'#3fb950'}">${p.avg===null?'N/A':p.avg+'d avg'}</td><td>${p.avg===null?'<span class="fl flb">No data</span>':p.avg>4?'<span class="fl flr">Below Standard</span>':p.avg>2?'<span class="fl fly">Watch</span>':'<span class="fl flg">OK</span>'}</td></tr>
+    <tr><td>Same-Day Close Rate</td><td style="color:${p.p24===null?'#6e7681':p.p24>=60?'#3fb950':p.p24>=45?'#e3b341':'#f85149'}">${p.p24===null?'N/A':p.p24+'%'}</td><td>${p.p24===null?'<span class="fl flb">No data</span>':p.p24>=60?'<span class="fl flg">Good</span>':p.p24>=45?'<span class="fl fly">Improve</span>':'<span class="fl flr">Below Standard</span>'}</td></tr>
+    </tbody></table></div>
+    <div class="card"><div class="ct"><span class="dot do"></span>Review Action Items</div>
+    <div style="font-size:10.5px;color:#8b949e;line-height:1.8">
+    ${hasMold?`<div>🔴 <strong style="color:#e2e8f0">Mold audit required</strong> — verify each WO was fully remediated with photos and document root cause.</div>`:''}
+    ${p.slow>20?`<div>🔴 <strong style="color:#e2e8f0">Audit all ${p.slow} slow WOs</strong> — identify any stuck or zombie tickets and force-close or escalate.</div>`:''}
+    ${p.avg!==null&&p.avg>4?`<div>🟡 <strong style="color:#e2e8f0">Response time</strong> above acceptable threshold — review staffing model vs. WO volume.</div>`:''}
+    ${p.keywords['roach']?`<div>🔴 <strong style="color:#e2e8f0">Pest/Roach mentions</strong> (×${p.keywords['roach']}) — confirm pest control vendor is on active contract.</div>`:''}
+    ${(!hasMold&&p.slow<=5&&(p.avg===null||p.avg<=2))?`<div>✅ <strong style="color:#3fb950">No urgent safety issues detected.</strong> Maintain current response standards.</div>`:''}
+    </div></div>
+  </div></div>`;
+}
+
+function showTab(id, el) {
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+  document.getElementById('tab-'+id).classList.add('active');
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  el.classList.add('active');
+}
+
+</script>
+</body>
+</html>
