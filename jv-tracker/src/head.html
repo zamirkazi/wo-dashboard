@@ -1,0 +1,307 @@
+<title>Canyon Woods Capital Desk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;600;700&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --paper:#EDEFEA; --raised:#F6F7F3; --sunk:#E3E6DF;
+  --ink:#1A2028; --ink-2:#4A535F; --ink-3:#6B7480;
+  --rule:#D3D7CD; --rule-hard:#B9BFB2;
+  --live:#B85E14; --live-soft:#EBD9C6; --live-ink:#8A4610;
+  --routed:#0072A6; --routed-soft:#D2E2EC; --routed-ink:#005A85;
+  --dead:#6B7480; --dead-soft:#DFE2DA;
+  --seq-1:#F0DEC4; --seq-2:#E0B87E; --seq-3:#CE8F3E; --seq-4:#B06A1C; --seq-5:#8A4E12;
+  --shadow:0 1px 0 rgba(26,32,40,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#161C24; --raised:#1E252F; --sunk:#11161D;
+    --ink:#E8EBE5; --ink-2:#A8B1BC; --ink-3:#7B8593;
+    --rule:#2C3540; --rule-hard:#3D4854;
+    --live:#D07A20; --live-soft:#3A2A18; --live-ink:#E9A257;
+    --routed:#35A2C8; --routed-soft:#122E3B; --routed-ink:#6BC2DE;
+    --dead:#8A93A0; --dead-soft:#232B35;
+    --seq-1:#3D2F1E; --seq-2:#6A4A1E; --seq-3:#96692340; --seq-3:#966923; --seq-4:#BE8730; --seq-5:#E0A54A;
+    --shadow:0 1px 0 rgba(0,0,0,.3);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#161C24; --raised:#1E252F; --sunk:#11161D;
+  --ink:#E8EBE5; --ink-2:#A8B1BC; --ink-3:#7B8593;
+  --rule:#2C3540; --rule-hard:#3D4854;
+  --live:#D07A20; --live-soft:#3A2A18; --live-ink:#E9A257;
+  --routed:#35A2C8; --routed-soft:#122E3B; --routed-ink:#6BC2DE;
+  --dead:#8A93A0; --dead-soft:#232B35;
+  --seq-1:#3D2F1E; --seq-2:#6A4A1E; --seq-3:#966923; --seq-4:#BE8730; --seq-5:#E0A54A;
+  --shadow:0 1px 0 rgba(0,0,0,.3);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Public Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:15px; line-height:1.55; -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1180px; margin:0 auto; padding:0 28px 96px}
+h1,h2,h3{font-family:"Bitter",Georgia,serif; text-wrap:balance; margin:0}
+.mono{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace; font-variant-numeric:tabular-nums}
+a{color:var(--routed)}
+:focus-visible{outline:2px solid var(--live); outline-offset:2px; border-radius:2px}
+
+/* ---------- masthead ---------- */
+.mast{border-bottom:2px solid var(--ink); padding:34px 0 18px; margin-bottom:0}
+.mast-top{display:flex; flex-wrap:wrap; align-items:baseline; gap:16px; justify-content:space-between}
+.eyebrow{
+  font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--ink-3);
+}
+h1{font-size:clamp(28px,4.4vw,42px); font-weight:700; letter-spacing:-.015em; line-height:1.08}
+.sub{color:var(--ink-2); font-size:15px; margin-top:6px; max-width:62ch}
+.stamp{
+  display:flex; flex-direction:column; align-items:flex-end; gap:3px;
+  font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--ink-3); text-align:right;
+}
+.stamp .pulse{display:inline-flex; align-items:center; gap:6px; color:var(--live); font-weight:600}
+.dot{width:7px; height:7px; border-radius:50%; background:var(--live); flex:none}
+@media (prefers-reduced-motion:no-preference){
+  .dot{animation:breathe 2.6s ease-in-out infinite}
+  @keyframes breathe{0%,100%{opacity:1}50%{opacity:.35}}
+}
+
+/* ---------- deal spec strip ---------- */
+.spec{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(104px,1fr));
+  padding:16px 0 2px; gap:14px 0;
+}
+.spec div{padding-right:14px}
+.spec dt{font-family:"IBM Plex Mono",monospace; font-size:10px; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--ink-3); margin-bottom:3px}
+.spec dd{margin:0; font-size:15px; font-weight:600; font-variant-numeric:tabular-nums;
+  font-family:"IBM Plex Mono",monospace; line-height:1.3}
+
+section{padding-top:44px}
+.sec-head{display:flex; align-items:baseline; gap:14px; flex-wrap:wrap;
+  border-bottom:1px solid var(--rule-hard); padding-bottom:8px; margin-bottom:22px}
+.sec-head h2{font-size:20px; font-weight:600; letter-spacing:-.01em}
+.sec-head p{margin:0; color:var(--ink-3); font-size:13.5px; flex:1; min-width:220px}
+
+/* ---------- KPI ---------- */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(168px,1fr)); gap:1px; background:var(--rule)}
+.kpi{background:var(--paper); padding:16px 18px 15px}
+.kpi .n{font-family:"Bitter",Georgia,serif; font-size:34px; font-weight:600;
+  font-variant-numeric:tabular-nums; line-height:1.05; letter-spacing:-.02em}
+.kpi.hot .n{color:var(--live)}
+.kpi .lbl{font-family:"IBM Plex Mono",monospace; font-size:10.5px; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--ink-3); margin-top:5px}
+.kpi .note{font-size:12.5px; color:var(--ink-2); margin-top:5px; line-height:1.4}
+
+/* ---------- funnel ---------- */
+.funnel{display:flex; flex-direction:column; gap:11px}
+.frow{display:grid; grid-template-columns:minmax(140px,190px) 1fr auto; gap:16px; align-items:center}
+.frow .fl{font-size:13.5px; color:var(--ink-2)}
+.frow .fl b{color:var(--ink); font-weight:600; display:block; font-size:14px}
+.ftrack{height:26px; background:var(--sunk); border-radius:3px; overflow:hidden}
+.fbar{height:100%; border-radius:0 4px 4px 0; transition:width .5s cubic-bezier(.4,0,.2,1)}
+.fval{font-family:"IBM Plex Mono",monospace; font-size:14px; font-weight:600;
+  font-variant-numeric:tabular-nums; min-width:88px; text-align:right}
+.fval span{color:var(--ink-3); font-weight:400; font-size:12px}
+
+/* ---------- priority queue ---------- */
+.queue{display:flex; flex-direction:column; gap:26px}
+.qgroup > h3{
+  font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.13em;
+  text-transform:uppercase; color:var(--ink-2); font-weight:600;
+  display:flex; align-items:center; gap:10px; margin-bottom:11px;
+}
+.qgroup > h3::after{content:""; flex:1; height:1px; background:var(--rule)}
+.qgroup > h3 em{font-style:normal; color:var(--ink-3); font-weight:400; letter-spacing:.02em; text-transform:none; font-size:12px}
+.cards{display:grid; grid-template-columns:repeat(auto-fill,minmax(316px,1fr)); gap:12px; align-items:start}
+.card{background:var(--raised); padding:15px 17px 16px; display:flex; flex-direction:column; gap:9px;
+  border:1px solid var(--rule); border-left:3px solid transparent; border-radius:3px; position:relative}
+.card.s-meeting,.card.s-materials{border-left-color:var(--live)}
+.card.s-question,.card.s-conditional{border-left-color:var(--seq-3)}
+.card.s-referred,.card.s-relationship{border-left-color:var(--routed)}
+.card.done{opacity:.42}
+.card-top{display:flex; justify-content:space-between; align-items:flex-start; gap:12px}
+.firm{font-family:"Bitter",Georgia,serif; font-size:16.5px; font-weight:600; line-height:1.25}
+.who{font-size:12.5px; color:var(--ink-3); margin-top:1px}
+.quote{font-size:13.5px; line-height:1.5; color:var(--ink-2); border-left:2px solid var(--rule-hard);
+  padding-left:11px; font-style:italic}
+.act{font-size:13px; line-height:1.45; color:var(--ink); display:flex; gap:7px; align-items:flex-start}
+.act::before{content:"→"; color:var(--live); flex:none; font-weight:600}
+.tick{display:flex; align-items:center; gap:7px; font-size:11.5px; color:var(--ink-3);
+  font-family:"IBM Plex Mono",monospace; cursor:pointer; user-select:none; margin-top:2px}
+.tick input{accent-color:var(--live); width:13px; height:13px; cursor:pointer}
+
+/* ---------- chips ---------- */
+.chip{
+  font-family:"IBM Plex Mono",monospace; font-size:10px; letter-spacing:.07em; text-transform:uppercase;
+  padding:3px 7px; border-radius:3px; white-space:nowrap; font-weight:600; flex:none;
+}
+.c-meeting{background:var(--live); color:var(--raised)}
+.c-materials{background:var(--live-soft); color:var(--live-ink)}
+.c-question{background:var(--live-soft); color:var(--live-ink)}
+.c-conditional{background:var(--live-soft); color:var(--live-ink)}
+.c-referred,.c-relationship{background:var(--routed-soft); color:var(--routed-ink)}
+.c-pass,.c-outofscope{background:var(--dead-soft); color:var(--dead)}
+
+/* ---------- ledger ---------- */
+.controls{display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:16px}
+.fbtn{
+  font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.06em; text-transform:uppercase;
+  padding:6px 11px; border:1px solid var(--rule-hard); background:transparent; color:var(--ink-2);
+  border-radius:3px; cursor:pointer; font-weight:500;
+}
+.fbtn:hover{border-color:var(--ink-3); color:var(--ink)}
+.fbtn[aria-pressed="true"]{background:var(--ink); color:var(--paper); border-color:var(--ink)}
+#q{font-family:"IBM Plex Mono",monospace; font-size:12px; padding:6px 11px; border:1px solid var(--rule-hard);
+  background:var(--raised); color:var(--ink); border-radius:3px; min-width:190px}
+.tscroll{overflow-x:auto; border-top:1px solid var(--rule-hard)}
+table{width:100%; border-collapse:collapse; font-size:13.5px; min-width:720px}
+th{font-family:"IBM Plex Mono",monospace; font-size:10px; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--ink-3); text-align:left; padding:9px 12px 9px 0; font-weight:600;
+  border-bottom:1px solid var(--rule-hard); white-space:nowrap}
+td{padding:11px 12px 11px 0; border-bottom:1px solid var(--rule); vertical-align:top}
+tbody tr:hover{background:var(--raised)}
+td.f{font-weight:600; white-space:nowrap}
+td.f small{display:block; font-weight:400; color:var(--ink-3); font-size:11.5px}
+td.qt{color:var(--ink-2); font-size:13px; line-height:1.45; min-width:280px}
+td.tm{font-family:"IBM Plex Mono",monospace; font-size:11.5px; color:var(--ink-3); white-space:nowrap}
+.tags{display:flex; flex-wrap:wrap; gap:4px; margin-top:5px}
+.tag{font-family:"IBM Plex Mono",monospace; font-size:9.5px; letter-spacing:.05em; text-transform:uppercase;
+  color:var(--ink-3); border:1px solid var(--rule-hard); padding:1px 5px; border-radius:2px}
+
+/* ---------- objection bars ---------- */
+.obj{display:flex; flex-direction:column; gap:8px}
+.orow{display:grid; grid-template-columns:minmax(120px,168px) 1fr; gap:14px; align-items:center}
+.orow .ol{font-size:13.5px; color:var(--ink-2); text-align:right}
+.obar-wrap{display:flex; align-items:center; gap:9px}
+.obar{height:15px; background:var(--seq-4); border-radius:0 3px 3px 0; min-width:2px}
+.ocount{font-family:"IBM Plex Mono",monospace; font-size:12.5px; color:var(--ink-3);
+  font-variant-numeric:tabular-nums}
+
+/* ---------- charts ---------- */
+figure{margin:0}
+figcaption{font-size:12.5px; color:var(--ink-3); margin-top:10px}
+svg{display:block; max-width:100%; overflow:visible}
+.gridline{stroke:var(--rule); stroke-width:1}
+.axlbl{font-family:"IBM Plex Mono",monospace; font-size:10px; fill:var(--ink-3)}
+
+/* ---------- silent list ---------- */
+.silent-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(210px,1fr)); gap:1px 14px}
+.silent-grid div{font-size:13px; color:var(--ink-2); padding:3px 0; border-bottom:1px solid var(--rule);
+  overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+details > summary{cursor:pointer; font-family:"IBM Plex Mono",monospace; font-size:11.5px;
+  letter-spacing:.06em; text-transform:uppercase; color:var(--ink-2); padding:9px 0}
+details > summary:hover{color:var(--ink)}
+
+.callout{background:var(--raised); border:1px solid var(--rule-hard); border-left:3px solid var(--live);
+  padding:15px 18px; font-size:14px; line-height:1.6; color:var(--ink-2); margin-bottom:22px}
+.callout b{color:var(--ink)}
+footer{margin-top:56px; padding-top:18px; border-top:1px solid var(--rule-hard);
+  font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--ink-3); line-height:1.7}
+@media (max-width:640px){
+  .wrap{padding:0 18px 72px}
+  .frow{grid-template-columns:1fr; gap:5px}
+  .frow .fval{text-align:left}
+  .orow{grid-template-columns:1fr; gap:3px}
+  .orow .ol{text-align:left}
+  .stamp{align-items:flex-start; text-align:left}
+}
+</style>
+
+<div class="wrap">
+<header class="mast">
+  <div class="mast-top">
+    <div>
+      <div class="eyebrow">JV Equity Outreach &middot; Campaign 53043162</div>
+      <h1>Canyon Woods Capital Desk</h1>
+      <p class="sub">Live response tracking for the institutional JV equity raise on Canyon Woods, San Ramon. Every reply to the 26 Aug blast, sorted by what the partner actually asked for.</p>
+    </div>
+    <div class="stamp">
+      <span class="pulse"><span class="dot"></span><span id="freshness">LIVE</span></span>
+      <span id="updated"></span>
+      <span>Refreshes hourly</span>
+    </div>
+  </div>
+  <dl class="spec" id="spec"></dl>
+</header>
+
+<section id="s-status">
+  <div class="sec-head">
+    <h2>Where the raise stands</h2>
+    <p>Against a <b id="eqneed"></b> equity requirement.</p>
+  </div>
+  <div class="callout" id="headline"></div>
+  <div class="kpis" id="kpis"></div>
+</section>
+
+<section id="s-funnel">
+  <div class="sec-head">
+    <h2>Coverage</h2>
+    <p>From list to live conversation. Each stage is a subset of the one above it.</p>
+  </div>
+  <div class="funnel" id="funnel"></div>
+</section>
+
+<section id="s-queue">
+  <div class="sec-head">
+    <h2>Priority queue</h2>
+    <p>The <b id="livecount"></b> conversations that are still open, grouped by the ask. Tick one off when you have handled it &mdash; saved in this browser only.</p>
+  </div>
+  <div class="queue" id="queue"></div>
+</section>
+
+<section id="s-arrival">
+  <div class="sec-head">
+    <h2>Reply arrival</h2>
+    <p>Replies per hour since the first send. Hover a bar for the count.</p>
+  </div>
+  <figure><div id="arrival"></div>
+    <figcaption id="arrival-cap"></figcaption></figure>
+</section>
+
+<section id="s-ledger">
+  <div class="sec-head">
+    <h2>Response ledger</h2>
+    <p>All <b id="replycount"></b> replies, newest first.</p>
+  </div>
+  <div class="controls" id="filters"></div>
+  <div class="tscroll">
+    <table>
+      <thead><tr><th>Firm</th><th>Stage</th><th>What they said</th><th>Received</th></tr></thead>
+      <tbody id="ledger"></tbody>
+    </table>
+  </div>
+  <p id="empty" style="display:none;color:var(--ink-3);font-size:13.5px;padding:16px 0">No replies match that filter.</p>
+</section>
+
+<section id="s-obj">
+  <div class="sec-head">
+    <h2>Why they passed</h2>
+    <p>Stated reasons across the 25 declines. One reply can carry more than one reason.</p>
+  </div>
+  <div class="obj" id="objections"></div>
+</section>
+
+<section id="s-silent">
+  <div class="sec-head">
+    <h2>List hygiene &amp; silence</h2>
+    <p>Who has not come back, and what needs fixing before the next send.</p>
+  </div>
+  <div class="kpis" id="hygiene"></div>
+  <details><summary id="silentsum"></summary>
+    <div class="silent-grid" id="silentlist"></div>
+  </details>
+  <details><summary>Undeliverable addresses seen in-thread &mdash; remove or replace</summary>
+    <div class="silent-grid" id="badlist"></div>
+  </details>
+  <details><summary>Contact corrections requested by recipients</summary>
+    <div class="silent-grid" id="fixlist"></div>
+  </details>
+</section>
+
+<footer id="foot"></footer>
+</div>
+
+<script>

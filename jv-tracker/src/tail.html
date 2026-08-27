@@ -1,0 +1,220 @@
+
+const STAGE = {
+  meeting:      {label:"Meeting set",    live:true,  rank:0, blurb:"Already talking"},
+  materials:    {label:"Wants package",  live:true,  rank:1, blurb:"Asked for the deck, model or OM"},
+  question:     {label:"Asked a question",live:true, rank:2, blurb:"Answer and the conversation continues"},
+  conditional:  {label:"Yes, but",       live:true,  rank:3, blurb:"Interested at a different size or structure"},
+  referred:     {label:"Routed onward",  live:false, rank:4, blurb:"Handed to the colleague who covers this"},
+  relationship: {label:"Relationship",   live:false, rank:5, blurb:"Not about the deal, still worth the reply"},
+  pass:         {label:"Passed",         live:false, rank:6, blurb:"Declined"},
+  outofscope:   {label:"Not an LP",      live:false, rank:7, blurb:"Wrong firm type for a JV equity ask"}
+};
+const LIVE = ["meeting","materials","question","conditional"];
+const ROUTED = ["referred","relationship"];
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const n = D.replies.length;
+const cnt = st => D.replies.filter(r => r.stage === st).length;
+const sum = a => a.reduce((t,s) => t + cnt(s), 0);
+const liveN = sum(LIVE), routedN = sum(ROUTED), deadN = sum(["pass","outofscope"]);
+const delivered = D.campaign.sent - D.campaign.bounces - D.campaign.blocks;
+
+const fmt = ts => {
+  const d = new Date(ts);
+  return d.toLocaleString("en-US",{month:"short",day:"numeric",hour:"numeric",minute:"2-digit",hour12:true});
+};
+
+/* ---- masthead ---- */
+$("#updated").textContent = "Data as of " + fmt(D.generatedAt);
+const hrs = (new Date(D.generatedAt) - new Date(D.campaign.sentStart)) / 36e5;
+$("#freshness").textContent = hrs.toFixed(0) + "H AFTER SEND";
+
+const d = D.deal;
+$("#spec").innerHTML = [
+  ["Asset", d.name], ["Units", d.units], ["Built", d.year], ["Price", d.price],
+  ["Equity need", d.equity], ["Debt", d.loan], ["LTC", d.ltc],
+  ["Levered IRR", d.irr], ["Multiple", d.multiple], ["Hold", d.hold], ["Occupancy", d.occupancy]
+].map(([k,v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("");
+$("#eqneed").textContent = d.equity;
+$("#livecount").textContent = liveN;
+$("#replycount").textContent = n;
+
+/* ---- headline ---- */
+const capSol = D.replies.find(r => r.firm === "Capital Solutions");
+$("#headline").innerHTML =
+  `<b>${liveN} live conversations</b> out of ${n} replies. Eight firms have asked for the package and `
++ `five have asked a pricing question &mdash; every one of those is waiting on a going-in cap rate, `
++ `so answering that single number unblocks the largest cluster on the board. `
++ `<b>Capital Solutions</b> is the only responder to name a dollar figure: `
++ `<b>$14&ndash;15M</b>, roughly half the ${esc(d.equity)} requirement, contingent on you placing the rest.`;
+
+/* ---- KPIs ---- */
+const firstReply = D.replies.map(r => new Date(r.ts)).sort((a,b) => a-b)[0];
+const ttf = Math.round((firstReply - new Date(D.campaign.sentStart)) / 6e4);
+$("#kpis").innerHTML = [
+  {n:liveN, l:"Live conversations", note:"Meeting, package requested, question asked, or open on terms", hot:true},
+  {n:n, l:"Total replies", note:(100*n/delivered).toFixed(1) + "% of " + delivered + " delivered"},
+  {n:routedN, l:"Routed onward", note:"J.P. Morgan, Clarion ×2 and New York Life passed you to the desk that covers West Coast multifamily"},
+  {n:deadN, l:"Closed out", note:cnt("pass") + " passed, " + cnt("outofscope") + " are not LP equity providers"},
+  {n:ttf + "m", l:"Time to first reply", note:"Capital Solutions, " + fmt(firstReply)}
+].map(k => `<div class="kpi${k.hot?" hot":""}"><div class="n mono">${esc(k.n)}</div>`
+  + `<div class="lbl">${esc(k.l)}</div><div class="note">${k.note}</div></div>`).join("");
+
+/* ---- funnel: single-hue sequential, magnitude ---- */
+const steps = [
+  {l:"On the list", s:"Equity_List_UPDATED_061826", v:D.campaign.listSize, c:"var(--seq-1)"},
+  {l:"Sent", s:D.campaign.removedPreSend + " suppressed as prior bounces or duplicates", v:D.campaign.sent, c:"var(--seq-2)"},
+  {l:"Delivered", s:D.campaign.bounces + " bounced, " + D.campaign.blocks + " blocked", v:delivered, c:"var(--seq-3)"},
+  {l:"Replied", s:n + " firms wrote back", v:n, c:"var(--seq-4)"},
+  {l:"Still live", s:"Open conversations you can move today", v:liveN, c:"var(--seq-5)"}
+];
+const maxStep = steps[0].v;
+$("#funnel").innerHTML = steps.map(s => `
+  <div class="frow">
+    <div class="fl"><b>${esc(s.l)}</b>${esc(s.s)}</div>
+    <div class="ftrack"><div class="fbar" style="width:${(100*s.v/maxStep).toFixed(2)}%;background:${s.c}"></div></div>
+    <div class="fval">${s.v} <span>${(100*s.v/maxStep).toFixed(1)}%</span></div>
+  </div>`).join("");
+
+/* ---- priority queue ---- */
+let handled = {};
+try { handled = JSON.parse(localStorage.getItem("cw-handled") || "{}"); } catch (e) { handled = {}; }
+const save = () => { try { localStorage.setItem("cw-handled", JSON.stringify(handled)); } catch (e) {} };
+
+const order = [...LIVE, ...ROUTED];
+$("#queue").innerHTML = order.map(st => {
+  const rows = D.replies.filter(r => r.stage === st);
+  if (!rows.length) return "";
+  return `<div class="qgroup"><h3>${esc(STAGE[st].label)} &middot; ${rows.length} <em>${esc(STAGE[st].blurb)}</em></h3>
+    <div class="cards">` + rows.map(r => `
+      <div class="card s-${st}" data-k="${esc(r.email)}">
+        <div class="card-top">
+          <div><div class="firm">${esc(r.firm)}</div><div class="who">${esc(r.person)}</div></div>
+          <span class="chip c-${st}">${esc(STAGE[st].label)}</span>
+        </div>
+        <div class="quote">&ldquo;${esc(r.quote)}&rdquo;</div>
+        ${r.action ? `<div class="act">${esc(r.action)}</div>` : ""}
+        <label class="tick"><input type="checkbox" data-k="${esc(r.email)}"> Handled</label>
+      </div>`).join("") + `</div></div>`;
+}).join("");
+
+const syncTicks = () => document.querySelectorAll('.tick input').forEach(b => {
+  b.checked = !!handled[b.dataset.k];
+  b.closest(".card").classList.toggle("done", b.checked);
+});
+document.querySelectorAll('.tick input').forEach(b => b.addEventListener("change", () => {
+  handled[b.dataset.k] = b.checked; save(); syncTicks();
+}));
+syncTicks();
+
+/* ---- arrival chart: single series, hourly ---- */
+(() => {
+  const b = {};
+  D.replies.forEach(r => { const k = r.ts.slice(0,13); b[k] = (b[k]||0) + 1; });
+  const keys = Object.keys(b).sort();
+  const start = new Date(keys[0] + ":00:00Z"), end = new Date(keys[keys.length-1] + ":00:00Z");
+  const bars = [];
+  for (let t = new Date(start); t <= end; t.setUTCHours(t.getUTCHours()+1)) {
+    const k = t.toISOString().slice(0,13);
+    bars.push({k, v: b[k] || 0, t: new Date(t)});
+  }
+  const W = 900, H = 190, PL = 34, PB = 34, PT = 12, BW = 74;
+  const max = Math.max(...bars.map(x => x.v), 1);
+  const slot = Math.min((W - PL - 14) / bars.length, BW + 26), bw = Math.min(slot, BW), gap = 4;
+  const y = v => PT + (H - PT - PB) * (1 - v/max);
+  const ticks = [0, Math.ceil(max/2), max].filter((v,i,a) => a.indexOf(v) === i);
+  $("#arrival").innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img"
+      aria-label="Replies per hour: ${bars.map(x => x.v).join(", ")}">
+    ${ticks.map(t => `<line class="gridline" x1="${PL}" x2="${W-14}" y1="${y(t)}" y2="${y(t)}"></line>
+      <text class="axlbl" x="${PL-8}" y="${y(t)+3.5}" text-anchor="end">${t}</text>`).join("")}
+    ${bars.map((x,i) => {
+      const bx = PL + i*slot, h = (H-PT-PB) * x.v/max;
+      return `<g><title>${x.v} ${x.v===1?"reply":"replies"} · ${x.t.toLocaleString("en-US",{hour:"numeric",hour12:true,timeZone:"UTC"})} UTC</title>
+        <rect x="${bx}" y="${y(0)-h}" width="${Math.max(bw-gap,2)}" height="${Math.max(h,0)}"
+          fill="var(--seq-4)" rx="4" ry="4"></rect>
+        <rect x="${bx}" y="${y(0)-Math.min(h,5)}" width="${Math.max(bw-gap,2)}" height="${Math.min(h,5)}"
+          fill="var(--seq-4)"></rect>
+        <rect x="${bx}" y="${PT}" width="${slot}" height="${H-PT-PB}" fill="transparent"></rect>
+        <text class="axlbl" x="${bx + (bw-gap)/2}" y="${H-PB+16}" text-anchor="middle">${
+          x.t.toLocaleString("en-US",{hour:"numeric",hour12:true,timeZone:"UTC"})}</text></g>`;
+    }).join("")}
+    <line class="gridline" x1="${PL}" x2="${W-14}" y1="${y(0)}" y2="${y(0)}" stroke="var(--rule-hard)"></line>
+  </svg>`;
+  const half = bars.slice(0,2).reduce((t,x) => t+x.v, 0);
+  $("#arrival-cap").textContent =
+    `Hours shown in UTC. ${half} of ${n} replies (${Math.round(100*half/n)}%) landed in the first two hours — `
+  + `the batch is already past its peak, so anything still silent is unlikely to answer without a follow-up.`;
+})();
+
+/* ---- ledger ---- */
+let filter = "all", query = "";
+$("#filters").innerHTML =
+  `<button class="fbtn" data-f="all" aria-pressed="true">All ${n}</button>`
++ `<button class="fbtn" data-f="live" aria-pressed="false">Live ${liveN}</button>`
++ Object.keys(STAGE).filter(s => cnt(s)).map(s =>
+    `<button class="fbtn" data-f="${s}" aria-pressed="false">${esc(STAGE[s].label)} ${cnt(s)}</button>`).join("")
++ `<input id="q" type="search" placeholder="Search firm or text…" aria-label="Search replies">`;
+
+function render() {
+  const rows = D.replies
+    .filter(r => filter === "all" || (filter === "live" ? LIVE.includes(r.stage) : r.stage === filter))
+    .filter(r => !query || (r.firm + " " + r.person + " " + r.quote + " " + r.tags.join(" "))
+      .toLowerCase().includes(query))
+    .sort((a,b) => b.ts.localeCompare(a.ts));
+  $("#ledger").innerHTML = rows.map(r => `<tr>
+      <td class="f">${esc(r.firm)}<small>${esc(r.person)}</small></td>
+      <td><span class="chip c-${r.stage}">${esc(STAGE[r.stage].label)}</span></td>
+      <td class="qt">&ldquo;${esc(r.quote)}&rdquo;
+        ${r.tags.length ? `<div class="tags">${r.tags.map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : ""}</td>
+      <td class="tm">${fmt(r.ts)}</td></tr>`).join("");
+  $("#empty").style.display = rows.length ? "none" : "block";
+}
+$("#filters").addEventListener("click", e => {
+  const b = e.target.closest(".fbtn"); if (!b) return;
+  filter = b.dataset.f;
+  document.querySelectorAll(".fbtn").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+  render();
+});
+$("#q").addEventListener("input", e => { query = e.target.value.toLowerCase().trim(); render(); });
+render();
+
+/* ---- objections ---- */
+(() => {
+  const t = {};
+  D.replies.forEach(r => r.tags.forEach(x => t[x] = (t[x]||0) + 1));
+  const rows = Object.entries(t).sort((a,b) => b[1] - a[1]);
+  const max = rows[0][1];
+  $("#objections").innerHTML = rows.map(([k,v]) => `
+    <div class="orow"><div class="ol">${esc(k)}</div>
+      <div class="obar-wrap"><div class="obar" style="width:${(100*v/max*0.62).toFixed(1)}%"></div>
+      <span class="ocount">${v}</span></div></div>`).join("");
+})();
+
+/* ---- hygiene ---- */
+$("#hygiene").innerHTML = [
+  {n:D.silent.length, l:"No reply yet", note:"Delivered, opened or not, and silent so far"},
+  {n:D.campaign.bounces + D.campaign.blocks, l:"Undeliverable", note:D.campaign.bounces + " bounced and " + D.campaign.blocks + " blocked at the gateway"},
+  {n:D.campaign.removedPreSend, l:"Suppressed pre-send", note:"GMass dropped these from the 534-address list before sending"},
+  {n:D.campaign.opens, l:"Tracked opens", note:"Understated — most institutional gateways strip the tracking pixel, and 49 firms replied against 43 recorded opens"},
+  {n:D.campaign.unsubs, l:"Unsubscribes", note:"One recipient asked to remove a colleague by name instead"}
+].map(k => `<div class="kpi"><div class="n mono">${esc(k.n)}</div>`
+  + `<div class="lbl">${esc(k.l)}</div><div class="note">${esc(k.note)}</div></div>`).join("");
+
+$("#silentsum").textContent = D.silent.length + " addresses with no reply — full list";
+$("#silentlist").innerHTML = D.silent.map(e => `<div title="${esc(e)}">${esc(e)}</div>`).join("");
+$("#badlist").innerHTML = D.bounced.map(e => `<div title="${esc(e)}">${esc(e)}</div>`).join("");
+$("#fixlist").innerHTML = [
+  "Remove psinger@elliottmgmt.com — asked by name",
+  "Replace nick@knickpt.com with zain@knickpt.com and matt@knickpt.com",
+  "abaraghoush@pacificurbaninvestors.com — Ash has left the firm",
+  "Drop dcampbell@udr.com, RMontag@bedrockland.com, bob@acuitypartnersnyc.com — not LP equity"
+].map(e => `<div title="${esc(e)}">${esc(e)}</div>`).join("");
+
+$("#foot").innerHTML =
+  `Source: Gmail thread history for campaign ${esc(D.campaign.id)} &ldquo;${esc(D.campaign.subject)}&rdquo;, `
++ `sent ${fmt(D.campaign.sentStart)} – ${fmt(D.campaign.sentEnd)}. `
++ `Delivery counts from the GMass campaign report of ${fmt(D.campaign.gmassReportAt)}; `
++ `reply counts and classifications read directly from the mailbox, so they run ahead of the GMass figure `
++ `(${D.campaign.gmassReplyCount} at report time). Stages are assigned from the text of each reply.<br>`
++ `Generated ${fmt(D.generatedAt)}.`;
+</script>
