@@ -798,5 +798,40 @@
   "tags": [
    "California"
   ]
+ },
+ {
+  "firm": "Prospect Ridge",
+  "person": "Paul Galiano",
+  "email": "paul.galiano@prospectridge.com",
+  "mailedTo": "julia.issembert@prospectridge.com",
+  "stage": "question",
+  "ts": "2026-08-27T15:01:00Z",
+  "quote": "Do you have further information \u2014 in-place cap rate, stabilized YOC and exit cap that goes into the below? I think this one might end up being a bit thin for us.",
+  "action": "Fourth firm asking the same yield questions \u2014 send the yield bridge, but they are already flagging returns as thin.",
+  "tags": []
+ },
+ {
+  "firm": "Kinship Capital",
+  "person": "Andrew Youngling",
+  "email": "andrew.youngling@kinshipcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-27T14:20:00Z",
+  "quote": "We're not chasing new multi right now. Good luck tying it up.",
+  "action": "",
+  "tags": [
+   "Not acquiring now"
+  ]
+ },
+ {
+  "firm": "Platform V",
+  "person": "Todd Blanding",
+  "email": "todd.blanding@platformv.com",
+  "stage": "pass",
+  "ts": "2026-08-27T14:43:00Z",
+  "quote": "This is not a fit for us \u2014 we are currently focused on scaling up our development program.",
+  "action": "",
+  "tags": [
+   "Development only"
+  ]
  }
 ]
