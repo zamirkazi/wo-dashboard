@@ -1012,5 +1012,27 @@
    "Structure / check size",
    "Return threshold"
   ]
+ },
+ {
+  "firm": "Eastham Capital",
+  "person": "Brian Hertig",
+  "email": "brian@easthamcapital.com",
+  "stage": "materials",
+  "ts": "2026-08-27T20:53:00Z",
+  "quote": "Candidly, California is not the IC's favorite market, but I'd still be happy to review. Could you please share any materials you have?",
+  "action": "Willing despite the market objection \u2014 send materials and pre-empt the CA question in the cover note.",
+  "tags": []
+ },
+ {
+  "firm": "Torchlight Investors",
+  "person": "B. Duplain",
+  "email": "bduplain@torchlight.com",
+  "stage": "outofscope",
+  "ts": "2026-08-27T20:43:00Z",
+  "quote": "Let's catch up soon. Don't think this is a fit for us \u2014 we are more focused on preferred equity and distressed acquisitions where we can buy the loan.",
+  "action": "Pref and distressed debt, not common JV equity. Wants a catch-up regardless.",
+  "tags": [
+   "Not an LP"
+  ]
  }
 ]
