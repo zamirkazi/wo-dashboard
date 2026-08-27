@@ -9,6 +9,10 @@ import json, pathlib
 here = pathlib.Path(__file__).parent
 
 R = json.loads((here/'replies.json').read_text())
+# Auto-replies are not answers about the deal, so they never enter `replies` and
+# never move a response rate. They are kept separately because they still carry
+# two useful things: when a contact is actually back, and who has left the firm.
+A = json.loads((here/'autoreplies.json').read_text()) if (here/'autoreplies.json').exists() else []
 
 # ---- campaign definitions -------------------------------------------------
 # recipients: file of primary send addresses, or None while a send is in flight.
@@ -79,13 +83,19 @@ for c in CAMPAIGNS:
     reps = [r for r in R if r.get("campaign") == c["id"]]
     mailed = {r.get("mailedTo", r["email"]).lower() for r in reps}
     c["replyCount"] = len(reps)
+    autos = [a for a in A if a.get("campaign") == c["id"]]
+    c["autoReplies"] = sorted(autos, key=lambda a: (a["kind"], a.get("returns") or "9999", a["firm"]))
+    c["autoCounts"] = {k: sum(1 for a in autos if a["kind"] == k) for k in ("ooo","left","bounce")}
 
     if c["recipientsFile"]:
         recips = [l.strip() for l in (here/c["recipientsFile"]).read_text().splitlines() if l.strip()]
         dead = set(c["bad"].values()) - mailed      # a firm that replied is never dead
-        silent = [e for e in recips if e.lower() not in mailed and e.lower() not in dead]
-        assert len(mailed) + len(dead) + len(silent) == len(recips), (
-            f'{c["id"]}: {len(mailed)}+{len(dead)}+{len(silent)} != {len(recips)}')
+        autoAddrs = {a["email"].lower() for a in autos}
+        silent = [e for e in recips if e.lower() not in mailed and e.lower() not in dead
+                  and e.lower() not in autoAddrs]
+        onList = len([a for a in autos if a["email"].lower() in {e.lower() for e in recips}])
+        assert len(mailed) + len(dead) + onList + len(silent) == len(recips), (
+            f'{c["id"]}: {len(mailed)}+{len(dead)}+{onList}+{len(silent)} != {len(recips)}')
         # deadAddresses: every undeliverable address seen in-thread (for hygiene).
         # deadCount: how many *send-list* addresses those knock out (for the maths).
         c["recipients"], c["silent"] = recips, silent
@@ -102,8 +112,14 @@ for r in R:
     byfirm.setdefault(r["firm"], set()).add(r.get("campaign"))
 overlap = sorted(f for f, cs in byfirm.items() if len(cs) > 1)
 
+for a in A:
+    if a["kind"] == "left" and a.get("note"):
+        line = f'{a["email"]} — {a["note"]}'
+        if line not in CORRECTIONS: CORRECTIONS.append(line)
+
 data = {
     "replies": R,
+    "autoReplies": A,
     "campaigns": CAMPAIGNS,
     "corrections": CORRECTIONS,
     "overlap": overlap,
@@ -119,7 +135,9 @@ data = {
 
 for c in CAMPAIGNS:
     if c["inFlight"]:
-        print(f'{c["short"]:>14}: {c["replyCount"]:>3} replies · send in flight')
+        ac = c["autoCounts"]
+        print(f'{c["short"]:>14}: {c["replyCount"]:>3} replies · send in flight · '
+              f'{ac["ooo"]} out of office, {ac["left"]} left the firm, {ac["bounce"]} bounced')
     else:
         print(f'{c["short"]:>14}: {c["replyCount"]:>3} replies + {c["deadCount"]:>2} dead '
               f'+ {len(c["silent"]):>3} silent = {len(c["recipients"])}'

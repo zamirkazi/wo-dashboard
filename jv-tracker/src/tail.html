@@ -77,9 +77,13 @@ function renderFunnels() {
           : `<p class="sub">Sent ${fmt(c.sentStart)}</p>`) + `</div>`;
 
     if (c.inFlight) {
+      const a = c.autoCounts, tot = a.ooo + a.left + a.bounce;
       return `<div class="fblock">${head}<div class="pending">`
         + `Send began ${fmt(c.sentStart)} and is still running, so there is no final recipient count, `
-        + `bounce count or open rate yet. <b>${pl(reps.length, "reply", "replies")} already in</b>, ${live} of them live. `
+        + `bounce count or open rate yet. <b>${pl(reps.length, "reply", "replies")} about the deal</b> so far`
+        + (reps.length ? `, ${live} of them live` : "") + `. `
+        + (tot ? `Everything else that has come back is automatic: <b>${a.ooo} out of office</b>, `
+               + `${a.left} contacts who have left the firm, ${a.bounce} undeliverable. ` : "")
         + `The roster and delivery figures fill in once GMass reports the campaign complete.`
         + `</div></div>`;
     }
@@ -112,11 +116,24 @@ function renderHeadline() {
 
   if (!view.length) {
     const c = camps()[0];
-    $("#headline").innerHTML = c && c.inFlight
-      ? `<b>${esc(c.label)} is sending now.</b> The first message went out ${fmt(c.sentStart)} and no replies `
-        + `have landed yet. This view fills in as they arrive — the institutional campaign's first reply came `
-        + `16 minutes after its send began.`
+    const autos = c ? c.autoReplies : [];
+    const back = autos.filter(a => a.kind === "ooo" && a.returns).map(a => a.returns).sort();
+    let msg = c && c.inFlight
+      ? `<b>${esc(c.label)} is sending now.</b> The first message went out ${fmt(c.sentStart)}. `
+        + `No answers about the deal yet &mdash; the institutional campaign's first came 16 minutes in.`
       : `No replies in this cohort yet.`;
+    if (autos.length) {
+      const ooo = autos.filter(a => a.kind === "ooo").length;
+      msg += `<br><br><b>${ooo} of the first ${autos.length} responses are out-of-office replies</b>, and `
+           + (back.length
+              ? `most name a return date of ${fmt(back[0] + "T12:00:00Z").replace(/,.*/, "")} to `
+                + `${fmt(back[back.length-1] + "T12:00:00Z").replace(/,.*/, "")}. `
+              : "")
+           + `This send is landing in the last week of August, when much of this cohort is away. `
+           + `Read the response rate on this campaign from the week of 1 September, not from tonight &mdash; `
+           + `and a follow-up that week will reach people the first mail never did.`;
+    }
+    $("#headline").innerHTML = msg;
     $("#livecount").textContent = 0;
     $("#replycount").textContent = 0;
     $("#kpis").innerHTML = `<div class="kpi"><div class="n mono">0</div>`
@@ -353,6 +370,8 @@ function renderHygiene() {
     {n:opens, l:"Tracked opens",
      note:`Understated — institutional gateways strip the pixel, and ${view.length} firms replied `
         + `against ${opens} recorded opens`},
+    {n:cs.reduce((t,c) => t + (c.autoCounts ? c.autoCounts.ooo : 0), 0), l:"Out of office",
+     note:"Answered automatically, not about the deal — they have not seen it yet"},
     {n:0, l:"Unsubscribes", note:"One recipient asked to remove a colleague by name instead"}
   ].map(k => `<div class="kpi"><div class="n mono">${esc(k.n)}</div>`
     + `<div class="lbl">${esc(k.l)}</div><div class="note">${esc(k.note)}</div></div>`).join("");
@@ -364,6 +383,16 @@ function renderHygiene() {
   $("#badlist").innerHTML = cs.flatMap(c => c.deadAddresses)
     .map(e => `<div title="${esc(e)}">${esc(e)}</div>`).join("") || `<div>None recorded yet</div>`;
   $("#fixlist").innerHTML = D.corrections.map(e => `<div title="${esc(e)}">${esc(e)}</div>`).join("");
+
+  const autos = cs.flatMap(c => c.autoReplies || []);
+  $("#autosum").textContent = autos.length
+    ? `${autos.length} automatic responses — out of office, departed contacts, bounces`
+    : "No automatic responses in this cohort yet";
+  const KIND = {ooo:"Out of office", left:"Has left the firm", bounce:"Undeliverable"};
+  $("#autolist").innerHTML = autos.map(a =>
+    `<div title="${esc(a.email)}"><b>${esc(a.firm)}</b> — ${esc(KIND[a.kind])}`
+  + (a.returns ? `, back ${esc(fmt(a.returns + "T12:00:00Z").replace(/,[^,]*$/, ""))}` : "")
+  + (a.note ? `. ${esc(a.note)}` : "") + `</div>`).join("") || `<div>None yet</div>`;
 }
 
 /* ---------- footer ---------- */
