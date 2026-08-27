@@ -42,13 +42,23 @@ $("#replycount").textContent = n;
 
 /* ---- headline ---- */
 const mN = cnt("materials"), qN = cnt("question"), cN = cnt("conditional");
+const tagTally = {};
+D.replies.forEach(r => r.tags.forEach(x => tagTally[x] = (tagTally[x]||0) + 1));
+const topObj = Object.entries(tagTally).sort((a,b) => b[1] - a[1])[0];
+const sizeLive = D.replies.filter(r =>
+  r.tags.includes("Structure / check size") && LIVE.includes(r.stage)).length;
+const sizeAll = tagTally["Structure / check size"] || 0;
 $("#headline").innerHTML =
   `<b>${liveN} live conversations</b> out of ${n} replies. ${mN} firms have asked for the package `
 + `and ${qN} have asked a pricing question &mdash; nearly all of them waiting on a going-in cap rate, `
-+ `so answering that one number unblocks the largest cluster on the board. A further ${cN} are open at a `
-+ `different size or structure &mdash; co-GP, pref, or a partial check. Three of those named a dollar band: `
-+ `<b>Capital Solutions $14&ndash;15M</b>, <b>ABR $5&ndash;15M</b> and <b>TriGate</b> just under its fund cap, `
-+ `which between them cover the ${esc(d.equity)} requirement without a single institutional partner.`;
++ `so answering that one number unblocks the largest cluster on the board.<br><br>`
++ `The leading objection is now <b>${esc(topObj[0].toLowerCase())}</b>, cited by ${topObj[1]} firms &mdash; `
++ `ahead of the California market objection. ${sizeAll} firms have raised size or structure in total, `
++ `and <b>${sizeLive} of them are still live</b> on co-GP, pref, or a partial check. `
++ `Four have named a band they can write: <b>Capital Solutions $14&ndash;15M</b>, <b>ABR $5&ndash;15M</b>, `
++ `<b>Blackbird $3&ndash;10M</b> and <b>Artisan $3&ndash;7M</b>. `
++ `The single-check ${esc(d.equity)} ask is the biggest structural obstacle in this response set, `
++ `and it is the one you can restructure your way out of.`;
 
 /* ---- KPIs ---- */
 const firstReply = D.replies.map(r => new Date(r.ts)).sort((a,b) => a-b)[0];

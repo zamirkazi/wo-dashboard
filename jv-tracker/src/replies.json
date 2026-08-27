@@ -998,5 +998,19 @@
   "tags": [
    "Not acquiring now"
   ]
+ },
+ {
+  "firm": "Blackbird Investments",
+  "person": "M. Jenson",
+  "email": "mjenson@blackbirdinv.com",
+  "mailedTo": "tvender@blackbirdinv.com",
+  "stage": "pass",
+  "ts": "2026-08-27T20:09:00Z",
+  "quote": "Todd is on vacation this week but the deal is not a fit for us given the larger check size. We focus on $3-10mm equity checks and are targeting 18%+.",
+  "action": "",
+  "tags": [
+   "Structure / check size",
+   "Return threshold"
+  ]
  }
 ]
