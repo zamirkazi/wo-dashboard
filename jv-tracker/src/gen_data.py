@@ -41,6 +41,7 @@ data = {
         "Suppress michel.schram@pggm.nl — second decline, no allocation since July",
         "Knickpoint: nick@knickpt.com is stale — use jamie@, zain@, matt@knickpt.com",
         "abaraghoush@pacificurbaninvestors.com — Ash has left the firm",
+        "njanney@redcovecap.com — Nicholas has left Red Cove; use atishkoff@redcovecap.com",
         "Reclassify as debt, not JV equity: Electra Capital, Twin Spruce, Bedrock Land Finance",
         "Not LP equity providers: UDR, Stanton Road, Stoneweg, Pacific Urban, Acuity, H Equities",
     ],

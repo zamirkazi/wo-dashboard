@@ -833,5 +833,55 @@
   "tags": [
    "Development only"
   ]
+ },
+ {
+  "firm": "Max Kuriloff",
+  "person": "Max Kuriloff",
+  "email": "maxkuriloff@gmail.com",
+  "stage": "conditional",
+  "ts": "2026-08-27T15:18:00Z",
+  "quote": "We invest Co-GP equity. Is that something you are looking for here?",
+  "action": "Answer the co-GP question \u2014 fifth firm to raise co-GP, worth deciding the policy once.",
+  "tags": [
+   "Structure / check size"
+  ]
+ },
+ {
+  "firm": "Peaceable Street Capital",
+  "person": "Seth Douglas",
+  "email": "sdouglas@peaceablestreet.com",
+  "mailedTo": "sonufrey@peaceablestreet.com",
+  "stage": "reviewing",
+  "ts": "2026-08-27T15:27:00Z",
+  "quote": "Let us review this further and get back to you with any questions/feedback.",
+  "action": "Nothing asked for yet \u2014 diarise a nudge if nothing lands in 48 hours.",
+  "tags": []
+ },
+ {
+  "firm": "Horowitz Group",
+  "person": "Angela",
+  "email": "angela@horowitzgroup.com",
+  "mailedTo": "matt@horowitzgroup.com",
+  "stage": "pass",
+  "ts": "2026-08-27T15:47:00Z",
+  "quote": "We're not interested in additional California exposure at this time. We'll let you know if that changes.",
+  "action": "",
+  "tags": [
+   "California"
+  ]
+ },
+ {
+  "firm": "Red Cove Capital",
+  "person": "A. Tishkoff",
+  "email": "atishkoff@redcovecap.com",
+  "mailedTo": "njanney@redcovecap.com",
+  "stage": "pass",
+  "ts": "2026-08-27T16:00:00Z",
+  "quote": "We focus on newer-vintage assets built in the last 10 years with equity checks of $40M+, so this one won't be a fit. Also, Nicholas is no longer with Red Cove.",
+  "action": "",
+  "tags": [
+   "1980s vintage",
+   "Structure / check size"
+  ]
  }
 ]

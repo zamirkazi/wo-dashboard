@@ -4,12 +4,13 @@ const STAGE = {
   materials:    {label:"Wants package",  live:true,  rank:1, blurb:"Asked for the deck, model or OM"},
   question:     {label:"Asked a question",live:true, rank:2, blurb:"Answer and the conversation continues"},
   conditional:  {label:"Yes, but",       live:true,  rank:3, blurb:"Interested at a different size or structure"},
+  reviewing:    {label:"Under review",   live:true,  rank:4, blurb:"Diligencing on their own, nothing asked for yet"},
   referred:     {label:"Routed onward",  live:false, rank:4, blurb:"Handed to the colleague who covers this"},
   relationship: {label:"Relationship",   live:false, rank:5, blurb:"Not about the deal, still worth the reply"},
   pass:         {label:"Passed",         live:false, rank:6, blurb:"Declined"},
   outofscope:   {label:"Not an LP",      live:false, rank:7, blurb:"Wrong firm type for a JV equity ask"}
 };
-const LIVE = ["meeting","materials","question","conditional"];
+const LIVE = ["meeting","materials","question","conditional","reviewing"];
 const ROUTED = ["referred","relationship"];
 const $ = s => document.querySelector(s);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -90,7 +91,7 @@ $("#queue").innerHTML = order.map(st => {
     <div class="cards">` + rows.map(r => `
       <div class="card s-${st}" data-k="${esc(r.email)}">
         <div class="card-top">
-          <div><div class="firm">${esc(r.firm)}</div><div class="who">${esc(r.person)}</div></div>
+          <div><div class="firm">${esc(r.firm)}</div>${r.person && r.person !== r.firm ? `<div class="who">${esc(r.person)}</div>` : ""}</div>
           <span class="chip c-${st}">${esc(STAGE[st].label)}</span>
         </div>
         <div class="quote">&ldquo;${esc(r.quote)}&rdquo;</div>
@@ -165,7 +166,7 @@ function render() {
       .toLowerCase().includes(query))
     .sort((a,b) => b.ts.localeCompare(a.ts));
   $("#ledger").innerHTML = rows.map(r => `<tr>
-      <td class="f">${esc(r.firm)}<small>${esc(r.person)}</small></td>
+      <td class="f">${esc(r.firm)}${r.person && r.person !== r.firm ? `<small>${esc(r.person)}</small>` : ""}</td>
       <td><span class="chip c-${r.stage}">${esc(STAGE[r.stage].label)}</span></td>
       <td class="qt">&ldquo;${esc(r.quote)}&rdquo;
         ${r.tags.length ? `<div class="tags">${r.tags.map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : ""}</td>
