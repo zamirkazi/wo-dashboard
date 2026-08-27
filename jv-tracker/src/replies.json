@@ -7,7 +7,8 @@
   "ts": "2026-08-26T23:41:17Z",
   "quote": "See you shortly and we can discuss! Definitely the right spot.",
   "action": "Meeting already in motion \u2014 confirm time and bring the full package.",
-  "tags": []
+  "tags": [],
+  "campaign": "institutional"
  },
  {
   "firm": "Powers Capital",
@@ -17,7 +18,8 @@
   "ts": "2026-08-26T23:05:30Z",
   "quote": "Would love to help on this. Not a bad check size and sounds like an interesting story. Can you send the package?",
   "action": "Send full package (OM, model, T12, rent roll).",
-  "tags": []
+  "tags": [],
+  "campaign": "institutional"
  },
  {
   "firm": "Two Sigma",
@@ -27,7 +29,8 @@
   "ts": "2026-08-27T02:13:34Z",
   "quote": "Thanks for the note, sounds interesting. Please share some additional information and we can give you a better sense.",
   "action": "Send package. Institutional check size fits $30.96M requirement.",
-  "tags": []
+  "tags": [],
+  "campaign": "institutional"
  },
  {
   "firm": "Tryperion Holdings",
@@ -37,7 +40,8 @@
   "ts": "2026-08-26T23:18:40Z",
   "quote": "Thanks for thinking of us. Please send more info.",
   "action": "Send package.",
-  "tags": []
+  "tags": [],
+  "campaign": "institutional"
  },
  {
   "firm": "Mavik Capital",
@@ -47,7 +51,8 @@
   "ts": "2026-08-27T00:22:49Z",
   "quote": "Thanks, do you have a memo and model?",
   "action": "Send memo + underwriting model.",
-  "tags": []
+  "tags": [],
+  "campaign": "institutional"
  },
  {
   "firm": "Hillwood",
@@ -57,7 +62,8 @@
   "ts": "2026-08-26T22:43:53Z",
   "quote": "Good location. Do you have a model prepared or an OM you can share?",
   "action": "Send OM + model.",
-  "tags": []
+  "tags": [],
+  "campaign": "institutional"
  },
  {
   "firm": "KCB Partners",
@@ -68,7 +74,8 @@
   "quote": "Do you have a 10-year model readily available for the deal?",
   "action": "Send 10-year model specifically.",
   "tags": [],
-  "mailedTo": "pknell@kcbm.com"
+  "mailedTo": "pknell@kcbm.com",
+  "campaign": "institutional"
  },
  {
   "firm": "Clairmont Capital Group",
@@ -81,7 +88,8 @@
   "tags": [
    "Structure / check size"
   ],
-  "mailedTo": "nick@clairmontcapitalgroup.com"
+  "mailedTo": "nick@clairmontcapitalgroup.com",
+  "campaign": "institutional"
  },
  {
   "firm": "Mountain Pacific",
@@ -94,7 +102,8 @@
   "tags": [
    "Structure / check size"
   ],
-  "mailedTo": "brian@mntpac.com"
+  "mailedTo": "brian@mntpac.com",
+  "campaign": "institutional"
  },
  {
   "firm": "Blue Owl",
@@ -104,7 +113,8 @@
   "ts": "2026-08-27T01:40:13Z",
   "quote": "What is going in cap and terms of the financing?",
   "action": "Answer: going-in cap + debt terms on the $45.06M / 59% LTC loan.",
-  "tags": []
+  "tags": [],
+  "campaign": "institutional"
  },
  {
   "firm": "Quarterra",
@@ -114,7 +124,8 @@
   "ts": "2026-08-27T02:04:44Z",
   "quote": "What's the cap rate?",
   "action": "Answer: going-in cap rate.",
-  "tags": []
+  "tags": [],
+  "campaign": "institutional"
  },
  {
   "firm": "West Pine",
@@ -124,7 +135,8 @@
   "ts": "2026-08-26T23:17:27Z",
   "quote": "What is going in cap",
   "action": "Answer: going-in cap rate.",
-  "tags": []
+  "tags": [],
+  "campaign": "institutional"
  },
  {
   "firm": "Makarora",
@@ -134,7 +146,8 @@
   "ts": "2026-08-26T22:39:35Z",
   "quote": "Can you share a bit more detail on the yield profile? Going-in cap rate and YOC, Untrended MTM Yield and Stabilized Trended YOC?",
   "action": "Most technical ask in the batch \u2014 send the full yield bridge.",
-  "tags": []
+  "tags": [],
+  "campaign": "institutional"
  },
  {
   "firm": "Kildare Partners",
@@ -146,7 +159,8 @@
   "action": "Answer, but flagged low cash-on-cash as a hurdle.",
   "tags": [
    "Return threshold"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Capital Solutions",
@@ -158,7 +172,8 @@
   "action": "Would take ~half the $30.96M. Best candidate to pair with a second LP.",
   "tags": [
    "Structure / check size"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Broadview Real Estate Partners",
@@ -170,7 +185,8 @@
   "action": "Co-GP only.",
   "tags": [
    "Structure / check size"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Opulum Capital",
@@ -182,7 +198,8 @@
   "action": "Pref only \u2014 conflicts with institutional JV structure.",
   "tags": [
    "Structure / check size"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Artisan Capital",
@@ -194,7 +211,8 @@
   "action": "Small check \u2014 GP equity slice only.",
   "tags": [
    "Structure / check size"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "J.P. Morgan",
@@ -205,7 +223,8 @@
   "quote": "Adding Morgan Lingle and removing Lindsey. Morgan is head of our West Coast Acquisitions team and sits in San Francisco.",
   "action": "Warm hand-off to the right desk \u2014 follow up with Morgan Lingle directly.",
   "tags": [],
-  "mailedTo": "lindsey.r.snider@jpmorgan.com"
+  "mailedTo": "lindsey.r.snider@jpmorgan.com",
+  "campaign": "institutional"
  },
  {
   "firm": "Clarion Partners",
@@ -215,7 +234,8 @@
   "ts": "2026-08-27T00:12:14Z",
   "quote": "I want to introduce you to Andrew who covers west coast multi for us.",
   "action": "Follow up with Andrew Palmquist.",
-  "tags": []
+  "tags": [],
+  "campaign": "institutional"
  },
  {
   "firm": "Clarion Partners",
@@ -225,7 +245,8 @@
   "ts": "2026-08-27T00:05:44Z",
   "quote": "Thanks, copying in Andrew.",
   "action": "Second Clarion route to the same person \u2014 consolidate into one thread.",
-  "tags": []
+  "tags": [],
+  "campaign": "institutional"
  },
  {
   "firm": "New York Life",
@@ -241,7 +262,8 @@
   "mailedTo": "robert_bevers@nylinvestors.com",
   "otherAddrs": [
    "albert.pura@nylim.com"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Shoreham Capital",
@@ -252,7 +274,8 @@
   "quote": "Hope you both are well. Just fyi Steve, Nick and Danil are no longer with Shoreham but we should all catch up soon. Good time next week?",
   "action": "Not a deal answer \u2014 schedule the catch-up and update contacts.",
   "tags": [],
-  "mailedTo": "steve@shorehamcapital.com"
+  "mailedTo": "steve@shorehamcapital.com",
+  "campaign": "institutional"
  },
  {
   "firm": "Knickpoint Ventures",
@@ -264,7 +287,8 @@
   "action": "Nick DiCicco has left \u2014 list already corrected to Jamie, Zain and Matt.",
   "tags": [
    "Outside target market"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "American Realty Advisors (ARA)",
@@ -277,7 +301,8 @@
   "tags": [
    "1980s vintage",
    "Competing bid"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Carlyle",
@@ -290,7 +315,8 @@
   "tags": [
    "California",
    "1980s vintage"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Fortress",
@@ -302,7 +328,8 @@
   "action": "",
   "tags": [
    "No reason given"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Oaktree",
@@ -314,7 +341,8 @@
   "action": "Soft pass on submarket, not on strategy.",
   "tags": [
    "California"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Elliott Management",
@@ -326,7 +354,8 @@
   "action": "SUPPRESS psinger@elliottmgmt.com from all future sends.",
   "tags": [
    "No reason given"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Tramview",
@@ -339,7 +368,8 @@
   "tags": [
    "California",
    "1980s vintage"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Bascom Group",
@@ -351,7 +381,8 @@
   "action": "Competing bidder \u2014 note the HOA opex objection, it will recur.",
   "tags": [
    "Competing bid"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Blue Vista",
@@ -364,7 +395,8 @@
   "tags": [
    "1980s vintage"
   ],
-  "mailedTo": "dstephenson@bluevistallc.com"
+  "mailedTo": "dstephenson@bluevistallc.com",
+  "campaign": "institutional"
  },
  {
   "firm": "Marble Capital",
@@ -377,7 +409,8 @@
   "tags": [
    "California",
    "1980s vintage"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Midloch",
@@ -389,7 +422,8 @@
   "action": "",
   "tags": [
    "California"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Silvercap Partners",
@@ -401,7 +435,8 @@
   "action": "",
   "tags": [
    "California"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "RM Adviser",
@@ -413,7 +448,8 @@
   "action": "",
   "tags": [
    "California"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Olive Point Capital",
@@ -425,7 +461,8 @@
   "action": "",
   "tags": [
    "Outside target market"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Long Wharf",
@@ -438,7 +475,8 @@
   "tags": [
    "No reason given"
   ],
-  "mailedTo": "michael.elizondo@longwharf.com"
+  "mailedTo": "michael.elizondo@longwharf.com",
+  "campaign": "institutional"
  },
  {
   "firm": "Pearlmark",
@@ -451,7 +489,8 @@
   "tags": [
    "No dry powder"
   ],
-  "mailedTo": "cmendez@pearlmark.com"
+  "mailedTo": "cmendez@pearlmark.com",
+  "campaign": "institutional"
  },
  {
   "firm": "Forum Investment Group",
@@ -465,7 +504,8 @@
    "1980s vintage",
    "No dry powder"
   ],
-  "mailedTo": "jmanning@forumig.com"
+  "mailedTo": "jmanning@forumig.com",
+  "campaign": "institutional"
  },
  {
   "firm": "Eightfold Capital",
@@ -477,7 +517,8 @@
   "action": "Timing only \u2014 re-approach after next close.",
   "tags": [
    "No dry powder"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Osso Capital",
@@ -489,7 +530,8 @@
   "action": "Structural \u2014 only works on off-market.",
   "tags": [
    "Marketed deal"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "JSB Capital Group",
@@ -501,7 +543,8 @@
   "action": "Priced out \u2014 cap rate objection.",
   "tags": [
    "Return threshold"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "GCG Real Estate",
@@ -513,7 +556,8 @@
   "action": "17.1% levered IRR below their 20%+ threshold.",
   "tags": [
    "Return threshold"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Wtrshd Capital",
@@ -526,7 +570,8 @@
   "tags": [
    "Bandwidth / timing"
   ],
-  "mailedTo": "laura@wtrshdcap.com"
+  "mailedTo": "laura@wtrshdcap.com",
+  "campaign": "institutional"
  },
  {
   "firm": "Bedrock Land Finance",
@@ -538,7 +583,8 @@
   "action": "Wrong firm type \u2014 remove from JV equity list.",
   "tags": [
    "Not an LP"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "UDR",
@@ -550,7 +596,8 @@
   "action": "Remove from JV equity list.",
   "tags": [
    "Not an LP"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Pacific Urban Investors",
@@ -563,7 +610,8 @@
   "tags": [
    "Not an LP"
   ],
-  "mailedTo": "abaraghoush@pacificurbaninvestors.com"
+  "mailedTo": "abaraghoush@pacificurbaninvestors.com",
+  "campaign": "institutional"
  },
  {
   "firm": "Acuity Partners NYC",
@@ -575,7 +623,8 @@
   "action": "Remove from list.",
   "tags": [
    "Not an LP"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "CastleSquare",
@@ -585,7 +634,8 @@
   "ts": "2026-08-27T14:02:00Z",
   "quote": "Thanks for touching base. I'd like to learn more. Can you provide an OM or model?",
   "action": "Send OM + model.",
-  "tags": []
+  "tags": [],
+  "campaign": "institutional"
  },
  {
   "firm": "Blackhawk Partners",
@@ -595,7 +645,8 @@
   "ts": "2026-08-27T12:52:00Z",
   "quote": "To speed up the process, would highly appreciate if you could address our basic DD questions below, then we can have a real assessment.",
   "action": "Pull their DD list off the thread and answer it \u2014 they are asking to move fast.",
-  "tags": []
+  "tags": [],
+  "campaign": "institutional"
  },
  {
   "firm": "TriGate Capital",
@@ -607,7 +658,8 @@
   "action": "A real yes-but \u2014 would take a smaller slice. Pair with Capital Solutions' $14-15M.",
   "tags": [
    "Structure / check size"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "CenterSquare",
@@ -619,7 +671,8 @@
   "action": "Wants a call next week. Mezz only, not common equity \u2014 could fill a mezz tranche.",
   "tags": [
    "Structure / check size"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Baupost",
@@ -631,7 +684,8 @@
   "action": "",
   "tags": [
    "No reason given"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "PGGM",
@@ -643,7 +697,8 @@
   "action": "Second decline for the same reason \u2014 suppress until they raise again.",
   "tags": [
    "No dry powder"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Stoneweg US",
@@ -656,7 +711,8 @@
   "tags": [
    "California",
    "Not an LP"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Electra Capital",
@@ -669,7 +725,8 @@
   "tags": [
    "California",
    "Not an LP"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "ICM Group",
@@ -681,7 +738,8 @@
   "action": "",
   "tags": [
    "California"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Goldman Sachs",
@@ -693,7 +751,8 @@
   "action": "SUPPRESS john.rogers@gs.com \u2014 asked by name.",
   "tags": [
    "Capacity / staffing"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "IMCO",
@@ -705,7 +764,8 @@
   "action": "",
   "tags": [
    "No reason given"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Resmark",
@@ -717,7 +777,8 @@
   "action": "",
   "tags": [
    "Development only"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Twin Spruce Capital",
@@ -729,7 +790,8 @@
   "action": "Pref/mezz only \u2014 reclassify on the list.",
   "tags": [
    "Not an LP"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Halstatt Real Estate Partners",
@@ -741,7 +803,8 @@
   "action": "",
   "tags": [
    "Outside target market"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "ABR Capital",
@@ -753,7 +816,8 @@
   "action": "Declined on size, but named a $5-15M band \u2014 a candidate if you syndicate the stack.",
   "tags": [
    "Structure / check size"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Stanton Road Capital",
@@ -765,7 +829,8 @@
   "action": "",
   "tags": [
    "Not an LP"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "H Equities",
@@ -778,7 +843,8 @@
   "tags": [
    "Not an LP",
    "Structure / check size"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Paceline Equity",
@@ -790,7 +856,8 @@
   "action": "",
   "tags": [
    "Return threshold"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Lightning Tree Capital",
@@ -802,7 +869,8 @@
   "action": "",
   "tags": [
    "California"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Prospect Ridge",
@@ -813,7 +881,8 @@
   "ts": "2026-08-27T15:01:00Z",
   "quote": "Do you have further information \u2014 in-place cap rate, stabilized YOC and exit cap that goes into the below? I think this one might end up being a bit thin for us.",
   "action": "Fourth firm asking the same yield questions \u2014 send the yield bridge, but they are already flagging returns as thin.",
-  "tags": []
+  "tags": [],
+  "campaign": "institutional"
  },
  {
   "firm": "Kinship Capital",
@@ -825,7 +894,8 @@
   "action": "",
   "tags": [
    "Not acquiring now"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Platform V",
@@ -837,7 +907,8 @@
   "action": "",
   "tags": [
    "Development only"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Max Kuriloff",
@@ -849,7 +920,8 @@
   "action": "Answer the co-GP question \u2014 fifth firm to raise co-GP, worth deciding the policy once.",
   "tags": [
    "Structure / check size"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Peaceable Street Capital",
@@ -860,7 +932,8 @@
   "ts": "2026-08-27T15:27:00Z",
   "quote": "Let us review this further and get back to you with any questions/feedback.",
   "action": "Nothing asked for yet \u2014 diarise a nudge if nothing lands in 48 hours.",
-  "tags": []
+  "tags": [],
+  "campaign": "institutional"
  },
  {
   "firm": "Horowitz Group",
@@ -873,7 +946,8 @@
   "action": "",
   "tags": [
    "California"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Red Cove Capital",
@@ -887,7 +961,8 @@
   "tags": [
    "1980s vintage",
    "Structure / check size"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Walker & Dunlop",
@@ -900,7 +975,8 @@
   "tags": [
    "Structure / check size",
    "No dry powder"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "OceanWest Capital Partners",
@@ -913,7 +989,8 @@
   "action": "",
   "tags": [
    "No dry powder"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Cottonwood Communities",
@@ -925,7 +1002,8 @@
   "action": "",
   "tags": [
    "Different strategy"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Vistria Group",
@@ -938,7 +1016,8 @@
   "tags": [
    "California",
    "Capacity / staffing"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Farallon Capital",
@@ -950,7 +1029,8 @@
   "action": "",
   "tags": [
    "Outside target market"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Hensel Phelps",
@@ -962,7 +1042,8 @@
   "action": "",
   "tags": [
    "Development only"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "3650 Capital",
@@ -973,7 +1054,8 @@
   "ts": "2026-08-27T18:32:00Z",
   "quote": "Jeremiah no longer works at 3650 \u2014 but we would be happy to dig into the opportunity if you have a drop box or something you could share?",
   "action": "Send the data room link. Update the contact to Brent Thurn.",
-  "tags": []
+  "tags": [],
+  "campaign": "institutional"
  },
  {
   "firm": "Corebridge Financial",
@@ -984,7 +1066,8 @@
   "ts": "2026-08-27T18:48:00Z",
   "quote": "I cover the western US, based in Los Angeles. We will take a look, although generally 80's vintage deals are tough for us right now.",
   "action": "Right coverage person self-identified and is looking. Lead with the 2011-15 renovation history to blunt the vintage objection.",
-  "tags": []
+  "tags": [],
+  "campaign": "institutional"
  },
  {
   "firm": "Seminole Financial Services",
@@ -997,7 +1080,8 @@
   "action": "",
   "tags": [
    "Not acquiring now"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Blackbird Investments",
@@ -1011,7 +1095,8 @@
   "tags": [
    "Structure / check size",
    "Return threshold"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Eastham Capital",
@@ -1021,7 +1106,8 @@
   "ts": "2026-08-27T20:53:00Z",
   "quote": "Candidly, California is not the IC's favorite market, but I'd still be happy to review. Could you please share any materials you have?",
   "action": "Willing despite the market objection \u2014 send materials and pre-empt the CA question in the cover note.",
-  "tags": []
+  "tags": [],
+  "campaign": "institutional"
  },
  {
   "firm": "Torchlight Investors",
@@ -1033,7 +1119,8 @@
   "action": "Pref and distressed debt, not common JV equity. Wants a catch-up regardless.",
   "tags": [
    "Not an LP"
-  ]
+  ],
+  "campaign": "institutional"
  },
  {
   "firm": "Basis Investment Group",
@@ -1046,6 +1133,7 @@
   "action": "Send the OM. Asked first whether this was debt or equity, so lead with the JV equity ask.",
   "tags": [
    "Structure / check size"
-  ]
+  ],
+  "campaign": "institutional"
  }
 ]

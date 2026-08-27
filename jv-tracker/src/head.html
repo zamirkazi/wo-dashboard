@@ -97,6 +97,57 @@ section{padding-top:44px}
   text-transform:uppercase; color:var(--ink-3); margin-top:5px}
 .kpi .note{font-size:12.5px; color:var(--ink-2); margin-top:5px; line-height:1.4}
 
+/* ---------- cohort switcher ---------- */
+.cohort{display:flex; flex-wrap:wrap; gap:8px; padding:16px 0 2px}
+.cbtn{
+  font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.06em; text-transform:uppercase;
+  padding:7px 13px; border:1px solid var(--rule-hard); background:transparent; color:var(--ink-2);
+  border-radius:3px; cursor:pointer; font-weight:500; display:inline-flex; align-items:center; gap:7px;
+}
+.cbtn:hover{border-color:var(--ink-3); color:var(--ink)}
+.cbtn[aria-pressed="true"]{background:var(--ink); color:var(--paper); border-color:var(--ink)}
+.cbtn b{font-weight:600}
+.cbtn .live-dot{width:6px; height:6px; border-radius:50%; background:var(--live); flex:none}
+
+/* ---------- per-campaign funnel block ---------- */
+.fblock{padding:18px 0; border-top:1px solid var(--rule)}
+.fblock:first-child{border-top:none; padding-top:0}
+.fhead{display:flex; align-items:baseline; justify-content:space-between; gap:14px;
+  flex-wrap:wrap; margin-bottom:14px}
+.fhead h3{font-size:16px; font-weight:600}
+.fhead .sub{font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--ink-3);
+  margin:0; letter-spacing:.03em}
+.inflight{display:inline-flex; align-items:center; gap:6px; font-family:"IBM Plex Mono",monospace;
+  font-size:10px; letter-spacing:.08em; text-transform:uppercase; color:var(--live);
+  border:1px solid var(--live); border-radius:3px; padding:2px 7px; font-weight:600}
+.pending{background:var(--raised); border:1px dashed var(--rule-hard); border-radius:3px;
+  padding:14px 16px; font-size:13.5px; color:var(--ink-2); line-height:1.5}
+
+/* ---------- objection split ---------- */
+.split{margin-top:26px; padding-top:18px; border-top:1px solid var(--rule)}
+.split h3{font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.13em;
+  text-transform:uppercase; color:var(--ink-2); font-weight:600; margin-bottom:4px}
+.split p{margin:0 0 14px; font-size:13px; color:var(--ink-3)}
+.srow{display:grid; grid-template-columns:minmax(120px,168px) 1fr; gap:14px; align-items:center;
+  margin-bottom:7px}
+.srow .sl{font-size:13px; color:var(--ink-2); text-align:right}
+.sbars{display:flex; align-items:center; gap:3px}
+.sbar{height:14px; border-radius:0 2px 2px 0; min-width:2px}
+.sbar.inst{background:var(--seq-4)}
+.sbar.fo{background:var(--routed)}
+.scount{font-family:"IBM Plex Mono",monospace; font-size:11.5px; color:var(--ink-3);
+  font-variant-numeric:tabular-nums; margin-left:5px}
+.slegend{display:flex; gap:16px; font-size:12px; color:var(--ink-3); margin-bottom:12px;
+  align-items:center; flex-wrap:wrap}
+.slegend span{display:inline-flex; align-items:center; gap:6px}
+.swatch{width:11px; height:11px; border-radius:2px; flex:none}
+
+/* campaign marker on a card or row */
+.cmark{font-family:"IBM Plex Mono",monospace; font-size:9.5px; letter-spacing:.06em;
+  text-transform:uppercase; color:var(--ink-3); border:1px solid var(--rule-hard);
+  padding:1px 5px; border-radius:2px; white-space:nowrap}
+.cmark.fo{border-color:var(--routed); color:var(--routed)}
+
 /* ---------- funnel ---------- */
 .funnel{display:flex; flex-direction:column; gap:11px}
 .frow{display:grid; grid-template-columns:minmax(140px,190px) 1fr auto; gap:16px; align-items:center}
@@ -132,6 +183,7 @@ section{padding-top:44px}
   padding-left:11px; font-style:italic}
 .act{font-size:13px; line-height:1.45; color:var(--ink); display:flex; gap:7px; align-items:flex-start}
 .act::before{content:"→"; color:var(--live); flex:none; font-weight:600}
+.card-foot{display:flex; justify-content:space-between; align-items:center; gap:10px}
 .tick{display:flex; align-items:center; gap:7px; font-size:11.5px; color:var(--ink-3);
   font-family:"IBM Plex Mono",monospace; cursor:pointer; user-select:none; margin-top:2px}
 .tick input{accent-color:var(--live); width:13px; height:13px; cursor:pointer}
@@ -218,9 +270,9 @@ footer{margin-top:56px; padding-top:18px; border-top:1px solid var(--rule-hard);
 <header class="mast">
   <div class="mast-top">
     <div>
-      <div class="eyebrow">JV Equity Outreach &middot; Campaign 53043162</div>
+      <div class="eyebrow" id="eyebrow"></div>
       <h1>Canyon Woods Capital Desk</h1>
-      <p class="sub">Live response tracking for the institutional JV equity raise on Canyon Woods, San Ramon. Every reply to the 26 Aug blast, sorted by what the partner actually asked for.</p>
+      <p class="sub" id="subtitle"></p>
     </div>
     <div class="stamp">
       <span class="pulse"><span class="dot"></span><span id="freshness">LIVE</span></span>
@@ -229,6 +281,7 @@ footer{margin-top:56px; padding-top:18px; border-top:1px solid var(--rule-hard);
     </div>
   </div>
   <dl class="spec" id="spec"></dl>
+  <div class="cohort" id="cohort"></div>
 </header>
 
 <section id="s-status">
@@ -242,10 +295,10 @@ footer{margin-top:56px; padding-top:18px; border-top:1px solid var(--rule-hard);
 
 <section id="s-funnel">
   <div class="sec-head">
-    <h2>Coverage</h2>
-    <p>From list to live conversation. Each stage is a subset of the one above it.</p>
+    <h2>Coverage by campaign</h2>
+    <p>Each campaign reconciles on its own — different lists, different copy, different send times.</p>
   </div>
-  <div class="funnel" id="funnel"></div>
+  <div id="funnels"></div>
 </section>
 
 <section id="s-queue">
@@ -286,6 +339,7 @@ footer{margin-top:56px; padding-top:18px; border-top:1px solid var(--rule-hard);
     <p id="objnote"></p>
   </div>
   <div class="obj" id="objections"></div>
+  <div id="objsplit"></div>
 </section>
 
 <section id="s-silent">
