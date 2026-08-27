@@ -963,5 +963,40 @@
   "tags": [
    "Development only"
   ]
+ },
+ {
+  "firm": "3650 Capital",
+  "person": "Brent Thurn",
+  "email": "bthurn@3650capital.com",
+  "mailedTo": "jsharf@3650reit.com",
+  "stage": "materials",
+  "ts": "2026-08-27T18:32:00Z",
+  "quote": "Jeremiah no longer works at 3650 \u2014 but we would be happy to dig into the opportunity if you have a drop box or something you could share?",
+  "action": "Send the data room link. Update the contact to Brent Thurn.",
+  "tags": []
+ },
+ {
+  "firm": "Corebridge Financial",
+  "person": "Royce Hadden",
+  "email": "royce.hadden@corebridgefinancial.com",
+  "mailedTo": "matthew.kordsmeier@corebridgefinancial.com",
+  "stage": "reviewing",
+  "ts": "2026-08-27T18:48:00Z",
+  "quote": "I cover the western US, based in Los Angeles. We will take a look, although generally 80's vintage deals are tough for us right now.",
+  "action": "Right coverage person self-identified and is looking. Lead with the 2011-15 renovation history to blunt the vintage objection.",
+  "tags": []
+ },
+ {
+  "firm": "Seminole Financial Services",
+  "person": "Joe Ritter",
+  "email": "jritter@seminolefs.com",
+  "mailedTo": "jritter@seminolefinancialservices.com",
+  "stage": "pass",
+  "ts": "2026-08-27T18:47:00Z",
+  "quote": "We're not looking at any real estate opportunities at the moment.",
+  "action": "",
+  "tags": [
+   "Not acquiring now"
+  ]
  }
 ]

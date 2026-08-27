@@ -42,6 +42,8 @@ data = {
         "Knickpoint: nick@knickpt.com is stale — use jamie@, zain@, matt@knickpt.com",
         "abaraghoush@pacificurbaninvestors.com — Ash has left the firm",
         "njanney@redcovecap.com — Nicholas has left Red Cove; use atishkoff@redcovecap.com",
+        "jsharf@3650reit.com — Jeremiah has left 3650; use bthurn@3650capital.com",
+        "jritter@seminolefinancialservices.com — replies from jritter@seminolefs.com; update the domain",
         "Reclassify as debt, not JV equity: Electra Capital, Twin Spruce, Bedrock Land Finance",
         "Not LP equity providers: UDR, Stanton Road, Stoneweg, Pacific Urban, Acuity, H Equities",
     ],
