@@ -13,12 +13,15 @@ Served at `/jv-tracker` (the work-order dashboard keeps `/`).
 | Section | Answers |
 |---|---|
 | Where the raise stands | Headline read + five KPIs against the $30.96M requirement |
-| Coverage | 534 on list → 451 sent → 434 delivered → 49 replied → 18 still live |
-| Priority queue | The 18 open conversations, grouped by what the partner asked for, each with a next action and a per-browser "handled" tick |
+| Coverage | 534 on list → 451 sent → 434 delivered → 68 replied → 22 still live |
+| Priority queue | The open conversations, grouped by what the partner asked for, each with a next action and a per-browser "handled" tick |
 | Reply arrival | Replies per hour since the send |
-| Response ledger | All 49 replies, filterable by stage and searchable |
-| Why they passed | Stated objections tallied across the 25 declines |
-| List hygiene | 394 silent, 17 undeliverable, and the contact corrections recipients asked for |
+| Response ledger | Every reply, filterable by stage and searchable |
+| Why they passed | Stated objections tallied across the declines |
+| List hygiene | Silent addresses, undeliverables, and the contact corrections recipients asked for |
+
+All counts on the page are computed from `replies.json` — nothing is hardcoded,
+so an hourly refresh updates the prose along with the numbers.
 
 ## Reply stages
 
@@ -51,14 +54,24 @@ no CDN scripts — fonts come from Google Fonts, everything else is inline.
 The send list is fixed (the campaign is complete: 451 sent, 0 remaining), so an
 hourly refresh only needs to re-read replies:
 
+```bash
+cd jv-tracker/src
+# 1. add any new replies to replies.json (see below)
+python3 gen_data.py       # rebuilds data_fragment.js and asserts the reconciliation
+python3 build.py          # -> ../index.html
+```
+
 1. Search Gmail for `in:inbox subject:"Bay Area MF JV Equity 18% Lease Trade Out"`.
 2. For any thread not already in `src/replies.json`, add an entry:
    `firm`, `person`, `email`, `stage`, `ts` (UTC ISO), `quote`, `action`, `tags`.
-3. Regenerate `src/data_fragment.js` (recipients + campaign + deal are static;
-   only `replies` changes), then run `build.py`.
+3. If the reply came from a CC'd colleague rather than the person mailed, add
+   `mailedTo` with the address that was actually sent to — `gen_data.py` uses it
+   to reconcile against the send list, and 12 of the current replies need it.
 
-`recipients.txt` holds all 451 primary send addresses and reconciles exactly:
-49 replied + 8 dead + 394 silent = 451.
+`recipients.txt` holds all 451 primary send addresses. `gen_data.py` asserts the
+reconciliation on every run, so a mis-keyed address fails loudly instead of
+quietly inflating the silent count. Current split: **68 replied + 7 dead + 376
+silent = 451**.
 
 ## Data notes
 

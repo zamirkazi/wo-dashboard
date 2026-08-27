@@ -67,7 +67,8 @@
   "ts": "2026-08-27T00:41:12Z",
   "quote": "Do you have a 10-year model readily available for the deal?",
   "action": "Send 10-year model specifically.",
-  "tags": []
+  "tags": [],
+  "mailedTo": "pknell@kcbm.com"
  },
  {
   "firm": "Clairmont Capital Group",
@@ -79,7 +80,8 @@
   "action": "Co-GP only. Send pro forma, T12, RR, summary if co-GP is on the table.",
   "tags": [
    "Structure / check size"
-  ]
+  ],
+  "mailedTo": "nick@clairmontcapitalgroup.com"
  },
  {
   "firm": "Mountain Pacific",
@@ -91,7 +93,8 @@
   "action": "Confirm co-GP/pref appetite, then send materials.",
   "tags": [
    "Structure / check size"
-  ]
+  ],
+  "mailedTo": "brian@mntpac.com"
  },
  {
   "firm": "Blue Owl",
@@ -201,7 +204,8 @@
   "ts": "2026-08-26T23:31:35Z",
   "quote": "Adding Morgan Lingle and removing Lindsey. Morgan is head of our West Coast Acquisitions team and sits in San Francisco.",
   "action": "Warm hand-off to the right desk \u2014 follow up with Morgan Lingle directly.",
-  "tags": []
+  "tags": [],
+  "mailedTo": "lindsey.r.snider@jpmorgan.com"
  },
  {
   "firm": "Clarion Partners",
@@ -231,7 +235,8 @@
   "ts": "2026-08-27T01:20:00Z",
   "quote": "Copying Albert who covers SF.",
   "action": "Follow up with Albert.",
-  "tags": []
+  "tags": [],
+  "mailedTo": "robert_bevers@nylinvestors.com"
  },
  {
   "firm": "Shoreham Capital",
@@ -241,17 +246,20 @@
   "ts": "2026-08-27T00:58:09Z",
   "quote": "Hope you both are well. Just fyi Steve, Nick and Danil are no longer with Shoreham but we should all catch up soon. Good time next week?",
   "action": "Not a deal answer \u2014 schedule the catch-up and update contacts.",
-  "tags": []
+  "tags": [],
+  "mailedTo": "steve@shorehamcapital.com"
  },
  {
   "firm": "Knickpoint Ventures",
-  "person": "Nick DiCicco",
-  "email": "nick@knickpt.com",
-  "stage": "relationship",
-  "ts": "2026-08-26T22:32:00Z",
-  "quote": "Nick no longer works at Knickpoint. Please contact Zain Koita and Matt Sprayregen instead.",
-  "action": "Update list: swap in zain@knickpt.com and matt@knickpt.com.",
-  "tags": []
+  "person": "Jamie",
+  "email": "jamie@knickpt.com",
+  "stage": "pass",
+  "ts": "2026-08-27T13:22:00Z",
+  "quote": "This is probably a reach for us as we're typically focused on the east coast, so it would have to be pretty unique circumstances for us to branch out.",
+  "action": "Nick DiCicco has left \u2014 list already corrected to Jamie, Zain and Matt.",
+  "tags": [
+   "Outside target market"
+  ]
  },
  {
   "firm": "American Realty Advisors (ARA)",
@@ -350,7 +358,8 @@
   "action": "",
   "tags": [
    "1980s vintage"
-  ]
+  ],
+  "mailedTo": "dstephenson@bluevistallc.com"
  },
  {
   "firm": "Marble Capital",
@@ -423,7 +432,8 @@
   "action": "",
   "tags": [
    "No reason given"
-  ]
+  ],
+  "mailedTo": "michael.elizondo@longwharf.com"
  },
  {
   "firm": "Pearlmark",
@@ -435,7 +445,8 @@
   "action": "Dry powder issue, not deal issue \u2014 keep on list for next fund.",
   "tags": [
    "No dry powder"
-  ]
+  ],
+  "mailedTo": "cmendez@pearlmark.com"
  },
  {
   "firm": "Forum Investment Group",
@@ -448,7 +459,8 @@
   "tags": [
    "1980s vintage",
    "No dry powder"
-  ]
+  ],
+  "mailedTo": "jmanning@forumig.com"
  },
  {
   "firm": "Eightfold Capital",
@@ -508,7 +520,8 @@
   "action": "Bandwidth pass \u2014 re-approach after 9/23.",
   "tags": [
    "Bandwidth / timing"
-  ]
+  ],
+  "mailedTo": "laura@wtrshdcap.com"
  },
  {
   "firm": "Bedrock Land Finance",
@@ -544,7 +557,8 @@
   "action": "Remove from list; contact also stale.",
   "tags": [
    "Not an LP"
-  ]
+  ],
+  "mailedTo": "abaraghoush@pacificurbaninvestors.com"
  },
  {
   "firm": "Acuity Partners NYC",
@@ -556,6 +570,233 @@
   "action": "Remove from list.",
   "tags": [
    "Not an LP"
+  ]
+ },
+ {
+  "firm": "CastleSquare",
+  "person": "Alanna Wojciechowski",
+  "email": "aw@castlesquare.com",
+  "stage": "materials",
+  "ts": "2026-08-27T14:02:00Z",
+  "quote": "Thanks for touching base. I'd like to learn more. Can you provide an OM or model?",
+  "action": "Send OM + model.",
+  "tags": []
+ },
+ {
+  "firm": "Blackhawk Partners",
+  "person": "Ziad",
+  "email": "ziad@blackhawkpartners.com",
+  "stage": "question",
+  "ts": "2026-08-27T12:52:00Z",
+  "quote": "To speed up the process, would highly appreciate if you could address our basic DD questions below, then we can have a real assessment.",
+  "action": "Pull their DD list off the thread and answer it \u2014 they are asking to move fast.",
+  "tags": []
+ },
+ {
+  "firm": "TriGate Capital",
+  "person": "A. Aultz",
+  "email": "aaultz@trigatecapital.com",
+  "stage": "conditional",
+  "ts": "2026-08-27T13:47:00Z",
+  "quote": "We would normally be interested, but that equity requirement is slightly too large for our value-add fund until we have a few more closes.",
+  "action": "A real yes-but \u2014 would take a smaller slice. Pair with Capital Solutions' $14-15M.",
+  "tags": [
+   "Structure / check size"
+  ]
+ },
+ {
+  "firm": "CenterSquare",
+  "person": "G. Stevens",
+  "email": "rgorsky@centersquare.com",
+  "stage": "conditional",
+  "ts": "2026-08-27T12:27:00Z",
+  "quote": "Happy to discuss next week, but I currently do not have an allocation to invest on a common equity basis. We are focused on mezzanine debt.",
+  "action": "Wants a call next week. Mezz only, not common equity \u2014 could fill a mezz tranche.",
+  "tags": [
+   "Structure / check size"
+  ]
+ },
+ {
+  "firm": "Baupost",
+  "person": "Taylor Banks",
+  "email": "tbanks@baupost.com",
+  "stage": "pass",
+  "ts": "2026-08-27T04:12:00Z",
+  "quote": "This isn't a great fit for us. Appreciate you having us in mind!",
+  "action": "",
+  "tags": [
+   "No reason given"
+  ]
+ },
+ {
+  "firm": "PGGM",
+  "person": "Michel Schram",
+  "email": "michel.schram@pggm.nl",
+  "stage": "pass",
+  "ts": "2026-08-27T07:47:00Z",
+  "quote": "I refer to my email of July 17, where I indicated that we have no allocation.",
+  "action": "Second decline for the same reason \u2014 suppress until they raise again.",
+  "tags": [
+   "No dry powder"
+  ]
+ },
+ {
+  "firm": "Stoneweg US",
+  "person": "Garrett Pisarik",
+  "email": "matthew.levy@stoneweg.com",
+  "stage": "outofscope",
+  "ts": "2026-08-27T08:26:00Z",
+  "quote": "We don't invest in CA, nor as an LP. This one is a pass for us.",
+  "action": "",
+  "tags": [
+   "California",
+   "Not an LP"
+  ]
+ },
+ {
+  "firm": "Electra Capital",
+  "person": "Samuel Greenblatt",
+  "email": "sam@electracapital.com",
+  "stage": "outofscope",
+  "ts": "2026-08-27T09:24:00Z",
+  "quote": "We currently aren't lending in California.",
+  "action": "Lender, not an equity provider \u2014 remove from the JV equity list.",
+  "tags": [
+   "California",
+   "Not an LP"
+  ]
+ },
+ {
+  "firm": "ICM Group",
+  "person": "John Courtliff",
+  "email": "jcourtliff@icmgroup.ca",
+  "stage": "pass",
+  "ts": "2026-08-27T10:41:00Z",
+  "quote": "This isn't going to be a fit for us. California isn't a market where we are particularly focused.",
+  "action": "",
+  "tags": [
+   "California"
+  ]
+ },
+ {
+  "firm": "Goldman Sachs",
+  "person": "Will Hoefer",
+  "email": "jonathan.denowitz@gs.com",
+  "stage": "pass",
+  "ts": "2026-08-27T11:45:00Z",
+  "quote": "Please do not email John FW Rogers going forward. Our team is full on opportunities for Q4, and I do not work on the private opportunities side.",
+  "action": "SUPPRESS john.rogers@gs.com \u2014 asked by name.",
+  "tags": [
+   "Capacity / staffing"
+  ]
+ },
+ {
+  "firm": "IMCO",
+  "person": "Richard Varkey",
+  "email": "rossitsa.stoyanova@imcoinvest.com",
+  "stage": "pass",
+  "ts": "2026-08-27T12:01:00Z",
+  "quote": "Thank you for your note, but this would be a pass for us.",
+  "action": "",
+  "tags": [
+   "No reason given"
+  ]
+ },
+ {
+  "firm": "Resmark",
+  "person": "Brent Summers",
+  "email": "bsummers@resmark.com",
+  "stage": "pass",
+  "ts": "2026-08-27T12:28:00Z",
+  "quote": "Appreciate you thinking of me. We invest in only development at this time.",
+  "action": "",
+  "tags": [
+   "Development only"
+  ]
+ },
+ {
+  "firm": "Twin Spruce Capital",
+  "person": "Eric Horowitz",
+  "email": "eric.horowitz@twinsprucecapital.com",
+  "stage": "outofscope",
+  "ts": "2026-08-27T12:57:00Z",
+  "quote": "While the deal certainly sounds interesting, we aren't in the market deploying JV equity. We are still focused on preferred equity and mezzanine debt.",
+  "action": "Pref/mezz only \u2014 reclassify on the list.",
+  "tags": [
+   "Not an LP"
+  ]
+ },
+ {
+  "firm": "Halstatt Real Estate Partners",
+  "person": "Steve Iannaccone",
+  "email": "siannaccone@halstatt.com",
+  "stage": "pass",
+  "ts": "2026-08-27T13:16:00Z",
+  "quote": "As discussed, this is out of our geographic footprint.",
+  "action": "",
+  "tags": [
+   "Outside target market"
+  ]
+ },
+ {
+  "firm": "ABR Capital",
+  "person": "Peter Heller",
+  "email": "jake.martin@abrcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-27T13:31:00Z",
+  "quote": "This one is simply too large for us. We focus on the lower-middle-market, which we define as equity checks of $5-$15M.",
+  "action": "Declined on size, but named a $5-15M band \u2014 a candidate if you syndicate the stack.",
+  "tags": [
+   "Structure / check size"
+  ]
+ },
+ {
+  "firm": "Stanton Road Capital",
+  "person": "Dylan Holt",
+  "email": "dholt@stantonroadcapital.com",
+  "stage": "outofscope",
+  "ts": "2026-08-27T13:47:00Z",
+  "quote": "We aren't currently providing LP equity on existing multi but will let you know if that changes.",
+  "action": "",
+  "tags": [
+   "Not an LP"
+  ]
+ },
+ {
+  "firm": "H Equities",
+  "person": "Elliot",
+  "email": "elliot@hequities.com",
+  "stage": "outofscope",
+  "ts": "2026-08-27T13:49:00Z",
+  "quote": "I'm not familiar with the area, and I don't see us bringing 30MM to a transaction. If the request is for an LP, that's also not for us.",
+  "action": "",
+  "tags": [
+   "Not an LP",
+   "Structure / check size"
+  ]
+ },
+ {
+  "firm": "Paceline Equity",
+  "person": "J. Hritz",
+  "email": "jhritz@pacelineequity.com",
+  "stage": "pass",
+  "ts": "2026-08-27T14:03:00Z",
+  "quote": "The return profile on this one is too low for us. We are targeting low 20s / 2xs net while we are still investing out of Fund 2.",
+  "action": "",
+  "tags": [
+   "Return threshold"
+  ]
+ },
+ {
+  "firm": "Lightning Tree Capital",
+  "person": "Chris Dzurinko",
+  "email": "chris@lightningtreecapital.com",
+  "stage": "pass",
+  "ts": "2026-08-27T14:03:00Z",
+  "quote": "We don't invest in California.",
+  "action": "",
+  "tags": [
+   "California"
   ]
  }
 ]

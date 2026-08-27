@@ -31,7 +31,7 @@ $("#freshness").textContent = hrs.toFixed(0) + "H AFTER SEND";
 
 const d = D.deal;
 $("#spec").innerHTML = [
-  ["Asset", d.name], ["Units", d.units], ["Built", d.year], ["Price", d.price],
+  ["Units", d.units], ["Built", d.year], ["Price", d.price],
   ["Equity need", d.equity], ["Debt", d.loan], ["LTC", d.ltc],
   ["Levered IRR", d.irr], ["Multiple", d.multiple], ["Hold", d.hold], ["Occupancy", d.occupancy]
 ].map(([k,v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("");
@@ -40,13 +40,14 @@ $("#livecount").textContent = liveN;
 $("#replycount").textContent = n;
 
 /* ---- headline ---- */
-const capSol = D.replies.find(r => r.firm === "Capital Solutions");
+const mN = cnt("materials"), qN = cnt("question"), cN = cnt("conditional");
 $("#headline").innerHTML =
-  `<b>${liveN} live conversations</b> out of ${n} replies. Eight firms have asked for the package and `
-+ `five have asked a pricing question &mdash; every one of those is waiting on a going-in cap rate, `
+  `<b>${liveN} live conversations</b> out of ${n} replies. ${mN} firms have asked for the package `
++ `and ${qN} have asked a pricing question &mdash; nearly all of those are waiting on a going-in cap rate, `
 + `so answering that single number unblocks the largest cluster on the board. `
-+ `<b>Capital Solutions</b> is the only responder to name a dollar figure: `
-+ `<b>$14&ndash;15M</b>, roughly half the ${esc(d.equity)} requirement, contingent on you placing the rest.`;
++ `Three responders have now named a dollar band they can write: <b>Capital Solutions at $14&ndash;15M</b>, `
++ `<b>ABR at $5&ndash;15M</b> and <b>TriGate</b> just under its fund limit &mdash; enough, stacked, to cover the `
++ `${esc(d.equity)} requirement without a single institutional partner.`;
 
 /* ---- KPIs ---- */
 const firstReply = D.replies.map(r => new Date(r.ts)).sort((a,b) => a-b)[0];
@@ -54,7 +55,7 @@ const ttf = Math.round((firstReply - new Date(D.campaign.sentStart)) / 6e4);
 $("#kpis").innerHTML = [
   {n:liveN, l:"Live conversations", note:"Meeting, package requested, question asked, or open on terms", hot:true},
   {n:n, l:"Total replies", note:(100*n/delivered).toFixed(1) + "% of " + delivered + " delivered"},
-  {n:routedN, l:"Routed onward", note:"J.P. Morgan, Clarion ×2 and New York Life passed you to the desk that covers West Coast multifamily"},
+  {n:routedN, l:"Routed onward", note:`${cnt("referred")} warm hand-offs to the desk that covers West Coast multifamily — J.P. Morgan, Clarion ×2, New York Life — plus ${cnt("relationship")} reply that is not about the deal`},
   {n:deadN, l:"Closed out", note:cnt("pass") + " passed, " + cnt("outofscope") + " are not LP equity providers"},
   {n:ttf + "m", l:"Time to first reply", note:"Capital Solutions, " + fmt(firstReply)}
 ].map(k => `<div class="kpi${k.hot?" hot":""}"><div class="n mono">${esc(k.n)}</div>`
@@ -135,15 +136,17 @@ syncTicks();
         <rect x="${bx}" y="${y(0)-Math.min(h,5)}" width="${Math.max(bw-gap,2)}" height="${Math.min(h,5)}"
           fill="var(--seq-4)"></rect>
         <rect x="${bx}" y="${PT}" width="${slot}" height="${H-PT-PB}" fill="transparent"></rect>
-        <text class="axlbl" x="${bx + (bw-gap)/2}" y="${H-PB+16}" text-anchor="middle">${
-          x.t.toLocaleString("en-US",{hour:"numeric",hour12:true,timeZone:"UTC"})}</text></g>`;
+        ${(bars.length <= 12 || i % 2 === 0) ? `<text class="axlbl" x="${bx + (bw-gap)/2}" y="${H-PB+16}"
+          text-anchor="middle">${x.t.toLocaleString("en-US",{hour:"numeric",hour12:true,timeZone:"UTC"})}</text>` : ""}</g>`;
     }).join("")}
     <line class="gridline" x1="${PL}" x2="${W-14}" y1="${y(0)}" y2="${y(0)}" stroke="var(--rule-hard)"></line>
   </svg>`;
-  const half = bars.slice(0,2).reduce((t,x) => t+x.v, 0);
+  const first4 = bars.slice(0,4).reduce((t,x) => t+x.v, 0);
+  const peak = bars.reduce((a,x) => x.v > a.v ? x : a, bars[0]);
   $("#arrival-cap").textContent =
-    `Hours shown in UTC. ${half} of ${n} replies (${Math.round(100*half/n)}%) landed in the first two hours — `
-  + `the batch is already past its peak, so anything still silent is unlikely to answer without a follow-up.`;
+    `Hours shown in UTC. ${first4} of ${n} replies (${Math.round(100*first4/n)}%) landed in the first four hours, `
+  + `peaking at ${peak.t.toLocaleString("en-US",{hour:"numeric",hour12:true,timeZone:"UTC"})} UTC with ${peak.v}. `
+  + `A second wave arrived the next morning as US desks opened, so the list is not exhausted yet.`;
 })();
 
 /* ---- ledger ---- */
@@ -182,6 +185,7 @@ render();
 (() => {
   const t = {};
   D.replies.forEach(r => r.tags.forEach(x => t[x] = (t[x]||0) + 1));
+  $("#objnote").textContent = `Stated reasons across the ${deadN} declines. One reply can carry more than one reason.`;
   const rows = Object.entries(t).sort((a,b) => b[1] - a[1]);
   const max = rows[0][1];
   $("#objections").innerHTML = rows.map(([k,v]) => `
@@ -195,7 +199,7 @@ $("#hygiene").innerHTML = [
   {n:D.silent.length, l:"No reply yet", note:"Delivered, opened or not, and silent so far"},
   {n:D.campaign.bounces + D.campaign.blocks, l:"Undeliverable", note:D.campaign.bounces + " bounced and " + D.campaign.blocks + " blocked at the gateway"},
   {n:D.campaign.removedPreSend, l:"Suppressed pre-send", note:"GMass dropped these from the 534-address list before sending"},
-  {n:D.campaign.opens, l:"Tracked opens", note:"Understated — most institutional gateways strip the tracking pixel, and 49 firms replied against 43 recorded opens"},
+  {n:D.campaign.opens, l:"Tracked opens", note:`Understated — most institutional gateways strip the tracking pixel, and ${n} firms replied against ${D.campaign.opens} recorded opens`},
   {n:D.campaign.unsubs, l:"Unsubscribes", note:"One recipient asked to remove a colleague by name instead"}
 ].map(k => `<div class="kpi"><div class="n mono">${esc(k.n)}</div>`
   + `<div class="lbl">${esc(k.l)}</div><div class="note">${esc(k.note)}</div></div>`).join("");
@@ -203,12 +207,8 @@ $("#hygiene").innerHTML = [
 $("#silentsum").textContent = D.silent.length + " addresses with no reply — full list";
 $("#silentlist").innerHTML = D.silent.map(e => `<div title="${esc(e)}">${esc(e)}</div>`).join("");
 $("#badlist").innerHTML = D.bounced.map(e => `<div title="${esc(e)}">${esc(e)}</div>`).join("");
-$("#fixlist").innerHTML = [
-  "Remove psinger@elliottmgmt.com — asked by name",
-  "Replace nick@knickpt.com with zain@knickpt.com and matt@knickpt.com",
-  "abaraghoush@pacificurbaninvestors.com — Ash has left the firm",
-  "Drop dcampbell@udr.com, RMontag@bedrockland.com, bob@acuitypartnersnyc.com — not LP equity"
-].map(e => `<div title="${esc(e)}">${esc(e)}</div>`).join("");
+$("#fixlist").innerHTML = D.corrections
+  .map(e => `<div title="${esc(e)}">${esc(e)}</div>`).join("");
 
 $("#foot").innerHTML =
   `Source: Gmail thread history for campaign ${esc(D.campaign.id)} &ldquo;${esc(D.campaign.subject)}&rdquo;, `
