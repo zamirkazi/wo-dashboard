@@ -238,7 +238,10 @@
   "tags": [
    "Competing bid"
   ],
-  "mailedTo": "robert_bevers@nylinvestors.com"
+  "mailedTo": "robert_bevers@nylinvestors.com",
+  "otherAddrs": [
+   "albert.pura@nylim.com"
+  ]
  },
  {
   "firm": "Shoreham Capital",
@@ -935,6 +938,30 @@
   "tags": [
    "California",
    "Capacity / staffing"
+  ]
+ },
+ {
+  "firm": "Farallon Capital",
+  "person": "Nick Carbone",
+  "email": "ncarbone@faralloncapital.com",
+  "stage": "pass",
+  "ts": "2026-08-27T17:49:00Z",
+  "quote": "This one probably isn't for us, we are more focused on the urban cores right now.",
+  "action": "",
+  "tags": [
+   "Outside target market"
+  ]
+ },
+ {
+  "firm": "Hensel Phelps",
+  "person": "A. Guyott",
+  "email": "aguyott@henselphelps.com",
+  "stage": "pass",
+  "ts": "2026-08-27T18:06:00Z",
+  "quote": "Although we have dabbled in acquisitions of this sort, we remain focused on ground-up unless there is a significant construction opportunity.",
+  "action": "",
+  "tags": [
+   "Development only"
   ]
  }
 ]

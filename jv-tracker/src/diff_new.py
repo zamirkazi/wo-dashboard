@@ -3,7 +3,11 @@
 import json, html, sys
 d = json.load(open(sys.argv[1]))
 R = json.load(open('replies.json'))
-seen = {r['email'].lower() for r in R} | {r.get('mailedTo','').lower() for r in R}
+seen = set()
+for r in R:
+    seen.add(r['email'].lower())
+    if r.get('mailedTo'): seen.add(r['mailedTo'].lower())
+    for a in r.get('otherAddrs', []): seen.add(a.lower())
 new = []
 for t in d['threads']:
     ms = sorted(t['messages'], key=lambda m: m['date'])
