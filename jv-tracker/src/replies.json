@@ -229,13 +229,15 @@
  },
  {
   "firm": "New York Life",
-  "person": "Robert Bevers",
+  "person": "Albert Pura",
   "email": "robert.bevers@nylim.com",
-  "stage": "referred",
-  "ts": "2026-08-27T01:20:00Z",
-  "quote": "Copying Albert who covers SF.",
-  "action": "Follow up with Albert.",
-  "tags": [],
+  "stage": "pass",
+  "ts": "2026-08-27T16:20:00Z",
+  "quote": "Most likely a pass for us, but I have already had an operator reach out to me on this one.",
+  "action": "Referral resolved. Note the competing operator \u2014 that is the third signal another sponsor is shopping this deal.",
+  "tags": [
+   "Competing bid"
+  ],
   "mailedTo": "robert_bevers@nylinvestors.com"
  },
  {
@@ -882,6 +884,57 @@
   "tags": [
    "1980s vintage",
    "Structure / check size"
+  ]
+ },
+ {
+  "firm": "Walker & Dunlop",
+  "person": "Michael Holland",
+  "email": "mholland@walkerdunlop.com",
+  "stage": "conditional",
+  "ts": "2026-08-27T16:51:00Z",
+  "quote": "Tougher fit on the JV equity side as we're still fund raising for our next fund, but potentially could look at this one with pref equity. What does the going-in cap rate look like and what's the likely debt execution?",
+  "action": "Warmest of the alternative-structure replies \u2014 answer the cap rate and debt execution, and say whether pref sits in the stack.",
+  "tags": [
+   "Structure / check size",
+   "No dry powder"
+  ]
+ },
+ {
+  "firm": "OceanWest Capital Partners",
+  "person": "S. Hooker",
+  "email": "shooker@oceanwestcp.com",
+  "mailedTo": "rallegrette@oceanwestcp.com",
+  "stage": "pass",
+  "ts": "2026-08-27T16:29:00Z",
+  "quote": "We don't have capital for this one but appreciate the look.",
+  "action": "",
+  "tags": [
+   "No dry powder"
+  ]
+ },
+ {
+  "firm": "Cottonwood Communities",
+  "person": "Paul Fredenberg",
+  "email": "pfredenberg@cottonwoodres.com",
+  "stage": "pass",
+  "ts": "2026-08-27T16:48:00Z",
+  "quote": "Not our deal \u2014 more focused on the 721 exchange structure I mentioned to you last time we chatted.",
+  "action": "",
+  "tags": [
+   "Different strategy"
+  ]
+ },
+ {
+  "firm": "Vistria Group",
+  "person": "Michael Shaid",
+  "email": "mshaid@vistria.com",
+  "stage": "pass",
+  "ts": "2026-08-27T16:53:00Z",
+  "quote": "Very exciting and thanks for thinking of us! We're at capacity now in California.",
+  "action": "",
+  "tags": [
+   "California",
+   "Capacity / staffing"
   ]
  }
 ]

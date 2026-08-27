@@ -44,11 +44,11 @@ $("#replycount").textContent = n;
 const mN = cnt("materials"), qN = cnt("question"), cN = cnt("conditional");
 $("#headline").innerHTML =
   `<b>${liveN} live conversations</b> out of ${n} replies. ${mN} firms have asked for the package `
-+ `and ${qN} have asked a pricing question &mdash; nearly all of those are waiting on a going-in cap rate, `
-+ `so answering that single number unblocks the largest cluster on the board. `
-+ `Three responders have now named a dollar band they can write: <b>Capital Solutions at $14&ndash;15M</b>, `
-+ `<b>ABR at $5&ndash;15M</b> and <b>TriGate</b> just under its fund limit &mdash; enough, stacked, to cover the `
-+ `${esc(d.equity)} requirement without a single institutional partner.`;
++ `and ${qN} have asked a pricing question &mdash; nearly all of them waiting on a going-in cap rate, `
++ `so answering that one number unblocks the largest cluster on the board. A further ${cN} are open at a `
++ `different size or structure &mdash; co-GP, pref, or a partial check. Three of those named a dollar band: `
++ `<b>Capital Solutions $14&ndash;15M</b>, <b>ABR $5&ndash;15M</b> and <b>TriGate</b> just under its fund cap, `
++ `which between them cover the ${esc(d.equity)} requirement without a single institutional partner.`;
 
 /* ---- KPIs ---- */
 const firstReply = D.replies.map(r => new Date(r.ts)).sort((a,b) => a-b)[0];
@@ -56,7 +56,13 @@ const ttf = Math.round((firstReply - new Date(D.campaign.sentStart)) / 6e4);
 $("#kpis").innerHTML = [
   {n:liveN, l:"Live conversations", note:"Meeting, package requested, question asked, or open on terms", hot:true},
   {n:n, l:"Total replies", note:(100*n/delivered).toFixed(1) + "% of " + delivered + " delivered"},
-  {n:routedN, l:"Routed onward", note:`${cnt("referred")} warm hand-offs to the desk that covers West Coast multifamily — J.P. Morgan, Clarion ×2, New York Life — plus ${cnt("relationship")} reply that is not about the deal`},
+  {n:routedN, l:"Routed onward", note:(() => {
+     const f = D.replies.filter(r => r.stage === "referred").map(r => r.firm);
+     const tally = [...new Set(f)].map(x => f.filter(y => y === x).length > 1
+       ? `${x} ×${f.filter(y => y === x).length}` : x).join(", ");
+     return `${f.length} warm hand-offs to the desk that covers West Coast multifamily — ${tally}`
+          + ` — plus ${cnt("relationship")} reply that is not about the deal`;
+   })()},
   {n:deadN, l:"Closed out", note:cnt("pass") + " passed, " + cnt("outofscope") + " are not LP equity providers"},
   {n:ttf + "m", l:"Time to first reply", note:"Capital Solutions, " + fmt(firstReply)}
 ].map(k => `<div class="kpi${k.hot?" hot":""}"><div class="n mono">${esc(k.n)}</div>`
