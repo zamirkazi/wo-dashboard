@@ -1518,15 +1518,18 @@
  },
  {
   "firm": "MetLife Investment Management",
-  "person": "Jacqueline Denning",
-  "email": "jdenning@metlife.com",
-  "stage": "referred",
-  "ts": "2026-08-28T16:46:14Z",
-  "quote": "I have cc'd the acquisitions specialist in the Bay Area, Tony Reyes. He or someone from his team will get back to you.",
-  "action": "Handed to Tony Reyes, their Bay Area acquisitions specialist. Chase Reyes directly if nothing lands by Tuesday.",
+  "person": "Tony Reyes",
+  "email": "areyes5@metlife.com",
+  "stage": "reviewing",
+  "ts": "2026-08-28T19:51:35Z",
+  "quote": "We are currently having preliminary conversations with another operator and are still evaluating whether this opportunity is the right fit for us. I look forward to speaking soon.",
+  "action": "MetLife is already looking at Canyon Woods WITH ANOTHER OPERATOR. Their SF head of acquisitions is evaluating the asset, not us. Call him before the second round — the question is which sponsor they back, not whether they like the deal.",
   "tags": [],
   "campaign": "institutional",
-  "mailedTo": "kday@metlife.com"
+  "mailedTo": "kday@metlife.com",
+  "otherAddrs": [
+   "jdenning@metlife.com"
+  ]
  },
  {
   "firm": "Lone Star Funds",
@@ -1839,5 +1842,31 @@
   ],
   "campaign": "institutional",
   "mailedTo": "psherman@morrisonstreetcapital.com"
+ },
+ {
+  "firm": "Proskura Capital",
+  "person": "Daniil Proskura",
+  "email": "daniil@proskuracapital.com",
+  "stage": "pass",
+  "ts": "2026-08-28T19:30:52Z",
+  "quote": "This won't be a fit for us, unfortunately. Would you consider selling any FL or Texas properties?",
+  "action": "Pass on this, but he is asking to BUY Florida or Texas assets. That is a live inbound on the existing portfolio — route it to the disposition side.",
+  "tags": [
+   "Outside target market"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "IEQ Capital",
+  "person": "Garret Giglia",
+  "email": "ggiglia@ieqcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-28T19:19:07Z",
+  "quote": "Just not the right opportunity for us. Very hard to do a standalone investment. We prefer more of a fund-oriented strategy with diversification, rather than a single rifle shot.",
+  "action": "Third firm to say funds-only after Toeller and Archway — single-asset deals do not fit their model at all.",
+  "tags": [
+   "Different strategy"
+  ],
+  "campaign": "institutional"
  }
 ]
