@@ -80,8 +80,9 @@ function renderFunnels() {
       const a = c.autoCounts;
       const steps2 = [
         ...(c.listSize ? [{l:"On the list", s:"Source list", v:c.listSize, c:"var(--seq-1)"}] : []),
-        {l:"Sent", s:c.listSize ? c.removedPreSend + " suppressed before send"
-                                : "GMass reported no pre-send breakdown", v:c.sent, c:"var(--seq-2)"},
+        {l:"Sent", s:!c.listSize ? "GMass reported no pre-send breakdown"
+                  : c.removedPreSend ? c.removedPreSend + " suppressed before send"
+                                     : "everyone on the list was mailed", v:c.sent, c:"var(--seq-2)"},
         {l:"Delivered", s:`${c.bounces} bounced, ${c.blocks} blocked`, v:deliveredFor(c), c:"var(--seq-3)"},
         {l:"Replied", s:pl(reps.length, "firm") + " wrote back about the deal", v:reps.length, c:"var(--seq-4)"},
         {l:"Still live", s:"Open conversations you can move", v:live, c:"var(--seq-5)"}
@@ -111,8 +112,9 @@ function renderFunnels() {
     }
     const steps = [
       ...(c.listSize ? [{l:"On the list", s:"Source list", v:c.listSize, c:"var(--seq-1)"}] : []),
-      {l:"Sent", s:c.listSize ? c.removedPreSend + " suppressed before send"
-                              : "GMass reported no pre-send breakdown", v:c.sent, c:"var(--seq-2)"},
+      {l:"Sent", s:!c.listSize ? "GMass reported no pre-send breakdown"
+                : c.removedPreSend ? c.removedPreSend + " suppressed before send"
+                                   : "everyone on the list was mailed", v:c.sent, c:"var(--seq-2)"},
       {l:"Delivered", s:`${c.bounces} bounced, ${c.blocks} blocked`, v:deliveredFor(c), c:"var(--seq-3)"},
       {l:"Replied", s:pl(reps.length, "firm") + " wrote back", v:reps.length, c:"var(--seq-4)"},
       {l:"Still live", s:"Open conversations you can move today", v:live, c:"var(--seq-5)"}
@@ -418,9 +420,17 @@ function renderHygiene() {
     + `<div class="lbl">${esc(k.l)}</div><div class="note">${esc(k.note)}</div></div>`).join("");
 
   const sil = cs.flatMap(c => c.silent);
+  const named = sil.filter(e => D.roster && D.roster[e.toLowerCase()]).length;
   $("#silentsum").textContent = sil.length
-    ? `${sil.length} addresses with no reply — full list` : "No reconciled silent list in this cohort yet";
-  $("#silentlist").innerHTML = sil.map(e => `<div title="${esc(e)}">${esc(e)}</div>`).join("");
+    ? `${sil.length} ${named === sil.length ? "firms" : "addresses"} with no reply — full list`
+    : "No reconciled silent list in this cohort yet";
+  // The family office roster carries firm and contact names, so show those and keep
+  // the address in the tooltip; the institutional list is addresses only.
+  $("#silentlist").innerHTML = sil.map(e => {
+    const r = D.roster && D.roster[e.toLowerCase()];
+    const label = r && r.firm ? r.firm + (r.person ? ` · ${r.person}` : "") : e;
+    return `<div title="${esc(e)}">${esc(label)}</div>`;
+  }).join("");
   $("#badlist").innerHTML = cs.flatMap(c => c.deadAddresses)
     .map(e => `<div title="${esc(e)}">${esc(e)}</div>`).join("") || `<div>None recorded yet</div>`;
   $("#fixlist").innerHTML = D.corrections.map(e => `<div title="${esc(e)}">${esc(e)}</div>`).join("");

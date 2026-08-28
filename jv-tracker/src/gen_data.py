@@ -56,18 +56,25 @@ CAMPAIGNS = [
         "subject": "Bay Area Multifamily Equity - 18% Lease Trade Outs",
         "gmassId": "53063683",
         "sentStart": "2026-08-27T22:33:29Z",
-        "sentEnd": "2026-08-27T23:40:32Z",
-        # No "has sent" notification arrived for this campaign, so GMass never
-        # spelled out the pre-send suppression. The list size comes from the
-        # sent-copy address GMass CCs itself on, 674-recipients-big-11dae0cb@
-        # gmass.co, the same convention as 534-recipients-big-... on the
-        # institutional send, whose 534 matches its reported list exactly.
-        "listSize": 674, "removedPreSend": 674 - 431, "sent": 431,
-        "bounces": 11, "blocks": 3, "opens": 1, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-08-27T23:40:32Z",
+        "sentEnd": "2026-08-28T00:15:14Z",
+        # The 23:40 report showed 431 sent and was read as a completed campaign; it
+        # was a mid-send snapshot. GMass kept sending until 00:15 and the 01:55
+        # report closes it at the full 674, so nothing was suppressed before send.
+        "listSize": 674, "removedPreSend": 0, "sent": 674,
+        "bounces": 16, "blocks": 4, "opens": 4, "clicks": 0, "unsubs": 0,
+        "reportAt": "2026-08-28T01:55:59Z",
         "inFlight": False,
-        "recipientsFile": None,
-        "bad": {},
+        "recipientsFile": "recipients_fo.txt",
+        # The 11 addresses marked BOUNCED on the source sheet. GMass counts 16, so
+        # five more are not yet identified by address.
+        "bad": {e: e for e in [
+            "rob.bellenfant@615ventures.com", "dayana@aventurapw.com",
+            "bill.meckert@brown.com", "tdavidoff@davidoff-family-office.ch",
+            "kelvin@tdcapitalhk.com", "leos.jirman@emun.cz",
+            "clebron@fahrllc.com", "stephen@teamkse.com",
+            "paul.mcavoy@ocorian.com", "vhorst@stars.cl",
+            "eduardo.pelaez@wellmeaning.com",
+        ]},
     },
 ]
 
@@ -97,9 +104,13 @@ for c in CAMPAIGNS:
         recips = [l.strip() for l in (here/c["recipientsFile"]).read_text().splitlines() if l.strip()]
         dead = set(c["bad"].values()) - mailed      # a firm that replied is never dead
         autoAddrs = {a["email"].lower() for a in autos}
+        onSet = {e.lower() for e in recips}
+        # dead first, then replies, then auto-replies, then the rest: an address
+        # that bounced and also fired an autoresponder is counted once, as dead.
+        autoOn = {a["email"].lower() for a in autos} & onSet - mailed - dead
         silent = [e for e in recips if e.lower() not in mailed and e.lower() not in dead
-                  and e.lower() not in autoAddrs]
-        onList = len([a for a in autos if a["email"].lower() in {e.lower() for e in recips}])
+                  and e.lower() not in autoOn]
+        onList = len(autoOn)
         assert not (autoAddrs & mailed), (
             f'{c["id"]}: counted twice, as auto-reply and as reply: {autoAddrs & mailed}')
         assert len(mailed) + len(dead) + onList + len(silent) == len(recips), (
@@ -127,8 +138,11 @@ for a in A:
         line = f'{a["email"]} — {a["note"]}'
         if line not in CORRECTIONS: CORRECTIONS.append(line)
 
+roster = json.loads((here/'fo_roster.json').read_text()) if (here/'fo_roster.json').exists() else {}
+
 data = {
     "replies": R,
+    "roster": roster,
     "autoReplies": A,
     "campaigns": CAMPAIGNS,
     "corrections": CORRECTIONS,
