@@ -1243,5 +1243,18 @@
   ],
   "suppress": true,
   "campaign": "family-office"
+ },
+ {
+  "firm": "Turtle Creek Capital",
+  "person": "Jack Reilly",
+  "email": "jreilly@turtlecreekwealth.com",
+  "stage": "pass",
+  "ts": "2026-08-28T04:10:00Z",
+  "quote": "This one is not fit for us at this time. Best of luck getting it closed.",
+  "action": "",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
  }
 ]
