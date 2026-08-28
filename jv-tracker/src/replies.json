@@ -1403,5 +1403,274 @@
    "California"
   ],
   "campaign": "institutional"
+ },
+ {
+  "firm": "Deutsche Finance America",
+  "person": "S. Soucy",
+  "email": "s.soucy@deutsche-finance.com",
+  "stage": "pass",
+  "ts": "2026-08-28T17:09:39Z",
+  "quote": "While I appreciate the look, this one is not for us at this time. As we discussed a few weeks ago, we are unlikely to be in a position to start acquiring assets until the middle of next year.",
+  "action": "Timing, not the deal — they are out of the market until mid-2027. Diary them, do not re-pitch.",
+  "tags": [
+   "Not acquiring now"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "j.lucas@deutsche-finance.com"
+ },
+ {
+  "firm": "Pennybacker Capital",
+  "person": "T. Beier",
+  "email": "tbeier@pennybackercap.com",
+  "stage": "pass",
+  "ts": "2026-08-28T17:03:29Z",
+  "quote": "Not a fit for us due to market and vintage, but please send future opportunities to Jonathan and the team that covers residential.",
+  "action": "Rerouted themselves to their residential team — get those names and use them next time.",
+  "tags": [
+   "California",
+   "1980s vintage"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "smysock@pennybackercap.com"
+ },
+ {
+  "firm": "PCP Real Estate",
+  "person": "B. Orient",
+  "email": "borient@pcpre.com",
+  "stage": "pass",
+  "ts": "2026-08-28T17:01:27Z",
+  "quote": "We do not invest much in California (or the acquisition space), so this will not be a fit for our fund.",
+  "action": "Sent their own one-pager back — read it before the next approach.",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "smastor@pcpre.com"
+ },
+ {
+  "firm": "LGT Capital Partners",
+  "person": "Thomas Brown",
+  "email": "thomas.brown@lgtcp.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:56:49Z",
+  "quote": "Thanks for the follow-up, but we'll pass on this.",
+  "action": "",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Everest Holdings",
+  "person": "R. O'Donovan",
+  "email": "rodonovan@everestholdings.com",
+  "stage": "outofscope",
+  "ts": "2026-08-28T16:55:56Z",
+  "quote": "We do not provide JV equity, so this one would not be a fit for our platform.",
+  "action": "Not a JV equity provider — drop from this list.",
+  "tags": [
+   "Not an LP"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Nuveen",
+  "person": "Timothy Goeke",
+  "email": "timothy.goeke@nuveen.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:49:51Z",
+  "quote": "Not something we would be interested in. Going forward you can exclude other team members here. They do not focus on MF on the west coast.",
+  "action": "Asked to be the single Nuveen contact — trim the rest of that firm from the list.",
+  "tags": [
+   "Outside target market"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Dekel Capital",
+  "person": "Shlomi Ronen",
+  "email": "sronen@dekelcapital.com",
+  "stage": "materials",
+  "ts": "2026-08-28T16:48:14Z",
+  "quote": "Happy to dig in further. Would you share your underwriting and deal OM with us?",
+  "action": "Send the OM and the model. LA-based managing principal — easy meeting.",
+  "tags": [
+   "Wants materials"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Kensington Stern",
+  "person": "David",
+  "email": "david@kensingtonstern.com",
+  "stage": "relationship",
+  "ts": "2026-08-28T16:47:09Z",
+  "quote": "Our focus right now is on our Vegas and Salt Lake deals. I'm happy to chat more about them if you want to be involved, especially the Salt Lake project.",
+  "action": "A pass that came back as a reverse pitch. Worth the call on its own terms.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "MetLife Investment Management",
+  "person": "Jacqueline Denning",
+  "email": "jdenning@metlife.com",
+  "stage": "referred",
+  "ts": "2026-08-28T16:46:14Z",
+  "quote": "I have cc'd the acquisitions specialist in the Bay Area, Tony Reyes. He or someone from his team will get back to you.",
+  "action": "Handed to Tony Reyes, their Bay Area acquisitions specialist. Chase Reyes directly if nothing lands by Tuesday.",
+  "tags": [],
+  "campaign": "institutional",
+  "mailedTo": "kday@metlife.com"
+ },
+ {
+  "firm": "Lone Star Funds",
+  "person": "Shannon Mahaffy",
+  "email": "smahaffy@lonestarfunds.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:41:11Z",
+  "quote": "Andre and Ben are no longer with the firm. If we are interested, we will let you know.",
+  "action": "Two dead contacts at Lone Star; she is the live one.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "acollin@lonestarfunds.com"
+ },
+ {
+  "firm": "LEM Capital",
+  "person": "Weidman",
+  "email": "weidman@lemcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:36:51Z",
+  "quote": "As I mentioned on your other email, we are full on the Bay Area at the moment. Best of luck on the bidding process.",
+  "action": "Already at their Bay Area limit — a concentration cap, so revisit after they sell something here.",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "bradshaw@lemcapital.com"
+ },
+ {
+  "firm": "Geolo Capital",
+  "person": "Jake Michaels",
+  "email": "jm@geolo.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:24:41Z",
+  "quote": "Please mark us down as a pass.",
+  "action": "",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "hc@geolo.com"
+ },
+ {
+  "firm": "CrossHarbor Capital",
+  "person": "James O'Leary",
+  "email": "joleary@crossharborcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:22:34Z",
+  "quote": "We're going to pass as we aren't actively pursuing value-add multifamily at present, particularly for 80s vintage product.",
+  "action": "Two people answered independently, both landing on vintage and market — that is a firm view, not one person's.",
+  "tags": [
+   "1980s vintage",
+   "Not acquiring now"
+  ],
+  "campaign": "institutional",
+  "otherAddrs": [
+   "rwestervelt@crossharborcapital.com"
+  ]
+ },
+ {
+  "firm": "ELV Associates",
+  "person": "J. Evans",
+  "email": "jevans@elv-us.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:21:11Z",
+  "quote": "We're mainly focused on multifamily development right now and primarily on the east coast, so this one isn't a fit.",
+  "action": "",
+  "tags": [
+   "Development only",
+   "Outside target market"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "jevans@elvassoc.com"
+ },
+ {
+  "firm": "7Acre Investments",
+  "person": "Adam Fletcher",
+  "email": "adam@sevenacreinvest.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:20:55Z",
+  "quote": "We don't do CA deals unfortunately, so this won't be a fit for us.",
+  "action": "",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Evergen Equity",
+  "person": "Troy",
+  "email": "troy@evergenequity.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:20:53Z",
+  "quote": "We are not investing in California multifamily given angst around the policies toward residential landlords.",
+  "action": "The sharpest statement yet of the California objection — it is regulatory, not pricing.",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Cottonwood Group",
+  "person": "Tang Tang",
+  "email": "tang.tang@cottonwoodmgmt.com",
+  "stage": "referred",
+  "ts": "2026-08-28T16:19:11Z",
+  "quote": "Looping in Emin and Patrick here.",
+  "action": "Head of Capital Markets passed it to two colleagues without comment — follow up with them directly.",
+  "tags": [],
+  "campaign": "institutional",
+  "mailedTo": "noah.tillipman@cottonwoodmgmt.com"
+ },
+ {
+  "firm": "Deloache Capital",
+  "person": "Frank Busch",
+  "email": "fbusch@deloachecapital.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:18:05Z",
+  "quote": "We are on the sidelines right now. Indefinitely.",
+  "action": "",
+  "tags": [
+   "Not acquiring now"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Choreo Advisors",
+  "person": "Matthew Gotlin",
+  "email": "matthew.gotlin@choreoadvisors.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:17:23Z",
+  "quote": "Sorry for the delay — we will pass.",
+  "action": "",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "CCR Capital",
+  "person": "S. Brown",
+  "email": "sbrown@ccrcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:15:30Z",
+  "quote": "Sounds interesting, but we'll have to take a pass here, as we have a very full pipeline at the moment. Look forward to seeing the next one.",
+  "action": "Pipeline, not the deal. Explicitly asked for the next one.",
+  "tags": [
+   "Bandwidth / timing"
+  ],
+  "campaign": "institutional"
  }
 ]

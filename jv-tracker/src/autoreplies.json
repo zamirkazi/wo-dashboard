@@ -673,5 +673,31 @@
   "kind": "left",
   "returns": null,
   "note": "Michael Young has left — use kshoyombo@basisinvgroup.com"
+ },
+ {
+  "firm": "Raith Capital",
+  "email": "sahil.amin@raithcapital.com",
+  "campaign": "institutional",
+  "ts": "2026-08-28T16:55:18Z",
+  "kind": "ooo",
+  "returns": "2026-08-31",
+  "note": "Cover: michele.gross@raithcapital.com"
+ },
+ {
+  "firm": "Kingsbarn",
+  "email": "ahardick@kingsbarn.com",
+  "campaign": "institutional",
+  "ts": "2026-08-28T16:33:05Z",
+  "kind": "ooo",
+  "returns": "2026-08-31"
+ },
+ {
+  "firm": "FCP",
+  "email": "bgago@fcpdc.com",
+  "campaign": "institutional",
+  "ts": "2026-08-28T16:20:15Z",
+  "kind": "ooo",
+  "returns": null,
+  "note": "Out for the day"
  }
 ]

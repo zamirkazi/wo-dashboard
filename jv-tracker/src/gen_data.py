@@ -30,11 +30,15 @@ CAMPAIGNS = [
         "bounces": 16, "blocks": 3, "opens": 86, "clicks": 0, "unsubs": 0,
         "reportAt": "2026-08-28T08:57:26Z",
         "followUps": [
+            # Both hit Gmail's 24h sending limit and are paused, not finished.
+            # GMass will resume them automatically on 31 Aug at 08:18 PDT.
             {"gmassId": "53073365", "sentStart": "2026-08-28T15:18:49Z",
-             "sentSoFar": 100, "target": 360, "replies": 5,
+             "sentSoFar": 260, "target": 354, "remaining": 94,
+             "resumesAt": "2026-08-31T15:18:00Z", "pausedBy": "Gmail sending limit",
              "note": "just wanted to follow up on my email below"},
             {"gmassId": "53073398", "sentStart": "2026-08-28T15:20:13Z",
-             "sentSoFar": 100, "target": 360, "replies": 5,
+             "sentSoFar": 270, "target": 354, "remaining": 84,
+             "resumesAt": "2026-08-31T15:20:00Z", "pausedBy": "Gmail sending limit",
              "note": "the same, plus an explicit out if it is not of interest"},
         ],
         "inFlight": False,
