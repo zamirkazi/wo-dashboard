@@ -1135,5 +1135,31 @@
    "Structure / check size"
   ],
   "campaign": "institutional"
+ },
+ {
+  "firm": "Meruelo Group",
+  "person": "Allen Stoller",
+  "email": "astoller@meruelogroup.com",
+  "mailedTo": "alexis.meruelo@meruelogroup.com",
+  "campaign": "family-office",
+  "stage": "outofscope",
+  "ts": "2026-08-27T23:41:13Z",
+  "quote": "We don't do minority interests in anything, including taking on minority partners \u2014 everything we do is 100% internally owned.",
+  "action": "Structurally will not take a partner. Remove from JV equity lists.",
+  "tags": [
+   "Not an LP"
+  ]
+ },
+ {
+  "firm": "Manoucheri Brothers",
+  "person": "Aaron Manoucheri",
+  "email": "aaron@manoucheribrothers.com",
+  "mailedTo": "avi@manoucheribrothers.com",
+  "campaign": "family-office",
+  "stage": "relationship",
+  "ts": "2026-08-27T23:40:15Z",
+  "quote": "Please do not contact us again and remove us from your email blasts.",
+  "action": "Explicit do-not-contact request, citing a prior dispute over The Boardwalk. Suppress aaron@ and avi@manoucheribrothers.com from every list before the next send.",
+  "tags": []
  }
 ]

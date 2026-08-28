@@ -52,13 +52,16 @@ CAMPAIGNS = [
         "label": "Family offices",
         "short": "Family office",
         "subject": "Bay Area Multifamily Equity - 18% Lease Trade Outs",
-        "gmassId": None,
-        "sentStart": "2026-08-27T22:39:04Z",
-        "sentEnd": None,
-        "listSize": None, "removedPreSend": None, "sent": None,
-        "bounces": None, "blocks": None, "opens": None, "clicks": None, "unsubs": None,
-        "reportAt": None,
-        "inFlight": True,          # still sending; counts land when GMass reports
+        "gmassId": "53063683",
+        "sentStart": "2026-08-27T22:33:29Z",
+        "sentEnd": "2026-08-27T23:40:32Z",
+        # GMass reported this one as a campaign report only, with no "has sent"
+        # notification, so there is no pre-send suppression breakdown. listSize
+        # stays None and the funnel starts at Sent rather than inventing a number.
+        "listSize": None, "removedPreSend": None, "sent": 431,
+        "bounces": 11, "blocks": 3, "opens": 1, "clicks": 0, "unsubs": 0,
+        "reportAt": "2026-08-27T23:40:32Z",
+        "inFlight": False,
         "recipientsFile": None,
         "bad": {},
     },
@@ -100,10 +103,12 @@ for c in CAMPAIGNS:
         # deadCount: how many *send-list* addresses those knock out (for the maths).
         c["recipients"], c["silent"] = recips, silent
         c["deadAddresses"], c["deadCount"] = sorted(c["bad"]), len(dead)
+        c["reconciled"] = True
     else:
-        # send still in flight — no roster to reconcile against yet
+        # no enumerated roster yet, so there is nothing to reconcile against
         c["recipients"], c["silent"] = [], []
         c["deadAddresses"], c["deadCount"] = [], 0
+        c["reconciled"] = False
     c.pop("bad"); c.pop("recipientsFile")
 
 # a contact reached by both campaigns is worth knowing about
@@ -134,10 +139,11 @@ data = {
 (here/'data_fragment.js').write_text("const D=" + json.dumps(data, separators=(',', ':')) + ";")
 
 for c in CAMPAIGNS:
-    if c["inFlight"]:
-        ac = c["autoCounts"]
-        print(f'{c["short"]:>14}: {c["replyCount"]:>3} replies · send in flight · '
-              f'{ac["ooo"]} out of office, {ac["left"]} left the firm, {ac["bounce"]} bounced')
+    ac = c["autoCounts"]
+    if not c["reconciled"]:
+        print(f'{c["short"]:>14}: {c["replyCount"]:>3} replies of {c["sent"] or "?"} sent · '
+              f'roster not enumerated · {ac["ooo"]} out of office, {ac["left"]} left the firm, '
+              f'{ac["bounce"]} bounced')
     else:
         print(f'{c["short"]:>14}: {c["replyCount"]:>3} replies + {c["deadCount"]:>2} dead '
               f'+ {len(c["silent"]):>3} silent = {len(c["recipients"])}'

@@ -76,6 +76,26 @@ function renderFunnels() {
           ? `<span class="inflight"><span class="dot"></span>Sending now</span>`
           : `<p class="sub">Sent ${fmt(c.sentStart)}</p>`) + `</div>`;
 
+    if (!c.inFlight && !c.reconciled) {
+      const a = c.autoCounts;
+      const steps2 = [
+        {l:"Sent", s:"GMass reported no pre-send breakdown", v:c.sent, c:"var(--seq-2)"},
+        {l:"Delivered", s:`${c.bounces} bounced, ${c.blocks} blocked`, v:deliveredFor(c), c:"var(--seq-3)"},
+        {l:"Replied", s:pl(reps.length, "firm") + " wrote back about the deal", v:reps.length, c:"var(--seq-4)"},
+        {l:"Still live", s:"Open conversations you can move", v:live, c:"var(--seq-5)"}
+      ];
+      const top2 = steps2[0].v;
+      return `<div class="fblock">${head}<div class="funnel">` + steps2.map(s => `
+        <div class="frow">
+          <div class="fl"><b>${esc(s.l)}</b>${esc(s.s)}</div>
+          <div class="ftrack"><div class="fbar" style="width:${(100*s.v/top2).toFixed(2)}%;background:${s.c}"></div></div>
+          <div class="fval">${s.v} <span>${(100*s.v/top2).toFixed(1)}%</span></div>
+        </div>`).join("") + `</div><div class="pending" style="margin-top:14px">`
+        + `<b>${a.ooo} out of office, ${a.left} contacts who have left the firm, ${a.bounce} undeliverable</b> `
+        + `have answered automatically. The individual send list has not been enumerated yet, so there is no `
+        + `named no-reply roster for this campaign — the counts above come from the GMass report.`
+        + `</div></div>`;
+    }
     if (c.inFlight) {
       const a = c.autoCounts, tot = a.ooo + a.left + a.bounce;
       return `<div class="fblock">${head}<div class="pending">`
@@ -88,8 +108,9 @@ function renderFunnels() {
         + `</div></div>`;
     }
     const steps = [
-      {l:"On the list", s:"Source list", v:c.listSize, c:"var(--seq-1)"},
-      {l:"Sent", s:c.removedPreSend + " suppressed before send", v:c.sent, c:"var(--seq-2)"},
+      ...(c.listSize ? [{l:"On the list", s:"Source list", v:c.listSize, c:"var(--seq-1)"}] : []),
+      {l:"Sent", s:c.listSize ? c.removedPreSend + " suppressed before send"
+                              : "GMass reported no pre-send breakdown", v:c.sent, c:"var(--seq-2)"},
       {l:"Delivered", s:`${c.bounces} bounced, ${c.blocks} blocked`, v:deliveredFor(c), c:"var(--seq-3)"},
       {l:"Replied", s:pl(reps.length, "firm") + " wrote back", v:reps.length, c:"var(--seq-4)"},
       {l:"Still live", s:"Open conversations you can move today", v:live, c:"var(--seq-5)"}
@@ -140,16 +161,34 @@ function renderHeadline() {
       + `<div class="lbl">Replies so far</div><div class="note">Nothing to report in this cohort yet</div></div>`;
     return;
   }
+  const autos = camps().flatMap(c => c.autoReplies || []);
+  const ooo = autos.filter(a => a.kind === "ooo").length;
+  const back = autos.filter(a => a.kind === "ooo" && a.returns).map(a => a.returns).sort();
+  const day = iso => fmt(iso + "T12:00:00Z").replace(/,[^,]*$/, "");
+
   let s = `<b>${pl(liveN, "live conversation")}</b> out of ${pl(view.length, "reply", "replies")}`
-        + (cohort === "all" ? " across both campaigns" : "") + `. `
-        + `${cnt("materials")} firms have asked for the package and ${cnt("question")} have asked a `
-        + `pricing question &mdash; nearly all of them waiting on a going-in cap rate, so answering that `
-        + `one number unblocks the largest cluster on the board.`;
+        + (cohort === "all" ? " across both campaigns" : "") + `.`;
+
+  // only claim a cap-rate bottleneck when there is actually a cluster waiting on one
+  if (cnt("materials") || cnt("question")) {
+    s += ` ${cnt("materials")} ${cnt("materials") === 1 ? "firm has" : "firms have"} asked for the package`
+       + (cnt("question") ? ` and ${cnt("question")} ${cnt("question") === 1 ? "has" : "have"} asked a `
+                          + `pricing question &mdash; nearly all of them waiting on a going-in cap rate, so `
+                          + `answering that one number unblocks the largest cluster on the board` : "")
+       + `.`;
+  }
   if (top) {
-    s += `<br><br>The leading objection is <b>${esc(top[0].toLowerCase())}</b>, cited by ${top[1]} firms. `;
+    s += `<br><br>The leading objection is <b>${esc(top[0].toLowerCase())}</b>, cited by `
+       + `${pl(top[1], "firm")}. `;
     if (sizeLive) s += `${sizeLive} of the firms raising size or structure are <b>still live</b> on co-GP, `
                      + `pref, or a partial check &mdash; the single-check ${esc(d.equity)} ask is the `
                      + `obstacle you can restructure your way out of rather than lose to.`;
+  }
+  if (ooo >= 5) {
+    s += `<br><br><b>${ooo} recipients have replied only to say they are away</b>`
+       + (back.length ? `, most back between ${day(back[0])} and ${day(back[back.length-1])}` : "")
+       + `. This landed in the last week of August. Read the response rate from the week of `
+       + `1 September, and treat a follow-up that week as reaching people the first mail never did.`;
   }
   if (flight.length) s += ` <b>${esc(flight[0].label)}</b> is still sending, so that side of the picture `
                         + `is incomplete and will keep moving.`;

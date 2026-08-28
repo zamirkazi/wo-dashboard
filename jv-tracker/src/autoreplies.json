@@ -1,20 +1,277 @@
 [
- {"firm":"Fria","email":"catarina.silva@fria.us","campaign":"family-office","ts":"2026-08-27T23:13:17Z","kind":"ooo","returns":"2026-09-01"},
- {"firm":"Emun","email":"leos.jirman@emun.cz","campaign":"family-office","ts":"2026-08-27T23:07:51Z","kind":"ooo","returns":"2026-09-02"},
- {"firm":"TD Capital HK","email":"kelvin@tdcapitalhk.com","campaign":"family-office","ts":"2026-08-27T23:04:56Z","kind":"bounce","returns":null,"note":"Recipient unknown at tdcapitalhk.com"},
- {"firm":"Desert Investment Management","email":"smisselbrook@desert-im.com","campaign":"family-office","ts":"2026-08-27T23:04:10Z","kind":"left","returns":null,"note":"Address retired — use jgratz@desert-im.com or mtellas@desert-im.com"},
- {"firm":"Cofra Holding","email":"z.burgess@cofraholding.com","campaign":"family-office","ts":"2026-08-27T22:59:12Z","kind":"ooo","returns":"2026-08-31","note":"Urgent items to s.vermeer@cofraholding.com"},
- {"firm":"Celina Capital","email":"anickel@celinacapital.com","campaign":"family-office","ts":"2026-08-27T22:55:42Z","kind":"ooo","returns":"2026-09-01"},
- {"firm":"Cazenove Capital","email":"Giles.Neville@cazenovecapital.com","campaign":"family-office","ts":"2026-08-27T22:55:15Z","kind":"ooo","returns":"2026-09-01","note":"Urgent items to john.bell@cazenovecapital.com"},
- {"firm":"BWGI","email":"guilherme.jardim@bwgi.com.br","campaign":"family-office","ts":"2026-08-27T22:51:14Z","kind":"left","returns":null,"note":"No longer at BW; mailbox unmonitored"},
- {"firm":"Brainvest","email":"fernando@brainvest.com","campaign":"family-office","ts":"2026-08-27T22:51:02Z","kind":"ooo","returns":"2026-08-31","note":"Redirect to leticia.nigri@brainvest.com"},
- {"firm":"Big Plan Holdings","email":"josh@bigplanholdings.com","campaign":"family-office","ts":"2026-08-27T22:48:01Z","kind":"ooo","returns":"2026-08-31"},
- {"firm":"Belfer Management","email":"staub@belfermgmt.com","campaign":"family-office","ts":"2026-08-27T22:47:02Z","kind":"ooo","returns":"2026-08-31"},
- {"firm":"BBR Partners","email":"sehrlich@bbrpartners.com","campaign":"family-office","ts":"2026-08-27T22:46:07Z","kind":"ooo","returns":"2026-08-31"},
- {"firm":"BBR Partners","email":"ndavis@bbrpartners.com","campaign":"family-office","ts":"2026-08-27T22:46:05Z","kind":"ooo","returns":null,"note":"Cover: swatson@bbrpartners.com"},
- {"firm":"Battery Global Advisors","email":"bcolon@bga.com","campaign":"family-office","ts":"2026-08-27T22:45:45Z","kind":"ooo","returns":null},
- {"firm":"Apeiron Investments","email":"nick.nigam@apeiron-investments.com","campaign":"family-office","ts":"2026-08-27T22:41:03Z","kind":"ooo","returns":"2026-09-01"},
- {"firm":"Apeiron Investments","email":"lorin.vannuland@apeiron-investments.com","campaign":"family-office","ts":"2026-08-27T22:41:06Z","kind":"ooo","returns":"2026-09-01"},
- {"firm":"AMB Sports & Entertainment","email":"dietmar.exler@ambse.com","campaign":"family-office","ts":"2026-08-27T22:39:45Z","kind":"left","returns":null,"note":"Retired 15 Aug — contact Alex.Graham@ambse.com"},
- {"firm":"12-48","email":"katie@12-48.com","campaign":"family-office","ts":"2026-08-27T22:35:27Z","kind":"ooo","returns":"2026-09-21","note":"Maternity leave until late September"}
+ {
+  "firm": "Fria",
+  "email": "catarina.silva@fria.us",
+  "campaign": "family-office",
+  "ts": "2026-08-27T23:13:17Z",
+  "kind": "ooo",
+  "returns": "2026-09-01"
+ },
+ {
+  "firm": "Emun",
+  "email": "leos.jirman@emun.cz",
+  "campaign": "family-office",
+  "ts": "2026-08-27T23:07:51Z",
+  "kind": "ooo",
+  "returns": "2026-09-02"
+ },
+ {
+  "firm": "TD Capital HK",
+  "email": "kelvin@tdcapitalhk.com",
+  "campaign": "family-office",
+  "ts": "2026-08-27T23:04:56Z",
+  "kind": "bounce",
+  "returns": null,
+  "note": "Recipient unknown at tdcapitalhk.com"
+ },
+ {
+  "firm": "Desert Investment Management",
+  "email": "smisselbrook@desert-im.com",
+  "campaign": "family-office",
+  "ts": "2026-08-27T23:04:10Z",
+  "kind": "left",
+  "returns": null,
+  "note": "Address retired \u2014 use jgratz@desert-im.com or mtellas@desert-im.com"
+ },
+ {
+  "firm": "Cofra Holding",
+  "email": "z.burgess@cofraholding.com",
+  "campaign": "family-office",
+  "ts": "2026-08-27T22:59:12Z",
+  "kind": "ooo",
+  "returns": "2026-08-31",
+  "note": "Urgent items to s.vermeer@cofraholding.com"
+ },
+ {
+  "firm": "Celina Capital",
+  "email": "anickel@celinacapital.com",
+  "campaign": "family-office",
+  "ts": "2026-08-27T22:55:42Z",
+  "kind": "ooo",
+  "returns": "2026-09-01"
+ },
+ {
+  "firm": "Cazenove Capital",
+  "email": "Giles.Neville@cazenovecapital.com",
+  "campaign": "family-office",
+  "ts": "2026-08-27T22:55:15Z",
+  "kind": "ooo",
+  "returns": "2026-09-01",
+  "note": "Urgent items to john.bell@cazenovecapital.com"
+ },
+ {
+  "firm": "BWGI",
+  "email": "guilherme.jardim@bwgi.com.br",
+  "campaign": "family-office",
+  "ts": "2026-08-27T22:51:14Z",
+  "kind": "left",
+  "returns": null,
+  "note": "No longer at BW; mailbox unmonitored"
+ },
+ {
+  "firm": "Brainvest",
+  "email": "fernando@brainvest.com",
+  "campaign": "family-office",
+  "ts": "2026-08-27T22:51:02Z",
+  "kind": "ooo",
+  "returns": "2026-08-31",
+  "note": "Redirect to leticia.nigri@brainvest.com"
+ },
+ {
+  "firm": "Big Plan Holdings",
+  "email": "josh@bigplanholdings.com",
+  "campaign": "family-office",
+  "ts": "2026-08-27T22:48:01Z",
+  "kind": "ooo",
+  "returns": "2026-08-31"
+ },
+ {
+  "firm": "Belfer Management",
+  "email": "staub@belfermgmt.com",
+  "campaign": "family-office",
+  "ts": "2026-08-27T22:47:02Z",
+  "kind": "ooo",
+  "returns": "2026-08-31"
+ },
+ {
+  "firm": "BBR Partners",
+  "email": "sehrlich@bbrpartners.com",
+  "campaign": "family-office",
+  "ts": "2026-08-27T22:46:07Z",
+  "kind": "ooo",
+  "returns": "2026-08-31"
+ },
+ {
+  "firm": "BBR Partners",
+  "email": "ndavis@bbrpartners.com",
+  "campaign": "family-office",
+  "ts": "2026-08-27T22:46:05Z",
+  "kind": "ooo",
+  "returns": null,
+  "note": "Cover: swatson@bbrpartners.com"
+ },
+ {
+  "firm": "Battery Global Advisors",
+  "email": "bcolon@bga.com",
+  "campaign": "family-office",
+  "ts": "2026-08-27T22:45:45Z",
+  "kind": "ooo",
+  "returns": null
+ },
+ {
+  "firm": "Apeiron Investments",
+  "email": "nick.nigam@apeiron-investments.com",
+  "campaign": "family-office",
+  "ts": "2026-08-27T22:41:03Z",
+  "kind": "ooo",
+  "returns": "2026-09-01"
+ },
+ {
+  "firm": "Apeiron Investments",
+  "email": "lorin.vannuland@apeiron-investments.com",
+  "campaign": "family-office",
+  "ts": "2026-08-27T22:41:06Z",
+  "kind": "ooo",
+  "returns": "2026-09-01"
+ },
+ {
+  "firm": "AMB Sports & Entertainment",
+  "email": "dietmar.exler@ambse.com",
+  "campaign": "family-office",
+  "ts": "2026-08-27T22:39:45Z",
+  "kind": "left",
+  "returns": null,
+  "note": "Retired 15 Aug \u2014 contact Alex.Graham@ambse.com"
+ },
+ {
+  "firm": "12-48",
+  "email": "katie@12-48.com",
+  "campaign": "family-office",
+  "ts": "2026-08-27T22:35:27Z",
+  "kind": "ooo",
+  "returns": "2026-09-21",
+  "note": "Maternity leave until late September"
+ },
+ {
+  "firm": "Wealthspire",
+  "email": "brian.powers@wealthspire.com",
+  "campaign": "family-office",
+  "ts": "2026-08-28T00:12:11Z",
+  "kind": "left",
+  "returns": null,
+  "note": "Brian Powers no longer with Wealthspire"
+ },
+ {
+  "firm": "Somerston",
+  "email": "steven.stegenwalner@somerston.com",
+  "campaign": "family-office",
+  "ts": "2026-08-27T23:58:46Z",
+  "kind": "left",
+  "returns": null,
+  "note": "Inbox unmonitored \u2014 contact tracy.clarke@somerston.com"
+ },
+ {
+  "firm": "KSE",
+  "email": "stephen@teamkse.com",
+  "campaign": "family-office",
+  "ts": "2026-08-27T23:31:52Z",
+  "kind": "bounce",
+  "returns": null,
+  "note": "Recipient unknown at teamkse.com"
+ },
+ {
+  "firm": "Visse Capital",
+  "email": "irene.marcaide@vissecapital.com",
+  "campaign": "family-office",
+  "ts": "2026-08-28T00:11:16Z",
+  "kind": "ooo",
+  "returns": "2026-08-30"
+ },
+ {
+  "firm": "Virtus USA",
+  "email": "angelicap@virtus-usa.com",
+  "campaign": "family-office",
+  "ts": "2026-08-28T00:11:04Z",
+  "kind": "ooo",
+  "returns": "2026-09-09",
+  "note": "Cover: jesusd@virtus-usa.com"
+ },
+ {
+  "firm": "Ullman Wealth",
+  "email": "steven@ullmanwealth.com",
+  "campaign": "family-office",
+  "ts": "2026-08-28T00:09:11Z",
+  "kind": "ooo",
+  "returns": "2026-09-04"
+ },
+ {
+  "firm": "Truxton Trust",
+  "email": "Overton.Colton@truxtontrust.com",
+  "campaign": "family-office",
+  "ts": "2026-08-28T00:08:52Z",
+  "kind": "ooo",
+  "returns": "2026-09-04",
+  "note": "Cover: amy.haynes@truxtontrust.com"
+ },
+ {
+  "firm": "Valkin Trading",
+  "email": "vishal@valkintrading.com",
+  "campaign": "family-office",
+  "ts": "2026-08-28T00:06:53Z",
+  "kind": "ooo",
+  "returns": "2026-09-04",
+  "note": "Cover: info@valkintrading.com"
+ },
+ {
+  "firm": "Ten Eighty",
+  "email": "brifkin@teneighty.us",
+  "campaign": "family-office",
+  "ts": "2026-08-28T00:03:26Z",
+  "kind": "ooo",
+  "returns": null,
+  "note": "Medical leave, roughly a week"
+ },
+ {
+  "firm": "Sun Street",
+  "email": "bzelony@sunstreetcorp.com",
+  "campaign": "family-office",
+  "ts": "2026-08-28T00:01:29Z",
+  "kind": "ooo",
+  "returns": "2026-09-07",
+  "note": "Cover: ss@sunstreetcorp.com"
+ },
+ {
+  "firm": "SlateStone",
+  "email": "dharkin@slatestone.com",
+  "campaign": "family-office",
+  "ts": "2026-08-27T23:58:22Z",
+  "kind": "ooo",
+  "returns": "2026-08-31",
+  "note": "Cover: cduncan@slatestone.com"
+ },
+ {
+  "firm": "RBM",
+  "email": "dbarton@rbm.us",
+  "campaign": "family-office",
+  "ts": "2026-08-27T23:53:11Z",
+  "kind": "ooo",
+  "returns": null
+ },
+ {
+  "firm": "PSP Partners",
+  "email": "mkurth@psppartners.com",
+  "campaign": "family-office",
+  "ts": "2026-08-27T23:50:27Z",
+  "kind": "ooo",
+  "returns": null,
+  "note": "On leave"
+ },
+ {
+  "firm": "Pilot House",
+  "email": "jcanales@pilothouse.com",
+  "campaign": "family-office",
+  "ts": "2026-08-27T23:49:02Z",
+  "kind": "ooo",
+  "returns": "2026-08-31"
+ }
 ]
