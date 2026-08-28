@@ -410,9 +410,11 @@ function renderHygiene() {
      note:"Bounced or blocked at the gateway"},
     {n:settled.reduce((t,c) => t + c.removedPreSend, 0), l:"Suppressed pre-send",
      note:"Dropped by GMass as prior bounces, duplicates or unsubscribes"},
+    // GMass has reported opens exactly equal to replies in every report on both
+    // campaigns, so this figure restates the reply count and measures nothing.
     {n:opens, l:"Tracked opens",
-     note:`Understated — institutional gateways strip the pixel, and ${view.length} firms replied `
-        + `against ${opens} recorded opens`},
+     note:"Not a real signal — GMass reports opens exactly equal to replies on both "
+        + "campaigns, so this restates the reply count rather than measuring who read it"},
     {n:cs.reduce((t,c) => t + (c.autoCounts ? c.autoCounts.ooo : 0), 0), l:"Out of office",
      note:"Answered automatically, not about the deal — they have not seen it yet"},
     // GMass records no unsubscribes because nobody used the link — the people who

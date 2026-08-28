@@ -1283,5 +1283,20 @@
    "No reason given"
   ],
   "campaign": "family-office"
+ },
+ {
+  "firm": "Silverpeak",
+  "person": "Chris Westfahl",
+  "email": "Chris.Westfahl@silverpeak.com",
+  "mailedTo": "ryan.schnepf@silverpeak.com",
+  "stage": "conditional",
+  "ts": "2026-08-28T13:37:38Z",
+  "quote": "Although a prime area, might be difficult for our LP fund to do 80's product at a total basis approaching $400k/unit. Will you need any co-GP $'s?",
+  "action": "Answer the co-GP question — he raised it himself. LP fund is blocked on 1986 vintage at ~$400k/unit, but he is offering a different seat at the table.",
+  "tags": [
+   "1980s vintage",
+   "Structure / check size"
+  ],
+  "campaign": "institutional"
  }
 ]
