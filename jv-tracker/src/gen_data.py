@@ -27,8 +27,8 @@ CAMPAIGNS = [
         "sentStart": "2026-08-26T21:58:24Z",
         "sentEnd": "2026-08-26T23:04:44Z",
         "listSize": 534, "removedPreSend": 83, "sent": 451,
-        "bounces": 14, "blocks": 3, "opens": 43, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-08-27T21:34:43Z",
+        "bounces": 14, "blocks": 3, "opens": 86, "clicks": 0, "unsubs": 0,
+        "reportAt": "2026-08-28T00:49:56Z",
         "inFlight": False,
         "recipientsFile": "recipients.txt",
         "bad": {
@@ -43,6 +43,8 @@ CAMPAIGNS = [
             "kraft@batteryalexander.com": "kraft@batteryalexander.com",
             "hrajeshwar@pwpartners.com": "hrajeshwar@pwpartners.com",
             "gmcganty@tryperion.com": "jkarsh@tryperion.com",
+            "kevin.neys@corebridgefinancial.com": "matthew.kordsmeier@corebridgefinancial.com",
+            "gabriel.finger@corebridgefinancial.com": "matthew.kordsmeier@corebridgefinancial.com",
             # tbanks@baupost.com bounced on a CC but Taylor Banks replied himself,
             # so that address is live and counts as a reply, not a dead address.
         },
@@ -55,10 +57,12 @@ CAMPAIGNS = [
         "gmassId": "53063683",
         "sentStart": "2026-08-27T22:33:29Z",
         "sentEnd": "2026-08-27T23:40:32Z",
-        # GMass reported this one as a campaign report only, with no "has sent"
-        # notification, so there is no pre-send suppression breakdown. listSize
-        # stays None and the funnel starts at Sent rather than inventing a number.
-        "listSize": None, "removedPreSend": None, "sent": 431,
+        # No "has sent" notification arrived for this campaign, so GMass never
+        # spelled out the pre-send suppression. The list size comes from the
+        # sent-copy address GMass CCs itself on, 674-recipients-big-11dae0cb@
+        # gmass.co, the same convention as 534-recipients-big-... on the
+        # institutional send, whose 534 matches its reported list exactly.
+        "listSize": 674, "removedPreSend": 674 - 431, "sent": 431,
         "bounces": 11, "blocks": 3, "opens": 1, "clicks": 0, "unsubs": 0,
         "reportAt": "2026-08-27T23:40:32Z",
         "inFlight": False,
@@ -71,7 +75,6 @@ CORRECTIONS = [
     "Suppress psinger@elliottmgmt.com — Elliott asked by name",
     "Suppress john.rogers@gs.com — Goldman Sachs asked by name",
     "Suppress michel.schram@pggm.nl — second decline, no allocation since July",
-    "Knickpoint: nick@knickpt.com is stale — use jamie@, zain@, matt@knickpt.com",
     "abaraghoush@pacificurbaninvestors.com — Ash has left the firm",
     "njanney@redcovecap.com — Nicholas has left Red Cove; use atishkoff@redcovecap.com",
     "jsharf@3650reit.com — Jeremiah has left 3650; use bthurn@3650capital.com",
@@ -97,16 +100,18 @@ for c in CAMPAIGNS:
         silent = [e for e in recips if e.lower() not in mailed and e.lower() not in dead
                   and e.lower() not in autoAddrs]
         onList = len([a for a in autos if a["email"].lower() in {e.lower() for e in recips}])
+        assert not (autoAddrs & mailed), (
+            f'{c["id"]}: counted twice, as auto-reply and as reply: {autoAddrs & mailed}')
         assert len(mailed) + len(dead) + onList + len(silent) == len(recips), (
             f'{c["id"]}: {len(mailed)}+{len(dead)}+{onList}+{len(silent)} != {len(recips)}')
         # deadAddresses: every undeliverable address seen in-thread (for hygiene).
         # deadCount: how many *send-list* addresses those knock out (for the maths).
-        c["recipients"], c["silent"] = recips, silent
+        c["recipients"], c["silent"], c["autoOnList"] = recips, silent, onList
         c["deadAddresses"], c["deadCount"] = sorted(c["bad"]), len(dead)
         c["reconciled"] = True
     else:
         # no enumerated roster yet, so there is nothing to reconcile against
-        c["recipients"], c["silent"] = [], []
+        c["recipients"], c["silent"], c["autoOnList"] = [], [], 0
         c["deadAddresses"], c["deadCount"] = [], 0
         c["reconciled"] = False
     c.pop("bad"); c.pop("recipientsFile")
@@ -141,11 +146,13 @@ data = {
 for c in CAMPAIGNS:
     ac = c["autoCounts"]
     if not c["reconciled"]:
-        print(f'{c["short"]:>14}: {c["replyCount"]:>3} replies of {c["sent"] or "?"} sent · '
+        print(f'{c["short"]:>14}: {c["replyCount"]:>3} replies of {c["sent"] or "?"} sent '
+              f'(list {c["listSize"]}) · '
               f'roster not enumerated · {ac["ooo"]} out of office, {ac["left"]} left the firm, '
               f'{ac["bounce"]} bounced')
     else:
         print(f'{c["short"]:>14}: {c["replyCount"]:>3} replies + {c["deadCount"]:>2} dead '
-              f'+ {len(c["silent"]):>3} silent = {len(c["recipients"])}'
-              f'  ({len(c["deadAddresses"])} undeliverable addresses seen)')
+              f'+ {c["autoOnList"]:>2} auto + {len(c["silent"]):>3} silent = {len(c["recipients"])}'
+              f'  ({ac["ooo"]} out of office, {ac["left"]} left the firm; '
+              f'{len(c["deadAddresses"])} undeliverable addresses seen)')
 print(f'{"overlap":>14}: {overlap or "none"}')

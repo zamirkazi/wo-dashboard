@@ -79,7 +79,9 @@ function renderFunnels() {
     if (!c.inFlight && !c.reconciled) {
       const a = c.autoCounts;
       const steps2 = [
-        {l:"Sent", s:"GMass reported no pre-send breakdown", v:c.sent, c:"var(--seq-2)"},
+        ...(c.listSize ? [{l:"On the list", s:"Source list", v:c.listSize, c:"var(--seq-1)"}] : []),
+        {l:"Sent", s:c.listSize ? c.removedPreSend + " suppressed before send"
+                                : "GMass reported no pre-send breakdown", v:c.sent, c:"var(--seq-2)"},
         {l:"Delivered", s:`${c.bounces} bounced, ${c.blocks} blocked`, v:deliveredFor(c), c:"var(--seq-3)"},
         {l:"Replied", s:pl(reps.length, "firm") + " wrote back about the deal", v:reps.length, c:"var(--seq-4)"},
         {l:"Still live", s:"Open conversations you can move", v:live, c:"var(--seq-5)"}
@@ -92,8 +94,8 @@ function renderFunnels() {
           <div class="fval">${s.v} <span>${(100*s.v/top2).toFixed(1)}%</span></div>
         </div>`).join("") + `</div><div class="pending" style="margin-top:14px">`
         + `<b>${a.ooo} out of office, ${a.left} contacts who have left the firm, ${a.bounce} undeliverable</b> `
-        + `have answered automatically. The individual send list has not been enumerated yet, so there is no `
-        + `named no-reply roster for this campaign — the counts above come from the GMass report.`
+        + `have answered automatically. The addresses on the list have not been enumerated yet, so this `
+        + `campaign has no named no-reply roster to work — only the counts above.`
         + `</div></div>`;
     }
     if (c.inFlight) {
