@@ -27,8 +27,8 @@ CAMPAIGNS = [
         "sentStart": "2026-08-26T21:58:24Z",
         "sentEnd": "2026-08-26T23:04:44Z",
         "listSize": 534, "removedPreSend": 83, "sent": 451,
-        "bounces": 14, "blocks": 3, "opens": 86, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-08-28T00:49:56Z",
+        "bounces": 16, "blocks": 3, "opens": 86, "clicks": 0, "unsubs": 0,
+        "reportAt": "2026-08-28T01:23:55Z",
         "inFlight": False,
         "recipientsFile": "recipients.txt",
         "bad": {
@@ -62,7 +62,7 @@ CAMPAIGNS = [
         # report closes it at the full 674, so nothing was suppressed before send.
         "listSize": 674, "removedPreSend": 0, "sent": 674,
         "bounces": 16, "blocks": 4, "opens": 4, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-08-28T01:55:59Z",
+        "reportAt": "2026-08-28T02:09:09Z",
         "inFlight": False,
         "recipientsFile": "recipients_fo.txt",
         # The 11 addresses marked BOUNCED on the source sheet. GMass counts 16, so

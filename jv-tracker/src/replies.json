@@ -142,11 +142,13 @@
   "firm": "Makarora",
   "person": "Scott Dunn",
   "email": "SDunn@makarora-lp.com",
-  "stage": "question",
-  "ts": "2026-08-26T22:39:35Z",
-  "quote": "Can you share a bit more detail on the yield profile? Going-in cap rate and YOC, Untrended MTM Yield and Stabilized Trended YOC?",
-  "action": "Most technical ask in the batch — send the full yield bridge.",
-  "tags": [],
+  "stage": "pass",
+  "ts": "2026-08-28T01:23:32Z",
+  "quote": "That sounds too tight for us to get excited about it, particularly with a number of other live deals moving towards closing.",
+  "action": "Answered 28 Aug — 5.15% going-in, 5.7% untrended, 6.52% trended — and passed on pricing. The clearest read yet on how the going-in cap lands with a technical LP.",
+  "tags": [
+   "Return threshold"
+  ],
   "campaign": "institutional"
  },
  {
@@ -1194,7 +1196,7 @@
   "stage": "meeting",
   "ts": "2026-08-28T01:55:31Z",
   "quote": "Thank you for reaching out and sharing this opportunity with us. Are you available for a call next week?",
-  "action": "Call requested for next week. Routed to Michael Regan, who is covering — confirm a time with him.",
+  "action": "Booking link sent for Michael Regan on 28 Aug; hanna@greenstreettrust.com schedules. Confirm a time before the week of 1 September.",
   "tags": [],
   "campaign": "family-office"
  },
@@ -1210,5 +1212,19 @@
    "Different strategy"
   ],
   "campaign": "family-office"
+ },
+ {
+  "firm": "Sabal",
+  "person": "Tal Seder",
+  "email": "Tal.Seder@sabal.com",
+  "mailedTo": "drake.ayres@sabal.com",
+  "stage": "materials",
+  "ts": "2026-08-28T01:28:13Z",
+  "quote": "Mike/Erik — please have a look when you can. Zamir — please provide more details.",
+  "action": "Package sent 01:56. Routed internally to Mike Mehagian and Erik Kolar — chase them, not Drake.",
+  "tags": [
+   "Wants materials"
+  ],
+  "campaign": "institutional"
  }
 ]
