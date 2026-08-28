@@ -1298,5 +1298,110 @@
    "Structure / check size"
   ],
   "campaign": "institutional"
+ },
+ {
+  "firm": "Blackstone",
+  "person": "Scott McCallum",
+  "email": "scott.mccallum@blackstone.com",
+  "stage": "pass",
+  "ts": "2026-08-28T15:22:02Z",
+  "quote": "We took a look earlier in the process and decided to pass for a few reasons. Please keep us in mind for anything in the future.",
+  "action": "They already saw it through the marketed process, before this outreach. No reasons given and he is warm — ask him what they were; it is the cheapest read available on how the deal shows.",
+  "tags": [
+   "Marketed deal"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Benedict Realty Group",
+  "person": "Steven Kohn",
+  "email": "steven.kohn@brgny.com",
+  "stage": "meeting",
+  "ts": "2026-08-28T15:31:51Z",
+  "quote": "Yes sorry just traveling. Wide open on Monday.",
+  "action": "Offered Monday and is waiting on a time. Zamir is out Monday — hand to Michael Regan and lock it today.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Argosy Real Estate Partners",
+  "person": "D. Ciccone",
+  "email": "dciccone@argosyrep.com",
+  "mailedTo": "rfirmine@argosyrep.com",
+  "stage": "pass",
+  "ts": "2026-08-28T15:32:50Z",
+  "quote": "This one is too skinny for our current targets (20% IRR+) but would be great to catch up in general.",
+  "action": "Needs 20%+ against 17.1% here. Not this deal, but he asked for the catch-up — take it.",
+  "tags": [
+   "Return threshold"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Canyon Partners",
+  "person": "N. Baccile",
+  "email": "nbaccile@canyonpartners.com",
+  "mailedTo": "rpotts@canyonpartners.com",
+  "stage": "pass",
+  "ts": "2026-08-28T15:36:49Z",
+  "quote": "Apologies for the delay in coming back to you as we were touring some assets in SF. Unfortunately this one isn't going to be a great fit for us.",
+  "action": "They were touring SF assets this week, so they are active in the market — the miss is this asset, not the geography. Send them the next Bay Area deal.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Palatine Capital Partners",
+  "person": "Jason Betesh",
+  "email": "jbetesh@pal-partners.com",
+  "stage": "pass",
+  "ts": "2026-08-28T15:44:01Z",
+  "quote": "I don't think we're buyers of CA multifamily these days. Best of luck with it.",
+  "action": "",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Arselle Investments",
+  "person": "Aaron",
+  "email": "aaron@arselleinvestments.com",
+  "mailedTo": "kev@arselleinvestments.com",
+  "stage": "outofscope",
+  "ts": "2026-08-28T15:45:16Z",
+  "quote": "Thanks for thinking of us, but we are not doing JV equity.",
+  "action": "Not a JV equity provider — drop from this list. He took the meeting offer anyway.",
+  "tags": [
+   "Not an LP"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Willton Investment Management",
+  "person": "Chris Luo",
+  "email": "cluo@willtongroup.com",
+  "stage": "pass",
+  "ts": "2026-08-28T15:53:58Z",
+  "quote": "Thanks for sharing. CA is not in our target market.",
+  "action": "",
+  "tags": [
+   "Outside target market"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Caliber",
+  "person": "Lisa Pudewell",
+  "email": "lisa@caliberco.com",
+  "stage": "pass",
+  "ts": "2026-08-28T15:56:43Z",
+  "quote": "I believe we are still staying out of CA at this time, but keep us in mind for other deals. Please also send them to acquisitions@caliberco.com for a faster reply.",
+  "action": "Use acquisitions@caliberco.com going forward — she asked for it.",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
  }
 ]

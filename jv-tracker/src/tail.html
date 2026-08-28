@@ -125,8 +125,30 @@ function renderFunnels() {
         <div class="fl"><b>${esc(s.l)}</b>${esc(s.s)}</div>
         <div class="ftrack"><div class="fbar" style="width:${(100*s.v/top).toFixed(2)}%;background:${s.c}"></div></div>
         <div class="fval">${s.v} <span>${(100*s.v/top).toFixed(1)}%</span></div>
-      </div>`).join("") + `</div></div>`;
+      </div>`).join("") + `</div>` + followUpNote(c, reps) + `</div>`;
   }).join("");
+}
+
+// A follow-up is a second touch on the same list, not a new audience, so it hangs
+// off its campaign instead of becoming a cohort. Its replies are already counted
+// in the funnel above; what it adds is how much of the movement is due to it.
+function followUpNote(c, reps) {
+  if (!c.followUps || !c.followUps.length) return "";
+  const first = c.followUps.map(f => f.sentStart).sort()[0];
+  const since = reps.filter(r => r.ts >= first).length;
+  // Both variants address the same non-responders, so the audience is the largest
+  // target, never the sum — adding them would invent recipients who do not exist.
+  const sent = Math.max(...c.followUps.map(f => f.sentSoFar));
+  const target = Math.max(...c.followUps.map(f => f.target));
+  const dup = c.followUps.length > 1;
+  return `<div class="pending" style="margin-top:14px">`
+    + `<b>Follow-up in flight</b> since ${fmt(first)} — a second touch to ${target} `
+    + `non-responders, ${sent} reached so far, and <b>${pl(since, "reply", "replies")}</b> `
+    + `${since === 1 ? "has" : "have"} landed since. That is the wave working: the list had `
+    + `gone quiet for hours before it. `
+    + (dup ? `It went out as ${c.followUps.length} variants about a minute apart to the same `
+           + `people, so each of them received two follow-ups back to back.` : "")
+    + `</div>`;
 }
 
 /* ---------- headline + KPIs ---------- */
