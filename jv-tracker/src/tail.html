@@ -84,7 +84,8 @@ function renderFunnels() {
                   : c.removedPreSend ? c.removedPreSend + " suppressed before send"
                                      : "everyone on the list was mailed", v:c.sent, c:"var(--seq-2)"},
         {l:"Delivered", s:`${c.bounces} bounced, ${c.blocks} blocked`, v:deliveredFor(c), c:"var(--seq-3)"},
-        {l:"Replied", s:pl(reps.length, "firm") + " wrote back about the deal", v:reps.length, c:"var(--seq-4)"},
+        {l:"Replied", s:pl(firmsReplied(reps), "firm") + " wrote back about the deal",
+         v:firmsReplied(reps), c:"var(--seq-4)"},
         {l:"Still live", s:"Open conversations you can move", v:live, c:"var(--seq-5)"}
       ];
       const top2 = steps2[0].v;
@@ -116,7 +117,10 @@ function renderFunnels() {
                 : c.removedPreSend ? c.removedPreSend + " suppressed before send"
                                    : "everyone on the list was mailed", v:c.sent, c:"var(--seq-2)"},
       {l:"Delivered", s:`${c.bounces} bounced, ${c.blocks} blocked`, v:deliveredFor(c), c:"var(--seq-3)"},
-      {l:"Replied", s:pl(reps.length, "firm") + " wrote back", v:reps.length, c:"var(--seq-4)"},
+      {l:"Replied", s:pl(firmsReplied(reps), "firm") + " wrote back"
+                     + (reps.length !== firmsReplied(reps)
+                        ? `, across ${reps.length} contacts` : ""),
+       v:firmsReplied(reps), c:"var(--seq-4)"},
       {l:"Still live", s:"Open conversations you can move today", v:live, c:"var(--seq-5)"}
     ];
     const top = steps[0].v;
@@ -132,6 +136,8 @@ function renderFunnels() {
 // A follow-up is a second touch on the same list, not a new audience, so it hangs
 // off its campaign instead of becoming a cohort. Its replies are already counted
 // in the funnel above; what it adds is how much of the movement is due to it.
+function firmsReplied(reps) { return new Set(reps.map(r => r.firm)).size; }
+
 function followUpNote(c, reps) {
   if (!c.followUps || !c.followUps.length) return "";
   const first = c.followUps.map(f => f.sentStart).sort()[0];

@@ -14,11 +14,13 @@
   "firm": "Powers Capital",
   "person": "Ryan Powers",
   "email": "ryan@powerscapital.us",
-  "stage": "materials",
-  "ts": "2026-08-26T23:05:30Z",
-  "quote": "Would love to help on this. Not a bad check size and sounds like an interesting story. Can you send the package?",
-  "action": "Send full package (OM, model, T12, rent roll).",
-  "tags": [],
+  "stage": "relationship",
+  "ts": "2026-08-28T18:22:18Z",
+  "quote": "Are you willing to hire me exclusively on it if it's something I can do?",
+  "action": "Not an LP — an equity advisory asking for an exclusive mandate. He already holds the full package, which went out with an instruction not to forward it. Decide whether to retain him or ask for it back.",
+  "tags": [
+   "Not an LP"
+  ],
   "campaign": "institutional"
  },
  {
@@ -230,14 +232,18 @@
  },
  {
   "firm": "Clarion Partners",
-  "person": "Khalid Rashid",
-  "email": "Khalid.Rashid@clarionpartners.com",
-  "stage": "referred",
-  "ts": "2026-08-27T00:12:14Z",
-  "quote": "I want to introduce you to Andrew who covers west coast multi for us.",
-  "action": "Follow up with Andrew Palmquist.",
+  "person": "Andrew Palmquist",
+  "email": "Andrew.Palmquist@clarionpartners.com",
+  "stage": "meeting",
+  "ts": "2026-08-28T19:07:12Z",
+  "quote": "Would be happy to connect on this one. I'm available the rest of the day or Monday afternoon after 1pm.",
+  "action": "Khalid handed this to Palmquist, who covers west coast multifamily, and he has offered slots. Zamir is out Monday — take it today or give it to Michael Regan.",
   "tags": [],
-  "campaign": "institutional"
+  "campaign": "institutional",
+  "mailedTo": "khalid.rashid@clarionpartners.com",
+  "otherAddrs": [
+   "Khalid.Rashid@clarionpartners.com"
+  ]
  },
  {
   "firm": "Clarion Partners",
@@ -1753,5 +1759,85 @@
    "Return threshold"
   ],
   "campaign": "institutional"
+ },
+ {
+  "firm": "Citymark Capital",
+  "person": "E. Louttit",
+  "email": "elouttit@citymarkcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-28T19:07:01Z",
+  "quote": "Damien and Gillian are no longer with Citymark. Based on the info below, the deal is not going to be a fit for us. We are focused on 2000s and newer product.",
+  "action": "Two dead contacts at Citymark; he is the live one.",
+  "tags": [
+   "1980s vintage"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "gfent-baker@citymarkcapital.com"
+ },
+ {
+  "firm": "Eldridge Acre Partners",
+  "person": "Sam Levy",
+  "email": "sam.levy@eldridgeacre.com",
+  "stage": "meeting",
+  "ts": "2026-08-28T19:04:01Z",
+  "quote": "I work with Josh on the EAP team and would be great to connect on the below. Let me know if you have any time early next week to chat.",
+  "action": "Wants a call early next week. Zamir is out Monday — offer Tuesday or hand to Michael Regan.",
+  "tags": [],
+  "campaign": "institutional",
+  "mailedTo": "joshua.katzin@eldridgeacre.com"
+ },
+ {
+  "firm": "Peak Hill Capital",
+  "person": "Paul Heydweiller",
+  "email": "pheydweiller@peakhillcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-28T18:54:00Z",
+  "quote": "As we discussed a few weeks ago, we are currently pursuing opportunities outside of California given our fund's existing concentration there. We will likely circle back at some point.",
+  "action": "A concentration cap, not a view on the asset — the second firm to say exactly this. Revisit once they sell down California.",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "christophergibson@peakhillcapital.com"
+ },
+ {
+  "firm": "Archway",
+  "person": "Sankeerth Pulusani",
+  "email": "SP@archwayco.com",
+  "stage": "outofscope",
+  "ts": "2026-08-28T18:48:06Z",
+  "quote": "Sounds like an interesting deal but we aren't doing any LP equity currently. We are doing our own deals as GP similar to you and also Co-GP.",
+  "action": "Not an LP, but they do co-GP — worth a line in the co-GP column rather than a clean drop.",
+  "tags": [
+   "Not an LP"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Machine Investment Group",
+  "person": "Michael Librett",
+  "email": "mlibrett@machineinv.com",
+  "stage": "pass",
+  "ts": "2026-08-28T18:25:18Z",
+  "quote": "Thanks Zamir, we target >20% IRR.",
+  "action": "Second Machine contact mailed separately; same answer as Meredith Jonker, which makes it the house view.",
+  "tags": [
+   "Return threshold"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Northmarq Fund Management",
+  "person": "Peter Sherman",
+  "email": "psherman@northmarq.com",
+  "stage": "pass",
+  "ts": "2026-08-28T18:12:34Z",
+  "quote": "Not a fit for us unfortunately. Please email future deals to myself and Jared. Rance does not field inbound deal flow.",
+  "action": "He has moved from Morrison Street to Northmarq — update the address and add Jared Karpf.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "psherman@morrisonstreetcapital.com"
  }
 ]
