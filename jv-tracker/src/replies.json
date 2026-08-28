@@ -1306,7 +1306,7 @@
   "stage": "pass",
   "ts": "2026-08-28T15:22:02Z",
   "quote": "We took a look earlier in the process and decided to pass for a few reasons. Please keep us in mind for anything in the future.",
-  "action": "They already saw it through the marketed process, before this outreach. No reasons given and he is warm — ask him what they were; it is the cheapest read available on how the deal shows.",
+  "action": "Already saw it through the marketed process. He is in LA, just had a child, and asked to link up in a month or two — a relationship to keep, not a deal to chase. Still worth asking what the reasons were.",
   "tags": [
    "Marketed deal"
   ],
@@ -1670,6 +1670,87 @@
   "action": "Pipeline, not the deal. Explicitly asked for the next one.",
   "tags": [
    "Bandwidth / timing"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Biscayne Atlantic",
+  "person": "David Garfinkle",
+  "email": "dg@biscayneatlantic.com",
+  "stage": "pass",
+  "ts": "2026-08-28T17:53:13Z",
+  "quote": "Not for me. We don't invest in California.",
+  "action": "",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Declaration Partners",
+  "person": "Matt Cohen",
+  "email": "mcohen@declarationpartners.com",
+  "stage": "question",
+  "ts": "2026-08-28T17:50:46Z",
+  "quote": "Happy to take a quick look, but caveat that we have not yet been active in Northern CA residential, so may be low probability. What's the going-in cap rate (tax adjusted)?",
+  "action": "Wants the going-in cap TAX ADJUSTED, which is the sharper version of the question — California reassesses on sale, so the untaxed 5.15% is not the number he is asking for. Answer both.",
+  "tags": [
+   "Wants materials"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "NexPoint",
+  "person": "Bonner McDermett",
+  "email": "BMcDermett@nexpoint.com",
+  "stage": "conditional",
+  "ts": "2026-08-28T17:39:09Z",
+  "quote": "As I mentioned before, we could consider a pref or mezz but generally shy away from California.",
+  "action": "Second firm this week offering a non-common seat — pref or mezz. Bank it against the structure cluster.",
+  "tags": [
+   "California",
+   "Structure / check size"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "mmcgraner@nexpoint.com"
+ },
+ {
+  "firm": "JRE Partners",
+  "person": "Alex Mitzner",
+  "email": "amitzner@jre-partners.com",
+  "stage": "pass",
+  "ts": "2026-08-28T17:17:08Z",
+  "quote": "We need to hit 20s on our capital or have very high conviction we can hit an 18. I also don't think we'd jump down into 80s product.",
+  "action": "",
+  "tags": [
+   "Return threshold",
+   "1980s vintage"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "LAMB Properties",
+  "person": "Ryne Tennant",
+  "email": "tennant@lambllc.com",
+  "stage": "materials",
+  "ts": "2026-08-28T17:15:16Z",
+  "quote": "This is not something we typically consider, but the demographics look intriguing, and according to CoStar the rents are almost $4/sf. Happy to review the underwriting and see if it's a fit.",
+  "action": "Package sent 17:21 with Michael Regan looped in. He set expectations that it may still be a pass, so treat as a genuine but low-probability read.",
+  "tags": [
+   "Wants materials"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Machine Investment Group",
+  "person": "Meredith Jonker",
+  "email": "mjonker@machineinv.com",
+  "stage": "pass",
+  "ts": "2026-08-28T17:14:17Z",
+  "quote": "This one is too low of a return for us. We are focused on deals with a 20%+ deal level IRR profile.",
+  "action": "",
+  "tags": [
+   "Return threshold"
   ],
   "campaign": "institutional"
  }

@@ -207,16 +207,36 @@ function renderHeadline() {
   if (cnt("materials") || cnt("question")) {
     s += ` ${cnt("materials")} ${cnt("materials") === 1 ? "firm has" : "firms have"} asked for the package`
        + (cnt("question") ? ` and ${cnt("question")} ${cnt("question") === 1 ? "has" : "have"} asked a `
-                          + `pricing question &mdash; nearly all of them waiting on a going-in cap rate, so `
-                          + `answering that one number unblocks the largest cluster on the board` : "")
+                          + `pricing question, most of those turning on the going-in cap rate. `
+                          + `Sending the package and that one number clears the largest actionable `
+                          + `block on the board` : "")
        + `.`;
   }
   if (top) {
-    s += `<br><br>The leading objection is <b>${esc(top[0].toLowerCase())}</b>, cited by `
-       + `${pl(top[1], "firm")}. `;
-    if (sizeLive) s += `${sizeLive} of the firms raising size or structure are <b>still live</b> on co-GP, `
-                     + `pref, or a partial check &mdash; the single-check ${esc(d.equity)} ask is the `
-                     + `obstacle you can restructure your way out of rather than lose to.`;
+    // The tag is already display-cased; lowercasing it turned California into california.
+    s += `<br><br>The leading objection is <b>${esc(top[0])}</b>, cited by ${pl(top[1], "firm")}. `;
+    // What follows has to follow from whichever objection actually leads. California
+    // and check size point in opposite directions: one you can restructure around,
+    // the other you cannot.
+    if (top[0] === "California") {
+      s += `That is a market call rather than a view on this asset, and the firms who explain it `
+         + `name state regulation, not price &mdash; so no change to the structure or the ask `
+         + `answers it. Treat this cohort as a filter on the next deal's geography.`;
+    }
+    if (sizeLive) {
+      s += `${top[0] === "California" ? "<br><br>" : ""}${sizeLive} of the firms raising size or `
+         + `structure are <b>still live</b> on co-GP, pref, or a partial check &mdash; the `
+         + `single-check ${esc(d.equity)} ask is the obstacle you can restructure your way out of `
+         + `rather than lose to.`;
+    }
+  }
+  // A hurdle-rate cluster is worth its own sentence: it is the one objection that is
+  // neither geography nor structure, and it is a straight read on this deal's 17.1%.
+  const hurdle = view.filter(r => r.tags.includes("Return threshold"));
+  if (hurdle.length >= 3) {
+    s += `<br><br><b>${pl(hurdle.length, "firm")} passed on the return itself</b>, several naming a `
+       + `20% target against the ${esc(d.irr)} here. That is the one objection neither a different `
+       + `structure nor a different market fixes.`;
   }
   if (ooo >= 5) {
     s += `<br><br><b>${ooo} recipients have replied only to say they are away</b>`
