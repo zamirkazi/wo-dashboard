@@ -1633,15 +1633,20 @@
  },
  {
   "firm": "Cottonwood Group",
-  "person": "Tang Tang",
-  "email": "tang.tang@cottonwoodmgmt.com",
-  "stage": "referred",
-  "ts": "2026-08-28T16:19:11Z",
-  "quote": "Looping in Emin and Patrick here.",
-  "action": "Head of Capital Markets passed it to two colleagues without comment — follow up with them directly.",
-  "tags": [],
+  "person": "Patrick Monaghan",
+  "email": "patrick.monaghan@cottonwoodmgmt.com",
+  "stage": "conditional",
+  "ts": "2026-08-28T20:45:44Z",
+  "quote": "Are you looking for LP equity on this one? We don't have any equity capital to put out right now. Could do a stretch senior loan or mezz if that's of interest.",
+  "action": "No equity, but offering stretch senior or mezz. Sixth firm this week with capital available in a non-common form.",
+  "tags": [
+   "Structure / check size"
+  ],
   "campaign": "institutional",
-  "mailedTo": "noah.tillipman@cottonwoodmgmt.com"
+  "mailedTo": "noah.tillipman@cottonwoodmgmt.com",
+  "otherAddrs": [
+   "tang.tang@cottonwoodmgmt.com"
+  ]
  },
  {
   "firm": "Deloache Capital",
@@ -1866,6 +1871,32 @@
   "action": "Third firm to say funds-only after Toeller and Archway — single-asset deals do not fit their model at all.",
   "tags": [
    "Different strategy"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Oxford Properties",
+  "person": "Christie Chen",
+  "email": "CChen@oxfordproperties.com",
+  "stage": "pass",
+  "ts": "2026-08-28T20:48:37Z",
+  "quote": "This is not a fit for us at the moment, so won't exercise you further.",
+  "action": "",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Figari Capital",
+  "person": "Steven Figari",
+  "email": "steve@figaricapital.com",
+  "stage": "pass",
+  "ts": "2026-08-28T20:36:54Z",
+  "quote": "Not an investor in California anymore.",
+  "action": "",
+  "tags": [
+   "California"
   ],
   "campaign": "institutional"
  }
