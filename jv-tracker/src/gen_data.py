@@ -61,8 +61,8 @@ CAMPAIGNS = [
         # was a mid-send snapshot. GMass kept sending until 00:15 and the 01:55
         # report closes it at the full 674, so nothing was suppressed before send.
         "listSize": 674, "removedPreSend": 0, "sent": 674,
-        "bounces": 17, "blocks": 4, "opens": 7, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-08-28T06:27:16Z",
+        "bounces": 17, "blocks": 4, "opens": 8, "clicks": 0, "unsubs": 0,
+        "reportAt": "2026-08-28T08:24:48Z",
         "inFlight": False,
         "recipientsFile": "recipients_fo.txt",
         # The 11 addresses marked BOUNCED on the source sheet. GMass counts 16, so

@@ -1270,5 +1270,18 @@
    "Different strategy"
   ],
   "campaign": "family-office"
+ },
+ {
+  "firm": "Vector WM",
+  "person": "Alessandro Beggio",
+  "email": "ab@vectorwm.com",
+  "stage": "pass",
+  "ts": "2026-08-28T08:24:26Z",
+  "quote": "Not interested thank you.",
+  "action": "",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
  }
 ]
