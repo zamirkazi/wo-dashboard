@@ -593,7 +593,8 @@
   "tags": [
    "Not an LP"
   ],
-  "campaign": "institutional"
+  "campaign": "institutional",
+  "mailedTo": "rmontag@ramrecapital.com"
  },
  {
   "firm": "UDR",
@@ -1897,6 +1898,19 @@
   "action": "",
   "tags": [
    "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "James Burton Capital",
+  "person": "Kyle",
+  "email": "kyle@jamesburtoncapital.com",
+  "stage": "pass",
+  "ts": "2026-08-28T21:39:43Z",
+  "quote": "Not a fit unfortunately but appreciate you reaching out.",
+  "action": "",
+  "tags": [
+   "No reason given"
   ],
   "campaign": "institutional"
  }
