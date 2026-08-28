@@ -1256,5 +1256,19 @@
    "No reason given"
   ],
   "campaign": "family-office"
+ },
+ {
+  "firm": "Allegro Invest SE (Toeller Family Office)",
+  "person": "Stefan Brimmers",
+  "email": "sbrimmers@devario.eu",
+  "mailedTo": "tt@fressnapf.de",
+  "stage": "outofscope",
+  "ts": "2026-08-28T06:26:54Z",
+  "quote": "We currently have no plans to make direct investments in real estate in the U.S. In the future, we intend to invest only through funds.",
+  "action": "Torsten Toeller forwarded it to his real estate manager, who asked to be the sole contact. Funds only, no direct US deals — reroute the list to sbrimmers@devario.eu and drop from direct JV equity outreach.",
+  "tags": [
+   "Different strategy"
+  ],
+  "campaign": "family-office"
  }
 ]
