@@ -415,7 +415,13 @@ function renderHygiene() {
         + `against ${opens} recorded opens`},
     {n:cs.reduce((t,c) => t + (c.autoCounts ? c.autoCounts.ooo : 0), 0), l:"Out of office",
      note:"Answered automatically, not about the deal — they have not seen it yet"},
-    {n:0, l:"Unsubscribes", note:"One recipient asked to remove a colleague by name instead"}
+    // GMass records no unsubscribes because nobody used the link — the people who
+    // want off the list said so in a reply, which only counts if you read them.
+    {n:0, l:"Unsubscribes", note: (() => {
+      const asked = view.filter(r => r.suppress).length;
+      return asked ? `None through the link — ${pl(asked, "recipient")} asked to be removed by reply`
+                   : "None through the link, and none asked by reply";
+    })()}
   ].map(k => `<div class="kpi"><div class="n mono">${esc(k.n)}</div>`
     + `<div class="lbl">${esc(k.l)}</div><div class="note">${esc(k.note)}</div></div>`).join("");
 

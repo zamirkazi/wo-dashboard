@@ -357,7 +357,8 @@
   "tags": [
    "No reason given"
   ],
-  "campaign": "institutional"
+  "campaign": "institutional",
+  "suppress": true
  },
  {
   "firm": "Tramview",
@@ -757,7 +758,8 @@
    "Capacity / staffing"
   ],
   "campaign": "institutional",
-  "mailedTo": "jonathan.denowitz@gs.com"
+  "mailedTo": "jonathan.denowitz@gs.com",
+  "suppress": true
  },
  {
   "firm": "IMCO",
@@ -1167,7 +1169,8 @@
   "ts": "2026-08-27T23:40:15Z",
   "quote": "Please do not contact us again and remove us from your email blasts.",
   "action": "Explicit do-not-contact request, citing a prior dispute over The Boardwalk. Suppress aaron@ and avi@manoucheribrothers.com from every list before the next send.",
-  "tags": []
+  "tags": [],
+  "suppress": true
  },
  {
   "firm": "Intercontinental Real Estate",
@@ -1226,5 +1229,19 @@
    "Wants materials"
   ],
   "campaign": "institutional"
+ },
+ {
+  "firm": "Aceana Group",
+  "person": "Russell Deakin",
+  "email": "russell.deakin@aceanagroup.com",
+  "stage": "pass",
+  "ts": "2026-08-28T03:02:44Z",
+  "quote": "Not our focus please unsubscribe",
+  "action": "SUPPRESS russell.deakin@aceanagroup.com — asked to be removed by reply.",
+  "tags": [
+   "Outside target market"
+  ],
+  "suppress": true,
+  "campaign": "family-office"
  }
 ]

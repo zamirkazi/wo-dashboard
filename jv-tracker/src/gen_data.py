@@ -61,8 +61,8 @@ CAMPAIGNS = [
         # was a mid-send snapshot. GMass kept sending until 00:15 and the 01:55
         # report closes it at the full 674, so nothing was suppressed before send.
         "listSize": 674, "removedPreSend": 0, "sent": 674,
-        "bounces": 16, "blocks": 4, "opens": 4, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-08-28T02:09:09Z",
+        "bounces": 16, "blocks": 4, "opens": 5, "clicks": 0, "unsubs": 0,
+        "reportAt": "2026-08-28T03:03:15Z",
         "inFlight": False,
         "recipientsFile": "recipients_fo.txt",
         # The 11 addresses marked BOUNCED on the source sheet. GMass counts 16, so
@@ -81,6 +81,7 @@ CAMPAIGNS = [
 CORRECTIONS = [
     "Suppress psinger@elliottmgmt.com — Elliott asked by name",
     "Suppress john.rogers@gs.com — Goldman Sachs asked by name",
+    "Suppress russell.deakin@aceanagroup.com — Aceana asked to be removed",
     "Suppress michel.schram@pggm.nl — second decline, no allocation since July",
     "abaraghoush@pacificurbaninvestors.com — Ash has left the firm",
     "njanney@redcovecap.com — Nicholas has left Red Cove; use atishkoff@redcovecap.com",
