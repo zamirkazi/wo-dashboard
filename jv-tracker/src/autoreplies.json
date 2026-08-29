@@ -699,5 +699,14 @@
   "kind": "ooo",
   "returns": null,
   "note": "Out for the day"
+ },
+ {
+  "firm": "Raley's",
+  "email": "jwarner@raleys.com",
+  "campaign": "family-office",
+  "ts": "2026-08-28T23:55:04Z",
+  "kind": "bounce",
+  "returns": null,
+  "note": "CC address unreachable after repeated attempts; the primary contact was delivered"
  }
 ]
