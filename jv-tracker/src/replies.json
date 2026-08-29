@@ -1928,5 +1928,22 @@
    "Return threshold"
   ],
   "campaign": "institutional"
+ },
+ {
+  "firm": "Ares Management",
+  "person": "Sam Averbach",
+  "email": "saverbach@aresmgmt.com",
+  "otherAddrs": [
+   "lvigil@aresmgmt.com",
+   "akaye@aresmgmt.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-08-29T17:50:36Z",
+  "quote": "Not a fit due to vintage, thanks",
+  "action": "Closed on the 1986 build year. Nothing in the structure answers a vintage screen, so do not re-pitch Canyon Woods here \u2014 keep Ares for a newer asset.",
+  "tags": [
+   "1980s vintage"
+  ],
+  "campaign": "institutional"
  }
 ]
