@@ -27,8 +27,8 @@ CAMPAIGNS = [
         "sentStart": "2026-08-26T21:58:24Z",
         "sentEnd": "2026-08-26T23:04:44Z",
         "listSize": 534, "removedPreSend": 83, "sent": 451,
-        "bounces": 17, "blocks": 3, "opens": 134, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-08-29T00:07:50Z",
+        "bounces": 17, "blocks": 3, "opens": 135, "clicks": 0, "unsubs": 0,
+        "reportAt": "2026-08-29T05:21:40Z",
         "followUps": [
             # Both hit Gmail's 24h sending limit and are paused, not finished.
             # GMass will resume them automatically on 31 Aug at 08:18 PDT.
@@ -36,8 +36,15 @@ CAMPAIGNS = [
              "sentSoFar": 260, "target": 354, "remaining": 94,
              "resumesAt": "2026-08-31T15:18:00Z", "pausedBy": "Gmail sending limit",
              "note": "just wanted to follow up on my email below"},
+            # GMass counts 270 sent, but six of them were rejected outright by
+            # Gmail for being over the limit, so only 264 people actually got it.
+            # The six are known by address from the mailer-daemon notices.
             {"gmassId": "53073398", "sentStart": "2026-08-28T15:20:13Z",
              "sentSoFar": 270, "target": 354, "remaining": 84,
+             "rejected": 6,
+             "rejectedAddrs": ["colton.creber@quadreal.com", "nietfeldt@quartzlakecap.com",
+                               "jmeek@ranchharbor.com", "jim@randallcapitalgroup.com",
+                               "ron@ratelinvestments.com", "jas.birk@raymondjames.com"],
              "resumesAt": "2026-08-31T15:20:00Z", "pausedBy": "Gmail sending limit",
              "note": "the same, plus an explicit out if it is not of interest"},
         ],

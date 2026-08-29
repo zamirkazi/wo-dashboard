@@ -138,6 +138,19 @@ function renderFunnels() {
 // in the funnel above; what it adds is how much of the movement is due to it.
 function firmsReplied(reps) { return new Set(reps.map(r => r.firm)).size; }
 
+// Gmail rejected the last few sends outright rather than queueing them, and the
+// only record is a mailer-daemon notice that Gmail's own filters route out of the
+// inbox. These people are not in the queue GMass will resume; they were skipped.
+function rejectedNote(c) {
+  const rej = (c.followUps || []).flatMap(f => f.rejectedAddrs || []);
+  if (!rej.length) return "";
+  return `<br><br><b>${pl(rej.length, "recipient")} got neither follow-up.</b> Gmail rejected `
+    + `these sends outright for being over the limit instead of queueing them, so they are not `
+    + `in the batch that resumes — they sit past the point the shorter variant stopped, which `
+    + `means neither version reached them. They need a manual send: `
+    + rej.map(e => `<code>${esc(e)}</code>`).join(", ") + `.`;
+}
+
 function followUpNote(c, reps) {
   if (!c.followUps || !c.followUps.length) return "";
   const first = c.followUps.map(f => f.sentStart).sort()[0];
@@ -162,6 +175,7 @@ function followUpNote(c, reps) {
         + `across them. GMass resumes automatically on ${fmt(paused[0].resumesAt)}, so the `
         + `duplicate repeats itself then unless one variant is cancelled first.`
         : "")
+    + rejectedNote(c)
     + `</div>`;
 }
 
