@@ -1913,5 +1913,18 @@
    "No reason given"
   ],
   "campaign": "institutional"
+ },
+ {
+  "firm": "BBCP",
+  "person": "Matthew Stearns",
+  "email": "mstearns@bbcp-llc.com",
+  "stage": "meeting",
+  "ts": "2026-08-29T04:39:46Z",
+  "quote": "Returns are light but happy to set up a call next week to discuss further.",
+  "action": "Head of Originations, and the only firm so far to flag the return and still want the call. Book it — he is the one who might trade the hurdle for structure.",
+  "tags": [
+   "Return threshold"
+  ],
+  "campaign": "institutional"
  }
 ]
