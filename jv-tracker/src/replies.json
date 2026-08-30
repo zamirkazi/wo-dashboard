@@ -900,12 +900,19 @@
   "person": "Paul Galiano",
   "email": "paul.galiano@prospectridge.com",
   "mailedTo": "julia.issembert@prospectridge.com",
-  "stage": "question",
-  "ts": "2026-08-27T15:01:00Z",
-  "quote": "Do you have further information \u2014 in-place cap rate, stabilized YOC and exit cap that goes into the below? I think this one might end up being a bit thin for us.",
-  "action": "Fourth firm asking the same yield questions \u2014 send the yield bridge, but they are already flagging returns as thin.",
-  "tags": [],
-  "campaign": "institutional"
+  "stage": "pass",
+  "ts": "2026-08-30T14:16:51Z",
+  "quote": "For this vintage, needs to be our value-add / opportunity fund and we'd be wider than a 5% exit cap on the residual so it's going to be too thin of a return for that fund.",
+  "action": "Passed, and told you exactly why: the 1986 vintage forces the deal into their opportunity fund, and that fund underwrites a residual wider than a 5% exit cap. The most precise objection received so far \u2014 it names the exit cap as the binding assumption, not the going-in. Worth testing against the other package readers who went quiet.",
+  "tags": [
+   "1980s vintage",
+   "Return threshold"
+  ],
+  "campaign": "institutional",
+  "otherAddrs": [
+   "blake.mastalir@prospectridge.com",
+   "yvette.miranda@prospectridge.com"
+  ]
  },
  {
   "firm": "Kinship Capital",

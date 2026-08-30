@@ -28,7 +28,7 @@ CAMPAIGNS = [
         "sentEnd": "2026-08-26T23:04:44Z",
         "listSize": 534, "removedPreSend": 83, "sent": 451,
         "bounces": 19, "blocks": 3, "opens": 137, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-08-30T14:05:25Z",
+        "reportAt": "2026-08-30T14:17:05Z",
         "followUps": [
             # Both hit Gmail's 24h sending limit and are paused, not finished.
             # GMass will resume them automatically on 31 Aug at 08:18 PDT.
