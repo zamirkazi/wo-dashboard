@@ -38,12 +38,17 @@
   "firm": "Tryperion Holdings",
   "person": "Jeffrey Karsh",
   "email": "jkarsh@tryperion.com",
-  "stage": "materials",
-  "ts": "2026-08-26T23:18:40Z",
-  "quote": "Thanks for thinking of us. Please send more info.",
-  "action": "Send package.",
-  "tags": [],
-  "campaign": "institutional"
+  "stage": "pass",
+  "ts": "2026-08-30T03:07:45Z",
+  "quote": "Thanks Zamir - we are going to pass on this one.",
+  "action": "Passed after reading the memo and model, without naming a reason. Worth one call to Jeff to learn what killed it \u2014 he asked for the package unprompted, so the screen happened somewhere inside the numbers.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional",
+  "otherAddrs": [
+   "grollman@tryperion.com"
+  ]
  },
  {
   "firm": "Mavik Capital",
