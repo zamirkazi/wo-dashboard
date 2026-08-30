@@ -1950,5 +1950,21 @@
    "1980s vintage"
   ],
   "campaign": "institutional"
+ },
+ {
+  "firm": "Vey Capital",
+  "person": "Sergio Salas",
+  "email": "sergio@vey-capital.com",
+  "otherAddrs": [
+   "marc@vey-capital.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-08-30T14:05:11Z",
+  "quote": "A $30MM equity check (even 1/2 of that) is outside of our scope at this time.",
+  "action": "Too small for the check, and explicit that even $15M is beyond them. Nothing to carve here. Asked to be kept in mind for future deals, so keep them on the list.",
+  "tags": [
+   "Structure / check size"
+  ],
+  "campaign": "institutional"
  }
 ]
