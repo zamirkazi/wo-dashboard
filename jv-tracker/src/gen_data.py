@@ -28,7 +28,7 @@ CAMPAIGNS = [
         "sentEnd": "2026-08-26T23:04:44Z",
         "listSize": 534, "removedPreSend": 83, "sent": 451,
         "bounces": 19, "blocks": 3, "opens": 137, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-08-31T09:26:30Z",
+        "reportAt": "2026-08-31T12:57:12Z",
         "followUps": [
             # Both hit Gmail's 24h sending limit and are paused, not finished.
             # GMass will resume them automatically on 31 Aug at 08:18 PDT.
@@ -175,6 +175,21 @@ data = {
         "equity": "$30.96M", "loan": "$45.06M", "ltc": "59%", "ltpp": "63%",
         "hold": "5 years", "irr": "17.1%", "multiple": "2.0x", "avgSF": 773,
         "occupancy": "95%", "tradeOut": "18%", "mtm": "7.75%",
+        # Michael Regan told Two Sigma on 31 Aug that the initial best-and-final
+        # cutoff was $71M and second-round bids are landing near $73.5M, with
+        # buyer interviews expected to be decided this week. Every metric above
+        # is the $71.5M basis that went out to both lists, so the equity ask and
+        # the 17.1% are stale against where the bidding actually is.
+        "bidUpdate": {
+            "asOf": "2026-08-31T12:56:56Z",
+            "cutoff": "$71M",
+            "round2": "~$73.5M",
+            "note": ("Second-round bids are coming in around $73.5M against a $71M "
+                     "best-and-final cutoff, and buyer interviews should be decided "
+                     "this week. The metrics on this page are the $71.5M basis that "
+                     "was mailed out, so the equity requirement and the 17.1% IRR "
+                     "both need restating before the next partner conversation."),
+        },
     },
 }
 (here/'data_fragment.js').write_text("const D=" + json.dumps(data, separators=(',', ':')) + ";")

@@ -44,6 +44,16 @@ $("#spec").innerHTML = [
   ["Levered IRR", d.irr], ["Multiple", d.multiple], ["Occupancy", d.occupancy]
 ].map(([k,v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("");
 $("#eqneed").textContent = d.equity;
+
+// The spec strip is the basis that was mailed to 1,125 people. When the bidding
+// moves past it, saying so beside the numbers matters more than the numbers do.
+if (d.bidUpdate) {
+  $("#bidnote").innerHTML =
+    `<div class="pending" style="margin-top:16px">`
+  + `<b>Pricing has moved past this spec.</b> ${esc(d.bidUpdate.note)} `
+  + `<span style="color:var(--ink-3)">Confirmed to a partner ${fmt(d.bidUpdate.asOf)}.</span>`
+  + `</div>`;
+}
 $("#eyebrow").textContent =
   `JV equity outreach · ${pl(D.campaigns.length, "campaign")} · ${esc(d.name)}, ${esc(d.address.split(", ").slice(-2).join(", "))}`;
 $("#subtitle").textContent =
