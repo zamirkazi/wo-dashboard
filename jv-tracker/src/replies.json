@@ -1208,7 +1208,7 @@
   "stage": "materials",
   "ts": "2026-08-28T00:18:06Z",
   "quote": "Tom Taranto forwarded your email as I cover the western US for Intercontinental. Happy to take a look if you send over the info.",
-  "action": "Package sent 28 Aug. MD West Coast / Associate CIO, based in LA \u2014 offer the in-person meeting.",
+  "action": "Regan sent the LP Investor Deck and model on 31 Aug and offered a call. She covers the western US, so this is the right desk. Waiting on Intercontinental.",
   "tags": [
    "Wants materials"
   ],
@@ -1249,7 +1249,7 @@
   "stage": "materials",
   "ts": "2026-08-28T01:28:13Z",
   "quote": "Mike/Erik \u2014 please have a look when you can. Zamir \u2014 please provide more details.",
-  "action": "Package sent 01:56. Routed internally to Mike Mehagian and Erik Kolar \u2014 chase them, not Drake.",
+  "action": "Regan sent the updated LP Investor Deck and the underlying model on 31 Aug and offered a call. Waiting on Sabal.",
   "tags": [
    "Wants materials"
   ],
@@ -2558,6 +2558,65 @@
   "suppress": true,
   "otherAddrs": [
    "mnauman@locicapital.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Thorofare Capital",
+  "person": "Mitch Kralis",
+  "email": "Mitch.Kralis@thorofarecapital.com",
+  "stage": "reviewing",
+  "ts": "2026-08-31T20:04:17Z",
+  "quote": "I never saw the original email from last week so I'm reviewing it now. I'll get back to you later today or in the morning.",
+  "action": "Reading it now and promised an answer today or tomorrow morning. He never saw the original \u2014 the Stage 2 wave is what surfaced it.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "DivcoWest",
+  "person": "Stuart Shiff",
+  "email": "SShiff@divcowest.com",
+  "mailedTo": "rmashaal@divcowest.com",
+  "stage": "referred",
+  "ts": "2026-08-31T19:59:37Z",
+  "quote": "Copying Richie who oversees our resi business",
+  "action": "The CEO routed it internally to Richie DeBeikes, who runs their residential business. Reply on the thread \u2014 this is the warmest kind of hand-off.",
+  "tags": [],
+  "otherAddrs": [
+   "rdebeikes@divcowest.com",
+   "bchang@divcowest.com",
+   "cponig@divcowest.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Birbas",
+  "person": "Zakary",
+  "email": "zak@birbas.com",
+  "stage": "pass",
+  "ts": "2026-08-31T19:35:53Z",
+  "quote": "San Ramon isn't a market of interest for our partners, so we'll pass on this opportunity. That said, we'd be happy to look at any other multifamily.",
+  "action": "Submarket screen, not sector. Explicitly open to other multifamily.",
+  "tags": [
+   "Outside target market"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "ASB Real Estate Investments",
+  "person": "Kavita Mathews",
+  "email": "kmathews@asbrealestate.com",
+  "stage": "pass",
+  "ts": "2026-08-31T19:16:03Z",
+  "quote": "This is a pass for us, thanks.",
+  "action": "No reason given, straight off the Stage 2 call request.",
+  "tags": [
+   "No reason given"
+  ],
+  "otherAddrs": [
+   "nfranzetti@asbrealestate.com",
+   "mwiest@asbrealestate.com",
+   "mmurphy@asbrealestate.com"
   ],
   "campaign": "institutional"
  }
