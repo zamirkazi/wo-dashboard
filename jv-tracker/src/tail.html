@@ -171,6 +171,7 @@ function followUpNote(c, reps) {
   const target = Math.max(...c.followUps.map(f => f.target));
   const dup = c.followUps.length > 1;
   const paused = c.followUps.filter(f => f.resumesAt && f.remaining);
+  const resumed = c.followUps.filter(f => f.resumedAt);
   return `<div class="pending" style="margin-top:14px">`
     + `<b>Follow-up ${paused.length === c.followUps.length ? "paused" : "in flight"}</b> `
     + `since ${fmt(first)} — a second touch to ${target} `
@@ -179,19 +180,12 @@ function followUpNote(c, reps) {
     + `gone quiet for hours before it. `
     + (dup ? `It went out as ${c.followUps.length} variants about a minute apart to the same `
            + `people, so each of them received two follow-ups back to back. ` : "")
-    + (paused.length
-        ? `<br><br><b>Both variants are paused</b>, not finished — they hit the Gmail 24-hour `
-        + `sending limit, with ${paused.reduce((t,f) => t + f.remaining, 0)} emails still queued `
-        + `across them. `
-        // The resume time has come and gone with both totals unchanged, so the queue is
-        // stuck rather than pending. Saying "resumes at" would now be wrong.
-        + (c.followUpResumeMissed
-            ? `They were due to resume on ${fmt(paused[0].resumesAt)} and did not: the reports `
-            + `after that time show the same totals, so those recipients are not queued for `
-            + `later, they are simply unreached. Restarting the wave is a manual step now — `
-            + `which is also the chance to send it on the current pricing rather than the old.`
-            : `GMass resumes automatically on ${fmt(paused[0].resumesAt)}, so the duplicate `
-            + `repeats itself then unless one variant is cancelled first.`)
+    + (resumed.length
+        ? `<br><br><b>Both variants resumed on ${fmt(resumed[0].resumedAt)}</b> after pausing on `
+        + `the Gmail 24-hour limit, and are now all but complete — `
+        + `${resumed.reduce((t,f) => t + f.remaining, 0)} still to go across them. The pause did `
+        + `not de-duplicate anything: the two variants went out together again, about a minute `
+        + `apart, so everyone in the resumed batch received both.`
         : "")
     + rejectedNote(c)
     + `</div>`;

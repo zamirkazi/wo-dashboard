@@ -2017,5 +2017,126 @@
   ],
   "suppress": true,
   "campaign": "family-office"
+ },
+ {
+  "firm": "Tug Hill",
+  "person": "Matt Mildren",
+  "email": "mmildren@tug-hill.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:00:06Z",
+  "quote": "We are just running the Portillo, no new investments.",
+  "action": "Whole firm is in operate-not-acquire mode. Nothing to work until that changes.",
+  "tags": [
+   "Not acquiring now"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "REM LP",
+  "person": "Andrew Gindy",
+  "email": "agindy@remlp.com",
+  "stage": "pass",
+  "ts": "2026-08-31T15:43:17Z",
+  "quote": "Not for us",
+  "action": "Three words, no reason. Nothing to work.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Townlane",
+  "person": "Grant Sholem",
+  "email": "gsholem@townlane.com",
+  "stage": "pass",
+  "ts": "2026-08-31T15:41:07Z",
+  "quote": "Multifamily is not a top priority of ours at the moment, but I appreciate the look.",
+  "action": "Sector allocation, not a view on the asset. Keep for a non-multifamily deal.",
+  "tags": [
+   "Different strategy"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Affinius Capital",
+  "person": "Eric Cohen",
+  "email": "Eric.Cohen@affiniuscapital.com",
+  "stage": "pass",
+  "ts": "2026-08-31T15:36:53Z",
+  "quote": "We are not a fit here. Please don't reach out to Jeff and Craig on these matters going forward. I think I already asked you to do that last time.",
+  "action": "Second removal request from the same firm \u2014 he says he asked once before and it was not actioned. The list address is Lex Rickenbaker; suppress that plus Eric, Jeff and Craig across the whole list before any further send. This is the one reply on the board that is about process failure, not the deal.",
+  "tags": [
+   "No reason given"
+  ],
+  "suppress": true,
+  "campaign": "institutional",
+  "mailedTo": "lex.rickenbaker@affiniuscapital.com"
+ },
+ {
+  "firm": "Westport Capital Partners",
+  "person": "Brian Fraker",
+  "email": "bfraker@westportcp.com",
+  "stage": "pass",
+  "ts": "2026-08-31T15:32:57Z",
+  "quote": "We aren't active in multifamily at the moment. We are going to be investing out of a new fund starting in 2027 that will have a multifamily allocation.",
+  "action": "Not now, but they volunteered a date: a new fund with a multifamily allocation starts 2027. Worth a calendar note rather than a discard. Sean Armstrong, the address mailed, is out until 11 September \u2014 Fraker answered for the firm.",
+  "tags": [
+   "Not acquiring now"
+  ],
+  "otherAddrs": [
+   "kpozniak@westportcp.com"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "sarmstrong@westportcp.com"
+ },
+ {
+  "firm": "Varadero Capital",
+  "person": "Vishesh Prabhakar",
+  "email": "vprabhakar@varaderocapital.com",
+  "stage": "pass",
+  "ts": "2026-08-31T15:31:39Z",
+  "quote": "We are not looking to do JV equity. Thanks for the look.",
+  "action": "Wrong instrument for them. Reclassify out of the JV equity list.",
+  "tags": [
+   "Not an LP"
+  ],
+  "otherAddrs": [
+   "jmizrachi@varaderocapital.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Alpaca Real Estate",
+  "person": "Daniel Carr",
+  "email": "daniel.carr@alpacarealestate.com",
+  "stage": "pass",
+  "ts": "2026-08-31T15:26:16Z",
+  "quote": "We are focused on markets Dallas and East. Thanks for sharing.",
+  "action": "Geographic screen. California is out by definition; keep for anything east of Dallas.",
+  "tags": [
+   "Outside target market"
+  ],
+  "otherAddrs": [
+   "ryan@alpacarealestate.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Third Point",
+  "person": "Daniel Loeb",
+  "email": "DLoeb@thirdpoint.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:12:20Z",
+  "quote": "Not sure how we got on this list. Please remove",
+  "action": "Removal request, and it came from the founder rather than the person mailed \u2014 the follow-up went to Robert Schwartz with Loeb copied. Suppress both before any further send.",
+  "tags": [
+   "No reason given"
+  ],
+  "suppress": true,
+  "mailedTo": "rschwartz@thirdpoint.com",
+  "otherAddrs": [
+   "rob@thirdpointventures.com"
+  ],
+  "campaign": "institutional"
  }
 ]

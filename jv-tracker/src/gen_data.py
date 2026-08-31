@@ -27,28 +27,28 @@ CAMPAIGNS = [
         "sentStart": "2026-08-26T21:58:24Z",
         "sentEnd": "2026-08-26T23:04:44Z",
         "listSize": 534, "removedPreSend": 83, "sent": 451,
-        "bounces": 19, "blocks": 3, "opens": 139, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-08-31T15:09:42Z",
-        "followUpResumeMissed": True,
+        "bounces": 19, "blocks": 3, "opens": 146, "clicks": 0, "unsubs": 0,
+        "reportAt": "2026-08-31T16:12:49Z",
         "followUps": [
-            # Both hit Gmail's 24h sending limit and paused. GMass was due to resume
-            # them on 31 Aug at 08:18/08:20 PDT, but the 07:08 PDT reports still show
-            # 260 and 270 sent — unchanged — so the resume window came and went with
-            # no movement. Either it did not fire or the queue was cancelled.
+            # Both paused on Gmail's 24h limit and resumed on 31 Aug, about five hours
+            # later than the 08:18 PDT the reports predicted — the 07:08 PDT reports
+            # still showed 260 and 270, and by 09:12 PDT they were at 348 and 350.
+            # Both variants went out together, roughly a minute apart, so the people
+            # in the resumed batch did receive two follow-ups back to back.
             {"gmassId": "53073365", "sentStart": "2026-08-28T15:18:49Z",
-             "sentSoFar": 260, "target": 354, "remaining": 94,
-             "resumesAt": "2026-08-31T15:18:00Z", "pausedBy": "Gmail sending limit",
+             "sentSoFar": 348, "target": 354, "remaining": 6,
+             "resumedAt": "2026-08-31T15:23:00Z", "pausedBy": "Gmail sending limit",
              "note": "just wanted to follow up on my email below"},
             # GMass counts 270 sent, but six of them were rejected outright by
             # Gmail for being over the limit, so only 264 people actually got it.
             # The six are known by address from the mailer-daemon notices.
             {"gmassId": "53073398", "sentStart": "2026-08-28T15:20:13Z",
-             "sentSoFar": 270, "target": 354, "remaining": 84,
+             "sentSoFar": 350, "target": 354, "remaining": 4,
              "rejected": 6,
              "rejectedAddrs": ["colton.creber@quadreal.com", "nietfeldt@quartzlakecap.com",
                                "jmeek@ranchharbor.com", "jim@randallcapitalgroup.com",
                                "ron@ratelinvestments.com", "jas.birk@raymondjames.com"],
-             "resumesAt": "2026-08-31T15:20:00Z", "pausedBy": "Gmail sending limit",
+             "resumedAt": "2026-08-31T15:23:00Z", "pausedBy": "Gmail sending limit",
              "note": "the same, plus an explicit out if it is not of interest"},
         ],
         "inFlight": False,
