@@ -6,7 +6,7 @@
   "stage": "meeting",
   "ts": "2026-08-26T23:41:17Z",
   "quote": "See you shortly and we can discuss! Definitely the right spot.",
-  "action": "Meeting already in motion \u2014 confirm time and bring the full package.",
+  "action": "Meeting already in motion — confirm time and bring the full package.",
   "tags": [],
   "campaign": "institutional"
  },
@@ -17,7 +17,7 @@
   "stage": "relationship",
   "ts": "2026-08-28T18:22:18Z",
   "quote": "Are you willing to hire me exclusively on it if it's something I can do?",
-  "action": "Not an LP \u2014 an equity advisory asking for an exclusive mandate. He already holds the full package, which went out with an instruction not to forward it. Decide whether to retain him or ask for it back.",
+  "action": "Not an LP — an equity advisory asking for an exclusive mandate. He already holds the full package, which went out with an instruction not to forward it. Decide whether to retain him or ask for it back.",
   "tags": [
    "Not an LP"
   ],
@@ -30,7 +30,7 @@
   "stage": "question",
   "ts": "2026-08-31T09:26:12Z",
   "quote": "Thanks for sharing the additional information. Where did you guys submit, and do you think it gets to $71.5mm? When is the B&F?",
-  "action": "ANSWERED by Michael Regan 05:56 PT: B&F cutoff was $71M, second-round bids near $73.5M, buyer interviews decided this week, fuller memo and model to follow. Ball is with Two Sigma now \u2014 the open item is getting that memo out on the $73.5M basis, since the numbers they have are the $71.5M ones.",
+  "action": "ANSWERED by Michael Regan 05:56 PT: B&F cutoff was $71M, second-round bids near $73.5M, buyer interviews decided this week, fuller memo and model to follow. Ball is with Two Sigma now — the open item is getting that memo out on the $73.5M basis, since the numbers they have are the $71.5M ones.",
   "tags": [],
   "campaign": "institutional",
   "otherAddrs": [
@@ -45,7 +45,7 @@
   "stage": "pass",
   "ts": "2026-08-30T03:07:45Z",
   "quote": "Thanks Zamir - we are going to pass on this one.",
-  "action": "Passed after reading the memo and model, without naming a reason. Worth one call to Jeff to learn what killed it \u2014 he asked for the package unprompted, so the screen happened somewhere inside the numbers.",
+  "action": "Passed after reading the memo and model, without naming a reason. Worth one call to Jeff to learn what killed it — he asked for the package unprompted, so the screen happened somewhere inside the numbers.",
   "tags": [
    "No reason given"
   ],
@@ -61,7 +61,7 @@
   "stage": "conditional",
   "ts": "2026-08-29T11:09:35Z",
   "quote": "Thanks, let us know if you end up getting under contract",
-  "action": "Reviewed the memo and model and stood down until the deal is tied up. Not a pass \u2014 a re-engagement condition. Ping Brad the day it goes under contract; nothing else moves him before then.",
+  "action": "Reviewed the memo and model and stood down until the deal is tied up. Not a pass — a re-engagement condition. Ping Brad the day it goes under contract; nothing else moves him before then.",
   "tags": [
    "Wants control first"
   ],
@@ -158,7 +158,7 @@
   "stage": "pass",
   "ts": "2026-08-28T01:23:32Z",
   "quote": "That sounds too tight for us to get excited about it, particularly with a number of other live deals moving towards closing.",
-  "action": "Answered 28 Aug \u2014 5.15% going-in, 5.7% untrended, 6.52% trended \u2014 and passed on pricing. The clearest read yet on how the going-in cap lands with a technical LP.",
+  "action": "Answered 28 Aug — 5.15% going-in, 5.7% untrended, 6.52% trended — and passed on pricing. The clearest read yet on how the going-in cap lands with a technical LP.",
   "tags": [
    "Return threshold"
   ],
@@ -210,7 +210,7 @@
   "stage": "conditional",
   "ts": "2026-08-27T01:26:10Z",
   "quote": "Only doing pref. We do not have a JV bucket. Happy to look into on pref.",
-  "action": "Pref only \u2014 conflicts with institutional JV structure.",
+  "action": "Pref only — conflicts with institutional JV structure.",
   "tags": [
    "Structure / check size"
   ],
@@ -223,7 +223,7 @@
   "stage": "conditional",
   "ts": "2026-08-27T01:49:39Z",
   "quote": "Our check sizes are $3-7M. If you are open to it, we can take a look at this for the GP equity portion.",
-  "action": "Small check \u2014 GP equity slice only.",
+  "action": "Small check — GP equity slice only.",
   "tags": [
    "Structure / check size"
   ],
@@ -236,7 +236,7 @@
   "stage": "referred",
   "ts": "2026-08-26T23:31:35Z",
   "quote": "Adding Morgan Lingle and removing Lindsey. Morgan is head of our West Coast Acquisitions team and sits in San Francisco.",
-  "action": "Warm hand-off to the right desk \u2014 follow up with Morgan Lingle directly.",
+  "action": "Warm hand-off to the right desk — follow up with Morgan Lingle directly.",
   "tags": [],
   "mailedTo": "lindsey.r.snider@jpmorgan.com",
   "campaign": "institutional"
@@ -248,7 +248,7 @@
   "stage": "meeting",
   "ts": "2026-08-28T19:07:12Z",
   "quote": "Would be happy to connect on this one. I'm available the rest of the day or Monday afternoon after 1pm.",
-  "action": "Khalid handed this to Palmquist, who covers west coast multifamily, and he has offered slots. Zamir is out Monday \u2014 take it today or give it to Michael Regan.",
+  "action": "Khalid handed this to Palmquist, who covers west coast multifamily, and he has offered slots. Zamir is out Monday — take it today or give it to Michael Regan.",
   "tags": [],
   "campaign": "institutional",
   "mailedTo": "khalid.rashid@clarionpartners.com",
@@ -263,7 +263,7 @@
   "stage": "referred",
   "ts": "2026-08-27T00:05:44Z",
   "quote": "Thanks, copying in Andrew.",
-  "action": "Second Clarion route to the same person \u2014 consolidate into one thread.",
+  "action": "Second Clarion route to the same person — consolidate into one thread.",
   "tags": [],
   "campaign": "institutional"
  },
@@ -274,7 +274,7 @@
   "stage": "pass",
   "ts": "2026-08-27T16:20:00Z",
   "quote": "Most likely a pass for us, but I have already had an operator reach out to me on this one.",
-  "action": "Referral resolved. Note the competing operator \u2014 that is the third signal another sponsor is shopping this deal.",
+  "action": "Referral resolved. Note the competing operator — that is the third signal another sponsor is shopping this deal.",
   "tags": [
    "Competing bid"
   ],
@@ -291,7 +291,7 @@
   "stage": "meeting",
   "ts": "2026-08-31T14:52:27Z",
   "quote": "How's Thursday for you guys? Have a little travel earlier in the week.",
-  "action": "Proposing Thursday after Regan offered Tuesday or Wednesday. Confirm a time and send an invite \u2014 nobody has yet. Note Steve, Nick and Daniil have all left Shoreham, so Doug is the only live contact there.",
+  "action": "Proposing Thursday after Regan offered Tuesday or Wednesday. Confirm a time and send an invite — nobody has yet. Note Steve, Nick and Daniil have all left Shoreham, so Doug is the only live contact there.",
   "tags": [],
   "mailedTo": "steve@shorehamcapital.com",
   "campaign": "institutional"
@@ -303,7 +303,7 @@
   "stage": "pass",
   "ts": "2026-08-27T13:22:00Z",
   "quote": "This is probably a reach for us as we're typically focused on the east coast, so it would have to be pretty unique circumstances for us to branch out.",
-  "action": "Nick DiCicco has left \u2014 list already corrected to Jamie, Zain and Matt.",
+  "action": "Nick DiCicco has left — list already corrected to Jamie, Zain and Matt.",
   "tags": [
    "Outside target market"
   ],
@@ -316,7 +316,7 @@
   "stage": "pass",
   "ts": "2026-08-27T01:47:35Z",
   "quote": "Still evaluating, but likely going to pass given the vintage and 8' ceilings. Also already working with another partner on this one.",
-  "action": "Soft pass, still open \u2014 vintage + 8ft ceilings.",
+  "action": "Soft pass, still open — vintage + 8ft ceilings.",
   "tags": [
    "1980s vintage",
    "Competing bid"
@@ -398,7 +398,7 @@
   "stage": "pass",
   "ts": "2026-08-27T00:35:34Z",
   "quote": "I talked to the team and they said they are bidding on it too and it's an HOA so has high operating expenses.",
-  "action": "Competing bidder \u2014 note the HOA opex objection, it will recur.",
+  "action": "Competing bidder — note the HOA opex objection, it will recur.",
   "tags": [
    "Competing bid"
   ],
@@ -505,7 +505,7 @@
   "stage": "pass",
   "ts": "2026-08-27T02:14:04Z",
   "quote": "We are fully specified on our current equity fund, so don't have equity at the moment to invest in this one.",
-  "action": "Dry powder issue, not deal issue \u2014 keep on list for next fund.",
+  "action": "Dry powder issue, not deal issue — keep on list for next fund.",
   "tags": [
    "No dry powder"
   ],
@@ -534,7 +534,7 @@
   "stage": "pass",
   "ts": "2026-08-26T22:28:16Z",
   "quote": "Sounds interesting, but unfortunately, right now we got no dough. In between funds.",
-  "action": "Timing only \u2014 re-approach after next close.",
+  "action": "Timing only — re-approach after next close.",
   "tags": [
    "No dry powder"
   ],
@@ -547,7 +547,7 @@
   "stage": "pass",
   "ts": "2026-08-27T01:16:20Z",
   "quote": "Unfortunately, we can't partner on fully marketed deals.",
-  "action": "Structural \u2014 only works on off-market.",
+  "action": "Structural — only works on off-market.",
   "tags": [
    "Marketed deal"
   ],
@@ -560,7 +560,7 @@
   "stage": "pass",
   "ts": "2026-08-27T01:34:36Z",
   "quote": "Not particularly interesting when compared to other deals we are reviewing. We are finding higher going in cap rates on deals.",
-  "action": "Priced out \u2014 cap rate objection.",
+  "action": "Priced out — cap rate objection.",
   "tags": [
    "Return threshold"
   ],
@@ -586,7 +586,7 @@
   "stage": "pass",
   "ts": "2026-08-26T23:33:09Z",
   "quote": "Laura will be back on 9/23 and I do not have the bandwidth to review this one without her, so we are a quick pass.",
-  "action": "Bandwidth pass \u2014 re-approach after 9/23.",
+  "action": "Bandwidth pass — re-approach after 9/23.",
   "tags": [
    "Bandwidth / timing"
   ],
@@ -600,7 +600,7 @@
   "stage": "outofscope",
   "ts": "2026-08-26T23:39:42Z",
   "quote": "We only lend A&D debt on resi development deals with lots under contract to national homebuilders.",
-  "action": "Wrong firm type \u2014 remove from JV equity list.",
+  "action": "Wrong firm type — remove from JV equity list.",
   "tags": [
    "Not an LP"
   ],
@@ -665,7 +665,7 @@
   "stage": "question",
   "ts": "2026-08-27T12:52:00Z",
   "quote": "To speed up the process, would highly appreciate if you could address our basic DD questions below, then we can have a real assessment.",
-  "action": "Pull their DD list off the thread and answer it \u2014 they are asking to move fast.",
+  "action": "Pull their DD list off the thread and answer it — they are asking to move fast.",
   "tags": [],
   "campaign": "institutional"
  },
@@ -676,7 +676,7 @@
   "stage": "conditional",
   "ts": "2026-08-27T13:47:00Z",
   "quote": "We would normally be interested, but that equity requirement is slightly too large for our value-add fund until we have a few more closes.",
-  "action": "A real yes-but \u2014 would take a smaller slice. Pair with Capital Solutions' $14-15M.",
+  "action": "A real yes-but — would take a smaller slice. Pair with Capital Solutions' $14-15M.",
   "tags": [
    "Structure / check size"
   ],
@@ -689,7 +689,7 @@
   "stage": "conditional",
   "ts": "2026-08-27T12:27:00Z",
   "quote": "Happy to discuss next week, but I currently do not have an allocation to invest on a common equity basis. We are focused on mezzanine debt.",
-  "action": "Wants a call next week. Mezz only, not common equity \u2014 could fill a mezz tranche.",
+  "action": "Wants a call next week. Mezz only, not common equity — could fill a mezz tranche.",
   "tags": [
    "Structure / check size"
   ],
@@ -716,7 +716,7 @@
   "stage": "pass",
   "ts": "2026-08-27T07:47:00Z",
   "quote": "I refer to my email of July 17, where I indicated that we have no allocation.",
-  "action": "Second decline for the same reason \u2014 suppress until they raise again.",
+  "action": "Second decline for the same reason — suppress until they raise again.",
   "tags": [
    "No dry powder"
   ],
@@ -744,7 +744,7 @@
   "stage": "outofscope",
   "ts": "2026-08-27T09:24:00Z",
   "quote": "We currently aren't lending in California.",
-  "action": "Lender, not an equity provider \u2014 remove from the JV equity list.",
+  "action": "Lender, not an equity provider — remove from the JV equity list.",
   "tags": [
    "California",
    "Not an LP"
@@ -771,7 +771,7 @@
   "stage": "pass",
   "ts": "2026-08-27T11:45:00Z",
   "quote": "Please do not email John FW Rogers going forward. Our team is full on opportunities for Q4, and I do not work on the private opportunities side.",
-  "action": "SUPPRESS john.rogers@gs.com \u2014 asked by name.",
+  "action": "SUPPRESS john.rogers@gs.com — asked by name.",
   "tags": [
    "Capacity / staffing"
   ],
@@ -813,7 +813,7 @@
   "stage": "outofscope",
   "ts": "2026-08-27T12:57:00Z",
   "quote": "While the deal certainly sounds interesting, we aren't in the market deploying JV equity. We are still focused on preferred equity and mezzanine debt.",
-  "action": "Pref/mezz only \u2014 reclassify on the list.",
+  "action": "Pref/mezz only — reclassify on the list.",
   "tags": [
    "Not an LP"
   ],
@@ -839,7 +839,7 @@
   "stage": "pass",
   "ts": "2026-08-27T13:31:00Z",
   "quote": "This one is simply too large for us. We focus on the lower-middle-market, which we define as equity checks of $5-$15M.",
-  "action": "Declined on size, but named a $5-15M band \u2014 a candidate if you syndicate the stack.",
+  "action": "Declined on size, but named a $5-15M band — a candidate if you syndicate the stack.",
   "tags": [
    "Structure / check size"
   ],
@@ -907,7 +907,7 @@
   "stage": "pass",
   "ts": "2026-08-30T14:16:51Z",
   "quote": "For this vintage, needs to be our value-add / opportunity fund and we'd be wider than a 5% exit cap on the residual so it's going to be too thin of a return for that fund.",
-  "action": "Passed, and told you exactly why: the 1986 vintage forces the deal into their opportunity fund, and that fund underwrites a residual wider than a 5% exit cap. The most precise objection received so far \u2014 it names the exit cap as the binding assumption, not the going-in. Worth testing against the other package readers who went quiet.",
+  "action": "Passed, and told you exactly why: the 1986 vintage forces the deal into their opportunity fund, and that fund underwrites a residual wider than a 5% exit cap. The most precise objection received so far — it names the exit cap as the binding assumption, not the going-in. Worth testing against the other package readers who went quiet. Michael Regan sent the LP deck and model through on 31 Aug anyway, on the $71.5M basis — which is the wrong direction for a fund that already said the return was too thin.",
   "tags": [
    "1980s vintage",
    "Return threshold"
@@ -937,7 +937,7 @@
   "email": "todd.blanding@platformv.com",
   "stage": "pass",
   "ts": "2026-08-27T14:43:00Z",
-  "quote": "This is not a fit for us \u2014 we are currently focused on scaling up our development program.",
+  "quote": "This is not a fit for us — we are currently focused on scaling up our development program.",
   "action": "",
   "tags": [
    "Development only"
@@ -951,7 +951,7 @@
   "stage": "conditional",
   "ts": "2026-08-27T15:18:00Z",
   "quote": "We invest Co-GP equity. Is that something you are looking for here?",
-  "action": "Answer the co-GP question \u2014 fifth firm to raise co-GP, worth deciding the policy once.",
+  "action": "Answer the co-GP question — fifth firm to raise co-GP, worth deciding the policy once.",
   "tags": [
    "Structure / check size"
   ],
@@ -965,7 +965,7 @@
   "stage": "reviewing",
   "ts": "2026-08-27T15:27:00Z",
   "quote": "Let us review this further and get back to you with any questions/feedback.",
-  "action": "Nothing asked for yet \u2014 diarise a nudge if nothing lands in 48 hours.",
+  "action": "Nothing asked for yet — diarise a nudge if nothing lands in 48 hours.",
   "tags": [],
   "campaign": "institutional"
  },
@@ -1005,7 +1005,7 @@
   "stage": "conditional",
   "ts": "2026-08-27T16:51:00Z",
   "quote": "Tougher fit on the JV equity side as we're still fund raising for our next fund, but potentially could look at this one with pref equity. What does the going-in cap rate look like and what's the likely debt execution?",
-  "action": "Warmest of the alternative-structure replies \u2014 answer the cap rate and debt execution, and say whether pref sits in the stack.",
+  "action": "Warmest of the alternative-structure replies — answer the cap rate and debt execution, and say whether pref sits in the stack.",
   "tags": [
    "Structure / check size",
    "No dry powder"
@@ -1032,7 +1032,7 @@
   "email": "pfredenberg@cottonwoodres.com",
   "stage": "pass",
   "ts": "2026-08-27T16:48:00Z",
-  "quote": "Not our deal \u2014 more focused on the 721 exchange structure I mentioned to you last time we chatted.",
+  "quote": "Not our deal — more focused on the 721 exchange structure I mentioned to you last time we chatted.",
   "action": "",
   "tags": [
    "Different strategy"
@@ -1086,7 +1086,7 @@
   "mailedTo": "jsharf@3650reit.com",
   "stage": "materials",
   "ts": "2026-08-27T18:32:00Z",
-  "quote": "Jeremiah no longer works at 3650 \u2014 but we would be happy to dig into the opportunity if you have a drop box or something you could share?",
+  "quote": "Jeremiah no longer works at 3650 — but we would be happy to dig into the opportunity if you have a drop box or something you could share?",
   "action": "Send the data room link. Update the contact to Brent Thurn.",
   "tags": [],
   "campaign": "institutional"
@@ -1139,7 +1139,7 @@
   "stage": "materials",
   "ts": "2026-08-27T20:53:00Z",
   "quote": "Candidly, California is not the IC's favorite market, but I'd still be happy to review. Could you please share any materials you have?",
-  "action": "Willing despite the market objection \u2014 send materials and pre-empt the CA question in the cover note.",
+  "action": "Willing despite the market objection — send materials and pre-empt the CA question in the cover note.",
   "tags": [],
   "campaign": "institutional"
  },
@@ -1149,7 +1149,7 @@
   "email": "bduplain@torchlight.com",
   "stage": "outofscope",
   "ts": "2026-08-27T20:43:00Z",
-  "quote": "Let's catch up soon. Don't think this is a fit for us \u2014 we are more focused on preferred equity and distressed acquisitions where we can buy the loan.",
+  "quote": "Let's catch up soon. Don't think this is a fit for us — we are more focused on preferred equity and distressed acquisitions where we can buy the loan.",
   "action": "Pref and distressed debt, not common JV equity. Wants a catch-up regardless.",
   "tags": [
    "Not an LP"
@@ -1178,7 +1178,7 @@
   "campaign": "family-office",
   "stage": "outofscope",
   "ts": "2026-08-27T23:41:13Z",
-  "quote": "We don't do minority interests in anything, including taking on minority partners \u2014 everything we do is 100% internally owned.",
+  "quote": "We don't do minority interests in anything, including taking on minority partners — everything we do is 100% internally owned.",
   "action": "Structurally will not take a partner. Remove from JV equity lists.",
   "tags": [
    "Not an LP"
@@ -1224,7 +1224,7 @@
   "stage": "meeting",
   "ts": "2026-08-28T01:55:31Z",
   "quote": "Thank you for reaching out and sharing this opportunity with us. Are you available for a call next week?",
-  "action": "Booking link sent for Michael Regan on 28 Aug; hanna@greenstreettrust.com schedules. Confirm a time before the week of 1 September.",
+  "action": "Booking link sent for Michael Regan on 28 Aug; hanna@greenstreettrust.com schedules. Confirm a time before the week of 1 September. Regan sent the LP deck and model on 31 Aug; a time is still not on the calendar.",
   "tags": [],
   "campaign": "family-office"
  },
@@ -1248,7 +1248,7 @@
   "mailedTo": "drake.ayres@sabal.com",
   "stage": "materials",
   "ts": "2026-08-28T01:28:13Z",
-  "quote": "Mike/Erik \u2014 please have a look when you can. Zamir \u2014 please provide more details.",
+  "quote": "Mike/Erik — please have a look when you can. Zamir — please provide more details.",
   "action": "Regan sent the updated LP Investor Deck and the underlying model on 31 Aug and offered a call. Waiting on Sabal.",
   "tags": [
    "Wants materials"
@@ -1262,7 +1262,7 @@
   "stage": "pass",
   "ts": "2026-08-28T03:02:44Z",
   "quote": "Not our focus please unsubscribe",
-  "action": "SUPPRESS russell.deakin@aceanagroup.com \u2014 asked to be removed by reply.",
+  "action": "SUPPRESS russell.deakin@aceanagroup.com — asked to be removed by reply.",
   "tags": [
    "Outside target market"
   ],
@@ -1290,7 +1290,7 @@
   "stage": "outofscope",
   "ts": "2026-08-28T06:26:54Z",
   "quote": "We currently have no plans to make direct investments in real estate in the U.S. In the future, we intend to invest only through funds.",
-  "action": "Torsten Toeller forwarded it to his real estate manager, who asked to be the sole contact. Funds only, no direct US deals \u2014 reroute the list to sbrimmers@devario.eu and drop from direct JV equity outreach.",
+  "action": "Torsten Toeller forwarded it to his real estate manager, who asked to be the sole contact. Funds only, no direct US deals — reroute the list to sbrimmers@devario.eu and drop from direct JV equity outreach.",
   "tags": [
    "Different strategy"
   ],
@@ -1317,7 +1317,7 @@
   "stage": "conditional",
   "ts": "2026-08-28T13:37:38Z",
   "quote": "Although a prime area, might be difficult for our LP fund to do 80's product at a total basis approaching $400k/unit. Will you need any co-GP $'s?",
-  "action": "Answer the co-GP question \u2014 he raised it himself. LP fund is blocked on 1986 vintage at ~$400k/unit, but he is offering a different seat at the table.",
+  "action": "Answer the co-GP question — he raised it himself. LP fund is blocked on 1986 vintage at ~$400k/unit, but he is offering a different seat at the table.",
   "tags": [
    "1980s vintage",
    "Structure / check size"
@@ -1331,7 +1331,7 @@
   "stage": "pass",
   "ts": "2026-08-28T15:22:02Z",
   "quote": "We took a look earlier in the process and decided to pass for a few reasons. Please keep us in mind for anything in the future.",
-  "action": "Already saw it through the marketed process. He is in LA, just had a child, and asked to link up in a month or two \u2014 a relationship to keep, not a deal to chase. Still worth asking what the reasons were.",
+  "action": "Already saw it through the marketed process. He is in LA, just had a child, and asked to link up in a month or two — a relationship to keep, not a deal to chase. Still worth asking what the reasons were.",
   "tags": [
    "Marketed deal"
   ],
@@ -1344,7 +1344,7 @@
   "stage": "meeting",
   "ts": "2026-08-28T15:31:51Z",
   "quote": "Yes sorry just traveling. Wide open on Monday.",
-  "action": "Offered Monday and is waiting on a time. Zamir is out Monday \u2014 hand to Michael Regan and lock it today.",
+  "action": "Offered Monday and is waiting on a time. Zamir is out Monday — hand to Michael Regan and lock it today.",
   "tags": [],
   "campaign": "institutional"
  },
@@ -1356,7 +1356,7 @@
   "stage": "pass",
   "ts": "2026-08-28T15:32:50Z",
   "quote": "This one is too skinny for our current targets (20% IRR+) but would be great to catch up in general.",
-  "action": "Needs 20%+ against 17.1% here. Not this deal, but he asked for the catch-up \u2014 take it.",
+  "action": "Needs 20%+ against 17.1% here. Not this deal, but he asked for the catch-up — take it.",
   "tags": [
    "Return threshold"
   ],
@@ -1370,7 +1370,7 @@
   "stage": "pass",
   "ts": "2026-08-28T15:36:49Z",
   "quote": "Apologies for the delay in coming back to you as we were touring some assets in SF. Unfortunately this one isn't going to be a great fit for us.",
-  "action": "They were touring SF assets this week, so they are active in the market \u2014 the miss is this asset, not the geography. Send them the next Bay Area deal.",
+  "action": "They were touring SF assets this week, so they are active in the market — the miss is this asset, not the geography. Send them the next Bay Area deal.",
   "tags": [
    "No reason given"
   ],
@@ -1397,7 +1397,7 @@
   "stage": "outofscope",
   "ts": "2026-08-28T15:45:16Z",
   "quote": "Thanks for thinking of us, but we are not doing JV equity.",
-  "action": "Not a JV equity provider \u2014 drop from this list. He took the meeting offer anyway.",
+  "action": "Not a JV equity provider — drop from this list. He took the meeting offer anyway.",
   "tags": [
    "Not an LP"
   ],
@@ -1423,7 +1423,7 @@
   "stage": "pass",
   "ts": "2026-08-28T15:56:43Z",
   "quote": "I believe we are still staying out of CA at this time, but keep us in mind for other deals. Please also send them to acquisitions@caliberco.com for a faster reply.",
-  "action": "Use acquisitions@caliberco.com going forward \u2014 she asked for it.",
+  "action": "Use acquisitions@caliberco.com going forward — she asked for it.",
   "tags": [
    "California"
   ],
@@ -1436,7 +1436,7 @@
   "stage": "pass",
   "ts": "2026-08-28T17:09:39Z",
   "quote": "While I appreciate the look, this one is not for us at this time. As we discussed a few weeks ago, we are unlikely to be in a position to start acquiring assets until the middle of next year.",
-  "action": "Timing, not the deal \u2014 they are out of the market until mid-2027. Diary them, do not re-pitch.",
+  "action": "Timing, not the deal — they are out of the market until mid-2027. Diary them, do not re-pitch.",
   "tags": [
    "Not acquiring now"
   ],
@@ -1450,7 +1450,7 @@
   "stage": "pass",
   "ts": "2026-08-28T17:03:29Z",
   "quote": "Not a fit for us due to market and vintage, but please send future opportunities to Jonathan and the team that covers residential.",
-  "action": "Rerouted themselves to their residential team \u2014 get those names and use them next time.",
+  "action": "Rerouted themselves to their residential team — get those names and use them next time.",
   "tags": [
    "California",
    "1980s vintage"
@@ -1465,7 +1465,7 @@
   "stage": "pass",
   "ts": "2026-08-28T17:01:27Z",
   "quote": "We do not invest much in California (or the acquisition space), so this will not be a fit for our fund.",
-  "action": "Sent their own one-pager back \u2014 read it before the next approach.",
+  "action": "Sent their own one-pager back — read it before the next approach.",
   "tags": [
    "California"
   ],
@@ -1492,7 +1492,7 @@
   "stage": "outofscope",
   "ts": "2026-08-28T16:55:56Z",
   "quote": "We do not provide JV equity, so this one would not be a fit for our platform.",
-  "action": "Not a JV equity provider \u2014 drop from this list.",
+  "action": "Not a JV equity provider — drop from this list.",
   "tags": [
    "Not an LP"
   ],
@@ -1505,7 +1505,7 @@
   "stage": "pass",
   "ts": "2026-08-28T16:49:51Z",
   "quote": "Not something we would be interested in. Going forward you can exclude other team members here. They do not focus on MF on the west coast.",
-  "action": "Asked to be the single Nuveen contact \u2014 trim the rest of that firm from the list.",
+  "action": "Asked to be the single Nuveen contact — trim the rest of that firm from the list.",
   "tags": [
    "Outside target market"
   ],
@@ -1518,7 +1518,7 @@
   "stage": "materials",
   "ts": "2026-08-28T16:48:14Z",
   "quote": "Happy to dig in further. Would you share your underwriting and deal OM with us?",
-  "action": "Send the OM and the model. LA-based managing principal \u2014 easy meeting.",
+  "action": "Send the OM and the model. LA-based managing principal — easy meeting.",
   "tags": [
    "Wants materials"
   ],
@@ -1542,7 +1542,7 @@
   "stage": "reviewing",
   "ts": "2026-08-28T19:51:35Z",
   "quote": "We are currently having preliminary conversations with another operator and are still evaluating whether this opportunity is the right fit for us. I look forward to speaking soon.",
-  "action": "MetLife is already looking at Canyon Woods WITH ANOTHER OPERATOR. Their SF head of acquisitions is evaluating the asset, not us. Call him before the second round \u2014 the question is which sponsor they back, not whether they like the deal.",
+  "action": "MetLife is already looking at Canyon Woods WITH ANOTHER OPERATOR. Their SF head of acquisitions is evaluating the asset, not us. Call him before the second round — the question is which sponsor they back, not whether they like the deal.",
   "tags": [],
   "campaign": "institutional",
   "mailedTo": "kday@metlife.com",
@@ -1571,7 +1571,7 @@
   "stage": "pass",
   "ts": "2026-08-28T16:36:51Z",
   "quote": "As I mentioned on your other email, we are full on the Bay Area at the moment. Best of luck on the bidding process.",
-  "action": "Already at their Bay Area limit \u2014 a concentration cap, so revisit after they sell something here.",
+  "action": "Already at their Bay Area limit — a concentration cap, so revisit after they sell something here.",
   "tags": [
    "California"
   ],
@@ -1599,7 +1599,7 @@
   "stage": "pass",
   "ts": "2026-08-28T16:22:34Z",
   "quote": "We're going to pass as we aren't actively pursuing value-add multifamily at present, particularly for 80s vintage product.",
-  "action": "Two people answered independently, both landing on vintage and market \u2014 that is a firm view, not one person's.",
+  "action": "Two people answered independently, both landing on vintage and market — that is a firm view, not one person's.",
   "tags": [
    "1980s vintage",
    "Not acquiring now"
@@ -1644,7 +1644,7 @@
   "stage": "pass",
   "ts": "2026-08-28T16:20:53Z",
   "quote": "We are not investing in California multifamily given angst around the policies toward residential landlords.",
-  "action": "The sharpest statement yet of the California objection \u2014 it is regulatory, not pricing.",
+  "action": "The sharpest statement yet of the California objection — it is regulatory, not pricing.",
   "tags": [
    "California"
   ],
@@ -1686,7 +1686,7 @@
   "email": "matthew.gotlin@choreoadvisors.com",
   "stage": "pass",
   "ts": "2026-08-28T16:17:23Z",
-  "quote": "Sorry for the delay \u2014 we will pass.",
+  "quote": "Sorry for the delay — we will pass.",
   "action": "",
   "tags": [
    "No reason given"
@@ -1726,7 +1726,7 @@
   "stage": "question",
   "ts": "2026-08-28T17:50:46Z",
   "quote": "Happy to take a quick look, but caveat that we have not yet been active in Northern CA residential, so may be low probability. What's the going-in cap rate (tax adjusted)?",
-  "action": "Wants the going-in cap TAX ADJUSTED, which is the sharper version of the question \u2014 California reassesses on sale, so the untaxed 5.15% is not the number he is asking for. Answer both.",
+  "action": "Wants the going-in cap TAX ADJUSTED, which is the sharper version of the question — California reassesses on sale, so the untaxed 5.15% is not the number he is asking for. Answer both.",
   "tags": [
    "Wants materials"
   ],
@@ -1739,7 +1739,7 @@
   "stage": "conditional",
   "ts": "2026-08-28T17:39:09Z",
   "quote": "As I mentioned before, we could consider a pref or mezz but generally shy away from California.",
-  "action": "Second firm this week offering a non-common seat \u2014 pref or mezz. Bank it against the structure cluster.",
+  "action": "Second firm this week offering a non-common seat — pref or mezz. Bank it against the structure cluster.",
   "tags": [
    "California",
    "Structure / check size"
@@ -1808,7 +1808,7 @@
   "stage": "meeting",
   "ts": "2026-08-29T05:21:08Z",
   "quote": "I work with Josh on the EAP team and would be great to connect on the below. Let me know if you have any time early next week to chat.",
-  "action": "BOOKED \u2014 Teams invite for Tuesday 1 Sep, 1:00\u20131:30pm PT, organised by Sam Levy. Michael Regan offered the slot and has not accepted the invite yet; neither has Zamir. It falls on the day Zamir is out, so Regan owns it \u2014 get his acceptance in.",
+  "action": "BOOKED — Teams invite for Tuesday 1 Sep, 1:00–1:30pm PT, organised by Sam Levy. Michael Regan offered the slot and has not accepted the invite yet; neither has Zamir. It falls on the day Zamir is out, so Regan owns it — get his acceptance in.",
   "tags": [],
   "campaign": "institutional",
   "mailedTo": "joshua.katzin@eldridgeacre.com"
@@ -1820,7 +1820,7 @@
   "stage": "pass",
   "ts": "2026-08-28T18:54:00Z",
   "quote": "As we discussed a few weeks ago, we are currently pursuing opportunities outside of California given our fund's existing concentration there. We will likely circle back at some point.",
-  "action": "A concentration cap, not a view on the asset \u2014 the second firm to say exactly this. Revisit once they sell down California.",
+  "action": "A concentration cap, not a view on the asset — the second firm to say exactly this. Revisit once they sell down California.",
   "tags": [
    "California"
   ],
@@ -1834,7 +1834,7 @@
   "stage": "outofscope",
   "ts": "2026-08-28T18:48:06Z",
   "quote": "Sounds like an interesting deal but we aren't doing any LP equity currently. We are doing our own deals as GP similar to you and also Co-GP.",
-  "action": "Not an LP, but they do co-GP \u2014 worth a line in the co-GP column rather than a clean drop.",
+  "action": "Not an LP, but they do co-GP — worth a line in the co-GP column rather than a clean drop.",
   "tags": [
    "Not an LP"
   ],
@@ -1860,7 +1860,7 @@
   "stage": "pass",
   "ts": "2026-08-28T18:12:34Z",
   "quote": "Not a fit for us unfortunately. Please email future deals to myself and Jared. Rance does not field inbound deal flow.",
-  "action": "He has moved from Morrison Street to Northmarq \u2014 update the address and add Jared Karpf.",
+  "action": "He has moved from Morrison Street to Northmarq — update the address and add Jared Karpf.",
   "tags": [
    "No reason given"
   ],
@@ -1874,7 +1874,7 @@
   "stage": "pass",
   "ts": "2026-08-28T19:30:52Z",
   "quote": "This won't be a fit for us, unfortunately. Would you consider selling any FL or Texas properties?",
-  "action": "Pass on this, but he is asking to BUY Florida or Texas assets. That is a live inbound on the existing portfolio \u2014 route it to the disposition side.",
+  "action": "Pass on this, but he is asking to BUY Florida or Texas assets. That is a live inbound on the existing portfolio — route it to the disposition side.",
   "tags": [
    "Outside target market"
   ],
@@ -1887,7 +1887,7 @@
   "stage": "pass",
   "ts": "2026-08-28T19:19:07Z",
   "quote": "Just not the right opportunity for us. Very hard to do a standalone investment. We prefer more of a fund-oriented strategy with diversification, rather than a single rifle shot.",
-  "action": "Third firm to say funds-only after Toeller and Archway \u2014 single-asset deals do not fit their model at all.",
+  "action": "Third firm to say funds-only after Toeller and Archway — single-asset deals do not fit their model at all.",
   "tags": [
    "Different strategy"
   ],
@@ -1939,7 +1939,7 @@
   "stage": "meeting",
   "ts": "2026-08-29T04:39:46Z",
   "quote": "Returns are light but happy to set up a call next week to discuss further.",
-  "action": "Head of Originations, and the only firm so far to flag the return and still want the call. Book it \u2014 he is the one who might trade the hurdle for structure.",
+  "action": "Head of Originations, and the only firm so far to flag the return and still want the call. Book it — he is the one who might trade the hurdle for structure.",
   "tags": [
    "Return threshold"
   ],
@@ -1956,7 +1956,7 @@
   "stage": "pass",
   "ts": "2026-08-29T17:50:36Z",
   "quote": "Not a fit due to vintage, thanks",
-  "action": "Closed on the 1986 build year. Nothing in the structure answers a vintage screen, so do not re-pitch Canyon Woods here \u2014 keep Ares for a newer asset.",
+  "action": "Closed on the 1986 build year. Nothing in the structure answers a vintage screen, so do not re-pitch Canyon Woods here — keep Ares for a newer asset.",
   "tags": [
    "1980s vintage"
   ],
@@ -2011,7 +2011,7 @@
   "stage": "pass",
   "ts": "2026-08-31T15:07:08Z",
   "quote": "Please remove me from your sales list. Thank you.",
-  "action": "Removal request \u2014 suppress before any further send. Fifth recipient to ask off by reply rather than through the unsubscribe link.",
+  "action": "Removal request — suppress before any further send. Fifth recipient to ask off by reply rather than through the unsubscribe link.",
   "tags": [
    "No reason given"
   ],
@@ -2064,7 +2064,7 @@
   "stage": "pass",
   "ts": "2026-08-31T15:36:53Z",
   "quote": "We are not a fit here. Please don't reach out to Jeff and Craig on these matters going forward. I think I already asked you to do that last time.",
-  "action": "Second removal request from the same firm \u2014 he says he asked once before and it was not actioned. The list address is Lex Rickenbaker; suppress that plus Eric, Jeff and Craig across the whole list before any further send. This is the one reply on the board that is about process failure, not the deal.",
+  "action": "Second removal request from the same firm — he says he asked once before and it was not actioned. The list address is Lex Rickenbaker; suppress that plus Eric, Jeff and Craig across the whole list before any further send. This is the one reply on the board that is about process failure, not the deal.",
   "tags": [
    "No reason given"
   ],
@@ -2079,7 +2079,7 @@
   "stage": "pass",
   "ts": "2026-08-31T15:32:57Z",
   "quote": "We aren't active in multifamily at the moment. We are going to be investing out of a new fund starting in 2027 that will have a multifamily allocation.",
-  "action": "Not now, but they volunteered a date: a new fund with a multifamily allocation starts 2027. Worth a calendar note rather than a discard. Sean Armstrong, the address mailed, is out until 11 September \u2014 Fraker answered for the firm.",
+  "action": "Not now, but they volunteered a date: a new fund with a multifamily allocation starts 2027. Worth a calendar note rather than a discard. Sean Armstrong, the address mailed, is out until 11 September — Fraker answered for the firm.",
   "tags": [
    "Not acquiring now"
   ],
@@ -2128,7 +2128,7 @@
   "stage": "pass",
   "ts": "2026-08-31T16:12:20Z",
   "quote": "Not sure how we got on this list. Please remove",
-  "action": "Removal request, and it came from the founder rather than the person mailed \u2014 the follow-up went to Robert Schwartz with Loeb copied. Suppress both before any further send.",
+  "action": "Removal request, and it came from the founder rather than the person mailed — the follow-up went to Robert Schwartz with Loeb copied. Suppress both before any further send.",
   "tags": [
    "No reason given"
   ],
@@ -2146,7 +2146,7 @@
   "stage": "conditional",
   "ts": "2026-08-31T16:28:00Z",
   "quote": "If you need a single check writer, we're out. If syndicating we can take a look. My guess is that Carl will struggle with the investment into California at this point.",
-  "action": "Open only if the equity is syndicated rather than taken by one partner \u2014 and he pre-flags Carl balking at California. Worth answering if a split raise is on the table.",
+  "action": "Open only if the equity is syndicated rather than taken by one partner — and he pre-flags Carl balking at California. Worth answering if a split raise is on the table.",
   "tags": [
    "Structure / check size",
    "California"
@@ -2185,7 +2185,7 @@
   "stage": "question",
   "ts": "2026-08-31T16:40:00Z",
   "quote": "How do you think that we can be helpful to you on this deal? BTW, Errol and Eli are no longer with us.",
-  "action": "Open question, not a pass \u2014 he is asking what role you want him to play. Answer with the specific ask. Also: Errol and Eli have left, so correct those list entries.",
+  "action": "Open question, not a pass — he is asking what role you want him to play. Answer with the specific ask. Also: Errol and Eli have left, so correct those list entries.",
   "tags": [],
   "campaign": "institutional"
  },
@@ -2208,7 +2208,7 @@
   "stage": "referred",
   "ts": "2026-08-31T16:30:00Z",
   "quote": "Sorry for delay. Let me ping my counterpart again on the west side to connect you with the right person on this one.",
-  "action": "Second time he has offered to route this internally \u2014 'again' means the first attempt did not land. Chase the introduction rather than waiting on it.",
+  "action": "Second time he has offered to route this internally — 'again' means the first attempt did not land. Chase the introduction rather than waiting on it.",
   "tags": [],
   "campaign": "institutional"
  },
@@ -2219,7 +2219,7 @@
   "stage": "reviewing",
   "ts": "2026-08-31T16:53:00Z",
   "quote": "At first blush, that vintage has been very hard for us, so wouldn't rely on us. Can probably turn focus to this end...",
-  "action": "Discouraging but not closed \u2014 he was out for days and is still digging out. Vintage is the stated problem, which is the same screen that killed Ares and Prospect Ridge.",
+  "action": "Discouraging but not closed — he was out for days and is still digging out. Vintage is the stated problem, which is the same screen that killed Ares and Prospect Ridge.",
   "tags": [
    "1980s vintage"
   ],
@@ -2277,7 +2277,7 @@
   "stage": "pass",
   "ts": "2026-08-31T16:29:00Z",
   "quote": "Not a fit for Slate right now. Can't imagine them doing more multi in the near term.",
-  "action": "Firm is off multifamily for now. Warm personal thread \u2014 he asked after the baby.",
+  "action": "Firm is off multifamily for now. Warm personal thread — he asked after the baby.",
   "tags": [
    "Different strategy"
   ],
@@ -2290,7 +2290,7 @@
   "stage": "pass",
   "ts": "2026-08-31T16:30:00Z",
   "quote": "This is not for us. We are not looking to do anything in CA. Let's meet up again soon.",
-  "action": "California screen, relationship intact \u2014 he suggested meeting up.",
+  "action": "California screen, relationship intact — he suggested meeting up.",
   "tags": [
    "California"
   ],
@@ -2422,7 +2422,7 @@
   "stage": "conditional",
   "ts": "2026-08-31T17:13:01Z",
   "quote": "We're more focused on our preferred equity/structured finance strategy and are also targeting properties that are newer vintage. With that said, if you would be interested in exploring how we could add some accretive, passive capital that is approved to pair with both Freddie and Fannie to your capital stack we would be happy to discuss. Please let us know your availability for a call over this week.",
-  "action": "Passes on common equity for vintage, then offers something better than a pass: passive capital pre-approved to sit alongside Freddie and Fannie debt. Asked for availability this week \u2014 answer with times. Seventh firm offering capital in a non-common form.",
+  "action": "Passes on common equity for vintage, then offers something better than a pass: passive capital pre-approved to sit alongside Freddie and Fannie debt. Asked for availability this week — answer with times. Seventh firm offering capital in a non-common form.",
   "tags": [
    "1980s vintage",
    "Structure / check size"
@@ -2441,7 +2441,7 @@
   "stage": "relationship",
   "ts": "2026-08-31T17:50:17Z",
   "quote": "Are you at the FL ICSC conference? I believe that Chris is attending.",
-  "action": "Not a deal answer \u2014 he changed the subject to the Florida ICSC conference. Answer the conference question; the deal ask is still unanswered.",
+  "action": "Not a deal answer — he changed the subject to the Florida ICSC conference. Answer the conference question; the deal ask is still unanswered.",
   "tags": [],
   "otherAddrs": [
    "jdonalson@arctrust.com",
@@ -2457,7 +2457,7 @@
   "stage": "pass",
   "ts": "2026-08-31T17:38:27Z",
   "quote": "We are going to pass on this one. We have two opportunities we are pursuing right now and need to focus time/capital there in near term. Please keep us in the loop.",
-  "action": "Capacity, not conviction \u2014 two live deals ahead of this one. Asked to stay on the list.",
+  "action": "Capacity, not conviction — two live deals ahead of this one. Asked to stay on the list.",
   "tags": [
    "Bandwidth / timing"
   ],
@@ -2565,11 +2565,13 @@
   "firm": "Thorofare Capital",
   "person": "Mitch Kralis",
   "email": "Mitch.Kralis@thorofarecapital.com",
-  "stage": "reviewing",
-  "ts": "2026-08-31T20:04:17Z",
-  "quote": "I never saw the original email from last week so I'm reviewing it now. I'll get back to you later today or in the morning.",
-  "action": "Reading it now and promised an answer today or tomorrow morning. He never saw the original \u2014 the Stage 2 wave is what surfaced it.",
-  "tags": [],
+  "stage": "pass",
+  "ts": "2026-08-31T20:47:48Z",
+  "quote": "We are not a player in California",
+  "action": "Read it within the hour he promised and passed on California. Closed cleanly — the Stage 2 wave got him to look, and the answer was still no.",
+  "tags": [
+   "California"
+  ],
   "campaign": "institutional"
  },
  {
@@ -2580,7 +2582,7 @@
   "stage": "referred",
   "ts": "2026-08-31T19:59:37Z",
   "quote": "Copying Richie who oversees our resi business",
-  "action": "The CEO routed it internally to Richie DeBeikes, who runs their residential business. Reply on the thread \u2014 this is the warmest kind of hand-off.",
+  "action": "The CEO routed it internally to Richie DeBeikes, who runs their residential business. Reply on the thread — this is the warmest kind of hand-off.",
   "tags": [],
   "otherAddrs": [
    "rdebeikes@divcowest.com",
@@ -2619,5 +2621,22 @@
    "mmurphy@asbrealestate.com"
   ],
   "campaign": "institutional"
+ },
+ {
+  "firm": "Kingdom Holding Company",
+  "person": "Tamim B. Jabr",
+  "email": "Tamim@kingdom.com.sa",
+  "mailedTo": "adel@kingdom.com.sa",
+  "otherAddrs": [
+   "tim@kingdom.com.sa"
+  ],
+  "stage": "pass",
+  "ts": "2026-08-31T19:49:46Z",
+  "quote": "Thanks no interest from ourside",
+  "action": "Passed in six words with no reason attached. Answered from Tamim against a list entry of adel@, so the family-office roster has the wrong contact for the firm.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
  }
 ]
