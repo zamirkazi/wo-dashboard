@@ -27,11 +27,14 @@ CAMPAIGNS = [
         "sentStart": "2026-08-26T21:58:24Z",
         "sentEnd": "2026-08-26T23:04:44Z",
         "listSize": 534, "removedPreSend": 83, "sent": 451,
-        "bounces": 19, "blocks": 3, "opens": 137, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-08-31T12:57:12Z",
+        "bounces": 19, "blocks": 3, "opens": 138, "clicks": 0, "unsubs": 0,
+        "reportAt": "2026-08-31T14:08:39Z",
+        "followUpResumeMissed": True,
         "followUps": [
-            # Both hit Gmail's 24h sending limit and are paused, not finished.
-            # GMass will resume them automatically on 31 Aug at 08:18 PDT.
+            # Both hit Gmail's 24h sending limit and paused. GMass was due to resume
+            # them on 31 Aug at 08:18/08:20 PDT, but the 07:08 PDT reports still show
+            # 260 and 270 sent — unchanged — so the resume window came and went with
+            # no movement. Either it did not fire or the queue was cancelled.
             {"gmassId": "53073365", "sentStart": "2026-08-28T15:18:49Z",
              "sentSoFar": 260, "target": 354, "remaining": 94,
              "resumesAt": "2026-08-31T15:18:00Z", "pausedBy": "Gmail sending limit",

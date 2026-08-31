@@ -182,8 +182,16 @@ function followUpNote(c, reps) {
     + (paused.length
         ? `<br><br><b>Both variants are paused</b>, not finished — they hit the Gmail 24-hour `
         + `sending limit, with ${paused.reduce((t,f) => t + f.remaining, 0)} emails still queued `
-        + `across them. GMass resumes automatically on ${fmt(paused[0].resumesAt)}, so the `
-        + `duplicate repeats itself then unless one variant is cancelled first.`
+        + `across them. `
+        // The resume time has come and gone with both totals unchanged, so the queue is
+        // stuck rather than pending. Saying "resumes at" would now be wrong.
+        + (c.followUpResumeMissed
+            ? `They were due to resume on ${fmt(paused[0].resumesAt)} and did not: the reports `
+            + `after that time show the same totals, so those recipients are not queued for `
+            + `later, they are simply unreached. Restarting the wave is a manual step now — `
+            + `which is also the chance to send it on the current pricing rather than the old.`
+            : `GMass resumes automatically on ${fmt(paused[0].resumesAt)}, so the duplicate `
+            + `repeats itself then unless one variant is cancelled first.`)
         : "")
     + rejectedNote(c)
     + `</div>`;
