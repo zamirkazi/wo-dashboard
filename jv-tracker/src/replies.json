@@ -218,16 +218,20 @@
  },
  {
   "firm": "Artisan Capital",
-  "person": "Mina",
+  "person": "Mina Roufail",
   "email": "mina@artisancp.com",
   "stage": "conditional",
-  "ts": "2026-08-27T01:49:39Z",
+  "ts": "2026-08-31T22:57:00Z",
   "quote": "Our check sizes are $3-7M. If you are open to it, we can take a look at this for the GP equity portion.",
-  "action": "Small check — GP equity slice only.",
+  "action": "Small check — GP equity slice only, $3-7M. Offered on 26 Aug and never answered; she chased it herself five days later: \"Just wanted to follow up to see if the GP equity is of interest?\" One of the few inbound chases on the whole list, and the only one still waiting on us rather than the other way round.",
   "tags": [
-   "Structure / check size"
+   "Structure / check size",
+   "GP / co-GP capital"
   ],
-  "campaign": "institutional"
+  "campaign": "institutional",
+  "otherAddrs": [
+   "greg@artisancp.com"
+  ]
  },
  {
   "firm": "J.P. Morgan",
@@ -2650,6 +2654,199 @@
   "action": "Passed within twenty minutes of the family office follow-up landing. Answered from the cc'd partner rather than Annette Madison, the list contact.",
   "tags": [
    "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "RWR Investments",
+  "person": "Parit Patel",
+  "email": "parit@rwrinvestments.com",
+  "otherAddrs": [
+   "wryan@rwrinvestments.com",
+   "katie@provisionfos.com"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-08-31T23:06:32Z",
+  "quote": "This is not a fit for us. We don't invest in multifamily.",
+  "action": "Does not invest in multifamily at all — a list-fit problem, not a deal problem.",
+  "tags": [
+   "Not multifamily"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Sapient Capital",
+  "person": "Karim Khairallah",
+  "email": "kkhairallah@sapientcapital.com",
+  "mailedTo": "jrooney@sapientcapital.com",
+  "stage": "outofscope",
+  "ts": "2026-08-31T18:06:05Z",
+  "quote": "Unfortunately this is not a sector we are looking for new investments in.",
+  "action": "The CEO answered rather than the list contact. Not allocating to the sector at present.",
+  "tags": [
+   "Not multifamily"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Bollinger",
+  "person": "Peyton B",
+  "email": "peytonb@bollinger.com",
+  "mailedTo": "benh@bollinger.com",
+  "stage": "pass",
+  "ts": "2026-08-31T17:38:03Z",
+  "quote": "We are currently not deploying capital into any new real estate investments. Not sure when we will lift that restriction.",
+  "action": "A full stop on new real estate, with no date on when it lifts. Not worth re-approaching on the next deal without checking first.",
+  "tags": [
+   "Not deploying"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Claridge",
+  "person": "Frederic Martel",
+  "email": "fredericmartel@claridgeinc.com",
+  "otherAddrs": [
+   "muriellelortie@claridgeinc.com"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-08-31T17:25:56Z",
+  "quote": "Our investment activities in RE are primarily focussed on Canada.",
+  "action": "Canada-focused. Geography, not the deal.",
+  "tags": [
+   "Geography"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Claremont Corp",
+  "person": "Ned Carney",
+  "email": "ecarney@claremontcorp.com",
+  "otherAddrs": [
+   "pcarney@claremontcorp.com",
+   "kmcnamara@claremontcorp.com"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-08-31T17:19:10Z",
+  "quote": "This is outside of our geographic concentration area.",
+  "action": "Geography.",
+  "tags": [
+   "Geography"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Pohlad Companies",
+  "person": "Elizabeth Lilly",
+  "email": "Elizabeth.Lilly@pohladcompanies.com",
+  "mailedTo": "dennis.goetz@pohladcompanies.com",
+  "stage": "pass",
+  "ts": "2026-08-31T17:17:10Z",
+  "quote": "Please remove me",
+  "action": "Removal request from the CIO — she was a cc, not the list contact. Suppress her address; Dennis Goetz did not answer either way.",
+  "tags": [
+   "Removal request"
+  ],
+  "suppress": true,
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Highgate",
+  "person": "Craig Story",
+  "email": "cstory@highgate.com",
+  "otherAddrs": [
+   "rperrotta@highgatecapinv.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-08-31T16:41:38Z",
+  "quote": "This is not a fit for us; please remove us from your distribution list.",
+  "action": "Pass plus a removal request covering the firm, not just him — the send had nine cc's at Highgate, so suppress the whole block.",
+  "tags": [
+   "Removal request"
+  ],
+  "suppress": true,
+  "campaign": "family-office"
+ },
+ {
+  "firm": "HF Capital",
+  "person": "Andrew Seamons",
+  "email": "aseamons@hfcapital.com",
+  "otherAddrs": [
+   "joswalt@hfcapital.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-08-31T16:41:32Z",
+  "quote": "This is not a fit for us. Good luck with the aquisiton.",
+  "action": "Clean pass, no reason given.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Dentressangle",
+  "person": "Sylvain Froissard",
+  "email": "s.froissard@dentressangle.com",
+  "otherAddrs": [
+   "a.guillon@dentressangle.com",
+   "t.coloigner@dentressangle.com",
+   "jl.savoye@dentressangle.com"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-08-31T16:39:44Z",
+  "quote": "Unfortunately this investment opportunity is out of scope for our strategy.",
+  "action": "Out of strategy.",
+  "tags": [
+   "Mandate"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Blue Sky Equities",
+  "person": "Derrick Hunter",
+  "email": "derrick.hunter@blueskyequities.com",
+  "mailedTo": "derrick@blueskyequities.com",
+  "otherAddrs": [
+   "stephen.kallir@blueskyequities.com",
+   "stephen@blueskyequities.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-08-31T16:22:31Z",
+  "quote": "We do not evaluate unsolicited inbound deals.",
+  "action": "Policy against unsolicited inbound — no amount of follow-up changes this one. Note the list has derrick@ but he replies from derrick.hunter@.",
+  "tags": [
+   "No unsolicited deals"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Croson",
+  "person": "Charles Croson",
+  "email": "charles@croson.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:17:08Z",
+  "quote": "We are full on CRE and focusing on internal deals.",
+  "action": "Allocation is full and attention is on their own pipeline.",
+  "tags": [
+   "Not deploying"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Cooper Management",
+  "person": "Elliot Wheeler",
+  "email": "ewheeler@cooper-management.com",
+  "mailedTo": "carey@cooper-management.com",
+  "otherAddrs": [
+   "kparker@cooper-management.com",
+   "ccooper@cooper-management.com"
+  ],
+  "stage": "materials",
+  "ts": "2026-08-31T16:15:55Z",
+  "quote": "I don't think we've met. Can you send us some information on your firm?",
+  "action": "The President is asking about ZMR itself, not the deal — he wants a firm background before he looks at Canyon Woods. Send the firm overview alongside the LP deck.",
+  "tags": [
+   "Wants firm background"
   ],
   "campaign": "family-office"
  }

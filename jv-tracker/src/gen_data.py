@@ -90,8 +90,8 @@ CAMPAIGNS = [
         # was a mid-send snapshot. GMass kept sending until 00:15 and the 01:55
         # report closes it at the full 674, so nothing was suppressed before send.
         "listSize": 674, "removedPreSend": 0, "sent": 674,
-        "bounces": 23, "blocks": 4, "opens": 23, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-08-31T21:41:17Z",
+        "bounces": 23, "blocks": 4, "opens": 24, "clicks": 0, "unsubs": 0,
+        "reportAt": "2026-08-31T23:06:51Z",
         "inFlight": False,
         "recipientsFile": "recipients_fo.txt",
         "followUps": [
