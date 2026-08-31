@@ -27,8 +27,8 @@ CAMPAIGNS = [
         "sentStart": "2026-08-26T21:58:24Z",
         "sentEnd": "2026-08-26T23:04:44Z",
         "listSize": 534, "removedPreSend": 83, "sent": 451,
-        "bounces": 19, "blocks": 3, "opens": 138, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-08-31T14:08:39Z",
+        "bounces": 19, "blocks": 3, "opens": 139, "clicks": 0, "unsubs": 0,
+        "reportAt": "2026-08-31T15:09:42Z",
         "followUpResumeMissed": True,
         "followUps": [
             # Both hit Gmail's 24h sending limit and paused. GMass was due to resume
@@ -83,8 +83,8 @@ CAMPAIGNS = [
         # was a mid-send snapshot. GMass kept sending until 00:15 and the 01:55
         # report closes it at the full 674, so nothing was suppressed before send.
         "listSize": 674, "removedPreSend": 0, "sent": 674,
-        "bounces": 17, "blocks": 4, "opens": 8, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-08-28T08:24:48Z",
+        "bounces": 23, "blocks": 4, "opens": 10, "clicks": 0, "unsubs": 0,
+        "reportAt": "2026-08-31T15:07:35Z",
         "inFlight": False,
         "recipientsFile": "recipients_fo.txt",
         # The 11 addresses marked BOUNCED on the source sheet. GMass counts 16, so

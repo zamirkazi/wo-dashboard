@@ -288,10 +288,10 @@
   "firm": "Shoreham Capital",
   "person": "Doug Faron",
   "email": "doug@shorehamcapital.com",
-  "stage": "relationship",
-  "ts": "2026-08-27T00:58:09Z",
-  "quote": "Hope you both are well. Just fyi Steve, Nick and Danil are no longer with Shoreham but we should all catch up soon. Good time next week?",
-  "action": "Not a deal answer \u2014 schedule the catch-up and update contacts.",
+  "stage": "meeting",
+  "ts": "2026-08-31T14:52:27Z",
+  "quote": "How's Thursday for you guys? Have a little travel earlier in the week.",
+  "action": "Proposing Thursday after Regan offered Tuesday or Wednesday. Confirm a time and send an invite \u2014 nobody has yet. Note Steve, Nick and Daniil have all left Shoreham, so Doug is the only live contact there.",
   "tags": [],
   "mailedTo": "steve@shorehamcapital.com",
   "campaign": "institutional"
@@ -1990,5 +1990,32 @@
    "No reason given"
   ],
   "campaign": "institutional"
+ },
+ {
+  "firm": "Grandview Partners",
+  "person": "Eric Freeman",
+  "email": "Freeman@grandviewpartners.com",
+  "stage": "pass",
+  "ts": "2026-08-31T15:09:19Z",
+  "quote": "No interest here. Thanks.",
+  "action": "Managing Partner, three words, no reason. Nothing to work. Came in off the follow-up, five days after the original.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Avatar Investments",
+  "person": "Ray D",
+  "email": "rayd@avatarinv.com",
+  "stage": "pass",
+  "ts": "2026-08-31T15:07:08Z",
+  "quote": "Please remove me from your sales list. Thank you.",
+  "action": "Removal request \u2014 suppress before any further send. Fifth recipient to ask off by reply rather than through the unsubscribe link.",
+  "tags": [
+   "No reason given"
+  ],
+  "suppress": true,
+  "campaign": "family-office"
  }
 ]
