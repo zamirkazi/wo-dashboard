@@ -28,7 +28,7 @@ CAMPAIGNS = [
         "sentEnd": "2026-08-26T23:04:44Z",
         "listSize": 534, "removedPreSend": 83, "sent": 451,
         "bounces": 19, "blocks": 3, "opens": 146, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-08-31T17:05:24Z",
+        "reportAt": "2026-08-31T17:50:32Z",
         "followUps": [
             # Both paused on Gmail's 24h limit and resumed on 31 Aug, about five hours
             # later than the 08:18 PDT the reports predicted — the 07:08 PDT reports
@@ -50,6 +50,12 @@ CAMPAIGNS = [
                                "ron@ratelinvestments.com", "jas.birk@raymondjames.com"],
              "resumedAt": "2026-08-31T15:23:00Z", "pausedBy": "Gmail sending limit",
              "note": "the same, plus an explicit out if it is not of interest"},
+            # A third wave with new copy, sent the morning of 31 Aug to the 216 who were
+            # still silent. It asks for a call rather than restating the deal — and it
+            # went out on the mailed $71.5M basis, not the $73.5M the bidding is at.
+            {"gmassId": "53111531", "stage": 2, "sentStart": "2026-08-31T15:58:38Z",
+             "sentSoFar": 216, "target": 216, "remaining": 0,
+             "note": "just wanted to see if we can get a call on the books to discuss this deal"},
         ],
         "inFlight": False,
         "recipientsFile": "recipients.txt",

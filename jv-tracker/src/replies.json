@@ -2414,5 +2414,72 @@
    "California"
   ],
   "campaign": "institutional"
+ },
+ {
+  "firm": "Tokyu Land US Corporation",
+  "person": "Ben Cherney",
+  "email": "b.cherney@tlusc.com",
+  "stage": "conditional",
+  "ts": "2026-08-31T17:13:01Z",
+  "quote": "We're more focused on our preferred equity/structured finance strategy and are also targeting properties that are newer vintage. With that said, if you would be interested in exploring how we could add some accretive, passive capital that is approved to pair with both Freddie and Fannie to your capital stack we would be happy to discuss. Please let us know your availability for a call over this week.",
+  "action": "Passes on common equity for vintage, then offers something better than a pass: passive capital pre-approved to sit alongside Freddie and Fannie debt. Asked for availability this week \u2014 answer with times. Seventh firm offering capital in a non-common form.",
+  "tags": [
+   "1980s vintage",
+   "Structure / check size"
+  ],
+  "otherAddrs": [
+   "y.tang@tlusc.com",
+   "a.mark@tlusc.com",
+   "l.raab@tlusc.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "ARCTRUST",
+  "person": "Gary Sheehan",
+  "email": "GSheehan@arctrust.com",
+  "stage": "relationship",
+  "ts": "2026-08-31T17:50:17Z",
+  "quote": "Are you at the FL ICSC conference? I believe that Chris is attending.",
+  "action": "Not a deal answer \u2014 he changed the subject to the Florida ICSC conference. Answer the conference question; the deal ask is still unanswered.",
+  "tags": [],
+  "otherAddrs": [
+   "jdonalson@arctrust.com",
+   "clecates@arctrust.com",
+   "rambrosi@arctrust.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Edge Hill Venture Partners",
+  "person": "Rich Frankenberg",
+  "email": "rich.frankenberg@edgehillvp.com",
+  "stage": "pass",
+  "ts": "2026-08-31T17:38:27Z",
+  "quote": "We are going to pass on this one. We have two opportunities we are pursuing right now and need to focus time/capital there in near term. Please keep us in the loop.",
+  "action": "Capacity, not conviction \u2014 two live deals ahead of this one. Asked to stay on the list.",
+  "tags": [
+   "Bandwidth / timing"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Atlantic Creek Real Estate Partners",
+  "person": "Jon Trucano",
+  "email": "trucano@atlanticcreek.com",
+  "stage": "pass",
+  "ts": "2026-08-31T17:34:56Z",
+  "quote": "As noted when we spoke, the vintage and geography of this one would not be a fit for us.",
+  "action": "Both screens at once, and he had already told you on a call. Do not re-pitch this asset here.",
+  "tags": [
+   "1980s vintage",
+   "California"
+  ],
+  "otherAddrs": [
+   "mele@atlanticcreek.com",
+   "bylin@atlanticcreek.com",
+   "sachs@atlanticcreek.com"
+  ],
+  "campaign": "institutional"
  }
 ]
