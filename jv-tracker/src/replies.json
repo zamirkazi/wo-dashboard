@@ -2638,5 +2638,19 @@
    "No reason given"
   ],
   "campaign": "family-office"
+ },
+ {
+  "firm": "Dock Street Capital",
+  "person": "Gregory Stahl",
+  "email": "GStahl@dockstreetcapital.com",
+  "mailedTo": "amadison@dockstreetcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-31T21:40:51Z",
+  "quote": "This isn't of interest",
+  "action": "Passed within twenty minutes of the family office follow-up landing. Answered from the cc'd partner rather than Annette Madison, the list contact.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
  }
 ]
