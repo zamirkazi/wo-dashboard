@@ -27,12 +27,16 @@
   "firm": "Two Sigma",
   "person": "Spencer Traver",
   "email": "Spencer.Traver@twosigma.com",
-  "stage": "materials",
-  "ts": "2026-08-27T02:13:34Z",
-  "quote": "Thanks for the note, sounds interesting. Please share some additional information and we can give you a better sense.",
-  "action": "Send package. Institutional check size fits $30.96M requirement.",
+  "stage": "question",
+  "ts": "2026-08-31T09:26:12Z",
+  "quote": "Thanks for sharing the additional information. Where did you guys submit, and do you think it gets to $71.5mm? When is the B&F?",
+  "action": "Live and moving. Read the package and came back asking process questions, not underwriting ones: your bid, whether it clears $71.5M, and the best-and-final date. That is a partner sizing whether they can still get in, so answer all three precisely and give the B&F date first. Highest-intent thread on the board.",
   "tags": [],
-  "campaign": "institutional"
+  "campaign": "institutional",
+  "otherAddrs": [
+   "Jeremy.Erdman@twosigma.com",
+   "Sachin.Nagpal@twosigma.com"
+  ]
  },
  {
   "firm": "Tryperion Holdings",
