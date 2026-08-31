@@ -2138,5 +2138,281 @@
    "rob@thirdpointventures.com"
   ],
   "campaign": "institutional"
+ },
+ {
+  "firm": "Lindell Investments",
+  "person": "Jack",
+  "email": "Jack@lindellinvestments.com",
+  "stage": "conditional",
+  "ts": "2026-08-31T16:28:00Z",
+  "quote": "If you need a single check writer, we're out. If syndicating we can take a look. My guess is that Carl will struggle with the investment into California at this point.",
+  "action": "Open only if the equity is syndicated rather than taken by one partner \u2014 and he pre-flags Carl balking at California. Worth answering if a split raise is on the table.",
+  "tags": [
+   "Structure / check size",
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Mandrake Capital",
+  "person": "Ian Crowley",
+  "email": "icrowley@mandrakecapital.com",
+  "mailedTo": "bhaefele@mandrakecapital.com",
+  "stage": "meeting",
+  "ts": "2026-08-31T16:39:00Z",
+  "quote": "Let's set up a call for next week. As we last discussed, given our return thresholds I am not sure that this one will be a fit for us but we will take a look.",
+  "action": "Wants a call next week and says up front the return may not clear their threshold. Book it, and go in with the revised pricing rather than the mailed 17.1%.",
+  "tags": [
+   "Return threshold"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Provenio Capital",
+  "person": "Jim Cao",
+  "email": "jim@proveniocapital.com",
+  "stage": "meeting",
+  "ts": "2026-08-31T16:42:00Z",
+  "quote": "I'll give you call today. What's your schedule like?",
+  "action": "Calling today and asked for your availability. Someone needs to answer with times.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Cypress Equity Investments",
+  "person": "Michael S",
+  "email": "michaels@cypressequity.com",
+  "stage": "question",
+  "ts": "2026-08-31T16:40:00Z",
+  "quote": "How do you think that we can be helpful to you on this deal? BTW, Errol and Eli are no longer with us.",
+  "action": "Open question, not a pass \u2014 he is asking what role you want him to play. Answer with the specific ask. Also: Errol and Eli have left, so correct those list entries.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Capital Health Group",
+  "person": "Ken Assiran",
+  "email": "kassiran@cfg.bank",
+  "mailedTo": "kassiran@caphealthgroup.com",
+  "stage": "referred",
+  "ts": "2026-08-31T16:28:00Z",
+  "quote": "You need to talk with our multi-family group. Please contact Andrew Yerger. I will copy him on this email.",
+  "action": "Warm hand-off to Andrew Yerger, already copied. Reply on the thread rather than starting cold.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "PGIM",
+  "person": "Juan Miguel Capurro",
+  "email": "juan.miguel.capurro@pgim.com",
+  "stage": "referred",
+  "ts": "2026-08-31T16:30:00Z",
+  "quote": "Sorry for delay. Let me ping my counterpart again on the west side to connect you with the right person on this one.",
+  "action": "Second time he has offered to route this internally \u2014 'again' means the first attempt did not land. Chase the introduction rather than waiting on it.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Raith Capital Partners",
+  "person": "Sahil Amin",
+  "email": "Sahil.Amin@raithcapital.com",
+  "stage": "reviewing",
+  "ts": "2026-08-31T16:53:00Z",
+  "quote": "At first blush, that vintage has been very hard for us, so wouldn't rely on us. Can probably turn focus to this end...",
+  "action": "Discouraging but not closed \u2014 he was out for days and is still digging out. Vintage is the stated problem, which is the same screen that killed Ares and Prospect Ridge.",
+  "tags": [
+   "1980s vintage"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Centerbridge Partners",
+  "person": "Ally Heyburn",
+  "email": "aheyburn@centerbridge.com",
+  "mailedTo": "aburinescu@centerbridge.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:14:00Z",
+  "quote": "This is unfortunately a bit too small for us, but appreciate the look!",
+  "action": "Below their size floor. Keep for a larger deal.",
+  "tags": [
+   "Structure / check size"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Abrams Capital",
+  "person": "David Abrams",
+  "email": "dabrams@abramscapital.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:15:00Z",
+  "quote": "Please stop emailing us.",
+  "action": "Removal request from the founder. Suppress the firm before any further send.",
+  "tags": [
+   "No reason given"
+  ],
+  "suppress": true,
+  "otherAddrs": [
+   "trhodes@abramscapital.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Bluerock",
+  "person": "Steve Siptrott",
+  "email": "ssiptrott@bluerock.com",
+  "mailedTo": "alotterman@bluerockre.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:17:00Z",
+  "quote": "We will be a pass on this one. Thanks for sharing with us.",
+  "action": "Clean pass, no reason. Note the reply came from bluerock.com, not the bluerockre.com address mailed.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Slate Asset Management",
+  "person": "A Candela",
+  "email": "acandela@slateam.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:29:00Z",
+  "quote": "Not a fit for Slate right now. Can't imagine them doing more multi in the near term.",
+  "action": "Firm is off multifamily for now. Warm personal thread \u2014 he asked after the baby.",
+  "tags": [
+   "Different strategy"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Lenox West Capital",
+  "person": "Michael Cohen",
+  "email": "mcohen@lenoxwestcap.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:30:00Z",
+  "quote": "This is not for us. We are not looking to do anything in CA. Let's meet up again soon.",
+  "action": "California screen, relationship intact \u2014 he suggested meeting up.",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "ACC Industries",
+  "person": "Jacob Himmelrich",
+  "email": "jhimmelrich@accind.com",
+  "mailedTo": "jsonnenborn@accind.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:30:00Z",
+  "quote": "Not a fit for us thanks. Good luck!",
+  "action": "No reason given. Answered on behalf of Jonah Sonnenborn, the address mailed.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Hatteras Sky",
+  "person": "Oz Friedmann",
+  "email": "ofriedmann@hatterassky.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:36:00Z",
+  "quote": "We are a pass on this.",
+  "action": "No reason given. He runs development, which may be the whole answer.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Griffin Capital",
+  "person": "Paul De Martini",
+  "email": "pdemartini@griffincapital.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:38:00Z",
+  "quote": "Christophe now covers the west coast and is the right person to contact. However, this deal doesn't fit our target investment mandates right now.",
+  "action": "Pass on mandate, but he corrected the coverage: Christophe now has the west coast. Update the list entry even though this deal is dead there.",
+  "tags": [
+   "Different strategy"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Belveron Partners",
+  "person": "Ben",
+  "email": "ben@belveronpartners.com",
+  "mailedTo": "jeremy@belveronpartners.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:43:00Z",
+  "quote": "We are more focused on affordable properties so don't think this is a great fit for us but let us know if there are any other deals we should look at in future.",
+  "action": "Affordable mandate. Explicitly invited future deal flow.",
+  "tags": [
+   "Different strategy"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Iron Point Partners",
+  "person": "Ryan Haas",
+  "email": "rhaas@ironpointpartners.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:45:00Z",
+  "quote": "This is a pass for us. We have deemphasized resi currently in our active fund.",
+  "action": "Current fund is out of residential. A later vintage fund may not be.",
+  "tags": [
+   "Different strategy"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Mattoni Group",
+  "person": "Ricardo Caporal",
+  "email": "rcaporal@mattonigroup.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:46:00Z",
+  "quote": "We only do deals in Florida",
+  "action": "Hard geographic screen. Remove from any California list.",
+  "tags": [
+   "Outside target market"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Wolverton Capital",
+  "person": "Dennis Allen",
+  "email": "dennis@wolvertoncapital.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:51:00Z",
+  "quote": "This one isn't for us. Thanks for sending and the follow up.",
+  "action": "No reason given.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Peakline Real Estate",
+  "person": "Jason Ross",
+  "email": "jross@peakline.com",
+  "stage": "pass",
+  "ts": "2026-08-31T17:04:00Z",
+  "quote": "This isn't a fit for us, we are focused on QOZ 2.0 investments currently.",
+  "action": "Opportunity-zone mandate. Canyon Woods is not a QOZ asset.",
+  "tags": [
+   "Different strategy"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "CAPREIT",
+  "person": "Matt Skurka",
+  "email": "mskurka@capreit.com",
+  "stage": "pass",
+  "ts": "2026-08-31T17:08:00Z",
+  "quote": "We do not have a presence in CA, so this one is a pass for us.",
+  "action": "No California platform. Geographic, not economic.",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
  }
 ]

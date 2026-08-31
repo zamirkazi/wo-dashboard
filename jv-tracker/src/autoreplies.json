@@ -675,15 +675,6 @@
   "note": "Michael Young has left \u2014 use kshoyombo@basisinvgroup.com"
  },
  {
-  "firm": "Raith Capital",
-  "email": "sahil.amin@raithcapital.com",
-  "campaign": "institutional",
-  "ts": "2026-08-28T16:55:18Z",
-  "kind": "ooo",
-  "returns": "2026-08-31",
-  "note": "Cover: michele.gross@raithcapital.com"
- },
- {
   "firm": "Kingsbarn",
   "email": "ahardick@kingsbarn.com",
   "campaign": "institutional",
@@ -708,5 +699,22 @@
   "kind": "bounce",
   "returns": null,
   "note": "CC address unreachable after repeated attempts; the primary contact was delivered"
+ },
+ {
+  "firm": "Manulife",
+  "email": "emily_wickey@manulife.com",
+  "campaign": "institutional",
+  "ts": "2026-08-31T16:31:00Z",
+  "kind": "ooo",
+  "returns": "2026-09-07",
+  "note": "Out 28 Aug to 7 Sep; urgent matters to Jessica Crandall."
+ },
+ {
+  "firm": "FM Capital",
+  "email": "mpollack@fmcapital.com",
+  "campaign": "institutional",
+  "ts": "2026-08-31T16:40:00Z",
+  "kind": "ooo",
+  "note": "Out with limited access to email and phone; no return date given."
  }
 ]
