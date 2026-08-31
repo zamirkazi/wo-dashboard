@@ -28,7 +28,7 @@ CAMPAIGNS = [
         "sentEnd": "2026-08-26T23:04:44Z",
         "listSize": 534, "removedPreSend": 83, "sent": 451,
         "bounces": 19, "blocks": 3, "opens": 146, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-08-31T17:50:32Z",
+        "reportAt": "2026-08-31T18:54:39Z",
         "followUps": [
             # Both paused on Gmail's 24h limit and resumed on 31 Aug, about five hours
             # later than the 08:18 PDT the reports predicted — the 07:08 PDT reports
@@ -39,12 +39,13 @@ CAMPAIGNS = [
              "sentSoFar": 348, "target": 354, "remaining": 6,
              "resumedAt": "2026-08-31T15:23:00Z", "pausedBy": "Gmail sending limit",
              "note": "just wanted to follow up on my email below"},
-            # GMass counts 270 sent, but six of them were rejected outright by
-            # Gmail for being over the limit, so only 264 people actually got it.
-            # The six are known by address from the mailer-daemon notices.
+            # Six sends were rejected outright by Gmail on 28 Aug for being over the
+            # limit. The 31 Aug resume re-sent to them — the Ranch Harbor thread shows
+            # the follow-up landing at 08:37 PDT — so they are reached, not skipped,
+            # and the rejection count is history rather than an outstanding gap.
             {"gmassId": "53073398", "sentStart": "2026-08-28T15:20:13Z",
              "sentSoFar": 350, "target": 354, "remaining": 4,
-             "rejected": 6,
+             "rejected": 6, "rejectedResolved": True,
              "rejectedAddrs": ["colton.creber@quadreal.com", "nietfeldt@quartzlakecap.com",
                                "jmeek@ranchharbor.com", "jim@randallcapitalgroup.com",
                                "ron@ratelinvestments.com", "jas.birk@raymondjames.com"],

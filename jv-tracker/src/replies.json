@@ -2481,5 +2481,84 @@
    "sachs@atlanticcreek.com"
   ],
   "campaign": "institutional"
+ },
+ {
+  "firm": "Lateral",
+  "person": "Anand Kapadia",
+  "email": "akapadia@lateralllc.com",
+  "stage": "meeting",
+  "ts": "2026-08-31T18:10:28Z",
+  "quote": "We can get on a call, but won't be until Thursday or Friday. Would that work for you?",
+  "action": "Offered Thursday or Friday. Pick one and send the invite.",
+  "tags": [],
+  "otherAddrs": [
+   "ehattem@lateralllc.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "InterVest",
+  "person": "Will Hutton",
+  "email": "w.hutton@intervest.com",
+  "stage": "pass",
+  "ts": "2026-08-31T18:54:17Z",
+  "quote": "Sorry, been out of the country. Vintage will be too old.",
+  "action": "Straight vintage screen. Sixth firm to name 1986 as the reason.",
+  "tags": [
+   "1980s vintage"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "FCP",
+  "person": "Bruce Gago",
+  "email": "bgago@fcpdc.com",
+  "stage": "pass",
+  "ts": "2026-08-31T18:31:35Z",
+  "quote": "Not active in CA.",
+  "action": "Three words, geographic. Keep for anything outside California.",
+  "tags": [
+   "California"
+  ],
+  "otherAddrs": [
+   "bhurlbut@fcpdc.com",
+   "ckellogg@fcpdc.com",
+   "mlevine@fcpdc.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Barnett Capital",
+  "person": "Jordan Weiss",
+  "email": "jbweiss@barnettcapital.com",
+  "mailedTo": "eperetz@barnettcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-31T18:30:16Z",
+  "quote": "We don't invest in JV Equity deals; we focus on first mortgage lending.",
+  "action": "First-mortgage lender, not an equity partner. Reclassify out of the JV equity list.",
+  "tags": [
+   "Not an LP"
+  ],
+  "otherAddrs": [
+   "jbarnett@barnettcapital.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Loci Capital",
+  "person": "Garrett Francis",
+  "email": "gfrancis@locicapital.com",
+  "stage": "pass",
+  "ts": "2026-08-31T18:15:13Z",
+  "quote": "We don't invest in California so this will be a pass for us. Also Mike N is no longer at Loci. Please remove from distribution list.",
+  "action": "California screen plus a removal request, and Mike Nauman has left the firm. Suppress both addresses and drop Nauman from the list.",
+  "tags": [
+   "California"
+  ],
+  "suppress": true,
+  "otherAddrs": [
+   "mnauman@locicapital.com"
+  ],
+  "campaign": "institutional"
  }
 ]

@@ -154,10 +154,12 @@ function firmsReplied(reps) { return new Set(reps.map(r => r.firm)).size; }
 function rejectedNote(c) {
   const rej = (c.followUps || []).flatMap(f => f.rejectedAddrs || []);
   if (!rej.length) return "";
-  return `<br><br><b>${pl(rej.length, "recipient")} got neither follow-up.</b> Gmail rejected `
-    + `these sends outright for being over the limit instead of queueing them, so they are not `
-    + `in the batch that resumes — they sit past the point the shorter variant stopped, which `
-    + `means neither version reached them. They need a manual send: `
+  // Resolved on the resume: the same addresses were re-sent to on 31 Aug, so this is
+  // now a note about what the limit cost in delay, not a list of people still missed.
+  const done = (c.followUps || []).some(f => f.rejectedResolved);
+  return `<br><br><b>${pl(rej.length, "recipient")} were rejected outright</b> rather than queued `
+    + `when the limit hit, and ${done ? `waited three days for the resume to reach them` : `are not `
+    + `in the batch that resumes, so they need a manual send`}: `
     + rej.map(e => `<code>${esc(e)}</code>`).join(", ") + `.`;
 }
 
