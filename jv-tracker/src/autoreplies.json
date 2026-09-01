@@ -796,5 +796,23 @@
   "kind": "ooo",
   "returns": "2026-09-02",
   "note": "Out until 2 September; Sara Ward covers."
+ },
+ {
+  "firm": "Hemenway & Barnes",
+  "email": "swaelchli@hembar.com",
+  "campaign": "family-office",
+  "ts": "2026-08-31T23:44:24Z",
+  "kind": "ooo",
+  "returns": "2026-09-02",
+  "note": "Offsite in client meetings 31 Aug and 1 Sep."
+ },
+ {
+  "firm": "Hemenway & Barnes",
+  "email": "ddelaney@hembar.com",
+  "campaign": "family-office",
+  "ts": "2026-09-01T00:05:02Z",
+  "kind": "ooo",
+  "returns": "2026-09-02",
+  "note": "Out 31 Aug and 1 Sep; assistant Lucia covers."
  }
 ]

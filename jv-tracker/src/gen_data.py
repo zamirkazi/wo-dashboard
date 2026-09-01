@@ -55,7 +55,7 @@ CAMPAIGNS = [
             # still silent. It asks for a call rather than restating the deal — and it
             # went out on the mailed $71.5M basis, not the $73.5M the bidding is at.
             {"gmassId": "53111531", "stage": 2, "sentStart": "2026-08-31T15:58:38Z",
-             "sentSoFar": 216, "target": 216, "remaining": 0,
+             "sentSoFar": 216, "target": 216, "remaining": 0, "opens": 27,
              "note": "just wanted to see if we can get a call on the books to discuss this deal"},
         ],
         "inFlight": False,

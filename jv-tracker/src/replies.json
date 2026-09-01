@@ -2849,5 +2849,21 @@
    "Wants firm background"
   ],
   "campaign": "family-office"
+ },
+ {
+  "firm": "Rivergate",
+  "person": "Jay Massirman",
+  "email": "jay@rivergatere.com",
+  "otherAddrs": [
+   "humberto@rivergatere.com"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-08-31T23:32:15Z",
+  "quote": "We are developers we are not LP or CoGP capital",
+  "action": "Not a capital provider at all — they build. A list-fit error rather than a decision on the deal.",
+  "tags": [
+   "Not a capital provider"
+  ],
+  "campaign": "family-office"
  }
 ]
