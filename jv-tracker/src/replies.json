@@ -955,12 +955,14 @@
   "firm": "Max Kuriloff",
   "person": "Max Kuriloff",
   "email": "maxkuriloff@gmail.com",
-  "stage": "conditional",
-  "ts": "2026-08-27T15:18:00Z",
-  "quote": "We invest Co-GP equity. Is that something you are looking for here?",
-  "action": "Answer the co-GP question — fifth firm to raise co-GP, worth deciding the policy once.",
+  "stage": "meeting",
+  "ts": "2026-09-01T20:53:27Z",
+  "quote": "Let me know if you are looking for a programmatic Co-GP partner.",
+  "action": "BOOKED for the week of 14 September. He chased his own unanswered 26 Aug question, reframing it as a PROGRAMMATIC co-GP relationship rather than this one deal; Zamir took the call from the delivery room and Max is putting a slot on the calendar. Canyon Woods does not need co-GP, so this is a relationship conversation about the next deals, not this one — worth keeping on that footing.",
   "tags": [
-   "Structure / check size"
+   "Structure / check size",
+   "GP / co-GP capital",
+   "Programmatic"
   ],
   "campaign": "institutional"
  },
@@ -3052,6 +3054,19 @@
   "quote": "Sorry just seeing this. Looping in @Niv Henn",
   "action": "Referred straight to Niv Henn at Mountain Pacific — who is already on the board, having asked back on 26 Aug whether co-GP or pref was on the table. Two independent routes now converge on the same person, so answer him once on the thread that has both firms on it.",
   "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Namastay Development",
+  "person": "B. Wolsic",
+  "email": "bwolsic@namastaydevelopment.com",
+  "stage": "outofscope",
+  "ts": "2026-09-01T21:06:34Z",
+  "quote": "We aren't providing LP equity for deals",
+  "action": "Not an LP equity provider — a developer. List-fit, not a decision on the deal.",
+  "tags": [
+   "Not a capital provider"
+  ],
   "campaign": "institutional"
  }
 ]
