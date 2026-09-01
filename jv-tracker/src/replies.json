@@ -27,11 +27,14 @@
   "firm": "Two Sigma",
   "person": "Spencer Traver",
   "email": "Spencer.Traver@twosigma.com",
-  "stage": "question",
-  "ts": "2026-08-31T09:26:12Z",
-  "quote": "Thanks for sharing the additional information. Where did you guys submit, and do you think it gets to $71.5mm? When is the B&F?",
-  "action": "ANSWERED by Michael Regan 05:56 PT: B&F cutoff was $71M, second-round bids near $73.5M, buyer interviews decided this week, fuller memo and model to follow. Ball is with Two Sigma now — the open item is getting that memo out on the $73.5M basis, since the numbers they have are the $71.5M ones.",
-  "tags": [],
+  "stage": "pass",
+  "ts": "2026-09-01T07:55:20Z",
+  "quote": "We unfortunately aren't going to get to $71mm, and sounds like it's running beyond that level.",
+  "action": "Passed on price. Regan told them on 31 Aug that the B&F cutoff was $71M and second-round bids are near $73.5M, then sent the full deck and model; Spencer came back the next morning to say they cannot reach even $71M. The FIRST pass caused by the revised pricing rather than the mailed $71.5M basis — a live test of what the higher number does to this buyer pool, and it lost one.",
+  "tags": [
+   "Return threshold",
+   "Price"
+  ],
   "campaign": "institutional",
   "otherAddrs": [
    "Jeremy.Erdman@twosigma.com",
@@ -2876,5 +2879,21 @@
   "action": "Silent through the original and both Stage 1 follow-ups, then answered the Stage 2 call-ask by proposing a time himself — Tuesday 1 Sep at 3pm. That is TODAY, the day Zamir is out. Confirm or hand to Michael Regan now; nobody has replied.",
   "tags": [],
   "campaign": "institutional"
+ },
+ {
+  "firm": "CC Trust",
+  "person": "S. Nowak",
+  "email": "snowak@cctrust.ch",
+  "otherAddrs": [
+   "pschnieper@cctrust.ch"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-01T07:22:05Z",
+  "quote": "After reviewing the information, we have decided not to pursue the investment.",
+  "action": "Reviewed and declined off the family office follow-up. Polite, no reason given.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
  }
 ]
