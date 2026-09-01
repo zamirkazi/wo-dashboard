@@ -2895,5 +2895,21 @@
    "No reason given"
   ],
   "campaign": "family-office"
+ },
+ {
+  "firm": "Diverinvest",
+  "person": "Carol Daunert",
+  "email": "carol.daunert@diverinvest.es",
+  "otherAddrs": [
+   "david.levy@diverinvest.es"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-09-01T10:27:16Z",
+  "quote": "We are currently not offering our clients any investment opportunities in real estate outside Spain.",
+  "action": "Spain-only mandate for their clients. Geography, and a firm one.",
+  "tags": [
+   "Geography"
+  ],
+  "campaign": "family-office"
  }
 ]
