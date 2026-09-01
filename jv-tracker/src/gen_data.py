@@ -130,6 +130,7 @@ CORRECTIONS = [
     "jritter@seminolefinancialservices.com — replies from jritter@seminolefs.com",
     "dietmar.exler@ambse.com — retired 15 Aug; contact Alex Graham at AMBSE",
     "Reclassify as debt, not JV equity: Electra Capital, Twin Spruce, Bedrock, Torchlight",
+    "dwoodbury@rsfpartners.com \u2014 Dave Woodbury has left RSF; use mernst@rsfpartners.com",
     "Not LP equity providers: UDR, Stanton Road, Stoneweg, Pacific Urban, Acuity, H Equities",
 ]
 

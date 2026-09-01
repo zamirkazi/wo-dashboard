@@ -3009,5 +3009,35 @@
    "California"
   ],
   "campaign": "institutional"
+ },
+ {
+  "firm": "Rockport Equity",
+  "person": "Keith Guerraz",
+  "email": "kguerraz@rockportequity.com",
+  "stage": "pass",
+  "ts": "2026-09-01T17:27:44Z",
+  "quote": "Not for us, thank you.",
+  "action": "Four words from the Managing Partner. No reason given.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "RSF Partners",
+  "person": "Mike Ernst",
+  "email": "Mernst@rsfpartners.com",
+  "otherAddrs": [
+   "dwoodbury@rsfpartners.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-01T17:14:19Z",
+  "quote": "This deal is not a good fit for us. Returns too low, product too old.",
+  "action": "Both objections in one line — return threshold and vintage. Also: Dave Woodbury has left RSF, so drop that address from the list.",
+  "tags": [
+   "Return threshold",
+   "1980s vintage"
+  ],
+  "campaign": "institutional"
  }
 ]
