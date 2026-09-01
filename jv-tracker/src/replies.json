@@ -2069,9 +2069,9 @@
   "person": "Eric Cohen",
   "email": "Eric.Cohen@affiniuscapital.com",
   "stage": "pass",
-  "ts": "2026-08-31T15:36:53Z",
+  "ts": "2026-09-01T15:56:27Z",
   "quote": "We are not a fit here. Please don't reach out to Jeff and Craig on these matters going forward. I think I already asked you to do that last time.",
-  "action": "Second removal request from the same firm — he says he asked once before and it was not actioned. The list address is Lex Rickenbaker; suppress that plus Eric, Jeff and Craig across the whole list before any further send. This is the one reply on the board that is about process failure, not the deal.",
+  "action": "REMOVAL REQUEST IGNORED TWICE OVER. Eric Cohen asked on 31 Aug — \"Please don't reach out to Jeff and Craig on these matters going forward. I think I already asked you to do that last time\" — and the Stage 2 wave mailed Craig, Jeff and Eric AGAIN at 08:46 PT on 1 Sep. He replied within four minutes: \"Please don't reach out to this chain going forward.\" Zamir apologised from the delivery room and named the cause: replies come back with an EXTERNAL: prefix on the subject, so GMass does not match them to the original thread, counts the recipient as silent, and fires the next follow-up. That is a list-wide fault, not an Affinius one — every firm whose mail gateway rewrites subject lines will keep getting chased after they reply or ask to stop.",
   "tags": [
    "No reason given"
   ],
@@ -2927,6 +2927,72 @@
   "tags": [
    "Structure / check size",
    "No dry powder"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Sundance Bay",
+  "person": "Jeff Harris",
+  "email": "jeff.harris@sundancebay.com",
+  "mailedTo": "apeterson@sundancebay.com",
+  "otherAddrs": [
+   "andrew@sundancebay.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-01T16:02:53Z",
+  "quote": "We are really focused on 90s and newer, and tend to shy away from CA. Looking forward to reviewing the next deal.",
+  "action": "Both screens at once — 1980s vintage and California. Seventh firm to name the vintage. Left the door open for the next deal.",
+  "tags": [
+   "1980s vintage",
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "RCLCO",
+  "person": "Taylor Mammen",
+  "email": "tmammen@rclco.com",
+  "otherAddrs": [
+   "gkaufmann@rclco.com",
+   "rpollack@rclco.com"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-09-01T16:01:16Z",
+  "quote": "We don't currently have any clients who are looking for JV partners to pursue value add multifamily.",
+  "action": "An advisory firm, not a principal — they place capital for clients and none is looking for value-add MF JV right now. A list-fit issue.",
+  "tags": [
+   "Not a capital provider"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Sixth Street",
+  "person": "Billy Eichenholz",
+  "email": "BEichenholz@sixthstreet.com",
+  "mailedTo": "kheravi@sixthstreet.com",
+  "otherAddrs": [
+   "arapport@sixthstreet.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-01T15:53:35Z",
+  "quote": "Too small thanks",
+  "action": "Two words, sixty seconds after the follow-up landed. $31M is below their floor.",
+  "tags": [
+   "Structure / check size"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Wheelock Street Capital",
+  "person": "James Eberhart",
+  "email": "eberhart@wheelockst.com",
+  "mailedTo": "hodes@wheelockst.com",
+  "stage": "pass",
+  "ts": "2026-09-01T15:52:48Z",
+  "quote": "This deal is unfortunately not going to be a fit for us. Thanks for the look.",
+  "action": "Clean pass, no reason given.",
+  "tags": [
+   "No reason given"
   ],
   "campaign": "institutional"
  }
