@@ -2911,5 +2911,23 @@
    "Geography"
   ],
   "campaign": "family-office"
+ },
+ {
+  "firm": "Contrarian Capital Management",
+  "person": "Gil Tenzer",
+  "email": "tenzer@contrariancapital.com",
+  "mailedTo": "dchen@contrariancapital.com",
+  "otherAddrs": [
+   "mrader@contrariancapital.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-01T13:15:02Z",
+  "quote": "The $31MM equity check is too large for our current target check size so pass for us.",
+  "action": "Passed on size, not on the deal — he read it properly and described the business plan back accurately. Their current appetite is $3-5M unlevered strategic investments and they have no active mandate. Twentieth check-size pass; too small even for a syndicated slice.",
+  "tags": [
+   "Structure / check size",
+   "No dry powder"
+  ],
+  "campaign": "institutional"
  }
 ]
