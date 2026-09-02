@@ -3310,5 +3310,39 @@
    "No reason given"
   ],
   "campaign": "family-office"
+ },
+ {
+  "firm": "Tranquility Partners",
+  "person": "John Crawford",
+  "email": "JCrawford@tranquilitypartners.com",
+  "mailedTo": "jbaker@tranquilitypartners.com",
+  "stage": "pass",
+  "ts": "2026-09-02T18:47:32Z",
+  "quote": "Unsubscribe, please.",
+  "action": "Two words and a removal request, from the cc rather than the list contact. Suppress both addresses.",
+  "tags": [
+   "Removal request"
+  ],
+  "suppress": true,
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Clearstead",
+  "person": "Cameron Lamarche",
+  "email": "clamarche@clearstead.com",
+  "otherAddrs": [
+   "cluzier@clearstead.com",
+   "tandersen@clearstead.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-02T18:49:56Z",
+  "quote": "Not a fit. You can take us off your distribution list.",
+  "action": "Pass plus a removal request covering the firm. Their Senior Managing Director answered after two Clearstead out-of-offices had already come back on 31 Aug — a third contact at the same firm getting chased is what tipped it into a removal. The list only has adeshpande@; the mail reached at least four Clearstead people from that one entry, which is the same fan-out SlateStone objected to. Suppress the firm.",
+  "tags": [
+   "Removal request"
+  ],
+  "suppress": true,
+  "campaign": "family-office",
+  "mailedTo": "adeshpande@clearstead.com"
  }
 ]
