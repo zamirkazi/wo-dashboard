@@ -90,8 +90,8 @@ CAMPAIGNS = [
         # was a mid-send snapshot. GMass kept sending until 00:15 and the 01:55
         # report closes it at the full 674, so nothing was suppressed before send.
         "listSize": 674, "removedPreSend": 0, "sent": 674,
-        "bounces": 23, "blocks": 4, "opens": 24, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-08-31T23:06:51Z",
+        "bounces": 23, "blocks": 4, "opens": 28, "clicks": 0, "unsubs": 0,
+        "reportAt": "2026-09-02T16:02:23Z",
         "inFlight": False,
         "recipientsFile": "recipients_fo.txt",
         "followUps": [
@@ -101,8 +101,14 @@ CAMPAIGNS = [
             # on the mailed $71.5M basis, same as the institutional Stage 2 wave.
             {"gmassId": "53110961", "sentStart": "2026-08-31T15:39:10Z",
              "sentSoFar": 645, "target": 645, "remaining": 0,
-             "opens": 13, "blocks": 4,
+             "opens": 18, "blocks": 4,
              "note": "we are experienced Multifamily operators with over 10,000 units"},
+            # A second wave to the family office list, out the morning of 2 Sep, using
+            # the same call-ask copy that trebled engagement on the institutional side.
+            # 45 sent of a 628 target when the first report landed, so it is still going.
+            {"gmassId": "53149484", "stage": 2, "sentStart": "2026-09-02T15:55:23Z",
+             "sentSoFar": 45, "target": 628, "remaining": 583, "opens": 1,
+             "note": "just wanted to see if we can get a call on the books"},
         ],
         # The 11 addresses marked BOUNCED on the source sheet. GMass counts 16, so
         # five more are not yet identified by address.

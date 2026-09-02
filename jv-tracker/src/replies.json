@@ -3068,5 +3068,22 @@
    "Not a capital provider"
   ],
   "campaign": "institutional"
+ },
+ {
+  "firm": "Five Eleven Partners",
+  "person": "Gilbert Calderon",
+  "email": "Gil.Calderon@five11partners.com",
+  "mailedTo": "andy.crofton@five11partners.com",
+  "otherAddrs": [
+   "keith.feinberg@five11partners.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-02T16:01:52Z",
+  "quote": "We appreciate the offer but this is not a fit for us right now.",
+  "action": "The CIO answered rather than the list contact. Polite pass, no reason, and \"right now\" leaves the door ajar.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
  }
 ]

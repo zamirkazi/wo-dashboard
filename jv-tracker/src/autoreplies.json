@@ -814,5 +814,40 @@
   "kind": "ooo",
   "returns": "2026-09-02",
   "note": "Out 31 Aug and 1 Sep; assistant Lucia covers."
+ },
+ {
+  "firm": "Brainvest",
+  "email": "noemie@brainvest.com",
+  "campaign": "family-office",
+  "ts": "2026-09-02T15:56:47Z",
+  "kind": "ooo",
+  "returns": "2026-09-03",
+  "note": "Out until 3 Sep; Sandrina Marques covers."
+ },
+ {
+  "firm": "BGA",
+  "email": "acobb@bga.com",
+  "campaign": "family-office",
+  "ts": "2026-09-02T16:04:02Z",
+  "kind": "ooo",
+  "returns": "2026-09-03",
+  "note": "Out 2 Sep, checking email intermittently."
+ },
+ {
+  "firm": "AMB Family Office",
+  "email": "bjewkes@ambfo.com",
+  "campaign": "family-office",
+  "ts": "2026-09-02T16:05:32Z",
+  "kind": "ooo",
+  "returns": "2026-09-08",
+  "note": "On vacation through 7 Sep; Lara Fawaz or Deja Tingling cover."
+ },
+ {
+  "firm": "Wealthspire",
+  "email": "dmitriy.katsnelson@wealthspire.com",
+  "campaign": "family-office",
+  "ts": "2026-09-02T16:07:53Z",
+  "kind": "ooo",
+  "note": "Out for much of the day; Craig Amico covers."
  }
 ]
