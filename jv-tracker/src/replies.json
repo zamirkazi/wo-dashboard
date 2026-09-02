@@ -3344,5 +3344,22 @@
   "suppress": true,
   "campaign": "family-office",
   "mailedTo": "adeshpande@clearstead.com"
+ },
+ {
+  "firm": "CIG Investments",
+  "person": "Dan Velazquez",
+  "email": "dvelazquez@ciginvest.com",
+  "otherAddrs": [
+   "ekolczynski@ciginvest.com",
+   "ahornick@ciginvest.com"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-09-02T19:48:39Z",
+  "quote": "Thank you, but we're not interested in CA real estate.",
+  "action": "California, flatly. Ninth firm across both lists to name the state.",
+  "tags": [
+   "California"
+  ],
+  "campaign": "family-office"
  }
 ]
