@@ -834,20 +834,46 @@
   "note": "Out 2 Sep, checking email intermittently."
  },
  {
-  "firm": "AMB Family Office",
-  "email": "bjewkes@ambfo.com",
-  "campaign": "family-office",
-  "ts": "2026-09-02T16:05:32Z",
-  "kind": "ooo",
-  "returns": "2026-09-08",
-  "note": "On vacation through 7 Sep; Lara Fawaz or Deja Tingling cover."
- },
- {
   "firm": "Wealthspire",
   "email": "dmitriy.katsnelson@wealthspire.com",
   "campaign": "family-office",
   "ts": "2026-09-02T16:07:53Z",
   "kind": "ooo",
   "note": "Out for much of the day; Craig Amico covers."
+ },
+ {
+  "firm": "Chequers Financial",
+  "email": "Josephine.Winder@chequersfinancial.com",
+  "campaign": "family-office",
+  "ts": "2026-09-02T17:02:50Z",
+  "kind": "ooo",
+  "returns": "2026-09-03",
+  "note": "Out 2 Sep, back 3 Sep."
+ },
+ {
+  "firm": "Ewing Morris",
+  "email": "johnewing@ewingmorris.com",
+  "campaign": "family-office",
+  "ts": "2026-09-02T16:41:17Z",
+  "kind": "ooo",
+  "note": "Limited email access; Loretta Grazette covers."
+ },
+ {
+  "firm": "Aprio",
+  "email": "courtney.holt@aprio.com",
+  "campaign": "family-office",
+  "ts": "2026-09-02T16:24:19Z",
+  "kind": "ooo",
+  "returns": "2026-09-03",
+  "note": "Out 2 Sep."
+ },
+ {
+  "firm": "Buglerock",
+  "email": "nikhil.a@buglerock.asia",
+  "campaign": "family-office",
+  "ts": "2026-09-02T16:52:47Z",
+  "kind": "ooo",
+  "returns": "2026-09-07",
+  "note": "On a business trip until 7 Sep; Stefan Ho covers."
  }
 ]

@@ -3085,5 +3085,149 @@
    "No reason given"
   ],
   "campaign": "family-office"
+ },
+ {
+  "firm": "SlateStone Wealth",
+  "person": "Erin Gibbs",
+  "email": "egibbs@slatestone.com",
+  "mailedTo": "dpayne@slatestone.com",
+  "otherAddrs": [
+   "mcoady@slatestone.com",
+   "ptylander@slatestone.com",
+   "dharkin@slatestone.com",
+   "sdaniels@slatestone.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-02T17:02:39Z",
+  "quote": "You and your company have been blocked by our email system. Spamming 6 employees, none of whom are involved with private allocations... Please do not respond.",
+  "action": "DOMAIN BLOCKED. Their Chief Equity Strategist blocked zmrcapital.com outright, and the stated cause is the six-address cc block combined with three waves — the same pattern used list-wide. Suppress all six SlateStone addresses and do not reply. Her quote of the original also shows the \",.ZMR\" typo is live in the mailed copy.",
+  "tags": [
+   "Removal request",
+   "Domain blocked"
+  ],
+  "suppress": true,
+  "campaign": "family-office"
+ },
+ {
+  "firm": "AMB Family Office",
+  "person": "Brett Jewkes",
+  "email": "BJewkes@ambfo.com",
+  "otherAddrs": [
+   "kpope@ambse.com",
+   "dietmar.exler@ambse.com",
+   "andrea.demarco@ambfo.com",
+   "afranklin@ambse.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-02T16:23:21Z",
+  "quote": "No thanks.",
+  "action": "Answered from vacation eighteen minutes after his own out-of-office fired. Two words, no reason.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "GFO Investments",
+  "person": "Lidia Carrera",
+  "email": "lcarrera@gfoinvestments.com",
+  "stage": "referred",
+  "ts": "2026-09-02T17:08:24Z",
+  "quote": "I forwarded the information to our Acquisitions Department. They will be in contact with you if we are interested in moving forward.",
+  "action": "Routed internally by the controller. No name given for the acquisitions contact, so there is nobody to chase — this one sits with them.",
+  "tags": [],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Island Wealth Management",
+  "person": "Peter Culver",
+  "email": "peterculver@iwmnyc.com",
+  "stage": "outofscope",
+  "ts": "2026-09-02T17:08:30Z",
+  "quote": "As I have said before we are not interested FYI - we are in the M-Fam business",
+  "action": "Second time he has said no — \"as I have said before\" — and he is a multifamily operator himself, not a capital source. Suppress: the list has him miscategorised and he has now been chased three times.",
+  "tags": [
+   "Not a capital provider",
+   "Removal request"
+  ],
+  "suppress": true,
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Hendricks Holding Company",
+  "person": "K. Leo",
+  "email": "kleo@leo-law.com",
+  "mailedTo": "nmoser@hendricksholding.com",
+  "otherAddrs": [
+   "jcoulter@hendricksholding.com",
+   "bfox@hendricksholding.com",
+   "sbianchini@hendricksholding.com"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-09-02T17:05:06Z",
+  "quote": "HHC doesn't invest in multi-family housing. HHC has a subsidiary that develops mixed use properties including residential rental units. We aren't a good candidate for your projects.",
+  "action": "Their counsel answered. They develop mixed-use themselves rather than allocating to multifamily. List-fit.",
+  "tags": [
+   "Not multifamily"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "RWN Management",
+  "person": "Ken Glassman",
+  "email": "kglassman@rwnmgmt.com",
+  "mailedTo": "mharada@rwnmgmt.com",
+  "stage": "pass",
+  "ts": "2026-09-02T17:01:11Z",
+  "quote": "Not for us but thanks.",
+  "action": "The CEO and CIO, four words. No reason.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Edizione",
+  "person": "Christian Coco",
+  "email": "christian.coco@edizione.com",
+  "otherAddrs": [
+   "matteo.fanciullacci@edizione.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-02T16:55:42Z",
+  "quote": "Thanks, we have no interest in it",
+  "action": "Benetton family holding company, Treviso. No interest, no reason.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Wildcat Capital Management",
+  "person": "Leonard Potter",
+  "email": "lpotter@wildcatcap.com",
+  "mailedTo": "brosenblatt@wildcatcap.com",
+  "stage": "pass",
+  "ts": "2026-09-02T16:48:56Z",
+  "quote": "This would not be a fit for us at this time.",
+  "action": "Polite pass from the founder. \"At this time\" leaves it open.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "DFO Management (Dell Family Office)",
+  "person": "Alisa Mall",
+  "email": "amall@dellfamilyoffice.com",
+  "mailedTo": "jcardoso@dellfamilyoffice.com",
+  "stage": "pass",
+  "ts": "2026-09-02T16:43:12Z",
+  "quote": "Thanks this is not a fit for our portfolio.",
+  "action": "Their CIO answered directly rather than the list contact. Portfolio fit, no further reason.",
+  "tags": [
+   "Mandate"
+  ],
+  "campaign": "family-office"
  }
 ]
