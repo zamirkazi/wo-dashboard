@@ -3409,5 +3409,34 @@
    "No reason given"
   ],
   "campaign": "family-office"
+ },
+ {
+  "firm": "Blackstone Strategic Partners",
+  "person": "Ian Finlay",
+  "email": "Ian.Finlay@blackstone.com",
+  "stage": "relationship",
+  "ts": "2026-09-02T16:13:07Z",
+  "campaign": "institutional",
+  "quote": "Hi Zamir good to hear from you and let's plan to catch up post Labor Day. We're not really in the business of bidding on deals with capital partners unfortunately so this one won't be a fit for us.",
+  "action": "Second Blackstone answer, from a different desk than Scott McCallum's — Strategic Partners does not bid alongside capital partners as a matter of mandate, so this is a structural no rather than a view on Canyon Woods. He asked to catch up after Labor Day: a relationship to book a call on, not a deal to push.",
+  "tags": [
+   "Structure / check size",
+   "Keep in touch"
+  ]
+ },
+ {
+  "firm": "Thrive FP",
+  "person": "Joe Romano",
+  "email": "joe@thrivefp.com",
+  "mailedTo": "justin@thrivelend.com",
+  "stage": "pass",
+  "ts": "2026-09-01T22:09:47Z",
+  "campaign": "institutional",
+  "quote": "What is your CRM? Please update from our convo ~1 month ago. Justin's not here - we aren't looking at deals right now.",
+  "action": "Answered from the cc line for a contact who has left. Two things to fix: Justin Brogna is gone from Thrive, and Joe had already told us a month ago they are not looking at deals — the list carried neither, and three waves landed on a dead address anyway. Not a deal objection; a data-hygiene complaint with a pass attached.",
+  "tags": [
+   "Not looking now",
+   "Wrong contact"
+  ]
  }
 ]

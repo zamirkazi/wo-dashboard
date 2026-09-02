@@ -27,8 +27,8 @@ CAMPAIGNS = [
         "sentStart": "2026-08-26T21:58:24Z",
         "sentEnd": "2026-08-26T23:04:44Z",
         "listSize": 534, "removedPreSend": 83, "sent": 451,
-        "bounces": 19, "blocks": 3, "opens": 182, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-09-01T06:19:35Z",
+        "bounces": 19, "blocks": 3, "opens": 195, "clicks": 0, "unsubs": 0,
+        "reportAt": "2026-09-02T19:46:45Z",
         "followUps": [
             # Both paused on Gmail's 24h limit and resumed on 31 Aug, about five hours
             # later than the 08:18 PDT the reports predicted — the 07:08 PDT reports
@@ -54,8 +54,14 @@ CAMPAIGNS = [
             # A third wave with new copy, sent the morning of 31 Aug to the 216 who were
             # still silent. It asks for a call rather than restating the deal — and it
             # went out on the mailed $71.5M basis, not the $73.5M the bidding is at.
+            # The recipient count keeps climbing after the send — 216, then 267, now
+            # 286 — because replies arrive with an "EXTERNAL:" subject prefix that GMass
+            # cannot match to the original thread, so it reads answered recipients as
+            # silent and mails them again. That is what re-mailed Affinius after they
+            # twice asked to be removed. The fix is pausing the auto-follow-up, not
+            # adding suppressions.
             {"gmassId": "53111531", "stage": 2, "sentStart": "2026-08-31T15:58:38Z",
-             "sentSoFar": 267, "target": 267, "remaining": 0, "opens": 30,
+             "sentSoFar": 286, "target": 286, "remaining": 0, "opens": 41, "blocks": 1,
              "note": "just wanted to see if we can get a call on the books to discuss this deal"},
         ],
         "inFlight": False,
@@ -90,8 +96,8 @@ CAMPAIGNS = [
         # was a mid-send snapshot. GMass kept sending until 00:15 and the 01:55
         # report closes it at the full 674, so nothing was suppressed before send.
         "listSize": 674, "removedPreSend": 0, "sent": 674,
-        "bounces": 23, "blocks": 4, "opens": 28, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-09-02T16:02:23Z",
+        "bounces": 23, "blocks": 4, "opens": 48, "clicks": 0, "unsubs": 0,
+        "reportAt": "2026-09-02T21:23:20Z",
         "inFlight": False,
         "recipientsFile": "recipients_fo.txt",
         "followUps": [
@@ -101,13 +107,14 @@ CAMPAIGNS = [
             # on the mailed $71.5M basis, same as the institutional Stage 2 wave.
             {"gmassId": "53110961", "sentStart": "2026-08-31T15:39:10Z",
              "sentSoFar": 645, "target": 645, "remaining": 0,
-             "opens": 18, "blocks": 4,
+             "opens": 38, "blocks": 4,
              "note": "we are experienced Multifamily operators with over 10,000 units"},
             # A second wave to the family office list, out the morning of 2 Sep, using
             # the same call-ask copy that trebled engagement on the institutional side.
-            # 45 sent of a 628 target when the first report landed, so it is still going.
+            # It finished the same afternoon: all 628 out, 21 opens, 6 blocks — the
+            # highest block count any single wave has drawn.
             {"gmassId": "53149484", "stage": 2, "sentStart": "2026-09-02T15:55:23Z",
-             "sentSoFar": 45, "target": 628, "remaining": 583, "opens": 1,
+             "sentSoFar": 628, "target": 628, "remaining": 0, "opens": 21, "blocks": 6,
              "note": "just wanted to see if we can get a call on the books"},
         ],
         # The 11 addresses marked BOUNCED on the source sheet. GMass counts 16, so
@@ -132,6 +139,7 @@ CORRECTIONS = [
     "Suppress michel.schram@pggm.nl — second decline, no allocation since July",
     "abaraghoush@pacificurbaninvestors.com — Ash has left the firm",
     "njanney@redcovecap.com — Nicholas has left Red Cove; use atishkoff@redcovecap.com",
+    "justin@thrivelend.com — Justin Brogna has left Thrive FP; use joe@thrivefp.com",
     "jsharf@3650reit.com — Jeremiah has left 3650; use bthurn@3650capital.com",
     "jritter@seminolefinancialservices.com — replies from jritter@seminolefs.com",
     "dietmar.exler@ambse.com — retired 15 Aug; contact Alex Graham at AMBSE",
