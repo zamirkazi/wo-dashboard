@@ -3375,5 +3375,39 @@
    "Wants materials"
   ],
   "campaign": "family-office"
+ },
+ {
+  "firm": "Aprio Wealth Management",
+  "person": "Simeon Wallis",
+  "email": "Simeon.Wallis@aprio.com",
+  "mailedTo": "eric.flynn@aprio.com",
+  "otherAddrs": [
+   "courtney.holt@aprio.com",
+   "keith.greenwald@aprio.com",
+   "noah.marell@aprio.com"
+  ],
+  "stage": "conditional",
+  "ts": "2026-09-02T21:22:24Z",
+  "quote": "Is this available on an alternative asset platform (e.g., iCapital, Altera)? For our private investments, we focus on opportunities on those platforms as they enable scalability from operational and investment due diligence, as well as monitoring and maintenance perspectives.",
+  "action": "Their CIO stepped in over the list contact and gave a precise structural condition: they only take private investments through iCapital or Altera, because that is what makes diligence and ongoing monitoring scale for them. A direct JV cannot clear that bar. He offered the fallback of their sponsor database via a form. A distinct objection from anything else on the board — not price, vintage or geography, but the distribution channel.",
+  "tags": [
+   "Platform requirement",
+   "Structure / check size"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Darmen Group",
+  "person": "John",
+  "email": "john@darmengroup.com",
+  "mailedTo": "john@myfamilyofficepartner.com",
+  "stage": "pass",
+  "ts": "2026-09-02T21:24:45Z",
+  "quote": "This is not a fit for our team at present.",
+  "action": "Answered from darmengroup.com against a myfamilyofficepartner.com list entry — correct the roster. No reason given.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
  }
 ]
