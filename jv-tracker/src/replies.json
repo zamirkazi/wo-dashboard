@@ -3361,5 +3361,19 @@
    "California"
   ],
   "campaign": "family-office"
+ },
+ {
+  "firm": "ASG Equities",
+  "person": "Michael O'Shea",
+  "email": "moshea@asgequities.com",
+  "mailedTo": "raymond@gindieq.com",
+  "stage": "materials",
+  "ts": "2026-09-02T20:27:25Z",
+  "quote": "Send the model but we usually invest in multi family directly",
+  "action": "Asked for the model — the first materials request off the family office list. Caveats that they normally buy direct rather than through a JV, so frame it as a partnership rather than a fund allocation. Answered from the cc, not the Gindi list address.",
+  "tags": [
+   "Wants materials"
+  ],
+  "campaign": "family-office"
  }
 ]
