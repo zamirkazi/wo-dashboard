@@ -875,5 +875,22 @@
   "kind": "ooo",
   "returns": "2026-09-07",
   "note": "On a business trip until 7 Sep; Stefan Ho covers."
+ },
+ {
+  "firm": "Finvia",
+  "email": "m.sonnleitner@finvia.fo",
+  "campaign": "family-office",
+  "ts": "2026-09-02T17:28:27Z",
+  "kind": "ooo",
+  "returns": "2026-09-04",
+  "note": "Out 2-3 Sep, back 4 Sep; no auto-forwarding."
+ },
+ {
+  "firm": "Kislak",
+  "email": "cqueralt@kislak.com",
+  "campaign": "family-office",
+  "ts": "2026-09-02T17:23:44Z",
+  "kind": "left",
+  "note": "Mailbox no longer monitored regularly — this address is effectively dead; contact the main office instead."
  }
 ]

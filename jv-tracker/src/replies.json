@@ -3229,5 +3229,86 @@
    "Mandate"
   ],
   "campaign": "family-office"
+ },
+ {
+  "firm": "LI Family Office",
+  "person": "Simon",
+  "email": "info@lifamilyoffice.com",
+  "mailedTo": "simon@lifamilyoffice.com",
+  "stage": "pass",
+  "ts": "2026-09-02T17:45:09Z",
+  "quote": "I am expecting significant falls in US RE prices, so am happy to sit back and wait",
+  "action": "A market-timing pass — the first one on either list to say the price is going the wrong way rather than that the deal is off-mandate. Sits alongside Two Sigma's price walk as the second reply arguing the basis, not the fit.",
+  "tags": [
+   "Market timing"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "TJFO",
+  "person": "Rhett Madison",
+  "email": "RMadison@tjfo.com",
+  "mailedTo": "rmadison@tjfo.net",
+  "otherAddrs": [
+   "ycoquoz@tjfo.net",
+   "YCoquoz@tjfo.com"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-09-02T17:26:29Z",
+  "quote": "We do not invest in real estate. Please unsubscribe us both.",
+  "action": "Not a real estate investor at all, and an explicit removal request for both addresses. Note the list has them on .net while they actually reply from .com — suppress all four permutations.",
+  "tags": [
+   "Not a capital provider",
+   "Removal request"
+  ],
+  "suppress": true,
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Agman Partners",
+  "person": "H.S.S.",
+  "email": "hss@agmanpartners.com",
+  "mailedTo": "scott.silverman@agmanpartners.com",
+  "otherAddrs": [
+   "emw@agmanpartners.com"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-09-02T17:22:07Z",
+  "quote": "We have our own multi family development and acquisition team (metonic). We also do property management. If you're interested in chatting with our property management group (Seldin Company), happy to connect you.",
+  "action": "Not a capital source — they own Metonic (development/acquisition) and Seldin (property management), and offered an introduction to Seldin instead. Not equity for Canyon Woods, but a genuine offer worth a courteous answer given ZMR runs 10,000+ units.",
+  "tags": [
+   "Not a capital provider"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "THI Investments",
+  "person": "Mihir Kotecha",
+  "email": "m.kotecha@thi-investments.com",
+  "stage": "pass",
+  "ts": "2026-09-02T17:21:55Z",
+  "quote": "Not a fit for us. Thanks.",
+  "action": "Four words, no reason.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "JPB Partners",
+  "person": "Mary Glagola",
+  "email": "mary.glagola@jpbpartners.com",
+  "mailedTo": "jay.jang@jpbpartners.com",
+  "otherAddrs": [
+   "jim.bolduc@jpbpartners.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-02T17:16:09Z",
+  "quote": "Thank you, we are not interested.",
+  "action": "Their CAO answered. No reason.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
  }
 ]
