@@ -3495,5 +3495,22 @@
    "No reason given",
    "Wrong contact"
   ]
+ },
+ {
+  "firm": "Procedo Capital",
+  "person": "Per Johansson",
+  "email": "Per.Johansson@procedo.se",
+  "otherAddrs": [
+   "Gustav.Hertzberg@procedo.se"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-09-03T07:14:29Z",
+  "campaign": "family-office",
+  "quote": "This is not interesting to us. We do primarily direct RE investments in Europe.",
+  "action": "Swedish family office: direct European real estate only, so US JV equity is off-mandate on two counts at once — geography and structure. Nothing to rework.",
+  "tags": [
+   "Geography / market",
+   "Structure / check size"
+  ]
  }
 ]
