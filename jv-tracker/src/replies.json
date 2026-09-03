@@ -3460,5 +3460,21 @@
   "tags": [
    "No reason given"
   ]
+ },
+ {
+  "firm": "GANMI",
+  "person": "Eric",
+  "email": "eric@ganmi.us",
+  "otherAddrs": [
+   "casey@ganmi.us"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-03T04:46:52Z",
+  "campaign": "family-office",
+  "quote": "sorry no interest thanks",
+  "action": "No reason given, on the third touch. Nothing to work with.",
+  "tags": [
+   "No reason given"
+  ]
  }
 ]
