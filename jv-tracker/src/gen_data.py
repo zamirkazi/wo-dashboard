@@ -97,7 +97,7 @@ CAMPAIGNS = [
         # report closes it at the full 674, so nothing was suppressed before send.
         "listSize": 674, "removedPreSend": 0, "sent": 674,
         "bounces": 23, "blocks": 4, "opens": 52, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-09-03T05:47:00Z",
+        "reportAt": "2026-09-03T06:55:20Z",
         "inFlight": False,
         "recipientsFile": "recipients_fo.txt",
         "followUps": [
