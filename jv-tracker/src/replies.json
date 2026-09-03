@@ -3443,5 +3443,22 @@
    "Not looking now",
    "Wrong contact"
   ]
+ },
+ {
+  "firm": "Kin Group",
+  "person": "Nick Perkins",
+  "email": "nick@kingroup.com.au",
+  "mailedTo": "tristan@kingroup.com.au",
+  "otherAddrs": [
+   "daniel@kingroupusa.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-03T00:20:32Z",
+  "campaign": "family-office",
+  "quote": "no, not for us.",
+  "action": "The CEO of an Australian family office answering for the three people on the list. No reason given, and their US entity (kingroupusa.com) was on the cc, so the domestic arm saw it too. Nothing to work with.",
+  "tags": [
+   "No reason given"
+  ]
  }
 ]
