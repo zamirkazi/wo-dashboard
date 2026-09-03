@@ -3542,5 +3542,22 @@
    "Wants a call",
    "Keep in touch"
   ]
+ },
+ {
+  "firm": "B Equities",
+  "person": "Michael Bacon",
+  "email": "michael.bacon@bequities.com",
+  "mailedTo": "rishi.bhansali@bequities.com",
+  "otherAddrs": [
+   "shai.manor@bequities.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-03T16:55:15Z",
+  "campaign": "family-office",
+  "quote": "Thanks for the outreach. We are going to pass on the opportunity. Thank you.",
+  "action": "Answered from the cc line for the list contact. No reason given.",
+  "tags": [
+   "No reason given"
+  ]
  }
 ]
