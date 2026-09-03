@@ -2073,18 +2073,21 @@
  },
  {
   "firm": "Affinius Capital",
-  "person": "Eric Cohen",
-  "email": "Eric.Cohen@affiniuscapital.com",
-  "stage": "pass",
-  "ts": "2026-09-01T15:56:27Z",
-  "quote": "We are not a fit here. Please don't reach out to Jeff and Craig on these matters going forward. I think I already asked you to do that last time.",
-  "action": "REMOVAL REQUEST IGNORED TWICE OVER. Eric Cohen asked on 31 Aug — \"Please don't reach out to Jeff and Craig on these matters going forward. I think I already asked you to do that last time\" — and the Stage 2 wave mailed Craig, Jeff and Eric AGAIN at 08:46 PT on 1 Sep. He replied within four minutes: \"Please don't reach out to this chain going forward.\" Zamir apologised from the delivery room and named the cause: replies come back with an EXTERNAL: prefix on the subject, so GMass does not match them to the original thread, counts the recipient as silent, and fires the next follow-up. That is a list-wide fault, not an Affinius one — every firm whose mail gateway rewrites subject lines will keep getting chased after they reply or ask to stop.",
+  "person": "Lex Rickenbaker",
+  "email": "Lex.Rickenbaker@affiniuscapital.com",
+  "stage": "meeting",
+  "ts": "2026-09-03T15:35:14Z",
+  "quote": "Zamir - thanks for follow up. I moved Pete, David and Elliot to BCC. Want to chat on Tuesday? I am open from 12-3 EST",
+  "action": "CALL AGREED, Tuesday 8 Sep, any time 12-3 EST — Zamir accepted at 15:50 and asked Lex to send the invite, so the invite is owed to us and worth chasing if it has not landed by Friday. Affinius is two separate desks and only one of them said no: Eric Cohen asked twice that Jeff and Craig be left alone, and the Stage 2 wave mailed them again anyway. Lex Rickenbaker (Managing Director, Investments, Atlanta) is a different team, has read the deal across three touches, and moved his own colleagues to BCC to take it forward. Suppress Eric's chain only — Eric, Jeff and Craig — and keep Lex live. His reply also proves the EXTERNAL: subject rewrite first-hand: the thread he answered reads \"Re: EXTERNAL:Re: Bay Area MF JV Equity...\", which is exactly why GMass could not match the earlier replies and kept firing.",
   "tags": [
-   "No reason given"
+   "Wants a call",
+   "Removal request"
   ],
-  "suppress": true,
   "campaign": "institutional",
-  "mailedTo": "lex.rickenbaker@affiniuscapital.com"
+  "mailedTo": "lex.rickenbaker@affiniuscapital.com",
+  "otherAddrs": [
+   "Eric.Cohen@affiniuscapital.com"
+  ]
  },
  {
   "firm": "Westport Capital Partners",
@@ -3511,6 +3514,19 @@
   "tags": [
    "Geography / market",
    "Structure / check size"
+  ]
+ },
+ {
+  "firm": "Palatine Capital Partners",
+  "person": "Michael Sacks",
+  "email": "msacks@pal-partners.com",
+  "stage": "pass",
+  "ts": "2026-09-03T15:23:06Z",
+  "campaign": "institutional",
+  "quote": "Sorry for the delay. Thanks for sending, but CA is not a market we are active in for residential at the moment.",
+  "action": "Second Palatine answer, matching Jason Betesh's a week earlier: California residential is off the table for them right now. Consistent at firm level, so treat Palatine as closed rather than worth a second approach.",
+  "tags": [
+   "California"
   ]
  }
 ]

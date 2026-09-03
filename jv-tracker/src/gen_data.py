@@ -27,8 +27,8 @@ CAMPAIGNS = [
         "sentStart": "2026-08-26T21:58:24Z",
         "sentEnd": "2026-08-26T23:04:44Z",
         "listSize": 534, "removedPreSend": 83, "sent": 451,
-        "bounces": 19, "blocks": 3, "opens": 195, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-09-02T19:46:45Z",
+        "bounces": 19, "blocks": 3, "opens": 196, "clicks": 0, "unsubs": 0,
+        "reportAt": "2026-09-03T15:23:48Z",
         "followUps": [
             # Both paused on Gmail's 24h limit and resumed on 31 Aug, about five hours
             # later than the 08:18 PDT the reports predicted — the 07:08 PDT reports
@@ -61,7 +61,7 @@ CAMPAIGNS = [
             # twice asked to be removed. The fix is pausing the auto-follow-up, not
             # adding suppressions.
             {"gmassId": "53111531", "stage": 2, "sentStart": "2026-08-31T15:58:38Z",
-             "sentSoFar": 286, "target": 286, "remaining": 0, "opens": 41, "blocks": 1,
+             "sentSoFar": 286, "target": 286, "remaining": 0, "opens": 42, "blocks": 1,
              "note": "just wanted to see if we can get a call on the books to discuss this deal"},
         ],
         "inFlight": False,
@@ -141,6 +141,7 @@ CORRECTIONS = [
     "njanney@redcovecap.com — Nicholas has left Red Cove; use atishkoff@redcovecap.com",
     "justin@thrivelend.com — Justin Brogna has left Thrive FP; use joe@thrivefp.com",
     "Arkin Holdings has moved domain — use nir@arkin-capital.com and hani@arkin-capital.com, not arkinholdings.com",
+    "Affinius: suppress Eric Cohen, Jeff and Craig only — Lex Rickenbaker's desk is live and has a call booked",
     "jsharf@3650reit.com — Jeremiah has left 3650; use bthurn@3650capital.com",
     "jritter@seminolefinancialservices.com — replies from jritter@seminolefs.com",
     "dietmar.exler@ambse.com — retired 15 Aug; contact Alex Graham at AMBSE",
