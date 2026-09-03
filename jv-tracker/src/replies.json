@@ -1252,17 +1252,22 @@
  },
  {
   "firm": "Sabal",
-  "person": "Tal Seder",
-  "email": "Tal.Seder@sabal.com",
+  "person": "Erik Kolar",
+  "email": "erik.kolar@sabal.com",
   "mailedTo": "drake.ayres@sabal.com",
-  "stage": "materials",
-  "ts": "2026-08-28T01:28:13Z",
-  "quote": "Mike/Erik — please have a look when you can. Zamir — please provide more details.",
-  "action": "Regan sent the updated LP Investor Deck and the underlying model on 31 Aug and offered a call. Waiting on Sabal.",
+  "stage": "pass",
+  "ts": "2026-09-02T19:45:37Z",
+  "quote": "We took a look through the data room and it came down to the shape of the return rather than the quality of the asset: at roughly $372K per unit for 1986 vintage and small units, the business plan requires the bulk of the loss-to-lease to be captured inside the first two years plus an exit inside the going-in cap, which puts us mid-teens net to the LP with most of the profit at sale. This is not the deal profile for us in our opportunistic fund.",
+  "action": "The most substantive underwriting objection either list has produced, and the only one from a firm that read the model. Sabal took the deck and model on 31 Aug, worked the data room, and came back with a specific critique: the return is back-ended. Most of the profit sits at sale, the loss-to-lease has to be captured inside two years, and the exit is inside the going-in cap — mid-teens net to the LP, which does not clear an opportunistic fund's bar. Two things follow. First, this is the answer to expect from every opportunistic fund on the list, so route the remaining conversations to core-plus and value-add capital instead. Second, the critique gets worse at $73.5M, not better, because the extra $2M of basis lands entirely on the equity. Worth asking Erik what would have made it work — he read it closely enough that the answer is usable.",
   "tags": [
-   "Wants materials"
+   "Return profile",
+   "Basis / price",
+   "Marketed deal"
   ],
-  "campaign": "institutional"
+  "campaign": "institutional",
+  "otherAddrs": [
+   "Tal.Seder@sabal.com"
+  ]
  },
  {
   "firm": "Aceana Group",
