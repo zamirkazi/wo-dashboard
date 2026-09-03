@@ -3476,5 +3476,23 @@
   "tags": [
    "No reason given"
   ]
+ },
+ {
+  "firm": "Arkin Holdings",
+  "person": "Nir Arkin",
+  "email": "nir@arkin-capital.com",
+  "mailedTo": "nir@arkinholdings.com",
+  "otherAddrs": [
+   "hani@arkin-capital.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-03T05:46:22Z",
+  "campaign": "family-office",
+  "quote": "Hi, no interest from our side, sorry.",
+  "action": "The Herzliya family office. No reason given. The firm has moved from arkinholdings.com to arkin-capital.com — both Nir and Hani answered on the new domain, so correct the roster.",
+  "tags": [
+   "No reason given",
+   "Wrong contact"
+  ]
  }
 ]

@@ -96,8 +96,8 @@ CAMPAIGNS = [
         # was a mid-send snapshot. GMass kept sending until 00:15 and the 01:55
         # report closes it at the full 674, so nothing was suppressed before send.
         "listSize": 674, "removedPreSend": 0, "sent": 674,
-        "bounces": 23, "blocks": 4, "opens": 51, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-09-03T04:47:19Z",
+        "bounces": 23, "blocks": 4, "opens": 52, "clicks": 0, "unsubs": 0,
+        "reportAt": "2026-09-03T05:47:00Z",
         "inFlight": False,
         "recipientsFile": "recipients_fo.txt",
         "followUps": [
@@ -107,14 +107,14 @@ CAMPAIGNS = [
             # on the mailed $71.5M basis, same as the institutional Stage 2 wave.
             {"gmassId": "53110961", "sentStart": "2026-08-31T15:39:10Z",
              "sentSoFar": 645, "target": 645, "remaining": 0,
-             "opens": 41, "blocks": 4,
+             "opens": 42, "blocks": 4,
              "note": "we are experienced Multifamily operators with over 10,000 units"},
             # A second wave to the family office list, out the morning of 2 Sep, using
             # the same call-ask copy that trebled engagement on the institutional side.
             # It finished the same afternoon: all 628 out, 21 opens, 6 blocks — the
             # highest block count any single wave has drawn.
             {"gmassId": "53149484", "stage": 2, "sentStart": "2026-09-02T15:55:23Z",
-             "sentSoFar": 628, "target": 628, "remaining": 0, "opens": 24, "blocks": 6,
+             "sentSoFar": 628, "target": 628, "remaining": 0, "opens": 25, "blocks": 6,
              "note": "just wanted to see if we can get a call on the books"},
         ],
         # The 11 addresses marked BOUNCED on the source sheet. GMass counts 16, so
@@ -140,6 +140,7 @@ CORRECTIONS = [
     "abaraghoush@pacificurbaninvestors.com — Ash has left the firm",
     "njanney@redcovecap.com — Nicholas has left Red Cove; use atishkoff@redcovecap.com",
     "justin@thrivelend.com — Justin Brogna has left Thrive FP; use joe@thrivefp.com",
+    "Arkin Holdings has moved domain — use nir@arkin-capital.com and hani@arkin-capital.com, not arkinholdings.com",
     "jsharf@3650reit.com — Jeremiah has left 3650; use bthurn@3650capital.com",
     "jritter@seminolefinancialservices.com — replies from jritter@seminolefs.com",
     "dietmar.exler@ambse.com — retired 15 Aug; contact Alex Graham at AMBSE",
