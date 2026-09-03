@@ -1,0 +1,560 @@
+
+const STAGE = {
+  meeting:      {label:"Meeting set",     blurb:"Already talking"},
+  materials:    {label:"Wants package",   blurb:"Asked for the deck, model or OM"},
+  question:     {label:"Asked a question",blurb:"Answer and the conversation continues"},
+  conditional:  {label:"Yes, but",        blurb:"Interested at a different size or structure"},
+  reviewing:    {label:"Under review",    blurb:"Diligencing on their own, nothing asked for yet"},
+  referred:     {label:"Routed onward",   blurb:"Handed to the colleague who covers this"},
+  relationship: {label:"Relationship",    blurb:"Not about the deal, still worth the reply"},
+  pass:         {label:"Passed",          blurb:"Declined"},
+  outofscope:   {label:"Not an LP",       blurb:"Wrong firm type for a JV equity ask"}
+};
+const LIVE = ["meeting","materials","question","conditional","reviewing"];
+const ROUTED = ["referred","relationship"];
+const CLOSED = ["pass","outofscope"];
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = ts => new Date(ts).toLocaleString("en-US",
+  {month:"short",day:"numeric",hour:"numeric",minute:"2-digit",hour12:true});
+const pl = (k, one, many) => `${k} ${k === 1 ? one : (many || one + "s")}`;
+
+const CAMP = {}; D.campaigns.forEach(c => CAMP[c.id] = c);
+const d = D.deal;
+
+let cohort = "all";                    // "all" | campaign id
+let stageFilter = "all";
+let query = "";
+let view = D.replies;                  // the rows the whole page describes
+
+const cnt   = st => view.filter(r => r.stage === st).length;
+const sum   = a  => a.reduce((t, s) => t + cnt(s), 0);
+const camps = () => D.campaigns.filter(c => cohort === "all" || c.id === cohort);
+// "delivered" only means something once a campaign has finished sending
+const deliveredFor = c => c.inFlight ? null : c.sent - c.bounces - c.blocks;
+
+/* ---------- static chrome ---------- */
+$("#updated").textContent = "Data as of " + fmt(D.generatedAt);
+$("#freshness").textContent =
+  ((new Date(D.generatedAt) - new Date(D.campaigns[0].sentStart)) / 36e5).toFixed(0) + "H AFTER FIRST SEND";
+$("#spec").innerHTML = [
+  ["Units", d.units], ["Built", d.year], ["Price", d.price], ["Per door", d.perDoor],
+  ["Equity need", d.equity], ["Debt", d.loan], ["LTC", d.ltc],
+  ["Levered IRR", d.irr], ["Multiple", d.multiple], ["Occupancy", d.occupancy]
+].map(([k,v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("");
+$("#eqneed").textContent = d.equity;
+
+// The spec strip is the basis that was mailed to 1,125 people. When the bidding
+// moves past it, saying so beside the numbers matters more than the numbers do.
+if (d.bidUpdate) {
+  $("#bidnote").innerHTML =
+    `<div class="pending" style="margin-top:16px">`
+  + `<b>Pricing has moved past this spec.</b> ${esc(d.bidUpdate.note)} `
+  + `<span style="color:var(--ink-3)">Confirmed to a partner ${fmt(d.bidUpdate.asOf)}.</span>`
+  + `</div>`;
+}
+$("#eyebrow").textContent =
+  `JV equity outreach · ${pl(D.campaigns.length, "campaign")} · ${esc(d.name)}, ${esc(d.address.split(", ").slice(-2).join(", "))}`;
+$("#subtitle").textContent =
+  `Live response tracking for the ${d.equity} JV equity raise on ${d.name}, San Ramon. Every reply to `
++ `${D.campaigns.length === 1 ? "the blast" : "both blasts"}, sorted by what the partner actually asked for. `
++ `Coverage is reported per campaign; the priority queue is pooled, because the raise is one raise.`;
+
+/* ---------- cohort switcher ---------- */
+$("#cohort").innerHTML =
+  `<button class="cbtn" data-c="all" aria-pressed="true">All campaigns <b>${D.replies.length}</b></button>`
++ D.campaigns.map(c =>
+    `<button class="cbtn" data-c="${esc(c.id)}" aria-pressed="false">`
+  + `${c.inFlight ? '<span class="live-dot"></span>' : ''}${esc(c.label)} <b>${c.replyCount}</b></button>`
+  ).join("");
+$("#cohort").addEventListener("click", e => {
+  const b = e.target.closest(".cbtn"); if (!b) return;
+  cohort = b.dataset.c;
+  document.querySelectorAll(".cbtn").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+  renderAll();
+});
+
+/* ---------- coverage: one block per campaign, never pooled ---------- */
+function renderFunnels() {
+  $("#funnels").innerHTML = camps().map(c => {
+    const reps = D.replies.filter(r => r.campaign === c.id);
+    const live = reps.filter(r => LIVE.includes(r.stage)).length;
+    const head = `<div class="fhead"><div><h3>${esc(c.label)}</h3>`
+      + `<p class="sub">&ldquo;${esc(c.subject)}&rdquo;</p></div>`
+      + (c.inFlight
+          ? `<span class="inflight"><span class="dot"></span>Sending now</span>`
+          : `<p class="sub">Sent ${fmt(c.sentStart)}</p>`) + `</div>`;
+
+    if (!c.inFlight && !c.reconciled) {
+      const a = c.autoCounts;
+      const steps2 = [
+        ...(c.listSize ? [{l:"On the list", s:"Source list", v:c.listSize, c:"var(--seq-1)"}] : []),
+        {l:"Sent", s:!c.listSize ? "GMass reported no pre-send breakdown"
+                  : c.removedPreSend ? c.removedPreSend + " suppressed before send"
+                                     : "everyone on the list was mailed", v:c.sent, c:"var(--seq-2)"},
+        {l:"Delivered", s:`${c.bounces} bounced, ${c.blocks} blocked`, v:deliveredFor(c), c:"var(--seq-3)"},
+        {l:"Replied", s:pl(firmsReplied(reps), "firm") + " wrote back about the deal",
+         v:firmsReplied(reps), c:"var(--seq-4)"},
+        {l:"Still live", s:"Open conversations you can move", v:live, c:"var(--seq-5)"}
+      ];
+      const top2 = steps2[0].v;
+      return `<div class="fblock">${head}<div class="funnel">` + steps2.map(s => `
+        <div class="frow">
+          <div class="fl"><b>${esc(s.l)}</b>${esc(s.s)}</div>
+          <div class="ftrack"><div class="fbar" style="width:${(100*s.v/top2).toFixed(2)}%;background:${s.c}"></div></div>
+          <div class="fval">${s.v} <span>${(100*s.v/top2).toFixed(1)}%</span></div>
+        </div>`).join("") + `</div><div class="pending" style="margin-top:14px">`
+        + `<b>${a.ooo} out of office, ${a.left} contacts who have left the firm, ${a.bounce} undeliverable</b> `
+        + `have answered automatically. The addresses on the list have not been enumerated yet, so this `
+        + `campaign has no named no-reply roster to work — only the counts above.`
+        + `</div></div>`;
+    }
+    if (c.inFlight) {
+      const a = c.autoCounts, tot = a.ooo + a.left + a.bounce;
+      return `<div class="fblock">${head}<div class="pending">`
+        + `Send began ${fmt(c.sentStart)} and is still running, so there is no final recipient count, `
+        + `bounce count or open rate yet. <b>${pl(reps.length, "reply", "replies")} about the deal</b> so far`
+        + (reps.length ? `, ${live} of them live` : "") + `. `
+        + (tot ? `Everything else that has come back is automatic: <b>${a.ooo} out of office</b>, `
+               + `${a.left} contacts who have left the firm, ${a.bounce} undeliverable. ` : "")
+        + `The roster and delivery figures fill in once GMass reports the campaign complete.`
+        + `</div></div>`;
+    }
+    const steps = [
+      ...(c.listSize ? [{l:"On the list", s:"Source list", v:c.listSize, c:"var(--seq-1)"}] : []),
+      {l:"Sent", s:!c.listSize ? "GMass reported no pre-send breakdown"
+                : c.removedPreSend ? c.removedPreSend + " suppressed before send"
+                                   : "everyone on the list was mailed", v:c.sent, c:"var(--seq-2)"},
+      {l:"Delivered", s:`${c.bounces} bounced, ${c.blocks} blocked`, v:deliveredFor(c), c:"var(--seq-3)"},
+      {l:"Replied", s:pl(firmsReplied(reps), "firm") + " wrote back"
+                     + (reps.length !== firmsReplied(reps)
+                        ? `, across ${reps.length} contacts` : ""),
+       v:firmsReplied(reps), c:"var(--seq-4)"},
+      {l:"Still live", s:"Open conversations you can move today", v:live, c:"var(--seq-5)"}
+    ];
+    const top = steps[0].v;
+    return `<div class="fblock">${head}<div class="funnel">` + steps.map(s => `
+      <div class="frow">
+        <div class="fl"><b>${esc(s.l)}</b>${esc(s.s)}</div>
+        <div class="ftrack"><div class="fbar" style="width:${(100*s.v/top).toFixed(2)}%;background:${s.c}"></div></div>
+        <div class="fval">${s.v} <span>${(100*s.v/top).toFixed(1)}%</span></div>
+      </div>`).join("") + `</div>` + followUpNote(c, reps) + `</div>`;
+  }).join("");
+}
+
+// A follow-up is a second touch on the same list, not a new audience, so it hangs
+// off its campaign instead of becoming a cohort. Its replies are already counted
+// in the funnel above; what it adds is how much of the movement is due to it.
+function firmsReplied(reps) { return new Set(reps.map(r => r.firm)).size; }
+
+// Gmail rejected the last few sends outright rather than queueing them, and the
+// only record is a mailer-daemon notice that Gmail's own filters route out of the
+// inbox. These people are not in the queue GMass will resume; they were skipped.
+function rejectedNote(c) {
+  const rej = (c.followUps || []).flatMap(f => f.rejectedAddrs || []);
+  if (!rej.length) return "";
+  // Resolved on the resume: the same addresses were re-sent to on 31 Aug, so this is
+  // now a note about what the limit cost in delay, not a list of people still missed.
+  const done = (c.followUps || []).some(f => f.rejectedResolved);
+  return `<br><br><b>${pl(rej.length, "recipient")} were rejected outright</b> rather than queued `
+    + `when the limit hit, and ${done ? `waited three days for the resume to reach them` : `are not `
+    + `in the batch that resumes, so they need a manual send`}: `
+    + rej.map(e => `<code>${esc(e)}</code>`).join(", ") + `.`;
+}
+
+function followUpNote(c, reps) {
+  if (!c.followUps || !c.followUps.length) return "";
+  const first = c.followUps.map(f => f.sentStart).sort()[0];
+  const since = reps.filter(r => r.ts >= first).length;
+  // Both variants address the same non-responders, so the audience is the largest
+  // target, never the sum — adding them would invent recipients who do not exist.
+  const sent = Math.max(...c.followUps.map(f => f.sentSoFar));
+  const target = Math.max(...c.followUps.map(f => f.target));
+  const dup = c.followUps.length > 1;
+  const paused = c.followUps.filter(f => f.resumesAt && f.remaining);
+  const resumed = c.followUps.filter(f => f.resumedAt);
+  return `<div class="pending" style="margin-top:14px">`
+    + `<b>Follow-up ${paused.length === c.followUps.length ? "paused" : "in flight"}</b> `
+    + `since ${fmt(first)} — a second touch to ${target} `
+    + `non-responders, ${sent} reached so far, and <b>${pl(since, "reply", "replies")}</b> `
+    + `${since === 1 ? "has" : "have"} landed since. That is the wave working: the list had `
+    + `gone quiet for hours before it. `
+    + (dup ? `It went out as ${c.followUps.length} variants about a minute apart to the same `
+           + `people, so each of them received two follow-ups back to back. ` : "")
+    + (resumed.length
+        ? `<br><br><b>Both variants resumed on ${fmt(resumed[0].resumedAt)}</b> after pausing on `
+        + `the Gmail 24-hour limit, and are now all but complete — `
+        + `${resumed.reduce((t,f) => t + f.remaining, 0)} still to go across them. The pause did `
+        + `not de-duplicate anything: the two variants went out together again, about a minute `
+        + `apart, so everyone in the resumed batch received both.`
+        : "")
+    + rejectedNote(c)
+    + `</div>`;
+}
+
+/* ---------- headline + KPIs ---------- */
+function renderHeadline() {
+  const liveN = sum(LIVE);
+  const tally = {};
+  view.forEach(r => r.tags.forEach(x => tally[x] = (tally[x]||0) + 1));
+  const top = Object.entries(tally).sort((a,b) => b[1] - a[1])[0];
+  const sizeLive = view.filter(r =>
+    r.tags.includes("Structure / check size") && LIVE.includes(r.stage)).length;
+  const flight = camps().filter(c => c.inFlight);
+
+  if (!view.length) {
+    const c = camps()[0];
+    const autos = c ? c.autoReplies : [];
+    const back = autos.filter(a => a.kind === "ooo" && a.returns).map(a => a.returns).sort();
+    let msg = c && c.inFlight
+      ? `<b>${esc(c.label)} is sending now.</b> The first message went out ${fmt(c.sentStart)}. `
+        + `No answers about the deal yet &mdash; the institutional campaign's first came 16 minutes in.`
+      : `No replies in this cohort yet.`;
+    if (autos.length) {
+      const ooo = autos.filter(a => a.kind === "ooo").length;
+      msg += `<br><br><b>${ooo} of the first ${autos.length} responses are out-of-office replies</b>, and `
+           + (back.length
+              ? `most name a return date of ${fmt(back[0] + "T12:00:00Z").replace(/,.*/, "")} to `
+                + `${fmt(back[back.length-1] + "T12:00:00Z").replace(/,.*/, "")}. `
+              : "")
+           + `This send is landing in the last week of August, when much of this cohort is away. `
+           + `Read the response rate on this campaign from the week of 1 September, not from tonight &mdash; `
+           + `and a follow-up that week will reach people the first mail never did.`;
+    }
+    $("#headline").innerHTML = msg;
+    $("#livecount").textContent = 0;
+    $("#replycount").textContent = 0;
+    $("#kpis").innerHTML = `<div class="kpi"><div class="n mono">0</div>`
+      + `<div class="lbl">Replies so far</div><div class="note">Nothing to report in this cohort yet</div></div>`;
+    return;
+  }
+  const autos = camps().flatMap(c => c.autoReplies || []);
+  const ooo = autos.filter(a => a.kind === "ooo").length;
+  const back = autos.filter(a => a.kind === "ooo" && a.returns).map(a => a.returns).sort();
+  const day = iso => fmt(iso + "T12:00:00Z").replace(/,[^,]*$/, "");
+
+  let s = `<b>${pl(liveN, "live conversation")}</b> out of ${pl(view.length, "reply", "replies")}`
+        + (cohort === "all" ? " across both campaigns" : "") + `.`;
+
+  // only claim a cap-rate bottleneck when there is actually a cluster waiting on one
+  if (cnt("materials") || cnt("question")) {
+    s += ` ${cnt("materials")} ${cnt("materials") === 1 ? "firm has" : "firms have"} asked for the package`
+       + (cnt("question") ? ` and ${cnt("question")} ${cnt("question") === 1 ? "has" : "have"} asked a `
+                          + `pricing question, most of those turning on the going-in cap rate. `
+                          + `Sending the package and that one number clears the largest actionable `
+                          + `block on the board` : "")
+       + `.`;
+  }
+  if (top) {
+    // The tag is already display-cased; lowercasing it turned California into california.
+    s += `<br><br>The leading objection is <b>${esc(top[0])}</b>, cited by ${pl(top[1], "firm")}. `;
+    // What follows has to follow from whichever objection actually leads. California
+    // and check size point in opposite directions: one you can restructure around,
+    // the other you cannot.
+    if (top[0] === "California") {
+      s += `That is a market call rather than a view on this asset, and the firms who explain it `
+         + `name state regulation, not price &mdash; so no change to the structure or the ask `
+         + `answers it. Treat this cohort as a filter on the next deal's geography.`;
+    }
+    if (sizeLive) {
+      s += `${top[0] === "California" ? "<br><br>" : ""}${sizeLive} of the firms raising size or `
+         + `structure are <b>still live</b> on co-GP, pref, or a partial check &mdash; the `
+         + `single-check ${esc(d.equity)} ask is the obstacle you can restructure your way out of `
+         + `rather than lose to.`;
+    }
+  }
+  // A hurdle-rate cluster is worth its own sentence: it is the one objection that is
+  // neither geography nor structure, and it is a straight read on this deal's 17.1%.
+  const hurdle = view.filter(r => r.tags.includes("Return threshold"));
+  if (hurdle.length >= 3) {
+    s += `<br><br><b>${pl(hurdle.length, "firm")} passed on the return itself</b>, several naming a `
+       + `20% target against the ${esc(d.irr)} here. That is the one objection neither a different `
+       + `structure nor a different market fixes.`;
+  }
+  if (ooo >= 5) {
+    s += `<br><br><b>${ooo} recipients have replied only to say they are away</b>`
+       + (back.length ? `, most back between ${day(back[0])} and ${day(back[back.length-1])}` : "")
+       + `. This landed in the last week of August. Read the response rate from the week of `
+       + `1 September, and treat a follow-up that week as reaching people the first mail never did.`;
+  }
+  if (flight.length) s += ` <b>${esc(flight[0].label)}</b> is still sending, so that side of the picture `
+                        + `is incomplete and will keep moving.`;
+  $("#headline").innerHTML = s;
+  $("#livecount").textContent = liveN;
+  $("#replycount").textContent = view.length;
+
+  const settled = camps().filter(c => !c.inFlight);
+  const delivered = settled.reduce((t, c) => t + deliveredFor(c), 0);
+  const settledReplies = view.filter(r => !CAMP[r.campaign].inFlight).length;
+  const rate = delivered
+    ? `${(100*settledReplies/delivered).toFixed(1)}% of ${delivered} delivered`
+      + (settledReplies !== view.length ? ", excluding the campaign still sending" : "")
+    : "delivery counts pending";
+
+  const sorted = [...view].sort((a,b) => a.ts.localeCompare(b.ts));
+  const first = sorted[0];
+  const ttf = first
+    ? Math.round((new Date(first.ts) - new Date(CAMP[first.campaign].sentStart)) / 6e4) + "m" : "—";
+
+  const refs = view.filter(r => r.stage === "referred").map(r => r.firm);
+  const refTally = [...new Set(refs)]
+    .map(x => refs.filter(y => y === x).length > 1 ? `${x} ×${refs.filter(y => y === x).length}` : x)
+    .join(", ");
+
+  $("#kpis").innerHTML = [
+    {n:liveN, l:"Live conversations", hot:true,
+     note:"Meeting, package requested, question asked, open on terms, or reviewing"},
+    {n:view.length, l:"Total replies", note:rate},
+    {n:sum(ROUTED), l:"Routed onward",
+     note: refs.length
+       ? `${pl(refs.length, "warm hand-off")} to the desk that covers West Coast multifamily — ${refTally}`
+         + ` — plus ${pl(cnt("relationship"), "reply", "replies")} not about the deal`
+       : "None yet in this cohort"},
+    {n:sum(CLOSED), l:"Closed out",
+     note:`${cnt("pass")} passed, ${cnt("outofscope")} are not LP equity providers`},
+    {n:ttf, l:"Time to first reply",
+     note: first ? `${esc(first.firm)}, ${fmt(first.ts)}` : "No replies in this cohort yet"}
+  ].map(k => `<div class="kpi${k.hot?" hot":""}"><div class="n mono">${esc(k.n)}</div>`
+    + `<div class="lbl">${esc(k.l)}</div><div class="note">${k.note}</div></div>`).join("");
+}
+
+/* ---------- priority queue: pooled across campaigns on purpose ---------- */
+let handled = {};
+try { handled = JSON.parse(localStorage.getItem("cw-handled") || "{}"); } catch (e) { handled = {}; }
+const save = () => { try { localStorage.setItem("cw-handled", JSON.stringify(handled)); } catch (e) {} };
+
+function renderQueue() {
+  const html = [...LIVE, ...ROUTED].map(st => {
+    const rows = view.filter(r => r.stage === st);
+    if (!rows.length) return "";
+    return `<div class="qgroup"><h3>${esc(STAGE[st].label)} &middot; ${rows.length} `
+      + `<em>${esc(STAGE[st].blurb)}</em></h3><div class="cards">` + rows.map(r => `
+      <div class="card s-${st}" data-k="${esc(r.email)}">
+        <div class="card-top">
+          <div><div class="firm">${esc(r.firm)}</div>${
+            r.person && r.person !== r.firm ? `<div class="who">${esc(r.person)}</div>` : ""}</div>
+          <span class="chip c-${st}">${esc(STAGE[st].label)}</span>
+        </div>
+        <div class="quote">&ldquo;${esc(r.quote)}&rdquo;</div>
+        ${r.action ? `<div class="act">${esc(r.action)}</div>` : ""}
+        <div class="card-foot">
+          <label class="tick"><input type="checkbox" data-k="${esc(r.email)}"> Handled</label>
+          ${cohort === "all" ? `<span class="cmark${r.campaign === "family-office" ? " fo" : ""}">${
+            esc(CAMP[r.campaign].short)}</span>` : ""}
+        </div>
+      </div>`).join("") + `</div></div>`;
+  }).join("");
+  $("#queue").innerHTML = html
+    || `<p style="color:var(--ink-3);font-size:13.5px">No open conversations in this cohort yet.</p>`;
+
+  document.querySelectorAll('.tick input').forEach(b => {
+    b.checked = !!handled[b.dataset.k];
+    b.closest(".card").classList.toggle("done", b.checked);
+    b.addEventListener("change", () => {
+      handled[b.dataset.k] = b.checked; save();
+      b.closest(".card").classList.toggle("done", b.checked);
+    });
+  });
+}
+
+/* ---------- reply arrival ---------- */
+function renderArrival() {
+  if (!view.length) {
+    $("#arrival").innerHTML = "";
+    $("#arrival-cap").textContent = "No replies in this cohort yet.";
+    return;
+  }
+  const b = {};
+  view.forEach(r => { const k = r.ts.slice(0,13); b[k] = (b[k]||0) + 1; });
+  const keys = Object.keys(b).sort();
+  const start = new Date(keys[0] + ":00:00Z"), end = new Date(keys[keys.length-1] + ":00:00Z");
+  const bars = [];
+  for (let t = new Date(start); t <= end; t.setUTCHours(t.getUTCHours()+1))
+    bars.push({v: b[t.toISOString().slice(0,13)] || 0, t: new Date(t)});
+
+  const W = 900, H = 190, PL = 34, PB = 34, PT = 12, BW = 74;
+  const max = Math.max(...bars.map(x => x.v), 1);
+  const slot = Math.min((W - PL - 14) / bars.length, BW + 26), bw = Math.min(slot, BW), gap = 4;
+  const y = v => PT + (H - PT - PB) * (1 - v/max);
+  const hr = t => t.toLocaleString("en-US",{hour:"numeric",hour12:true,timeZone:"UTC"});
+  const ticks = [0, Math.ceil(max/2), max].filter((v,i,a) => a.indexOf(v) === i);
+  const thin = bars.length > 12 ? Math.ceil(bars.length / 10) : 1;
+
+  $("#arrival").innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img"
+      aria-label="Replies per hour: ${bars.map(x => x.v).join(", ")}">
+    ${ticks.map(t => `<line class="gridline" x1="${PL}" x2="${W-14}" y1="${y(t)}" y2="${y(t)}"></line>
+      <text class="axlbl" x="${PL-8}" y="${y(t)+3.5}" text-anchor="end">${t}</text>`).join("")}
+    ${bars.map((x,i) => {
+      const bx = PL + i*slot, h = (H-PT-PB) * x.v/max, w = Math.max(bw-gap, 2);
+      return `<g><title>${pl(x.v, "reply", "replies")} · ${hr(x.t)} UTC</title>
+        <rect x="${bx}" y="${y(0)-h}" width="${w}" height="${Math.max(h,0)}" fill="var(--seq-4)" rx="4" ry="4"></rect>
+        <rect x="${bx}" y="${y(0)-Math.min(h,5)}" width="${w}" height="${Math.min(h,5)}" fill="var(--seq-4)"></rect>
+        <rect x="${bx}" y="${PT}" width="${slot}" height="${H-PT-PB}" fill="transparent"></rect>
+        ${i % thin === 0
+          ? `<text class="axlbl" x="${bx + w/2}" y="${H-PB+16}" text-anchor="middle">${hr(x.t)}</text>` : ""}</g>`;
+    }).join("")}
+    <line class="gridline" x1="${PL}" x2="${W-14}" y1="${y(0)}" y2="${y(0)}" stroke="var(--rule-hard)"></line>
+  </svg>`;
+
+  const first4 = bars.slice(0,4).reduce((t,x) => t+x.v, 0);
+  const peak = bars.reduce((a,x) => x.v > a.v ? x : a, bars[0]);
+  $("#arrival-cap").textContent =
+    `Hours in UTC. ${first4} of ${view.length} replies (${Math.round(100*first4/view.length)}%) landed in `
+  + `the first four hours, peaking at ${hr(peak.t)} UTC with ${peak.v}.`
+  + (cohort === "all" && D.campaigns.length > 1
+      ? " Both campaigns are pooled here, so the second send starts a fresh curve inside the same axis." : "");
+}
+
+/* ---------- ledger ---------- */
+function renderFilters() {
+  $("#filters").innerHTML =
+    `<button class="fbtn" data-f="all" aria-pressed="${stageFilter==="all"}">All ${view.length}</button>`
+  + `<button class="fbtn" data-f="live" aria-pressed="${stageFilter==="live"}">Live ${sum(LIVE)}</button>`
+  + Object.keys(STAGE).filter(s => cnt(s)).map(s =>
+      `<button class="fbtn" data-f="${s}" aria-pressed="${stageFilter===s}">${esc(STAGE[s].label)} ${cnt(s)}</button>`
+    ).join("")
+  + `<input id="q" type="search" placeholder="Search firm or text…" aria-label="Search replies" value="${esc(query)}">`;
+  $("#q").addEventListener("input", e => { query = e.target.value.toLowerCase().trim(); renderLedger(); });
+}
+function renderLedger() {
+  const rows = view
+    .filter(r => stageFilter === "all"
+      || (stageFilter === "live" ? LIVE.includes(r.stage) : r.stage === stageFilter))
+    .filter(r => !query || (r.firm + " " + r.person + " " + r.quote + " " + r.tags.join(" "))
+      .toLowerCase().includes(query))
+    .sort((a,b) => b.ts.localeCompare(a.ts));
+  $("#ledger").innerHTML = rows.map(r => `<tr>
+      <td class="f">${esc(r.firm)}${r.person && r.person !== r.firm ? `<small>${esc(r.person)}</small>` : ""}</td>
+      <td><span class="chip c-${r.stage}">${esc(STAGE[r.stage].label)}</span>${
+        cohort === "all" ? `<div style="margin-top:5px"><span class="cmark${
+          r.campaign === "family-office" ? " fo" : ""}">${esc(CAMP[r.campaign].short)}</span></div>` : ""}</td>
+      <td class="qt">&ldquo;${esc(r.quote)}&rdquo;${
+        r.tags.length ? `<div class="tags">${r.tags.map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : ""}</td>
+      <td class="tm">${fmt(r.ts)}</td></tr>`).join("");
+  $("#empty").style.display = rows.length ? "none" : "block";
+}
+$("#filters").addEventListener("click", e => {
+  const b = e.target.closest(".fbtn"); if (!b) return;
+  stageFilter = b.dataset.f;
+  document.querySelectorAll(".fbtn").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+  renderLedger();
+});
+
+/* ---------- objections, with a cohort comparison when both have replies ---------- */
+function renderObjections() {
+  const tally = {};
+  view.forEach(r => r.tags.forEach(x => tally[x] = (tally[x]||0) + 1));
+  const rows = Object.entries(tally).sort((a,b) => b[1] - a[1]);
+  $("#objnote").textContent = rows.length
+    ? `Stated reasons across the ${sum(CLOSED)} declines. One reply can carry more than one reason.`
+    : "No declines with a stated reason in this cohort yet.";
+  const max = rows.length ? rows[0][1] : 1;
+  $("#objections").innerHTML = rows.map(([k,v]) => `
+    <div class="orow"><div class="ol">${esc(k)}</div>
+      <div class="obar-wrap"><div class="obar" style="width:${(100*v/max*0.62).toFixed(1)}%"></div>
+      <span class="ocount">${v}</span></div></div>`).join("");
+
+  // the comparison only says anything once both cohorts have replies to compare
+  const withReplies = D.campaigns.filter(c => c.replyCount > 0);
+  if (cohort !== "all" || withReplies.length < 2) { $("#objsplit").innerHTML = ""; return; }
+  const per = {};
+  D.replies.forEach(r => r.tags.forEach(x => {
+    per[x] = per[x] || {}; per[x][r.campaign] = (per[x][r.campaign] || 0) + 1; }));
+  const keys = Object.keys(per).sort((a,b) =>
+    Object.values(per[b]).reduce((x,y)=>x+y,0) - Object.values(per[a]).reduce((x,y)=>x+y,0));
+  const mx = Math.max(...keys.map(k => Math.max(...withReplies.map(c => per[k][c.id] || 0))), 1);
+  $("#objsplit").innerHTML = `<div class="split">
+    <h3>Institutional vs family office</h3>
+    <p>The same objection counted separately in each cohort — which reasons belong to the audience rather than to the deal.</p>
+    <div class="slegend">${withReplies.map(c =>
+        `<span><span class="swatch" style="background:var(--${
+          c.id === "family-office" ? "routed" : "seq-4"})"></span>${esc(c.label)}</span>`).join("")}</div>`
+    + keys.map(k => `<div class="srow"><div class="sl">${esc(k)}</div><div class="sbars">`
+      + withReplies.map(c => {
+          const v = per[k][c.id] || 0;
+          return v ? `<div class="sbar ${c.id === "family-office" ? "fo" : "inst"}" `
+                   + `style="width:${(100*v/mx*0.5).toFixed(1)}%" title="${esc(c.label)}: ${v}"></div>`
+                   + `<span class="scount">${v}</span>` : "";
+        }).join("")
+      + `</div></div>`).join("") + `</div>`;
+}
+
+/* ---------- hygiene ---------- */
+function renderHygiene() {
+  const cs = camps(), settled = cs.filter(c => !c.inFlight);
+  const silent = cs.reduce((t,c) => t + c.silent.length, 0);
+  const opens  = settled.reduce((t,c) => t + c.opens, 0);
+  const pending = cs.some(c => c.inFlight);
+
+  $("#hygiene").innerHTML = [
+    {n:silent, l:"No reply yet", note: pending
+      ? "Counted only for campaigns that have finished sending" : "Delivered, opened or not, and silent so far"},
+    {n:settled.reduce((t,c) => t + c.bounces + c.blocks, 0), l:"Undeliverable",
+     note:"Bounced or blocked at the gateway"},
+    {n:settled.reduce((t,c) => t + c.removedPreSend, 0), l:"Suppressed pre-send",
+     note:"Dropped by GMass as prior bounces, duplicates or unsubscribes"},
+    // GMass has reported opens exactly equal to replies in every report on both
+    // campaigns, so this figure restates the reply count and measures nothing.
+    {n:opens, l:"Tracked opens",
+     note:"Not a real signal — GMass reports opens exactly equal to replies on both "
+        + "campaigns, so this restates the reply count rather than measuring who read it"},
+    {n:cs.reduce((t,c) => t + (c.autoCounts ? c.autoCounts.ooo : 0), 0), l:"Out of office",
+     note:"Answered automatically, not about the deal — they have not seen it yet"},
+    // GMass records no unsubscribes because nobody used the link — the people who
+    // want off the list said so in a reply, which only counts if you read them.
+    {n:0, l:"Unsubscribes", note: (() => {
+      const asked = view.filter(r => r.suppress).length;
+      return asked ? `None through the link — ${pl(asked, "recipient")} asked to be removed by reply`
+                   : "None through the link, and none asked by reply";
+    })()}
+  ].map(k => `<div class="kpi"><div class="n mono">${esc(k.n)}</div>`
+    + `<div class="lbl">${esc(k.l)}</div><div class="note">${esc(k.note)}</div></div>`).join("");
+
+  const sil = cs.flatMap(c => c.silent);
+  const named = sil.filter(e => D.roster && D.roster[e.toLowerCase()]).length;
+  $("#silentsum").textContent = sil.length
+    ? `${sil.length} ${named === sil.length ? "firms" : "addresses"} with no reply — full list`
+    : "No reconciled silent list in this cohort yet";
+  // The family office roster carries firm and contact names, so show those and keep
+  // the address in the tooltip; the institutional list is addresses only.
+  $("#silentlist").innerHTML = sil.map(e => {
+    const r = D.roster && D.roster[e.toLowerCase()];
+    const label = r && r.firm ? r.firm + (r.person ? ` · ${r.person}` : "") : e;
+    return `<div title="${esc(e)}">${esc(label)}</div>`;
+  }).join("");
+  $("#badlist").innerHTML = cs.flatMap(c => c.deadAddresses)
+    .map(e => `<div title="${esc(e)}">${esc(e)}</div>`).join("") || `<div>None recorded yet</div>`;
+  $("#fixlist").innerHTML = D.corrections.map(e => `<div title="${esc(e)}">${esc(e)}</div>`).join("");
+
+  const autos = cs.flatMap(c => c.autoReplies || []);
+  $("#autosum").textContent = autos.length
+    ? `${autos.length} automatic responses — out of office, departed contacts, bounces`
+    : "No automatic responses in this cohort yet";
+  const KIND = {ooo:"Out of office", left:"Has left the firm", bounce:"Undeliverable"};
+  $("#autolist").innerHTML = autos.map(a =>
+    `<div title="${esc(a.email)}"><b>${esc(a.firm)}</b> — ${esc(KIND[a.kind])}`
+  + (a.returns ? `, back ${esc(fmt(a.returns + "T12:00:00Z").replace(/,[^,]*$/, ""))}` : "")
+  + (a.note ? `. ${esc(a.note)}` : "") + `</div>`).join("") || `<div>None yet</div>`;
+}
+
+/* ---------- footer ---------- */
+$("#foot").innerHTML =
+  `One deal, ${D.campaigns.length} outreach campaigns: `
++ D.campaigns.map(c => `&ldquo;${esc(c.subject)}&rdquo;${c.gmassId ? ` (GMass ${esc(c.gmassId)})` : ""}`).join(" and ")
++ `. Delivery counts come from each campaign's GMass report; reply counts and stages are read directly `
++ `from the mailbox, so they run ahead of the GMass figures. Stages are assigned from the text of each `
++ `reply. Coverage is reported per campaign and never pooled, because the lists, copy and send times `
++ `differ. The priority queue is pooled deliberately, because the raise is one raise.<br>`
++ `Generated ${fmt(D.generatedAt)}.`;
+
+/* ---------- go ---------- */
+function renderAll() {
+  view = D.replies.filter(r => cohort === "all" || r.campaign === cohort);
+  stageFilter = "all";
+  renderFunnels(); renderHeadline(); renderQueue();
+  renderArrival(); renderFilters(); renderLedger();
+  renderObjections(); renderHygiene();
+}
+renderAll();
+</script>

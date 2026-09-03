@@ -1,0 +1,3516 @@
+[
+ {
+  "firm": "WAY Capital",
+  "person": "Malcolm Davies",
+  "email": "mdavies@waycapital.com",
+  "stage": "meeting",
+  "ts": "2026-08-26T23:41:17Z",
+  "quote": "See you shortly and we can discuss! Definitely the right spot.",
+  "action": "Meeting already in motion — confirm time and bring the full package.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Powers Capital",
+  "person": "Ryan Powers",
+  "email": "ryan@powerscapital.us",
+  "stage": "relationship",
+  "ts": "2026-08-28T18:22:18Z",
+  "quote": "Are you willing to hire me exclusively on it if it's something I can do?",
+  "action": "Not an LP — an equity advisory asking for an exclusive mandate. He already holds the full package, which went out with an instruction not to forward it. Decide whether to retain him or ask for it back.",
+  "tags": [
+   "Not an LP"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Two Sigma",
+  "person": "Spencer Traver",
+  "email": "Spencer.Traver@twosigma.com",
+  "stage": "pass",
+  "ts": "2026-09-01T07:55:20Z",
+  "quote": "We unfortunately aren't going to get to $71mm, and sounds like it's running beyond that level.",
+  "action": "Passed on price. Regan told them on 31 Aug that the B&F cutoff was $71M and second-round bids are near $73.5M, then sent the full deck and model; Spencer came back the next morning to say they cannot reach even $71M. The FIRST pass caused by the revised pricing rather than the mailed $71.5M basis — a live test of what the higher number does to this buyer pool, and it lost one.",
+  "tags": [
+   "Return threshold",
+   "Price"
+  ],
+  "campaign": "institutional",
+  "otherAddrs": [
+   "Jeremy.Erdman@twosigma.com",
+   "Sachin.Nagpal@twosigma.com"
+  ]
+ },
+ {
+  "firm": "Tryperion Holdings",
+  "person": "Jeffrey Karsh",
+  "email": "jkarsh@tryperion.com",
+  "stage": "pass",
+  "ts": "2026-08-30T03:07:45Z",
+  "quote": "Thanks Zamir - we are going to pass on this one.",
+  "action": "Passed after reading the memo and model, without naming a reason. Worth one call to Jeff to learn what killed it — he asked for the package unprompted, so the screen happened somewhere inside the numbers.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional",
+  "otherAddrs": [
+   "grollman@tryperion.com"
+  ]
+ },
+ {
+  "firm": "Mavik Capital",
+  "person": "Brad Walker",
+  "email": "brad@mavikcapital.com",
+  "stage": "conditional",
+  "ts": "2026-08-29T11:09:35Z",
+  "quote": "Thanks, let us know if you end up getting under contract",
+  "action": "Reviewed the memo and model and stood down until the deal is tied up. Not a pass — a re-engagement condition. Ping Brad the day it goes under contract; nothing else moves him before then.",
+  "tags": [
+   "Wants control first"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Hillwood",
+  "person": "Matt Sweany",
+  "email": "matt.sweany@hillwood.com",
+  "stage": "materials",
+  "ts": "2026-09-01T05:24:25Z",
+  "quote": "Good location. Do you have a model prepared or an OM you can share?",
+  "action": "Regan sent the LP deck and model on 1 Sep and Matt Sweany confirmed within four hours: \"Received. Thanks. Will review!\" Ball is with Hillwood.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "KCB Partners",
+  "person": "KCB Acquisitions",
+  "email": "acquisitions@kcb-partners.com",
+  "stage": "materials",
+  "ts": "2026-08-27T00:41:12Z",
+  "quote": "Do you have a 10-year model readily available for the deal?",
+  "action": "Send 10-year model specifically.",
+  "tags": [],
+  "mailedTo": "pknell@kcbm.com",
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Clairmont Capital Group",
+  "person": "Nick Clairmont",
+  "email": "nick@clairmontcg.com",
+  "stage": "materials",
+  "ts": "2026-08-26T22:56:07Z",
+  "quote": "Definitely interested in exploring from a co-GP perspective. If that opportunity exists, please send us the pro forma, T12, RR, and a summary.",
+  "action": "Co-GP only. Send pro forma, T12, RR, summary if co-GP is on the table.",
+  "tags": [
+   "Structure / check size"
+  ],
+  "mailedTo": "nick@clairmontcapitalgroup.com",
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Mountain Pacific",
+  "person": "Niv Henn",
+  "email": "niv@mntpac.com",
+  "stage": "materials",
+  "ts": "2026-08-26T23:05:06Z",
+  "quote": "This is above our max check size. Would you be open to co-GP or pref? If so, please send over materials.",
+  "action": "Confirm co-GP/pref appetite, then send materials.",
+  "tags": [
+   "Structure / check size"
+  ],
+  "mailedTo": "brian@mntpac.com",
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Blue Owl",
+  "person": "Alex Grecco",
+  "email": "alex.grecco@blueowl.com",
+  "stage": "question",
+  "ts": "2026-08-27T01:40:13Z",
+  "quote": "What is going in cap and terms of the financing?",
+  "action": "Answer: going-in cap + debt terms on the $45.06M / 59% LTC loan.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Quarterra",
+  "person": "Dixi Wang",
+  "email": "Dixi.Wang@quarterra.com",
+  "stage": "question",
+  "ts": "2026-08-27T02:04:44Z",
+  "quote": "What's the cap rate?",
+  "action": "Answer: going-in cap rate.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "West Pine",
+  "person": "Tim Haskin",
+  "email": "Timothy.Haskin@west-pine.com",
+  "stage": "question",
+  "ts": "2026-08-26T23:17:27Z",
+  "quote": "What is going in cap",
+  "action": "Answer: going-in cap rate.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Makarora",
+  "person": "Scott Dunn",
+  "email": "SDunn@makarora-lp.com",
+  "stage": "pass",
+  "ts": "2026-08-28T01:23:32Z",
+  "quote": "That sounds too tight for us to get excited about it, particularly with a number of other live deals moving towards closing.",
+  "action": "Answered 28 Aug — 5.15% going-in, 5.7% untrended, 6.52% trended — and passed on pricing. The clearest read yet on how the going-in cap lands with a technical LP.",
+  "tags": [
+   "Return threshold"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Kildare Partners",
+  "person": "A. Mukhopadhyay",
+  "email": "AMukhopadhyay@kildarepartners.com",
+  "stage": "question",
+  "ts": "2026-08-26T23:51:40Z",
+  "quote": "What's the going in cap rate, stabilized ROC and exit cap rate? In general multi has been tough - too low cash on cash for us.",
+  "action": "Answer, but flagged low cash-on-cash as a hurdle.",
+  "tags": [
+   "Return threshold"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Capital Solutions",
+  "person": "Rami Hakim",
+  "email": "rhakim@cap-sol.com",
+  "stage": "conditional",
+  "ts": "2026-08-26T22:13:55Z",
+  "quote": "The largest equity check we can currently do for first deal with new sponsor is around 14-15mm. If you could take care of the rest I can dig in.",
+  "action": "Would take ~half the $30.96M. Best candidate to pair with a second LP.",
+  "tags": [
+   "Structure / check size"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Broadview Real Estate Partners",
+  "person": "Jason Grossman",
+  "email": "jgrossman@broadviewrep.com",
+  "stage": "conditional",
+  "ts": "2026-08-27T00:29:17Z",
+  "quote": "If there is a co-GP opportunity we'll take a look.",
+  "action": "Co-GP only.",
+  "tags": [
+   "Structure / check size"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Opulum Capital",
+  "person": "J. Kunzon",
+  "email": "jkunzon@opulumcapital.com",
+  "stage": "conditional",
+  "ts": "2026-08-27T01:26:10Z",
+  "quote": "Only doing pref. We do not have a JV bucket. Happy to look into on pref.",
+  "action": "Pref only — conflicts with institutional JV structure.",
+  "tags": [
+   "Structure / check size"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Artisan Capital",
+  "person": "Mina Roufail",
+  "email": "mina@artisancp.com",
+  "stage": "conditional",
+  "ts": "2026-08-31T22:57:00Z",
+  "quote": "Our check sizes are $3-7M. If you are open to it, we can take a look at this for the GP equity portion.",
+  "action": "Small check — GP equity slice only, $3-7M. Offered on 26 Aug and never answered; she chased it herself five days later: \"Just wanted to follow up to see if the GP equity is of interest?\" One of the few inbound chases on the whole list, and the only one still waiting on us rather than the other way round.",
+  "tags": [
+   "Structure / check size",
+   "GP / co-GP capital"
+  ],
+  "campaign": "institutional",
+  "otherAddrs": [
+   "greg@artisancp.com"
+  ]
+ },
+ {
+  "firm": "J.P. Morgan",
+  "person": "Darrell Graf",
+  "email": "darrell.graf@jpmorgan.com",
+  "stage": "referred",
+  "ts": "2026-08-26T23:31:35Z",
+  "quote": "Adding Morgan Lingle and removing Lindsey. Morgan is head of our West Coast Acquisitions team and sits in San Francisco.",
+  "action": "Warm hand-off to the right desk — follow up with Morgan Lingle directly.",
+  "tags": [],
+  "mailedTo": "lindsey.r.snider@jpmorgan.com",
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Clarion Partners",
+  "person": "Andrew Palmquist",
+  "email": "Andrew.Palmquist@clarionpartners.com",
+  "stage": "meeting",
+  "ts": "2026-08-28T19:07:12Z",
+  "quote": "Would be happy to connect on this one. I'm available the rest of the day or Monday afternoon after 1pm.",
+  "action": "Khalid handed this to Palmquist, who covers west coast multifamily, and he has offered slots. Zamir is out Monday — take it today or give it to Michael Regan.",
+  "tags": [],
+  "campaign": "institutional",
+  "mailedTo": "khalid.rashid@clarionpartners.com",
+  "otherAddrs": [
+   "Khalid.Rashid@clarionpartners.com"
+  ]
+ },
+ {
+  "firm": "Clarion Partners",
+  "person": "Brent Gerst",
+  "email": "Brent.Gerst@clarionpartners.com",
+  "stage": "referred",
+  "ts": "2026-08-27T00:05:44Z",
+  "quote": "Thanks, copying in Andrew.",
+  "action": "Second Clarion route to the same person — consolidate into one thread.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "New York Life",
+  "person": "Albert Pura",
+  "email": "robert.bevers@nylim.com",
+  "stage": "pass",
+  "ts": "2026-08-27T16:20:00Z",
+  "quote": "Most likely a pass for us, but I have already had an operator reach out to me on this one.",
+  "action": "Referral resolved. Note the competing operator — that is the third signal another sponsor is shopping this deal.",
+  "tags": [
+   "Competing bid"
+  ],
+  "mailedTo": "robert_bevers@nylinvestors.com",
+  "otherAddrs": [
+   "albert.pura@nylim.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Shoreham Capital",
+  "person": "Doug Faron",
+  "email": "doug@shorehamcapital.com",
+  "stage": "meeting",
+  "ts": "2026-08-31T14:52:27Z",
+  "quote": "How's Thursday for you guys? Have a little travel earlier in the week.",
+  "action": "Proposing Thursday after Regan offered Tuesday or Wednesday. Confirm a time and send an invite — nobody has yet. Note Steve, Nick and Daniil have all left Shoreham, so Doug is the only live contact there.",
+  "tags": [],
+  "mailedTo": "steve@shorehamcapital.com",
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Knickpoint Ventures",
+  "person": "Jamie",
+  "email": "jamie@knickpt.com",
+  "stage": "pass",
+  "ts": "2026-08-27T13:22:00Z",
+  "quote": "This is probably a reach for us as we're typically focused on the east coast, so it would have to be pretty unique circumstances for us to branch out.",
+  "action": "Nick DiCicco has left — list already corrected to Jamie, Zain and Matt.",
+  "tags": [
+   "Outside target market"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "American Realty Advisors (ARA)",
+  "person": "Nate Munson",
+  "email": "nmunson@aracapital.com",
+  "stage": "pass",
+  "ts": "2026-08-27T01:47:35Z",
+  "quote": "Still evaluating, but likely going to pass given the vintage and 8' ceilings. Also already working with another partner on this one.",
+  "action": "Soft pass, still open — vintage + 8ft ceilings.",
+  "tags": [
+   "1980s vintage",
+   "Competing bid"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Carlyle",
+  "person": "Timothy Bruning",
+  "email": "timothy.bruning@carlyle.com",
+  "stage": "pass",
+  "ts": "2026-08-27T02:01:26Z",
+  "quote": "I ran this by my colleague that covers SF and he is a pass due to vintage and location.",
+  "action": "",
+  "tags": [
+   "California",
+   "1980s vintage"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Fortress",
+  "person": "Drew Daniels",
+  "email": "ddaniels@fortress.com",
+  "stage": "pass",
+  "ts": "2026-08-27T00:19:59Z",
+  "quote": "Likely not for us, thanks for sending over though.",
+  "action": "",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Oaktree",
+  "person": "Jared Lazarus",
+  "email": "jlazarus@oaktreecapital.com",
+  "stage": "pass",
+  "ts": "2026-08-26T22:46:42Z",
+  "quote": "I think San Ramon would be tough for us - I know the whole Bay Area is killing it!",
+  "action": "Soft pass on submarket, not on strategy.",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Elliott Management",
+  "person": "Nick Greenberg",
+  "email": "ngreenberg@elliottmgmt.com",
+  "stage": "pass",
+  "ts": "2026-08-26T22:33:51Z",
+  "quote": "This is not a fit for us. Please remove Paul Singer from any distributions.",
+  "action": "SUPPRESS psinger@elliottmgmt.com from all future sends.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional",
+  "suppress": true
+ },
+ {
+  "firm": "Tramview",
+  "person": "Josh Comiter",
+  "email": "jcomiter@tramview.com",
+  "stage": "pass",
+  "ts": "2026-08-27T00:02:07Z",
+  "quote": "This will be a pass for Tramview due to the location (California) and the 80s vintage. Preference is for 90s and newer.",
+  "action": "",
+  "tags": [
+   "California",
+   "1980s vintage"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Bascom Group",
+  "person": "Jerome Fink",
+  "email": "JFink@bascomgroup.com",
+  "stage": "pass",
+  "ts": "2026-08-27T00:35:34Z",
+  "quote": "I talked to the team and they said they are bidding on it too and it's an HOA so has high operating expenses.",
+  "action": "Competing bidder — note the HOA opex objection, it will recur.",
+  "tags": [
+   "Competing bid"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Blue Vista",
+  "person": "JP Sletteland",
+  "email": "jpsletteland@bluevistallc.com",
+  "stage": "pass",
+  "ts": "2026-08-26T23:33:30Z",
+  "quote": "We'll respectfully pass here. Pre-2000s original MF construction is a non-starter for us.",
+  "action": "",
+  "tags": [
+   "1980s vintage"
+  ],
+  "mailedTo": "dstephenson@bluevistallc.com",
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Marble Capital",
+  "person": "Brad Moynihan",
+  "email": "bmoynihan@marblecapitallp.com",
+  "stage": "pass",
+  "ts": "2026-08-26T22:38:26Z",
+  "quote": "This isn't a fit, as we aren't targeting CA or pre-2010 deals at the moment.",
+  "action": "",
+  "tags": [
+   "California",
+   "1980s vintage"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Midloch",
+  "person": "Brandon Banks",
+  "email": "brandon@midloch.com",
+  "stage": "pass",
+  "ts": "2026-08-26T22:44:09Z",
+  "quote": "Midloch will not invest in CA multifamily.",
+  "action": "",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Silvercap Partners",
+  "person": "John Trotter",
+  "email": "trotter@silvercappartners.com",
+  "stage": "pass",
+  "ts": "2026-08-27T00:36:00Z",
+  "quote": "We do not invest in CA though. Best of luck on this one.",
+  "action": "",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "RM Adviser",
+  "person": "Eric Levy",
+  "email": "eric.levy@rm-adviser.com",
+  "stage": "pass",
+  "ts": "2026-08-26T23:40:34Z",
+  "quote": "Firm is not particularly interested in CA multifamily. Though I personally love the contrarian strategy.",
+  "action": "",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Olive Point Capital",
+  "person": "Ricardo Goldberg",
+  "email": "ricardo@olivepointcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-27T02:18:44Z",
+  "quote": "Looks like a great deal but it's outside our target markets.",
+  "action": "",
+  "tags": [
+   "Outside target market"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Long Wharf",
+  "person": "Philip Murphy",
+  "email": "Philip.Murphy@longwharf.com",
+  "stage": "pass",
+  "ts": "2026-08-27T00:57:00Z",
+  "quote": "This one's not for us.",
+  "action": "",
+  "tags": [
+   "No reason given"
+  ],
+  "mailedTo": "michael.elizondo@longwharf.com",
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Pearlmark",
+  "person": "R. Dougherty",
+  "email": "rdougherty@pearlmark.com",
+  "stage": "pass",
+  "ts": "2026-08-27T02:14:04Z",
+  "quote": "We are fully specified on our current equity fund, so don't have equity at the moment to invest in this one.",
+  "action": "Dry powder issue, not deal issue — keep on list for next fund.",
+  "tags": [
+   "No dry powder"
+  ],
+  "mailedTo": "cmendez@pearlmark.com",
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Forum Investment Group",
+  "person": "J. Warren",
+  "email": "jwarren@forumig.com",
+  "stage": "pass",
+  "ts": "2026-08-26T23:57:58Z",
+  "quote": "We don't have any LP equity for acquisitions at the moment. This vintage is also a little old for us; looking for 2010 and newer.",
+  "action": "",
+  "tags": [
+   "1980s vintage",
+   "No dry powder"
+  ],
+  "mailedTo": "jmanning@forumig.com",
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Eightfold Capital",
+  "person": "Isaac Pesin",
+  "email": "ipesin@eightfoldcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-26T22:28:16Z",
+  "quote": "Sounds interesting, but unfortunately, right now we got no dough. In between funds.",
+  "action": "Timing only — re-approach after next close.",
+  "tags": [
+   "No dry powder"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Osso Capital",
+  "person": "Sophie Tulkoff",
+  "email": "sophie@ossocapital.com",
+  "stage": "pass",
+  "ts": "2026-08-27T01:16:20Z",
+  "quote": "Unfortunately, we can't partner on fully marketed deals.",
+  "action": "Structural — only works on off-market.",
+  "tags": [
+   "Marketed deal"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "JSB Capital Group",
+  "person": "Scott",
+  "email": "scott@jsbcapitalgroup.com",
+  "stage": "pass",
+  "ts": "2026-08-27T01:34:36Z",
+  "quote": "Not particularly interesting when compared to other deals we are reviewing. We are finding higher going in cap rates on deals.",
+  "action": "Priced out — cap rate objection.",
+  "tags": [
+   "Return threshold"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "GCG Real Estate",
+  "person": "Ashley",
+  "email": "Ashley@gcg-re.com",
+  "stage": "pass",
+  "ts": "2026-08-26T23:01:20Z",
+  "quote": "We are not looking for a JV opportunity at the moment at those returns. We are looking for leveraged IRRs in the low 20s.",
+  "action": "17.1% levered IRR below their 20%+ threshold.",
+  "tags": [
+   "Return threshold"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Wtrshd Capital",
+  "person": "Dave McCullagh",
+  "email": "dave@wtrshdcap.com",
+  "stage": "pass",
+  "ts": "2026-08-26T23:33:09Z",
+  "quote": "Laura will be back on 9/23 and I do not have the bandwidth to review this one without her, so we are a quick pass.",
+  "action": "Bandwidth pass — re-approach after 9/23.",
+  "tags": [
+   "Bandwidth / timing"
+  ],
+  "mailedTo": "laura@wtrshdcap.com",
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Bedrock Land Finance",
+  "person": "Rodney Montag",
+  "email": "RMontag@bedrockland.com",
+  "stage": "outofscope",
+  "ts": "2026-08-26T23:39:42Z",
+  "quote": "We only lend A&D debt on resi development deals with lots under contract to national homebuilders.",
+  "action": "Wrong firm type — remove from JV equity list.",
+  "tags": [
+   "Not an LP"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "rmontag@ramrecapital.com"
+ },
+ {
+  "firm": "UDR",
+  "person": "Dan Campbell",
+  "email": "dcampbell@udr.com",
+  "stage": "outofscope",
+  "ts": "2026-08-26T23:00:27Z",
+  "quote": "We aren't in the LP equity game, but good luck! San Ramon is a great town.",
+  "action": "Remove from JV equity list.",
+  "tags": [
+   "Not an LP"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Pacific Urban Investors",
+  "person": "Alex Yarmolinsky",
+  "email": "ayarmolinsky@pacificurbaninvestors.com",
+  "stage": "outofscope",
+  "ts": "2026-08-26T22:48:06Z",
+  "quote": "Ash is no longer with the company, and we do not provide equity anymore.",
+  "action": "Remove from list; contact also stale.",
+  "tags": [
+   "Not an LP"
+  ],
+  "mailedTo": "abaraghoush@pacificurbaninvestors.com",
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Acuity Partners NYC",
+  "person": "Bob",
+  "email": "bob@acuitypartnersnyc.com",
+  "stage": "outofscope",
+  "ts": "2026-08-26T22:40:53Z",
+  "quote": "No, thanks. We're not investing anymore.",
+  "action": "Remove from list.",
+  "tags": [
+   "Not an LP"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "CastleSquare",
+  "person": "Alanna Wojciechowski",
+  "email": "aw@castlesquare.com",
+  "stage": "materials",
+  "ts": "2026-08-27T14:02:00Z",
+  "quote": "Thanks for touching base. I'd like to learn more. Can you provide an OM or model?",
+  "action": "Send OM + model.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Blackhawk Partners",
+  "person": "Ziad",
+  "email": "ziad@blackhawkpartners.com",
+  "stage": "question",
+  "ts": "2026-08-27T12:52:00Z",
+  "quote": "To speed up the process, would highly appreciate if you could address our basic DD questions below, then we can have a real assessment.",
+  "action": "Pull their DD list off the thread and answer it — they are asking to move fast.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "TriGate Capital",
+  "person": "A. Aultz",
+  "email": "aaultz@trigatecapital.com",
+  "stage": "conditional",
+  "ts": "2026-08-27T13:47:00Z",
+  "quote": "We would normally be interested, but that equity requirement is slightly too large for our value-add fund until we have a few more closes.",
+  "action": "A real yes-but — would take a smaller slice. Pair with Capital Solutions' $14-15M.",
+  "tags": [
+   "Structure / check size"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "CenterSquare",
+  "person": "G. Stevens",
+  "email": "gstevens@centersquare.com",
+  "stage": "conditional",
+  "ts": "2026-08-27T12:27:00Z",
+  "quote": "Happy to discuss next week, but I currently do not have an allocation to invest on a common equity basis. We are focused on mezzanine debt.",
+  "action": "Wants a call next week. Mezz only, not common equity — could fill a mezz tranche.",
+  "tags": [
+   "Structure / check size"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "rgorsky@centersquare.com"
+ },
+ {
+  "firm": "Baupost",
+  "person": "Taylor Banks",
+  "email": "tbanks@baupost.com",
+  "stage": "pass",
+  "ts": "2026-08-27T04:12:00Z",
+  "quote": "This isn't a great fit for us. Appreciate you having us in mind!",
+  "action": "",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "PGGM",
+  "person": "Michel Schram",
+  "email": "michel.schram@pggm.nl",
+  "stage": "pass",
+  "ts": "2026-08-27T07:47:00Z",
+  "quote": "I refer to my email of July 17, where I indicated that we have no allocation.",
+  "action": "Second decline for the same reason — suppress until they raise again.",
+  "tags": [
+   "No dry powder"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Stoneweg US",
+  "person": "Garrett Pisarik",
+  "email": "garrett.pisarik@stoneweg.com",
+  "stage": "outofscope",
+  "ts": "2026-08-27T08:26:00Z",
+  "quote": "We don't invest in CA, nor as an LP. This one is a pass for us.",
+  "action": "",
+  "tags": [
+   "California",
+   "Not an LP"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "matthew.levy@stoneweg.com"
+ },
+ {
+  "firm": "Electra Capital",
+  "person": "Samuel Greenblatt",
+  "email": "sam@electracapital.com",
+  "stage": "outofscope",
+  "ts": "2026-08-27T09:24:00Z",
+  "quote": "We currently aren't lending in California.",
+  "action": "Lender, not an equity provider — remove from the JV equity list.",
+  "tags": [
+   "California",
+   "Not an LP"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "ICM Group",
+  "person": "John Courtliff",
+  "email": "jcourtliff@icmgroup.ca",
+  "stage": "pass",
+  "ts": "2026-08-27T10:41:00Z",
+  "quote": "This isn't going to be a fit for us. California isn't a market where we are particularly focused.",
+  "action": "",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Goldman Sachs",
+  "person": "Will Hoefer",
+  "email": "will.hoefer@gs.com",
+  "stage": "pass",
+  "ts": "2026-08-27T11:45:00Z",
+  "quote": "Please do not email John FW Rogers going forward. Our team is full on opportunities for Q4, and I do not work on the private opportunities side.",
+  "action": "SUPPRESS john.rogers@gs.com — asked by name.",
+  "tags": [
+   "Capacity / staffing"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "jonathan.denowitz@gs.com",
+  "suppress": true
+ },
+ {
+  "firm": "IMCO",
+  "person": "Richard Varkey",
+  "email": "richard.varkey@imcoinvest.com",
+  "stage": "pass",
+  "ts": "2026-08-27T12:01:00Z",
+  "quote": "Thank you for your note, but this would be a pass for us.",
+  "action": "",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "rossitsa.stoyanova@imcoinvest.com"
+ },
+ {
+  "firm": "Resmark",
+  "person": "Brent Summers",
+  "email": "bsummers@resmark.com",
+  "stage": "pass",
+  "ts": "2026-08-27T12:28:00Z",
+  "quote": "Appreciate you thinking of me. We invest in only development at this time.",
+  "action": "",
+  "tags": [
+   "Development only"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Twin Spruce Capital",
+  "person": "Eric Horowitz",
+  "email": "eric.horowitz@twinsprucecapital.com",
+  "stage": "outofscope",
+  "ts": "2026-08-27T12:57:00Z",
+  "quote": "While the deal certainly sounds interesting, we aren't in the market deploying JV equity. We are still focused on preferred equity and mezzanine debt.",
+  "action": "Pref/mezz only — reclassify on the list.",
+  "tags": [
+   "Not an LP"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Halstatt Real Estate Partners",
+  "person": "Steve Iannaccone",
+  "email": "siannaccone@halstatt.com",
+  "stage": "pass",
+  "ts": "2026-08-27T13:16:00Z",
+  "quote": "As discussed, this is out of our geographic footprint.",
+  "action": "",
+  "tags": [
+   "Outside target market"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "ABR Capital",
+  "person": "Peter Heller",
+  "email": "peter.heller@abrcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-27T13:31:00Z",
+  "quote": "This one is simply too large for us. We focus on the lower-middle-market, which we define as equity checks of $5-$15M.",
+  "action": "Declined on size, but named a $5-15M band — a candidate if you syndicate the stack.",
+  "tags": [
+   "Structure / check size"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "jake.martin@abrcapital.com"
+ },
+ {
+  "firm": "Stanton Road Capital",
+  "person": "Dylan Holt",
+  "email": "dholt@stantonroadcapital.com",
+  "stage": "outofscope",
+  "ts": "2026-08-27T13:47:00Z",
+  "quote": "We aren't currently providing LP equity on existing multi but will let you know if that changes.",
+  "action": "",
+  "tags": [
+   "Not an LP"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "H Equities",
+  "person": "Elliot",
+  "email": "elliot@hequities.com",
+  "stage": "outofscope",
+  "ts": "2026-08-27T13:49:00Z",
+  "quote": "I'm not familiar with the area, and I don't see us bringing 30MM to a transaction. If the request is for an LP, that's also not for us.",
+  "action": "",
+  "tags": [
+   "Not an LP",
+   "Structure / check size"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Paceline Equity",
+  "person": "J. Hritz",
+  "email": "jhritz@pacelineequity.com",
+  "stage": "pass",
+  "ts": "2026-08-27T14:03:00Z",
+  "quote": "The return profile on this one is too low for us. We are targeting low 20s / 2xs net while we are still investing out of Fund 2.",
+  "action": "",
+  "tags": [
+   "Return threshold"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Lightning Tree Capital",
+  "person": "Chris Dzurinko",
+  "email": "chris@lightningtreecapital.com",
+  "stage": "pass",
+  "ts": "2026-08-27T14:03:00Z",
+  "quote": "We don't invest in California.",
+  "action": "",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Prospect Ridge",
+  "person": "Paul Galiano",
+  "email": "paul.galiano@prospectridge.com",
+  "mailedTo": "julia.issembert@prospectridge.com",
+  "stage": "pass",
+  "ts": "2026-08-30T14:16:51Z",
+  "quote": "For this vintage, needs to be our value-add / opportunity fund and we'd be wider than a 5% exit cap on the residual so it's going to be too thin of a return for that fund.",
+  "action": "Passed, and told you exactly why: the 1986 vintage forces the deal into their opportunity fund, and that fund underwrites a residual wider than a 5% exit cap. The most precise objection received so far — it names the exit cap as the binding assumption, not the going-in. Worth testing against the other package readers who went quiet. Michael Regan sent the LP deck and model through on 31 Aug anyway, on the $71.5M basis — which is the wrong direction for a fund that already said the return was too thin.",
+  "tags": [
+   "1980s vintage",
+   "Return threshold"
+  ],
+  "campaign": "institutional",
+  "otherAddrs": [
+   "blake.mastalir@prospectridge.com",
+   "yvette.miranda@prospectridge.com"
+  ]
+ },
+ {
+  "firm": "Kinship Capital",
+  "person": "Andrew Youngling",
+  "email": "andrew.youngling@kinshipcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-27T14:20:00Z",
+  "quote": "We're not chasing new multi right now. Good luck tying it up.",
+  "action": "",
+  "tags": [
+   "Not acquiring now"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Platform V",
+  "person": "Todd Blanding",
+  "email": "todd.blanding@platformv.com",
+  "stage": "pass",
+  "ts": "2026-08-27T14:43:00Z",
+  "quote": "This is not a fit for us — we are currently focused on scaling up our development program.",
+  "action": "",
+  "tags": [
+   "Development only"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Max Kuriloff",
+  "person": "Max Kuriloff",
+  "email": "maxkuriloff@gmail.com",
+  "stage": "meeting",
+  "ts": "2026-09-01T20:53:27Z",
+  "quote": "Let me know if you are looking for a programmatic Co-GP partner.",
+  "action": "BOOKED for the week of 14 September. He chased his own unanswered 26 Aug question, reframing it as a PROGRAMMATIC co-GP relationship rather than this one deal; Zamir took the call from the delivery room and Max is putting a slot on the calendar. Canyon Woods does not need co-GP, so this is a relationship conversation about the next deals, not this one — worth keeping on that footing.",
+  "tags": [
+   "Structure / check size",
+   "GP / co-GP capital",
+   "Programmatic"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Peaceable Street Capital",
+  "person": "Seth Douglas",
+  "email": "sdouglas@peaceablestreet.com",
+  "mailedTo": "sonufrey@peaceablestreet.com",
+  "stage": "reviewing",
+  "ts": "2026-08-27T15:27:00Z",
+  "quote": "Let us review this further and get back to you with any questions/feedback.",
+  "action": "Nothing asked for yet — diarise a nudge if nothing lands in 48 hours.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Horowitz Group",
+  "person": "Angela",
+  "email": "angela@horowitzgroup.com",
+  "mailedTo": "matt@horowitzgroup.com",
+  "stage": "pass",
+  "ts": "2026-08-27T15:47:00Z",
+  "quote": "We're not interested in additional California exposure at this time. We'll let you know if that changes.",
+  "action": "",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Red Cove Capital",
+  "person": "A. Tishkoff",
+  "email": "atishkoff@redcovecap.com",
+  "mailedTo": "njanney@redcovecap.com",
+  "stage": "pass",
+  "ts": "2026-08-27T16:00:00Z",
+  "quote": "We focus on newer-vintage assets built in the last 10 years with equity checks of $40M+, so this one won't be a fit. Also, Nicholas is no longer with Red Cove.",
+  "action": "",
+  "tags": [
+   "1980s vintage",
+   "Structure / check size"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Walker & Dunlop",
+  "person": "Michael Holland",
+  "email": "mholland@walkerdunlop.com",
+  "stage": "conditional",
+  "ts": "2026-08-27T16:51:00Z",
+  "quote": "Tougher fit on the JV equity side as we're still fund raising for our next fund, but potentially could look at this one with pref equity. What does the going-in cap rate look like and what's the likely debt execution?",
+  "action": "Warmest of the alternative-structure replies — answer the cap rate and debt execution, and say whether pref sits in the stack.",
+  "tags": [
+   "Structure / check size",
+   "No dry powder"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "OceanWest Capital Partners",
+  "person": "S. Hooker",
+  "email": "shooker@oceanwestcp.com",
+  "mailedTo": "rallegrette@oceanwestcp.com",
+  "stage": "pass",
+  "ts": "2026-08-27T16:29:00Z",
+  "quote": "We don't have capital for this one but appreciate the look.",
+  "action": "",
+  "tags": [
+   "No dry powder"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Cottonwood Communities",
+  "person": "Paul Fredenberg",
+  "email": "pfredenberg@cottonwoodres.com",
+  "stage": "pass",
+  "ts": "2026-08-27T16:48:00Z",
+  "quote": "Not our deal — more focused on the 721 exchange structure I mentioned to you last time we chatted.",
+  "action": "",
+  "tags": [
+   "Different strategy"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Vistria Group",
+  "person": "Michael Shaid",
+  "email": "mshaid@vistria.com",
+  "stage": "pass",
+  "ts": "2026-08-27T16:53:00Z",
+  "quote": "Very exciting and thanks for thinking of us! We're at capacity now in California.",
+  "action": "",
+  "tags": [
+   "California",
+   "Capacity / staffing"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Farallon Capital",
+  "person": "Nick Carbone",
+  "email": "ncarbone@faralloncapital.com",
+  "stage": "pass",
+  "ts": "2026-08-27T17:49:00Z",
+  "quote": "This one probably isn't for us, we are more focused on the urban cores right now.",
+  "action": "",
+  "tags": [
+   "Outside target market"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Hensel Phelps",
+  "person": "A. Guyott",
+  "email": "aguyott@henselphelps.com",
+  "stage": "pass",
+  "ts": "2026-08-27T18:06:00Z",
+  "quote": "Although we have dabbled in acquisitions of this sort, we remain focused on ground-up unless there is a significant construction opportunity.",
+  "action": "",
+  "tags": [
+   "Development only"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "3650 Capital",
+  "person": "Brent Thurn",
+  "email": "bthurn@3650capital.com",
+  "mailedTo": "jsharf@3650reit.com",
+  "stage": "materials",
+  "ts": "2026-09-01T01:57:03Z",
+  "quote": "Jeremiah no longer works at 3650 — but we would be happy to dig into the opportunity if you have a drop box or something you could share?",
+  "action": "Michael Regan sent the LP deck and model on 1 Sep. Contact is Brent Thurn at 3650capital.com, not Jeremiah Sharf at 3650reit.com — Sharf has left the firm.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Corebridge Financial",
+  "person": "Royce Hadden",
+  "email": "royce.hadden@corebridgefinancial.com",
+  "mailedTo": "matthew.kordsmeier@corebridgefinancial.com",
+  "stage": "reviewing",
+  "ts": "2026-08-27T18:48:00Z",
+  "quote": "I cover the western US, based in Los Angeles. We will take a look, although generally 80's vintage deals are tough for us right now.",
+  "action": "Right coverage person self-identified and is looking. Lead with the 2011-15 renovation history to blunt the vintage objection.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Seminole Financial Services",
+  "person": "Joe Ritter",
+  "email": "jritter@seminolefs.com",
+  "mailedTo": "jritter@seminolefinancialservices.com",
+  "stage": "pass",
+  "ts": "2026-08-27T18:47:00Z",
+  "quote": "We're not looking at any real estate opportunities at the moment.",
+  "action": "",
+  "tags": [
+   "Not acquiring now"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Blackbird Investments",
+  "person": "M. Jenson",
+  "email": "mjenson@blackbirdinv.com",
+  "mailedTo": "tvender@blackbirdinv.com",
+  "stage": "pass",
+  "ts": "2026-08-27T20:09:00Z",
+  "quote": "Todd is on vacation this week but the deal is not a fit for us given the larger check size. We focus on $3-10mm equity checks and are targeting 18%+.",
+  "action": "",
+  "tags": [
+   "Structure / check size",
+   "Return threshold"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Eastham Capital",
+  "person": "Brian Hertig",
+  "email": "brian@easthamcapital.com",
+  "stage": "materials",
+  "ts": "2026-08-27T20:53:00Z",
+  "quote": "Candidly, California is not the IC's favorite market, but I'd still be happy to review. Could you please share any materials you have?",
+  "action": "Willing despite the market objection — send materials and pre-empt the CA question in the cover note.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Torchlight Investors",
+  "person": "B. Duplain",
+  "email": "bduplain@torchlight.com",
+  "stage": "outofscope",
+  "ts": "2026-08-27T20:43:00Z",
+  "quote": "Let's catch up soon. Don't think this is a fit for us — we are more focused on preferred equity and distressed acquisitions where we can buy the loan.",
+  "action": "Pref and distressed debt, not common JV equity. Wants a catch-up regardless.",
+  "tags": [
+   "Not an LP"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Basis Investment Group",
+  "person": "Kunle Shoyombo",
+  "email": "kshoyombo@basisinvgroup.com",
+  "mailedTo": "tabereoje@basisinvgroup.com",
+  "stage": "materials",
+  "ts": "2026-08-27T21:33:00Z",
+  "quote": "The check size is larger than our typical size, but if you have an OM, send it over, and we will take a look.",
+  "action": "Send the OM. Asked first whether this was debt or equity, so lead with the JV equity ask.",
+  "tags": [
+   "Structure / check size"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Meruelo Group",
+  "person": "Allen Stoller",
+  "email": "astoller@meruelogroup.com",
+  "mailedTo": "alexis.meruelo@meruelogroup.com",
+  "campaign": "family-office",
+  "stage": "outofscope",
+  "ts": "2026-08-27T23:41:13Z",
+  "quote": "We don't do minority interests in anything, including taking on minority partners — everything we do is 100% internally owned.",
+  "action": "Structurally will not take a partner. Remove from JV equity lists.",
+  "tags": [
+   "Not an LP"
+  ]
+ },
+ {
+  "firm": "Manoucheri Brothers",
+  "person": "Aaron Manoucheri",
+  "email": "aaron@manoucheribrothers.com",
+  "mailedTo": "avi@manoucheribrothers.com",
+  "campaign": "family-office",
+  "stage": "relationship",
+  "ts": "2026-08-27T23:40:15Z",
+  "quote": "Please do not contact us again and remove us from your email blasts.",
+  "action": "Explicit do-not-contact request, citing a prior dispute over The Boardwalk. Suppress aaron@ and avi@manoucheribrothers.com from every list before the next send.",
+  "tags": [],
+  "suppress": true
+ },
+ {
+  "firm": "Intercontinental Real Estate",
+  "person": "Jessica Levin",
+  "email": "jessical@intercontinental.net",
+  "mailedTo": "thomasb@intercontinental.net",
+  "otherAddrs": [
+   "tomt@intercontinental.net"
+  ],
+  "stage": "materials",
+  "ts": "2026-08-28T00:18:06Z",
+  "quote": "Tom Taranto forwarded your email as I cover the western US for Intercontinental. Happy to take a look if you send over the info.",
+  "action": "Regan sent the LP Investor Deck and model on 31 Aug and offered a call. She covers the western US, so this is the right desk. Waiting on Intercontinental.",
+  "tags": [
+   "Wants materials"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Green Street Trust International",
+  "person": "Ronel Ojumpp",
+  "email": "rojumpp@greenstreettrust.com",
+  "otherAddrs": [
+   "ronel@greenstreettrust.com"
+  ],
+  "stage": "meeting",
+  "ts": "2026-09-01T12:24:51Z",
+  "quote": "Thank you for sharing this with me. Are you available on Thursday or Friday?",
+  "action": "Read Regan's deck overnight and came back with times — Thursday or Friday. Regan had offered Monday afternoon and Tuesday, so this is Ronel picking later in the week. Nothing is on the calendar yet; pick one and send the invite. The 1 September flag is now met with an answer rather than silence, but still no confirmed time.",
+  "tags": [],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Zittman Family Office",
+  "person": "Joe Roos",
+  "email": "joe@zittman.com",
+  "stage": "pass",
+  "ts": "2026-08-28T01:19:58Z",
+  "quote": "Thanks for sharing. Not a current mandate so pass.",
+  "action": "",
+  "tags": [
+   "Different strategy"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Sabal",
+  "person": "Erik Kolar",
+  "email": "erik.kolar@sabal.com",
+  "mailedTo": "drake.ayres@sabal.com",
+  "stage": "pass",
+  "ts": "2026-09-02T19:45:37Z",
+  "quote": "We took a look through the data room and it came down to the shape of the return rather than the quality of the asset: at roughly $372K per unit for 1986 vintage and small units, the business plan requires the bulk of the loss-to-lease to be captured inside the first two years plus an exit inside the going-in cap, which puts us mid-teens net to the LP with most of the profit at sale. This is not the deal profile for us in our opportunistic fund.",
+  "action": "The most substantive underwriting objection either list has produced, and the only one from a firm that read the model. Sabal took the deck and model on 31 Aug, worked the data room, and came back with a specific critique: the return is back-ended. Most of the profit sits at sale, the loss-to-lease has to be captured inside two years, and the exit is inside the going-in cap — mid-teens net to the LP, which does not clear an opportunistic fund's bar. Two things follow. First, this is the answer to expect from every opportunistic fund on the list, so route the remaining conversations to core-plus and value-add capital instead. Second, the critique gets worse at $73.5M, not better, because the extra $2M of basis lands entirely on the equity. Worth asking Erik what would have made it work — he read it closely enough that the answer is usable.",
+  "tags": [
+   "Return profile",
+   "Basis / price",
+   "Marketed deal"
+  ],
+  "campaign": "institutional",
+  "otherAddrs": [
+   "Tal.Seder@sabal.com"
+  ]
+ },
+ {
+  "firm": "Aceana Group",
+  "person": "Russell Deakin",
+  "email": "russell.deakin@aceanagroup.com",
+  "stage": "pass",
+  "ts": "2026-08-28T03:02:44Z",
+  "quote": "Not our focus please unsubscribe",
+  "action": "SUPPRESS russell.deakin@aceanagroup.com — asked to be removed by reply.",
+  "tags": [
+   "Outside target market"
+  ],
+  "suppress": true,
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Turtle Creek Capital",
+  "person": "Jack Reilly",
+  "email": "jreilly@turtlecreekwealth.com",
+  "stage": "pass",
+  "ts": "2026-08-28T04:10:00Z",
+  "quote": "This one is not fit for us at this time. Best of luck getting it closed.",
+  "action": "",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Allegro Invest SE (Toeller Family Office)",
+  "person": "Stefan Brimmers",
+  "email": "sbrimmers@devario.eu",
+  "mailedTo": "tt@fressnapf.de",
+  "stage": "outofscope",
+  "ts": "2026-08-28T06:26:54Z",
+  "quote": "We currently have no plans to make direct investments in real estate in the U.S. In the future, we intend to invest only through funds.",
+  "action": "Torsten Toeller forwarded it to his real estate manager, who asked to be the sole contact. Funds only, no direct US deals — reroute the list to sbrimmers@devario.eu and drop from direct JV equity outreach.",
+  "tags": [
+   "Different strategy"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Vector WM",
+  "person": "Alessandro Beggio",
+  "email": "ab@vectorwm.com",
+  "stage": "pass",
+  "ts": "2026-08-28T08:24:26Z",
+  "quote": "Not interested thank you.",
+  "action": "",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Silverpeak",
+  "person": "Chris Westfahl",
+  "email": "Chris.Westfahl@silverpeak.com",
+  "mailedTo": "ryan.schnepf@silverpeak.com",
+  "stage": "conditional",
+  "ts": "2026-08-28T13:37:38Z",
+  "quote": "Although a prime area, might be difficult for our LP fund to do 80's product at a total basis approaching $400k/unit. Will you need any co-GP $'s?",
+  "action": "Answer the co-GP question — he raised it himself. LP fund is blocked on 1986 vintage at ~$400k/unit, but he is offering a different seat at the table.",
+  "tags": [
+   "1980s vintage",
+   "Structure / check size"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Blackstone",
+  "person": "Scott McCallum",
+  "email": "scott.mccallum@blackstone.com",
+  "stage": "pass",
+  "ts": "2026-08-28T15:22:02Z",
+  "quote": "We took a look earlier in the process and decided to pass for a few reasons. Please keep us in mind for anything in the future.",
+  "action": "Already saw it through the marketed process. He is in LA, just had a child, and asked to link up in a month or two — a relationship to keep, not a deal to chase. Still worth asking what the reasons were.",
+  "tags": [
+   "Marketed deal"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Benedict Realty Group",
+  "person": "Steven Kohn",
+  "email": "steven.kohn@brgny.com",
+  "stage": "meeting",
+  "ts": "2026-08-28T15:31:51Z",
+  "quote": "Yes sorry just traveling. Wide open on Monday.",
+  "action": "Offered Monday and is waiting on a time. Zamir is out Monday — hand to Michael Regan and lock it today.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Argosy Real Estate Partners",
+  "person": "D. Ciccone",
+  "email": "dciccone@argosyrep.com",
+  "mailedTo": "rfirmine@argosyrep.com",
+  "stage": "pass",
+  "ts": "2026-08-28T15:32:50Z",
+  "quote": "This one is too skinny for our current targets (20% IRR+) but would be great to catch up in general.",
+  "action": "Needs 20%+ against 17.1% here. Not this deal, but he asked for the catch-up — take it.",
+  "tags": [
+   "Return threshold"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Canyon Partners",
+  "person": "N. Baccile",
+  "email": "nbaccile@canyonpartners.com",
+  "mailedTo": "rpotts@canyonpartners.com",
+  "stage": "pass",
+  "ts": "2026-08-28T15:36:49Z",
+  "quote": "Apologies for the delay in coming back to you as we were touring some assets in SF. Unfortunately this one isn't going to be a great fit for us.",
+  "action": "They were touring SF assets this week, so they are active in the market — the miss is this asset, not the geography. Send them the next Bay Area deal.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Palatine Capital Partners",
+  "person": "Jason Betesh",
+  "email": "jbetesh@pal-partners.com",
+  "stage": "pass",
+  "ts": "2026-08-28T15:44:01Z",
+  "quote": "I don't think we're buyers of CA multifamily these days. Best of luck with it.",
+  "action": "",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Arselle Investments",
+  "person": "Aaron",
+  "email": "aaron@arselleinvestments.com",
+  "mailedTo": "kev@arselleinvestments.com",
+  "stage": "outofscope",
+  "ts": "2026-08-28T15:45:16Z",
+  "quote": "Thanks for thinking of us, but we are not doing JV equity.",
+  "action": "Not a JV equity provider — drop from this list. He took the meeting offer anyway.",
+  "tags": [
+   "Not an LP"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Willton Investment Management",
+  "person": "Chris Luo",
+  "email": "cluo@willtongroup.com",
+  "stage": "pass",
+  "ts": "2026-08-28T15:53:58Z",
+  "quote": "Thanks for sharing. CA is not in our target market.",
+  "action": "",
+  "tags": [
+   "Outside target market"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Caliber",
+  "person": "Lisa Pudewell",
+  "email": "lisa@caliberco.com",
+  "stage": "pass",
+  "ts": "2026-08-28T15:56:43Z",
+  "quote": "I believe we are still staying out of CA at this time, but keep us in mind for other deals. Please also send them to acquisitions@caliberco.com for a faster reply.",
+  "action": "Use acquisitions@caliberco.com going forward — she asked for it.",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Deutsche Finance America",
+  "person": "S. Soucy",
+  "email": "s.soucy@deutsche-finance.com",
+  "stage": "pass",
+  "ts": "2026-08-28T17:09:39Z",
+  "quote": "While I appreciate the look, this one is not for us at this time. As we discussed a few weeks ago, we are unlikely to be in a position to start acquiring assets until the middle of next year.",
+  "action": "Timing, not the deal — they are out of the market until mid-2027. Diary them, do not re-pitch.",
+  "tags": [
+   "Not acquiring now"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "j.lucas@deutsche-finance.com"
+ },
+ {
+  "firm": "Pennybacker Capital",
+  "person": "T. Beier",
+  "email": "tbeier@pennybackercap.com",
+  "stage": "pass",
+  "ts": "2026-08-28T17:03:29Z",
+  "quote": "Not a fit for us due to market and vintage, but please send future opportunities to Jonathan and the team that covers residential.",
+  "action": "Rerouted themselves to their residential team — get those names and use them next time.",
+  "tags": [
+   "California",
+   "1980s vintage"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "smysock@pennybackercap.com"
+ },
+ {
+  "firm": "PCP Real Estate",
+  "person": "B. Orient",
+  "email": "borient@pcpre.com",
+  "stage": "pass",
+  "ts": "2026-08-28T17:01:27Z",
+  "quote": "We do not invest much in California (or the acquisition space), so this will not be a fit for our fund.",
+  "action": "Sent their own one-pager back — read it before the next approach.",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "smastor@pcpre.com"
+ },
+ {
+  "firm": "LGT Capital Partners",
+  "person": "Thomas Brown",
+  "email": "thomas.brown@lgtcp.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:56:49Z",
+  "quote": "Thanks for the follow-up, but we'll pass on this.",
+  "action": "",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Everest Holdings",
+  "person": "R. O'Donovan",
+  "email": "rodonovan@everestholdings.com",
+  "stage": "outofscope",
+  "ts": "2026-08-28T16:55:56Z",
+  "quote": "We do not provide JV equity, so this one would not be a fit for our platform.",
+  "action": "Not a JV equity provider — drop from this list.",
+  "tags": [
+   "Not an LP"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Nuveen",
+  "person": "Timothy Goeke",
+  "email": "timothy.goeke@nuveen.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:49:51Z",
+  "quote": "Not something we would be interested in. Going forward you can exclude other team members here. They do not focus on MF on the west coast.",
+  "action": "Asked to be the single Nuveen contact — trim the rest of that firm from the list.",
+  "tags": [
+   "Outside target market"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Dekel Capital",
+  "person": "Shlomi Ronen",
+  "email": "sronen@dekelcapital.com",
+  "stage": "materials",
+  "ts": "2026-08-28T16:48:14Z",
+  "quote": "Happy to dig in further. Would you share your underwriting and deal OM with us?",
+  "action": "Send the OM and the model. LA-based managing principal — easy meeting.",
+  "tags": [
+   "Wants materials"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Kensington Stern",
+  "person": "David",
+  "email": "david@kensingtonstern.com",
+  "stage": "relationship",
+  "ts": "2026-08-28T16:47:09Z",
+  "quote": "Our focus right now is on our Vegas and Salt Lake deals. I'm happy to chat more about them if you want to be involved, especially the Salt Lake project.",
+  "action": "A pass that came back as a reverse pitch. Worth the call on its own terms.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "MetLife Investment Management",
+  "person": "Tony Reyes",
+  "email": "areyes5@metlife.com",
+  "stage": "reviewing",
+  "ts": "2026-08-28T19:51:35Z",
+  "quote": "We are currently having preliminary conversations with another operator and are still evaluating whether this opportunity is the right fit for us. I look forward to speaking soon.",
+  "action": "MetLife is already looking at Canyon Woods WITH ANOTHER OPERATOR. Their SF head of acquisitions is evaluating the asset, not us. Call him before the second round — the question is which sponsor they back, not whether they like the deal.",
+  "tags": [],
+  "campaign": "institutional",
+  "mailedTo": "kday@metlife.com",
+  "otherAddrs": [
+   "jdenning@metlife.com"
+  ]
+ },
+ {
+  "firm": "Lone Star Funds",
+  "person": "Shannon Mahaffy",
+  "email": "smahaffy@lonestarfunds.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:41:11Z",
+  "quote": "Andre and Ben are no longer with the firm. If we are interested, we will let you know.",
+  "action": "Two dead contacts at Lone Star; she is the live one.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "acollin@lonestarfunds.com"
+ },
+ {
+  "firm": "LEM Capital",
+  "person": "Weidman",
+  "email": "weidman@lemcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:36:51Z",
+  "quote": "As I mentioned on your other email, we are full on the Bay Area at the moment. Best of luck on the bidding process.",
+  "action": "Already at their Bay Area limit — a concentration cap, so revisit after they sell something here.",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "bradshaw@lemcapital.com"
+ },
+ {
+  "firm": "Geolo Capital",
+  "person": "Jake Michaels",
+  "email": "jm@geolo.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:24:41Z",
+  "quote": "Please mark us down as a pass.",
+  "action": "",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "hc@geolo.com"
+ },
+ {
+  "firm": "CrossHarbor Capital",
+  "person": "James O'Leary",
+  "email": "joleary@crossharborcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:22:34Z",
+  "quote": "We're going to pass as we aren't actively pursuing value-add multifamily at present, particularly for 80s vintage product.",
+  "action": "Two people answered independently, both landing on vintage and market — that is a firm view, not one person's.",
+  "tags": [
+   "1980s vintage",
+   "Not acquiring now"
+  ],
+  "campaign": "institutional",
+  "otherAddrs": [
+   "rwestervelt@crossharborcapital.com"
+  ]
+ },
+ {
+  "firm": "ELV Associates",
+  "person": "J. Evans",
+  "email": "jevans@elv-us.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:21:11Z",
+  "quote": "We're mainly focused on multifamily development right now and primarily on the east coast, so this one isn't a fit.",
+  "action": "",
+  "tags": [
+   "Development only",
+   "Outside target market"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "jevans@elvassoc.com"
+ },
+ {
+  "firm": "7Acre Investments",
+  "person": "Adam Fletcher",
+  "email": "adam@sevenacreinvest.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:20:55Z",
+  "quote": "We don't do CA deals unfortunately, so this won't be a fit for us.",
+  "action": "",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Evergen Equity",
+  "person": "Troy",
+  "email": "troy@evergenequity.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:20:53Z",
+  "quote": "We are not investing in California multifamily given angst around the policies toward residential landlords.",
+  "action": "The sharpest statement yet of the California objection — it is regulatory, not pricing.",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Cottonwood Group",
+  "person": "Patrick Monaghan",
+  "email": "patrick.monaghan@cottonwoodmgmt.com",
+  "stage": "conditional",
+  "ts": "2026-08-28T20:45:44Z",
+  "quote": "Are you looking for LP equity on this one? We don't have any equity capital to put out right now. Could do a stretch senior loan or mezz if that's of interest.",
+  "action": "No equity, but offering stretch senior or mezz. Sixth firm this week with capital available in a non-common form.",
+  "tags": [
+   "Structure / check size"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "noah.tillipman@cottonwoodmgmt.com",
+  "otherAddrs": [
+   "tang.tang@cottonwoodmgmt.com"
+  ]
+ },
+ {
+  "firm": "Deloache Capital",
+  "person": "Frank Busch",
+  "email": "fbusch@deloachecapital.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:18:05Z",
+  "quote": "We are on the sidelines right now. Indefinitely.",
+  "action": "",
+  "tags": [
+   "Not acquiring now"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Choreo Advisors",
+  "person": "Matthew Gotlin",
+  "email": "matthew.gotlin@choreoadvisors.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:17:23Z",
+  "quote": "Sorry for the delay — we will pass.",
+  "action": "",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "CCR Capital",
+  "person": "S. Brown",
+  "email": "sbrown@ccrcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-28T16:15:30Z",
+  "quote": "Sounds interesting, but we'll have to take a pass here, as we have a very full pipeline at the moment. Look forward to seeing the next one.",
+  "action": "Pipeline, not the deal. Explicitly asked for the next one.",
+  "tags": [
+   "Bandwidth / timing"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Biscayne Atlantic",
+  "person": "David Garfinkle",
+  "email": "dg@biscayneatlantic.com",
+  "stage": "pass",
+  "ts": "2026-08-28T17:53:13Z",
+  "quote": "Not for me. We don't invest in California.",
+  "action": "",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Declaration Partners",
+  "person": "Matt Cohen",
+  "email": "mcohen@declarationpartners.com",
+  "stage": "question",
+  "ts": "2026-08-28T17:50:46Z",
+  "quote": "Happy to take a quick look, but caveat that we have not yet been active in Northern CA residential, so may be low probability. What's the going-in cap rate (tax adjusted)?",
+  "action": "Wants the going-in cap TAX ADJUSTED, which is the sharper version of the question — California reassesses on sale, so the untaxed 5.15% is not the number he is asking for. Answer both.",
+  "tags": [
+   "Wants materials"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "NexPoint",
+  "person": "Bonner McDermett",
+  "email": "BMcDermett@nexpoint.com",
+  "stage": "conditional",
+  "ts": "2026-08-28T17:39:09Z",
+  "quote": "As I mentioned before, we could consider a pref or mezz but generally shy away from California.",
+  "action": "Second firm this week offering a non-common seat — pref or mezz. Bank it against the structure cluster.",
+  "tags": [
+   "California",
+   "Structure / check size"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "mmcgraner@nexpoint.com"
+ },
+ {
+  "firm": "JRE Partners",
+  "person": "Alex Mitzner",
+  "email": "amitzner@jre-partners.com",
+  "stage": "pass",
+  "ts": "2026-08-28T17:17:08Z",
+  "quote": "We need to hit 20s on our capital or have very high conviction we can hit an 18. I also don't think we'd jump down into 80s product.",
+  "action": "",
+  "tags": [
+   "Return threshold",
+   "1980s vintage"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "LAMB Properties",
+  "person": "Ryne Tennant",
+  "email": "tennant@lambllc.com",
+  "stage": "materials",
+  "ts": "2026-08-28T17:15:16Z",
+  "quote": "This is not something we typically consider, but the demographics look intriguing, and according to CoStar the rents are almost $4/sf. Happy to review the underwriting and see if it's a fit.",
+  "action": "Package sent 17:21 with Michael Regan looped in. He set expectations that it may still be a pass, so treat as a genuine but low-probability read.",
+  "tags": [
+   "Wants materials"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Machine Investment Group",
+  "person": "Meredith Jonker",
+  "email": "mjonker@machineinv.com",
+  "stage": "pass",
+  "ts": "2026-08-28T17:14:17Z",
+  "quote": "This one is too low of a return for us. We are focused on deals with a 20%+ deal level IRR profile.",
+  "action": "",
+  "tags": [
+   "Return threshold"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Citymark Capital",
+  "person": "E. Louttit",
+  "email": "elouttit@citymarkcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-28T19:07:01Z",
+  "quote": "Damien and Gillian are no longer with Citymark. Based on the info below, the deal is not going to be a fit for us. We are focused on 2000s and newer product.",
+  "action": "Two dead contacts at Citymark; he is the live one.",
+  "tags": [
+   "1980s vintage"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "gfent-baker@citymarkcapital.com"
+ },
+ {
+  "firm": "Eldridge Acre Partners",
+  "person": "Sam Levy",
+  "email": "sam.levy@eldridgeacre.com",
+  "stage": "meeting",
+  "ts": "2026-08-29T05:21:08Z",
+  "quote": "I work with Josh on the EAP team and would be great to connect on the below. Let me know if you have any time early next week to chat.",
+  "action": "BOOKED — Teams invite for Tuesday 1 Sep, 1:00–1:30pm PT, organised by Sam Levy. Michael Regan offered the slot and has not accepted the invite yet; neither has Zamir. It falls on the day Zamir is out, so Regan owns it — get his acceptance in.",
+  "tags": [],
+  "campaign": "institutional",
+  "mailedTo": "joshua.katzin@eldridgeacre.com"
+ },
+ {
+  "firm": "Peak Hill Capital",
+  "person": "Paul Heydweiller",
+  "email": "pheydweiller@peakhillcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-28T18:54:00Z",
+  "quote": "As we discussed a few weeks ago, we are currently pursuing opportunities outside of California given our fund's existing concentration there. We will likely circle back at some point.",
+  "action": "A concentration cap, not a view on the asset — the second firm to say exactly this. Revisit once they sell down California.",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "christophergibson@peakhillcapital.com"
+ },
+ {
+  "firm": "Archway",
+  "person": "Sankeerth Pulusani",
+  "email": "SP@archwayco.com",
+  "stage": "outofscope",
+  "ts": "2026-08-28T18:48:06Z",
+  "quote": "Sounds like an interesting deal but we aren't doing any LP equity currently. We are doing our own deals as GP similar to you and also Co-GP.",
+  "action": "Not an LP, but they do co-GP — worth a line in the co-GP column rather than a clean drop.",
+  "tags": [
+   "Not an LP"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Machine Investment Group",
+  "person": "Michael Librett",
+  "email": "mlibrett@machineinv.com",
+  "stage": "pass",
+  "ts": "2026-08-28T18:25:18Z",
+  "quote": "Thanks Zamir, we target >20% IRR.",
+  "action": "Second Machine contact mailed separately; same answer as Meredith Jonker, which makes it the house view.",
+  "tags": [
+   "Return threshold"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Northmarq Fund Management",
+  "person": "Peter Sherman",
+  "email": "psherman@northmarq.com",
+  "stage": "pass",
+  "ts": "2026-08-28T18:12:34Z",
+  "quote": "Not a fit for us unfortunately. Please email future deals to myself and Jared. Rance does not field inbound deal flow.",
+  "action": "He has moved from Morrison Street to Northmarq — update the address and add Jared Karpf.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "psherman@morrisonstreetcapital.com"
+ },
+ {
+  "firm": "Proskura Capital",
+  "person": "Daniil Proskura",
+  "email": "daniil@proskuracapital.com",
+  "stage": "pass",
+  "ts": "2026-08-28T19:30:52Z",
+  "quote": "This won't be a fit for us, unfortunately. Would you consider selling any FL or Texas properties?",
+  "action": "Pass on this, but he is asking to BUY Florida or Texas assets. That is a live inbound on the existing portfolio — route it to the disposition side.",
+  "tags": [
+   "Outside target market"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "IEQ Capital",
+  "person": "Garret Giglia",
+  "email": "ggiglia@ieqcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-28T19:19:07Z",
+  "quote": "Just not the right opportunity for us. Very hard to do a standalone investment. We prefer more of a fund-oriented strategy with diversification, rather than a single rifle shot.",
+  "action": "Third firm to say funds-only after Toeller and Archway — single-asset deals do not fit their model at all.",
+  "tags": [
+   "Different strategy"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Oxford Properties",
+  "person": "Christie Chen",
+  "email": "CChen@oxfordproperties.com",
+  "stage": "pass",
+  "ts": "2026-08-28T20:48:37Z",
+  "quote": "This is not a fit for us at the moment, so won't exercise you further.",
+  "action": "",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Figari Capital",
+  "person": "Steven Figari",
+  "email": "steve@figaricapital.com",
+  "stage": "pass",
+  "ts": "2026-08-28T20:36:54Z",
+  "quote": "Not an investor in California anymore.",
+  "action": "",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "James Burton Capital",
+  "person": "Kyle",
+  "email": "kyle@jamesburtoncapital.com",
+  "stage": "pass",
+  "ts": "2026-08-28T21:39:43Z",
+  "quote": "Not a fit unfortunately but appreciate you reaching out.",
+  "action": "",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "BBCP",
+  "person": "Matthew Stearns",
+  "email": "mstearns@bbcp-llc.com",
+  "stage": "meeting",
+  "ts": "2026-08-29T04:39:46Z",
+  "quote": "Returns are light but happy to set up a call next week to discuss further.",
+  "action": "Head of Originations, and the only firm so far to flag the return and still want the call. Book it — he is the one who might trade the hurdle for structure.",
+  "tags": [
+   "Return threshold"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Ares Management",
+  "person": "Sam Averbach",
+  "email": "saverbach@aresmgmt.com",
+  "otherAddrs": [
+   "lvigil@aresmgmt.com",
+   "akaye@aresmgmt.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-08-29T17:50:36Z",
+  "quote": "Not a fit due to vintage, thanks",
+  "action": "Closed on the 1986 build year. Nothing in the structure answers a vintage screen, so do not re-pitch Canyon Woods here — keep Ares for a newer asset.",
+  "tags": [
+   "1980s vintage"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Vey Capital",
+  "person": "Sergio Salas",
+  "email": "sergio@vey-capital.com",
+  "otherAddrs": [
+   "marc@vey-capital.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-08-30T14:05:11Z",
+  "quote": "A $30MM equity check (even 1/2 of that) is outside of our scope at this time.",
+  "action": "Too small for the check, and explicit that even $15M is beyond them. Nothing to carve here. Asked to be kept in mind for future deals, so keep them on the list.",
+  "tags": [
+   "Structure / check size"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "DWS",
+  "person": "Samit Patel",
+  "email": "samit.patel@dws.com",
+  "stage": "pass",
+  "ts": "2026-08-31T14:08:17Z",
+  "quote": "Sorry was out of pocket last week. This one not a fit for us, thanks.",
+  "action": "Passed with no reason, five days after the send and off the back of the follow-up. Nothing to work here. Vice President in Real Estate Transactions, so keep the contact.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Grandview Partners",
+  "person": "Eric Freeman",
+  "email": "Freeman@grandviewpartners.com",
+  "stage": "pass",
+  "ts": "2026-08-31T15:09:19Z",
+  "quote": "No interest here. Thanks.",
+  "action": "Managing Partner, three words, no reason. Nothing to work. Came in off the follow-up, five days after the original.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Avatar Investments",
+  "person": "Ray D",
+  "email": "rayd@avatarinv.com",
+  "stage": "pass",
+  "ts": "2026-08-31T15:07:08Z",
+  "quote": "Please remove me from your sales list. Thank you.",
+  "action": "Removal request — suppress before any further send. Fifth recipient to ask off by reply rather than through the unsubscribe link.",
+  "tags": [
+   "No reason given"
+  ],
+  "suppress": true,
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Tug Hill",
+  "person": "Matt Mildren",
+  "email": "mmildren@tug-hill.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:00:06Z",
+  "quote": "We are just running the Portillo, no new investments.",
+  "action": "Whole firm is in operate-not-acquire mode. Nothing to work until that changes.",
+  "tags": [
+   "Not acquiring now"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "REM LP",
+  "person": "Andrew Gindy",
+  "email": "agindy@remlp.com",
+  "stage": "pass",
+  "ts": "2026-08-31T15:43:17Z",
+  "quote": "Not for us",
+  "action": "Three words, no reason. Nothing to work.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Townlane",
+  "person": "Grant Sholem",
+  "email": "gsholem@townlane.com",
+  "stage": "pass",
+  "ts": "2026-08-31T15:41:07Z",
+  "quote": "Multifamily is not a top priority of ours at the moment, but I appreciate the look.",
+  "action": "Sector allocation, not a view on the asset. Keep for a non-multifamily deal.",
+  "tags": [
+   "Different strategy"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Affinius Capital",
+  "person": "Eric Cohen",
+  "email": "Eric.Cohen@affiniuscapital.com",
+  "stage": "pass",
+  "ts": "2026-09-01T15:56:27Z",
+  "quote": "We are not a fit here. Please don't reach out to Jeff and Craig on these matters going forward. I think I already asked you to do that last time.",
+  "action": "REMOVAL REQUEST IGNORED TWICE OVER. Eric Cohen asked on 31 Aug — \"Please don't reach out to Jeff and Craig on these matters going forward. I think I already asked you to do that last time\" — and the Stage 2 wave mailed Craig, Jeff and Eric AGAIN at 08:46 PT on 1 Sep. He replied within four minutes: \"Please don't reach out to this chain going forward.\" Zamir apologised from the delivery room and named the cause: replies come back with an EXTERNAL: prefix on the subject, so GMass does not match them to the original thread, counts the recipient as silent, and fires the next follow-up. That is a list-wide fault, not an Affinius one — every firm whose mail gateway rewrites subject lines will keep getting chased after they reply or ask to stop.",
+  "tags": [
+   "No reason given"
+  ],
+  "suppress": true,
+  "campaign": "institutional",
+  "mailedTo": "lex.rickenbaker@affiniuscapital.com"
+ },
+ {
+  "firm": "Westport Capital Partners",
+  "person": "Brian Fraker",
+  "email": "bfraker@westportcp.com",
+  "stage": "pass",
+  "ts": "2026-08-31T15:32:57Z",
+  "quote": "We aren't active in multifamily at the moment. We are going to be investing out of a new fund starting in 2027 that will have a multifamily allocation.",
+  "action": "Not now, but they volunteered a date: a new fund with a multifamily allocation starts 2027. Worth a calendar note rather than a discard. Sean Armstrong, the address mailed, is out until 11 September — Fraker answered for the firm.",
+  "tags": [
+   "Not acquiring now"
+  ],
+  "otherAddrs": [
+   "kpozniak@westportcp.com"
+  ],
+  "campaign": "institutional",
+  "mailedTo": "sarmstrong@westportcp.com"
+ },
+ {
+  "firm": "Varadero Capital",
+  "person": "Vishesh Prabhakar",
+  "email": "vprabhakar@varaderocapital.com",
+  "stage": "pass",
+  "ts": "2026-08-31T15:31:39Z",
+  "quote": "We are not looking to do JV equity. Thanks for the look.",
+  "action": "Wrong instrument for them. Reclassify out of the JV equity list.",
+  "tags": [
+   "Not an LP"
+  ],
+  "otherAddrs": [
+   "jmizrachi@varaderocapital.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Alpaca Real Estate",
+  "person": "Daniel Carr",
+  "email": "daniel.carr@alpacarealestate.com",
+  "stage": "pass",
+  "ts": "2026-08-31T15:26:16Z",
+  "quote": "We are focused on markets Dallas and East. Thanks for sharing.",
+  "action": "Geographic screen. California is out by definition; keep for anything east of Dallas.",
+  "tags": [
+   "Outside target market"
+  ],
+  "otherAddrs": [
+   "ryan@alpacarealestate.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Third Point",
+  "person": "Daniel Loeb",
+  "email": "DLoeb@thirdpoint.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:12:20Z",
+  "quote": "Not sure how we got on this list. Please remove",
+  "action": "Removal request, and it came from the founder rather than the person mailed — the follow-up went to Robert Schwartz with Loeb copied. Suppress both before any further send.",
+  "tags": [
+   "No reason given"
+  ],
+  "suppress": true,
+  "mailedTo": "rschwartz@thirdpoint.com",
+  "otherAddrs": [
+   "rob@thirdpointventures.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Lindell Investments",
+  "person": "Jack",
+  "email": "Jack@lindellinvestments.com",
+  "stage": "conditional",
+  "ts": "2026-08-31T16:28:00Z",
+  "quote": "If you need a single check writer, we're out. If syndicating we can take a look. My guess is that Carl will struggle with the investment into California at this point.",
+  "action": "Open only if the equity is syndicated rather than taken by one partner — and he pre-flags Carl balking at California. Worth answering if a split raise is on the table.",
+  "tags": [
+   "Structure / check size",
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Mandrake Capital",
+  "person": "Ian Crowley",
+  "email": "icrowley@mandrakecapital.com",
+  "mailedTo": "bhaefele@mandrakecapital.com",
+  "stage": "meeting",
+  "ts": "2026-08-31T16:39:00Z",
+  "quote": "Let's set up a call for next week. As we last discussed, given our return thresholds I am not sure that this one will be a fit for us but we will take a look.",
+  "action": "Wants a call next week and says up front the return may not clear their threshold. Book it, and go in with the revised pricing rather than the mailed 17.1%.",
+  "tags": [
+   "Return threshold"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Provenio Capital",
+  "person": "Jim Cao",
+  "email": "jim@proveniocapital.com",
+  "stage": "meeting",
+  "ts": "2026-08-31T16:42:00Z",
+  "quote": "I'll give you call today. What's your schedule like?",
+  "action": "Calling today and asked for your availability. Someone needs to answer with times.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Cypress Equity Investments",
+  "person": "Michael S",
+  "email": "michaels@cypressequity.com",
+  "stage": "question",
+  "ts": "2026-08-31T16:40:00Z",
+  "quote": "How do you think that we can be helpful to you on this deal? BTW, Errol and Eli are no longer with us.",
+  "action": "Open question, not a pass — he is asking what role you want him to play. Answer with the specific ask. Also: Errol and Eli have left, so correct those list entries.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Capital Health Group",
+  "person": "Ken Assiran",
+  "email": "kassiran@cfg.bank",
+  "mailedTo": "kassiran@caphealthgroup.com",
+  "stage": "referred",
+  "ts": "2026-08-31T16:28:00Z",
+  "quote": "You need to talk with our multi-family group. Please contact Andrew Yerger. I will copy him on this email.",
+  "action": "Warm hand-off to Andrew Yerger, already copied. Reply on the thread rather than starting cold.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "PGIM",
+  "person": "Juan Miguel Capurro",
+  "email": "juan.miguel.capurro@pgim.com",
+  "stage": "referred",
+  "ts": "2026-08-31T16:30:00Z",
+  "quote": "Sorry for delay. Let me ping my counterpart again on the west side to connect you with the right person on this one.",
+  "action": "Second time he has offered to route this internally — 'again' means the first attempt did not land. Chase the introduction rather than waiting on it.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Raith Capital Partners",
+  "person": "Sahil Amin",
+  "email": "Sahil.Amin@raithcapital.com",
+  "stage": "reviewing",
+  "ts": "2026-08-31T16:53:00Z",
+  "quote": "At first blush, that vintage has been very hard for us, so wouldn't rely on us. Can probably turn focus to this end...",
+  "action": "Discouraging but not closed — he was out for days and is still digging out. Vintage is the stated problem, which is the same screen that killed Ares and Prospect Ridge.",
+  "tags": [
+   "1980s vintage"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Centerbridge Partners",
+  "person": "Ally Heyburn",
+  "email": "aheyburn@centerbridge.com",
+  "mailedTo": "aburinescu@centerbridge.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:14:00Z",
+  "quote": "This is unfortunately a bit too small for us, but appreciate the look!",
+  "action": "Below their size floor. Keep for a larger deal.",
+  "tags": [
+   "Structure / check size"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Abrams Capital",
+  "person": "David Abrams",
+  "email": "dabrams@abramscapital.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:15:00Z",
+  "quote": "Please stop emailing us.",
+  "action": "Removal request from the founder. Suppress the firm before any further send.",
+  "tags": [
+   "No reason given"
+  ],
+  "suppress": true,
+  "otherAddrs": [
+   "trhodes@abramscapital.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Bluerock",
+  "person": "Steve Siptrott",
+  "email": "ssiptrott@bluerock.com",
+  "mailedTo": "alotterman@bluerockre.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:17:00Z",
+  "quote": "We will be a pass on this one. Thanks for sharing with us.",
+  "action": "Clean pass, no reason. Note the reply came from bluerock.com, not the bluerockre.com address mailed.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Slate Asset Management",
+  "person": "A Candela",
+  "email": "acandela@slateam.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:29:00Z",
+  "quote": "Not a fit for Slate right now. Can't imagine them doing more multi in the near term.",
+  "action": "Firm is off multifamily for now. Warm personal thread — he asked after the baby.",
+  "tags": [
+   "Different strategy"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Lenox West Capital",
+  "person": "Michael Cohen",
+  "email": "mcohen@lenoxwestcap.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:30:00Z",
+  "quote": "This is not for us. We are not looking to do anything in CA. Let's meet up again soon.",
+  "action": "California screen, relationship intact — he suggested meeting up.",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "ACC Industries",
+  "person": "Jacob Himmelrich",
+  "email": "jhimmelrich@accind.com",
+  "mailedTo": "jsonnenborn@accind.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:30:00Z",
+  "quote": "Not a fit for us thanks. Good luck!",
+  "action": "No reason given. Answered on behalf of Jonah Sonnenborn, the address mailed.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Hatteras Sky",
+  "person": "Oz Friedmann",
+  "email": "ofriedmann@hatterassky.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:36:00Z",
+  "quote": "We are a pass on this.",
+  "action": "No reason given. He runs development, which may be the whole answer.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Griffin Capital",
+  "person": "Paul De Martini",
+  "email": "pdemartini@griffincapital.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:38:00Z",
+  "quote": "Christophe now covers the west coast and is the right person to contact. However, this deal doesn't fit our target investment mandates right now.",
+  "action": "Pass on mandate, but he corrected the coverage: Christophe now has the west coast. Update the list entry even though this deal is dead there.",
+  "tags": [
+   "Different strategy"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Belveron Partners",
+  "person": "Ben",
+  "email": "ben@belveronpartners.com",
+  "mailedTo": "jeremy@belveronpartners.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:43:00Z",
+  "quote": "We are more focused on affordable properties so don't think this is a great fit for us but let us know if there are any other deals we should look at in future.",
+  "action": "Affordable mandate. Explicitly invited future deal flow.",
+  "tags": [
+   "Different strategy"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Iron Point Partners",
+  "person": "Ryan Haas",
+  "email": "rhaas@ironpointpartners.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:45:00Z",
+  "quote": "This is a pass for us. We have deemphasized resi currently in our active fund.",
+  "action": "Current fund is out of residential. A later vintage fund may not be.",
+  "tags": [
+   "Different strategy"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Mattoni Group",
+  "person": "Ricardo Caporal",
+  "email": "rcaporal@mattonigroup.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:46:00Z",
+  "quote": "We only do deals in Florida",
+  "action": "Hard geographic screen. Remove from any California list.",
+  "tags": [
+   "Outside target market"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Wolverton Capital",
+  "person": "Dennis Allen",
+  "email": "dennis@wolvertoncapital.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:51:00Z",
+  "quote": "This one isn't for us. Thanks for sending and the follow up.",
+  "action": "No reason given.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Peakline Real Estate",
+  "person": "Jason Ross",
+  "email": "jross@peakline.com",
+  "stage": "pass",
+  "ts": "2026-08-31T17:04:00Z",
+  "quote": "This isn't a fit for us, we are focused on QOZ 2.0 investments currently.",
+  "action": "Opportunity-zone mandate. Canyon Woods is not a QOZ asset.",
+  "tags": [
+   "Different strategy"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "CAPREIT",
+  "person": "Matt Skurka",
+  "email": "mskurka@capreit.com",
+  "stage": "pass",
+  "ts": "2026-08-31T17:08:00Z",
+  "quote": "We do not have a presence in CA, so this one is a pass for us.",
+  "action": "No California platform. Geographic, not economic.",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Tokyu Land US Corporation",
+  "person": "Ben Cherney",
+  "email": "b.cherney@tlusc.com",
+  "stage": "conditional",
+  "ts": "2026-08-31T17:13:01Z",
+  "quote": "We're more focused on our preferred equity/structured finance strategy and are also targeting properties that are newer vintage. With that said, if you would be interested in exploring how we could add some accretive, passive capital that is approved to pair with both Freddie and Fannie to your capital stack we would be happy to discuss. Please let us know your availability for a call over this week.",
+  "action": "Passes on common equity for vintage, then offers something better than a pass: passive capital pre-approved to sit alongside Freddie and Fannie debt. Asked for availability this week — answer with times. Seventh firm offering capital in a non-common form.",
+  "tags": [
+   "1980s vintage",
+   "Structure / check size"
+  ],
+  "otherAddrs": [
+   "y.tang@tlusc.com",
+   "a.mark@tlusc.com",
+   "l.raab@tlusc.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "ARCTRUST",
+  "person": "Gary Sheehan",
+  "email": "GSheehan@arctrust.com",
+  "stage": "relationship",
+  "ts": "2026-08-31T17:50:17Z",
+  "quote": "Are you at the FL ICSC conference? I believe that Chris is attending.",
+  "action": "Not a deal answer — he changed the subject to the Florida ICSC conference. Answer the conference question; the deal ask is still unanswered.",
+  "tags": [],
+  "otherAddrs": [
+   "jdonalson@arctrust.com",
+   "clecates@arctrust.com",
+   "rambrosi@arctrust.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Edge Hill Venture Partners",
+  "person": "Rich Frankenberg",
+  "email": "rich.frankenberg@edgehillvp.com",
+  "stage": "pass",
+  "ts": "2026-08-31T17:38:27Z",
+  "quote": "We are going to pass on this one. We have two opportunities we are pursuing right now and need to focus time/capital there in near term. Please keep us in the loop.",
+  "action": "Capacity, not conviction — two live deals ahead of this one. Asked to stay on the list.",
+  "tags": [
+   "Bandwidth / timing"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Atlantic Creek Real Estate Partners",
+  "person": "Jon Trucano",
+  "email": "trucano@atlanticcreek.com",
+  "stage": "pass",
+  "ts": "2026-08-31T17:34:56Z",
+  "quote": "As noted when we spoke, the vintage and geography of this one would not be a fit for us.",
+  "action": "Both screens at once, and he had already told you on a call. Do not re-pitch this asset here.",
+  "tags": [
+   "1980s vintage",
+   "California"
+  ],
+  "otherAddrs": [
+   "mele@atlanticcreek.com",
+   "bylin@atlanticcreek.com",
+   "sachs@atlanticcreek.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Lateral",
+  "person": "Anand Kapadia",
+  "email": "akapadia@lateralllc.com",
+  "stage": "meeting",
+  "ts": "2026-08-31T18:10:28Z",
+  "quote": "We can get on a call, but won't be until Thursday or Friday. Would that work for you?",
+  "action": "Offered Thursday or Friday. Pick one and send the invite.",
+  "tags": [],
+  "otherAddrs": [
+   "ehattem@lateralllc.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "InterVest",
+  "person": "Will Hutton",
+  "email": "w.hutton@intervest.com",
+  "stage": "pass",
+  "ts": "2026-08-31T18:54:17Z",
+  "quote": "Sorry, been out of the country. Vintage will be too old.",
+  "action": "Straight vintage screen. Sixth firm to name 1986 as the reason.",
+  "tags": [
+   "1980s vintage"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "FCP",
+  "person": "Bruce Gago",
+  "email": "bgago@fcpdc.com",
+  "stage": "pass",
+  "ts": "2026-08-31T18:31:35Z",
+  "quote": "Not active in CA.",
+  "action": "Three words, geographic. Keep for anything outside California.",
+  "tags": [
+   "California"
+  ],
+  "otherAddrs": [
+   "bhurlbut@fcpdc.com",
+   "ckellogg@fcpdc.com",
+   "mlevine@fcpdc.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Barnett Capital",
+  "person": "Jordan Weiss",
+  "email": "jbweiss@barnettcapital.com",
+  "mailedTo": "eperetz@barnettcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-31T18:30:16Z",
+  "quote": "We don't invest in JV Equity deals; we focus on first mortgage lending.",
+  "action": "First-mortgage lender, not an equity partner. Reclassify out of the JV equity list.",
+  "tags": [
+   "Not an LP"
+  ],
+  "otherAddrs": [
+   "jbarnett@barnettcapital.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Loci Capital",
+  "person": "Garrett Francis",
+  "email": "gfrancis@locicapital.com",
+  "stage": "pass",
+  "ts": "2026-08-31T18:15:13Z",
+  "quote": "We don't invest in California so this will be a pass for us. Also Mike N is no longer at Loci. Please remove from distribution list.",
+  "action": "California screen plus a removal request, and Mike Nauman has left the firm. Suppress both addresses and drop Nauman from the list.",
+  "tags": [
+   "California"
+  ],
+  "suppress": true,
+  "otherAddrs": [
+   "mnauman@locicapital.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Thorofare Capital",
+  "person": "Mitch Kralis",
+  "email": "Mitch.Kralis@thorofarecapital.com",
+  "stage": "pass",
+  "ts": "2026-08-31T20:47:48Z",
+  "quote": "We are not a player in California",
+  "action": "Read it within the hour he promised and passed on California. Closed cleanly — the Stage 2 wave got him to look, and the answer was still no.",
+  "tags": [
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "DivcoWest",
+  "person": "Stuart Shiff",
+  "email": "SShiff@divcowest.com",
+  "mailedTo": "rmashaal@divcowest.com",
+  "stage": "referred",
+  "ts": "2026-08-31T19:59:37Z",
+  "quote": "Copying Richie who oversees our resi business",
+  "action": "The CEO routed it internally to Richie DeBeikes, who runs their residential business. Reply on the thread — this is the warmest kind of hand-off.",
+  "tags": [],
+  "otherAddrs": [
+   "rdebeikes@divcowest.com",
+   "bchang@divcowest.com",
+   "cponig@divcowest.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Birbas",
+  "person": "Zakary",
+  "email": "zak@birbas.com",
+  "stage": "pass",
+  "ts": "2026-08-31T19:35:53Z",
+  "quote": "San Ramon isn't a market of interest for our partners, so we'll pass on this opportunity. That said, we'd be happy to look at any other multifamily.",
+  "action": "Submarket screen, not sector. Explicitly open to other multifamily.",
+  "tags": [
+   "Outside target market"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "ASB Real Estate Investments",
+  "person": "Kavita Mathews",
+  "email": "kmathews@asbrealestate.com",
+  "stage": "pass",
+  "ts": "2026-08-31T19:16:03Z",
+  "quote": "This is a pass for us, thanks.",
+  "action": "No reason given, straight off the Stage 2 call request.",
+  "tags": [
+   "No reason given"
+  ],
+  "otherAddrs": [
+   "nfranzetti@asbrealestate.com",
+   "mwiest@asbrealestate.com",
+   "mmurphy@asbrealestate.com"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Kingdom Holding Company",
+  "person": "Tamim B. Jabr",
+  "email": "Tamim@kingdom.com.sa",
+  "mailedTo": "adel@kingdom.com.sa",
+  "otherAddrs": [
+   "tim@kingdom.com.sa"
+  ],
+  "stage": "pass",
+  "ts": "2026-08-31T19:49:46Z",
+  "quote": "Thanks no interest from ourside",
+  "action": "Passed in six words with no reason attached. Answered from Tamim against a list entry of adel@, so the family-office roster has the wrong contact for the firm.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Dock Street Capital",
+  "person": "Gregory Stahl",
+  "email": "GStahl@dockstreetcapital.com",
+  "mailedTo": "amadison@dockstreetcapital.com",
+  "stage": "pass",
+  "ts": "2026-08-31T21:40:51Z",
+  "quote": "This isn't of interest",
+  "action": "Passed within twenty minutes of the family office follow-up landing. Answered from the cc'd partner rather than Annette Madison, the list contact.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "RWR Investments",
+  "person": "Parit Patel",
+  "email": "parit@rwrinvestments.com",
+  "otherAddrs": [
+   "wryan@rwrinvestments.com",
+   "katie@provisionfos.com"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-08-31T23:06:32Z",
+  "quote": "This is not a fit for us. We don't invest in multifamily.",
+  "action": "Does not invest in multifamily at all — a list-fit problem, not a deal problem.",
+  "tags": [
+   "Not multifamily"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Sapient Capital",
+  "person": "Karim Khairallah",
+  "email": "kkhairallah@sapientcapital.com",
+  "mailedTo": "jrooney@sapientcapital.com",
+  "stage": "outofscope",
+  "ts": "2026-08-31T18:06:05Z",
+  "quote": "Unfortunately this is not a sector we are looking for new investments in.",
+  "action": "The CEO answered rather than the list contact. Not allocating to the sector at present.",
+  "tags": [
+   "Not multifamily"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Bollinger",
+  "person": "Peyton B",
+  "email": "peytonb@bollinger.com",
+  "mailedTo": "benh@bollinger.com",
+  "stage": "pass",
+  "ts": "2026-08-31T17:38:03Z",
+  "quote": "We are currently not deploying capital into any new real estate investments. Not sure when we will lift that restriction.",
+  "action": "A full stop on new real estate, with no date on when it lifts. Not worth re-approaching on the next deal without checking first.",
+  "tags": [
+   "Not deploying"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Claridge",
+  "person": "Frederic Martel",
+  "email": "fredericmartel@claridgeinc.com",
+  "otherAddrs": [
+   "muriellelortie@claridgeinc.com"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-08-31T17:25:56Z",
+  "quote": "Our investment activities in RE are primarily focussed on Canada.",
+  "action": "Canada-focused. Geography, not the deal.",
+  "tags": [
+   "Geography"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Claremont Corp",
+  "person": "Ned Carney",
+  "email": "ecarney@claremontcorp.com",
+  "otherAddrs": [
+   "pcarney@claremontcorp.com",
+   "kmcnamara@claremontcorp.com"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-08-31T17:19:10Z",
+  "quote": "This is outside of our geographic concentration area.",
+  "action": "Geography.",
+  "tags": [
+   "Geography"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Pohlad Companies",
+  "person": "Elizabeth Lilly",
+  "email": "Elizabeth.Lilly@pohladcompanies.com",
+  "mailedTo": "dennis.goetz@pohladcompanies.com",
+  "stage": "pass",
+  "ts": "2026-08-31T17:17:10Z",
+  "quote": "Please remove me",
+  "action": "Removal request from the CIO — she was a cc, not the list contact. Suppress her address; Dennis Goetz did not answer either way.",
+  "tags": [
+   "Removal request"
+  ],
+  "suppress": true,
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Highgate",
+  "person": "Craig Story",
+  "email": "cstory@highgate.com",
+  "otherAddrs": [
+   "rperrotta@highgatecapinv.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-08-31T16:41:38Z",
+  "quote": "This is not a fit for us; please remove us from your distribution list.",
+  "action": "Pass plus a removal request covering the firm, not just him — the send had nine cc's at Highgate, so suppress the whole block.",
+  "tags": [
+   "Removal request"
+  ],
+  "suppress": true,
+  "campaign": "family-office"
+ },
+ {
+  "firm": "HF Capital",
+  "person": "Andrew Seamons",
+  "email": "aseamons@hfcapital.com",
+  "otherAddrs": [
+   "joswalt@hfcapital.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-08-31T16:41:32Z",
+  "quote": "This is not a fit for us. Good luck with the aquisiton.",
+  "action": "Clean pass, no reason given.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Dentressangle",
+  "person": "Sylvain Froissard",
+  "email": "s.froissard@dentressangle.com",
+  "otherAddrs": [
+   "a.guillon@dentressangle.com",
+   "t.coloigner@dentressangle.com",
+   "jl.savoye@dentressangle.com"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-08-31T16:39:44Z",
+  "quote": "Unfortunately this investment opportunity is out of scope for our strategy.",
+  "action": "Out of strategy.",
+  "tags": [
+   "Mandate"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Blue Sky Equities",
+  "person": "Derrick Hunter",
+  "email": "derrick.hunter@blueskyequities.com",
+  "mailedTo": "derrick@blueskyequities.com",
+  "otherAddrs": [
+   "stephen.kallir@blueskyequities.com",
+   "stephen@blueskyequities.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-08-31T16:22:31Z",
+  "quote": "We do not evaluate unsolicited inbound deals.",
+  "action": "Policy against unsolicited inbound — no amount of follow-up changes this one. Note the list has derrick@ but he replies from derrick.hunter@.",
+  "tags": [
+   "No unsolicited deals"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Croson",
+  "person": "Charles Croson",
+  "email": "charles@croson.com",
+  "stage": "pass",
+  "ts": "2026-08-31T16:17:08Z",
+  "quote": "We are full on CRE and focusing on internal deals.",
+  "action": "Allocation is full and attention is on their own pipeline.",
+  "tags": [
+   "Not deploying"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Cooper Management",
+  "person": "Elliot Wheeler",
+  "email": "ewheeler@cooper-management.com",
+  "mailedTo": "carey@cooper-management.com",
+  "otherAddrs": [
+   "kparker@cooper-management.com",
+   "ccooper@cooper-management.com"
+  ],
+  "stage": "materials",
+  "ts": "2026-08-31T16:15:55Z",
+  "quote": "I don't think we've met. Can you send us some information on your firm?",
+  "action": "The President is asking about ZMR itself, not the deal — he wants a firm background before he looks at Canyon Woods. Send the firm overview alongside the LP deck.",
+  "tags": [
+   "Wants firm background"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Rivergate",
+  "person": "Jay Massirman",
+  "email": "jay@rivergatere.com",
+  "otherAddrs": [
+   "humberto@rivergatere.com"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-08-31T23:32:15Z",
+  "quote": "We are developers we are not LP or CoGP capital",
+  "action": "Not a capital provider at all — they build. A list-fit error rather than a decision on the deal.",
+  "tags": [
+   "Not a capital provider"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "A2 Management",
+  "person": "Suman Alagappan",
+  "email": "salagappan@a2mgmt.com",
+  "stage": "meeting",
+  "ts": "2026-09-01T06:19:22Z",
+  "quote": "Sorry how's Tuesday afternoon around 3pm?",
+  "action": "Silent through the original and both Stage 1 follow-ups, then answered the Stage 2 call-ask by proposing a time himself — Tuesday 1 Sep at 3pm. That is TODAY, the day Zamir is out. Confirm or hand to Michael Regan now; nobody has replied.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "CC Trust",
+  "person": "S. Nowak",
+  "email": "snowak@cctrust.ch",
+  "otherAddrs": [
+   "pschnieper@cctrust.ch"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-01T07:22:05Z",
+  "quote": "After reviewing the information, we have decided not to pursue the investment.",
+  "action": "Reviewed and declined off the family office follow-up. Polite, no reason given.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Diverinvest",
+  "person": "Carol Daunert",
+  "email": "carol.daunert@diverinvest.es",
+  "otherAddrs": [
+   "david.levy@diverinvest.es"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-09-01T10:27:16Z",
+  "quote": "We are currently not offering our clients any investment opportunities in real estate outside Spain.",
+  "action": "Spain-only mandate for their clients. Geography, and a firm one.",
+  "tags": [
+   "Geography"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Contrarian Capital Management",
+  "person": "Gil Tenzer",
+  "email": "tenzer@contrariancapital.com",
+  "mailedTo": "dchen@contrariancapital.com",
+  "otherAddrs": [
+   "mrader@contrariancapital.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-01T13:15:02Z",
+  "quote": "The $31MM equity check is too large for our current target check size so pass for us.",
+  "action": "Passed on size, not on the deal — he read it properly and described the business plan back accurately. Their current appetite is $3-5M unlevered strategic investments and they have no active mandate. Twentieth check-size pass; too small even for a syndicated slice.",
+  "tags": [
+   "Structure / check size",
+   "No dry powder"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Sundance Bay",
+  "person": "Jeff Harris",
+  "email": "jeff.harris@sundancebay.com",
+  "mailedTo": "apeterson@sundancebay.com",
+  "otherAddrs": [
+   "andrew@sundancebay.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-01T16:02:53Z",
+  "quote": "We are really focused on 90s and newer, and tend to shy away from CA. Looking forward to reviewing the next deal.",
+  "action": "Both screens at once — 1980s vintage and California. Seventh firm to name the vintage. Left the door open for the next deal.",
+  "tags": [
+   "1980s vintage",
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "RCLCO",
+  "person": "Taylor Mammen",
+  "email": "tmammen@rclco.com",
+  "otherAddrs": [
+   "gkaufmann@rclco.com",
+   "rpollack@rclco.com"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-09-01T16:01:16Z",
+  "quote": "We don't currently have any clients who are looking for JV partners to pursue value add multifamily.",
+  "action": "An advisory firm, not a principal — they place capital for clients and none is looking for value-add MF JV right now. A list-fit issue.",
+  "tags": [
+   "Not a capital provider"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Sixth Street",
+  "person": "Billy Eichenholz",
+  "email": "BEichenholz@sixthstreet.com",
+  "mailedTo": "kheravi@sixthstreet.com",
+  "otherAddrs": [
+   "arapport@sixthstreet.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-01T15:53:35Z",
+  "quote": "Too small thanks",
+  "action": "Two words, sixty seconds after the follow-up landed. $31M is below their floor.",
+  "tags": [
+   "Structure / check size"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Wheelock Street Capital",
+  "person": "James Eberhart",
+  "email": "eberhart@wheelockst.com",
+  "mailedTo": "hodes@wheelockst.com",
+  "stage": "pass",
+  "ts": "2026-09-01T15:52:48Z",
+  "quote": "This deal is unfortunately not going to be a fit for us. Thanks for the look.",
+  "action": "Clean pass, no reason given.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "DVO Real Estate",
+  "person": "Victoria Goldenberg",
+  "email": "vgoldenberg@dvorealestate.com",
+  "stage": "pass",
+  "ts": "2026-09-01T16:51:31Z",
+  "quote": "I do not think this one will be for us given market and vintage (looking at 2000s and newer currently).",
+  "action": "Market and vintage together — and their bar is 2000s and newer, the tightest vintage screen named so far. Eighth firm to cite the 1986 build.",
+  "tags": [
+   "1980s vintage",
+   "California"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Rockport Equity",
+  "person": "Keith Guerraz",
+  "email": "kguerraz@rockportequity.com",
+  "stage": "pass",
+  "ts": "2026-09-01T17:27:44Z",
+  "quote": "Not for us, thank you.",
+  "action": "Four words from the Managing Partner. No reason given.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "RSF Partners",
+  "person": "Mike Ernst",
+  "email": "Mernst@rsfpartners.com",
+  "otherAddrs": [
+   "dwoodbury@rsfpartners.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-01T17:14:19Z",
+  "quote": "This deal is not a good fit for us. Returns too low, product too old.",
+  "action": "Both objections in one line — return threshold and vintage. Also: Dave Woodbury has left RSF, so drop that address from the list.",
+  "tags": [
+   "Return threshold",
+   "1980s vintage"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "OTIS Capital",
+  "person": "Josh Bloch",
+  "email": "josh@otiscap.com",
+  "otherAddrs": [
+   "NIV@mntpac.com"
+  ],
+  "stage": "referred",
+  "ts": "2026-09-01T18:38:59Z",
+  "quote": "Sorry just seeing this. Looping in @Niv Henn",
+  "action": "Referred straight to Niv Henn at Mountain Pacific — who is already on the board, having asked back on 26 Aug whether co-GP or pref was on the table. Two independent routes now converge on the same person, so answer him once on the thread that has both firms on it.",
+  "tags": [],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Namastay Development",
+  "person": "B. Wolsic",
+  "email": "bwolsic@namastaydevelopment.com",
+  "stage": "outofscope",
+  "ts": "2026-09-01T21:06:34Z",
+  "quote": "We aren't providing LP equity for deals",
+  "action": "Not an LP equity provider — a developer. List-fit, not a decision on the deal.",
+  "tags": [
+   "Not a capital provider"
+  ],
+  "campaign": "institutional"
+ },
+ {
+  "firm": "Five Eleven Partners",
+  "person": "Gilbert Calderon",
+  "email": "Gil.Calderon@five11partners.com",
+  "mailedTo": "andy.crofton@five11partners.com",
+  "otherAddrs": [
+   "keith.feinberg@five11partners.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-02T16:01:52Z",
+  "quote": "We appreciate the offer but this is not a fit for us right now.",
+  "action": "The CIO answered rather than the list contact. Polite pass, no reason, and \"right now\" leaves the door ajar.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "SlateStone Wealth",
+  "person": "Erin Gibbs",
+  "email": "egibbs@slatestone.com",
+  "mailedTo": "dpayne@slatestone.com",
+  "otherAddrs": [
+   "mcoady@slatestone.com",
+   "ptylander@slatestone.com",
+   "dharkin@slatestone.com",
+   "sdaniels@slatestone.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-02T17:02:39Z",
+  "quote": "You and your company have been blocked by our email system. Spamming 6 employees, none of whom are involved with private allocations... Please do not respond.",
+  "action": "DOMAIN BLOCKED. Their Chief Equity Strategist blocked zmrcapital.com outright, and the stated cause is the six-address cc block combined with three waves — the same pattern used list-wide. Suppress all six SlateStone addresses and do not reply. Her quote of the original also shows the \",.ZMR\" typo is live in the mailed copy.",
+  "tags": [
+   "Removal request",
+   "Domain blocked"
+  ],
+  "suppress": true,
+  "campaign": "family-office"
+ },
+ {
+  "firm": "AMB Family Office",
+  "person": "Brett Jewkes",
+  "email": "BJewkes@ambfo.com",
+  "otherAddrs": [
+   "kpope@ambse.com",
+   "dietmar.exler@ambse.com",
+   "andrea.demarco@ambfo.com",
+   "afranklin@ambse.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-02T16:23:21Z",
+  "quote": "No thanks.",
+  "action": "Answered from vacation eighteen minutes after his own out-of-office fired. Two words, no reason.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "GFO Investments",
+  "person": "Lidia Carrera",
+  "email": "lcarrera@gfoinvestments.com",
+  "stage": "referred",
+  "ts": "2026-09-02T17:08:24Z",
+  "quote": "I forwarded the information to our Acquisitions Department. They will be in contact with you if we are interested in moving forward.",
+  "action": "Routed internally by the controller. No name given for the acquisitions contact, so there is nobody to chase — this one sits with them.",
+  "tags": [],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Island Wealth Management",
+  "person": "Peter Culver",
+  "email": "peterculver@iwmnyc.com",
+  "stage": "outofscope",
+  "ts": "2026-09-02T17:08:30Z",
+  "quote": "As I have said before we are not interested FYI - we are in the M-Fam business",
+  "action": "Second time he has said no — \"as I have said before\" — and he is a multifamily operator himself, not a capital source. Suppress: the list has him miscategorised and he has now been chased three times.",
+  "tags": [
+   "Not a capital provider",
+   "Removal request"
+  ],
+  "suppress": true,
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Hendricks Holding Company",
+  "person": "K. Leo",
+  "email": "kleo@leo-law.com",
+  "mailedTo": "nmoser@hendricksholding.com",
+  "otherAddrs": [
+   "jcoulter@hendricksholding.com",
+   "bfox@hendricksholding.com",
+   "sbianchini@hendricksholding.com"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-09-02T17:05:06Z",
+  "quote": "HHC doesn't invest in multi-family housing. HHC has a subsidiary that develops mixed use properties including residential rental units. We aren't a good candidate for your projects.",
+  "action": "Their counsel answered. They develop mixed-use themselves rather than allocating to multifamily. List-fit.",
+  "tags": [
+   "Not multifamily"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "RWN Management",
+  "person": "Ken Glassman",
+  "email": "kglassman@rwnmgmt.com",
+  "mailedTo": "mharada@rwnmgmt.com",
+  "stage": "pass",
+  "ts": "2026-09-02T17:01:11Z",
+  "quote": "Not for us but thanks.",
+  "action": "The CEO and CIO, four words. No reason.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Edizione",
+  "person": "Christian Coco",
+  "email": "christian.coco@edizione.com",
+  "otherAddrs": [
+   "matteo.fanciullacci@edizione.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-02T16:55:42Z",
+  "quote": "Thanks, we have no interest in it",
+  "action": "Benetton family holding company, Treviso. No interest, no reason.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Wildcat Capital Management",
+  "person": "Leonard Potter",
+  "email": "lpotter@wildcatcap.com",
+  "mailedTo": "brosenblatt@wildcatcap.com",
+  "stage": "pass",
+  "ts": "2026-09-02T16:48:56Z",
+  "quote": "This would not be a fit for us at this time.",
+  "action": "Polite pass from the founder. \"At this time\" leaves it open.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "DFO Management (Dell Family Office)",
+  "person": "Alisa Mall",
+  "email": "amall@dellfamilyoffice.com",
+  "mailedTo": "jcardoso@dellfamilyoffice.com",
+  "stage": "pass",
+  "ts": "2026-09-02T16:43:12Z",
+  "quote": "Thanks this is not a fit for our portfolio.",
+  "action": "Their CIO answered directly rather than the list contact. Portfolio fit, no further reason.",
+  "tags": [
+   "Mandate"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "LI Family Office",
+  "person": "Simon",
+  "email": "info@lifamilyoffice.com",
+  "mailedTo": "simon@lifamilyoffice.com",
+  "stage": "pass",
+  "ts": "2026-09-03T06:54:38Z",
+  "quote": "3 messages in a week, comes across as desperate. I only invest in distressed US RE, happy to chat after the collapse. [2 Sep: I am expecting significant falls in US RE prices, so am happy to sit back and wait]",
+  "action": "Answered twice. The market-timing pass stands — he only buys distressed and is waiting for prices to fall — but the second message adds a cadence complaint: three touches in a week reads as desperate. That is the third firm to say so, after SlateStone (which blocked the domain) and Clearstead, and the first to tie it to how the deal itself comes across rather than to inbox volume. Worth weighing against the fact that the call-ask wave is what tripled engagement.",
+  "tags": [
+   "Market timing",
+   "Cadence complaint"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "TJFO",
+  "person": "Rhett Madison",
+  "email": "RMadison@tjfo.com",
+  "mailedTo": "rmadison@tjfo.net",
+  "otherAddrs": [
+   "ycoquoz@tjfo.net",
+   "YCoquoz@tjfo.com"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-09-02T17:26:29Z",
+  "quote": "We do not invest in real estate. Please unsubscribe us both.",
+  "action": "Not a real estate investor at all, and an explicit removal request for both addresses. Note the list has them on .net while they actually reply from .com — suppress all four permutations.",
+  "tags": [
+   "Not a capital provider",
+   "Removal request"
+  ],
+  "suppress": true,
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Agman Partners",
+  "person": "H.S.S.",
+  "email": "hss@agmanpartners.com",
+  "mailedTo": "scott.silverman@agmanpartners.com",
+  "otherAddrs": [
+   "emw@agmanpartners.com"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-09-02T17:22:07Z",
+  "quote": "We have our own multi family development and acquisition team (metonic). We also do property management. If you're interested in chatting with our property management group (Seldin Company), happy to connect you.",
+  "action": "Not a capital source — they own Metonic (development/acquisition) and Seldin (property management), and offered an introduction to Seldin instead. Not equity for Canyon Woods, but a genuine offer worth a courteous answer given ZMR runs 10,000+ units.",
+  "tags": [
+   "Not a capital provider"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "THI Investments",
+  "person": "Mihir Kotecha",
+  "email": "m.kotecha@thi-investments.com",
+  "stage": "pass",
+  "ts": "2026-09-02T17:21:55Z",
+  "quote": "Not a fit for us. Thanks.",
+  "action": "Four words, no reason.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "JPB Partners",
+  "person": "Mary Glagola",
+  "email": "mary.glagola@jpbpartners.com",
+  "mailedTo": "jay.jang@jpbpartners.com",
+  "otherAddrs": [
+   "jim.bolduc@jpbpartners.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-02T17:16:09Z",
+  "quote": "Thank you, we are not interested.",
+  "action": "Their CAO answered. No reason.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Tranquility Partners",
+  "person": "John Crawford",
+  "email": "JCrawford@tranquilitypartners.com",
+  "mailedTo": "jbaker@tranquilitypartners.com",
+  "stage": "pass",
+  "ts": "2026-09-02T18:47:32Z",
+  "quote": "Unsubscribe, please.",
+  "action": "Two words and a removal request, from the cc rather than the list contact. Suppress both addresses.",
+  "tags": [
+   "Removal request"
+  ],
+  "suppress": true,
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Clearstead",
+  "person": "Cameron Lamarche",
+  "email": "clamarche@clearstead.com",
+  "otherAddrs": [
+   "cluzier@clearstead.com",
+   "tandersen@clearstead.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-02T18:49:56Z",
+  "quote": "Not a fit. You can take us off your distribution list.",
+  "action": "Pass plus a removal request covering the firm. Their Senior Managing Director answered after two Clearstead out-of-offices had already come back on 31 Aug — a third contact at the same firm getting chased is what tipped it into a removal. The list only has adeshpande@; the mail reached at least four Clearstead people from that one entry, which is the same fan-out SlateStone objected to. Suppress the firm.",
+  "tags": [
+   "Removal request"
+  ],
+  "suppress": true,
+  "campaign": "family-office",
+  "mailedTo": "adeshpande@clearstead.com"
+ },
+ {
+  "firm": "CIG Investments",
+  "person": "Dan Velazquez",
+  "email": "dvelazquez@ciginvest.com",
+  "otherAddrs": [
+   "ekolczynski@ciginvest.com",
+   "ahornick@ciginvest.com"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-09-02T19:48:39Z",
+  "quote": "Thank you, but we're not interested in CA real estate.",
+  "action": "California, flatly. Ninth firm across both lists to name the state.",
+  "tags": [
+   "California"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "ASG Equities",
+  "person": "Michael O'Shea",
+  "email": "moshea@asgequities.com",
+  "mailedTo": "raymond@gindieq.com",
+  "stage": "materials",
+  "ts": "2026-09-02T20:27:25Z",
+  "quote": "Send the model but we usually invest in multi family directly",
+  "action": "Asked for the model — the first materials request off the family office list. Caveats that they normally buy direct rather than through a JV, so frame it as a partnership rather than a fund allocation. Answered from the cc, not the Gindi list address.",
+  "tags": [
+   "Wants materials"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Aprio Wealth Management",
+  "person": "Simeon Wallis",
+  "email": "Simeon.Wallis@aprio.com",
+  "mailedTo": "eric.flynn@aprio.com",
+  "otherAddrs": [
+   "courtney.holt@aprio.com",
+   "keith.greenwald@aprio.com",
+   "noah.marell@aprio.com"
+  ],
+  "stage": "conditional",
+  "ts": "2026-09-02T21:22:24Z",
+  "quote": "Is this available on an alternative asset platform (e.g., iCapital, Altera)? For our private investments, we focus on opportunities on those platforms as they enable scalability from operational and investment due diligence, as well as monitoring and maintenance perspectives.",
+  "action": "Their CIO stepped in over the list contact and gave a precise structural condition: they only take private investments through iCapital or Altera, because that is what makes diligence and ongoing monitoring scale for them. A direct JV cannot clear that bar. He offered the fallback of their sponsor database via a form. A distinct objection from anything else on the board — not price, vintage or geography, but the distribution channel.",
+  "tags": [
+   "Platform requirement",
+   "Structure / check size"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Darmen Group",
+  "person": "John",
+  "email": "john@darmengroup.com",
+  "mailedTo": "john@myfamilyofficepartner.com",
+  "stage": "pass",
+  "ts": "2026-09-02T21:24:45Z",
+  "quote": "This is not a fit for our team at present.",
+  "action": "Answered from darmengroup.com against a myfamilyofficepartner.com list entry — correct the roster. No reason given.",
+  "tags": [
+   "No reason given"
+  ],
+  "campaign": "family-office"
+ },
+ {
+  "firm": "Blackstone Strategic Partners",
+  "person": "Ian Finlay",
+  "email": "Ian.Finlay@blackstone.com",
+  "stage": "relationship",
+  "ts": "2026-09-02T16:13:07Z",
+  "campaign": "institutional",
+  "quote": "Hi Zamir good to hear from you and let's plan to catch up post Labor Day. We're not really in the business of bidding on deals with capital partners unfortunately so this one won't be a fit for us.",
+  "action": "Second Blackstone answer, from a different desk than Scott McCallum's — Strategic Partners does not bid alongside capital partners as a matter of mandate, so this is a structural no rather than a view on Canyon Woods. He asked to catch up after Labor Day: a relationship to book a call on, not a deal to push.",
+  "tags": [
+   "Structure / check size",
+   "Keep in touch"
+  ]
+ },
+ {
+  "firm": "Thrive FP",
+  "person": "Joe Romano",
+  "email": "joe@thrivefp.com",
+  "mailedTo": "justin@thrivelend.com",
+  "stage": "pass",
+  "ts": "2026-09-01T22:09:47Z",
+  "campaign": "institutional",
+  "quote": "What is your CRM? Please update from our convo ~1 month ago. Justin's not here - we aren't looking at deals right now.",
+  "action": "Answered from the cc line for a contact who has left. Two things to fix: Justin Brogna is gone from Thrive, and Joe had already told us a month ago they are not looking at deals — the list carried neither, and three waves landed on a dead address anyway. Not a deal objection; a data-hygiene complaint with a pass attached.",
+  "tags": [
+   "Not looking now",
+   "Wrong contact"
+  ]
+ },
+ {
+  "firm": "Kin Group",
+  "person": "Nick Perkins",
+  "email": "nick@kingroup.com.au",
+  "mailedTo": "tristan@kingroup.com.au",
+  "otherAddrs": [
+   "daniel@kingroupusa.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-03T00:20:32Z",
+  "campaign": "family-office",
+  "quote": "no, not for us.",
+  "action": "The CEO of an Australian family office answering for the three people on the list. No reason given, and their US entity (kingroupusa.com) was on the cc, so the domestic arm saw it too. Nothing to work with.",
+  "tags": [
+   "No reason given"
+  ]
+ },
+ {
+  "firm": "GANMI",
+  "person": "Eric",
+  "email": "eric@ganmi.us",
+  "otherAddrs": [
+   "casey@ganmi.us"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-03T04:46:52Z",
+  "campaign": "family-office",
+  "quote": "sorry no interest thanks",
+  "action": "No reason given, on the third touch. Nothing to work with.",
+  "tags": [
+   "No reason given"
+  ]
+ },
+ {
+  "firm": "Arkin Holdings",
+  "person": "Nir Arkin",
+  "email": "nir@arkin-capital.com",
+  "mailedTo": "nir@arkinholdings.com",
+  "otherAddrs": [
+   "hani@arkin-capital.com"
+  ],
+  "stage": "pass",
+  "ts": "2026-09-03T05:46:22Z",
+  "campaign": "family-office",
+  "quote": "Hi, no interest from our side, sorry.",
+  "action": "The Herzliya family office. No reason given. The firm has moved from arkinholdings.com to arkin-capital.com — both Nir and Hani answered on the new domain, so correct the roster.",
+  "tags": [
+   "No reason given",
+   "Wrong contact"
+  ]
+ },
+ {
+  "firm": "Procedo Capital",
+  "person": "Per Johansson",
+  "email": "Per.Johansson@procedo.se",
+  "otherAddrs": [
+   "Gustav.Hertzberg@procedo.se"
+  ],
+  "stage": "outofscope",
+  "ts": "2026-09-03T07:14:29Z",
+  "campaign": "family-office",
+  "quote": "This is not interesting to us. We do primarily direct RE investments in Europe.",
+  "action": "Swedish family office: direct European real estate only, so US JV equity is off-mandate on two counts at once — geography and structure. Nothing to rework.",
+  "tags": [
+   "Geography / market",
+   "Structure / check size"
+  ]
+ }
+]
