@@ -95,17 +95,25 @@
  },
  {
   "firm": "Clairmont Capital Group",
-  "person": "Nick Clairmont",
+  "person": "Nick J. Burk",
   "email": "nick@clairmontcg.com",
-  "stage": "materials",
-  "ts": "2026-08-26T22:56:07Z",
-  "quote": "Definitely interested in exploring from a co-GP perspective. If that opportunity exists, please send us the pro forma, T12, RR, and a summary.",
-  "action": "Co-GP only. Send pro forma, T12, RR, summary if co-GP is on the table.",
+  "stage": "question",
+  "ts": "2026-09-03T23:14:39Z",
+  "quote": "We've completed our initial screening and I have compiled the following questions below. Would like to understand how you got to a 5% exit cap and $691/sf price. Do you have data or comps that support these? There doesn't seem to be any 100+ apartment sales in San Ramon over the past 10 years. Can you share your thoughts on this and how you're getting comfortable with marketability at exit?",
+  "action": "The deepest diligence anyone on either list has done — a full screening and 14 written questions, with the two hardest at the top: what supports a 5% exit cap and $691/sf, and how do we get comfortable on exit marketability when San Ramon has had no 100+ unit sale in ten years. That second point is a comp-set problem the deck does not address and it needs an answer regardless of who ends up in the deal. The rest is a standard but long list: T-12 trade-out detail with prior rent (the T-90 sent has no prior-rent column), why the model runs a 10% new-lease concession against zero in place, the reassessed tax derivation, insurance underwritten at ~$104k against $129k in place and whether that is a bound quote, five to seven years of seller capex, roof replacement history, and the full HOA package — CC&Rs, bylaws, three years of financials and budgets, master insurance policy, and the leasing-office lease between the HOA and the owner. He also asked where the sale process now stands, which is the opening to restate the basis at $73.5M. CAVEAT: Clairmont is co-GP, which Zamir has said is not wanted at this point — but the questions themselves are the most valuable thing either campaign has produced, and the exit-comp one will be asked by whoever does come in.",
   "tags": [
-   "Structure / check size"
+   "Return profile",
+   "Basis / price",
+   "Structure / check size",
+   "Wants materials"
   ],
   "mailedTo": "nick@clairmontcapitalgroup.com",
-  "campaign": "institutional"
+  "campaign": "institutional",
+  "otherAddrs": [
+   "christian@clairmontcapitalgroup.com",
+   "cheng@clairmontcg.com",
+   "ryan@clairmontcg.com"
+  ]
  },
  {
   "firm": "Mountain Pacific",

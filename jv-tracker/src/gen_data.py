@@ -28,7 +28,7 @@ CAMPAIGNS = [
         "sentEnd": "2026-08-26T23:04:44Z",
         "listSize": 534, "removedPreSend": 83, "sent": 451,
         "bounces": 19, "blocks": 3, "opens": 197, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-09-03T17:05:08Z",
+        "reportAt": "2026-09-03T23:15:07Z",
         "followUps": [
             # Both paused on Gmail's 24h limit and resumed on 31 Aug, about five hours
             # later than the 08:18 PDT the reports predicted — the 07:08 PDT reports
