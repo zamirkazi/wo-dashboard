@@ -1098,15 +1098,23 @@
  },
  {
   "firm": "3650 Capital",
-  "person": "Brent Thurn",
-  "email": "bthurn@3650capital.com",
+  "person": "Raelene Vepuri",
+  "email": "rvepuri@3650capital.com",
   "mailedTo": "jsharf@3650reit.com",
-  "stage": "materials",
-  "ts": "2026-09-01T01:57:03Z",
-  "quote": "Jeremiah no longer works at 3650 — but we would be happy to dig into the opportunity if you have a drop box or something you could share?",
-  "action": "Michael Regan sent the LP deck and model on 1 Sep. Contact is Brent Thurn at 3650capital.com, not Jeremiah Sharf at 3650reit.com — Sharf has left the firm.",
-  "tags": [],
-  "campaign": "institutional"
+  "stage": "relationship",
+  "ts": "2026-09-04T15:40:46Z",
+  "quote": "Thank you for the opportunity but this does not hit our opportunistic equity return target of 20%+ - would be nice to hop on a call next week to introduce you to our firm and hear more about ZMR so that we can stay in touch for future opportunities. Moving Justin to bcc - let me know some time slots that work for you.",
+  "action": "Read the deck and model Regan sent on 1 Sep and came back with a number: their opportunistic equity bar is 20%+ and Canyon Woods underwrites to 17.1%. That is the second firm to pass on return level after Sabal, and between them the picture is settled — opportunistic funds are roughly three points above where this deal prices, and the gap widens at $73.5M. Stop spending opportunistic capital's time and take the remaining conversations to core-plus and value-add. She wants a call next week to introduce the firms and asked us to send time slots, so the next move is ours: third call opened in two days, after Affinius and Sonen.",
+  "tags": [
+   "Return profile",
+   "Wants a call",
+   "Keep in touch"
+  ],
+  "campaign": "institutional",
+  "otherAddrs": [
+   "bthurn@3650capital.com",
+   "Jkennedy@3650capital.com"
+  ]
  },
  {
   "firm": "Corebridge Financial",
