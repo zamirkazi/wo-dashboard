@@ -28,7 +28,7 @@ CAMPAIGNS = [
         "sentEnd": "2026-08-26T23:04:44Z",
         "listSize": 534, "removedPreSend": 83, "sent": 451,
         "bounces": 19, "blocks": 3, "opens": 197, "clicks": 0, "unsubs": 0,
-        "reportAt": "2026-09-04T15:41:28Z",
+        "reportAt": "2026-09-08T16:46:18Z",
         "followUps": [
             # Both paused on Gmail's 24h limit and resumed on 31 Aug, about five hours
             # later than the 08:18 PDT the reports predicted — the 07:08 PDT reports
@@ -218,6 +218,20 @@ data = {
         # buyer interviews expected to be decided this week. Every metric above
         # is the $71.5M basis that went out to both lists, so the equity ask and
         # the 17.1% are stale against where the bidding actually is.
+        # 8 Sep, 16:27 UTC: Zamir told Nick Burk at Clairmont "we ended up getting
+        # out bid on this one." That closes the raise — there is no longer a
+        # $30.96M equity requirement to fill. The reply data below keeps its value
+        # as a record of who engages and on what terms, but nothing on this page
+        # is a live ask any more.
+        "outcome": {
+            "state": "lost",
+            "asOf": "2026-09-08T16:27:59Z",
+            "note": ("ZMR was outbid on Canyon Woods. The JV equity raise is closed. "
+                     "Everything below is now a record of the outreach, not a live ask: "
+                     "the open conversations are worth keeping warm for the next deal, "
+                     "and the objection and contact data carries forward."),
+            "toldTo": "Clairmont Capital Group",
+        },
         "bidUpdate": {
             "asOf": "2026-08-31T12:56:56Z",
             "cutoff": "$71M",

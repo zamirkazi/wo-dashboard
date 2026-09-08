@@ -36,28 +36,45 @@ const deliveredFor = c => c.inFlight ? null : c.sent - c.bounces - c.blocks;
 
 /* ---------- static chrome ---------- */
 $("#updated").textContent = "Data as of " + fmt(D.generatedAt);
-$("#freshness").textContent =
-  ((new Date(D.generatedAt) - new Date(D.campaigns[0].sentStart)) / 36e5).toFixed(0) + "H AFTER FIRST SEND";
+$("#freshness").textContent = d.outcome
+  ? "RAISE CLOSED"
+  : ((new Date(D.generatedAt) - new Date(D.campaigns[0].sentStart)) / 36e5).toFixed(0) + "H AFTER FIRST SEND";
 $("#spec").innerHTML = [
   ["Units", d.units], ["Built", d.year], ["Price", d.price], ["Per door", d.perDoor],
   ["Equity need", d.equity], ["Debt", d.loan], ["LTC", d.ltc],
   ["Levered IRR", d.irr], ["Multiple", d.multiple], ["Occupancy", d.occupancy]
 ].map(([k,v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("");
-$("#eqneed").textContent = d.equity;
+$("#eqneed").closest("p").innerHTML = d.outcome
+  ? `The raise never had to be filled — ZMR was outbid. What follows is what the ${esc(d.equity)} ask drew.`
+  : `Against a <b>${esc(d.equity)}</b> equity requirement.`;
 
 // The spec strip is the basis that was mailed to 1,125 people. When the bidding
 // moves past it, saying so beside the numbers matters more than the numbers do.
-if (d.bidUpdate) {
-  $("#bidnote").innerHTML =
-    `<div class="pending" style="margin-top:16px">`
-  + `<b>Pricing has moved past this spec.</b> ${esc(d.bidUpdate.note)} `
-  + `<span style="color:var(--ink-3)">Confirmed to a partner ${fmt(d.bidUpdate.asOf)}.</span>`
-  + `</div>`;
+// The deal outcome outranks everything else on the page. If the raise is over,
+// say so before the reader reads a single reply as a live opportunity.
+let note = "";
+if (d.outcome && d.outcome.state === "lost") {
+  note += `<div class="callout" style="margin:16px 0 0;border-left-color:var(--dead)">`
+       +  `<b>Deal lost — the raise is closed.</b> ${esc(d.outcome.note)} `
+       +  `<span style="color:var(--ink-3)">Confirmed in writing to ${esc(d.outcome.toldTo)} `
+       +  `${fmt(d.outcome.asOf)}.</span></div>`;
 }
+if (d.bidUpdate) {
+  note += `<div class="pending" style="margin-top:12px">`
+       +  `<b>${d.outcome ? "How the pricing ran away" : "Pricing has moved past this spec"}.</b> `
+       +  `${esc(d.bidUpdate.note)} `
+       +  `<span style="color:var(--ink-3)">Confirmed to a partner ${fmt(d.bidUpdate.asOf)}.</span>`
+       +  `</div>`;
+}
+$("#bidnote").innerHTML = note;
 $("#eyebrow").textContent =
   `JV equity outreach · ${pl(D.campaigns.length, "campaign")} · ${esc(d.name)}, ${esc(d.address.split(", ").slice(-2).join(", "))}`;
-$("#subtitle").textContent =
-  `Live response tracking for the ${d.equity} JV equity raise on ${d.name}, San Ramon. Every reply to `
+$("#subtitle").textContent = d.outcome
+  ? `Closed record of the ${d.equity} JV equity outreach on ${d.name}, San Ramon — ZMR was outbid, `
+  + `so nothing here is a live ask. Every reply to `
+  + `${D.campaigns.length === 1 ? "the blast" : "both blasts"}, sorted by what the partner asked for, `
+  + `kept for the relationships and the objection record.`
+  : `Live response tracking for the ${d.equity} JV equity raise on ${d.name}, San Ramon. Every reply to `
 + `${D.campaigns.length === 1 ? "the blast" : "both blasts"}, sorted by what the partner actually asked for. `
 + `Coverage is reported per campaign; the priority queue is pooled, because the raise is one raise.`;
 
@@ -241,9 +258,9 @@ function renderHeadline() {
   if (cnt("materials") || cnt("question")) {
     s += ` ${cnt("materials")} ${cnt("materials") === 1 ? "firm has" : "firms have"} asked for the package`
        + (cnt("question") ? ` and ${cnt("question")} ${cnt("question") === 1 ? "has" : "have"} asked a `
-                          + `pricing question, most of those turning on the going-in cap rate. `
-                          + `Sending the package and that one number clears the largest actionable `
-                          + `block on the board` : "")
+                          + `pricing question, most of those turning on the going-in cap rate`
+                          + (d.outcome ? `` : `. Sending the package and that one number clears the `
+                          + `largest actionable block on the board`) : "")
        + `.`;
   }
   if (top) {
@@ -259,9 +276,12 @@ function renderHeadline() {
     }
     if (sizeLive) {
       s += `${top[0] === "California" ? "<br><br>" : ""}${sizeLive} of the firms raising size or `
-         + `structure are <b>still live</b> on co-GP, pref, or a partial check &mdash; the `
-         + `single-check ${esc(d.equity)} ask is the obstacle you can restructure your way out of `
-         + `rather than lose to.`;
+         + `structure stayed open to co-GP, pref, or a partial check &mdash; the `
+         + (d.outcome
+             ? `single-check ${esc(d.equity)} ask was an obstacle a different structure could have `
+             + `answered, which is worth carrying into how the next one is packaged.`
+             : `single-check ${esc(d.equity)} ask is the obstacle you can restructure your way out of `
+             + `rather than lose to.`);
     }
   }
   // A hurdle-rate cluster is worth its own sentence: it is the one objection that is
@@ -275,11 +295,16 @@ function renderHeadline() {
   if (ooo >= 5) {
     s += `<br><br><b>${ooo} recipients have replied only to say they are away</b>`
        + (back.length ? `, most back between ${day(back[0])} and ${day(back[back.length-1])}` : "")
-       + `. This landed in the last week of August. Read the response rate from the week of `
-       + `1 September, and treat a follow-up that week as reaching people the first mail never did.`;
+       + `. This landed in the last week of August`
+       + (d.outcome
+           ? `, so a real slice of both lists never engaged with it at all.`
+           : `. Read the response rate from the week of 1 September, and treat a follow-up that `
+           + `week as reaching people the first mail never did.`);
   }
   if (flight.length) s += ` <b>${esc(flight[0].label)}</b> is still sending, so that side of the picture `
                         + `is incomplete and will keep moving.`;
+  if (d.outcome) s = `<b>Read as a post-mortem.</b> The deal is gone; these are the numbers the `
+                    + `outreach produced.<br><br>` + s;
   $("#headline").innerHTML = s;
   $("#livecount").textContent = liveN;
   $("#replycount").textContent = view.length;
