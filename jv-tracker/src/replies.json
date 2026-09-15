@@ -385,12 +385,12 @@
     "stage": "pass",
     "ts": "2026-08-26T22:33:51Z",
     "quote": "This is not a fit for us. Please remove Paul Singer from any distributions.",
-    "action": "SUPPRESS psinger@elliottmgmt.com from all future sends.",
+    "action": "Pass on the deal; the removal request is for Paul Singer, not for himself. psinger@elliottmgmt.com is not on the send list, so this is a forward-looking guardrail rather than a deletion. Keep Nick Greenberg on the list.",
     "tags": [
       "No reason given"
     ],
     "campaign": "institutional",
-    "suppress": true
+    "suppress": false
   },
   {
     "firm": "Tramview",
@@ -786,13 +786,13 @@
     "stage": "pass",
     "ts": "2026-08-27T11:45:00Z",
     "quote": "Please do not email John FW Rogers going forward. Our team is full on opportunities for Q4, and I do not work on the private opportunities side.",
-    "action": "SUPPRESS john.rogers@gs.com — asked by name.",
+    "action": "Pass — he does not cover private opportunities. The removal request is for John FW Rogers, not for himself, and john.rogers@gs.com is not on the send list, so this is a guardrail rather than a deletion. jonathan.denowitz@gs.com was the mailed address and did not ask off.",
     "tags": [
       "Capacity / staffing"
     ],
     "campaign": "institutional",
     "mailedTo": "jonathan.denowitz@gs.com",
-    "suppress": true
+    "suppress": false
   },
   {
     "firm": "IMCO",
