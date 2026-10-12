@@ -5,7 +5,7 @@
       "owner": "Zamir / Kevin / Chip",
       "started": "2026-09-21",
       "status": "live",
-      "note": "One-to-one forwards off Kevin's 21 Sep memo, then a second wave on 12 Oct to every name Kirsh had proposed but never mailed, then a third wave drafted the same evening off ZMR's own equity list (1,087 contacts on Drive) and the Canyon Woods reply record. Each email opens on that firm's own last answer to us where one exists. Subject throughout: \"Houston 2023 Vintage $135K/door $13M Check 20%+ IRR\"."
+      "note": "One-to-one forwards off Kevin's 21 Sep memo, then a second wave on 12 Oct to every name Kirsh had proposed but never mailed, then a third wave the same evening off ZMR's own equity list (1,087 contacts on Drive) and the Canyon Woods reply record. All three waves are out \u2014 54 firms on 12 Oct alone, the last at 22:25, and nothing is left sitting in drafts. Each email opens on that firm's own last answer to us where one exists. Subject throughout: \"Houston 2023 Vintage $135K/door $13M Check 20%+ IRR\"."
     },
     "kirsh": {
       "label": "Andrew Kirsh",
@@ -399,20 +399,41 @@
     },
     {
       "channel": "direct",
+      "firm": "Silver Cap Partners",
+      "person": "Trotter",
+      "email": "Trotter@silvercappartners.com",
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "note": "Relationship send, not from the equity list - sent direct on 12 Oct ahead of the broader round."
+    },
+    {
+      "channel": "direct",
+      "firm": "Two Sigma",
+      "person": "Spencer Traver",
+      "email": "Spencer.Traver@twosigma.com",
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "note": "Relationship send, not from the equity list - sent direct on 12 Oct ahead of the broader round."
+    },
+    {
+      "channel": "direct",
       "firm": "TriGate Capital",
       "person": "A. Aultz",
       "email": "aaultz@trigatecapital.com",
-      "sent": null,
-      "outcome": "drafted",
-      "note": "Canyon Woods was a conditional, not a pass: 'that equity requirement is slightly too large for our value-add fund'. This is a third the size."
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "note": "Canyon Woods was a conditional, not a pass: 'that equity requirement is slightly too large for our value-add fund'. This is a third the size.",
+      "also": [
+        "credding@trigatecapital.com"
+      ]
     },
     {
       "channel": "direct",
       "firm": "ABR Capital",
       "person": "Peter Heller",
       "email": "peter.heller@abrcapital.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "Told us they write $5-15M checks. $11.65M is dead centre.",
       "also": [
         "jake.martin@abrcapital.com"
@@ -423,8 +444,8 @@
       "firm": "West Pine",
       "person": "Tim Haskin",
       "email": "timothy.haskin@west-pine.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "Asked 'what is going in cap' on Canyon Woods and never got an answer. This email leads with it."
     },
     {
@@ -432,8 +453,8 @@
       "firm": "CastleSquare",
       "person": "Alanna Wojciechowski",
       "email": "aw@castlesquare.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "Materials stage on Canyon Woods - asked for an OM or model. Offered up front this time."
     },
     {
@@ -441,8 +462,8 @@
       "firm": "Benedict Realty Group",
       "person": "Steven Kohn",
       "email": "steven.kohn@brgny.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "Meeting stage on Canyon Woods - 'wide open on Monday' - that never happened."
     },
     {
@@ -450,12 +471,11 @@
       "firm": "Lindell Investments",
       "person": "Burke Roper",
       "email": "burke@lindellinvestments.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "Burke Roper joined as CIO in 2026, replacing Mark Stroud, so the email leads to him with Jack and Carl copied. Jack's Canyon Woods read was 'single check writer, we're out... Carl will struggle with California' - not CA here, and a third the size. Burke is a former colleague of Kevin Mawby, who ran this underwriting.",
       "also": [
-        "jack@lindellinvestments.com",
-        "carl@lindellinvestments.com"
+        "jack@lindellinvestments.com"
       ]
     },
     {
@@ -463,8 +483,8 @@
       "firm": "Marble Capital",
       "person": "Brad Moynihan",
       "email": "bmoynihan@marblecapitallp.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "'Not targeting CA or pre-2010 deals.' Both clear, and Marble is a Houston shop."
     },
     {
@@ -472,8 +492,8 @@
       "firm": "Blue Vista",
       "person": "JP Sletteland",
       "email": "jpsletteland@bluevistallc.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "'Pre-2000s original MF construction is a non-starter.' This is 2023.",
       "also": [
         "dstephenson@bluevistallc.com"
@@ -484,8 +504,8 @@
       "firm": "Lightning Tree Capital",
       "person": "Chris Dzurinko",
       "email": "chris@lightningtreecapital.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "'We don't invest in California.'"
     },
     {
@@ -493,8 +513,8 @@
       "firm": "Wtrshd Capital",
       "person": "Dave McCullagh",
       "email": "dave@wtrshdcap.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "Passed for bandwidth, not on merit - Laura was away. She is back.",
       "also": [
         "laura@wtrshdcap.com"
@@ -505,8 +525,8 @@
       "firm": "Pearlmark",
       "person": "R. Dougherty",
       "email": "rdougherty@pearlmark.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "'Fully specified on our current equity fund.' Timing, not a view. Kyle Nealis has left; routed to Dhruv and Christian.",
       "also": [
         "cmendez@pearlmark.com",
@@ -518,8 +538,8 @@
       "firm": "Westport Capital Partners",
       "person": "Brian Fraker",
       "email": "bfraker@westportcp.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "'New fund starting in 2027 with a multifamily allocation.' We close January 2027.",
       "also": [
         "sarmstrong@westportcp.com"
@@ -530,8 +550,8 @@
       "firm": "Forum Investment Group",
       "person": "J. Warren",
       "email": "jwarren@forumig.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "'Vintage a little old; looking for 2010 and newer' - fixed. Their no-LP-equity point is not, and the email says so.",
       "also": [
         "jmanning@forumig.com"
@@ -542,8 +562,8 @@
       "firm": "Belveron Partners",
       "person": "Ben",
       "email": "ben@belveronpartners.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "'Let us know if there are any other deals' - taken at their word, and honest that this is not affordable product.",
       "also": [
         "jeremy@belveronpartners.com"
@@ -554,8 +574,8 @@
       "firm": "IMCO",
       "person": "Richard Varkey",
       "email": "richard.varkey@imcoinvest.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "Passed with no reason given. This email asks for one.",
       "also": [
         "rossitsa.stoyanova@imcoinvest.com"
@@ -566,8 +586,8 @@
       "firm": "Vey Capital",
       "person": "Sergio Salas",
       "email": "sergio@vey-capital.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "'$30MM, even half of that, is outside our scope.' $11.65M is below that half; the email concedes it may still be too big."
     },
     {
@@ -576,8 +596,8 @@
       "person": "Steve Iannaccone",
       "email": "siannaccone@halstatt.com",
       "sent": null,
-      "outcome": "drafted",
-      "note": "A sponsor, not an LP: Fund V, $200M target, $10-30M checks, Southeast Florida and Texas. Already owns in the Houston MSA (Fountains of Conroe, with ExCap operating). Pitched as a partnership.",
+      "outcome": "excluded",
+      "note": "A sponsor, not an LP: Fund V, $200M target, $10-30M checks, Southeast Florida and Texas. Already owns in the Houston MSA (Fountains of Conroe, with ExCap operating). Pitched as a partnership. Draft pulled before sending - not in Gmail drafts or sent as of 12 Oct. Decide whether to re-cut it as a co-GP approach.",
       "also": [
         "kheinze@halstatt.com"
       ]
@@ -587,8 +607,8 @@
       "firm": "Flagship Capital Partners",
       "person": "Mark Berins",
       "email": "mberins@flagshipco.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "Houston-based. Offered extra GP co-invest above the standard 10%, and asked for their read on the submarket.",
       "also": [
         "bcutrell@flagshipco.com"
@@ -599,8 +619,8 @@
       "firm": "Island Capital Group",
       "person": "Joe Lytle",
       "email": "jlytle@islecap.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "From the equity list. Not Island Wealth Management, which is a different firm that asked to be left alone.",
       "also": [
         "svonbonin@islecap.com",
@@ -612,8 +632,8 @@
       "firm": "Argos Capital Partners",
       "person": "Shaun Walsh",
       "email": "swalsh@argoscapitalpartners.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "From the equity list. Distinct from Argosy, who passed on this deal on 7 Oct."
     },
     {
@@ -621,8 +641,8 @@
       "firm": "Astor Realty Capital",
       "person": "Michael Korine",
       "email": "mk@astorrealtycapital.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "From the equity list.",
       "also": [
         "alena@astorrealtycapital.com"
@@ -633,8 +653,8 @@
       "firm": "Coulton Creek Capital",
       "person": "Scott Brown",
       "email": "sbrown@ccrcapital.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "From the equity list.",
       "also": [
         "whensley@ccrcapital.com"
@@ -645,8 +665,8 @@
       "firm": "Eagle Realty Group",
       "person": "Scott Pearson",
       "email": "scott.pearson@eaglerealtygroup.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "From the equity list; their stated check ceiling is $40M, so $11.65M sits well inside. Scott Pearson is out of the country until 20 Oct.",
       "also": [
         "chad.gagnon@eaglerealtygroup.com"
@@ -657,8 +677,8 @@
       "firm": "HIG Realty Partners",
       "person": "James Gallo",
       "email": "jgallo@higrealty.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "From the equity list. Email concedes the check is small for them and asks for the right vehicle.",
       "also": [
         "abelfer@higrealty.com"
@@ -669,8 +689,8 @@
       "firm": "JDI Realty",
       "person": "Maggie DeWoskin",
       "email": "mdewoskin@jdirealty.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "Calls in Feb and Jul. Maggie flagged in June that Kevin Connor and Sam Besser had left JDI, so this goes to her alone."
     },
     {
@@ -699,8 +719,8 @@
       "firm": "7 Acre Investments",
       "person": "Adam",
       "email": "adam@sevenacreinvest.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "From the equity list."
     },
     {
@@ -708,26 +728,29 @@
       "firm": "Cross Lake Partners",
       "person": "B. Riley",
       "email": "briley@crosslakepartners.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "From the equity list."
     },
     {
       "channel": "direct",
       "firm": "LaSalle Investment Management",
-      "person": "Dan Witte",
-      "email": "dan.witte@lasalle.com",
-      "sent": null,
-      "outcome": "drafted",
-      "note": "From the equity list. Email concedes the check is small for LaSalle and asks for the right vehicle."
+      "person": "Joe Paskov",
+      "email": "joseph.paskov@lasalle.com",
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "note": "From the equity list. Email concedes the check is small for LaSalle and asks for the right vehicle.",
+      "also": [
+        "dan.witte@lasalle.com"
+      ]
     },
     {
       "channel": "direct",
       "firm": "Lafayette Square",
       "person": "Dan",
       "email": "dan@lafayettesc.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "From the equity list."
     },
     {
@@ -812,8 +835,8 @@
       "firm": "Integrity Housing Group",
       "person": "Steven",
       "email": "steven@integrityhg.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "Existing JV partner in Skye at Conway and Skye Reserve, and in an active dispute with counsel engaged since 25 Sep. Drafted so it keeps Conway explicitly on its own track and gives him a clean exit. Worth clearing with Zach Oseland before it goes."
     }
   ],
