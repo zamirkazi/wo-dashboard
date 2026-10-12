@@ -1,0 +1,56 @@
+[
+{"firm":"STRE Management USA","person":"Camilo Padron","title":"CIO / Executive Manager","email":"camilo.padron@strem.us","channel":"direct","stage":"reviewing","ts":"2026-10-12T13:51:25Z",
+ "quote":"We reviewed the opportunity with our team last week, and the feedback has been positive. Everyone likes the story, and we are continuing to work through the numbers in more detail… there is one item we are working through on our side. We have a long-standing local partner in Houston with whom we remain actively invested… This does not reflect any hesitation on the opportunity itself.",
+ "action":"Hottest name in the book. Clarity promised early this week — chase Wednesday if nothing lands. Chip owns the thread.",
+ "tags":["partner-conflict"],"heat":5},
+
+{"firm":"Capital Solutions","person":"Rami Hakim","title":"Principal","email":"rhakim@cap-sol.com","channel":"direct","stage":"conditional","ts":"2026-10-01T23:52:00Z",
+ "quote":"Sounds great. Don't love houston but let's discuss.",
+ "action":"Lunch already on the books for 30 Oct. Lead with basis, not Houston — he has pre-registered the market objection.",
+ "tags":["houston-sentiment"],"heat":4},
+
+{"firm":"Parse Capital","person":"Brett Balda","title":"Partner","email":"brett.balda@parsecap.com","channel":"direct","stage":"reviewing","ts":"2026-10-05T13:38:31Z",
+ "quote":"We do not currently have appetite for JV acquisitions in Houston but agree that the basis is strong (albeit small units). We will have a quick look and get back to you.",
+ "action":"Seven days quiet since the 'quick look'. One nudge with the debt matrix attached, then let it go.",
+ "tags":["strategy-mismatch","unit-size"],"heat":3},
+
+{"firm":"Sabal Investment Holdings","person":"Erik Kolar","title":"Associate, Investment Management","email":"erik.kolar@sabal.com","channel":"direct","stage":"pass","ts":"2026-10-02T19:38:14Z",
+ "quote":"The asset quality is there, but this isn't a market or submarket we're long on right now. The demographic profile was the biggest hurdle… median household income within 5 miles is ~$54K… leaves little room to grow rents over the hold. Rates were the other piece. With the 5-year Treasury up since the 9/21 lender quote, the deal starts with negative leverage at $34M. We're more constructive on Texas markets like DFW (northern corridor) and Austin.",
+ "action":"The most useful pass we got. Two fixable objections: the $54K CoStar 5-mile median vs. the $71.2K on-site median, and negative leverage at the 9/21 quote. Rebut both in the next version of the memo.",
+ "tags":["submarket-demographics","negative-leverage"],"heat":2},
+
+{"firm":"Green Pine Real Estate","person":"Seth Grossman","title":"Principal","email":"skg@greenpinere.com","channel":"kirsh","stage":"pass","ts":"2026-10-08T21:07:00Z",
+ "quote":"Looks like a good deal, but not a fit for us. Ronnie and I, and much of our investor network, were destroyed in Houston this cyle. Would take something very special to get us back in down there. Not totally opposed, but a going in 6%, even w upside, is not the answer for us.",
+ "action":"Priced out, not disqualified. Would need a 6.5%+ going-in to reopen. Keep for a deeper-basis Houston deal.",
+ "tags":["houston-sentiment","going-in-yield"],"heat":1},
+
+{"firm":"Argosy Real Estate Partners","person":"D. Ciccone","title":"Managing Director","email":"dciccone@argosyrep.com","channel":"direct","stage":"pass","ts":"2026-10-07T14:29:19Z",
+ "quote":"Tapped out on Houston right now (too much exposure).",
+ "action":"Portfolio constraint, not a view on the deal. Same answer would have come from Kirsh's send. Re-approach with a non-Houston deal.",
+ "tags":["houston-exposure"],"heat":1},
+
+{"firm":"Tramview Capital","person":"Beau Vande Walle","title":"Principal","email":"bvandewalle@tramview.com","channel":"kirsh","stage":"pass","ts":"2026-10-05T14:39:45Z",
+ "quote":"Unfortunately, this one is not a fit for us as our fund exposure in Houston is maxed out at this time.",
+ "action":"Fund-level cap. Revisit after their next vintage closes — nothing about this deal moves them.",
+ "tags":["houston-exposure"],"heat":1},
+
+{"firm":"Atlantic Creek Real Estate","person":"Jonathan Trucano","title":"Managing Partner","email":"trucano@atlanticcreek.com","channel":"direct","stage":"pass","ts":"2026-10-01T22:39:38Z",
+ "quote":"It was a pass — Houston's a non-starter right now.",
+ "action":"Flat market veto, no deal-level read. Nothing to rebut.",
+ "tags":["houston-sentiment"],"heat":1},
+
+{"firm":"Evergen Equity","person":"Omar Hamdan","title":"Investments","email":"omar@evergenequity.com","channel":"direct","stage":"pass","ts":"2026-10-06T12:49:00Z",
+ "quote":"We had a chance to review the opportunity… it is not a submarket we are currently pursuing or investing in.",
+ "action":"Submarket-level no after a real review. Southeast Houston is the blocker, not the basis.",
+ "tags":["submarket-demographics"],"heat":1},
+
+{"firm":"Mile Rock Capital","person":"Zack Georgeson","title":"Principal","email":"zack@milerockcapital.com","channel":"kirsh","stage":"pass","ts":"2026-10-03T14:31:02Z",
+ "quote":"Thanks for thinking of us, Andrew — we're not as focused on Houston right now unless it's affordable at Max rents.",
+ "action":"Mandate mismatch — they want LIHTC/affordable in Houston. Market-rate will never clear here.",
+ "tags":["strategy-mismatch"],"heat":1},
+
+{"firm":"Range Equity","person":"Andrew Gindy","title":"Principal","email":"agindy@remlp.com","channel":"kirsh","stage":"pass","ts":"2026-10-03T09:29:00Z",
+ "quote":"Pass.",
+ "action":"One word, no reason given. Nothing to work with.",
+ "tags":[],"heat":1}
+]

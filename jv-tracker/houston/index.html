@@ -1,0 +1,643 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Allen Genoa Capital Desk</title><meta name="robots" content="noindex, nofollow, noarchive, nosnippet"><meta name="referrer" content="no-referrer"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;600;700&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"><style>
+:root{
+  --paper:#EDEFEA; --raised:#F6F7F3; --sunk:#E3E6DF;
+  --ink:#1A2028; --ink-2:#4A535F; --ink-3:#6B7480;
+  --rule:#D3D7CD; --rule-hard:#B9BFB2;
+  --live:#B85E14; --live-soft:#EBD9C6; --live-ink:#8A4610;
+  --routed:#0072A6; --routed-soft:#D2E2EC; --routed-ink:#005A85;
+  --dead:#6B7480; --dead-soft:#DFE2DA;
+  --seq-1:#F0DEC4; --seq-2:#E0B87E; --seq-3:#CE8F3E; --seq-4:#B06A1C; --seq-5:#8A4E12;
+  --shadow:0 1px 0 rgba(26,32,40,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#161C24; --raised:#1E252F; --sunk:#11161D;
+    --ink:#E8EBE5; --ink-2:#A8B1BC; --ink-3:#7B8593;
+    --rule:#2C3540; --rule-hard:#3D4854;
+    --live:#D07A20; --live-soft:#3A2A18; --live-ink:#E9A257;
+    --routed:#35A2C8; --routed-soft:#122E3B; --routed-ink:#6BC2DE;
+    --dead:#8A93A0; --dead-soft:#232B35;
+    --seq-1:#3D2F1E; --seq-2:#6A4A1E; --seq-3:#96692340; --seq-3:#966923; --seq-4:#BE8730; --seq-5:#E0A54A;
+    --shadow:0 1px 0 rgba(0,0,0,.3);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#161C24; --raised:#1E252F; --sunk:#11161D;
+  --ink:#E8EBE5; --ink-2:#A8B1BC; --ink-3:#7B8593;
+  --rule:#2C3540; --rule-hard:#3D4854;
+  --live:#D07A20; --live-soft:#3A2A18; --live-ink:#E9A257;
+  --routed:#35A2C8; --routed-soft:#122E3B; --routed-ink:#6BC2DE;
+  --dead:#8A93A0; --dead-soft:#232B35;
+  --seq-1:#3D2F1E; --seq-2:#6A4A1E; --seq-3:#966923; --seq-4:#BE8730; --seq-5:#E0A54A;
+  --shadow:0 1px 0 rgba(0,0,0,.3);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Public Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:15px; line-height:1.55; -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1180px; margin:0 auto; padding:0 28px 96px}
+h1,h2,h3{font-family:"Bitter",Georgia,serif; text-wrap:balance; margin:0}
+.mono{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace; font-variant-numeric:tabular-nums}
+a{color:var(--routed)}
+:focus-visible{outline:2px solid var(--live); outline-offset:2px; border-radius:2px}
+
+/* ---------- masthead ---------- */
+.mast{border-bottom:2px solid var(--ink); padding:34px 0 18px; margin-bottom:0}
+.mast-top{display:flex; flex-wrap:wrap; align-items:baseline; gap:16px; justify-content:space-between}
+.eyebrow{
+  font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--ink-3);
+}
+h1{font-size:clamp(28px,4.4vw,42px); font-weight:700; letter-spacing:-.015em; line-height:1.08}
+.sub{color:var(--ink-2); font-size:15px; margin-top:6px; max-width:62ch}
+.stamp{
+  display:flex; flex-direction:column; align-items:flex-end; gap:3px;
+  font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--ink-3); text-align:right;
+}
+.stamp .pulse{display:inline-flex; align-items:center; gap:6px; color:var(--live); font-weight:600}
+.dot{width:7px; height:7px; border-radius:50%; background:var(--live); flex:none}
+@media (prefers-reduced-motion:no-preference){
+  .dot{animation:breathe 2.6s ease-in-out infinite}
+  @keyframes breathe{0%,100%{opacity:1}50%{opacity:.35}}
+}
+
+/* ---------- deal spec strip ---------- */
+.spec{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(104px,1fr));
+  padding:16px 0 2px; gap:14px 0;
+}
+.spec div{padding-right:14px}
+.spec dt{font-family:"IBM Plex Mono",monospace; font-size:10px; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--ink-3); margin-bottom:3px}
+.spec dd{margin:0; font-size:15px; font-weight:600; font-variant-numeric:tabular-nums;
+  font-family:"IBM Plex Mono",monospace; line-height:1.3}
+
+section{padding-top:44px}
+.sec-head{display:flex; align-items:baseline; gap:14px; flex-wrap:wrap;
+  border-bottom:1px solid var(--rule-hard); padding-bottom:8px; margin-bottom:22px}
+.sec-head h2{font-size:20px; font-weight:600; letter-spacing:-.01em}
+.sec-head p{margin:0; color:var(--ink-3); font-size:13.5px; flex:1; min-width:220px}
+
+/* ---------- KPI ---------- */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(168px,1fr)); gap:1px; background:var(--rule)}
+.kpi{background:var(--paper); padding:16px 18px 15px}
+.kpi .n{font-family:"Bitter",Georgia,serif; font-size:34px; font-weight:600;
+  font-variant-numeric:tabular-nums; line-height:1.05; letter-spacing:-.02em}
+.kpi.hot .n{color:var(--live)}
+.kpi .lbl{font-family:"IBM Plex Mono",monospace; font-size:10.5px; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--ink-3); margin-top:5px}
+.kpi .note{font-size:12.5px; color:var(--ink-2); margin-top:5px; line-height:1.4}
+
+/* ---------- cohort switcher ---------- */
+.cohort{display:flex; flex-wrap:wrap; gap:8px; padding:16px 0 2px}
+.cbtn{
+  font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.06em; text-transform:uppercase;
+  padding:7px 13px; border:1px solid var(--rule-hard); background:transparent; color:var(--ink-2);
+  border-radius:3px; cursor:pointer; font-weight:500; display:inline-flex; align-items:center; gap:7px;
+}
+.cbtn:hover{border-color:var(--ink-3); color:var(--ink)}
+.cbtn[aria-pressed="true"]{background:var(--ink); color:var(--paper); border-color:var(--ink)}
+.cbtn b{font-weight:600}
+.cbtn .live-dot{width:6px; height:6px; border-radius:50%; background:var(--live); flex:none}
+
+/* ---------- per-campaign funnel block ---------- */
+.fblock{padding:18px 0; border-top:1px solid var(--rule)}
+.fblock:first-child{border-top:none; padding-top:0}
+.fhead{display:flex; align-items:baseline; justify-content:space-between; gap:14px;
+  flex-wrap:wrap; margin-bottom:14px}
+.fhead h3{font-size:16px; font-weight:600}
+.fhead .sub{font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--ink-3);
+  margin:0; letter-spacing:.03em}
+.inflight{display:inline-flex; align-items:center; gap:6px; font-family:"IBM Plex Mono",monospace;
+  font-size:10px; letter-spacing:.08em; text-transform:uppercase; color:var(--live);
+  border:1px solid var(--live); border-radius:3px; padding:2px 7px; font-weight:600}
+.pending{background:var(--raised); border:1px dashed var(--rule-hard); border-radius:3px;
+  padding:14px 16px; font-size:13.5px; color:var(--ink-2); line-height:1.5}
+
+/* ---------- objection split ---------- */
+.split{margin-top:26px; padding-top:18px; border-top:1px solid var(--rule)}
+.split h3{font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.13em;
+  text-transform:uppercase; color:var(--ink-2); font-weight:600; margin-bottom:4px}
+.split p{margin:0 0 14px; font-size:13px; color:var(--ink-3)}
+.srow{display:grid; grid-template-columns:minmax(120px,168px) 1fr; gap:14px; align-items:center;
+  margin-bottom:7px}
+.srow .sl{font-size:13px; color:var(--ink-2); text-align:right}
+.sbars{display:flex; align-items:center; gap:3px}
+.sbar{height:14px; border-radius:0 2px 2px 0; min-width:2px}
+.sbar.inst{background:var(--seq-4)}
+.sbar.fo{background:var(--routed)}
+.scount{font-family:"IBM Plex Mono",monospace; font-size:11.5px; color:var(--ink-3);
+  font-variant-numeric:tabular-nums; margin-left:5px}
+.slegend{display:flex; gap:16px; font-size:12px; color:var(--ink-3); margin-bottom:12px;
+  align-items:center; flex-wrap:wrap}
+.slegend span{display:inline-flex; align-items:center; gap:6px}
+.swatch{width:11px; height:11px; border-radius:2px; flex:none}
+
+/* campaign marker on a card or row */
+.cmark{font-family:"IBM Plex Mono",monospace; font-size:9.5px; letter-spacing:.06em;
+  text-transform:uppercase; color:var(--ink-3); border:1px solid var(--rule-hard);
+  padding:1px 5px; border-radius:2px; white-space:nowrap}
+.cmark.fo{border-color:var(--routed); color:var(--routed)}
+
+/* ---------- funnel ---------- */
+.funnel{display:flex; flex-direction:column; gap:11px}
+.frow{display:grid; grid-template-columns:minmax(140px,190px) 1fr auto; gap:16px; align-items:center}
+.frow .fl{font-size:13.5px; color:var(--ink-2)}
+.frow .fl b{color:var(--ink); font-weight:600; display:block; font-size:14px}
+.ftrack{height:26px; background:var(--sunk); border-radius:3px; overflow:hidden}
+.fbar{height:100%; border-radius:0 4px 4px 0; transition:width .5s cubic-bezier(.4,0,.2,1)}
+.fval{font-family:"IBM Plex Mono",monospace; font-size:14px; font-weight:600;
+  font-variant-numeric:tabular-nums; min-width:88px; text-align:right}
+.fval span{color:var(--ink-3); font-weight:400; font-size:12px}
+
+/* ---------- priority queue ---------- */
+.queue{display:flex; flex-direction:column; gap:26px}
+.qgroup > h3{
+  font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.13em;
+  text-transform:uppercase; color:var(--ink-2); font-weight:600;
+  display:flex; align-items:center; gap:10px; margin-bottom:11px;
+}
+.qgroup > h3::after{content:""; flex:1; height:1px; background:var(--rule)}
+.qgroup > h3 em{font-style:normal; color:var(--ink-3); font-weight:400; letter-spacing:.02em; text-transform:none; font-size:12px}
+.cards{display:grid; grid-template-columns:repeat(auto-fill,minmax(316px,1fr)); gap:12px; align-items:start}
+.card{background:var(--raised); padding:15px 17px 16px; display:flex; flex-direction:column; gap:9px;
+  border:1px solid var(--rule); border-left:3px solid transparent; border-radius:3px; position:relative}
+.card.s-meeting,.card.s-materials{border-left-color:var(--live)}
+.card.s-question,.card.s-conditional{border-left-color:var(--seq-3)}
+.card.s-reviewing{border-left-color:var(--seq-2)}
+.card.s-referred,.card.s-relationship{border-left-color:var(--routed)}
+.card.done{opacity:.42}
+.card-top{display:flex; justify-content:space-between; align-items:flex-start; gap:12px}
+.firm{font-family:"Bitter",Georgia,serif; font-size:16.5px; font-weight:600; line-height:1.25}
+.who{font-size:12.5px; color:var(--ink-3); margin-top:1px}
+.quote{font-size:13.5px; line-height:1.5; color:var(--ink-2); border-left:2px solid var(--rule-hard);
+  padding-left:11px; font-style:italic}
+.act{font-size:13px; line-height:1.45; color:var(--ink); display:flex; gap:7px; align-items:flex-start}
+.act::before{content:"→"; color:var(--live); flex:none; font-weight:600}
+.card-foot{display:flex; justify-content:space-between; align-items:center; gap:10px}
+.tick{display:flex; align-items:center; gap:7px; font-size:11.5px; color:var(--ink-3);
+  font-family:"IBM Plex Mono",monospace; cursor:pointer; user-select:none; margin-top:2px}
+.tick input{accent-color:var(--live); width:13px; height:13px; cursor:pointer}
+
+/* ---------- chips ---------- */
+.chip{
+  font-family:"IBM Plex Mono",monospace; font-size:10px; letter-spacing:.07em; text-transform:uppercase;
+  padding:3px 7px; border-radius:3px; white-space:nowrap; font-weight:600; flex:none;
+}
+.c-meeting{background:var(--live); color:var(--raised)}
+.c-materials{background:var(--live-soft); color:var(--live-ink)}
+.c-question{background:var(--live-soft); color:var(--live-ink)}
+.c-conditional{background:var(--live-soft); color:var(--live-ink)}
+.c-reviewing{background:var(--live-soft); color:var(--live-ink)}
+.c-referred,.c-relationship{background:var(--routed-soft); color:var(--routed-ink)}
+.c-pass,.c-outofscope{background:var(--dead-soft); color:var(--dead)}
+
+/* ---------- ledger ---------- */
+.controls{display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:16px}
+.fbtn{
+  font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.06em; text-transform:uppercase;
+  padding:6px 11px; border:1px solid var(--rule-hard); background:transparent; color:var(--ink-2);
+  border-radius:3px; cursor:pointer; font-weight:500;
+}
+.fbtn:hover{border-color:var(--ink-3); color:var(--ink)}
+.fbtn[aria-pressed="true"]{background:var(--ink); color:var(--paper); border-color:var(--ink)}
+#q{font-family:"IBM Plex Mono",monospace; font-size:12px; padding:6px 11px; border:1px solid var(--rule-hard);
+  background:var(--raised); color:var(--ink); border-radius:3px; min-width:190px}
+.tscroll{overflow-x:auto; border-top:1px solid var(--rule-hard)}
+table{width:100%; border-collapse:collapse; font-size:13.5px; min-width:720px}
+th{font-family:"IBM Plex Mono",monospace; font-size:10px; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--ink-3); text-align:left; padding:9px 12px 9px 0; font-weight:600;
+  border-bottom:1px solid var(--rule-hard); white-space:nowrap}
+td{padding:11px 12px 11px 0; border-bottom:1px solid var(--rule); vertical-align:top}
+tbody tr:hover{background:var(--raised)}
+td.f{font-weight:600; white-space:nowrap}
+td.f small{display:block; font-weight:400; color:var(--ink-3); font-size:11.5px}
+td.qt{color:var(--ink-2); font-size:13px; line-height:1.45; min-width:280px}
+td.tm{font-family:"IBM Plex Mono",monospace; font-size:11.5px; color:var(--ink-3); white-space:nowrap}
+.tags{display:flex; flex-wrap:wrap; gap:4px; margin-top:5px}
+.tag{font-family:"IBM Plex Mono",monospace; font-size:9.5px; letter-spacing:.05em; text-transform:uppercase;
+  color:var(--ink-3); border:1px solid var(--rule-hard); padding:1px 5px; border-radius:2px}
+
+/* ---------- objection bars ---------- */
+.obj{display:flex; flex-direction:column; gap:8px}
+.orow{display:grid; grid-template-columns:minmax(120px,168px) 1fr; gap:14px; align-items:center}
+.orow .ol{font-size:13.5px; color:var(--ink-2); text-align:right}
+.obar-wrap{display:flex; align-items:center; gap:9px}
+.obar{height:15px; background:var(--seq-4); border-radius:0 3px 3px 0; min-width:2px}
+.ocount{font-family:"IBM Plex Mono",monospace; font-size:12.5px; color:var(--ink-3);
+  font-variant-numeric:tabular-nums}
+
+/* ---------- charts ---------- */
+figure{margin:0}
+figcaption{font-size:12.5px; color:var(--ink-3); margin-top:10px}
+svg{display:block; max-width:100%; overflow:visible}
+.gridline{stroke:var(--rule); stroke-width:1}
+.axlbl{font-family:"IBM Plex Mono",monospace; font-size:10px; fill:var(--ink-3)}
+
+/* ---------- silent list ---------- */
+.silent-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(210px,1fr)); gap:1px 14px}
+.silent-grid div{font-size:13px; color:var(--ink-2); padding:3px 0; border-bottom:1px solid var(--rule);
+  overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+details > summary{cursor:pointer; font-family:"IBM Plex Mono",monospace; font-size:11.5px;
+  letter-spacing:.06em; text-transform:uppercase; color:var(--ink-2); padding:9px 0}
+details > summary:hover{color:var(--ink)}
+
+.callout{background:var(--raised); border:1px solid var(--rule-hard); border-left:3px solid var(--live);
+  padding:15px 18px; font-size:14px; line-height:1.6; color:var(--ink-2); margin-bottom:22px}
+.callout b{color:var(--ink)}
+footer{margin-top:56px; padding-top:18px; border-top:1px solid var(--rule-hard);
+  font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--ink-3); line-height:1.7}
+@media (max-width:640px){
+  .wrap{padding:0 18px 72px}
+  .frow{grid-template-columns:1fr; gap:5px}
+  .frow .fval{text-align:left}
+  .orow{grid-template-columns:1fr; gap:3px}
+  .orow .ol{text-align:left}
+  .stamp{align-items:flex-start; text-align:left}
+}
+</style></head><body><div class="wrap">
+<header class="mast">
+  <div class="mast-top">
+    <div>
+      <div class="eyebrow" id="eyebrow"></div>
+      <h1>Allen Genoa Capital Desk</h1>
+      <p class="sub" id="subtitle"></p>
+    </div>
+    <div class="stamp">
+      <span class="pulse"><span class="dot"></span><span id="freshness">LIVE</span></span>
+      <span id="updated"></span>
+      <span>Three channels, no blast</span>
+    </div>
+  </div>
+  <dl class="spec" id="spec"></dl>
+  <div class="cohort" id="chanbtns"></div>
+</header>
+
+<section id="s-status">
+  <div class="sec-head">
+    <h2>Where the raise stands</h2>
+    <p>Against an <b id="eqneed"></b> LP equity requirement at <span id="promote"></span>.</p>
+  </div>
+  <div class="callout" id="headline"></div>
+  <div class="kpis" id="kpis"></div>
+</section>
+
+<section id="s-chan">
+  <div class="sec-head">
+    <h2>Coverage by channel</h2>
+    <p>No mail-merge on this deal. Every name came through one of three people, and each channel reconciles on its own.</p>
+  </div>
+  <div id="channels"></div>
+</section>
+
+<section id="s-queue">
+  <div class="sec-head">
+    <h2>Priority queue</h2>
+    <p>The <b id="livecount"></b> conversations still open, hottest first. Tick one off when you have handled it &mdash; saved in this browser only.</p>
+  </div>
+  <div class="queue" id="queue"></div>
+</section>
+
+<section id="s-obj">
+  <div class="sec-head">
+    <h2>Why they passed</h2>
+    <p id="objnote"></p>
+  </div>
+  <div class="obj" id="objections"></div>
+  <div class="split" id="split"></div>
+</section>
+
+<section id="s-ledger">
+  <div class="sec-head">
+    <h2>Response ledger</h2>
+    <p>All <b id="replycount"></b> replies, newest first.</p>
+  </div>
+  <div class="controls" id="filters"></div>
+  <div class="tscroll">
+    <table>
+      <thead><tr><th>Firm</th><th>Channel</th><th>Stage</th><th>What they said</th><th>Received</th></tr></thead>
+      <tbody id="ledger"></tbody>
+    </table>
+  </div>
+  <p id="empty" style="display:none;color:var(--ink-3);font-size:13.5px;padding:16px 0">No replies match that filter.</p>
+</section>
+
+<section id="s-gaps">
+  <div class="sec-head">
+    <h2>Silence &amp; coverage gaps</h2>
+    <p>Who has the deal and has not come back, and who was deliberately left off.</p>
+  </div>
+  <div class="kpis" id="gapkpis"></div>
+  <details open><summary id="silentsum"></summary>
+    <div class="silent-grid" id="silentlist"></div>
+  </details>
+  <details><summary id="carvesum"></summary>
+    <div class="silent-grid" style="grid-template-columns:1fr" id="carvelist"></div>
+  </details>
+  <details><summary id="exclsum"></summary>
+    <div class="silent-grid" style="grid-template-columns:1fr" id="excllist"></div>
+  </details>
+</section>
+
+<section id="s-uw">
+  <div class="sec-head">
+    <h2>The broker's read</h2>
+    <p>Jeremy Slocumb (IPA) underwrote the deal before agreeing to circulate it. His pushback is the same one the market is giving us.</p>
+  </div>
+  <div class="callout" id="uw"></div>
+</section>
+
+<footer id="foot"></footer>
+</div>
+<script>const D={"deal":{"name":"Smart Living Allen Genoa","address":"1514 Allen Genoa Rd, Houston, TX 77017","submarket":"Southeast Houston","units":252,"vintage":2023,"avgSF":866,"price":34000000,"perUnit":134921,"perSF":156,"loan":23800000,"ltv":"70%","loanTerms":"5-yr full-term I/O, UW 6.69% (incl. 50 bps rate-lock cushion)","equity":11650000,"promote":"90/10","irr":"20.3%","em":"2.25x","coc":"9.9%","capIn":"~6.0%","capOut":"6.00%","yoc":"7.0% untrended","close":"January 2027","seller":"RAH Contractors","manager":"AOG Living","broker":"Walker & Dunlop (Ryan Epstein)","firstSend":"2026-09-21","note":"Kevin's 21 Sep original marketed 20.9% IRR / 2.3x / $158 PSF / $188K exit / 7.1% YoC / Feb close. Kirsh's 2 Oct restatement is the current number set shown here."},"channels":{"direct":{"label":"ZMR direct","owner":"Zamir / Kevin / Chip","started":"2026-09-21","status":"live","note":"One-to-one forwards off Kevin's 21 Sep memo. No blast, no list \u2014 every name was picked."},"kirsh":{"label":"Andrew Kirsh","owner":"Andrew Kirsh, Sklar Kirsh LLP","started":"2026-10-02","status":"live","note":"Kirsh offered his own equity rolodex on 2 Oct and sent under his own name. He relays replies back verbatim."},"slocumb":{"label":"Jeremy Slocumb","owner":"Jeremy Slocumb, IPA Capital Markets","started":null,"status":"awaiting-send","note":"Cleared to send on 7 Oct with three carve-outs. No send confirmed as of 12 Oct \u2014 Zamir nudged him this morning."}},"contacts":[{"channel":"direct","firm":"Atlantic Creek Real Estate","person":"Jonathan Trucano","email":"trucano@atlanticcreek.com","also":["bylin@atlanticcreek.com","sachs@atlanticcreek.com"],"sent":"2026-09-21","outcome":"replied"},{"channel":"direct","firm":"Sabal Investment Holdings","person":"Tal Seder","email":"tal.seder@sabal.com","also":["mike.mehagian@sabal.com","ethan.knight@sabal.com","erik.kolar@sabal.com","drake.ayres@sabal.com","charles.alexander@sabal.com","barton.vaughan@sabal.com"],"sent":"2026-10-01","outcome":"replied"},{"channel":"direct","firm":"Capital Solutions","person":"Rami Hakim","email":"rhakim@cap-sol.com","sent":"2026-10-02","outcome":"replied"},{"channel":"direct","firm":"Argosy Real Estate Partners","person":"D. Ciccone","email":"dciccone@argosyrep.com","sent":"2026-10-02","outcome":"replied"},{"channel":"direct","firm":"ARCTRUST","person":"Chris Lecates","email":"clecates@arctrust.com","also":["gsheehan@arctrust.com","jdonalson@arctrust.com"],"sent":"2026-10-02","outcome":"silent"},{"channel":"direct","firm":"Parse Capital","person":"Brett Balda","email":"brett.balda@parsecap.com","also":["bmitchell@parsecap.com"],"sent":"2026-10-02","outcome":"replied"},{"channel":"direct","firm":"Evergen Equity","person":"Omar Hamdan","email":"omar@evergenequity.com","also":["troy@evergenequity.com","investments@evergenequity.com"],"sent":"2026-10-02","outcome":"replied"},{"channel":"direct","firm":"STRE Management USA","person":"Camilo Padron","email":"camilo.padron@strem.us","sent":"2026-10-06","outcome":"replied"},{"channel":"direct","firm":"Cushman & Wakefield","person":"Chase Tagen","email":"chase.tagen@cushwake.com","sent":"2026-10-07","outcome":"silent","note":"Offered in-thread on 7 Oct ('we were awarded a deal in Houston I'd like to send over to you'). No reply yet; meeting set for 22 Oct."},{"channel":"kirsh","firm":"Range Equity","person":"Andrew Gindy","email":"agindy@remlp.com","sent":"2026-10-03","outcome":"replied"},{"channel":"kirsh","firm":"Tramview Capital","person":"Beau Vande Walle","email":"bvandewalle@tramview.com","also":["cmyerson@tramview.com","rdavies@tramview.com"],"sent":"2026-10-02","outcome":"replied"},{"channel":"kirsh","firm":"Green Pine Real Estate","person":"Seth Grossman","email":"skg@greenpinere.com","sent":"2026-10-03","outcome":"replied"},{"channel":"kirsh","firm":"Mile Rock Capital","person":"Zack Georgeson","email":"zack@milerockcapital.com","sent":"2026-10-03","outcome":"replied"},{"channel":"kirsh","firm":"Horowitz Group","person":null,"email":null,"sent":"2026-10-03","outcome":"silent","note":"Current ZMR investor \u2014 warmest name on Kirsh's list."},{"channel":"kirsh","firm":"Belay Investment Group","person":null,"email":null,"sent":"2026-10-03","outcome":"silent"},{"channel":"kirsh","firm":"Tryperion Holdings","person":null,"email":null,"sent":"2026-10-03","outcome":"silent"},{"channel":"kirsh","firm":"Singerman Real Estate","person":null,"email":null,"sent":"2026-10-03","outcome":"silent"},{"channel":"kirsh","firm":"Argosy Real Estate Partners","person":"D. Ciccone","email":"dciccone@argosyrep.com","sent":"2026-10-03","outcome":"duplicate","note":"Also on ZMR's direct list \u2014 Zamir sent 2 Oct, Kirsh 3 Oct. Argosy passed on the direct thread."},{"channel":"kirsh","firm":"Pennybacker Capital","person":null,"email":null,"sent":"2026-10-03","outcome":"silent"},{"channel":"kirsh","firm":"Brasa Capital Management","person":null,"email":null,"sent":"2026-10-03","outcome":"silent"},{"channel":"kirsh","firm":"Lenox West","person":null,"email":null,"sent":"2026-10-03","outcome":"silent"},{"channel":"kirsh","firm":"Mountain Pacific","person":null,"email":null,"sent":"2026-10-03","outcome":"silent","note":"Also one of the three names Zamir held back from Slocumb \u2014 personal relationship, Zamir handles direct."},{"channel":"kirsh","firm":"Machine Investment Group","person":null,"email":null,"sent":"2026-10-03","outcome":"silent"},{"channel":"kirsh","firm":"Mavik Capital","person":null,"email":null,"sent":"2026-10-03","outcome":"silent"},{"channel":"kirsh","firm":"Artisan Realty Advisors","person":"Greg Khodara","email":null,"sent":null,"outcome":"excluded","note":"Zamir, 3 Oct: 'This won't be a fit for Greg/Artisan.'"},{"channel":"kirsh","firm":"Alvarez & Marsal (family office)","person":null,"email":null,"sent":null,"outcome":"excluded","note":"Kirsh, 3 Oct: only does JVs for ground-up development."}],"carveouts":[{"firm":"Grandview","why":"Zamir knows them personally \u2014 handling direct, not via IPA."},{"firm":"Long Wharf Capital","why":"Zamir knows them personally \u2014 handling direct, not via IPA."},{"firm":"Mountain Pacific","why":"Zamir knows them personally \u2014 handling direct, not via IPA. Also on Kirsh's list."}],"replies":[{"firm":"STRE Management USA","person":"Camilo Padron","title":"CIO / Executive Manager","email":"camilo.padron@strem.us","channel":"direct","stage":"reviewing","ts":"2026-10-12T13:51:25Z","quote":"We reviewed the opportunity with our team last week, and the feedback has been positive. Everyone likes the story, and we are continuing to work through the numbers in more detail\u2026 there is one item we are working through on our side. We have a long-standing local partner in Houston with whom we remain actively invested\u2026 This does not reflect any hesitation on the opportunity itself.","action":"Hottest name in the book. Clarity promised early this week \u2014 chase Wednesday if nothing lands. Chip owns the thread.","tags":["partner-conflict"],"heat":5},{"firm":"Green Pine Real Estate","person":"Seth Grossman","title":"Principal","email":"skg@greenpinere.com","channel":"kirsh","stage":"pass","ts":"2026-10-08T21:07:00Z","quote":"Looks like a good deal, but not a fit for us. Ronnie and I, and much of our investor network, were destroyed in Houston this cyle. Would take something very special to get us back in down there. Not totally opposed, but a going in 6%, even w upside, is not the answer for us.","action":"Priced out, not disqualified. Would need a 6.5%+ going-in to reopen. Keep for a deeper-basis Houston deal.","tags":["houston-sentiment","going-in-yield"],"heat":1},{"firm":"Argosy Real Estate Partners","person":"D. Ciccone","title":"Managing Director","email":"dciccone@argosyrep.com","channel":"direct","stage":"pass","ts":"2026-10-07T14:29:19Z","quote":"Tapped out on Houston right now (too much exposure).","action":"Portfolio constraint, not a view on the deal. Same answer would have come from Kirsh's send. Re-approach with a non-Houston deal.","tags":["houston-exposure"],"heat":1},{"firm":"Evergen Equity","person":"Omar Hamdan","title":"Investments","email":"omar@evergenequity.com","channel":"direct","stage":"pass","ts":"2026-10-06T12:49:00Z","quote":"We had a chance to review the opportunity\u2026 it is not a submarket we are currently pursuing or investing in.","action":"Submarket-level no after a real review. Southeast Houston is the blocker, not the basis.","tags":["submarket-demographics"],"heat":1},{"firm":"Tramview Capital","person":"Beau Vande Walle","title":"Principal","email":"bvandewalle@tramview.com","channel":"kirsh","stage":"pass","ts":"2026-10-05T14:39:45Z","quote":"Unfortunately, this one is not a fit for us as our fund exposure in Houston is maxed out at this time.","action":"Fund-level cap. Revisit after their next vintage closes \u2014 nothing about this deal moves them.","tags":["houston-exposure"],"heat":1},{"firm":"Parse Capital","person":"Brett Balda","title":"Partner","email":"brett.balda@parsecap.com","channel":"direct","stage":"reviewing","ts":"2026-10-05T13:38:31Z","quote":"We do not currently have appetite for JV acquisitions in Houston but agree that the basis is strong (albeit small units). We will have a quick look and get back to you.","action":"Seven days quiet since the 'quick look'. One nudge with the debt matrix attached, then let it go.","tags":["strategy-mismatch","unit-size"],"heat":3},{"firm":"Mile Rock Capital","person":"Zack Georgeson","title":"Principal","email":"zack@milerockcapital.com","channel":"kirsh","stage":"pass","ts":"2026-10-03T14:31:02Z","quote":"Thanks for thinking of us, Andrew \u2014 we're not as focused on Houston right now unless it's affordable at Max rents.","action":"Mandate mismatch \u2014 they want LIHTC/affordable in Houston. Market-rate will never clear here.","tags":["strategy-mismatch"],"heat":1},{"firm":"Range Equity","person":"Andrew Gindy","title":"Principal","email":"agindy@remlp.com","channel":"kirsh","stage":"pass","ts":"2026-10-03T09:29:00Z","quote":"Pass.","action":"One word, no reason given. Nothing to work with.","tags":[],"heat":1},{"firm":"Sabal Investment Holdings","person":"Erik Kolar","title":"Associate, Investment Management","email":"erik.kolar@sabal.com","channel":"direct","stage":"pass","ts":"2026-10-02T19:38:14Z","quote":"The asset quality is there, but this isn't a market or submarket we're long on right now. The demographic profile was the biggest hurdle\u2026 median household income within 5 miles is ~$54K\u2026 leaves little room to grow rents over the hold. Rates were the other piece. With the 5-year Treasury up since the 9/21 lender quote, the deal starts with negative leverage at $34M. We're more constructive on Texas markets like DFW (northern corridor) and Austin.","action":"The most useful pass we got. Two fixable objections: the $54K CoStar 5-mile median vs. the $71.2K on-site median, and negative leverage at the 9/21 quote. Rebut both in the next version of the memo.","tags":["submarket-demographics","negative-leverage"],"heat":2},{"firm":"Capital Solutions","person":"Rami Hakim","title":"Principal","email":"rhakim@cap-sol.com","channel":"direct","stage":"conditional","ts":"2026-10-01T23:52:00Z","quote":"Sounds great. Don't love houston but let's discuss.","action":"Lunch already on the books for 30 Oct. Lead with basis, not Houston \u2014 he has pre-registered the market objection.","tags":["houston-sentiment"],"heat":4},{"firm":"Atlantic Creek Real Estate","person":"Jonathan Trucano","title":"Managing Partner","email":"trucano@atlanticcreek.com","channel":"direct","stage":"pass","ts":"2026-10-01T22:39:38Z","quote":"It was a pass \u2014 Houston's a non-starter right now.","action":"Flat market veto, no deal-level read. Nothing to rebut.","tags":["houston-sentiment"],"heat":1}],"stageLabel":{"reviewing":"Reviewing","conditional":"Conditional","pass":"Pass","meeting":"Meeting","materials":"Materials","question":"Question","referred":"Referred","relationship":"Relationship","outofscope":"Out of scope"},"tagLabel":{"houston-exposure":"Houston exposure maxed","houston-sentiment":"Houston sentiment / burned","submarket-demographics":"Submarket demographics","strategy-mismatch":"Mandate mismatch","going-in-yield":"Going-in yield too thin","negative-leverage":"Negative leverage at $34M","unit-size":"Unit size","partner-conflict":"Existing local partner"},"live":["conditional","materials","meeting","question","reviewing"],"marketTags":["houston-exposure","houston-sentiment","strategy-mismatch","submarket-demographics"],"dealTags":["going-in-yield","negative-leverage","partner-conflict","unit-size"],"generatedAt":"2026-10-12T17:35:51Z"};
+'use strict';
+const $ = s => document.querySelector(s);
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const usd = n => '$' + (n/1e6).toFixed(2).replace(/\.?0+$/,'') + 'M';
+const LIVE = new Set(D.live);
+const fmtDay = ts => new Date(ts).toLocaleDateString('en-US',{month:'short',day:'numeric'});
+const fmtFull = ts => new Date(ts).toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
+
+let channel = 'all';
+
+/* ---------- masthead ---------- */
+const d = D.deal;
+$('#eyebrow').textContent = 'JV EQUITY · ' + d.submarket.toUpperCase() + ' · AWARDED ' + d.vintage + ' BUILD';
+$('#subtitle').textContent =
+  d.units + ' units, built ' + d.vintage + ', at ' + d.perUnit.toLocaleString() +
+  ' per door — roughly half of where comparable-vintage Houston product trades. ' +
+  'Seller ' + d.seller + '; ' + d.manager + ' manages; brokered by ' + d.broker + '.';
+$('#updated').textContent = 'Updated ' + fmtFull(D.generatedAt);
+$('#eqneed').textContent = usd(d.equity);
+$('#promote').textContent = d.promote;
+
+$('#spec').innerHTML = [
+  ['Purchase', '$' + (d.price/1e6).toFixed(1) + 'M'],
+  ['Per unit', '$' + d.perUnit.toLocaleString()],
+  ['Per SF', '$' + d.perSF],
+  ['LP equity', usd(d.equity)],
+  ['Levered IRR', d.irr],
+  ['Equity multiple', d.em],
+  ['Stab. CoC', d.coc],
+  ['Cap in / out', d.capIn + ' / ' + d.capOut],
+  ['Untrended YoC', d.yoc.replace(' untrended','')],
+  ['Target close', d.close],
+].map(([k,v]) => '<div><dt>'+esc(k)+'</dt><dd>'+esc(v)+'</dd></div>').join('');
+
+/* ---------- channel switcher ---------- */
+const chanKeys = Object.keys(D.channels);
+const inChan = x => channel === 'all' || x.channel === channel;
+const contactsIn = k => D.contacts.filter(c => c.channel === k);
+
+function renderChanBtns(){
+  const btn = (key,label,n,live) =>
+    '<button class="cbtn" data-ch="'+key+'" aria-pressed="'+(channel===key)+'">'+
+    esc(label)+' <b>'+n+'</b>'+(live?'<span class="live-dot"></span>':'')+'</button>';
+  const liveBy = k => D.replies.filter(r => LIVE.has(r.stage) && (k==='all'||r.channel===k)).length;
+  let h = btn('all','All channels', D.contacts.filter(c=>c.outcome!=='excluded').length, liveBy('all')>0);
+  for (const k of chanKeys)
+    h += btn(k, D.channels[k].label, contactsIn(k).filter(c=>c.outcome!=='excluded').length, liveBy(k)>0);
+  $('#chanbtns').innerHTML = h;
+  $('#chanbtns').querySelectorAll('.cbtn').forEach(b => b.onclick = () => {
+    channel = b.dataset.ch; renderChanBtns(); renderFilters(); renderAll();
+  });
+}
+
+/* ---------- KPIs ---------- */
+function renderStatus(){
+  const reps = D.replies.filter(inChan);
+  const live = reps.filter(r => LIVE.has(r.stage));
+  const pass = reps.filter(r => r.stage === 'pass');
+  const pool = D.contacts.filter(c => inChan(c) && c.outcome !== 'excluded' && c.outcome !== 'duplicate');
+  const silent = pool.filter(c => c.outcome === 'silent');
+  const rate = pool.length ? Math.round(100 * reps.length / pool.length) : 0;
+
+  const hot = D.replies.filter(r => LIVE.has(r.stage)).sort((a,b)=>b.heat-a.heat)[0];
+  $('#headline').innerHTML =
+    '<b>' + usd(d.equity) + ' to raise and three live conversations against it.</b> ' +
+    'Of ' + D.replies.length + ' replies across all channels, ' +
+    D.replies.filter(r=>r.stage==='pass').length + ' are passes and every one of them names Houston — ' +
+    'exposure, sentiment or submarket — rather than this deal\'s basis, vintage, check size or returns. ' +
+    'Three firms praised the basis on their way to no. ' +
+    'The warmest name is <b>' + esc(hot.firm) + '</b>: ' + esc(hot.action.split('.')[0]) + '.';
+
+  const k = (n,l,note,cls) =>
+    '<div class="kpi'+(cls?' '+cls:'')+'"><div class="n">'+n+'</div><div class="lbl">'+esc(l)+'</div>'+
+    (note?'<div class="note">'+note+'</div>':'')+'</div>';
+  if (!pool.length){
+    $('#kpis').innerHTML = '';
+    $('#headline').innerHTML = '<b>Nothing has gone out on this channel yet.</b> ' +
+      esc(D.channels[channel] ? D.channels[channel].note : '') +
+      ' Switch back to <b>All channels</b> for the numbers that do exist.';
+    return;
+  }
+  $('#kpis').innerHTML =
+    k(live.length,'Live conversations','Reviewing or conditional — not yet a no','hot') +
+    k(pass.length,'Passes', pass.length ? Math.round(100*pass.length/reps.length)+'% of replies' : '') +
+    k(reps.length + ' / ' + pool.length,'Replied / contacted', rate + '% reply rate on a hand-picked list') +
+    k(silent.length,'Silent','Have the deal, nothing back yet') +
+    k(usd(d.equity),'LP equity needed', d.promote + ' split · ' + d.close + ' close');
+}
+
+/* ---------- channel blocks ---------- */
+function renderChannels(){
+  let h = '';
+  for (const key of chanKeys){
+    const c = D.channels[key];
+    if (channel !== 'all' && channel !== key) continue;
+    const cs = contactsIn(key);
+    const sent = cs.filter(x => x.outcome !== 'excluded');
+    const reps = D.replies.filter(r => r.channel === key);
+    const live = reps.filter(r => LIVE.has(r.stage));
+    const silent = cs.filter(x => x.outcome === 'silent');
+    const excl = cs.filter(x => x.outcome === 'excluded');
+
+    h += '<div class="fblock"><div class="fhead"><div><h3>' + esc(c.label) + '</h3>' +
+         '<p class="sub">' + esc(c.owner) + (c.started ? ' · first send ' + fmtDay(c.started) : '') + '</p></div>' +
+         (c.status === 'awaiting-send'
+            ? '<span class="inflight">Awaiting send</span>'
+            : (live.length ? '<span class="inflight">' + live.length + ' live</span>' : '')) +
+         '</div>';
+
+    if (c.status === 'awaiting-send'){
+      h += '<div class="pending">' + esc(c.note) + ' Three names were carved out at Zamir\'s instruction — ' +
+           'Grandview, Long Wharf and Mountain Pacific — because he knows them personally and is going direct. ' +
+           'Nothing from this channel has landed yet, so none of the numbers above include it.</div>';
+    } else {
+      const rows = [
+        ['Sent', sent.length, sent.length],
+        ['Replied', reps.length, sent.length],
+        ['Still live', live.length, sent.length],
+        ['Silent', silent.length, sent.length],
+      ];
+      const max = sent.length || 1;
+      h += '<div class="funnel">' + rows.map(([l,n,tot]) =>
+        '<div class="frow"><div class="fl"><b>' + esc(l) + '</b></div>' +
+        '<div class="ftrack"><div class="fbar" style="width:' + (100*n/max).toFixed(1) + '%;background:' +
+          (l==='Still live' ? 'var(--live)' : l==='Silent' ? 'var(--dead)' : 'var(--seq-4)') + '"></div></div>' +
+        '<div class="fval">' + n + ' <span>/ ' + tot + '</span></div></div>').join('') + '</div>';
+      h += '<p class="sub" style="margin-top:12px;font-family:inherit;font-size:13px;color:var(--ink-3)">' +
+           esc(c.note) + (excl.length ? ' ' + excl.length + ' name' + (excl.length>1?'s':'') + ' pulled before sending.' : '') + '</p>';
+    }
+    h += '</div>';
+  }
+  $('#channels').innerHTML = h;
+}
+
+/* ---------- priority queue ---------- */
+function renderQueue(){
+  const live = D.replies.filter(r => inChan(r) && LIVE.has(r.stage)).sort((a,b)=>b.heat-a.heat);
+  $('#livecount').textContent = live.length;
+  if (!live.length){ $('#queue').innerHTML = '<div class="pending">No open conversations in this channel.</div>'; return; }
+  const done = JSON.parse(localStorage.getItem('ag-done') || '{}');
+  $('#queue').innerHTML = '<div class="qgroup"><h3>Open <em>' + live.length + ' of ' + D.replies.length + ' replies</em></h3>' +
+    '<div class="cards">' + live.map(r => {
+      const id = r.email;
+      return '<div class="card s-' + r.stage + (done[id] ? ' done' : '') + '" data-id="' + esc(id) + '">' +
+        '<div class="card-top"><div><div class="firm">' + esc(r.firm) + '</div>' +
+        '<div class="who">' + esc(r.person) + (r.title ? ' · ' + esc(r.title) : '') + '</div></div>' +
+        '<span class="chip c-' + r.stage + '">' + esc(D.stageLabel[r.stage]) + '</span></div>' +
+        '<div class="quote">' + esc(r.quote) + '</div>' +
+        '<div class="act">' + esc(r.action) + '</div>' +
+        '<div class="card-foot"><span class="cmark' + (r.channel !== 'direct' ? ' fo' : '') + '">' +
+          esc(D.channels[r.channel].label) + '</span>' +
+        '<label class="tick"><input type="checkbox"' + (done[id] ? ' checked' : '') + '> handled</label></div>' +
+        '</div>';
+    }).join('') + '</div></div>';
+  $('#queue').querySelectorAll('.card input').forEach(cb => cb.onchange = e => {
+    const card = e.target.closest('.card'); const store = JSON.parse(localStorage.getItem('ag-done')||'{}');
+    if (e.target.checked){ store[card.dataset.id] = 1; card.classList.add('done'); }
+    else { delete store[card.dataset.id]; card.classList.remove('done'); }
+    localStorage.setItem('ag-done', JSON.stringify(store));
+  });
+}
+
+/* ---------- objections ---------- */
+function renderObjections(){
+  const reps = D.replies.filter(r => inChan(r) && r.stage === 'pass');
+  const counts = {};
+  reps.forEach(r => r.tags.forEach(t => counts[t] = (counts[t]||0) + 1));
+  const rows = Object.entries(counts).sort((a,b) => b[1]-a[1]);
+  const noReason = reps.filter(r => !r.tags.length).length;
+  const max = Math.max(1, ...rows.map(r => r[1]));
+
+  $('#objnote').innerHTML = 'Every stated reason across the ' + reps.length + ' pass' + (reps.length===1?'':'es') +
+    ' in view. A reply can carry more than one.' + (noReason ? ' ' + noReason + ' gave no reason at all.' : '');
+
+  $('#objections').innerHTML = rows.map(([t,n]) =>
+    '<div class="orow"><div class="ol">' + esc(D.tagLabel[t]) + '</div>' +
+    '<div class="obar-wrap"><div class="obar" style="width:' + (100*n/max*0.86).toFixed(1) + '%;background:' +
+      (D.marketTags.includes(t) ? 'var(--seq-4)' : 'var(--routed)') + '"></div>' +
+    '<span class="ocount">' + n + '</span></div></div>').join('')
+    || '<div class="pending">No passes in this channel yet.</div>';
+
+  const mkt = reps.filter(r => r.tags.some(t => D.marketTags.includes(t))).length;
+  const dl  = reps.filter(r => r.tags.some(t => D.dealTags.includes(t))).length;
+  $('#split').innerHTML =
+    '<h3>Market, not deal</h3>' +
+    '<p>The single most useful number on this page: how many passes are about Houston versus about this asset.</p>' +
+    '<div class="slegend">' +
+      '<span><span class="swatch" style="background:var(--seq-4)"></span>Houston itself</span>' +
+      '<span><span class="swatch" style="background:var(--routed)"></span>This deal\'s economics</span></div>' +
+    [['Houston itself', mkt, 'var(--seq-4)'], ['This deal\'s economics', dl, 'var(--routed)']].map(([l,n,c]) =>
+      '<div class="srow"><div class="sl">' + esc(l) + '</div><div class="sbars">' +
+      '<div class="sbar" style="width:' + (reps.length ? 100*n/reps.length*0.82 : 0).toFixed(1) + '%;background:' + c + '"></div>' +
+      '<span class="scount">' + n + ' of ' + reps.length + '</span></div></div>').join('') +
+    '<p style="margin-top:14px;margin-bottom:0;font-size:13.5px;color:var(--ink-2);line-height:1.6">' +
+      'This is the inverse of the Canyon Woods pattern, where the blockers were geography, vintage, check size and ' +
+      'return threshold — all of which this deal clears. Here the asset survives scrutiny and the market does not: ' +
+      'Sabal called the asset quality &ldquo;there&rdquo;, Parse called the basis &ldquo;strong&rdquo;, Green Pine called it ' +
+      '&ldquo;a good deal&rdquo;. All three passed on Houston. The implication for the next send is that screening for ' +
+      'Houston appetite matters more than screening for check size or return profile.</p>';
+}
+
+/* ---------- ledger ---------- */
+let filt = 'all';
+function renderFilters(){
+  const stages = [...new Set(D.replies.map(r => r.stage))];
+  $('#filters').innerHTML =
+    ['all','live',...stages].map(f =>
+      '<button class="fbtn" data-f="' + f + '" aria-pressed="' + (filt===f) + '">' +
+      esc(f === 'all' ? 'All' : f === 'live' ? 'Live only' : D.stageLabel[f]) + '</button>').join('') +
+    '<input id="q" placeholder="search firm or text">';
+  $('#filters').querySelectorAll('.fbtn').forEach(b => b.onclick = () => {
+    filt = b.dataset.f;
+    $('#filters').querySelectorAll('.fbtn').forEach(x => x.setAttribute('aria-pressed', x.dataset.f === filt));
+    renderLedger();
+  });
+}
+function renderLedger(){
+  const all = D.replies.filter(inChan);
+  $('#replycount').textContent = D.replies.length;
+  const q = (($('#q') && $('#q').value) || '').toLowerCase();
+
+  const rows = all.filter(r =>
+    (filt === 'all' || (filt === 'live' ? LIVE.has(r.stage) : r.stage === filt)) &&
+    (!q || (r.firm + r.person + r.quote).toLowerCase().includes(q)));
+
+  $('#ledger').innerHTML = rows.map(r =>
+    '<tr><td class="f">' + esc(r.firm) + '<small>' + esc(r.person) + '</small>' +
+      (r.tags.length ? '<div class="tags">' + r.tags.map(t => '<span class="tag">' + esc(D.tagLabel[t]) + '</span>').join('') + '</div>' : '') +
+    '</td>' +
+    '<td><span class="cmark' + (r.channel !== 'direct' ? ' fo' : '') + '">' + esc(D.channels[r.channel].label) + '</span></td>' +
+    '<td><span class="chip c-' + r.stage + '">' + esc(D.stageLabel[r.stage]) + '</span></td>' +
+    '<td class="qt">' + esc(r.quote) + '</td>' +
+    '<td class="tm">' + fmtDay(r.ts) + '</td></tr>').join('');
+  $('#empty').style.display = rows.length ? 'none' : 'block';
+}
+document.addEventListener('input', e => { if (e.target.id === 'q') renderLedger(); });
+
+/* ---------- gaps ---------- */
+function renderGaps(){
+  const pool = D.contacts.filter(c => inChan(c));
+  const silent = pool.filter(c => c.outcome === 'silent');
+  const excl = D.contacts.filter(c => c.outcome === 'excluded');
+  const dup  = D.contacts.filter(c => c.outcome === 'duplicate');
+  const k = (n,l,note) => '<div class="kpi"><div class="n">' + n + '</div><div class="lbl">' + esc(l) + '</div>' +
+    (note ? '<div class="note">' + note + '</div>' : '') + '</div>';
+  $('#gapkpis').innerHTML =
+    k(silent.length,'Silent','Sent, nothing back') +
+    k(D.carveouts.length,'Carved out','Personal relationships Zamir works direct') +
+    k(excl.length,'Pulled pre-send','Known non-fits removed from Kirsh\'s list') +
+    k(dup.length,'Double-covered','On two channels\' lists at once');
+
+  $('#silentsum').textContent = silent.length + ' firms hold the deal and have not responded';
+  $('#silentlist').innerHTML = silent.map(c =>
+    '<div title="' + esc(c.firm) + '">' + esc(c.firm) +
+    (c.note ? ' <span style="color:var(--ink-3)">— ' + esc(c.note.split('.')[0]) + '</span>' : '') + '</div>').join('')
+    || '<div>None.</div>';
+
+  $('#carvesum').textContent = D.carveouts.length + ' names held back from the IPA send on purpose';
+  $('#carvelist').innerHTML = D.carveouts.map(c =>
+    '<div style="white-space:normal"><b>' + esc(c.firm) + '</b> — ' + esc(c.why) + '</div>').join('');
+
+  $('#exclsum').textContent = excl.length + ' names pulled from the Kirsh list before it went out';
+  $('#excllist').innerHTML = excl.map(c =>
+    '<div style="white-space:normal"><b>' + esc(c.firm) + '</b> — ' + esc(c.note) + '</div>').join('');
+}
+
+/* ---------- broker read + footer ---------- */
+$('#uw').innerHTML =
+  '<b>Slocumb would underwrite a 6.25% exit, not 6.00%.</b> He flagged the rent trend as optically flattered ' +
+  '(1% / 2% / 3%), argued for being more conservative still, and raised both affordability in the submarket and ' +
+  'fees running at roughly 19% of rent. He agreed to circulate it anyway. ' +
+  'His read lines up with Sabal\'s — the two most detailed looks we have both land on the same two issues: ' +
+  'how much rent growth this tenant base can absorb, and what the exit cap really is. ' +
+  'Those are the two numbers to tighten before the next send.';
+
+$('#foot').innerHTML =
+  'Allen Genoa Capital Desk · ' + D.replies.length + ' replies across ' +
+  D.contacts.filter(c => c.outcome !== 'excluded').length + ' contacted firms · built from the Gmail thread record, ' +
+  'not a CRM.<br>' +
+  'Sources: the ZMR direct thread (Sub-$135K/Door on a 2023 Houston Build), Andrew Kirsh\'s ' +
+  '&ldquo;Equity Opp - 252 units, 2023 built - Houston&rdquo; forwards, the IPA &ldquo;Houston&rdquo; thread, ' +
+  'and the Smart Living Allen Genoa debt thread.<br>' +
+  'Generated ' + D.generatedAt + ' · figures restate Kirsh\'s 2 Oct version of the deal. ' + esc(D.deal.note);
+
+/* ---------- boot ---------- */
+function renderAll(){ renderStatus(); renderChannels(); renderQueue(); renderObjections(); renderLedger(); renderGaps(); }
+renderChanBtns(); renderFilters(); renderAll();
+</script></body></html>
