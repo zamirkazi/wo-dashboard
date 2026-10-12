@@ -13,11 +13,22 @@ organised by campaign and reconciles sends, opens and bounces. Allen Genoa has n
 blast at all — every name came through one of three people — so this one is organised
 by **channel**:
 
-| Channel | Owner | State |
-|---|---|---|
-| ZMR direct | Zamir / Kevin / Chip | 9 firms, 7 replies |
-| Andrew Kirsh | Sklar Kirsh LLP | 15 firms, 4 replies relayed |
-| Jeremy Slocumb | IPA Capital Markets | cleared to send 7 Oct, no send confirmed |
+| Channel | Owner | Named | Actually sent | Replied |
+|---|---|---|---|---|
+| ZMR direct | Zamir / Kevin / Chip | 9 | 8 | 7 |
+| Andrew Kirsh | Sklar Kirsh LLP | 15 | 4 | 4 |
+| Jeremy Slocumb | IPA Capital Markets | — | 0 | — |
+
+**Named is not sent, and the page refuses to conflate them.** Kirsh proposed sixteen
+groups on 2 Oct; Zamir annotated which ones he already knew; Kirsh then sent to the four
+he had no relationship with — Tramview, Mile Rock, Green Pine, Range Equity — and
+stopped. All four replied. The other eleven were never mailed. Cushman & Wakefield was
+offered the deal in conversation but never sent it. A firm counts as `sent` only where a
+send or a reply appears in the thread record.
+
+That makes the real coverage twelve firms, not twenty-four, and the real reply rate 92%
+rather than 48% — and it makes the largest number on the page the twelve warm names
+that were lined up and never received it.
 
 The headline finding the page is built around: of the passes received, almost all cite
 **Houston** — exposure, sentiment or submarket — rather than the basis, vintage, check
@@ -52,6 +63,20 @@ there and both pick it up.
 `build_houston.py` asserts that `outreach.json` and `replies.json` agree — every firm
 marked `replied` must have a reply record and vice versa — and that no address appears
 twice. It will not emit a page that does not reconcile.
+
+### Outcomes
+
+| Value | Means |
+|---|---|
+| `replied` | Sent, and came back |
+| `silent` | Sent, nothing back |
+| `proposed` | Named on a channel's list, no send anywhere in the thread |
+| `offered` | Mentioned to them in conversation, materials never sent |
+| `excluded` | Killed before it went out |
+
+Only `replied` and `silent` count as coverage. `proposed` and `offered` are the gap.
+Kirsh-channel rows also carry `knows`, Zamir's own 3 Oct annotation of whether he has
+the relationship — which is the reason each unsent name is still an intro he can make.
 
 ### Stages
 

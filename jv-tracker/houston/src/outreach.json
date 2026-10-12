@@ -5,55 +5,295 @@
       "owner": "Zamir / Kevin / Chip",
       "started": "2026-09-21",
       "status": "live",
-      "note": "One-to-one forwards off Kevin's 21 Sep memo. No blast, no list — every name was picked."
+      "note": "One-to-one forwards off Kevin's 21 Sep memo. No blast, no list \u2014 every name was picked."
     },
     "kirsh": {
       "label": "Andrew Kirsh",
       "owner": "Andrew Kirsh, Sklar Kirsh LLP",
       "started": "2026-10-02",
       "status": "live",
-      "note": "Kirsh offered his own equity rolodex on 2 Oct and sent under his own name. He relays replies back verbatim."
+      "note": "Kirsh sent to Tramview on 2 Oct, then to the three groups Zamir said he did not know \u2014 Mile Rock, Green Pine and Range Equity \u2014 on the morning of 3 Oct. All four came back. The rest of his list he raised as a question and never confirmed sending."
     },
     "slocumb": {
       "label": "Jeremy Slocumb",
       "owner": "Jeremy Slocumb, IPA Capital Markets",
       "started": null,
       "status": "awaiting-send",
-      "note": "Cleared to send on 7 Oct with three carve-outs. No send confirmed as of 12 Oct — Zamir nudged him this morning."
+      "note": "Cleared to send on 7 Oct with three carve-outs. No send confirmed as of 12 Oct \u2014 Zamir nudged him this morning."
     }
   },
   "contacts": [
-    {"channel":"direct","firm":"Atlantic Creek Real Estate","person":"Jonathan Trucano","email":"trucano@atlanticcreek.com","also":["bylin@atlanticcreek.com","sachs@atlanticcreek.com"],"sent":"2026-09-21","outcome":"replied"},
-    {"channel":"direct","firm":"Sabal Investment Holdings","person":"Tal Seder","email":"tal.seder@sabal.com","also":["mike.mehagian@sabal.com","ethan.knight@sabal.com","erik.kolar@sabal.com","drake.ayres@sabal.com","charles.alexander@sabal.com","barton.vaughan@sabal.com"],"sent":"2026-10-01","outcome":"replied"},
-    {"channel":"direct","firm":"Capital Solutions","person":"Rami Hakim","email":"rhakim@cap-sol.com","sent":"2026-10-02","outcome":"replied"},
-    {"channel":"direct","firm":"Argosy Real Estate Partners","person":"D. Ciccone","email":"dciccone@argosyrep.com","sent":"2026-10-02","outcome":"replied"},
-    {"channel":"direct","firm":"ARCTRUST","person":"Chris Lecates","email":"clecates@arctrust.com","also":["gsheehan@arctrust.com","jdonalson@arctrust.com"],"sent":"2026-10-02","outcome":"silent"},
-    {"channel":"direct","firm":"Parse Capital","person":"Brett Balda","email":"brett.balda@parsecap.com","also":["bmitchell@parsecap.com"],"sent":"2026-10-02","outcome":"replied"},
-    {"channel":"direct","firm":"Evergen Equity","person":"Omar Hamdan","email":"omar@evergenequity.com","also":["troy@evergenequity.com","investments@evergenequity.com"],"sent":"2026-10-02","outcome":"replied"},
-    {"channel":"direct","firm":"STRE Management USA","person":"Camilo Padron","email":"camilo.padron@strem.us","sent":"2026-10-06","outcome":"replied"},
-    {"channel":"direct","firm":"Cushman & Wakefield","person":"Chase Tagen","email":"chase.tagen@cushwake.com","sent":"2026-10-07","outcome":"silent","note":"Offered in-thread on 7 Oct ('we were awarded a deal in Houston I'd like to send over to you'). No reply yet; meeting set for 22 Oct."},
-
-    {"channel":"kirsh","firm":"Range Equity","person":"Andrew Gindy","email":"agindy@remlp.com","sent":"2026-10-03","outcome":"replied"},
-    {"channel":"kirsh","firm":"Tramview Capital","person":"Beau Vande Walle","email":"bvandewalle@tramview.com","also":["cmyerson@tramview.com","rdavies@tramview.com"],"sent":"2026-10-02","outcome":"replied"},
-    {"channel":"kirsh","firm":"Green Pine Real Estate","person":"Seth Grossman","email":"skg@greenpinere.com","sent":"2026-10-03","outcome":"replied"},
-    {"channel":"kirsh","firm":"Mile Rock Capital","person":"Zack Georgeson","email":"zack@milerockcapital.com","sent":"2026-10-03","outcome":"replied"},
-    {"channel":"kirsh","firm":"Horowitz Group","person":null,"email":null,"sent":"2026-10-03","outcome":"silent","note":"Current ZMR investor — warmest name on Kirsh's list."},
-    {"channel":"kirsh","firm":"Belay Investment Group","person":null,"email":null,"sent":"2026-10-03","outcome":"silent"},
-    {"channel":"kirsh","firm":"Tryperion Holdings","person":null,"email":null,"sent":"2026-10-03","outcome":"silent"},
-    {"channel":"kirsh","firm":"Singerman Real Estate","person":null,"email":null,"sent":"2026-10-03","outcome":"silent"},
-    {"channel":"kirsh","firm":"Argosy Real Estate Partners","person":"D. Ciccone","email":"dciccone@argosyrep.com","sent":"2026-10-03","outcome":"duplicate","note":"Also on ZMR's direct list — Zamir sent 2 Oct, Kirsh 3 Oct. Argosy passed on the direct thread."},
-    {"channel":"kirsh","firm":"Pennybacker Capital","person":null,"email":null,"sent":"2026-10-03","outcome":"silent"},
-    {"channel":"kirsh","firm":"Brasa Capital Management","person":null,"email":null,"sent":"2026-10-03","outcome":"silent"},
-    {"channel":"kirsh","firm":"Lenox West","person":null,"email":null,"sent":"2026-10-03","outcome":"silent"},
-    {"channel":"kirsh","firm":"Mountain Pacific","person":null,"email":null,"sent":"2026-10-03","outcome":"silent","note":"Also one of the three names Zamir held back from Slocumb — personal relationship, Zamir handles direct."},
-    {"channel":"kirsh","firm":"Machine Investment Group","person":null,"email":null,"sent":"2026-10-03","outcome":"silent"},
-    {"channel":"kirsh","firm":"Mavik Capital","person":null,"email":null,"sent":"2026-10-03","outcome":"silent"},
-    {"channel":"kirsh","firm":"Artisan Realty Advisors","person":"Greg Khodara","email":null,"sent":null,"outcome":"excluded","note":"Zamir, 3 Oct: 'This won't be a fit for Greg/Artisan.'"},
-    {"channel":"kirsh","firm":"Alvarez & Marsal (family office)","person":null,"email":null,"sent":null,"outcome":"excluded","note":"Kirsh, 3 Oct: only does JVs for ground-up development."}
+    {
+      "channel": "direct",
+      "firm": "Atlantic Creek Real Estate",
+      "person": "Jonathan Trucano",
+      "email": "trucano@atlanticcreek.com",
+      "also": [
+        "bylin@atlanticcreek.com",
+        "sachs@atlanticcreek.com"
+      ],
+      "sent": "2026-09-21",
+      "outcome": "replied"
+    },
+    {
+      "channel": "direct",
+      "firm": "Sabal Investment Holdings",
+      "person": "Tal Seder",
+      "email": "tal.seder@sabal.com",
+      "also": [
+        "mike.mehagian@sabal.com",
+        "ethan.knight@sabal.com",
+        "erik.kolar@sabal.com",
+        "drake.ayres@sabal.com",
+        "charles.alexander@sabal.com",
+        "barton.vaughan@sabal.com"
+      ],
+      "sent": "2026-10-01",
+      "outcome": "replied"
+    },
+    {
+      "channel": "direct",
+      "firm": "Capital Solutions",
+      "person": "Rami Hakim",
+      "email": "rhakim@cap-sol.com",
+      "sent": "2026-10-02",
+      "outcome": "replied"
+    },
+    {
+      "channel": "direct",
+      "firm": "Argosy Real Estate Partners",
+      "person": "D. Ciccone",
+      "email": "dciccone@argosyrep.com",
+      "sent": "2026-10-02",
+      "outcome": "replied"
+    },
+    {
+      "channel": "direct",
+      "firm": "ARCTRUST",
+      "person": "Chris Lecates",
+      "email": "clecates@arctrust.com",
+      "also": [
+        "gsheehan@arctrust.com",
+        "jdonalson@arctrust.com"
+      ],
+      "sent": "2026-10-02",
+      "outcome": "silent"
+    },
+    {
+      "channel": "direct",
+      "firm": "Parse Capital",
+      "person": "Brett Balda",
+      "email": "brett.balda@parsecap.com",
+      "also": [
+        "bmitchell@parsecap.com"
+      ],
+      "sent": "2026-10-02",
+      "outcome": "replied"
+    },
+    {
+      "channel": "direct",
+      "firm": "Evergen Equity",
+      "person": "Omar Hamdan",
+      "email": "omar@evergenequity.com",
+      "also": [
+        "troy@evergenequity.com",
+        "investments@evergenequity.com"
+      ],
+      "sent": "2026-10-02",
+      "outcome": "replied"
+    },
+    {
+      "channel": "direct",
+      "firm": "STRE Management USA",
+      "person": "Camilo Padron",
+      "email": "camilo.padron@strem.us",
+      "sent": "2026-10-06",
+      "outcome": "replied"
+    },
+    {
+      "channel": "direct",
+      "firm": "Cushman & Wakefield",
+      "person": "Chase Tagen",
+      "email": "chase.tagen@cushwake.com",
+      "sent": null,
+      "outcome": "offered",
+      "note": "Zamir offered it on 7 Oct \u2014 'we were awarded a deal in Houston I'd like to send over to you'. Nothing sent yet. Meeting already set for 22 Oct."
+    },
+    {
+      "channel": "kirsh",
+      "firm": "Range Equity",
+      "person": "Andrew Gindy",
+      "email": "agindy@remlp.com",
+      "sent": "2026-10-03",
+      "outcome": "replied",
+      "knows": "doesn't know them"
+    },
+    {
+      "channel": "kirsh",
+      "firm": "Tramview Capital",
+      "person": "Beau Vande Walle",
+      "email": "bvandewalle@tramview.com",
+      "also": [
+        "cmyerson@tramview.com",
+        "rdavies@tramview.com"
+      ],
+      "sent": "2026-10-02",
+      "outcome": "replied",
+      "knows": null
+    },
+    {
+      "channel": "kirsh",
+      "firm": "Green Pine Real Estate",
+      "person": "Seth Grossman",
+      "email": "skg@greenpinere.com",
+      "sent": "2026-10-03",
+      "outcome": "replied",
+      "knows": "doesn't know them"
+    },
+    {
+      "channel": "kirsh",
+      "firm": "Mile Rock Capital",
+      "person": "Zack Georgeson",
+      "email": "zack@milerockcapital.com",
+      "sent": "2026-10-03",
+      "outcome": "replied",
+      "knows": "doesn't know them"
+    },
+    {
+      "channel": "kirsh",
+      "firm": "Horowitz Group",
+      "person": null,
+      "email": null,
+      "sent": null,
+      "outcome": "proposed",
+      "note": "Current ZMR investor. Warmest name on the list and still unsent.",
+      "knows": "current investor"
+    },
+    {
+      "channel": "kirsh",
+      "firm": "Belay Investment Group",
+      "person": null,
+      "email": null,
+      "sent": null,
+      "outcome": "proposed",
+      "knows": "knows them"
+    },
+    {
+      "channel": "kirsh",
+      "firm": "Tryperion Holdings",
+      "person": null,
+      "email": null,
+      "sent": null,
+      "outcome": "proposed",
+      "knows": "knows them"
+    },
+    {
+      "channel": "kirsh",
+      "firm": "Singerman Real Estate",
+      "person": null,
+      "email": null,
+      "sent": null,
+      "outcome": "proposed",
+      "knows": "knows them"
+    },
+    {
+      "channel": "kirsh",
+      "firm": "Argosy Real Estate Partners",
+      "person": "D. Ciccone",
+      "email": "dciccone@argosyrep.com",
+      "sent": null,
+      "outcome": "proposed",
+      "note": "On Kirsh's proposed list and Zamir knows them, so Zamir sent direct on 2 Oct. Argosy passed on that thread; Kirsh never sent separately.",
+      "knows": "knows them"
+    },
+    {
+      "channel": "kirsh",
+      "firm": "Pennybacker Capital",
+      "person": null,
+      "email": null,
+      "sent": null,
+      "outcome": "proposed",
+      "knows": "knows them"
+    },
+    {
+      "channel": "kirsh",
+      "firm": "Brasa Capital Management",
+      "person": null,
+      "email": null,
+      "sent": null,
+      "outcome": "proposed",
+      "knows": "knows them"
+    },
+    {
+      "channel": "kirsh",
+      "firm": "Lenox West",
+      "person": null,
+      "email": null,
+      "sent": null,
+      "outcome": "proposed",
+      "knows": "knows them"
+    },
+    {
+      "channel": "kirsh",
+      "firm": "Mountain Pacific",
+      "person": null,
+      "email": null,
+      "sent": null,
+      "outcome": "proposed",
+      "note": "Zamir knows them \u2014 held back from the IPA send for that reason, and left unsent on Kirsh's list for the same one. Still a live target for Zamir direct.",
+      "knows": "knows them"
+    },
+    {
+      "channel": "kirsh",
+      "firm": "Machine Investment Group",
+      "person": null,
+      "email": null,
+      "sent": null,
+      "outcome": "proposed",
+      "knows": "knows them"
+    },
+    {
+      "channel": "kirsh",
+      "firm": "Mavik Capital",
+      "person": null,
+      "email": null,
+      "sent": null,
+      "outcome": "proposed",
+      "knows": "knows them"
+    },
+    {
+      "channel": "kirsh",
+      "firm": "Artisan Realty Advisors",
+      "person": "Greg Khodara",
+      "email": null,
+      "sent": null,
+      "outcome": "excluded",
+      "note": "Zamir, 3 Oct: 'This won't be a fit for Greg/Artisan.'",
+      "knows": null
+    },
+    {
+      "channel": "kirsh",
+      "firm": "Alvarez & Marsal (family office)",
+      "person": null,
+      "email": null,
+      "sent": null,
+      "outcome": "excluded",
+      "note": "Kirsh, 3 Oct: only does JVs for ground-up development.",
+      "knows": null
+    }
   ],
   "carveouts": [
-    {"firm":"Grandview","why":"Zamir knows them personally — handling direct, not via IPA."},
-    {"firm":"Long Wharf Capital","why":"Zamir knows them personally — handling direct, not via IPA."},
-    {"firm":"Mountain Pacific","why":"Zamir knows them personally — handling direct, not via IPA. Also on Kirsh's list."}
+    {
+      "firm": "Grandview",
+      "why": "Zamir knows them personally \u2014 handling direct, not via IPA."
+    },
+    {
+      "firm": "Long Wharf Capital",
+      "why": "Zamir knows them personally \u2014 handling direct, not via IPA."
+    },
+    {
+      "firm": "Mountain Pacific",
+      "why": "Zamir knows them personally \u2014 handling direct, not via IPA. Also on Kirsh's list."
+    }
   ]
 }

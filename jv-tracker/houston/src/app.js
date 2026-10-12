@@ -3,6 +3,9 @@ const $ = s => document.querySelector(s);
 const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const usd = n => '$' + (n/1e6).toFixed(2).replace(/\.?0+$/,'') + 'M';
 const LIVE = new Set(D.live);
+// Outcomes where the materials actually left the building, vs. where they did not.
+const SENT = new Set(['replied','silent']);
+const UNSENT = new Set(['proposed','offered']);
 const fmtDay = ts => new Date(ts).toLocaleDateString('en-US',{month:'short',day:'numeric'});
 const fmtFull = ts => new Date(ts).toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
 
@@ -56,18 +59,25 @@ function renderStatus(){
   const reps = D.replies.filter(inChan);
   const live = reps.filter(r => LIVE.has(r.stage));
   const pass = reps.filter(r => r.stage === 'pass');
-  const pool = D.contacts.filter(c => inChan(c) && c.outcome !== 'excluded' && c.outcome !== 'duplicate');
+  // "Sent" means the materials actually went out: replied or sitting silent.
+  // Names merely proposed, or offered in conversation, are not coverage.
+  const pool = D.contacts.filter(c => inChan(c) && SENT.has(c.outcome));
   const silent = pool.filter(c => c.outcome === 'silent');
+  const untapped = D.contacts.filter(c => inChan(c) && UNSENT.has(c.outcome));
   const rate = pool.length ? Math.round(100 * reps.length / pool.length) : 0;
 
   const hot = D.replies.filter(r => LIVE.has(r.stage)).sort((a,b)=>b.heat-a.heat)[0];
   $('#headline').innerHTML =
-    '<b>' + usd(d.equity) + ' to raise and three live conversations against it.</b> ' +
-    'Of ' + D.replies.length + ' replies across all channels, ' +
-    D.replies.filter(r=>r.stage==='pass').length + ' are passes and every one of them names Houston — ' +
-    'exposure, sentiment or submarket — rather than this deal\'s basis, vintage, check size or returns. ' +
-    'Three firms praised the basis on their way to no. ' +
-    'The warmest name is <b>' + esc(hot.firm) + '</b>: ' + esc(hot.action.split('.')[0]) + '.';
+    '<b>' + usd(d.equity) + ' to raise, and the deal has only actually been sent to ' +
+      D.contacts.filter(c => SENT.has(c.outcome)).length + ' firms.</b> ' +
+    'Of those, ' + D.replies.length + ' came back — ' +
+    D.replies.filter(r => r.stage === 'pass').length + ' passes and ' +
+    D.replies.filter(r => LIVE.has(r.stage)).length + ' still live. Almost every pass names Houston — ' +
+    'exposure, sentiment or submarket — rather than this deal\'s basis, vintage, check size or returns, ' +
+    'and three firms praised the basis on their way to no. ' +
+    'The warmest name is <b>' + esc(hot.firm) + '</b>: ' + esc(hot.action.split('.')[0]) + '. ' +
+    'The bigger number is the other one: <b>' + D.contacts.filter(c => UNSENT.has(c.outcome)).length +
+    ' firms were lined up and never received it.</b>';
 
   const k = (n,l,note,cls) =>
     '<div class="kpi'+(cls?' '+cls:'')+'"><div class="n">'+n+'</div><div class="lbl">'+esc(l)+'</div>'+
@@ -82,9 +92,9 @@ function renderStatus(){
   $('#kpis').innerHTML =
     k(live.length,'Live conversations','Reviewing or conditional — not yet a no','hot') +
     k(pass.length,'Passes', pass.length ? Math.round(100*pass.length/reps.length)+'% of replies' : '') +
-    k(reps.length + ' / ' + pool.length,'Replied / contacted', rate + '% reply rate on a hand-picked list') +
-    k(silent.length,'Silent','Have the deal, nothing back yet') +
-    k(usd(d.equity),'LP equity needed', d.promote + ' split · ' + d.close + ' close');
+    k(reps.length + ' / ' + pool.length,'Replied / sent', rate + '% reply rate — a hand-picked list answers') +
+    k(silent.length,'Silent','Hold the deal, nothing back yet') +
+    k(untapped.length,'Lined up, unsent','Named and agreed, never actually mailed','hot');
 }
 
 /* ---------- channel blocks ---------- */
@@ -94,10 +104,11 @@ function renderChannels(){
     const c = D.channels[key];
     if (channel !== 'all' && channel !== key) continue;
     const cs = contactsIn(key);
-    const sent = cs.filter(x => x.outcome !== 'excluded');
+    const sent = cs.filter(x => SENT.has(x.outcome));
     const reps = D.replies.filter(r => r.channel === key);
     const live = reps.filter(r => LIVE.has(r.stage));
     const silent = cs.filter(x => x.outcome === 'silent');
+    const unsent = cs.filter(x => UNSENT.has(x.outcome));
     const excl = cs.filter(x => x.outcome === 'excluded');
 
     h += '<div class="fblock"><div class="fhead"><div><h3>' + esc(c.label) + '</h3>' +
@@ -112,20 +123,24 @@ function renderChannels(){
            'Grandview, Long Wharf and Mountain Pacific — because he knows them personally and is going direct. ' +
            'Nothing from this channel has landed yet, so none of the numbers above include it.</div>';
     } else {
+      const named = sent.length + unsent.length;
       const rows = [
-        ['Sent', sent.length, sent.length],
-        ['Replied', reps.length, sent.length],
-        ['Still live', live.length, sent.length],
-        ['Silent', silent.length, sent.length],
-      ];
-      const max = sent.length || 1;
-      h += '<div class="funnel">' + rows.map(([l,n,tot]) =>
+        ['Named', named, 'var(--seq-2)'],
+        ['Actually sent', sent.length, 'var(--seq-4)'],
+        ['Replied', reps.length, 'var(--seq-4)'],
+        ['Still live', live.length, 'var(--live)'],
+        ['Silent', silent.length, 'var(--dead)'],
+        ['Lined up, unsent', unsent.length, 'var(--dead)'],
+      ].filter(r => !(r[0] === 'Lined up, unsent' && !unsent.length));
+      const max = named || 1;
+      h += '<div class="funnel">' + rows.map(([l,n,col]) =>
         '<div class="frow"><div class="fl"><b>' + esc(l) + '</b></div>' +
-        '<div class="ftrack"><div class="fbar" style="width:' + (100*n/max).toFixed(1) + '%;background:' +
-          (l==='Still live' ? 'var(--live)' : l==='Silent' ? 'var(--dead)' : 'var(--seq-4)') + '"></div></div>' +
-        '<div class="fval">' + n + ' <span>/ ' + tot + '</span></div></div>').join('') + '</div>';
+        '<div class="ftrack"><div class="fbar" style="width:' + (100*n/max).toFixed(1) +
+          '%;background:' + col + '"></div></div>' +
+        '<div class="fval">' + n + ' <span>/ ' + named + '</span></div></div>').join('') + '</div>';
       h += '<p class="sub" style="margin-top:12px;font-family:inherit;font-size:13px;color:var(--ink-3)">' +
-           esc(c.note) + (excl.length ? ' ' + excl.length + ' name' + (excl.length>1?'s':'') + ' pulled before sending.' : '') + '</p>';
+           esc(c.note) + (excl.length ? ' ' + excl.length + ' name' + (excl.length>1?'s':'') +
+             ' pulled before sending.' : '') + '</p>';
     }
     h += '</div>';
   }
@@ -239,21 +254,37 @@ document.addEventListener('input', e => { if (e.target.id === 'q') renderLedger(
 function renderGaps(){
   const pool = D.contacts.filter(c => inChan(c));
   const silent = pool.filter(c => c.outcome === 'silent');
+  const unsent = pool.filter(c => UNSENT.has(c.outcome));
   const excl = D.contacts.filter(c => c.outcome === 'excluded');
-  const dup  = D.contacts.filter(c => c.outcome === 'duplicate');
-  const k = (n,l,note) => '<div class="kpi"><div class="n">' + n + '</div><div class="lbl">' + esc(l) + '</div>' +
-    (note ? '<div class="note">' + note + '</div>' : '') + '</div>';
+  const k = (n,l,note,cls) => '<div class="kpi' + (cls?' '+cls:'') + '"><div class="n">' + n + '</div>' +
+    '<div class="lbl">' + esc(l) + '</div>' + (note ? '<div class="note">' + note + '</div>' : '') + '</div>';
   $('#gapkpis').innerHTML =
-    k(silent.length,'Silent','Sent, nothing back') +
+    k(unsent.length,'Lined up, never sent','Agreed names that no one actually mailed','hot') +
+    k(silent.length,'Sent, silent','Holds the deal, nothing back') +
     k(D.carveouts.length,'Carved out','Personal relationships Zamir works direct') +
-    k(excl.length,'Pulled pre-send','Known non-fits removed from Kirsh\'s list') +
-    k(dup.length,'Double-covered','On two channels\' lists at once');
+    k(excl.length,'Pulled pre-send','Known non-fits killed before going out');
 
-  $('#silentsum').textContent = silent.length + ' firms hold the deal and have not responded';
-  $('#silentlist').innerHTML = silent.map(c =>
-    '<div title="' + esc(c.firm) + '">' + esc(c.firm) +
-    (c.note ? ' <span style="color:var(--ink-3)">— ' + esc(c.note.split('.')[0]) + '</span>' : '') + '</div>').join('')
-    || '<div>None.</div>';
+  $('#silentsum').textContent = unsent.length +
+    ' firms were named and agreed but never received the deal — the biggest gap on this page';
+  $('#silentlist').innerHTML = (unsent.length
+    ? '<div style="grid-column:1/-1;white-space:normal;border:none;padding-bottom:10px;' +
+        'color:var(--ink-2);font-size:13px;line-height:1.55">Kirsh sent to the four groups Zamir did ' +
+        'not already know and stopped there. Everything below is a name Zamir knows himself, which is ' +
+        'why it was never mailed — and why each one is an intro he can still make directly.</div>' : '') +
+    (unsent.map(c =>
+      '<div style="white-space:normal" title="' + esc(c.firm) + '">' + esc(c.firm) +
+      (c.knows ? ' <span style="color:var(--ink-3)">— ' + esc(c.knows) + '</span>' : '') +
+      (c.outcome === 'offered' ? ' <span style="color:var(--ink-3)">— offered, not sent</span>' : '') +
+      '</div>').join('') || '<div>None.</div>');
+
+  const sl = silent.length
+    ? silent.map(c => '<div style="white-space:normal"><b>' + esc(c.firm) + '</b>' +
+        (c.note ? ' — ' + esc(c.note) : '') + '</div>').join('')
+    : '<div>None — everything that went out came back.</div>';
+  $('#silentdetail').innerHTML =
+    '<details open style="margin-top:4px"><summary>' + silent.length +
+    ' sent and still silent</summary><div class="silent-grid" style="grid-template-columns:1fr">' +
+    sl + '</div></details>';
 
   $('#carvesum').textContent = D.carveouts.length + ' names held back from the IPA send on purpose';
   $('#carvelist').innerHTML = D.carveouts.map(c =>
@@ -274,9 +305,12 @@ $('#uw').innerHTML =
   'Those are the two numbers to tighten before the next send.';
 
 $('#foot').innerHTML =
-  'Allen Genoa Capital Desk · ' + D.replies.length + ' replies across ' +
-  D.contacts.filter(c => c.outcome !== 'excluded').length + ' contacted firms · built from the Gmail thread record, ' +
-  'not a CRM.<br>' +
+  'Allen Genoa Capital Desk · ' + D.replies.length + ' replies from the ' +
+  D.contacts.filter(c => SENT.has(c.outcome)).length + ' firms the deal was actually sent to, out of ' +
+  D.contacts.filter(c => c.outcome !== 'excluded').length + ' named across three channels · ' +
+  'built from the Gmail thread record, not a CRM.<br>' +
+  'A firm counts as sent only where a send or a reply appears in the thread. Names that were proposed, ' +
+  'agreed or offered in conversation are counted as unsent, however warm they are.<br>' +
   'Sources: the ZMR direct thread (Sub-$135K/Door on a 2023 Houston Build), Andrew Kirsh\'s ' +
   '&ldquo;Equity Opp - 252 units, 2023 built - Houston&rdquo; forwards, the IPA &ldquo;Houston&rdquo; thread, ' +
   'and the Smart Living Allen Genoa debt thread.<br>' +
