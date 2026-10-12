@@ -81,12 +81,16 @@ function renderStatus(){
     'exposure, sentiment or submarket — rather than this deal\'s basis, vintage, check size or returns, ' +
     'and three firms praised the basis on their way to no. ' +
     'The warmest name is <b>' + esc(hot.firm) + '</b>: ' + esc(hot.action.split('.')[0]) + '. ' +
-    '<b>The direct round went out in a single block on 12 Oct</b> — ' +
+    '<b>The round went out in a single block on 12 Oct</b> — ' +
     D.contacts.filter(c => c.sent === '2026-10-12').length +
     ' firms, each opening on that firm\'s own last answer to us where there was one, the rest ' +
-    'pulled from ZMR\'s equity list. Nothing is sitting in drafts. The only names still unsent are ' +
-    'the ' + D.contacts.filter(c => UNSENT.has(c.outcome)).length +
-    ' on the brokers\' own lists, which go out on their send, not ours.';
+    'pulled from ZMR\'s equity list. ' +
+    D.contacts.filter(c => c.brokerSend).length +
+    ' of those are Slocumb\'s groups, counted on his word that he hit them that day — IPA holds ' +
+    'that send record, not us. ' +
+    (function(u){ return u.length
+        ? 'One name is still ours to send: <b>' + esc(u[0].firm) + '</b>.'
+        : 'Nothing is left to send.'; })(D.contacts.filter(c => UNSENT.has(c.outcome)));
 
   const k = (n,l,note,cls) =>
     '<div class="kpi'+(cls?' '+cls:'')+'"><div class="n">'+n+'</div><div class="lbl">'+esc(l)+'</div>'+
@@ -103,7 +107,7 @@ function renderStatus(){
     k(pass.length,'Passes', pass.length ? Math.round(100*pass.length/reps.length)+'% of replies' : '') +
     k(reps.length + ' / ' + pool.length,'Replied / sent', rate + '% reply rate — a hand-picked list answers') +
     k(silent.length,'Silent','Hold the deal, nothing back yet') +
-    k(untapped.length,'Still unsent','On a broker list — their send, not ours','hot');
+    k(untapped.length,'Still unsent','Ours to send — nobody else is sending it','hot');
 }
 
 /* ---------- channel blocks ---------- */
@@ -271,17 +275,16 @@ function renderGaps(){
   $('#gapkpis').innerHTML =
     k(silent.length,'Sent, silent','Holds the deal, nothing back yet') +
     k(today.length,'Sent 12 Oct','One block — replies above included') +
-    k(unsent.length,'Still unsent','Waiting on a broker to press send','hot') +
-    k(excl.length,'Pulled pre-send','Killed before going out');
+    k(unsent.length,'Still unsent','Ours to send','hot') +
+    k(excl.length,'Pulled pre-send','Covered elsewhere, or a known non-fit');
 
   $('#silentsum').textContent = unsent.length
-    ? unsent.length + ' still unsent — every one of them on a broker\'s list, not ours to send'
-    : 'Nothing left unsent';
-  // The unsent queue is the review surface: firm, who it would go to, and why it has not.
-  const owner = {slocumb:'on Slocumb\'s list, no send confirmed',
-                 kirsh:'on Kirsh\'s list, no send confirmed'};
-  const why = {proposed:'named on a broker list, no send confirmed',
-               unconfirmed:'no contact on file', offered:'offered, not sent', drafted:'written, not sent'};
+    ? unsent.length + (unsent.length === 1 ? ' name is' : ' names are') + ' still ours to send'
+    : 'Nothing left to send';
+  // The unsent queue is the review surface: firm, who it would go to, and why it has not gone.
+  const owner = {};
+  const why = {drafted:'written and waiting on you', proposed:'named on a broker list, no send confirmed',
+               unconfirmed:'no contact on file', offered:'offered, not sent'};
   $('#silentlist').innerHTML = unsent.map(c => {
       const to = [c.email].concat(c.also || []).filter(Boolean).join(', ');
       return '<div style="white-space:normal;padding:9px 0">' +

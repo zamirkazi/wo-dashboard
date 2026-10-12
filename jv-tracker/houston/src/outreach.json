@@ -12,14 +12,14 @@
       "owner": "Andrew Kirsh, Sklar Kirsh LLP",
       "started": "2026-10-02",
       "status": "live",
-      "note": "Kirsh sent to Tramview on 2 Oct, then to the three groups Zamir said he did not know \u2014 Mile Rock, Green Pine and Range Equity \u2014 on the morning of 3 Oct. All four came back. The rest of his list he raised as a question and never confirmed sending."
+      "note": "Kirsh sent to Tramview on 2 Oct, then to the three groups Zamir said he did not know \u2014 Mile Rock, Green Pine and Range Equity \u2014 on the morning of 3 Oct. All four came back. The rest of his list he raised as a question and never confirmed sending. Argosy was pulled from his list because Zamir knows them and went direct; they passed on 7 Oct."
     },
     "slocumb": {
       "label": "Jeremy Slocumb",
       "owner": "Jeremy Slocumb, IPA Capital Markets",
-      "started": null,
-      "status": "awaiting-send",
-      "note": "Slocumb named his ten groups on 5 Oct; Zamir vetoed three he knows personally, leaving seven. On 12 Oct he confirmed he had been in New York for equity meetings and would hit his groups that day. Nothing back from them yet."
+      "started": "2026-10-12",
+      "status": "live",
+      "note": "Slocumb named his ten groups on 5 Oct; Zamir vetoed three he knows personally - Grandview, Long Wharf and Mountain Pacific - and went direct to those three on 12 Oct instead. On 12 Oct Slocumb confirmed he had been in New York for equity meetings and was hitting the remaining seven that day. Those seven are counted as sent on his word; IPA holds the send record, not us, and nothing has come back from them yet."
     }
   },
   "contacts": [
@@ -208,8 +208,8 @@
       "person": "D. Ciccone",
       "email": "dciccone@argosyrep.com",
       "sent": null,
-      "outcome": "proposed",
-      "note": "On Kirsh's proposed list and Zamir knows them, so Zamir sent direct on 2 Oct. Argosy passed on that thread; Kirsh never sent separately.",
+      "outcome": "excluded",
+      "note": "Pulled from Kirsh's list because Zamir knows them and went direct on 2 Oct. Argosy passed on that thread on 7 Oct (Houston exposure), so the name is covered and closed - Kirsh never needed to send.",
       "knows": "knows them"
     },
     {
@@ -339,63 +339,70 @@
       "firm": "621 Capital",
       "person": null,
       "email": null,
-      "sent": null,
-      "outcome": "proposed",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. No send confirmed."
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He confirmed on 12 Oct he was hitting his groups that day. Counted as sent on his word - IPA holds the send record, we do not.",
+      "brokerSend": true
     },
     {
       "channel": "slocumb",
       "firm": "Arc Capital Partners",
       "person": null,
       "email": null,
-      "sent": null,
-      "outcome": "proposed",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. No send confirmed."
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He confirmed on 12 Oct he was hitting his groups that day. Counted as sent on his word - IPA holds the send record, we do not.",
+      "brokerSend": true
     },
     {
       "channel": "slocumb",
       "firm": "BIG Equity Investors",
       "person": null,
       "email": null,
-      "sent": null,
-      "outcome": "proposed",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. No send confirmed."
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He confirmed on 12 Oct he was hitting his groups that day. Counted as sent on his word - IPA holds the send record, we do not.",
+      "brokerSend": true
     },
     {
       "channel": "slocumb",
       "firm": "Claritas Capital",
       "person": null,
       "email": null,
-      "sent": null,
-      "outcome": "proposed",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. No send confirmed."
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He confirmed on 12 Oct he was hitting his groups that day. Counted as sent on his word - IPA holds the send record, we do not.",
+      "brokerSend": true
     },
     {
       "channel": "slocumb",
       "firm": "Manglar Capital",
       "person": null,
       "email": null,
-      "sent": null,
-      "outcome": "proposed",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. No send confirmed."
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He confirmed on 12 Oct he was hitting his groups that day. Counted as sent on his word - IPA holds the send record, we do not.",
+      "brokerSend": true
     },
     {
       "channel": "slocumb",
       "firm": "Nelnet",
       "person": null,
       "email": null,
-      "sent": null,
-      "outcome": "proposed",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. No send confirmed."
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He confirmed on 12 Oct he was hitting his groups that day. Counted as sent on his word - IPA holds the send record, we do not.",
+      "brokerSend": true
     },
     {
       "channel": "slocumb",
       "firm": "Ulysses Capital Management",
       "person": null,
       "email": null,
-      "sent": null,
-      "outcome": "proposed",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. No send confirmed."
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He confirmed on 12 Oct he was hitting his groups that day. Counted as sent on his word - IPA holds the send record, we do not.",
+      "brokerSend": true
     },
     {
       "channel": "direct",
@@ -596,8 +603,8 @@
       "person": "Steve Iannaccone",
       "email": "siannaccone@halstatt.com",
       "sent": null,
-      "outcome": "excluded",
-      "note": "A sponsor, not an LP: Fund V, $200M target, $10-30M checks, Southeast Florida and Texas. Already owns in the Houston MSA (Fountains of Conroe, with ExCap operating). Pitched as a partnership. Draft pulled before sending - not in Gmail drafts or sent as of 12 Oct. Decide whether to re-cut it as a co-GP approach.",
+      "outcome": "drafted",
+      "note": "Passed Canyon Woods 27 Aug on one ground only: 'out of our geographic footprint' - that was the Bay Area. Fund V ($200M target, $10-30M checks) deploys in Southeast Florida and Texas, and they already own in the Houston MSA. On the 21 Jul call Steve asked Zamir to send him anything compelling. Re-drafted 12 Oct on that opening, offered either as LP or as a partnership.",
       "also": [
         "kheinze@halstatt.com"
       ]
