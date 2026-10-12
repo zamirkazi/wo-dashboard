@@ -15,9 +15,15 @@ by **channel**:
 
 | Channel | Owner | Named | Actually sent | Replied |
 |---|---|---|---|---|
-| ZMR direct | Zamir / Kevin / Chip | 9 | 8 | 7 |
+| ZMR direct | Zamir / Kevin / Chip | 22 | 20 | 8 |
 | Andrew Kirsh | Sklar Kirsh LLP | 15 | 4 | 4 |
 | Jeremy Slocumb | IPA Capital Markets | — | 0 | — |
+
+On 12 Oct every name Kirsh had proposed but never mailed went out directly from Zamir,
+each email opening on that firm's own last answer to us — Mountain Pacific's "$15M max"
+against an $11.65M check, Machine's "20%+ IRR" against 20.3%, Mavik's "not without you
+under contract" against an awarded deal. The subject line on all of them is
+**"Houston 2023 Vintage $135K/door $13M Check 20%+ IRR"**, not Kirsh's original.
 
 **Named is not sent, and the page refuses to conflate them.** Kirsh proposed sixteen
 groups on 2 Oct; Zamir annotated which ones he already knew; Kirsh then sent to the four

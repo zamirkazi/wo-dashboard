@@ -5,7 +5,7 @@
       "owner": "Zamir / Kevin / Chip",
       "started": "2026-09-21",
       "status": "live",
-      "note": "One-to-one forwards off Kevin's 21 Sep memo. No blast, no list \u2014 every name was picked."
+      "note": "One-to-one forwards off Kevin's 21 Sep memo, then a second wave on 12 Oct to every name Kirsh had proposed but never mailed, each opening on that firm's own last answer to us. Subject line throughout: \"Houston 2023 Vintage $135K/door $13M Check 20%+ IRR\"."
     },
     "kirsh": {
       "label": "Andrew Kirsh",
@@ -115,9 +115,9 @@
       "firm": "Cushman & Wakefield",
       "person": "Chase Tagen",
       "email": "chase.tagen@cushwake.com",
-      "sent": null,
-      "outcome": "offered",
-      "note": "Zamir offered it on 7 Oct \u2014 'we were awarded a deal in Houston I'd like to send over to you'. Nothing sent yet. Meeting already set for 22 Oct."
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "note": "Offered 7 Oct, finally sent 12 Oct ahead of the 22 Oct breakfast."
     },
     {
       "channel": "kirsh",
@@ -160,41 +160,47 @@
       "knows": "doesn't know them"
     },
     {
-      "channel": "kirsh",
+      "channel": "direct",
       "firm": "Horowitz Group",
-      "person": null,
-      "email": null,
-      "sent": null,
-      "outcome": "proposed",
-      "note": "Current ZMR investor. Warmest name on the list and still unsent.",
-      "knows": "current investor"
+      "person": "Angela",
+      "email": "angela@horowitzgroup.com",
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them.",
+      "knows": "current investor",
+      "also": [
+        "matt@horowitzgroup.com"
+      ]
     },
     {
-      "channel": "kirsh",
+      "channel": "direct",
       "firm": "Belay Investment Group",
-      "person": null,
-      "email": null,
-      "sent": null,
-      "outcome": "proposed",
-      "knows": "knows them"
+      "person": "Michael van Leeuwen",
+      "email": "mvanleeuwen@belayinvestmentgroup.com",
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "knows": "knows them",
+      "note": "Sent 12 Oct to Michael van Leeuwen; only the survey list address was on file before."
     },
     {
-      "channel": "kirsh",
+      "channel": "direct",
       "firm": "Tryperion Holdings",
       "person": null,
       "email": null,
-      "sent": null,
-      "outcome": "proposed",
-      "knows": "knows them"
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "knows": "knows them",
+      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
     },
     {
-      "channel": "kirsh",
+      "channel": "direct",
       "firm": "Singerman Real Estate",
       "person": null,
       "email": null,
-      "sent": null,
-      "outcome": "proposed",
-      "knows": "knows them"
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "knows": "knows them",
+      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
     },
     {
       "channel": "kirsh",
@@ -207,59 +213,67 @@
       "knows": "knows them"
     },
     {
-      "channel": "kirsh",
+      "channel": "direct",
       "firm": "Pennybacker Capital",
       "person": null,
       "email": null,
-      "sent": null,
-      "outcome": "proposed",
-      "knows": "knows them"
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "knows": "knows them",
+      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
     },
     {
-      "channel": "kirsh",
+      "channel": "direct",
       "firm": "Brasa Capital Management",
-      "person": null,
-      "email": null,
-      "sent": null,
-      "outcome": "proposed",
-      "knows": "knows them"
+      "person": "Eric Samek",
+      "email": "esamek@brasacap.com",
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "knows": "knows them",
+      "note": "No contact was on file; Zamir knew Eric Samek personally all along (\"been a long time... see you at the Roundtable next week\"). Sent 12 Oct.",
+      "also": [
+        "mmilich@brasacap.com"
+      ]
     },
     {
-      "channel": "kirsh",
+      "channel": "direct",
       "firm": "Lenox West",
       "person": null,
       "email": null,
-      "sent": null,
-      "outcome": "proposed",
-      "knows": "knows them"
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "knows": "knows them",
+      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
     },
     {
-      "channel": "kirsh",
+      "channel": "direct",
       "firm": "Mountain Pacific",
       "person": null,
       "email": null,
-      "sent": null,
-      "outcome": "proposed",
-      "note": "Zamir knows them \u2014 held back from the IPA send for that reason, and left unsent on Kirsh's list for the same one. Still a live target for Zamir direct.",
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them.",
       "knows": "knows them"
     },
     {
-      "channel": "kirsh",
+      "channel": "direct",
       "firm": "Machine Investment Group",
       "person": null,
       "email": null,
-      "sent": null,
-      "outcome": "proposed",
-      "knows": "knows them"
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "knows": "knows them",
+      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
     },
     {
-      "channel": "kirsh",
+      "channel": "direct",
       "firm": "Mavik Capital",
       "person": null,
       "email": null,
-      "sent": null,
-      "outcome": "proposed",
-      "knows": "knows them"
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "knows": "knows them",
+      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
     },
     {
       "channel": "kirsh",
@@ -280,20 +294,43 @@
       "outcome": "excluded",
       "note": "Kirsh, 3 Oct: only does JVs for ground-up development.",
       "knows": null
+    },
+    {
+      "channel": "direct",
+      "firm": "Long Wharf Capital",
+      "person": "Philip Murphy",
+      "email": "philip.murphy@longwharf.com",
+      "also": [
+        "michael.elizondo@longwharf.com",
+        "solon.aposhian@longwharf.com",
+        "justin.smith@longwharf.com",
+        "david.stein@longwharf.com"
+      ],
+      "sent": null,
+      "outcome": "drafted",
+      "knows": "knows them",
+      "note": "Held back from the IPA send because Zamir knows them. Passed Canyon Woods 27 Aug with 'This one's not for us' and no reason. Drafted 12 Oct."
+    },
+    {
+      "channel": "direct",
+      "firm": "Grandview Partners",
+      "person": "Eric Freeman",
+      "email": "freeman@grandviewpartners.com",
+      "sent": null,
+      "outcome": "drafted",
+      "knows": "knows them",
+      "note": "Held back from the IPA send because Zamir knows them. Passed Canyon Woods 31 Aug with 'No interest here. Thanks.' and no reason. Drafted 12 Oct."
+    },
+    {
+      "channel": "direct",
+      "firm": "Belsky Capital",
+      "person": "Marc Belsky",
+      "title": "Managing Principal",
+      "email": "marc@marcbelsky.com",
+      "sent": "2026-10-12",
+      "outcome": "replied",
+      "note": "Not on anyone's list - Zamir added him on the day. Replied within nine minutes."
     }
   ],
-  "carveouts": [
-    {
-      "firm": "Grandview",
-      "why": "Zamir knows them personally \u2014 handling direct, not via IPA."
-    },
-    {
-      "firm": "Long Wharf Capital",
-      "why": "Zamir knows them personally \u2014 handling direct, not via IPA."
-    },
-    {
-      "firm": "Mountain Pacific",
-      "why": "Zamir knows them personally \u2014 handling direct, not via IPA. Also on Kirsh's list."
-    }
-  ]
+  "carveouts": []
 }

@@ -5,7 +5,7 @@ const usd = n => '$' + (n/1e6).toFixed(2).replace(/\.?0+$/,'') + 'M';
 const LIVE = new Set(D.live);
 // Outcomes where the materials actually left the building, vs. where they did not.
 const SENT = new Set(['replied','silent']);
-const UNSENT = new Set(['proposed','offered']);
+const UNSENT = new Set(['proposed','offered','drafted','unconfirmed']);
 const fmtDay = ts => new Date(ts).toLocaleDateString('en-US',{month:'short',day:'numeric'});
 const fmtFull = ts => new Date(ts).toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
 
@@ -76,8 +76,9 @@ function renderStatus(){
     'exposure, sentiment or submarket — rather than this deal\'s basis, vintage, check size or returns, ' +
     'and three firms praised the basis on their way to no. ' +
     'The warmest name is <b>' + esc(hot.firm) + '</b>: ' + esc(hot.action.split('.')[0]) + '. ' +
-    'The bigger number is the other one: <b>' + D.contacts.filter(c => UNSENT.has(c.outcome)).length +
-    ' firms were lined up and never received it.</b>';
+    'On 12 Oct the names Kirsh had proposed but never mailed went out directly, each opening on that ' +
+    'firm\'s own last answer to us, so the silent column is a waiting list rather than a gap. ' +
+    'Still unsent: <b>' + D.contacts.filter(c => UNSENT.has(c.outcome)).length + '</b>.';
 
   const k = (n,l,note,cls) =>
     '<div class="kpi'+(cls?' '+cls:'')+'"><div class="n">'+n+'</div><div class="lbl">'+esc(l)+'</div>'+
@@ -94,7 +95,7 @@ function renderStatus(){
     k(pass.length,'Passes', pass.length ? Math.round(100*pass.length/reps.length)+'% of replies' : '') +
     k(reps.length + ' / ' + pool.length,'Replied / sent', rate + '% reply rate — a hand-picked list answers') +
     k(silent.length,'Silent','Hold the deal, nothing back yet') +
-    k(untapped.length,'Lined up, unsent','Named and agreed, never actually mailed','hot');
+    k(untapped.length,'Still unsent','Drafted, or deliberately held','hot');
 }
 
 /* ---------- channel blocks ---------- */
@@ -258,24 +259,21 @@ function renderGaps(){
   const excl = D.contacts.filter(c => c.outcome === 'excluded');
   const k = (n,l,note,cls) => '<div class="kpi' + (cls?' '+cls:'') + '"><div class="n">' + n + '</div>' +
     '<div class="lbl">' + esc(l) + '</div>' + (note ? '<div class="note">' + note + '</div>' : '') + '</div>';
+  const drafted = pool.filter(c => c.outcome === 'drafted');
   $('#gapkpis').innerHTML =
-    k(unsent.length,'Lined up, never sent','Agreed names that no one actually mailed','hot') +
-    k(silent.length,'Sent, silent','Holds the deal, nothing back') +
-    k(D.carveouts.length,'Carved out','Personal relationships Zamir works direct') +
+    k(drafted.length,'Drafted, not sent','Written and waiting on you','hot') +
+    k(silent.length,'Sent, silent','Holds the deal, nothing back yet') +
+    k(unsent.length - drafted.length,'Held back','Deliberately not re-sent') +
     k(excl.length,'Pulled pre-send','Known non-fits killed before going out');
 
-  $('#silentsum').textContent = unsent.length +
-    ' firms were named and agreed but never received the deal — the biggest gap on this page';
-  $('#silentlist').innerHTML = (unsent.length
-    ? '<div style="grid-column:1/-1;white-space:normal;border:none;padding-bottom:10px;' +
-        'color:var(--ink-2);font-size:13px;line-height:1.55">Kirsh sent to the four groups Zamir did ' +
-        'not already know and stopped there. Everything below is a name Zamir knows himself, which is ' +
-        'why it was never mailed — and why each one is an intro he can still make directly.</div>' : '') +
-    (unsent.map(c =>
+  $('#silentsum').textContent = unsent.length + ' firms still have not received it';
+  const why = {drafted:'drafted, awaiting send',
+               proposed:'passed on the direct thread 7 Oct — deliberately not re-sent',
+               unconfirmed:'no contact on file', offered:'offered, not sent'};
+  $('#silentlist').innerHTML = unsent.map(c =>
       '<div style="white-space:normal" title="' + esc(c.firm) + '">' + esc(c.firm) +
-      (c.knows ? ' <span style="color:var(--ink-3)">— ' + esc(c.knows) + '</span>' : '') +
-      (c.outcome === 'offered' ? ' <span style="color:var(--ink-3)">— offered, not sent</span>' : '') +
-      '</div>').join('') || '<div>None.</div>');
+      ' <span style="color:var(--ink-3)">— ' + esc(why[c.outcome] || c.outcome) + '</span></div>'
+    ).join('') || '<div>None — everything named has gone out.</div>';
 
   const sl = silent.length
     ? silent.map(c => '<div style="white-space:normal"><b>' + esc(c.firm) + '</b>' +
@@ -286,9 +284,6 @@ function renderGaps(){
     ' sent and still silent</summary><div class="silent-grid" style="grid-template-columns:1fr">' +
     sl + '</div></details>';
 
-  $('#carvesum').textContent = D.carveouts.length + ' names held back from the IPA send on purpose';
-  $('#carvelist').innerHTML = D.carveouts.map(c =>
-    '<div style="white-space:normal"><b>' + esc(c.firm) + '</b> — ' + esc(c.why) + '</div>').join('');
 
   $('#exclsum').textContent = excl.length + ' names pulled from the Kirsh list before it went out';
   $('#excllist').innerHTML = excl.map(c =>
