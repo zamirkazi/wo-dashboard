@@ -67,7 +67,12 @@ function renderStatus(){
   const rate = pool.length ? Math.round(100 * reps.length / pool.length) : 0;
 
   const hot = D.replies.filter(r => LIVE.has(r.stage)).sort((a,b)=>b.heat-a.heat)[0];
-  $('#headline').innerHTML =
+  const dl = D.deadline
+    ? '<div class="callout" style="border-left-color:var(--live);margin-bottom:14px">' +
+      '<b>Under contract this week.</b> ' + esc(D.deadline) +
+      ' The raise is now running against that clock, not against a January close.</div>'
+    : '';
+  $('#headline').innerHTML = dl +
     '<b>' + usd(d.equity) + ' to raise, and the deal has only actually been sent to ' +
       D.contacts.filter(c => SENT.has(c.outcome)).length + ' firms.</b> ' +
     'Of those, ' + D.replies.length + ' came back — ' +

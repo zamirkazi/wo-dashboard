@@ -19,7 +19,7 @@
       "owner": "Jeremy Slocumb, IPA Capital Markets",
       "started": null,
       "status": "awaiting-send",
-      "note": "Slocumb named his ten groups on 5 Oct alongside his underwriting read. Zamir vetoed three of them - Grandview, Long Wharf and Mountain Pacific - because he knows them personally and is going direct, leaving seven. No send confirmed as of 12 Oct, and Zamir nudged him that morning."
+      "note": "Slocumb named his ten groups on 5 Oct; Zamir vetoed three he knows personally, leaving seven. On 12 Oct he confirmed he had been in New York for equity meetings and would hit his groups that day. Nothing back from them yet."
     }
   },
   "contacts": [
@@ -116,7 +116,7 @@
       "person": "Chase Tagen",
       "email": "chase.tagen@cushwake.com",
       "sent": "2026-10-12",
-      "outcome": "silent",
+      "outcome": "replied",
       "note": "Offered 7 Oct, finally sent 12 Oct ahead of the 22 Oct breakfast."
     },
     {
@@ -165,7 +165,7 @@
       "person": "Angela",
       "email": "angela@horowitzgroup.com",
       "sent": "2026-10-12",
-      "outcome": "silent",
+      "outcome": "replied",
       "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them.",
       "knows": "current investor",
       "also": [
@@ -198,7 +198,7 @@
       "person": null,
       "email": null,
       "sent": "2026-10-12",
-      "outcome": "silent",
+      "outcome": "replied",
       "knows": "knows them",
       "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
     },
@@ -308,7 +308,7 @@
         "david.stein@longwharf.com"
       ],
       "sent": "2026-10-12",
-      "outcome": "silent",
+      "outcome": "replied",
       "knows": "knows them",
       "note": "Held back from the IPA send because Zamir knows them. Passed Canyon Woods 27 Aug with 'This one's not for us' and no reason. Drafted 12 Oct.",
       "vetoed": "On Slocumb's list; Zamir pulled it because he knows them and is going direct."
@@ -646,7 +646,7 @@
       "email": "scott.pearson@eaglerealtygroup.com",
       "sent": null,
       "outcome": "drafted",
-      "note": "From the equity list; their stated check ceiling is $40M, so $11.65M sits well inside.",
+      "note": "From the equity list; their stated check ceiling is $40M, so $11.65M sits well inside. Scott Pearson is out of the country until 20 Oct.",
       "also": [
         "chad.gagnon@eaglerealtygroup.com"
       ]
@@ -728,6 +728,92 @@
       "sent": null,
       "outcome": "drafted",
       "note": "From the equity list."
+    },
+    {
+      "channel": "direct",
+      "firm": "DRA Advisors",
+      "person": "Jake Hannah",
+      "email": "jhannah@draadvisors.com",
+      "sent": "2026-10-12",
+      "outcome": "replied",
+      "note": "Added on the day, outside every prepared list."
+    },
+    {
+      "channel": "direct",
+      "firm": "Olive Point Capital",
+      "person": "Ricardo Goldberg",
+      "email": "ricardo@olivepointcapital.com",
+      "sent": "2026-10-12",
+      "outcome": "replied",
+      "note": "Added on the day, outside every prepared list."
+    },
+    {
+      "channel": "direct",
+      "firm": "Palatine Capital Partners",
+      "person": "Jonah Gill",
+      "email": "jgill@pal-partners.com",
+      "also": [
+        "msacks@pal-partners.com",
+        "wcaplan@pal-partners.com",
+        "cbeckman@pal-partners.com"
+      ],
+      "sent": "2026-10-12",
+      "outcome": "replied",
+      "note": "Betesh and Sacks each passed Canyon Woods purely on California, independently of one another."
+    },
+    {
+      "channel": "direct",
+      "firm": "MLG Capital",
+      "person": "Terry Wallen",
+      "email": "terrywallen@mlgcapital.com",
+      "also": [
+        "alunde@mlgcapital.com"
+      ],
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "note": "Opens on the Charlotte BTR in March - 'the lack of cash flow would be challenging for our equity' - which is the one thing this stabilized asset has. Terry covers the Southeast, so the email asks who has Texas."
+    },
+    {
+      "channel": "direct",
+      "firm": "Midloch",
+      "person": "Brandon Banks",
+      "email": "brandon@midloch.com",
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "note": "'Midloch will not invest in CA multifamily.' One line, so the email is short."
+    },
+    {
+      "channel": "direct",
+      "firm": "Prospect Ridge",
+      "person": "Paul Galiano",
+      "email": "paul.galiano@prospectridge.com",
+      "also": [
+        "julia.issembert@prospectridge.com"
+      ],
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "note": "The most specific feedback on Canyon Woods: it would have to sit in the value-add fund and they'd be wider than a 5% exit cap. A 2023 build isn't value-add, and we underwrite 6.00% out - both halves answered."
+    },
+    {
+      "channel": "direct",
+      "firm": "Citymark Capital",
+      "person": "E. Louttit",
+      "email": "elouttit@citymarkcapital.com",
+      "also": [
+        "gfent-baker@citymarkcapital.com"
+      ],
+      "sent": "2026-10-12",
+      "outcome": "silent",
+      "note": "'Focused on 2000s and newer product.' Also asks for a replacement name, since Damien and Gillian left."
+    },
+    {
+      "channel": "direct",
+      "firm": "Integrity Housing Group",
+      "person": "Steven",
+      "email": "steven@integrityhg.com",
+      "sent": null,
+      "outcome": "drafted",
+      "note": "Existing JV partner in Skye at Conway and Skye Reserve, and in an active dispute with counsel engaged since 25 Sep. Drafted so it keeps Conway explicitly on its own track and gives him a clean exit. Worth clearing with Zach Oseland before it goes."
     }
   ],
   "carveouts": [],
@@ -737,5 +823,6 @@
       "person": "David Abrams",
       "why": "\"Please stop emailing us.\" Structural and permanent."
     }
-  ]
+  ],
+  "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week."
 }

@@ -39,10 +39,13 @@ TAG_LABEL = {
     'negative-leverage':     'Negative leverage at $34M',
     'unit-size':             'Unit size',
     'partner-conflict':      'Existing local partner',
+    'check-too-small':       'Check too small for them',
+    'capital-paused':        'Pausing on real estate',
 }
 # Which objections are about Houston itself vs. about this deal's economics.
 MARKET_TAGS = {'houston-exposure','houston-sentiment','submarket-demographics','strategy-mismatch'}
-DEAL_TAGS   = {'going-in-yield','negative-leverage','unit-size','partner-conflict'}
+DEAL_TAGS   = {'going-in-yield','negative-leverage','unit-size','partner-conflict',
+               'check-too-small','capital-paused'}
 
 data = {
     'deal': deal,

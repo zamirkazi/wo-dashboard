@@ -1,5 +1,104 @@
 [
   {
+    "firm": "Palatine Capital Partners",
+    "person": "Jonah Gill",
+    "title": "Palatine Capital Partners Management",
+    "email": "jgill@pal-partners.com",
+    "channel": "direct",
+    "stage": "reviewing",
+    "ts": "2026-10-12T20:35:24Z",
+    "quote": "Thanks Zamir, let us take a look here and we'll be in touch.",
+    "action": "Four minutes from send to reply, and he pulled in Caplan and Beckman. Both Betesh and Sacks passed on Canyon Woods purely on California, so there is nothing else on file blocking this one.",
+    "tags": [],
+    "heat": 4
+  },
+  {
+    "firm": "Cushman & Wakefield",
+    "person": "Chase Tagen",
+    "title": "Managing Director, Strategic Advisory & Capital Markets",
+    "email": "chase.tagen@cushwake.com",
+    "channel": "direct",
+    "stage": "question",
+    "ts": "2026-10-12T19:06:45Z",
+    "quote": "Who is the seller? What is the current debt balance?",
+    "action": "Answered the same hour - RAH, buying right at the loan balance. Diligence questions rather than a brush-off. Breakfast already set for 22 Oct.",
+    "tags": [],
+    "heat": 4
+  },
+  {
+    "firm": "Horowitz Group",
+    "person": "Angela",
+    "title": null,
+    "email": "angela@horowitzgroup.com",
+    "channel": "direct",
+    "stage": "pass",
+    "ts": "2026-10-12T20:44:17Z",
+    "quote": "It's a good looking property and great basis. We are slowing on our RE investing right now while we watch cap rates reset with the recent rate moves.",
+    "action": "A current ZMR investor, and the fourth firm to praise the basis on the way to no. Nothing about this deal is the problem - they are standing down on real estate generally until rates settle. Keep warm.",
+    "tags": [
+      "capital-paused"
+    ],
+    "heat": 2
+  },
+  {
+    "firm": "Singerman Real Estate",
+    "person": "Vincent Criscuolo",
+    "title": null,
+    "email": "vcriscuolo@singermanre.com",
+    "channel": "direct",
+    "stage": "pass",
+    "ts": "2026-10-12T18:18:11Z",
+    "quote": "Unfortunately too small for us (would need $25mm+ check to look) but appreciate you sharing.",
+    "action": "The first objection in the other direction - every other size complaint has been that a check was too big. Rules Singerman out of anything at this scale; worth remembering for a portfolio or a larger asset.",
+    "tags": [
+      "check-too-small"
+    ],
+    "heat": 1
+  },
+  {
+    "firm": "DRA Advisors",
+    "person": "Jake Hannah",
+    "title": "Associate Director, Acquisitions",
+    "email": "jhannah@draadvisors.com",
+    "channel": "direct",
+    "stage": "pass",
+    "ts": "2026-10-12T19:36:05Z",
+    "quote": "Thanks bud. Houston still a challenge for us so going to sit this one out.",
+    "action": "Market, not deal. Zamir has already proposed a New York catch-up off the back of it.",
+    "tags": [
+      "houston-sentiment"
+    ],
+    "heat": 1
+  },
+  {
+    "firm": "Olive Point Capital",
+    "person": "Ricardo Goldberg",
+    "title": null,
+    "email": "ricardo@olivepointcapital.com",
+    "channel": "direct",
+    "stage": "pass",
+    "ts": "2026-10-12T20:43:57Z",
+    "quote": "Not for us. We don't do Houston. Only Austin and Dallas in Texas.",
+    "action": "A clean geographic rule. Worth recording so Houston deals skip him and DFW/Austin ones reach him first.",
+    "tags": [
+      "houston-sentiment"
+    ],
+    "heat": 1
+  },
+  {
+    "firm": "Long Wharf Capital",
+    "person": "Philip Murphy",
+    "title": "Managing Partner",
+    "email": "philip.murphy@longwharf.com",
+    "channel": "direct",
+    "stage": "pass",
+    "ts": "2026-10-12T20:53:05Z",
+    "quote": "Thanks Zamir but this one's not for us.",
+    "action": "Same six words as Canyon Woods, and again no reason. Two unexplained passes in six weeks - the relationship is worth a call rather than another email.",
+    "tags": [],
+    "heat": 1
+  },
+  {
     "firm": "Belsky Capital",
     "person": "Marc Belsky",
     "title": "Managing Principal",
@@ -38,7 +137,7 @@
     "stage": "conditional",
     "ts": "2026-10-01T23:52:00Z",
     "quote": "Sounds great. Don't love houston but let's discuss.",
-    "action": "Lunch already on the books for 30 Oct. Lead with basis, not Houston \u2014 he has pre-registered the market objection.",
+    "action": "Lunch is on the books for 30 Oct, but hold it loosely - Rami's son Gabriel arrived six weeks early on 10 Oct and is in the NICU. Lead with the basis when you do speak; he has already pre-registered the Houston objection.",
     "tags": [
       "houston-sentiment"
     ],
