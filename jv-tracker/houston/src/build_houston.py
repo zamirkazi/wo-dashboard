@@ -21,6 +21,10 @@ for cand in (here.parent/'head.html', here.parent.parent/'src'/'head.html'):
 else:
     raise SystemExit('cannot find Canyon Woods head.html for the shared stylesheet')
 css = re.search(r'<style>.*?</style>', shared.read_text(), re.S).group(0)
+# Houston-only: the drafted queue carries a note per row, so it needs wider columns.
+css = css.replace('</style>',
+  '.draft-grid{grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:0 26px}\n'
+  '.draft-grid > div{border-bottom:1px solid var(--rule)}\n</style>')
 
 LIVE = {'meeting','materials','question','conditional','reviewing'}
 STAGE_LABEL = {'reviewing':'Reviewing','conditional':'Conditional','pass':'Pass',

@@ -13,11 +13,11 @@ organised by campaign and reconciles sends, opens and bounces. Allen Genoa has n
 blast at all — every name came through one of three people — so this one is organised
 by **channel**:
 
-| Channel | Owner | Named | Actually sent | Replied |
-|---|---|---|---|---|
-| ZMR direct | Zamir / Kevin / Chip | 22 | 20 | 8 |
-| Andrew Kirsh | Sklar Kirsh LLP | 15 | 4 | 4 |
-| Jeremy Slocumb | IPA Capital Markets | — | 0 | — |
+| Channel | Owner | Named | Actually sent | Replied | Drafted |
+|---|---|---|---|---|---|
+| ZMR direct | Zamir / Kevin / Chip | 53 | 20 | 8 | 33 |
+| Andrew Kirsh | Sklar Kirsh LLP | 15 | 4 | 4 | — |
+| Jeremy Slocumb | IPA Capital Markets | 7 | 0 | — | — |
 
 On 12 Oct every name Kirsh had proposed but never mailed went out directly from Zamir,
 each email opening on that firm's own last answer to us — Mountain Pacific's "$15M max"
@@ -69,6 +69,21 @@ there and both pick it up.
 `build_houston.py` asserts that `outreach.json` and `replies.json` agree — every firm
 marked `replied` must have a reply record and vice versa — and that no address appears
 twice. It will not emit a page that does not reconcile.
+
+### Where the names come from
+
+Three sources, in order of how much they are worth:
+
+1. **The Canyon Woods reply record** (`../src/replies.json`, 253 replies). A firm
+   that passed there with a stated reason — California, 1980s vintage, a $30M
+   check, a 20% IRR floor — is a firm whose single objection this deal reverses.
+   Those emails open by quoting the firm back to itself.
+2. **ZMR's own equity list**, `Equity_List_CLEANED (MR).xlsx` on Drive — 1,087
+   contacts across 28 tabs with firm, people, titles, locations, send roles
+   (PRIMARY / CC) and check-size bands. The authority for addresses, and it also
+   carries `Not A Fit` and `Departures - Verify` tabs worth honouring.
+3. **The mailbox**, for relationships the lists miss — a call on Fireflies, a
+   question never answered, an intro someone made.
 
 ### Outcomes
 

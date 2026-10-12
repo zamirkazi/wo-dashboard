@@ -78,7 +78,9 @@ function renderStatus(){
     'The warmest name is <b>' + esc(hot.firm) + '</b>: ' + esc(hot.action.split('.')[0]) + '. ' +
     'On 12 Oct the names Kirsh had proposed but never mailed went out directly, each opening on that ' +
     'firm\'s own last answer to us, so the silent column is a waiting list rather than a gap. ' +
-    'Still unsent: <b>' + D.contacts.filter(c => UNSENT.has(c.outcome)).length + '</b>.';
+    '<b>' + D.contacts.filter(c => c.outcome === 'drafted').length +
+    ' more are drafted and about to go out</b>, each opening on that firm\'s own last answer ' +
+    'where there was one, the rest pulled from ZMR\'s equity list.';
 
   const k = (n,l,note,cls) =>
     '<div class="kpi'+(cls?' '+cls:'')+'"><div class="n">'+n+'</div><div class="lbl">'+esc(l)+'</div>'+
@@ -256,24 +258,39 @@ function renderGaps(){
   const pool = D.contacts.filter(c => inChan(c));
   const silent = pool.filter(c => c.outcome === 'silent');
   const unsent = pool.filter(c => UNSENT.has(c.outcome));
+  const drafted = pool.filter(c => c.outcome === 'drafted');
   const excl = D.contacts.filter(c => c.outcome === 'excluded');
   const k = (n,l,note,cls) => '<div class="kpi' + (cls?' '+cls:'') + '"><div class="n">' + n + '</div>' +
     '<div class="lbl">' + esc(l) + '</div>' + (note ? '<div class="note">' + note + '</div>' : '') + '</div>';
-  const drafted = pool.filter(c => c.outcome === 'drafted');
   $('#gapkpis').innerHTML =
     k(drafted.length,'Drafted, not sent','Written and waiting on you','hot') +
     k(silent.length,'Sent, silent','Holds the deal, nothing back yet') +
     k(unsent.length - drafted.length,'Held back','Deliberately not re-sent') +
     k(excl.length,'Pulled pre-send','Known non-fits killed before going out');
 
-  $('#silentsum').textContent = unsent.length + ' firms still have not received it';
-  const why = {drafted:'drafted, awaiting send',
-               proposed:'passed on the direct thread 7 Oct — deliberately not re-sent',
+  $('#silentsum').textContent = drafted.length + ' drafted and ready to send, ' +
+    (unsent.length - drafted.length) + ' other' + (unsent.length - drafted.length === 1 ? '' : 's') +
+    ' still unsent';
+  // The drafted queue is the review surface: firm, who it goes to, and the line it opens on.
+  const why = {proposed:'on Slocumb\'s list, no send confirmed',
                unconfirmed:'no contact on file', offered:'offered, not sent'};
-  $('#silentlist').innerHTML = unsent.map(c =>
-      '<div style="white-space:normal" title="' + esc(c.firm) + '">' + esc(c.firm) +
-      ' <span style="color:var(--ink-3)">— ' + esc(why[c.outcome] || c.outcome) + '</span></div>'
-    ).join('') || '<div>None — everything named has gone out.</div>';
+  $('#silentlist').innerHTML = unsent.map(c => {
+      const to = [c.email].concat(c.also || []).filter(Boolean).join(', ');
+      return '<div style="white-space:normal;padding:9px 0">' +
+        '<b>' + esc(c.firm) + '</b>' +
+        (c.outcome !== 'drafted' ? ' <span style="color:var(--ink-3)">— ' +
+           esc(why[c.outcome] || c.outcome) + '</span>' : '') +
+        (to ? '<div class="mono" style="font-size:11px;color:var(--ink-3);margin-top:2px">' +
+           esc(to) + '</div>' : '') +
+        (c.note ? '<div style="font-size:13px;color:var(--ink-2);margin-top:4px;line-height:1.5">' +
+           esc(c.note) + '</div>' : '') + '</div>';
+    }).join('') || '<div>None — everything named has gone out.</div>';
+
+  $('#suppressed').innerHTML = (D.suppressed && D.suppressed.length)
+    ? '<div class="callout" style="border-left-color:var(--dead);margin:18px 0 0">' +
+      '<b>Never contact again.</b> ' + D.suppressed.map(x =>
+        esc(x.firm) + ' (' + esc(x.person) + ') \u2014 ' + esc(x.why)).join(' ') + '</div>'
+    : '';
 
   const sl = silent.length
     ? silent.map(c => '<div style="white-space:normal"><b>' + esc(c.firm) + '</b>' +
