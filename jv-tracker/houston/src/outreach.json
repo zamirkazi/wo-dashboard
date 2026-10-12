@@ -19,7 +19,7 @@
       "owner": "Jeremy Slocumb, IPA Capital Markets",
       "started": null,
       "status": "awaiting-send",
-      "note": "Cleared to send on 7 Oct with three carve-outs. No send confirmed as of 12 Oct \u2014 Zamir nudged him this morning."
+      "note": "Slocumb named his ten groups on 5 Oct alongside his underwriting read. Zamir vetoed three of them - Grandview, Long Wharf and Mountain Pacific - because he knows them personally and is going direct, leaving seven. No send confirmed as of 12 Oct, and Zamir nudged him that morning."
     }
   },
   "contacts": [
@@ -253,7 +253,8 @@
       "sent": "2026-10-12",
       "outcome": "silent",
       "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them.",
-      "knows": "knows them"
+      "knows": "knows them",
+      "vetoed": "On Slocumb's list; Zamir pulled it because he knows them and is going direct."
     },
     {
       "channel": "direct",
@@ -309,7 +310,8 @@
       "sent": null,
       "outcome": "drafted",
       "knows": "knows them",
-      "note": "Held back from the IPA send because Zamir knows them. Passed Canyon Woods 27 Aug with 'This one's not for us' and no reason. Drafted 12 Oct."
+      "note": "Held back from the IPA send because Zamir knows them. Passed Canyon Woods 27 Aug with 'This one's not for us' and no reason. Drafted 12 Oct.",
+      "vetoed": "On Slocumb's list; Zamir pulled it because he knows them and is going direct."
     },
     {
       "channel": "direct",
@@ -319,7 +321,8 @@
       "sent": null,
       "outcome": "drafted",
       "knows": "knows them",
-      "note": "Held back from the IPA send because Zamir knows them. Passed Canyon Woods 31 Aug with 'No interest here. Thanks.' and no reason. Drafted 12 Oct."
+      "note": "Held back from the IPA send because Zamir knows them. Passed Canyon Woods 31 Aug with 'No interest here. Thanks.' and no reason. Drafted 12 Oct.",
+      "vetoed": "On Slocumb's list; Zamir pulled it because he knows them and is going direct."
     },
     {
       "channel": "direct",
@@ -330,6 +333,69 @@
       "sent": "2026-10-12",
       "outcome": "replied",
       "note": "Not on anyone's list - Zamir added him on the day. Replied within nine minutes."
+    },
+    {
+      "channel": "slocumb",
+      "firm": "621 Capital",
+      "person": null,
+      "email": null,
+      "sent": null,
+      "outcome": "proposed",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. No send confirmed."
+    },
+    {
+      "channel": "slocumb",
+      "firm": "Arc Capital Partners",
+      "person": null,
+      "email": null,
+      "sent": null,
+      "outcome": "proposed",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. No send confirmed."
+    },
+    {
+      "channel": "slocumb",
+      "firm": "BIG Equity Investors",
+      "person": null,
+      "email": null,
+      "sent": null,
+      "outcome": "proposed",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. No send confirmed."
+    },
+    {
+      "channel": "slocumb",
+      "firm": "Claritas Capital",
+      "person": null,
+      "email": null,
+      "sent": null,
+      "outcome": "proposed",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. No send confirmed."
+    },
+    {
+      "channel": "slocumb",
+      "firm": "Manglar Capital",
+      "person": null,
+      "email": null,
+      "sent": null,
+      "outcome": "proposed",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. No send confirmed."
+    },
+    {
+      "channel": "slocumb",
+      "firm": "Nelnet",
+      "person": null,
+      "email": null,
+      "sent": null,
+      "outcome": "proposed",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. No send confirmed."
+    },
+    {
+      "channel": "slocumb",
+      "firm": "Ulysses Capital Management",
+      "person": null,
+      "email": null,
+      "sent": null,
+      "outcome": "proposed",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. No send confirmed."
     }
   ],
   "carveouts": []
