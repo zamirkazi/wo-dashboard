@@ -307,8 +307,8 @@
         "justin.smith@longwharf.com",
         "david.stein@longwharf.com"
       ],
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "knows": "knows them",
       "note": "Held back from the IPA send because Zamir knows them. Passed Canyon Woods 27 Aug with 'This one's not for us' and no reason. Drafted 12 Oct.",
       "vetoed": "On Slocumb's list; Zamir pulled it because he knows them and is going direct."
@@ -318,8 +318,8 @@
       "firm": "Grandview Partners",
       "person": "Eric Freeman",
       "email": "freeman@grandviewpartners.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "knows": "knows them",
       "note": "Held back from the IPA send because Zamir knows them. Passed Canyon Woods 31 Aug with 'No interest here. Thanks.' and no reason. Drafted 12 Oct.",
       "vetoed": "On Slocumb's list; Zamir pulled it because he knows them and is going direct."
@@ -670,18 +670,15 @@
       "email": "mdewoskin@jdirealty.com",
       "sent": null,
       "outcome": "drafted",
-      "note": "From the equity list.",
-      "also": [
-        "kconnor@jdirealty.com"
-      ]
+      "note": "Calls in Feb and Jul. Maggie flagged in June that Kevin Connor and Sam Besser had left JDI, so this goes to her alone."
     },
     {
       "channel": "direct",
       "firm": "Realm",
       "person": "Travis King",
       "email": "tking@realmlp.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "From the equity list.",
       "also": [
         "rphillips@realmlp.com"
@@ -692,8 +689,8 @@
       "firm": "Loci Capital",
       "person": "Garrett Francis",
       "email": "gfrancis@locicapital.com",
-      "sent": null,
-      "outcome": "drafted",
+      "sent": "2026-10-12",
+      "outcome": "silent",
       "note": "Reinstated. The 'remove from distribution list' line meant remove Mike N, who had left - not Loci. Garrett is a friend."
     },
     {
