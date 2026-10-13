@@ -79,7 +79,7 @@ function renderStatus(){
     D.replies.filter(r => r.stage === 'pass').length + ' passes and ' +
     D.replies.filter(r => LIVE.has(r.stage)).length + ' still live. Almost every pass names Houston — ' +
     'exposure, sentiment or submarket — rather than this deal\'s basis, vintage, check size or returns, ' +
-    'and three firms praised the basis on their way to no. ' +
+    'and five firms praised the basis on their way to no. ' +
     'The warmest name is <b>' + esc(hot.firm) + '</b>: ' + esc(hot.action.split('.')[0]) + '. ' +
     '<b>The round went out in a single block on 12 Oct</b> — ' +
     D.contacts.filter(c => c.sent === '2026-10-12').length +
@@ -223,7 +223,8 @@ function renderObjections(){
       'This is the inverse of the Canyon Woods pattern, where the blockers were geography, vintage, check size and ' +
       'return threshold — all of which this deal clears. Here the asset survives scrutiny and the market does not: ' +
       'Sabal called the asset quality &ldquo;there&rdquo;, Parse called the basis &ldquo;strong&rdquo;, Green Pine called it ' +
-      '&ldquo;a good deal&rdquo;. All three passed on Houston. The implication for the next send is that screening for ' +
+      '&ldquo;a good deal&rdquo;, Horowitz &ldquo;great basis&rdquo;, and Midloch &ldquo;an unbelievable ' +
+      'basis for that quality of product&rdquo;. All five passed on Houston. The implication for the next send is that screening for ' +
       'Houston appetite matters more than screening for check size or return profile.</p>';
 }
 

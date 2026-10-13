@@ -518,13 +518,13 @@
     {
       "channel": "direct",
       "firm": "Wtrshd Capital",
-      "person": "Dave McCullagh",
-      "email": "dave@wtrshdcap.com",
+      "person": "Dave McCullagh / Laura Whitaker",
+      "email": "laura@wtrshdcap.com",
       "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "Passed for bandwidth, not on merit - Laura was away. She is back.",
+      "outcome": "replied",
+      "note": "Passed Canyon Woods for bandwidth, not on merit - Laura was away. Sending to them both worked: she answered in 90 minutes, but with a reporting demand on the existing portfolio rather than a read on this deal.",
       "also": [
-        "laura@wtrshdcap.com"
+        "dave@wtrshdcap.com"
       ]
     },
     {
@@ -810,8 +810,8 @@
       "person": "Brandon Banks",
       "email": "brandon@midloch.com",
       "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "'Midloch will not invest in CA multifamily.' One line, so the email is short."
+      "outcome": "replied",
+      "note": "'Midloch will not invest in CA multifamily' was their Canyon Woods line, so the email was short and led on basis. Replied in 3.5 hours: the basis landed, Houston did not."
     },
     {
       "channel": "direct",
