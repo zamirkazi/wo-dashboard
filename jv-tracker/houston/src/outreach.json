@@ -530,14 +530,15 @@
     {
       "channel": "direct",
       "firm": "Pearlmark",
-      "person": "R. Dougherty",
+      "person": "Rich Dougherty",
       "email": "rdougherty@pearlmark.com",
       "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "'Fully specified on our current equity fund.' Timing, not a view. Kyle Nealis has left; routed to Dhruv and Christian.",
+      "outcome": "replied",
+      "note": "'Fully specified on our current equity fund' was the Canyon Woods answer - timing, not a view. Kyle Nealis has left, so the send went to Rich with Dhruv and Christian copied. He came back in three hours and handed it to Erin Sullivan, who covers Texas.",
       "also": [
         "cmendez@pearlmark.com",
-        "dshah@pearlmark.com"
+        "dshah@pearlmark.com",
+        "esullivan@pearlmark.com"
       ]
     },
     {
