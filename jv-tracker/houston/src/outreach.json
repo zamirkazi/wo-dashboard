@@ -248,11 +248,11 @@
     {
       "channel": "direct",
       "firm": "Mountain Pacific",
-      "person": null,
-      "email": null,
+      "person": "Niv Henn",
+      "email": "niv@mntpac.com",
       "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them.",
+      "outcome": "replied",
+      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them and had introduced him to Clay and Ziggy over the summer. Zamir sent direct 12 Oct quoting their own Canyon Woods answer back to them, and Niv came back the next morning asking for seller motivation and comps.",
       "knows": "knows them",
       "vetoed": "On Slocumb's list; Zamir pulled it because he knows them and is going direct."
     },
