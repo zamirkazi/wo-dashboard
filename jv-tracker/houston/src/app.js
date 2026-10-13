@@ -332,9 +332,12 @@ $('#uw').innerHTML =
   'roughly a third below market. JDI put numbers on it the same afternoon: a 5.2% T1 yield on total ' +
   'cost against our ~6% going-in cap, and a five-year cash flow that never reaches an 8% YoC. ' +
   'That is a loss-to-lease number and a denominator we either reconcile or do not. ' +
-  '<b>The exit cap is now the tighter signal.</b> Slocumb would underwrite 6.25% and Blue Vista needs ' +
-  'north of 6.50%, both against our 6.00% — two unrelated readers above us on a single number, which ' +
-  'is far easier to test than a rent-growth argument. Run it at 6.50% before the Flagship call.';
+  '<b>The exit cap is now the tighter signal, and three readers are above us on it.</b> Slocumb would ' +
+  'underwrite 6.25%, Blue Vista needs north of 6.50%, and HIG\'s IC makes it structural rather than a ' +
+  'market view: if we harvest the loss-to-lease, the next buyer inherits a stabilised asset with no ' +
+  'upside left and prices it at a higher going-in yield. On that reading a flat 6.00% exit contradicts ' +
+  'our own business plan, and no amount of Houston sentiment recovering fixes it. ' +
+  'Run the deal at 6.50% before Wednesday.';
 
 $('#foot').innerHTML =
   'Allen Genoa Capital Desk · ' + D.replies.length + ' replies from the ' +

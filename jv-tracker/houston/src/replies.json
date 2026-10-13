@@ -497,5 +497,21 @@
       "houston-sentiment"
     ],
     "heat": 1
+  },
+  {
+    "firm": "HIG Realty Partners",
+    "person": "James Gallo",
+    "title": null,
+    "email": "jgallo@higrealty.com",
+    "channel": "direct",
+    "stage": "meeting",
+    "ts": "2026-10-13T20:01:03Z",
+    "quote": "If we are capturing most of the upside, our IC would anticipate the next buyer would warrant a higher going-in yield and thus cap rate expansion on the exit. Happy to discuss further on a quick call if you have time tomorrow. I'm generally free after 3p ET.",
+    "action": "The second call of the round, and the sharpest version of the exit-cap problem. His logic is structural rather than a market view: if we harvest the loss-to-lease, the next buyer inherits a stabilized asset with no upside left and prices it at a higher going-in yield, so a flat 6.00% exit is internally inconsistent with our own business plan. That is the argument to have an answer for, because it does not go away if Houston sentiment improves. Note the clash - he is free after 3p ET, which is 2p CT, the slot Flagship first offered.",
+    "tags": [
+      "exit-cap",
+      "going-in-yield"
+    ],
+    "heat": 5
   }
 ]
