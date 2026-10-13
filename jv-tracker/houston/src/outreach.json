@@ -671,13 +671,13 @@
     {
       "channel": "direct",
       "firm": "Eagle Realty Group",
-      "person": "Scott Pearson",
-      "email": "scott.pearson@eaglerealtygroup.com",
+      "person": "Scott Pearson / Chad Gagnon",
+      "email": "chad.gagnon@eaglerealtygroup.com",
       "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "From the equity list; their stated check ceiling is $40M, so $11.65M sits well inside. Scott Pearson is out of the country until 20 Oct.",
+      "outcome": "replied",
+      "note": "From the equity list; their stated check ceiling is $40M, so $11.65M sits well inside. Scott Pearson is out of the country until 20 Oct and auto-replied, but Chad Gagnon - copied on the send - answered for the firm the next morning.",
       "also": [
-        "chad.gagnon@eaglerealtygroup.com"
+        "scott.pearson@eaglerealtygroup.com"
       ]
     },
     {
