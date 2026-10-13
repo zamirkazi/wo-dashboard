@@ -330,7 +330,7 @@
     "stage": "question",
     "ts": "2026-10-13T05:42:39Z",
     "quote": "Good to hear from you, Zamir. What is the seller's motivation here? Also, can you send over rent/sale comps?",
-    "action": "Diligence, not a pass - the first reply on this deal that asks for more rather than explaining a no. Both questions are ones we answer well: seller motivation is the strongest part of the story (RAH's winning buyer broke, we were the underbidder, we re-cut $1.0M and are buying at the loan balance), and Walker & Dunlop has the rent and sale comps that carry the $134,921/unit basis against $245-274K comparable vintage. Send both today - Mountain Pacific was pulled off Slocumb's list because Zamir knows them, so this is a relationship send that is working.",
+    "action": "Answered the same day. Zamir gave the seller motivation at 14:42 - the loan is maturing and the existing equity partner will not put in more to stay in and refinance - and Kevin sent rent and sale comps at 15:34, leading on how little competes nearby. Note that maturing-loan story is sharper than the broken process the teaser leads with, and both are true; consider which one the materials should lead on. Ball is with Niv now.",
     "tags": [],
     "heat": 4
   },
@@ -388,7 +388,7 @@
     "stage": "question",
     "ts": "2026-10-13T13:13:06Z",
     "quote": "Can you provide a concession burn off report. What concessions are typically offered in the market?",
-    "action": "Marc handed the file to his analyst, which is the strongest signal a broker gives short of a term sheet. The ask goes straight at the business plan: concessions run 2.6% T3 to 2.4% Y1 to 0.5% stabilized in our model, so the burn-off report has to show that is already happening on signed leases rather than assumed. Same evidence ARCTRUST and Mountain Pacific are waiting on - build it once, send it three times.",
+    "action": "Answered the same day. Kevin sent the comp and concession reports at 15:44: concessions ran 3.7% of GPR over the T12, dropped to 2.6% on the T3, and Year 1 holds at 2.4% - the burn-off is already happening on signed leases rather than assumed, which is exactly the shape the question was testing for. That same report is what ARCTRUST and Flagship need; send it to them too rather than rebuilding it.",
     "tags": [],
     "heat": 5
   },
@@ -453,5 +453,18 @@
       "strategy-mismatch"
     ],
     "heat": 1
+  },
+  {
+    "firm": "Benedict Realty Group",
+    "person": "Steven Kohn",
+    "title": null,
+    "email": "steven.kohn@brgny.com",
+    "channel": "direct",
+    "stage": "question",
+    "ts": "2026-10-13T15:22:16Z",
+    "quote": "Would a Co GP structure interest you?",
+    "action": "Not an answer on the LP ask - a counter-proposal. He is asking to sit on the GP side rather than write the $11.65M, which means he likes the deal and wants different economics for it. Worth a direct answer either way, and it is the third structural conversation now open alongside the extra GP co-invest offered to Flagship and the partnership framing sent to Halstatt. Decide what co-GP would actually cost before replying.",
+    "tags": [],
+    "heat": 4
   }
 ]
