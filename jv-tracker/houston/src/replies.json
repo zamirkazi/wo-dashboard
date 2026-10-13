@@ -105,9 +105,9 @@
     "email": "marc@marcbelsky.com",
     "channel": "direct",
     "stage": "reviewing",
-    "ts": "2026-10-12T18:57:27Z",
-    "quote": "Thanks - we'll take a look. Who have you gone to with it so far? ... that's a pretty big list with a lot of the obvious people with very similar feedback we have been getting, but let me dig into the deal a bit and come back to you.",
-    "action": "Has the full no-fly list and is digging in. Worth noting he says he is hearing the same Houston feedback through his own channels - outside corroboration that the blocker is the market, not our underwriting. Chase midweek.",
+    "ts": "2026-10-13T13:59:27Z",
+    "quote": "What's happening with all the people that don't have a pass next to them?",
+    "action": "Still the warmest name. He has the full no-fly list, has put his analyst on the file, and is now auditing the silent column - he wants to know which names are genuinely dead before he spends his own relationships on them. Answer it straight from this page: of 73 sent, 25 have come back and the rest are silent, not declined. He also said he is hearing the same Houston feedback through his own channels, which is outside corroboration that the blocker is the market, not our underwriting.",
     "tags": [
       "houston-sentiment"
     ],
@@ -365,5 +365,31 @@
       "submarket-demographics"
     ],
     "heat": 4
+  },
+  {
+    "firm": "Flagship Capital Partners",
+    "person": "Brian Cutrell",
+    "title": "Director, Investments",
+    "email": "bcutrell@flagshipco.com",
+    "channel": "direct",
+    "stage": "meeting",
+    "ts": "2026-10-13T13:12:16Z",
+    "quote": "Thanks for sending. Do you have some time tomorrow afternoon to hop on a call to discuss further?",
+    "action": "The first call request of the round, and it comes from a Houston office at One Greenway Plaza - the one firm on this list that cannot be told Houston is the problem. Mark Berins was the addressee; Brian, copied, answered within fifteen hours. Take the Wednesday slot and go in with the loss-to-lease number ARCTRUST asked for, because a local will test the rent case harder than anyone. Zamir offered extra GP co-invest above the standard 10% in the send, so that lever is already on the table.",
+    "tags": [],
+    "heat": 5
+  },
+  {
+    "firm": "Belsky Capital",
+    "person": "Giovanny Escobar",
+    "title": "Senior Analyst",
+    "email": "ge@marcbelsky.com",
+    "channel": "direct",
+    "stage": "question",
+    "ts": "2026-10-13T13:13:06Z",
+    "quote": "Can you provide a concession burn off report. What concessions are typically offered in the market?",
+    "action": "Marc handed the file to his analyst, which is the strongest signal a broker gives short of a term sheet. The ask goes straight at the business plan: concessions run 2.6% T3 to 2.4% Y1 to 0.5% stabilized in our model, so the burn-off report has to show that is already happening on signed leases rather than assumed. Same evidence ARCTRUST and Mountain Pacific are waiting on - build it once, send it three times.",
+    "tags": [],
+    "heat": 5
   }
 ]
