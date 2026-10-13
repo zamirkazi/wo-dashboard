@@ -304,7 +304,7 @@
     "stage": "conditional",
     "ts": "2026-10-12T23:36:32Z",
     "quote": "We'd like to have a good handle on how these properties have been renovated and where cash has gone before we evaluate additional acquisitions together.",
-    "action": "Not an answer on this deal - an existing LP gating new allocation on reporting. Back from maternity leave and restarting a reconciliation she could not close before: NinetyNine44's $4.7M renovation reserve drew down to $638K by YE2021, then showed $1.2M at YE2022, and she wants that increase explained. She is asking, per deal, for a year-by-year reserve roll-forward, what each draw funded, and total capex by year and since acquisition. Zamir has looped in Megan. This is the highest-leverage item on the board: it is the only reply where the blocker is ZMR's own books rather than Houston, and it is fixable.",
+    "action": "Not an answer on this deal - an existing LP gating new allocation on reporting. Back from maternity leave and restarting a reconciliation she could not close before: NinetyNine44's $4.7M renovation reserve drew down to $638K by YE2021, then showed $1.2M at YE2022, and she wants that increase explained. She is asking, per deal, for a year-by-year reserve roll-forward, what each draw funded, and total capex by year and since acquisition. Zamir looped in Megan, who acknowledged at 16:41 on 13 Oct - 'we will get working on this and get back to you.' Acknowledged is not delivered; the reconciliation itself is still outstanding. This is the highest-leverage item on the board: it is the only reply where the blocker is ZMR's own books rather than Houston, and it is fixable.",
     "tags": [],
     "heat": 4
   },
@@ -375,7 +375,7 @@
     "stage": "meeting",
     "ts": "2026-10-13T13:12:16Z",
     "quote": "Thanks for sending. Do you have some time tomorrow afternoon to hop on a call to discuss further?",
-    "action": "Call set for 2PM CT Wednesday 14 Oct. The first and so far only meeting of the round, out of a Houston office at One Greenway Plaza - the one reader who cannot be told Houston is the problem, which cuts both ways because a local will test the rent case harder than anyone. Go in with the loss-to-lease number ARCTRUST asked for and the concession burn-off Belsky's analyst wants; JDI's 5.2% T1 yield on total cost is the figure most likely to come up. Zamir offered extra GP co-invest above the standard 10% in the send, so that lever is already on the table.",
+    "action": "Waiting on Zamir to pick a time. Brian offered 2PM CT Wednesday, Zamir countered 11AM, and Brian came back at 16:35: booked 9:30-12:00 CT Wednesday, free any time after, and wide open Thursday. He has now bent twice - take what he offers. He is the only meeting of the round and the only reader in Houston, so go in with the concession report Kevin already built, a loss-to-lease number, and an answer on the 6.00% exit, which Blue Vista and Slocumb both put higher.",
     "tags": [],
     "heat": 5
   },
@@ -386,9 +386,9 @@
     "email": "ge@marcbelsky.com",
     "channel": "direct",
     "stage": "question",
-    "ts": "2026-10-13T13:13:06Z",
-    "quote": "Can you provide a concession burn off report. What concessions are typically offered in the market?",
-    "action": "Answered the same day. Kevin sent the comp and concession reports at 15:44: concessions ran 3.7% of GPR over the T12, dropped to 2.6% on the T3, and Year 1 holds at 2.4% - the burn-off is already happening on signed leases rather than assumed, which is exactly the shape the question was testing for. That same report is what ARCTRUST and Flagship need; send it to them too rather than rebuilding it.",
+    "ts": "2026-10-13T16:44:25Z",
+    "quote": "Regarding the addition of bulk cable / wifi, is there a contract for that? Do other assets in the market also charge for this income?",
+    "action": "Second round of diligence an hour after Kevin sent the concession and comp reports, so the analyst is still working. Now on the bulk internet line - whether there is a signed contract and whether the market actually charges it. That is the one piece of upside in the plan that is not already in place, so it deserves a precise answer: contract or term sheet if one exists, and comps that charge it. Ball is back with us.",
     "tags": [],
     "heat": 5
   },
@@ -466,5 +466,36 @@
     "action": "Not an answer on the LP ask - a counter-proposal. He is asking to sit on the GP side rather than write the $11.65M, which means he likes the deal and wants different economics for it. Worth a direct answer either way, and it is the third structural conversation now open alongside the extra GP co-invest offered to Flagship and the partnership framing sent to Halstatt. Decide what co-GP would actually cost before replying.",
     "tags": [],
     "heat": 4
+  },
+  {
+    "firm": "Blue Vista",
+    "person": "J.P. Sletteland",
+    "title": "Principal",
+    "email": "jpsletteland@bluevistallc.com",
+    "channel": "direct",
+    "stage": "pass",
+    "ts": "2026-10-13T16:31:10Z",
+    "quote": "The basis you secured coming out of the broken process is a compelling story. Where we land, though, is that we'd need to underwrite to an exit cap rate north of 6.50%, and at that level returns fall below our threshold.",
+    "action": "The cleanest pass on the board and the most useful. The vintage objection that killed Canyon Woods is gone - he says so - and the whole thing now turns on one assumption: he needs north of 6.50% exit against our 6.00%. Slocumb said 6.25% independently. Two unrelated readers landing above our exit is a tighter, more fixable signal than the rent-growth theme, because it is a single number. Worth running the deal at 6.50% and seeing what survives before the Flagship call.",
+    "tags": [
+      "exit-cap"
+    ],
+    "heat": 2
+  },
+  {
+    "firm": "Marble Capital",
+    "person": "Brad Moynihan",
+    "title": null,
+    "email": "bmoynihan@marblecapitallp.com",
+    "channel": "direct",
+    "stage": "pass",
+    "ts": "2026-10-13T16:44:53Z",
+    "quote": "I sent this around and the team wasn't interested, as this is a pretty rough pocket in Houston and not one where we'd look to invest.",
+    "action": "Houston-based and the bluntest submarket read we have: 'a pretty rough pocket'. His Canyon Woods objection was no CA and no pre-2010, both of which this deal answered, and he still passed - so the vintage and geography fixes worked and the location inside Houston is what stopped it. Pair this with ARCTRUST on the $150-225K home listings nearby: two readers now say the immediate area, not the city, is the problem.",
+    "tags": [
+      "submarket-demographics",
+      "houston-sentiment"
+    ],
+    "heat": 1
   }
 ]

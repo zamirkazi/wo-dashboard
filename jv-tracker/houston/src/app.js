@@ -79,7 +79,7 @@ function renderStatus(){
     D.replies.filter(r => r.stage === 'pass').length + ' passes and ' +
     D.replies.filter(r => LIVE.has(r.stage)).length + ' still live. Almost every pass names Houston — ' +
     'exposure, sentiment or submarket — rather than this deal\'s basis, vintage, check size or returns, ' +
-    'and five firms praised the basis on their way to no. ' +
+    'and six firms praised the basis on their way to no. ' +
     'The warmest name is <b>' + esc(hot.firm) + '</b>: ' + esc(hot.action.split('.')[0]) + '. ' +
     '<b>The round went out in a single block on 12 Oct</b> — ' +
     D.contacts.filter(c => c.sent === '2026-10-12').length +
@@ -332,7 +332,9 @@ $('#uw').innerHTML =
   'roughly a third below market. JDI put numbers on it the same afternoon: a 5.2% T1 yield on total ' +
   'cost against our ~6% going-in cap, and a five-year cash flow that never reaches an 8% YoC. ' +
   'That is a loss-to-lease number and a denominator we either reconcile or do not. ' +
-  'It, and the exit cap, are what to fix before the Flagship call — not the IRR.';
+  '<b>The exit cap is now the tighter signal.</b> Slocumb would underwrite 6.25% and Blue Vista needs ' +
+  'north of 6.50%, both against our 6.00% — two unrelated readers above us on a single number, which ' +
+  'is far easier to test than a rent-growth argument. Run it at 6.50% before the Flagship call.';
 
 $('#foot').innerHTML =
   'Allen Genoa Capital Desk · ' + D.replies.length + ' replies from the ' +
