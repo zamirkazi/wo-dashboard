@@ -375,7 +375,7 @@
     "stage": "meeting",
     "ts": "2026-10-13T13:12:16Z",
     "quote": "Thanks for sending. Do you have some time tomorrow afternoon to hop on a call to discuss further?",
-    "action": "The first call request of the round, and it comes from a Houston office at One Greenway Plaza - the one firm on this list that cannot be told Houston is the problem. Mark Berins was the addressee; Brian, copied, answered within fifteen hours. Take the Wednesday slot and go in with the loss-to-lease number ARCTRUST asked for, because a local will test the rent case harder than anyone. Zamir offered extra GP co-invest above the standard 10% in the send, so that lever is already on the table.",
+    "action": "Call set for 2PM CT Wednesday 14 Oct. The first and so far only meeting of the round, out of a Houston office at One Greenway Plaza - the one reader who cannot be told Houston is the problem, which cuts both ways because a local will test the rent case harder than anyone. Go in with the loss-to-lease number ARCTRUST asked for and the concession burn-off Belsky's analyst wants; JDI's 5.2% T1 yield on total cost is the figure most likely to come up. Zamir offered extra GP co-invest above the standard 10% in the send, so that lever is already on the table.",
     "tags": [],
     "heat": 5
   },
@@ -391,5 +391,67 @@
     "action": "Marc handed the file to his analyst, which is the strongest signal a broker gives short of a term sheet. The ask goes straight at the business plan: concessions run 2.6% T3 to 2.4% Y1 to 0.5% stabilized in our model, so the burn-off report has to show that is already happening on signed leases rather than assumed. Same evidence ARCTRUST and Mountain Pacific are waiting on - build it once, send it three times.",
     "tags": [],
     "heat": 5
+  },
+  {
+    "firm": "JDI Realty",
+    "person": "Maggie DeWoskin",
+    "title": "Senior Vice President",
+    "email": "mdewoskin@jdirealty.com",
+    "channel": "direct",
+    "stage": "pass",
+    "ts": "2026-10-13T14:17:31Z",
+    "quote": "While the per unit basis looks attractive, the T1 yield on total cost of 5.2% is below our comfort level. There is substantial growth in the year 1 NOI which we would hesitate to underwrite. The five year cash flow does not reach an 8% YOC even with the growth.",
+    "action": "The most precise pass of the round, and the only one that puts numbers against ours. Two to answer before the Flagship call: she computes a 5.2% T1 yield on total cost where the teaser leads with a ~6% going-in cap, and she says the five-year cash flow never reaches an 8% YoC against our 7.0% untrended. Reconcile the first - cap on purchase price versus yield on all-in cost are different denominators and we should say which we mean - and decide whether 8% is simply a higher bar than this deal clears. She is the fifth reader to land on year-one NOI growth.",
+    "tags": [
+      "going-in-yield"
+    ],
+    "heat": 1
+  },
+  {
+    "firm": "Two Sigma",
+    "person": "Spencer Traver",
+    "title": null,
+    "email": "Spencer.Traver@twosigma.com",
+    "channel": "direct",
+    "stage": "pass",
+    "ts": "2026-10-13T15:07:38Z",
+    "quote": "This check is too small for us, and we're taking a pause on new investments for the time being. Digesting some recent deals and focused on asset management.",
+    "action": "Size and timing, not Houston - he never mentions the market. Nothing to rebut; requalify when they are deploying again and only on a materially larger check.",
+    "tags": [
+      "check-too-small",
+      "capital-paused"
+    ],
+    "heat": 1
+  },
+  {
+    "firm": "Forum Investment Group",
+    "person": "Jeremy Warren",
+    "title": null,
+    "email": "jwarren@forumig.com",
+    "channel": "direct",
+    "stage": "pass",
+    "ts": "2026-10-13T14:37:20Z",
+    "quote": "Unfortunately no movement on the JV front and Houston is tough for us in general right now. Let's catch up in the next few weeks to compare notes.",
+    "action": "The JV position Zamir asked about has not changed, and Houston is a second strike on top of it. But he asked to compare notes in the next few weeks, which is worth taking - Forum sees enough flow to be a useful read on where equity is actually clearing.",
+    "tags": [
+      "strategy-mismatch",
+      "houston-sentiment"
+    ],
+    "heat": 2
+  },
+  {
+    "firm": "Belveron Partners",
+    "person": "Ben Kraus",
+    "title": null,
+    "email": "ben@belveronpartners.com",
+    "channel": "direct",
+    "stage": "pass",
+    "ts": "2026-10-13T14:35:13Z",
+    "quote": "Unfortunately we aren't able to do non restricted market rate in TX right now. Most of what we do requires to have some sort of regulatory agreement or subsidy.",
+    "action": "The affordability framing was the right instinct and still did not clear the mandate: they need an actual regulatory agreement or subsidy, not rents that happen to sit at 25% of median income. A clean structural rule - do not send them unrestricted market rate again.",
+    "tags": [
+      "strategy-mismatch"
+    ],
+    "heat": 1
   }
 ]

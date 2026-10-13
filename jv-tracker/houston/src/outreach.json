@@ -420,7 +420,7 @@
       "person": "Spencer Traver",
       "email": "Spencer.Traver@twosigma.com",
       "sent": "2026-10-12",
-      "outcome": "silent",
+      "outcome": "replied",
       "note": "Relationship send, not from the equity list - sent direct on 12 Oct ahead of the broader round."
     },
     {
@@ -557,10 +557,10 @@
     {
       "channel": "direct",
       "firm": "Forum Investment Group",
-      "person": "J. Warren",
+      "person": "Jeremy Warren",
       "email": "jwarren@forumig.com",
       "sent": "2026-10-12",
-      "outcome": "silent",
+      "outcome": "replied",
       "note": "'Vintage a little old; looking for 2010 and newer' - fixed. Their no-LP-equity point is not, and the email says so.",
       "also": [
         "jmanning@forumig.com"
@@ -569,10 +569,10 @@
     {
       "channel": "direct",
       "firm": "Belveron Partners",
-      "person": "Ben",
+      "person": "Ben Kraus",
       "email": "ben@belveronpartners.com",
       "sent": "2026-10-12",
-      "outcome": "silent",
+      "outcome": "replied",
       "note": "'Let us know if there are any other deals' - taken at their word, and honest that this is not affordable product.",
       "also": [
         "jeremy@belveronpartners.com"
@@ -699,8 +699,8 @@
       "person": "Maggie DeWoskin",
       "email": "mdewoskin@jdirealty.com",
       "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "Calls in Feb and Jul. Maggie flagged in June that Kevin Connor and Sam Besser had left JDI, so this goes to her alone."
+      "outcome": "replied",
+      "note": "Sent to Maggie alone because Kevin Connor and Sam had moved on - the old CC would have bounced into two dead boxes. She came back inside a day with the only numerically specific pass we have."
     },
     {
       "channel": "direct",
