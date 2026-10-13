@@ -70,14 +70,15 @@
     {
       "channel": "direct",
       "firm": "ARCTRUST",
-      "person": "Chris Lecates",
+      "person": "Chris LeCates",
       "email": "clecates@arctrust.com",
       "also": [
         "gsheehan@arctrust.com",
         "jdonalson@arctrust.com"
       ],
       "sent": "2026-10-02",
-      "outcome": "silent"
+      "outcome": "replied",
+      "note": "On Kevin's original 21 Sep memo thread, nudged again 12 Oct. Came back the next day with the most detailed underwriting pushback of the round - and an open question, not a pass."
     },
     {
       "channel": "direct",

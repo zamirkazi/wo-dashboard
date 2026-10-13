@@ -325,9 +325,12 @@ $('#uw').innerHTML =
   '<b>Slocumb would underwrite a 6.25% exit, not 6.00%.</b> He flagged the rent trend as optically flattered ' +
   '(1% / 2% / 3%), argued for being more conservative still, and raised both affordability in the submarket and ' +
   'fees running at roughly 19% of rent. He agreed to circulate it anyway. ' +
-  'His read lines up with Sabal\'s — the two most detailed looks we have both land on the same two issues: ' +
-  'how much rent growth this tenant base can absorb, and what the exit cap really is. ' +
-  'Those are the two numbers to tighten before the next send.';
+  '<b>Four independent readers have now landed on the same question.</b> ' +
+  'Sabal, Green Pine and Slocumb all pushed on affordability and how much rent growth this tenant ' +
+  'base can absorb. ARCTRUST put the sharpest version of it on 13 Oct: buying fully occupied at a ' +
+  '6 cap means the whole return rides on rent growth, so the case has to be that in-place rents are ' +
+  'roughly a third below market. That is a loss-to-lease number we either have or do not. ' +
+  'It, and the exit cap, are what to tighten before the next send — not the IRR.';
 
 $('#foot').innerHTML =
   'Allen Genoa Capital Desk · ' + D.replies.length + ' replies from the ' +
