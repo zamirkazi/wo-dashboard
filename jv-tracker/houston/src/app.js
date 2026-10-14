@@ -5,7 +5,7 @@ const usd = n => '$' + (n/1e6).toFixed(2).replace(/\.?0+$/,'') + 'M';
 const LIVE = new Set(D.live);
 // Outcomes where the materials actually left the building, vs. where they did not.
 const SENT = new Set(['replied','silent']);
-const UNSENT = new Set(['proposed','offered','drafted','unconfirmed']);
+const UNSENT = new Set(['proposed','offered','drafted','unconfirmed','bounced']);
 const fmtDay = ts => new Date(ts).toLocaleDateString('en-US',{month:'short',day:'numeric'});
 const fmtFull = ts => new Date(ts).toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
 
@@ -285,7 +285,8 @@ function renderGaps(){
   // The unsent queue is the review surface: firm, who it would go to, and why it has not gone.
   const owner = {};
   const why = {drafted:'written and waiting on you', proposed:'named on a broker list, no send confirmed',
-               unconfirmed:'no contact on file', offered:'offered, not sent'};
+               unconfirmed:'no contact on file', offered:'offered, not sent',
+               bounced:'address hard-bounced \u2014 never delivered'};
   $('#silentlist').innerHTML = unsent.map(c => {
       const to = [c.email].concat(c.also || []).filter(Boolean).join(', ');
       return '<div style="white-space:normal;padding:9px 0">' +
