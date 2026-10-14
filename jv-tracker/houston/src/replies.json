@@ -513,5 +513,21 @@
       "going-in-yield"
     ],
     "heat": 5
+  },
+  {
+    "firm": "Tryperion Holdings",
+    "person": "Greg Rollman",
+    "title": null,
+    "email": "grollman@tryperion.com",
+    "channel": "direct",
+    "stage": "pass",
+    "ts": "2026-10-14T00:25:25Z",
+    "quote": "We'd prefer to invest in a stronger market and submarket as the market stats don't look great, so it's hard for us to underwrite the MtM/burnoff plan.",
+    "action": "The clearest statement of how the two objections connect: weak submarket stats are why he cannot underwrite the mark-to-market and concession burn-off, which is the entire business plan. Everyone else has raised the market and the rent growth as separate points; he says the first disqualifies the second. That is the argument to pre-empt on Wednesday, and the answer is the same evidence - signed-lease trade-outs and Kevin's burn-off report showing 3.7% T12 to 2.6% T3 to 2.4% Y1 as realised rather than projected.",
+    "tags": [
+      "houston-sentiment",
+      "submarket-demographics"
+    ],
+    "heat": 1
   }
 ]

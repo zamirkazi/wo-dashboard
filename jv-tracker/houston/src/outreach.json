@@ -186,12 +186,15 @@
     {
       "channel": "direct",
       "firm": "Tryperion Holdings",
-      "person": null,
-      "email": null,
+      "person": "Greg Rollman",
+      "email": "grollman@tryperion.com",
       "sent": "2026-10-12",
-      "outcome": "silent",
+      "outcome": "replied",
       "knows": "knows them",
-      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
+      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them and sent direct 12 Oct, to Jeff Karsh with Greg copied. Greg answered. This is the one send that went under the wrong subject line - 'Equity Opp - 252 units, 2023 built - Houston' rather than the standard one.",
+      "also": [
+        "jkarsh@tryperion.com"
+      ]
     },
     {
       "channel": "direct",
