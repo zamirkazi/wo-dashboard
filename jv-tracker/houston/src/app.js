@@ -337,7 +337,12 @@ $('#uw').innerHTML =
   'market view: if we harvest the loss-to-lease, the next buyer inherits a stabilised asset with no ' +
   'upside left and prices it at a higher going-in yield. On that reading a flat 6.00% exit contradicts ' +
   'our own business plan, and no amount of Houston sentiment recovering fixes it. ' +
-  'Run the deal at 6.50% before Wednesday.';
+  'Run the deal at 6.50% before the calls. ' +
+  '<b>And answer Lightning Tree\'s question first:</b> their CIO is the only reader who opened the ' +
+  'model, and he found the returns stop being compelling once rent growth and return on capex are ' +
+  'modestly stressed and the waterfall and asset management fees are layered in — before any ' +
+  'below-NOI owner expenses. If the headline 20.3% is project-level rather than LP net, every ' +
+  'sophisticated reader repeats that exercise and reaches the same place.';
 
 $('#foot').innerHTML =
   'Allen Genoa Capital Desk · ' + D.replies.length + ' replies from the ' +

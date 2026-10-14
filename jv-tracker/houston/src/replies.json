@@ -529,5 +529,21 @@
       "submarket-demographics"
     ],
     "heat": 1
+  },
+  {
+    "firm": "Lightning Tree Capital",
+    "person": "Chris Dzurinko",
+    "title": "Chief Investment Officer, CFA",
+    "email": "chris@lightningtreecapital.com",
+    "channel": "direct",
+    "stage": "pass",
+    "ts": "2026-10-14T12:51:05Z",
+    "quote": "We generally like/look at Texas, but Houston isn't necessarily top of list. However, I did take a quick look at the model. When I modestly stress the rent growth, return on capex, and add waterfall/asset management fee assumptions the deal returns don't look compelling relative to other opportunities. I didn't even add in other expenses below NOI that hit every deal as an owner.",
+    "action": "The only reader who opened the model and stressed it, and the most useful pass of the round because Houston is explicitly not his reason - Texas is fine, Houston is just not top of list. His finding is that the 20.3% does not survive modest stress once rent growth and return on capex are haircut and the waterfall and asset management fees are layered in, and he says he did not even add below-NOI owner expenses. That raises a question to answer before today's calls: whether the headline 20.3% is an LP net number or a project-level one. If it is project-level, every sophisticated reader will do what he did. He also answered the standing question about geography - Texas is not on his no list.",
+    "tags": [
+      "fee-drag",
+      "houston-sentiment"
+    ],
+    "heat": 2
   }
 ]
