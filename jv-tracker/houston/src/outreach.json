@@ -769,12 +769,12 @@
     },
     {
       "channel": "direct",
-      "firm": "Lafayette Square",
-      "person": "Dan",
+      "firm": "Lafayette Street Capital",
+      "person": "Dan Rosenbloom",
       "email": "dan@lafayettesc.com",
       "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "From the equity list."
+      "outcome": "replied",
+      "note": "From the equity list; the tracker carried this as 'Lafayette Square' until his signature showed the real name. Passed 15 Oct off the follow-up, no reason given."
     },
     {
       "channel": "direct",
