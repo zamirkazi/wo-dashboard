@@ -677,5 +677,78 @@
     "action": "A straight reversal, and the fastest turn of the round: the 15 Oct follow-up went at 15:03 and he answered at 15:06, four minutes later, copying Sykes. On Canyon Woods he closed the door with 'No interest here. Thanks.' and no reason; the follow-up asked him to name whether it was Houston, the structure or the size, and instead of answering he asked for the file. Evidence that the bump is doing work the original send could not. Kevin, Michael and Chip are on the send - get the concession burn-off report, the full comp set and the model out today while it is warm.",
     "tags": [],
     "heat": 4
+  },
+  {
+    "firm": "ABR Capital",
+    "person": "Peter Heller",
+    "title": null,
+    "email": "peter.heller@abrcapital.com",
+    "channel": "direct",
+    "stage": "question",
+    "ts": "2026-10-15T15:57:22Z",
+    "quote": "I like the asset quality and lack of future competition - which I suspect may hold once this trade is printed. [...] It appears the momentum has turned the wrong direction at the property with the 9/9 rent roll showing 22 vacant units (91% occupancy) and 17 additional notice-to-vacates with monthly NOI dropping between June-August. What is driving this softness? I note the model assumes starting occupancy of 95%.",
+    "action": "The deepest underwriting read anyone has given this deal: ten numbered questions off the actual rent roll and OM, and the only reader who has gone to the source documents rather than the teaser. He likes the asset and the empty pipeline. But question one is the whole deal - the 9/9 rent roll shows 22 vacants at 91% occupancy plus 17 notices and NOI falling June to August, against a model that starts at 95%. That needs a real answer before anything else goes out, because every other reader who opens the rent roll will find the same thing. He also catches a millage discrepancy (OM 2.9219% vs model 2.47%), asks what sits in $258,804 of miscellaneous closing costs, why the first buyer walked, whether a tax consultant has vetted the protest, and - the one with no good answer today - for a bulk internet provider term sheet, install cost and capture rate from other properties. New question nobody has raised: the property borders a large detention/drainage area, so what is the FEMA flood zone.",
+    "tags": [
+      "occupancy-softness"
+    ],
+    "heat": 5
+  },
+  {
+    "firm": "Lenox West",
+    "person": "Michael Cohen",
+    "title": "President / Managing Director",
+    "email": "mcohen@lenoxwestcap.com",
+    "channel": "direct",
+    "stage": "pass",
+    "ts": "2026-10-15T15:12:11Z",
+    "quote": "While we appreciate the merits of the opportunity, we could not get comfortable with the submarket dynamics and the underlying demographic profile, which ultimately makes it difficult for us to achieve conviction within our investment parameters.",
+    "action": "A team decision, not a one-line brush-off, and the cleanest statement yet of the objection that now dominates the round: submarket and demographics, with the merits of the deal explicitly conceded. Worth keeping warm - he asks for Isidro Garcia and Ronell Firouz on all future submissions because they screen and will give fast feedback, and he wants a drink in late November. Send him the Resident Demographics Report anyway; it is the direct answer to the thing he could not get comfortable with.",
+    "tags": [
+      "submarket-demographics"
+    ],
+    "heat": 1
+  },
+  {
+    "firm": "Prospect Ridge",
+    "person": "Paul Galiano",
+    "title": null,
+    "email": "paul.galiano@prospectridge.com",
+    "channel": "direct",
+    "stage": "pass",
+    "ts": "2026-10-15T15:47:43Z",
+    "quote": "Thanks - too small of a check for us, but thanks.",
+    "action": "A different reason than his Canyon Woods answer, which was the value-add fund and a wider than 5% exit. The follow-up answered both of those, and the reason moved to size. $11.65M is simply below Prospect Ridge's bar, which is structural and will not change on this deal.",
+    "tags": [
+      "check-too-small"
+    ],
+    "heat": 1
+  },
+  {
+    "firm": "Pennybacker Capital",
+    "person": "Eric Hood",
+    "title": "Senior Associate, Real Estate",
+    "email": "ehood@pennybackercap.com",
+    "channel": "direct",
+    "stage": "reviewing",
+    "ts": "2026-10-15T15:32:55Z",
+    "quote": "Thanks Zamir, I'm reviewing now and will get back to you with feedback on this.",
+    "action": "Opened by the follow-up after silence on the 12 Oct send. Pennybacker is Austin-based and knows Texas better than almost anyone on the list, so his feedback is worth as much as his capital - the follow-up asked for exactly that. Petrini and Beier are on the thread.",
+    "tags": [],
+    "heat": 3
+  },
+  {
+    "firm": "Mavik Capital",
+    "person": "Brad Walker",
+    "title": null,
+    "email": "brad@mavikcapital.com",
+    "channel": "direct",
+    "stage": "pass",
+    "ts": "2026-10-15T15:32:56Z",
+    "quote": "It doesn't seem cheap enough relative to the risk we're seeing in the market.",
+    "action": "The first reader in the whole round to say the basis is not good enough. Everyone else has praised it on the way to a no about Houston, the pocket, the check size or the fees - this is the one dissent from the thing the pitch rests on. He passed in eleven minutes, then gave the reason only when Zamir asked for colour, which is worth repeating on every other one-line pass.",
+    "tags": [
+      "going-in-yield"
+    ],
+    "heat": 1
   }
 ]

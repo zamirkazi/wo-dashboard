@@ -222,7 +222,7 @@
       "person": null,
       "email": null,
       "sent": "2026-10-12",
-      "outcome": "silent",
+      "outcome": "replied",
       "knows": "knows them",
       "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
     },
@@ -245,9 +245,14 @@
       "person": null,
       "email": null,
       "sent": "2026-10-12",
-      "outcome": "silent",
+      "outcome": "replied",
       "knows": "knows them",
-      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
+      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them.",
+      "also": [
+        "igarcia@lenoxwestcap.com",
+        "rfirouz@lenoxwestcap.com",
+        "vsaiz@lenoxwestcap.com"
+      ]
     },
     {
       "channel": "direct",
@@ -276,7 +281,7 @@
       "person": null,
       "email": null,
       "sent": "2026-10-12",
-      "outcome": "silent",
+      "outcome": "replied",
       "knows": "knows them",
       "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
     },
@@ -447,7 +452,7 @@
       "person": "Peter Heller",
       "email": "peter.heller@abrcapital.com",
       "sent": "2026-10-12",
-      "outcome": "silent",
+      "outcome": "replied",
       "note": "Told us they write $5-15M checks. $11.65M is dead centre.",
       "also": [
         "jake.martin@abrcapital.com"
@@ -833,7 +838,7 @@
         "julia.issembert@prospectridge.com"
       ],
       "sent": "2026-10-12",
-      "outcome": "silent",
+      "outcome": "replied",
       "note": "The most specific feedback on Canyon Woods: it would have to sit in the value-add fund and they'd be wider than a 5% exit cap. A 2023 build isn't value-add, and we underwrite 6.00% out - both halves answered."
     },
     {
