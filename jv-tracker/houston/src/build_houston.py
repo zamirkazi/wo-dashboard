@@ -68,8 +68,12 @@ replied = {c['firm'] for c in out_['contacts'] if c['outcome'] == 'replied'}
 assert replied == {r['firm'] for r in replies}, 'outreach/replies mismatch'
 assert all(r['stage'] in STAGE_LABEL for r in replies), 'unknown stage'
 assert all(t in TAG_LABEL for r in replies for t in r['tags']), 'unknown tag'
+# A broker-relayed report may name a firm without an address; only real
+# addresses are checked for duplicates.
 seen = set()
 for r in replies:
+    if not r['email']:
+        continue
     assert r['email'] not in seen, f"duplicate reply address {r['email']}"
     seen.add(r['email'])
 

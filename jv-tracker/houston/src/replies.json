@@ -121,8 +121,8 @@
     "channel": "direct",
     "stage": "reviewing",
     "ts": "2026-10-12T13:51:25Z",
-    "quote": "We reviewed the opportunity with our team last week, and the feedback has been positive. Everyone likes the story, and we are continuing to work through the numbers in more detail\u2026 there is one item we are working through on our side. We have a long-standing local partner in Houston with whom we remain actively invested\u2026 This does not reflect any hesitation on the opportunity itself.",
-    "action": "Hottest name in the book. Clarity promised early this week \u2014 chase Wednesday if nothing lands. Chip owns the thread.",
+    "quote": "We reviewed the opportunity with our team last week, and the feedback has been positive. Everyone likes the story, and we are continuing to work through the numbers in more detail… there is one item we are working through on our side. We have a long-standing local partner in Houston with whom we remain actively invested… This does not reflect any hesitation on the opportunity itself.",
+    "action": "Hottest name in the book. Clarity promised early this week — chase Wednesday if nothing lands. Chip owns the thread.",
     "tags": [
       "partner-conflict"
     ],
@@ -167,7 +167,7 @@
     "channel": "direct",
     "stage": "pass",
     "ts": "2026-10-02T19:38:14Z",
-    "quote": "The asset quality is there, but this isn't a market or submarket we're long on right now. The demographic profile was the biggest hurdle\u2026 median household income within 5 miles is ~$54K\u2026 leaves little room to grow rents over the hold. Rates were the other piece. With the 5-year Treasury up since the 9/21 lender quote, the deal starts with negative leverage at $34M. We're more constructive on Texas markets like DFW (northern corridor) and Austin.",
+    "quote": "The asset quality is there, but this isn't a market or submarket we're long on right now. The demographic profile was the biggest hurdle… median household income within 5 miles is ~$54K… leaves little room to grow rents over the hold. Rates were the other piece. With the 5-year Treasury up since the 9/21 lender quote, the deal starts with negative leverage at $34M. We're more constructive on Texas markets like DFW (northern corridor) and Austin.",
     "action": "The most useful pass we got. Two fixable objections: the $54K CoStar 5-mile median vs. the $71.2K on-site median, and negative leverage at the 9/21 quote. Rebut both in the next version of the memo.",
     "tags": [
       "submarket-demographics",
@@ -215,7 +215,7 @@
     "stage": "pass",
     "ts": "2026-10-05T14:39:45Z",
     "quote": "Unfortunately, this one is not a fit for us as our fund exposure in Houston is maxed out at this time.",
-    "action": "Fund-level cap. Revisit after their next vintage closes \u2014 nothing about this deal moves them.",
+    "action": "Fund-level cap. Revisit after their next vintage closes — nothing about this deal moves them.",
     "tags": [
       "houston-exposure"
     ],
@@ -229,7 +229,7 @@
     "channel": "direct",
     "stage": "pass",
     "ts": "2026-10-01T22:39:38Z",
-    "quote": "It was a pass \u2014 Houston's a non-starter right now.",
+    "quote": "It was a pass — Houston's a non-starter right now.",
     "action": "Flat market veto, no deal-level read. Nothing to rebut.",
     "tags": [
       "houston-sentiment"
@@ -244,7 +244,7 @@
     "channel": "direct",
     "stage": "pass",
     "ts": "2026-10-06T12:49:00Z",
-    "quote": "We had a chance to review the opportunity\u2026 it is not a submarket we are currently pursuing or investing in.",
+    "quote": "We had a chance to review the opportunity… it is not a submarket we are currently pursuing or investing in.",
     "action": "Submarket-level no after a real review. Southeast Houston is the blocker, not the basis.",
     "tags": [
       "submarket-demographics"
@@ -259,8 +259,8 @@
     "channel": "kirsh",
     "stage": "pass",
     "ts": "2026-10-03T14:31:02Z",
-    "quote": "Thanks for thinking of us, Andrew \u2014 we're not as focused on Houston right now unless it's affordable at Max rents.",
-    "action": "Mandate mismatch \u2014 they want LIHTC/affordable in Houston. Market-rate will never clear here.",
+    "quote": "Thanks for thinking of us, Andrew — we're not as focused on Houston right now unless it's affordable at Max rents.",
+    "action": "Mandate mismatch — they want LIHTC/affordable in Houston. Market-rate will never clear here.",
     "tags": [
       "strategy-mismatch"
     ],
@@ -372,10 +372,10 @@
     "title": "Director, Investments",
     "email": "bcutrell@flagshipco.com",
     "channel": "direct",
-    "stage": "meeting",
+    "stage": "reviewing",
     "ts": "2026-10-13T13:12:16Z",
     "quote": "Thanks for sending. Do you have some time tomorrow afternoon to hop on a call to discuss further?",
-    "action": "Booked. Brian sent a Teams invite at 21:00 for Wednesday 14 Oct, titled 'Call: Smart Living Allen Genoa', with Chip, Kevin and Michael copied. The calendar entry carries a -07:00 offset against an America/Chicago label, so confirm the hour against Brian's own CT wording before the day. He is the only reader in Houston, so expect the hardest test of the rent case: go in with Kevin's concession report (3.7% T12 to 2.6% T3 to 2.4% Y1), a loss-to-lease number, and a position on the 6.00% exit that Slocumb, Blue Vista and HIG all put higher.",
+    "action": "Call held 14 Oct, 19 minutes, with Chip, Kevin and Michael on. It moved: Brian is modelling exit caps and preparing a committee presentation for Wednesday, and asked for a crime report, further comps and underwriting support. Zamir owes him the crime report, the full debt menu and the on-site report; Chip owes him the umbrella policy and the tax underwriting; Kevin owes updated bad-debt data; the bundled-internet quotes follow when they land. Notable for the rest of the desk: the call sensitivity-tested a 6.25% exit, which is where Slocumb put it and inside Blue Vista's 6.50%+. The quote below is still his 13 Oct email; nothing he said on the call is recorded here verbatim.",
     "tags": [],
     "heat": 5
   },
@@ -545,5 +545,124 @@
       "houston-sentiment"
     ],
     "heat": 2
+  },
+  {
+    "firm": "West Pine",
+    "person": "Tim Haskin",
+    "title": null,
+    "email": "timothy.haskin@west-pine.com",
+    "channel": "direct",
+    "stage": "meeting",
+    "ts": "2026-10-14T20:59:03Z",
+    "quote": "Talk tomorrow on deal late afternoon?",
+    "action": "Asked for a call, unprompted, two days after the send and with no questions or objections first - the shortest route to a yes on the board. Worth noting why: on Canyon Woods he asked what the going-in cap was and never got an answer, so the 12 Oct email opened with it (roughly 6.0% in, 6.00% out, 7.0% untrended yield-on-cost) before anything else. He copied Huisen Chua, a name not previously on file at West Pine. Confirm the time; late afternoon Thursday 15 Oct.",
+    "tags": [],
+    "heat": 5
+  },
+  {
+    "firm": "Silver Cap Partners",
+    "person": "John Scott Trotter",
+    "title": null,
+    "email": "trotter@silvercappartners.com",
+    "channel": "direct",
+    "stage": "pass",
+    "ts": "2026-10-14T21:41:34Z",
+    "quote": "It looks interesting but we've made a pretty big bet in Houston this year (MF and commercial). So before we make another bet there, we are taking a pause there until we can see how those deals are performing.",
+    "action": "Houston concentration, not a view on the deal - he calls it interesting and is pausing only until his existing Houston book seasons. That makes him a re-approach once those deals report, not a closed door. Another entry in the column that dominates this round: the reason is the city, not the basis, vintage, check size or returns.",
+    "tags": [
+      "houston-exposure"
+    ],
+    "heat": 2
+  },
+  {
+    "firm": "621 Capital",
+    "person": "Reported via Jeremy Slocumb, IPA",
+    "title": null,
+    "email": null,
+    "channel": "slocumb",
+    "stage": "reviewing",
+    "ts": "2026-10-15T00:17:42Z",
+    "quote": "621 Capital - Wants 2022 and newer at 30-40% below replacement cost. Houston is an actionable market. Potentially concerned with the broader area.",
+    "action": "The warmest name on Slocumb's list and the one he says he is personally pushing. The screen fits almost exactly - 2022-and-newer at 30-40% below replacement cost is this deal's whole argument, and they treat Houston as actionable, which most of the direct list does not. The hesitation is the immediate area, not the city or the basis. That is the same objection ARCTRUST and Marble raised, and it is the one the memo still does not answer.",
+    "tags": [
+      "submarket-demographics"
+    ],
+    "heat": 4
+  },
+  {
+    "firm": "BIG Equity Investors",
+    "person": "Reported via Jeremy Slocumb, IPA",
+    "title": null,
+    "email": null,
+    "channel": "slocumb",
+    "stage": "reviewing",
+    "ts": "2026-10-15T00:17:42Z",
+    "quote": "BIG Equity Investors - Potentially wanting to invest in projects with a more substantial business plan. Basis and yield are interesting. Demographic sensitive on multifamily.",
+    "action": "Basis and yield land; the business plan does not. A stabilized asset at 95% with concession burn-off and bulk internet reads as too thin for a group that wants something to build. Also demographic-sensitive, which is the round's recurring block.",
+    "tags": [
+      "submarket-demographics",
+      "strategy-mismatch"
+    ],
+    "heat": 3
+  },
+  {
+    "firm": "Manglar Capital",
+    "person": "Reported via Jeremy Slocumb, IPA",
+    "title": null,
+    "email": null,
+    "channel": "slocumb",
+    "stage": "reviewing",
+    "ts": "2026-10-15T00:17:42Z",
+    "quote": "Manglar Capital - Likes basis, more focused on Capital A affordable. Potentially unable to meet project timeline.",
+    "action": "Likes the basis, but is an affordable-housing investor and may not make a January close. Two independent reasons, neither about the asset.",
+    "tags": [
+      "strategy-mismatch"
+    ],
+    "heat": 2
+  },
+  {
+    "firm": "Arc Capital Partners",
+    "person": "Reported via Jeremy Slocumb, IPA",
+    "title": null,
+    "email": null,
+    "channel": "slocumb",
+    "stage": "pass",
+    "ts": "2026-10-15T00:17:42Z",
+    "quote": "Arc Capital Partners - Will not invest in this Houston pocket. Weak demographics.",
+    "action": "The bluntest statement of the micro-location objection in the whole round - not Houston, this pocket. Also resolves the duplicate-risk flag that has been open since the list went out: Arc was on both Slocumb's list and ZMR's draft list, and Slocumb reached them first.",
+    "tags": [
+      "submarket-demographics"
+    ],
+    "heat": 1
+  },
+  {
+    "firm": "Claritas Capital",
+    "person": "Reported via Jeremy Slocumb, IPA",
+    "title": null,
+    "email": null,
+    "channel": "slocumb",
+    "stage": "pass",
+    "ts": "2026-10-15T00:17:42Z",
+    "quote": "Claritas Capital - Can't meet the project timeline. Unlikely to consider new investments until Q1.",
+    "action": "Timing, not the deal. Worth a re-approach in Q1 if the raise is still open or a later deal needs equity.",
+    "tags": [
+      "capital-paused"
+    ],
+    "heat": 1
+  },
+  {
+    "firm": "Ulysses Capital Management",
+    "person": "Reported via Jeremy Slocumb, IPA",
+    "title": null,
+    "email": null,
+    "channel": "slocumb",
+    "stage": "pass",
+    "ts": "2026-10-15T00:17:42Z",
+    "quote": "Ulysses Capital Management - More focused on Dallas and Austin in the near term.",
+    "action": "Another geography no, and a notable shape of it: not that Houston is bad, but that Dallas and Austin come first. Texas is fine; Houston is the part that loses.",
+    "tags": [
+      "strategy-mismatch"
+    ],
+    "heat": 1
   }
 ]

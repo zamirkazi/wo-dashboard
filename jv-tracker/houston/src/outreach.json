@@ -19,7 +19,7 @@
       "owner": "Jeremy Slocumb, IPA Capital Markets",
       "started": "2026-10-12",
       "status": "live",
-      "note": "Slocumb named his ten groups on 5 Oct; Zamir vetoed three he knows personally - Grandview, Long Wharf and Mountain Pacific - and went direct to those three on 12 Oct instead. On 12 Oct Slocumb confirmed he had been in New York for equity meetings and was hitting the remaining seven that day. Those seven are counted as sent on his word; IPA holds the send record, not us, and nothing has come back from them yet."
+      "note": "Jeremy Slocumb at IPA took seven names on 5 Oct and was cleared to send on 7 Oct, minus Grandview, Long Wharf and Mountain Pacific, which Zamir held back because he knows them. He reported back on 15 Oct: three reviewing, three declined, Nelnet still out. That report is the first hard confirmation that the send happened - IPA holds the send record, we never did. He is pushing 621 Capital himself."
     }
   },
   "contacts": [
@@ -344,8 +344,8 @@
       "person": null,
       "email": null,
       "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He confirmed on 12 Oct he was hitting his groups that day. Counted as sent on his word - IPA holds the send record, we do not.",
+      "outcome": "replied",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
       "brokerSend": true
     },
     {
@@ -354,8 +354,8 @@
       "person": null,
       "email": null,
       "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He confirmed on 12 Oct he was hitting his groups that day. Counted as sent on his word - IPA holds the send record, we do not.",
+      "outcome": "replied",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
       "brokerSend": true
     },
     {
@@ -364,8 +364,8 @@
       "person": null,
       "email": null,
       "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He confirmed on 12 Oct he was hitting his groups that day. Counted as sent on his word - IPA holds the send record, we do not.",
+      "outcome": "replied",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
       "brokerSend": true
     },
     {
@@ -374,8 +374,8 @@
       "person": null,
       "email": null,
       "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He confirmed on 12 Oct he was hitting his groups that day. Counted as sent on his word - IPA holds the send record, we do not.",
+      "outcome": "replied",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
       "brokerSend": true
     },
     {
@@ -384,8 +384,8 @@
       "person": null,
       "email": null,
       "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He confirmed on 12 Oct he was hitting his groups that day. Counted as sent on his word - IPA holds the send record, we do not.",
+      "outcome": "replied",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
       "brokerSend": true
     },
     {
@@ -395,7 +395,7 @@
       "email": null,
       "sent": "2026-10-12",
       "outcome": "silent",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He confirmed on 12 Oct he was hitting his groups that day. Counted as sent on his word - IPA holds the send record, we do not.",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. Send confirmed by his 15 Oct report-back; the only one of his seven still awaiting a response.",
       "brokerSend": true
     },
     {
@@ -404,18 +404,18 @@
       "person": null,
       "email": null,
       "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He confirmed on 12 Oct he was hitting his groups that day. Counted as sent on his word - IPA holds the send record, we do not.",
+      "outcome": "replied",
+      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
       "brokerSend": true
     },
     {
       "channel": "direct",
       "firm": "Silver Cap Partners",
-      "person": "Trotter",
+      "person": "John Scott Trotter",
       "email": "Trotter@silvercappartners.com",
       "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "Relationship send, not from the equity list - sent direct on 12 Oct ahead of the broader round."
+      "outcome": "replied",
+      "note": "Relationship send, not from the equity list - sent direct on 12 Oct ahead of the broader round. Passed 14 Oct on Houston concentration."
     },
     {
       "channel": "direct",
@@ -456,8 +456,11 @@
       "person": "Tim Haskin",
       "email": "timothy.haskin@west-pine.com",
       "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "Asked 'what is going in cap' on Canyon Woods and never got an answer. This email leads with it."
+      "outcome": "replied",
+      "note": "Asked 'what is going in cap' on Canyon Woods and never got an answer, so this email led with it. Replied 14 Oct asking for a call.",
+      "also": [
+        "huisen.chua@west-pine.com"
+      ]
     },
     {
       "channel": "direct",

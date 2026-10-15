@@ -86,8 +86,8 @@ function renderStatus(){
     ' firms, each opening on that firm\'s own last answer to us where there was one, the rest ' +
     'pulled from ZMR\'s equity list. ' +
     D.contacts.filter(c => c.brokerSend).length +
-    ' of those are Slocumb\'s groups, counted on his word that he hit them that day — IPA holds ' +
-    'that send record, not us. ' +
+    ' of those are Slocumb\'s groups, and his 15 Oct report-back is the first hard confirmation ' +
+    'that the send happened — IPA holds that record, not us. ' +
     (function(u){ return u.length
         ? 'One name is still ours to send: <b>' + esc(u[0].firm) + '</b>.'
         : 'Nothing is left to send.'; })(D.contacts.filter(c => UNSENT.has(c.outcome)));
@@ -168,7 +168,7 @@ function renderQueue(){
   const done = JSON.parse(localStorage.getItem('ag-done') || '{}');
   $('#queue').innerHTML = '<div class="qgroup"><h3>Open <em>' + live.length + ' of ' + D.replies.length + ' replies</em></h3>' +
     '<div class="cards">' + live.map(r => {
-      const id = r.email;
+      const id = r.email || 'firm:' + r.firm;   // broker-relayed rows carry no address
       return '<div class="card s-' + r.stage + (done[id] ? ' done' : '') + '" data-id="' + esc(id) + '">' +
         '<div class="card-top"><div><div class="firm">' + esc(r.firm) + '</div>' +
         '<div class="who">' + esc(r.person) + (r.title ? ' · ' + esc(r.title) : '') + '</div></div>' +
