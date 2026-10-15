@@ -763,5 +763,20 @@
     "action": "A courteous no with no reason attached, but 'for now' and 'I do appreciate the look' leave the relationship open - he is worth a different deal rather than more pressure on this one. Ask him for the disqualifier the way Mavik was asked; the one-line passes have given up real colour every time someone pushed.",
     "tags": [],
     "heat": 1
+  },
+  {
+    "firm": "MLG Capital",
+    "person": "Alex Lunde",
+    "title": "Assistant Vice President",
+    "email": "alunde@mlgcapital.com",
+    "channel": "direct",
+    "stage": "pass",
+    "ts": "2026-10-15T18:26:22Z",
+    "quote": "I took a look at this deal, and it will not be a fit for us. The basis and product type is definitely intriguing, but we are not buying in southeast Houston. The household incomes are below our thresholds, and we worry about our proximity to Sunnyside in this pocket.",
+    "action": "The most specific version of the objection that now dominates the round: he is the first reader to name the actual neighbourhood, Sunnyside, rather than gesturing at 'the pocket' or 'the demographics'. That is worth more than the pass. Everyone else - ARCTRUST, Marble, Arc Capital, 621, BIG Equity, Lenox West - circled the same concern without naming it; now there is something concrete to measure the asset against, and the Resident Demographics Report can be pointed at it directly. He also answered the coverage question the follow-up asked: Lunde took it rather than Terry Wallen, and he concedes the basis and the product.",
+    "tags": [
+      "submarket-demographics"
+    ],
+    "heat": 1
   }
 ]
