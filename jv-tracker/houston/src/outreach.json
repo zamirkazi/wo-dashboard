@@ -323,10 +323,13 @@
       "person": "Eric Freeman",
       "email": "freeman@grandviewpartners.com",
       "sent": "2026-10-12",
-      "outcome": "silent",
+      "outcome": "replied",
       "knows": "knows them",
-      "note": "Held back from the IPA send because Zamir knows them. Passed Canyon Woods 31 Aug with 'No interest here. Thanks.' and no reason. Drafted 12 Oct.",
-      "vetoed": "On Slocumb's list; Zamir pulled it because he knows them and is going direct."
+      "note": "Held back from the IPA send because Zamir knows them. Passed Canyon Woods 31 Aug with 'No interest here. Thanks.' and no reason. Sent 12 Oct, silent; the 15 Oct follow-up turned it - he asked for the materials four minutes later.",
+      "vetoed": "On Slocumb's list; Zamir pulled it because he knows them and is going direct.",
+      "also": [
+        "sykes@grandviewpartners.com"
+      ]
     },
     {
       "channel": "direct",
