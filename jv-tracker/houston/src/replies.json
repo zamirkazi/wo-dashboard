@@ -729,12 +729,15 @@
     "title": "Senior Associate, Real Estate",
     "email": "ehood@pennybackercap.com",
     "channel": "direct",
-    "stage": "reviewing",
-    "ts": "2026-10-15T15:32:55Z",
-    "quote": "Thanks Zamir, I'm reviewing now and will get back to you with feedback on this.",
-    "action": "Opened by the follow-up after silence on the 12 Oct send. Pennybacker is Austin-based and knows Texas better than almost anyone on the list, so his feedback is worth as much as his capital - the follow-up asked for exactly that. Petrini and Beier are on the thread.",
-    "tags": [],
-    "heat": 3
+    "stage": "pass",
+    "ts": "2026-10-15T22:20:58Z",
+    "quote": "After reviewing it, we've decided this one isn't a fit for us. We're being very selective with our multifamily equity investments right now and aren't looking to add exposure in Southeast Houston.",
+    "action": "Opened by the follow-up at 15:32, closed by 22:21 the same day - he reviewed and answered inside seven hours. The reason is worth more than the pass: Pennybacker is Austin-based and the most Texas-literate reader on the list, and they will not add exposure in Southeast Houston specifically, not Houston broadly. That is the same submarket line MLG, Arc Capital, Lenox West, 621 and ARCTRUST drew, now from a firm that underwrites Texas for a living. Petrini and Beier were both on it, so this is the house view rather than one associate's.",
+    "tags": [
+      "houston-exposure",
+      "submarket-demographics"
+    ],
+    "heat": 1
   },
   {
     "firm": "Mavik Capital",
