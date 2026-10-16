@@ -781,5 +781,20 @@
       "submarket-demographics"
     ],
     "heat": 1
+  },
+  {
+    "firm": "Coulton Creek Capital",
+    "person": "Will Hensley",
+    "title": null,
+    "email": "whensley@ccrcapital.com",
+    "channel": "direct",
+    "stage": "pass",
+    "ts": "2026-10-16T03:08:54Z",
+    "quote": "Thank you for checking back in! Unfortunately, we're still dealing with a full plate, but feel free to check back in at any time.",
+    "action": "The same answer Scott Brown gave on Canyon Woods in August - a full pipeline, not a view on the deal - which is why the follow-up went to them at all. Two for two on capacity means it is structural for now rather than something this deal can argue with. Will Hensley answered rather than Scott, and the invitation to check back in at any time is worth taking literally on the next one.",
+    "tags": [
+      "capital-paused"
+    ],
+    "heat": 2
   }
 ]
