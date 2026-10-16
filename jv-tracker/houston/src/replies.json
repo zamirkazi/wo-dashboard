@@ -328,10 +328,14 @@
     "email": "niv@mntpac.com",
     "channel": "direct",
     "stage": "question",
-    "ts": "2026-10-13T05:42:39Z",
-    "quote": "Good to hear from you, Zamir. What is the seller's motivation here? Also, can you send over rent/sale comps?",
-    "action": "Answered the same day. Zamir gave the seller motivation at 14:42 - the loan is maturing and the existing equity partner will not put in more to stay in and refinance - and Kevin sent rent and sale comps at 15:34, leading on how little competes nearby. Note that maturing-loan story is sharper than the broken process the teaser leads with, and both are true; consider which one the materials should lead on. Ball is with Niv now.",
-    "tags": [],
+    "ts": "2026-10-16T07:29:50Z",
+    "quote": "Do you have a more detailed rent survey you can provide? Ideally one that shows sf by unit type, interior/exterior amenities, etc. How would you say this market compares to Katy? Basis feels expensive at a quick glance.",
+    "action": [
+      "Deepening, not cooling: he brought Brandon Fikhman onto the thread for visibility, which is how a second look starts. But the last line is the one that matters - 'basis feels expensive at a quick glance' makes him the second reader, after Mavik, to challenge the thing the whole pitch rests on. The Katy comparison tells you why: he is pricing this against a far stronger Houston submarket, so the comp set Kevin sent (2015-2019 product 5-7 miles out, submarket trades averaging 1978 vintage) reads to him as evidence the location is weak rather than that the basis is cheap. Answer the Katy question head-on and send the detailed rent survey with square footage by unit type and amenities. Earlier in the thread Zamir gave the seller motivation as a maturing loan with an equity partner who will not refinance, which is sharper than the broken-process story the teaser leads with."
+    ],
+    "tags": [
+      "going-in-yield"
+    ],
     "heat": 4
   },
   {
