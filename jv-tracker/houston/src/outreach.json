@@ -1,878 +1,878 @@
 {
-  "channels": {
-    "direct": {
-      "label": "ZMR direct",
-      "owner": "Zamir / Kevin / Chip",
-      "started": "2026-09-21",
-      "status": "live",
-      "note": "One-to-one forwards off Kevin's 21 Sep memo, then a second wave on 12 Oct to every name Kirsh had proposed but never mailed, then a third wave the same evening off ZMR's own equity list (1,087 contacts on Drive) and the Canyon Woods reply record. All three waves are out — 54 firms on 12 Oct alone, the last at 22:25, and nothing is left sitting in drafts. Each email opens on that firm's own last answer to us where one exists. Subject throughout: \"Houston 2023 Vintage $135K/door $13M Check 20%+ IRR\"."
-    },
-    "kirsh": {
-      "label": "Andrew Kirsh",
-      "owner": "Andrew Kirsh, Sklar Kirsh LLP",
-      "started": "2026-10-02",
-      "status": "live",
-      "note": "Kirsh sent to Tramview on 2 Oct, then to the three groups Zamir said he did not know — Mile Rock, Green Pine and Range Equity — on the morning of 3 Oct. All four came back. The rest of his list he raised as a question and never confirmed sending. Argosy was pulled from his list because Zamir knows them and went direct; they passed on 7 Oct."
-    },
-    "slocumb": {
-      "label": "Jeremy Slocumb",
-      "owner": "Jeremy Slocumb, IPA Capital Markets",
-      "started": "2026-10-12",
-      "status": "live",
-      "note": "Jeremy Slocumb at IPA took seven names on 5 Oct and was cleared to send on 7 Oct, minus Grandview, Long Wharf and Mountain Pacific, which Zamir held back because he knows them. He reported back on 15 Oct: three reviewing, three declined, Nelnet still out. That report is the first hard confirmation that the send happened - IPA holds the send record, we never did. He is pushing 621 Capital himself."
-    }
+ "channels": {
+  "direct": {
+   "label": "ZMR direct",
+   "owner": "Zamir / Kevin / Chip",
+   "started": "2026-09-21",
+   "status": "live",
+   "note": "One-to-one forwards off Kevin's 21 Sep memo, then a second wave on 12 Oct to every name Kirsh had proposed but never mailed, then a third wave the same evening off ZMR's own equity list (1,087 contacts on Drive) and the Canyon Woods reply record. All three waves are out \u2014 54 firms on 12 Oct alone, the last at 22:25, and nothing is left sitting in drafts. Each email opens on that firm's own last answer to us where one exists. Subject throughout: \"Houston 2023 Vintage $135K/door $13M Check 20%+ IRR\"."
   },
-  "contacts": [
-    {
-      "channel": "direct",
-      "firm": "Atlantic Creek Real Estate",
-      "person": "Jonathan Trucano",
-      "email": "trucano@atlanticcreek.com",
-      "also": [
-        "bylin@atlanticcreek.com",
-        "sachs@atlanticcreek.com"
-      ],
-      "sent": "2026-09-21",
-      "outcome": "replied"
-    },
-    {
-      "channel": "direct",
-      "firm": "Sabal Investment Holdings",
-      "person": "Tal Seder",
-      "email": "tal.seder@sabal.com",
-      "also": [
-        "mike.mehagian@sabal.com",
-        "ethan.knight@sabal.com",
-        "erik.kolar@sabal.com",
-        "drake.ayres@sabal.com",
-        "charles.alexander@sabal.com",
-        "barton.vaughan@sabal.com"
-      ],
-      "sent": "2026-10-01",
-      "outcome": "replied"
-    },
-    {
-      "channel": "direct",
-      "firm": "Capital Solutions",
-      "person": "Rami Hakim",
-      "email": "rhakim@cap-sol.com",
-      "sent": "2026-10-02",
-      "outcome": "replied"
-    },
-    {
-      "channel": "direct",
-      "firm": "Argosy Real Estate Partners",
-      "person": "D. Ciccone",
-      "email": "dciccone@argosyrep.com",
-      "sent": "2026-10-02",
-      "outcome": "replied"
-    },
-    {
-      "channel": "direct",
-      "firm": "ARCTRUST",
-      "person": "Chris LeCates",
-      "email": "clecates@arctrust.com",
-      "also": [
-        "gsheehan@arctrust.com",
-        "jdonalson@arctrust.com"
-      ],
-      "sent": "2026-10-02",
-      "outcome": "replied",
-      "note": "On Kevin's original 21 Sep memo thread, nudged again 12 Oct. Came back the next day with the most detailed underwriting pushback of the round - and an open question, not a pass."
-    },
-    {
-      "channel": "direct",
-      "firm": "Parse Capital",
-      "person": "Brett Balda",
-      "email": "brett.balda@parsecap.com",
-      "also": [
-        "bmitchell@parsecap.com"
-      ],
-      "sent": "2026-10-02",
-      "outcome": "replied"
-    },
-    {
-      "channel": "direct",
-      "firm": "Evergen Equity",
-      "person": "Omar Hamdan",
-      "email": "omar@evergenequity.com",
-      "also": [
-        "troy@evergenequity.com",
-        "investments@evergenequity.com"
-      ],
-      "sent": "2026-10-02",
-      "outcome": "replied"
-    },
-    {
-      "channel": "direct",
-      "firm": "STRE Management USA",
-      "person": "Camilo Padron",
-      "email": "camilo.padron@strem.us",
-      "sent": "2026-10-06",
-      "outcome": "replied"
-    },
-    {
-      "channel": "direct",
-      "firm": "Cushman & Wakefield",
-      "person": "Chase Tagen",
-      "email": "chase.tagen@cushwake.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "Offered 7 Oct, finally sent 12 Oct ahead of the 22 Oct breakfast."
-    },
-    {
-      "channel": "kirsh",
-      "firm": "Range Equity",
-      "person": "Andrew Gindy",
-      "email": "agindy@remlp.com",
-      "sent": "2026-10-03",
-      "outcome": "replied",
-      "knows": "doesn't know them"
-    },
-    {
-      "channel": "kirsh",
-      "firm": "Tramview Capital",
-      "person": "Beau Vande Walle",
-      "email": "bvandewalle@tramview.com",
-      "also": [
-        "cmyerson@tramview.com",
-        "rdavies@tramview.com"
-      ],
-      "sent": "2026-10-02",
-      "outcome": "replied",
-      "knows": null
-    },
-    {
-      "channel": "kirsh",
-      "firm": "Green Pine Real Estate",
-      "person": "Seth Grossman",
-      "email": "skg@greenpinere.com",
-      "sent": "2026-10-03",
-      "outcome": "replied",
-      "knows": "doesn't know them"
-    },
-    {
-      "channel": "kirsh",
-      "firm": "Mile Rock Capital",
-      "person": "Zack Georgeson",
-      "email": "zack@milerockcapital.com",
-      "sent": "2026-10-03",
-      "outcome": "replied",
-      "knows": "doesn't know them"
-    },
-    {
-      "channel": "direct",
-      "firm": "Horowitz Group",
-      "person": "Angela",
-      "email": "angela@horowitzgroup.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them.",
-      "knows": "current investor",
-      "also": [
-        "matt@horowitzgroup.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "Belay Investment Group",
-      "person": "Michael van Leeuwen",
-      "email": "mvanleeuwen@belayinvestmentgroup.com",
-      "sent": "2026-10-12",
-      "outcome": "silent",
-      "knows": "knows them",
-      "note": "Sent 12 Oct to Michael van Leeuwen; only the survey list address was on file before."
-    },
-    {
-      "channel": "direct",
-      "firm": "Tryperion Holdings",
-      "person": "Greg Rollman",
-      "email": "grollman@tryperion.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "knows": "knows them",
-      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them and sent direct 12 Oct, to Jeff Karsh with Greg copied. Greg answered. This is the one send that went under the wrong subject line - 'Equity Opp - 252 units, 2023 built - Houston' rather than the standard one.",
-      "also": [
-        "jkarsh@tryperion.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "Singerman Real Estate",
-      "person": null,
-      "email": null,
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "knows": "knows them",
-      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
-    },
-    {
-      "channel": "kirsh",
-      "firm": "Argosy Real Estate Partners",
-      "person": "D. Ciccone",
-      "email": "dciccone@argosyrep.com",
-      "sent": null,
-      "outcome": "excluded",
-      "note": "Pulled from Kirsh's list because Zamir knows them and went direct on 2 Oct. Argosy passed on that thread on 7 Oct (Houston exposure), so the name is covered and closed - Kirsh never needed to send.",
-      "knows": "knows them"
-    },
-    {
-      "channel": "direct",
-      "firm": "Pennybacker Capital",
-      "person": null,
-      "email": null,
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "knows": "knows them",
-      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
-    },
-    {
-      "channel": "direct",
-      "firm": "Brasa Capital Management",
-      "person": "Eric Samek",
-      "email": "esamek@brasacap.com",
-      "sent": "2026-10-12",
-      "outcome": "silent",
-      "knows": "knows them",
-      "note": "No contact was on file; Zamir knew Eric Samek personally all along (\"been a long time... see you at the Roundtable next week\"). Sent 12 Oct.",
-      "also": [
-        "mmilich@brasacap.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "Lenox West",
-      "person": null,
-      "email": null,
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "knows": "knows them",
-      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them.",
-      "also": [
-        "igarcia@lenoxwestcap.com",
-        "rfirouz@lenoxwestcap.com",
-        "vsaiz@lenoxwestcap.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "Mountain Pacific",
-      "person": "Niv Henn",
-      "email": "niv@mntpac.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them and had introduced him to Clay and Ziggy over the summer. Zamir sent direct 12 Oct quoting their own Canyon Woods answer back to them, and Niv came back the next morning asking for seller motivation and comps.",
-      "knows": "knows them",
-      "vetoed": "On Slocumb's list; Zamir pulled it because he knows them and is going direct.",
-      "also": [
-        "brandon@mntpac.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "Machine Investment Group",
-      "person": null,
-      "email": null,
-      "sent": "2026-10-12",
-      "outcome": "silent",
-      "knows": "knows them",
-      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
-    },
-    {
-      "channel": "direct",
-      "firm": "Mavik Capital",
-      "person": null,
-      "email": null,
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "knows": "knows them",
-      "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
-    },
-    {
-      "channel": "kirsh",
-      "firm": "Artisan Realty Advisors",
-      "person": "Greg Khodara",
-      "email": null,
-      "sent": null,
-      "outcome": "excluded",
-      "note": "Zamir, 3 Oct: 'This won't be a fit for Greg/Artisan.'",
-      "knows": null
-    },
-    {
-      "channel": "kirsh",
-      "firm": "Alvarez & Marsal (family office)",
-      "person": null,
-      "email": null,
-      "sent": null,
-      "outcome": "excluded",
-      "note": "Kirsh, 3 Oct: only does JVs for ground-up development.",
-      "knows": null
-    },
-    {
-      "channel": "direct",
-      "firm": "Long Wharf Capital",
-      "person": "Philip Murphy",
-      "email": "philip.murphy@longwharf.com",
-      "also": [
-        "michael.elizondo@longwharf.com",
-        "solon.aposhian@longwharf.com",
-        "justin.smith@longwharf.com",
-        "david.stein@longwharf.com"
-      ],
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "knows": "knows them",
-      "note": "Held back from the IPA send because Zamir knows them. Passed Canyon Woods 27 Aug with 'This one's not for us' and no reason. Drafted 12 Oct.",
-      "vetoed": "On Slocumb's list; Zamir pulled it because he knows them and is going direct."
-    },
-    {
-      "channel": "direct",
-      "firm": "Grandview Partners",
-      "person": "Eric Freeman",
-      "email": "freeman@grandviewpartners.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "knows": "knows them",
-      "note": "Held back from the IPA send because Zamir knows them. Passed Canyon Woods 31 Aug with 'No interest here. Thanks.' and no reason. Sent 12 Oct, silent; the 15 Oct follow-up turned it - he asked for the materials four minutes later.",
-      "vetoed": "On Slocumb's list; Zamir pulled it because he knows them and is going direct.",
-      "also": [
-        "sykes@grandviewpartners.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "Belsky Capital",
-      "person": "Marc Belsky",
-      "title": "Managing Principal",
-      "email": "marc@marcbelsky.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "Not on anyone's list - Zamir added him on the day. Replied within nine minutes."
-    },
-    {
-      "channel": "slocumb",
-      "firm": "621 Capital",
-      "person": null,
-      "email": null,
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
-      "brokerSend": true
-    },
-    {
-      "channel": "slocumb",
-      "firm": "Arc Capital Partners",
-      "person": null,
-      "email": null,
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
-      "brokerSend": true
-    },
-    {
-      "channel": "slocumb",
-      "firm": "BIG Equity Investors",
-      "person": null,
-      "email": null,
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
-      "brokerSend": true
-    },
-    {
-      "channel": "slocumb",
-      "firm": "Claritas Capital",
-      "person": null,
-      "email": null,
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
-      "brokerSend": true
-    },
-    {
-      "channel": "slocumb",
-      "firm": "Manglar Capital",
-      "person": null,
-      "email": null,
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
-      "brokerSend": true
-    },
-    {
-      "channel": "slocumb",
-      "firm": "Nelnet",
-      "person": null,
-      "email": null,
-      "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. Send confirmed by his 15 Oct report-back; the only one of his seven still awaiting a response.",
-      "brokerSend": true
-    },
-    {
-      "channel": "slocumb",
-      "firm": "Ulysses Capital Management",
-      "person": null,
-      "email": null,
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
-      "brokerSend": true
-    },
-    {
-      "channel": "direct",
-      "firm": "Silver Cap Partners",
-      "person": "John Scott Trotter",
-      "email": "Trotter@silvercappartners.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "Relationship send, not from the equity list - sent direct on 12 Oct ahead of the broader round. Passed 14 Oct on Houston concentration."
-    },
-    {
-      "channel": "direct",
-      "firm": "Two Sigma",
-      "person": "Spencer Traver",
-      "email": "Spencer.Traver@twosigma.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "Relationship send, not from the equity list - sent direct on 12 Oct ahead of the broader round."
-    },
-    {
-      "channel": "direct",
-      "firm": "TriGate Capital",
-      "person": "A. Aultz",
-      "email": "aaultz@trigatecapital.com",
-      "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "Canyon Woods was a conditional, not a pass: 'that equity requirement is slightly too large for our value-add fund'. This is a third the size.",
-      "also": [
-        "credding@trigatecapital.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "ABR Capital",
-      "person": "Peter Heller",
-      "email": "peter.heller@abrcapital.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "Told us they write $5-15M checks. $11.65M is dead centre.",
-      "also": [
-        "jake.martin@abrcapital.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "West Pine",
-      "person": "Tim Haskin",
-      "email": "timothy.haskin@west-pine.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "Asked 'what is going in cap' on Canyon Woods and never got an answer, so this email led with it. Replied 14 Oct asking for a call.",
-      "also": [
-        "huisen.chua@west-pine.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "CastleSquare",
-      "person": "Alanna Wojciechowski",
-      "email": "aw@castlesquare.com",
-      "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "Materials stage on Canyon Woods - asked for an OM or model. Offered up front this time."
-    },
-    {
-      "channel": "direct",
-      "firm": "Benedict Realty Group",
-      "person": "Steven Kohn",
-      "email": "steven.kohn@brgny.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "Tried to get a Monday on the books in August and it slipped. Came back in a day, not on the deal as sent but asking whether a co-GP structure would interest us."
-    },
-    {
-      "channel": "direct",
-      "firm": "Lindell Investments",
-      "person": "Burke Roper",
-      "email": "burke@lindellinvestments.com",
-      "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "Burke Roper joined as CIO in 2026, replacing Mark Stroud, so the email leads to him with Jack and Carl copied. Jack's Canyon Woods read was 'single check writer, we're out... Carl will struggle with California' - not CA here, and a third the size. Burke is a former colleague of Kevin Mawby, who ran this underwriting.",
-      "also": [
-        "jack@lindellinvestments.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "Marble Capital",
-      "person": "Brad Moynihan",
-      "email": "bmoynihan@marblecapitallp.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "'Not targeting CA or pre-2010 deals.' Both clear, and Marble is a Houston shop."
-    },
-    {
-      "channel": "direct",
-      "firm": "Blue Vista",
-      "person": "J.P. Sletteland",
-      "email": "jpsletteland@bluevistallc.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "Passed Canyon Woods on pre-2000s construction, so the email led on the 2023 vintage and removed that objection outright. It worked - he passed on the exit cap instead, which is a better place to be.",
-      "also": [
-        "dstephenson@bluevistallc.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "Lightning Tree Capital",
-      "person": "Chris Dzurinko",
-      "email": "chris@lightningtreecapital.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "Gave feedback on Canyon Woods, so the email thanked him for it and led with Houston. He came back two days later having actually run the model - the only reader who did."
-    },
-    {
-      "channel": "direct",
-      "firm": "Wtrshd Capital",
-      "person": "Dave McCullagh / Laura Whitaker",
-      "email": "laura@wtrshdcap.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "Passed Canyon Woods for bandwidth, not on merit - Laura was away. Sending to them both worked: she answered in 90 minutes, but with a reporting demand on the existing portfolio rather than a read on this deal.",
-      "also": [
-        "dave@wtrshdcap.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "Pearlmark",
-      "person": "Rich Dougherty",
-      "email": "rdougherty@pearlmark.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "'Fully specified on our current equity fund' was the Canyon Woods answer - timing, not a view. Kyle Nealis has left, so the send went to Rich with Dhruv and Christian copied. He came back in three hours and handed it to Erin Sullivan, who covers Texas.",
-      "also": [
-        "cmendez@pearlmark.com",
-        "dshah@pearlmark.com",
-        "esullivan@pearlmark.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "Westport Capital Partners",
-      "person": "Brian Fraker",
-      "email": "bfraker@westportcp.com",
-      "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "'New fund starting in 2027 with a multifamily allocation.' We close January 2027.",
-      "also": [
-        "sarmstrong@westportcp.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "Forum Investment Group",
-      "person": "Jeremy Warren",
-      "email": "jwarren@forumig.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "'Vintage a little old; looking for 2010 and newer' - fixed. Their no-LP-equity point is not, and the email says so.",
-      "also": [
-        "jmanning@forumig.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "Belveron Partners",
-      "person": "Ben Kraus",
-      "email": "ben@belveronpartners.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "'Let us know if there are any other deals' - taken at their word, and honest that this is not affordable product.",
-      "also": [
-        "jeremy@belveronpartners.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "IMCO",
-      "person": "Richard Varkey",
-      "email": "richard.varkey@imcoinvest.com",
-      "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "Passed with no reason given. This email asks for one.",
-      "also": [
-        "rossitsa.stoyanova@imcoinvest.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "Vey Capital",
-      "person": "Sergio Salas",
-      "email": "sergio@vey-capital.com",
-      "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "'$30MM, even half of that, is outside our scope.' $11.65M is below that half; the email concedes it may still be too big."
-    },
-    {
-      "channel": "direct",
-      "firm": "Halstatt Real Estate Partners",
-      "person": "Steve Iannaccone",
-      "email": "siannaccone@halstatt.com",
-      "sent": "2026-10-13",
-      "outcome": "silent",
-      "note": "Passed Canyon Woods 27 Aug on one ground only: 'out of our geographic footprint' - that was the Bay Area. Fund V ($200M target, $10-30M checks) deploys in Southeast Florida and Texas, and they already own in the Houston MSA. On the 21 Jul call Steve asked Zamir to send him anything compelling. Sent 00:50 on 13 Oct on that opening, offered either as LP or as a partnership. The last name in the round.",
-      "also": [
-        "kheinze@halstatt.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "Flagship Capital Partners",
-      "person": "Mark Berins / Brian Cutrell",
-      "email": "bcutrell@flagshipco.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "Houston-based, at One Greenway Plaza. Offered extra GP co-invest above the standard 10% and asked for their read on the submarket. Brian Cutrell, copied on the send, came back asking for a call.",
-      "also": [
-        "mberins@flagshipco.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "Island Capital Group",
-      "person": "Joe Lytle",
-      "email": "jlytle@islecap.com",
-      "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "From the equity list. Not Island Wealth Management, which is a different firm that asked to be left alone.",
-      "also": [
-        "svonbonin@islecap.com",
-        "phughson@islecap.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "Argos Capital Partners",
-      "person": "Shaun Walsh",
-      "email": "swalsh@argoscapitalpartners.com",
-      "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "From the equity list. Distinct from Argosy, who passed on this deal on 7 Oct."
-    },
-    {
-      "channel": "direct",
-      "firm": "Astor Realty Capital",
-      "person": "Michael Korine",
-      "email": "mk@astorrealtycapital.com",
-      "sent": "2026-10-12",
-      "outcome": "bounced",
-      "note": "Primary address mk@astorrealtycapital.com hard-bounced on 12 Oct (550 5.7.1, recipient rejected as invalid) — Michael Korine never received it. Alena was copied and did receive it; a note asking her to forward or supply the right address is drafted.",
-      "also": [
-        "alena@astorrealtycapital.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "Coulton Creek Capital",
-      "person": "Scott Brown / Will Hensley",
-      "email": "sbrown@ccrcapital.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "From the equity list. Scott Brown passed Canyon Woods on a full pipeline in August, which read as timing rather than a view - so the follow-up went back. Will Hensley answered 16 Oct with the same answer: still a full plate, check back any time.",
-      "also": [
-        "whensley@ccrcapital.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "Eagle Realty Group",
-      "person": "Scott Pearson / Chad Gagnon",
-      "email": "chad.gagnon@eaglerealtygroup.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "From the equity list; their stated check ceiling is $40M, so $11.65M sits well inside. Scott Pearson is out of the country until 20 Oct and auto-replied, but Chad Gagnon - copied on the send - answered for the firm the next morning.",
-      "also": [
-        "scott.pearson@eaglerealtygroup.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "HIG Realty Partners",
-      "person": "James Gallo",
-      "email": "jgallo@higrealty.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "Adam Belfer said in March that HIG wants high-teens IRR and 1.8x+, so the email led on 20.3% and 2.25x to clear that bar explicitly. It worked: James came back asking for a call, with the exit cap as the open question rather than the return.",
-      "also": [
-        "abelfer@higrealty.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "JDI Realty",
-      "person": "Maggie DeWoskin",
-      "email": "mdewoskin@jdirealty.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "Sent to Maggie alone because Kevin Connor and Sam had moved on - the old CC would have bounced into two dead boxes. She came back inside a day with the only numerically specific pass we have."
-    },
-    {
-      "channel": "direct",
-      "firm": "Realm",
-      "person": "Travis King",
-      "email": "tking@realmlp.com",
-      "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "From the equity list.",
-      "also": [
-        "rphillips@realmlp.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "Loci Capital",
-      "person": "Garrett Francis",
-      "email": "gfrancis@locicapital.com",
-      "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "Reinstated. The 'remove from distribution list' line meant remove Mike N, who had left - not Loci. Garrett is a friend."
-    },
-    {
-      "channel": "direct",
-      "firm": "7 Acre Investments",
-      "person": "Adam",
-      "email": "adam@sevenacreinvest.com",
-      "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "From the equity list."
-    },
-    {
-      "channel": "direct",
-      "firm": "Cross Lake Partners",
-      "person": "B. Riley",
-      "email": "briley@crosslakepartners.com",
-      "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "From the equity list."
-    },
-    {
-      "channel": "direct",
-      "firm": "LaSalle Investment Management",
-      "person": "Joe Paskov",
-      "email": "joseph.paskov@lasalle.com",
-      "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "From the equity list. Email concedes the check is small for LaSalle and asks for the right vehicle.",
-      "also": [
-        "dan.witte@lasalle.com"
-      ]
-    },
-    {
-      "channel": "direct",
-      "firm": "Lafayette Street Capital",
-      "person": "Dan Rosenbloom",
-      "email": "dan@lafayettesc.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "From the equity list; the tracker carried this as 'Lafayette Square' until his signature showed the real name. Passed 15 Oct off the follow-up, no reason given."
-    },
-    {
-      "channel": "direct",
-      "firm": "DRA Advisors",
-      "person": "Jake Hannah",
-      "email": "jhannah@draadvisors.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "Added on the day, outside every prepared list."
-    },
-    {
-      "channel": "direct",
-      "firm": "Olive Point Capital",
-      "person": "Ricardo Goldberg",
-      "email": "ricardo@olivepointcapital.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "Added on the day, outside every prepared list."
-    },
-    {
-      "channel": "direct",
-      "firm": "Palatine Capital Partners",
-      "person": "Jonah Gill",
-      "email": "jgill@pal-partners.com",
-      "also": [
-        "msacks@pal-partners.com",
-        "wcaplan@pal-partners.com",
-        "cbeckman@pal-partners.com"
-      ],
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "Betesh and Sacks each passed Canyon Woods purely on California, independently of one another."
-    },
-    {
-      "channel": "direct",
-      "firm": "MLG Capital",
-      "person": "Terry Wallen",
-      "email": "terrywallen@mlgcapital.com",
-      "also": [
-        "alunde@mlgcapital.com"
-      ],
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "Opens on the Charlotte BTR in March - 'the lack of cash flow would be challenging for our equity' - which is the one thing this stabilized asset has. The follow-up asked who covers Texas; Alex Lunde answered rather than Terry Wallen, and passed on household incomes and proximity to Sunnyside."
-    },
-    {
-      "channel": "direct",
-      "firm": "Midloch",
-      "person": "Brandon Banks",
-      "email": "brandon@midloch.com",
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "'Midloch will not invest in CA multifamily' was their Canyon Woods line, so the email was short and led on basis. Replied in 3.5 hours: the basis landed, Houston did not."
-    },
-    {
-      "channel": "direct",
-      "firm": "Prospect Ridge",
-      "person": "Paul Galiano",
-      "email": "paul.galiano@prospectridge.com",
-      "also": [
-        "julia.issembert@prospectridge.com"
-      ],
-      "sent": "2026-10-12",
-      "outcome": "replied",
-      "note": "The most specific feedback on Canyon Woods: it would have to sit in the value-add fund and they'd be wider than a 5% exit cap. A 2023 build isn't value-add, and we underwrite 6.00% out - both halves answered."
-    },
-    {
-      "channel": "direct",
-      "firm": "Citymark Capital",
-      "person": "E. Louttit",
-      "email": "elouttit@citymarkcapital.com",
-      "also": [
-        "gfent-baker@citymarkcapital.com"
-      ],
-      "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "'Focused on 2000s and newer product.' Also asks for a replacement name, since Damien and Gillian left."
-    },
-    {
-      "channel": "direct",
-      "firm": "Integrity Housing Group",
-      "person": "Steven",
-      "email": "steven@integrityhg.com",
-      "sent": "2026-10-12",
-      "outcome": "silent",
-      "note": "Existing JV partner in Skye at Conway and Skye Reserve, and in an active dispute with counsel engaged since 25 Sep. Drafted so it keeps Conway explicitly on its own track and gives him a clean exit. Worth clearing with Zach Oseland before it goes."
-    }
-  ],
-  "carveouts": [],
-  "suppressed": [
-    {
-      "firm": "Abrams Capital",
-      "person": "David Abrams",
-      "why": "\"Please stop emailing us.\" Structural and permanent."
-    }
-  ],
-  "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week."
+  "kirsh": {
+   "label": "Andrew Kirsh",
+   "owner": "Andrew Kirsh, Sklar Kirsh LLP",
+   "started": "2026-10-02",
+   "status": "live",
+   "note": "Kirsh sent to Tramview on 2 Oct, then to the three groups Zamir said he did not know \u2014 Mile Rock, Green Pine and Range Equity \u2014 on the morning of 3 Oct. All four came back. The rest of his list he raised as a question and never confirmed sending. Argosy was pulled from his list because Zamir knows them and went direct; they passed on 7 Oct."
+  },
+  "slocumb": {
+   "label": "Jeremy Slocumb",
+   "owner": "Jeremy Slocumb, IPA Capital Markets",
+   "started": "2026-10-12",
+   "status": "live",
+   "note": "Jeremy Slocumb at IPA took seven names on 5 Oct and was cleared to send on 7 Oct, minus Grandview, Long Wharf and Mountain Pacific, which Zamir held back because he knows them. He reported back on 15 Oct: three reviewing, three declined, Nelnet still out. That report is the first hard confirmation that the send happened - IPA holds the send record, we never did. He is pushing 621 Capital himself."
+  }
+ },
+ "contacts": [
+  {
+   "channel": "direct",
+   "firm": "Atlantic Creek Real Estate",
+   "person": "Jonathan Trucano",
+   "email": "trucano@atlanticcreek.com",
+   "also": [
+    "bylin@atlanticcreek.com",
+    "sachs@atlanticcreek.com"
+   ],
+   "sent": "2026-09-21",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Sabal Investment Holdings",
+   "person": "Tal Seder",
+   "email": "tal.seder@sabal.com",
+   "also": [
+    "mike.mehagian@sabal.com",
+    "ethan.knight@sabal.com",
+    "erik.kolar@sabal.com",
+    "drake.ayres@sabal.com",
+    "charles.alexander@sabal.com",
+    "barton.vaughan@sabal.com"
+   ],
+   "sent": "2026-10-01",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Capital Solutions",
+   "person": "Rami Hakim",
+   "email": "rhakim@cap-sol.com",
+   "sent": "2026-10-02",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Argosy Real Estate Partners",
+   "person": "D. Ciccone",
+   "email": "dciccone@argosyrep.com",
+   "sent": "2026-10-02",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "ARCTRUST",
+   "person": "Chris LeCates",
+   "email": "clecates@arctrust.com",
+   "also": [
+    "gsheehan@arctrust.com",
+    "jdonalson@arctrust.com"
+   ],
+   "sent": "2026-10-02",
+   "outcome": "replied",
+   "note": "On Kevin's original 21 Sep memo thread, nudged again 12 Oct. Came back the next day with the most detailed underwriting pushback of the round - and an open question, not a pass."
+  },
+  {
+   "channel": "direct",
+   "firm": "Parse Capital",
+   "person": "Brett Balda",
+   "email": "brett.balda@parsecap.com",
+   "also": [
+    "bmitchell@parsecap.com"
+   ],
+   "sent": "2026-10-02",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Evergen Equity",
+   "person": "Omar Hamdan",
+   "email": "omar@evergenequity.com",
+   "also": [
+    "troy@evergenequity.com",
+    "investments@evergenequity.com"
+   ],
+   "sent": "2026-10-02",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "STRE Management USA",
+   "person": "Camilo Padron",
+   "email": "camilo.padron@strem.us",
+   "sent": "2026-10-06",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Cushman & Wakefield",
+   "person": "Chase Tagen",
+   "email": "chase.tagen@cushwake.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Offered 7 Oct, finally sent 12 Oct ahead of the 22 Oct breakfast."
+  },
+  {
+   "channel": "kirsh",
+   "firm": "Range Equity",
+   "person": "Andrew Gindy",
+   "email": "agindy@remlp.com",
+   "sent": "2026-10-03",
+   "outcome": "replied",
+   "knows": "doesn't know them"
+  },
+  {
+   "channel": "kirsh",
+   "firm": "Tramview Capital",
+   "person": "Beau Vande Walle",
+   "email": "bvandewalle@tramview.com",
+   "also": [
+    "cmyerson@tramview.com",
+    "rdavies@tramview.com"
+   ],
+   "sent": "2026-10-02",
+   "outcome": "replied",
+   "knows": null
+  },
+  {
+   "channel": "kirsh",
+   "firm": "Green Pine Real Estate",
+   "person": "Seth Grossman",
+   "email": "skg@greenpinere.com",
+   "sent": "2026-10-03",
+   "outcome": "replied",
+   "knows": "doesn't know them"
+  },
+  {
+   "channel": "kirsh",
+   "firm": "Mile Rock Capital",
+   "person": "Zack Georgeson",
+   "email": "zack@milerockcapital.com",
+   "sent": "2026-10-03",
+   "outcome": "replied",
+   "knows": "doesn't know them"
+  },
+  {
+   "channel": "direct",
+   "firm": "Horowitz Group",
+   "person": "Angela",
+   "email": "angela@horowitzgroup.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them.",
+   "knows": "current investor",
+   "also": [
+    "matt@horowitzgroup.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Belay Investment Group",
+   "person": "Michael van Leeuwen",
+   "email": "mvanleeuwen@belayinvestmentgroup.com",
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "knows": "knows them",
+   "note": "Sent 12 Oct to Michael van Leeuwen; only the survey list address was on file before."
+  },
+  {
+   "channel": "direct",
+   "firm": "Tryperion Holdings",
+   "person": "Greg Rollman",
+   "email": "grollman@tryperion.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "knows": "knows them",
+   "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them and sent direct 12 Oct, to Jeff Karsh with Greg copied. Greg answered. This is the one send that went under the wrong subject line - 'Equity Opp - 252 units, 2023 built - Houston' rather than the standard one.",
+   "also": [
+    "jkarsh@tryperion.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Singerman Real Estate",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "knows": "knows them",
+   "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
+  },
+  {
+   "channel": "kirsh",
+   "firm": "Argosy Real Estate Partners",
+   "person": "D. Ciccone",
+   "email": "dciccone@argosyrep.com",
+   "sent": null,
+   "outcome": "excluded",
+   "note": "Pulled from Kirsh's list because Zamir knows them and went direct on 2 Oct. Argosy passed on that thread on 7 Oct (Houston exposure), so the name is covered and closed - Kirsh never needed to send.",
+   "knows": "knows them"
+  },
+  {
+   "channel": "direct",
+   "firm": "Pennybacker Capital",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "knows": "knows them",
+   "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
+  },
+  {
+   "channel": "direct",
+   "firm": "Brasa Capital Management",
+   "person": "Eric Samek",
+   "email": "esamek@brasacap.com",
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "knows": "knows them",
+   "note": "No contact was on file; Zamir knew Eric Samek personally all along (\"been a long time... see you at the Roundtable next week\"). Sent 12 Oct.",
+   "also": [
+    "mmilich@brasacap.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Lenox West",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "knows": "knows them",
+   "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them.",
+   "also": [
+    "igarcia@lenoxwestcap.com",
+    "rfirouz@lenoxwestcap.com",
+    "vsaiz@lenoxwestcap.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Mountain Pacific",
+   "person": "Niv Henn",
+   "email": "niv@mntpac.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them and had introduced him to Clay and Ziggy over the summer. Zamir sent direct 12 Oct quoting their own Canyon Woods answer back to them, and Niv came back the next morning asking for seller motivation and comps.",
+   "knows": "knows them",
+   "vetoed": "On Slocumb's list; Zamir pulled it because he knows them and is going direct.",
+   "also": [
+    "brandon@mntpac.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Machine Investment Group",
+   "person": "Meredith Rodman",
+   "email": "mrodman@machineinv.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "knows": "knows them",
+   "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
+  },
+  {
+   "channel": "direct",
+   "firm": "Mavik Capital",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "knows": "knows them",
+   "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
+  },
+  {
+   "channel": "kirsh",
+   "firm": "Artisan Realty Advisors",
+   "person": "Greg Khodara",
+   "email": null,
+   "sent": null,
+   "outcome": "excluded",
+   "note": "Zamir, 3 Oct: 'This won't be a fit for Greg/Artisan.'",
+   "knows": null
+  },
+  {
+   "channel": "kirsh",
+   "firm": "Alvarez & Marsal (family office)",
+   "person": null,
+   "email": null,
+   "sent": null,
+   "outcome": "excluded",
+   "note": "Kirsh, 3 Oct: only does JVs for ground-up development.",
+   "knows": null
+  },
+  {
+   "channel": "direct",
+   "firm": "Long Wharf Capital",
+   "person": "Philip Murphy",
+   "email": "philip.murphy@longwharf.com",
+   "also": [
+    "michael.elizondo@longwharf.com",
+    "solon.aposhian@longwharf.com",
+    "justin.smith@longwharf.com",
+    "david.stein@longwharf.com"
+   ],
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "knows": "knows them",
+   "note": "Held back from the IPA send because Zamir knows them. Passed Canyon Woods 27 Aug with 'This one's not for us' and no reason. Drafted 12 Oct.",
+   "vetoed": "On Slocumb's list; Zamir pulled it because he knows them and is going direct."
+  },
+  {
+   "channel": "direct",
+   "firm": "Grandview Partners",
+   "person": "Eric Freeman",
+   "email": "freeman@grandviewpartners.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "knows": "knows them",
+   "note": "Held back from the IPA send because Zamir knows them. Passed Canyon Woods 31 Aug with 'No interest here. Thanks.' and no reason. Sent 12 Oct, silent; the 15 Oct follow-up turned it - he asked for the materials four minutes later.",
+   "vetoed": "On Slocumb's list; Zamir pulled it because he knows them and is going direct.",
+   "also": [
+    "sykes@grandviewpartners.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Belsky Capital",
+   "person": "Marc Belsky",
+   "title": "Managing Principal",
+   "email": "marc@marcbelsky.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Not on anyone's list - Zamir added him on the day. Replied within nine minutes."
+  },
+  {
+   "channel": "slocumb",
+   "firm": "621 Capital",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "slocumb",
+   "firm": "Arc Capital Partners",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "slocumb",
+   "firm": "BIG Equity Investors",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "slocumb",
+   "firm": "Claritas Capital",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "slocumb",
+   "firm": "Manglar Capital",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "slocumb",
+   "firm": "Nelnet",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. Send confirmed by his 15 Oct report-back; the only one of his seven still awaiting a response.",
+   "brokerSend": true
+  },
+  {
+   "channel": "slocumb",
+   "firm": "Ulysses Capital Management",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "direct",
+   "firm": "Silver Cap Partners",
+   "person": "John Scott Trotter",
+   "email": "Trotter@silvercappartners.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Relationship send, not from the equity list - sent direct on 12 Oct ahead of the broader round. Passed 14 Oct on Houston concentration."
+  },
+  {
+   "channel": "direct",
+   "firm": "Two Sigma",
+   "person": "Spencer Traver",
+   "email": "Spencer.Traver@twosigma.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Relationship send, not from the equity list - sent direct on 12 Oct ahead of the broader round."
+  },
+  {
+   "channel": "direct",
+   "firm": "TriGate Capital",
+   "person": "A. Aultz",
+   "email": "aaultz@trigatecapital.com",
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "Canyon Woods was a conditional, not a pass: 'that equity requirement is slightly too large for our value-add fund'. This is a third the size.",
+   "also": [
+    "credding@trigatecapital.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "ABR Capital",
+   "person": "Peter Heller",
+   "email": "peter.heller@abrcapital.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Told us they write $5-15M checks. $11.65M is dead centre.",
+   "also": [
+    "jake.martin@abrcapital.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "West Pine",
+   "person": "Tim Haskin",
+   "email": "timothy.haskin@west-pine.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Asked 'what is going in cap' on Canyon Woods and never got an answer, so this email led with it. Replied 14 Oct asking for a call.",
+   "also": [
+    "huisen.chua@west-pine.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "CastleSquare",
+   "person": "Alanna Wojciechowski",
+   "email": "aw@castlesquare.com",
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "Materials stage on Canyon Woods - asked for an OM or model. Offered up front this time."
+  },
+  {
+   "channel": "direct",
+   "firm": "Benedict Realty Group",
+   "person": "Steven Kohn",
+   "email": "steven.kohn@brgny.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Tried to get a Monday on the books in August and it slipped. Came back in a day, not on the deal as sent but asking whether a co-GP structure would interest us."
+  },
+  {
+   "channel": "direct",
+   "firm": "Lindell Investments",
+   "person": "Burke Roper",
+   "email": "burke@lindellinvestments.com",
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "Burke Roper joined as CIO in 2026, replacing Mark Stroud, so the email leads to him with Jack and Carl copied. Jack's Canyon Woods read was 'single check writer, we're out... Carl will struggle with California' - not CA here, and a third the size. Burke is a former colleague of Kevin Mawby, who ran this underwriting.",
+   "also": [
+    "jack@lindellinvestments.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Marble Capital",
+   "person": "Brad Moynihan",
+   "email": "bmoynihan@marblecapitallp.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "'Not targeting CA or pre-2010 deals.' Both clear, and Marble is a Houston shop."
+  },
+  {
+   "channel": "direct",
+   "firm": "Blue Vista",
+   "person": "J.P. Sletteland",
+   "email": "jpsletteland@bluevistallc.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Passed Canyon Woods on pre-2000s construction, so the email led on the 2023 vintage and removed that objection outright. It worked - he passed on the exit cap instead, which is a better place to be.",
+   "also": [
+    "dstephenson@bluevistallc.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Lightning Tree Capital",
+   "person": "Chris Dzurinko",
+   "email": "chris@lightningtreecapital.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Gave feedback on Canyon Woods, so the email thanked him for it and led with Houston. He came back two days later having actually run the model - the only reader who did."
+  },
+  {
+   "channel": "direct",
+   "firm": "Wtrshd Capital",
+   "person": "Dave McCullagh / Laura Whitaker",
+   "email": "laura@wtrshdcap.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Passed Canyon Woods for bandwidth, not on merit - Laura was away. Sending to them both worked: she answered in 90 minutes, but with a reporting demand on the existing portfolio rather than a read on this deal.",
+   "also": [
+    "dave@wtrshdcap.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Pearlmark",
+   "person": "Rich Dougherty",
+   "email": "rdougherty@pearlmark.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "'Fully specified on our current equity fund' was the Canyon Woods answer - timing, not a view. Kyle Nealis has left, so the send went to Rich with Dhruv and Christian copied. He came back in three hours and handed it to Erin Sullivan, who covers Texas.",
+   "also": [
+    "cmendez@pearlmark.com",
+    "dshah@pearlmark.com",
+    "esullivan@pearlmark.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Westport Capital Partners",
+   "person": "Brian Fraker",
+   "email": "bfraker@westportcp.com",
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "'New fund starting in 2027 with a multifamily allocation.' We close January 2027.",
+   "also": [
+    "sarmstrong@westportcp.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Forum Investment Group",
+   "person": "Jeremy Warren",
+   "email": "jwarren@forumig.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "'Vintage a little old; looking for 2010 and newer' - fixed. Their no-LP-equity point is not, and the email says so.",
+   "also": [
+    "jmanning@forumig.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Belveron Partners",
+   "person": "Ben Kraus",
+   "email": "ben@belveronpartners.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "'Let us know if there are any other deals' - taken at their word, and honest that this is not affordable product.",
+   "also": [
+    "jeremy@belveronpartners.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "IMCO",
+   "person": "Richard Varkey",
+   "email": "richard.varkey@imcoinvest.com",
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "Passed with no reason given. This email asks for one.",
+   "also": [
+    "rossitsa.stoyanova@imcoinvest.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Vey Capital",
+   "person": "Sergio Salas",
+   "email": "sergio@vey-capital.com",
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "'$30MM, even half of that, is outside our scope.' $11.65M is below that half; the email concedes it may still be too big."
+  },
+  {
+   "channel": "direct",
+   "firm": "Halstatt Real Estate Partners",
+   "person": "Steve Iannaccone",
+   "email": "siannaccone@halstatt.com",
+   "sent": "2026-10-13",
+   "outcome": "silent",
+   "note": "Passed Canyon Woods 27 Aug on one ground only: 'out of our geographic footprint' - that was the Bay Area. Fund V ($200M target, $10-30M checks) deploys in Southeast Florida and Texas, and they already own in the Houston MSA. On the 21 Jul call Steve asked Zamir to send him anything compelling. Sent 00:50 on 13 Oct on that opening, offered either as LP or as a partnership. The last name in the round.",
+   "also": [
+    "kheinze@halstatt.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Flagship Capital Partners",
+   "person": "Mark Berins / Brian Cutrell",
+   "email": "bcutrell@flagshipco.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Houston-based, at One Greenway Plaza. Offered extra GP co-invest above the standard 10% and asked for their read on the submarket. Brian Cutrell, copied on the send, came back asking for a call.",
+   "also": [
+    "mberins@flagshipco.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Island Capital Group",
+   "person": "Joe Lytle",
+   "email": "jlytle@islecap.com",
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "From the equity list. Not Island Wealth Management, which is a different firm that asked to be left alone.",
+   "also": [
+    "svonbonin@islecap.com",
+    "phughson@islecap.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Argos Capital Partners",
+   "person": "Shaun Walsh",
+   "email": "swalsh@argoscapitalpartners.com",
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "From the equity list. Distinct from Argosy, who passed on this deal on 7 Oct."
+  },
+  {
+   "channel": "direct",
+   "firm": "Astor Realty Capital",
+   "person": "Michael Korine",
+   "email": "mk@astorrealtycapital.com",
+   "sent": "2026-10-12",
+   "outcome": "bounced",
+   "note": "Primary address mk@astorrealtycapital.com hard-bounced on 12 Oct (550 5.7.1, recipient rejected as invalid) \u2014 Michael Korine never received it. Alena was copied and did receive it; a note asking her to forward or supply the right address is drafted.",
+   "also": [
+    "alena@astorrealtycapital.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Coulton Creek Capital",
+   "person": "Scott Brown / Will Hensley",
+   "email": "sbrown@ccrcapital.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "From the equity list. Scott Brown passed Canyon Woods on a full pipeline in August, which read as timing rather than a view - so the follow-up went back. Will Hensley answered 16 Oct with the same answer: still a full plate, check back any time.",
+   "also": [
+    "whensley@ccrcapital.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Eagle Realty Group",
+   "person": "Scott Pearson / Chad Gagnon",
+   "email": "chad.gagnon@eaglerealtygroup.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "From the equity list; their stated check ceiling is $40M, so $11.65M sits well inside. Scott Pearson is out of the country until 20 Oct and auto-replied, but Chad Gagnon - copied on the send - answered for the firm the next morning.",
+   "also": [
+    "scott.pearson@eaglerealtygroup.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "HIG Realty Partners",
+   "person": "James Gallo",
+   "email": "jgallo@higrealty.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Adam Belfer said in March that HIG wants high-teens IRR and 1.8x+, so the email led on 20.3% and 2.25x to clear that bar explicitly. It worked: James came back asking for a call, with the exit cap as the open question rather than the return.",
+   "also": [
+    "abelfer@higrealty.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "JDI Realty",
+   "person": "Maggie DeWoskin",
+   "email": "mdewoskin@jdirealty.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Sent to Maggie alone because Kevin Connor and Sam had moved on - the old CC would have bounced into two dead boxes. She came back inside a day with the only numerically specific pass we have."
+  },
+  {
+   "channel": "direct",
+   "firm": "Realm",
+   "person": "Travis King",
+   "email": "tking@realmlp.com",
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "From the equity list.",
+   "also": [
+    "rphillips@realmlp.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Loci Capital",
+   "person": "Garrett Francis",
+   "email": "gfrancis@locicapital.com",
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "Reinstated. The 'remove from distribution list' line meant remove Mike N, who had left - not Loci. Garrett is a friend."
+  },
+  {
+   "channel": "direct",
+   "firm": "7 Acre Investments",
+   "person": "Adam",
+   "email": "adam@sevenacreinvest.com",
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "From the equity list."
+  },
+  {
+   "channel": "direct",
+   "firm": "Cross Lake Partners",
+   "person": "B. Riley",
+   "email": "briley@crosslakepartners.com",
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "From the equity list."
+  },
+  {
+   "channel": "direct",
+   "firm": "LaSalle Investment Management",
+   "person": "Joe Paskov",
+   "email": "joseph.paskov@lasalle.com",
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "From the equity list. Email concedes the check is small for LaSalle and asks for the right vehicle.",
+   "also": [
+    "dan.witte@lasalle.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Lafayette Street Capital",
+   "person": "Dan Rosenbloom",
+   "email": "dan@lafayettesc.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "From the equity list; the tracker carried this as 'Lafayette Square' until his signature showed the real name. Passed 15 Oct off the follow-up, no reason given."
+  },
+  {
+   "channel": "direct",
+   "firm": "DRA Advisors",
+   "person": "Jake Hannah",
+   "email": "jhannah@draadvisors.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Added on the day, outside every prepared list."
+  },
+  {
+   "channel": "direct",
+   "firm": "Olive Point Capital",
+   "person": "Ricardo Goldberg",
+   "email": "ricardo@olivepointcapital.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Added on the day, outside every prepared list."
+  },
+  {
+   "channel": "direct",
+   "firm": "Palatine Capital Partners",
+   "person": "Jonah Gill",
+   "email": "jgill@pal-partners.com",
+   "also": [
+    "msacks@pal-partners.com",
+    "wcaplan@pal-partners.com",
+    "cbeckman@pal-partners.com"
+   ],
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Betesh and Sacks each passed Canyon Woods purely on California, independently of one another."
+  },
+  {
+   "channel": "direct",
+   "firm": "MLG Capital",
+   "person": "Terry Wallen",
+   "email": "terrywallen@mlgcapital.com",
+   "also": [
+    "alunde@mlgcapital.com"
+   ],
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Opens on the Charlotte BTR in March - 'the lack of cash flow would be challenging for our equity' - which is the one thing this stabilized asset has. The follow-up asked who covers Texas; Alex Lunde answered rather than Terry Wallen, and passed on household incomes and proximity to Sunnyside."
+  },
+  {
+   "channel": "direct",
+   "firm": "Midloch",
+   "person": "Brandon Banks",
+   "email": "brandon@midloch.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "'Midloch will not invest in CA multifamily' was their Canyon Woods line, so the email was short and led on basis. Replied in 3.5 hours: the basis landed, Houston did not."
+  },
+  {
+   "channel": "direct",
+   "firm": "Prospect Ridge",
+   "person": "Paul Galiano",
+   "email": "paul.galiano@prospectridge.com",
+   "also": [
+    "julia.issembert@prospectridge.com"
+   ],
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "The most specific feedback on Canyon Woods: it would have to sit in the value-add fund and they'd be wider than a 5% exit cap. A 2023 build isn't value-add, and we underwrite 6.00% out - both halves answered."
+  },
+  {
+   "channel": "direct",
+   "firm": "Citymark Capital",
+   "person": "E. Louttit",
+   "email": "elouttit@citymarkcapital.com",
+   "also": [
+    "gfent-baker@citymarkcapital.com"
+   ],
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "'Focused on 2000s and newer product.' Also asks for a replacement name, since Damien and Gillian left."
+  },
+  {
+   "channel": "direct",
+   "firm": "Integrity Housing Group",
+   "person": "Steven",
+   "email": "steven@integrityhg.com",
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "Existing JV partner in Skye at Conway and Skye Reserve, and in an active dispute with counsel engaged since 25 Sep. Drafted so it keeps Conway explicitly on its own track and gives him a clean exit. Worth clearing with Zach Oseland before it goes."
+  }
+ ],
+ "carveouts": [],
+ "suppressed": [
+  {
+   "firm": "Abrams Capital",
+   "person": "David Abrams",
+   "why": "\"Please stop emailing us.\" Structural and permanent."
+  }
+ ],
+ "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week."
 }
