@@ -692,10 +692,10 @@
   "title": null,
   "email": "peter.heller@abrcapital.com",
   "channel": "direct",
-  "stage": "question",
-  "ts": "2026-10-15T15:57:22Z",
-  "quote": "I like the asset quality and lack of future competition - which I suspect may hold once this trade is printed. [...] It appears the momentum has turned the wrong direction at the property with the 9/9 rent roll showing 22 vacant units (91% occupancy) and 17 additional notice-to-vacates with monthly NOI dropping between June-August. What is driving this softness? I note the model assumes starting occupancy of 95%.",
-  "action": "The deepest underwriting read anyone has given this deal: ten numbered questions off the actual rent roll and OM, and the only reader who has gone to the source documents rather than the teaser. He likes the asset and the empty pipeline. But question one is the whole deal - the 9/9 rent roll shows 22 vacants at 91% occupancy plus 17 notices and NOI falling June to August, against a model that starts at 95%. That needs a real answer before anything else goes out, because every other reader who opens the rent roll will find the same thing. He also catches a millage discrepancy (OM 2.9219% vs model 2.47%), asks what sits in $258,804 of miscellaneous closing costs, why the first buyer walked, whether a tax consultant has vetted the protest, and - the one with no good answer today - for a bulk internet provider term sheet, install cost and capture rate from other properties. New question nobody has raised: the property borders a large detention/drainage area, so what is the FEMA flood zone. UPDATE 19 Oct: Zamir looped Chip, Michael and Kevin onto the thread at 10:30 ET rather than answering, and Peter acknowledged at 13:06 with 'Great - thank you.' The ten questions are now the team's to answer and ABR is waiting on them. Nothing substantive has gone back yet, so question one - 91% occupancy against a 95% model - is still open four days on.",
+  "stage": "meeting",
+  "ts": "2026-10-19T20:21:16Z",
+  "quote": "Thanks for the detailed responses. Do you have any time tomorrow to connect on the deal? I'm free at 10am and 1pm if either happens to work for you.",
+  "action": "Converted. The ten questions went to Kevin at 10:30 ET, he answered all of them at 15:21 with the evidence attached - Lockton quote, no-loss letter, ALTA survey, aged receivables, effective rent, rent and sale comps and a soft bulk-internet quote - and Peter came back an hour later asking for a call. Second meeting on the board after West Pine, and the only one earned by answering underwriting rather than by relationship. Two things the answers settled that the rest of the desk should carry: the 95% starting occupancy Peter challenged is a teaser number, not a model number - the model starts Month 1 at ~92% and builds to 95% by Month 9 against last year's identical seasonal curve - and the $258,804 of miscellaneous closing costs was a 2% equity placement agent fee, now removed since we are sourcing directly, worth ~60 bps of IRR. Still soft if he presses: renewal retention is 'we've been told ~50%' and unverified until DD, and there is no lender term sheet yet, only the W&D debt matrix. He offered 10am and 1pm - he is Baltimore, so that is 7am and 10am Pacific while Zamir is at the LA Roundtable; Kevin owns the call either way.",
   "tags": [
    "occupancy-softness"
   ],
@@ -865,5 +865,20 @@
    "check-too-large"
   ],
   "heat": 1
+ },
+ {
+  "firm": "TriGate Capital",
+  "person": "Adam Aultz",
+  "title": null,
+  "email": "aaultz@trigatecapital.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-10-19T20:56:50Z",
+  "quote": "We recently allocated all of the remaining equity from our first closing of Fund 5 to a new deal we are putting under contract, so need to have another closing before we commit to a new deal. Expecting Q1 next year. As such, unfortunately the timing does not work for us right now.",
+  "action": "The second-wave thesis was right and it still did not matter. On Canyon Woods Adam said he would normally be interested but the equity requirement was slightly too large for the value-add fund until he had a few more closes; the 12 Oct send led with exactly that, at a third the check. He does not argue with any of it - no Houston objection, no quarrel with the basis or the business plan. Fund 5's first close is simply spent, committed to a deal they are putting under contract, and the next close is Q1. That is the third timing pass in the round after Machine and Westport, and all three point the same way: the January close is ahead of where this vintage of capital actually is. Worth a diarised note for Q1 rather than any further push on this deal.",
+  "tags": [
+   "capital-paused"
+  ],
+  "heat": 2
  }
 ]
