@@ -18,12 +18,14 @@
   "title": "Managing Director, Strategic Advisory & Capital Markets",
   "email": "chase.tagen@cushwake.com",
   "channel": "direct",
-  "stage": "question",
-  "ts": "2026-10-12T19:06:45Z",
-  "quote": "Who is the seller? What is the current debt balance?",
-  "action": "Answered the same hour - RAH, buying right at the loan balance. Diligence questions rather than a brush-off. Breakfast already set for 22 Oct.",
-  "tags": [],
-  "heat": 4
+  "stage": "pass",
+  "ts": "2026-10-19T14:59:14Z",
+  "quote": "I wish been on road last 4 weeks and not getting much appetite for this profile",
+  "action": "Zamir asked him this morning for groups that might have interest. The answer is a market read, not a decline as principal - Chase is a C&W capital markets MD, not an LP, and he has been on the road four weeks. 'Not getting much appetite for this profile' is the second independent broker corroboration after Marc Belsky that the blocker sits in the market rather than in the underwriting, and it is the broader of the two: Belsky framed it as Houston, Chase frames it as the profile itself - a stabilized 2023 build at a 6 cap. Tagged profile-appetite rather than houston-sentiment so the Houston count on this page stays honest. The 12 Oct seller and debt-balance questions were answered the same hour and breakfast is still on for 22 Oct, so the relationship is intact; he is simply not a source of equity here. Worth pressing at breakfast on what profile IS getting appetite right now.",
+  "tags": [
+   "profile-appetite"
+  ],
+  "heat": 2
  },
  {
   "firm": "Horowitz Group",

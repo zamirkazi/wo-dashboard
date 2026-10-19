@@ -45,11 +45,12 @@ TAG_LABEL = {
     'check-too-small':       'Check too small for them',
     'capital-paused':        'Pausing on real estate',
     'non-local-sponsor':     'Sponsor is not local to the market',
+    'profile-appetite':      'Broker reads thin market appetite for the profile',
 }
 # Which objections are about Houston itself vs. about this deal's economics.
 MARKET_TAGS = {'houston-exposure','houston-sentiment','submarket-demographics','strategy-mismatch'}
 DEAL_TAGS   = {'going-in-yield','negative-leverage','exit-cap','fee-drag','occupancy-softness','unit-size',
-               'partner-conflict','check-too-small','capital-paused','non-local-sponsor'}
+               'partner-conflict','check-too-small','capital-paused','non-local-sponsor','profile-appetite'}
 
 data = {
     'deal': deal,
