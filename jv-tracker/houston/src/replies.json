@@ -1,16 +1,18 @@
 [
  {
   "firm": "Palatine Capital Partners",
-  "person": "Jonah Gill",
-  "title": "Palatine Capital Partners Management",
-  "email": "jgill@pal-partners.com",
+  "person": "Carly Beckman",
+  "title": null,
+  "email": "cbeckman@pal-partners.com",
   "channel": "direct",
-  "stage": "reviewing",
-  "ts": "2026-10-12T20:35:24Z",
-  "quote": "Thanks Zamir, let us take a look here and we'll be in touch.",
-  "action": "Four minutes from send to reply, and he pulled in Caplan and Beckman. Both Betesh and Sacks passed on Canyon Woods purely on California, so there is nothing else on file blocking this one.",
-  "tags": [],
-  "heat": 4
+  "stage": "pass",
+  "ts": "2026-10-19T16:43:05Z",
+  "quote": "Great basis but we're not huge fans of Pasadena. Appreciate the look!",
+  "action": "Zamir nudged Jonah Gill this morning after a week of silence and the answer came back from Carly Beckman instead - the firm's read, not one person's. Textbook version of the round's pattern: the basis is praised, then the location kills it. What is new is the precision. Every other micro-location objection has been generic - the immediate area, the demographics. Beckman names Pasadena. That is the sixth reader to stop at the submarket rather than Houston or the economics, and the only one to say the place out loud, which makes it the cleanest statement of the objection the memo still has no answer for. Both Betesh and Sacks passed on Canyon Woods purely on California, so there was nothing else on file blocking this - the submarket was the whole gate.",
+  "tags": [
+   "submarket-demographics"
+  ],
+  "heat": 1
  },
  {
   "firm": "Cushman & Wakefield",
@@ -693,7 +695,7 @@
   "stage": "question",
   "ts": "2026-10-15T15:57:22Z",
   "quote": "I like the asset quality and lack of future competition - which I suspect may hold once this trade is printed. [...] It appears the momentum has turned the wrong direction at the property with the 9/9 rent roll showing 22 vacant units (91% occupancy) and 17 additional notice-to-vacates with monthly NOI dropping between June-August. What is driving this softness? I note the model assumes starting occupancy of 95%.",
-  "action": "The deepest underwriting read anyone has given this deal: ten numbered questions off the actual rent roll and OM, and the only reader who has gone to the source documents rather than the teaser. He likes the asset and the empty pipeline. But question one is the whole deal - the 9/9 rent roll shows 22 vacants at 91% occupancy plus 17 notices and NOI falling June to August, against a model that starts at 95%. That needs a real answer before anything else goes out, because every other reader who opens the rent roll will find the same thing. He also catches a millage discrepancy (OM 2.9219% vs model 2.47%), asks what sits in $258,804 of miscellaneous closing costs, why the first buyer walked, whether a tax consultant has vetted the protest, and - the one with no good answer today - for a bulk internet provider term sheet, install cost and capture rate from other properties. New question nobody has raised: the property borders a large detention/drainage area, so what is the FEMA flood zone.",
+  "action": "The deepest underwriting read anyone has given this deal: ten numbered questions off the actual rent roll and OM, and the only reader who has gone to the source documents rather than the teaser. He likes the asset and the empty pipeline. But question one is the whole deal - the 9/9 rent roll shows 22 vacants at 91% occupancy plus 17 notices and NOI falling June to August, against a model that starts at 95%. That needs a real answer before anything else goes out, because every other reader who opens the rent roll will find the same thing. He also catches a millage discrepancy (OM 2.9219% vs model 2.47%), asks what sits in $258,804 of miscellaneous closing costs, why the first buyer walked, whether a tax consultant has vetted the protest, and - the one with no good answer today - for a bulk internet provider term sheet, install cost and capture rate from other properties. New question nobody has raised: the property borders a large detention/drainage area, so what is the FEMA flood zone. UPDATE 19 Oct: Zamir looped Chip, Michael and Kevin onto the thread at 10:30 ET rather than answering, and Peter acknowledged at 13:06 with 'Great - thank you.' The ten questions are now the team's to answer and ABR is waiting on them. Nothing substantive has gone back yet, so question one - 91% occupancy against a 95% model - is still open four days on.",
   "tags": [
    "occupancy-softness"
   ],
@@ -848,5 +850,20 @@
    "non-local-sponsor"
   ],
   "heat": 2
+ },
+ {
+  "firm": "Vey Capital",
+  "person": "Sergio Salas",
+  "title": null,
+  "email": "sergio@vey-capital.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-10-19T16:30:37Z",
+  "quote": "Thank you for the opportunity but the equity on this project is more than we want to commit at this point. We appreciate your willingness to commit more capital on your side but we generally like to own 90% of a project.",
+  "action": "A clean close, and the inverse of every other size objection on this board. On Canyon Woods Sergio ruled out $30M or even half of it; the 16 Oct follow-up pointed out that $11.65M sits below that half and explicitly offered to carve to any number that worked. He declined to name one, which is what makes this final rather than a negotiation - the ask was open and he did not take it. The reason is structural, not about Houston or the basis: Vey wants to own 90% of a project, so they are looking for deals small enough that their whole check buys control. At $11.65M for the LP, this is simply the wrong size of vehicle for them. No Houston objection, no quarrel with the underwriting - do not re-engage on this deal, but they stay a fit for a smaller one.",
+  "tags": [
+   "check-too-large"
+  ],
+  "heat": 1
  }
 ]
