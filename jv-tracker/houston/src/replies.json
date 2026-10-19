@@ -830,5 +830,21 @@
    "capital-paused"
   ],
   "heat": 2
+ },
+ {
+  "firm": "Lindell Investments",
+  "person": "Burke Roper",
+  "title": "Chief Investment Officer",
+  "email": "burke@lindellinvestments.com",
+  "channel": "direct",
+  "stage": "reviewing",
+  "ts": "2026-10-19T14:09:08Z",
+  "quote": "thanks for thinking of us, deal seems to pencil nicely based on your comments below. Likely not a fit for us given the geography and non-local sponsorship but we will discuss when Carl gets back later this week and get you defeinitive feedback.",
+  "action": "The 16 Oct follow-up - concessions realized, the comp set, the exit 23-31% below comparable-vintage trades - landed: he says the deal 'seems to pencil nicely.' The two reasons he gives for leaning no are both about who and where, not the numbers: geography, and that ZMR is not a local sponsor. Non-local sponsorship is new - no one else in this round has raised it - and it is the one objection Kevin can answer personally, since Burke is a former colleague of his. Carl is back later this week and Burke committed to definitive feedback, so this is a live committee look, not a pass. Have Kevin reach out directly before Carl's meeting rather than sending more material.",
+  "tags": [
+   "strategy-mismatch",
+   "non-local-sponsor"
+  ],
+  "heat": 2
  }
 ]
