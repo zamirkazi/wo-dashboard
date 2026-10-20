@@ -332,13 +332,12 @@
   "email": "niv@mntpac.com",
   "channel": "direct",
   "stage": "question",
-  "ts": "2026-10-16T07:29:50Z",
-  "quote": "Do you have a more detailed rent survey you can provide? Ideally one that shows sf by unit type, interior/exterior amenities, etc. How would you say this market compares to Katy? Basis feels expensive at a quick glance.",
-  "action": [
-   "Deepening, not cooling: he brought Brandon Fikhman onto the thread for visibility, which is how a second look starts. But the last line is the one that matters - 'basis feels expensive at a quick glance' makes him the second reader, after Mavik, to challenge the thing the whole pitch rests on. The Katy comparison tells you why: he is pricing this against a far stronger Houston submarket, so the comp set Kevin sent (2015-2019 product 5-7 miles out, submarket trades averaging 1978 vintage) reads to him as evidence the location is weak rather than that the basis is cheap. Answer the Katy question head-on and send the detailed rent survey with square footage by unit type and amenities. Earlier in the thread Zamir gave the seller motivation as a maturing loan with an equity partner who will not refinance, which is sharper than the broken-process story the teaser leads with."
-  ],
+  "ts": "2026-10-20T06:02:57Z",
+  "quote": "Is there a reason Concord at Allendale Apartments and Aria at Bellfort were excluded from the rent survey? Both these properties are much closer to the subject and have lower rents. Also are any of the comps currently charging for bulk cable, and if so, how much? This Houston submarket also seems to hold 14% vacancy based on CoStar and around 10% vacancy based on the comps. Curious as to how you guys got comfortable stabilizing at 5%.",
+  "action": "The hardest diligence on the board, and it lands on all three load-bearing assumptions at once. First, he names two comps - Concord at Allendale and Aria at Bellfort - that are closer to the subject and cheaper, and asks why they were left out. That is a cherry-picking challenge to the comp set Kevin built the basis argument on, and it needs a straight answer rather than a wider HelloData pull. Second, he asks whether any comp currently charges for bulk cable and how much - the one question that tests whether the $70/unit bulk internet line is incremental income or already in market rents. Third, and most serious: CoStar puts submarket vacancy at 14% and his read of the comps at 10%, against a model that stabilizes at 5%. Nobody else has put that number on the table. The Katy exchange also gave up a useful figure - the deal he was weighing is new vintage at $150-160K/unit, so against the live alternative on his desk the $135K basis is 10-15% better, not half. Kevin's market distinction landed ('Understood'), but the basis argument now has to beat $150-160K rather than $245-274K. He is still asking rather than passing, five days in and with Brandon Fikhman on the thread.",
   "tags": [
-   "going-in-yield"
+   "going-in-yield",
+   "submarket-vacancy"
   ],
   "heat": 4
  },

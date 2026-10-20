@@ -35,6 +35,7 @@ TAG_LABEL = {
     'houston-sentiment':     'Houston sentiment / burned',
     'submarket-demographics':'Submarket demographics',
     'strategy-mismatch':     'Mandate mismatch',
+    'submarket-vacancy':     'Submarket vacancy vs the 5% stabilized assumption',
     'going-in-yield':        'Going-in yield too thin',
     'negative-leverage':     'Negative leverage at $34M',
     'exit-cap':              'Exit cap too tight at 6.00%',
@@ -49,7 +50,7 @@ TAG_LABEL = {
     'check-too-large':       'Check larger than they write',
 }
 # Which objections are about Houston itself vs. about this deal's economics.
-MARKET_TAGS = {'houston-exposure','houston-sentiment','submarket-demographics','strategy-mismatch'}
+MARKET_TAGS = {'houston-exposure','houston-sentiment','submarket-demographics','strategy-mismatch','submarket-vacancy'}
 DEAL_TAGS   = {'going-in-yield','negative-leverage','exit-cap','fee-drag','occupancy-softness','unit-size',
                'partner-conflict','check-too-small','capital-paused','non-local-sponsor','profile-appetite','check-too-large'}
 
