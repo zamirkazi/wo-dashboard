@@ -864,6 +864,35 @@
    "sent": "2026-10-12",
    "outcome": "silent",
    "note": "Existing JV partner in Skye at Conway and Skye Reserve, and in an active dispute with counsel engaged since 25 Sep. Drafted so it keeps Conway explicitly on its own track and gives him a clean exit. Worth clearing with Zach Oseland before it goes."
+  },
+  {
+   "channel": "direct",
+   "firm": "Eastham Capital",
+   "person": "Brian Hertig",
+   "email": "brian@easthamcapital.com",
+   "also": [
+    "eric@easthamcapital.com"
+   ],
+   "sent": "2026-10-21",
+   "outcome": "silent"
+  },
+  {
+   "channel": "direct",
+   "firm": "JSB Capital Group",
+   "person": "Scott Liebman",
+   "email": "scott@jsbcapitalgroup.com",
+   "also": [],
+   "sent": "2026-10-21",
+   "outcome": "silent"
+  },
+  {
+   "channel": "direct",
+   "firm": "Baltisse",
+   "person": "Andrew Lohrfink",
+   "email": "andrew.lohrfink@baltisse.com",
+   "also": [],
+   "sent": "2026-10-21",
+   "outcome": "silent"
   }
  ],
  "carveouts": [],
