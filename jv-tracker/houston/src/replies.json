@@ -331,15 +331,14 @@
   "title": null,
   "email": "niv@mntpac.com",
   "channel": "direct",
-  "stage": "question",
-  "ts": "2026-10-20T06:02:57Z",
-  "quote": "Is there a reason Concord at Allendale Apartments and Aria at Bellfort were excluded from the rent survey? Both these properties are much closer to the subject and have lower rents. Also are any of the comps currently charging for bulk cable, and if so, how much? This Houston submarket also seems to hold 14% vacancy based on CoStar and around 10% vacancy based on the comps. Curious as to how you guys got comfortable stabilizing at 5%.",
-  "action": "The hardest diligence on the board, and it lands on all three load-bearing assumptions at once. First, he names two comps - Concord at Allendale and Aria at Bellfort - that are closer to the subject and cheaper, and asks why they were left out. That is a cherry-picking challenge to the comp set Kevin built the basis argument on, and it needs a straight answer rather than a wider HelloData pull. Second, he asks whether any comp currently charges for bulk cable and how much - the one question that tests whether the $70/unit bulk internet line is incremental income or already in market rents. Third, and most serious: CoStar puts submarket vacancy at 14% and his read of the comps at 10%, against a model that stabilizes at 5%. Nobody else has put that number on the table. The Katy exchange also gave up a useful figure - the deal he was weighing is new vintage at $150-160K/unit, so against the live alternative on his desk the $135K basis is 10-15% better, not half. Kevin's market distinction landed ('Understood'), but the basis argument now has to beat $150-160K rather than $245-274K. He is still asking rather than passing, five days in and with Brandon Fikhman on the thread.",
+  "stage": "pass",
+  "ts": "2026-10-21T21:47:46Z",
+  "quote": "Understood on Concord and market vacancy, but I don't think we can get comfortable with the spread between underwritten rents and Aria, so we'll have to pass. Please keep us posted on the next one!",
+  "action": "A pass, and the most informative one on the board because he conceded two of his three challenges and died on the third. Kevin answered all of it on 20 Oct: Concord at Allendale is 2002 vintage so not a true comp; submarket vacancy is diluted by older Class B/C stock, the comp average is dragged by Aria at Burke still leasing at ~63%, stabilized comps average 94.9%, the subject is 94.8% today, and RPM underwrites ~94% in Year 1. Niv accepted both - 'Understood on Concord and market vacancy.' What he would not accept is Aria at Bellfort: 1BRs about $1,165 at 650 SF and 2BRs about $1,450 at 930-1,000 SF, against our underwritten rents. Kevin's answer was that per-SF the two are close and Aria is an outlier on finishes and amenities. Niv did not buy it. Three things follow. One: this is a deal objection, not a Houston objection - he passed on the rent underwrite, which makes him one of only a handful on the board quarreling with the economics rather than the market. Two: Aria is the nearest comp and it is now the known soft spot; Island Capital asked for the 90-day lease trade-out report this afternoon and will find the same gap, so have the per-SF bridge and the signed-lease evidence ready before they ask. Three: he is off the co-GP list. Zamir's 12 Oct send explicitly offered co-GP or pref as an alternative and Niv passed on the asset outright, so the earlier read that Mountain Pacific was a structure question rather than a deal question was wrong. He asked to be kept posted on the next one, and he gave up a useful number on the way out: the Katy deal on his desk is new vintage at $150-160K/unit.",
   "tags": [
-   "going-in-yield",
-   "submarket-vacancy"
+   "rent-spread"
   ],
-  "heat": 4
+  "heat": 2
  },
  {
   "firm": "Eagle Realty Group",
