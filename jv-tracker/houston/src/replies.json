@@ -988,5 +988,37 @@
   "action": "Two sends and ten days of silence, then seventeen minutes. A commitment to look tomorrow, which puts a real date on it. Worth holding the history in mind: Matthew Keen at LaSalle passed on Palm Aire in January, and Paskov himself on the Logan Farms BTR in March said 'please do keep us apprised and we will be ready to jump back in at the appropriate time' - so this is a warm relationship that has not yet transacted. Dan Witte is on the thread. LaSalle is also the Skye Oaks lender relationship, which cuts both ways.",
   "tags": [],
   "heat": 3
+ },
+ {
+  "firm": "7 Acre Investments",
+  "person": "Adam Fletcher",
+  "title": "Founder & Managing Partner",
+  "email": "adam@sevenacreinvest.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-10-22T12:47:50Z",
+  "quote": "A no for us right now...we're just inundated and I'm just doing pref, and maybe one more acquisition if it clears a high bar. I'm not as hot on Houston for acquisition/JV, I'd do pref though",
+  "action": "A pass on the LP ask that leaves a door open on structure: he says twice that he would do pref. Three separate reasons stack here - capacity ('inundated'), a product-type limit (pref only, with at most one more acquisition at a high bar), and Houston specifically for acquisition or JV. Note the asymmetry: Houston is a problem for him as equity but apparently not as pref, which is a credit position sitting above our equity. We are not raising pref on this deal, so there is nothing to convert today - but he is the second name after Mountain Pacific to answer an LP ask with 'pref instead', and if the stack is ever restructured he has said yes in advance. Worth keeping for the next deal where a pref piece exists.",
+  "tags": [
+   "pref-only",
+   "capital-paused",
+   "houston-sentiment"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "Loci Capital",
+  "person": "Garrett Francis",
+  "title": null,
+  "email": "gfrancis@locicapital.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-10-22T12:47:39Z",
+  "quote": "Going to be tough for us to take a flyer on this one. I would ask for material price discount.",
+  "action": "The only reply in the round that attacks the price itself. Everyone else who objected on economics went at the exit cap, the going-in yield or the rent underwrite; Garrett says the entry number would have to come down materially before he would look. That is a direct challenge to the load-bearing claim - that $134,921 a door is already half of comparable-vintage Houston pricing - and it came from someone who did not engage with the comp evidence at all ('take a flyer'). Two readings: either the comp set is not landing, or Houston risk is being priced in as a discount demand rather than named. He is a friend of Zamir's, so the useful follow-up is a phone call asking what number he would want and why, not another email. Note the routine's stored prompt still wrongly lists Loci as never-contact; Zamir confirmed that is not the case and authorised this send.",
+  "tags": [
+   "going-in-yield"
+  ],
+  "heat": 1
  }
 ]
