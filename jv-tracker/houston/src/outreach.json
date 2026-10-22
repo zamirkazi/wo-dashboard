@@ -916,6 +916,18 @@
    "sent": "2026-09-23",
    "outcome": "replied",
    "note": "Platform-level relationship rather than a one-deal LP approach - lunch with Ace in person on 14 Aug, company overview, track record and 2026 pipeline sent 23 Sep. Was never recorded on this board at all until the 22 Oct outbox reconciliation found it; 109 campaign addresses were checked against the board and this was the only firm missing."
+  },
+  {
+   "channel": "direct",
+   "firm": "RJL Capital Advisors",
+   "person": "Jonathan Livi",
+   "email": "jonathan@rjlcapadvisors.com",
+   "also": [
+    "nikko@rjlcapadvisors.com"
+   ],
+   "sent": null,
+   "outcome": "drafted",
+   "note": "Capital advisory in Great Neck, NY - Jonathan Livi is Managing Principal. Not an LP: they place capital, so a yes here is access to their investor rather than a cheque from them. In March his analyst Nikko Acosta sent a live 1031 mandate - $150MM for cash-flowing industrial and multifamily, multifamily at a 5.5%+ day-one yield, $20MM+ per deal, recaps preferred. Allen Genoa goes in around a 6.0% cap, which clears that yield test outright; the two mismatches are the $11.65M ask against their $20MM target and the fact that this is an acquisition rather than a recap, both named in the draft rather than left to be discovered. Jonathan wrote on 22 Oct at 12:46pm ET asking to catch up the same day, so the reply is drafted on that thread. The mandate is seven months old and needs re-confirming, and how the 1031 investor takes title is the question that decides whether this is workable at all."
   }
  ],
  "carveouts": [],
