@@ -1033,5 +1033,20 @@
   "action": "Not silent - he answered by phone and Zamir relayed it on 22 Oct. This row had been held out of every follow-up batch on the basis that Steven is an existing JV partner in Skye at Conway and Skye Reserve with counsel engaged in a dispute since 25 Sep, and that approaching him on a new raise was Zach Oseland's call rather than a fundraising one. Zamir has now spoken to him directly: the dispute has not closed the relationship and Integrity is still open to transacting. Treat the hold as lifted; the written follow-up went out 22 Oct at 10:53am ET as an in-thread reply on the 12 Oct send, so nothing is pending in drafts. Two practical notes: Travis Cotter (travis@integrityhg.com) has left Integrity and must not be sent to - he is still listed PRIMARY on the equity list CONTACTS tab and does not appear on the Departures - Verify tab, which means that tab is incomplete and the rest of the send list carries the same risk; and whatever is agreed here should keep Conway and Reserve explicitly on their own track so the new deal is not read as leverage in the existing matter.",
   "tags": [],
   "heat": 3
+ },
+ {
+  "firm": "CastleSquare",
+  "person": "Alanna Wojciechowski",
+  "title": "Director",
+  "email": "aw@castlesquare.com",
+  "channel": "direct",
+  "stage": "question",
+  "ts": "2026-10-22T14:20:42Z",
+  "quote": "Zamir - this was going to an unmonitored folder, I'm not sure why, apologies. How much equity do you have raised to date?",
+  "action": "The clearest evidence yet that the follow-up batch is doing real work rather than nagging. She was carried as silent for ten days, but the 12 Oct send and the 15 Oct bump had both been filing themselves into an unmonitored folder - she had never seen either. The third attempt, sent 21 Oct 20:07, is the one that reached a human, and she answered inside eighteen hours. Her question is the only one of its kind on the board: not about Houston, the basis or the going-in yield, but about how much of the $11.65M is already committed. That is a momentum question, and it is the one question the round currently answers badly - there is no signed LP yet. Zamir replied at 14:24. Worth deciding what the standard answer to this is before the next firm asks it, because it will be asked again.",
+  "tags": [
+   "raise-progress"
+  ],
+  "heat": 4
  }
 ]
