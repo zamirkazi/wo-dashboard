@@ -893,6 +893,17 @@
    "also": [],
    "sent": "2026-10-21",
    "outcome": "silent"
+  },
+  {
+   "channel": "direct",
+   "firm": "Artisan Capital",
+   "person": "Gregory Khodara",
+   "email": "greg@artisancp.com",
+   "also": [
+    "mina@artisancp.com"
+   ],
+   "sent": "2026-10-21",
+   "outcome": "replied"
   }
  ],
  "carveouts": [],
