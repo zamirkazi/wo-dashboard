@@ -1061,5 +1061,20 @@
   "action": "Found by reconciling the outbox against this board on 22 Oct - it was the one firm the campaign had reached that had never been recorded here, which is why no follow-up was ever drafted for it. The relationship runs deeper than the deal: Ace hosted Zamir for lunch on 14 Aug, asked for a deck, and got the company overview, track record and 2026 pipeline on 23 Sep. His 12 Oct ask is the useful part - he wants recent trades and live deals to point to internally, which is exactly what Allen Genoa is. A 2pm Friday call was agreed on 12 Oct and Zamir sent a video link on 16 Oct at 5pm, after the slot. Nothing has moved since. Confirm whether that call happened before sending anything else, then put Allen Genoa in front of him as the live deal he asked for.",
   "tags": [],
   "heat": 4
+ },
+ {
+  "firm": "Pearlmark",
+  "person": "Erin Sullivan",
+  "title": "Vice President",
+  "email": "esullivan@pearlmark.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-10-22T15:49:43Z",
+  "quote": "Zamir - thanks for following up. We're still working on getting some additional capital in the fund so right now we're going to be a pass on new opportunities, but appreciate you sending this.",
+  "action": "Closes the loop Rich Dougherty opened on 13 Oct when he routed the deal to Pearlmark's Texas coverage. Erin had the deal for nine days and said nothing; Zamir's follow-up went at 09:53 ET on 22 Oct and she answered at 10:49, inside an hour. The reason matters more than the pass: it is the same answer Rich gave on Canyon Woods six weeks ago - the equity fund is not funded, not that the deal is wrong. Pearlmark has now given a capital answer twice running and nothing about the asset either time, so the file is closed on this raise but the firm is a clean re-approach once that fund closes. Worth asking Erin directly when she expects dry powder, since the 12 Oct email put that question to Rich and it was never answered.",
+  "tags": [
+   "capital-paused"
+  ],
+  "heat": 1
  }
 ]
