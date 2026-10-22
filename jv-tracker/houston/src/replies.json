@@ -108,14 +108,14 @@
   "title": "Managing Principal",
   "email": "marc@marcbelsky.com",
   "channel": "direct",
-  "stage": "reviewing",
-  "ts": "2026-10-13T13:59:27Z",
-  "quote": "What's happening with all the people that don't have a pass next to them?",
-  "action": "Still the warmest name. He has the full no-fly list, has put his analyst on the file, and is now auditing the silent column - he wants to know which names are genuinely dead before he spends his own relationships on them. Answer it straight from this page: of 73 sent, 25 have come back and the rest are silent, not declined. He also said he is hearing the same Houston feedback through his own channels, which is outside corroboration that the blocker is the market, not our underwriting.",
+  "stage": "pass",
+  "ts": "2026-10-22T00:21:45Z",
+  "quote": "Negative unfortunately",
+  "action": "Resolved, and it is a pass. The ambiguity was whether 'negative' meant he had no feedback to give or that the feedback itself was negative; the thread settles it - Zamir's 21 Oct bump asked 'any feedback on your end?' and this is the answer to that question, signed off with a thank you. No reason attached and none likely to come. Worth noting what he asked on 13 Oct before going quiet - 'what's happening with all the people that don't have a pass next to them?' - which is the same momentum question CastleSquare asked on 22 Oct. Two readers have now asked how the book is filling rather than anything about the asset.",
   "tags": [
    "houston-sentiment"
   ],
-  "heat": 5
+  "heat": 1
  },
  {
   "firm": "STRE Management USA",
@@ -308,7 +308,7 @@
   "stage": "conditional",
   "ts": "2026-10-12T23:36:32Z",
   "quote": "We'd like to have a good handle on how these properties have been renovated and where cash has gone before we evaluate additional acquisitions together.",
-  "action": "Not an answer on this deal - an existing LP gating new allocation on reporting. Back from maternity leave and restarting a reconciliation she could not close before: NinetyNine44's $4.7M renovation reserve drew down to $638K by YE2021, then showed $1.2M at YE2022, and she wants that increase explained. She is asking, per deal, for a year-by-year reserve roll-forward, what each draw funded, and total capex by year and since acquisition. Zamir looped in Megan, who acknowledged at 16:41 on 13 Oct - 'we will get working on this and get back to you.' Acknowledged is not delivered; the reconciliation itself is still outstanding. This is the highest-leverage item on the board: it is the only reply where the blocker is ZMR's own books rather than Houston, and it is fixable.",
+  "action": "Not an answer on this deal - an existing LP gating new allocation on reporting. Back from maternity leave and restarting a reconciliation she could not close before: NinetyNine44's $4.7M renovation reserve drew down to $638K by YE2021, then showed $1.2M at YE2022, and she wants that increase explained. She is asking, per deal, for a year-by-year reserve roll-forward, what each draw funded, and total capex by year and since acquisition. Zamir looped in Megan, who acknowledged at 16:41 on 13 Oct - 'we will get working on this and get back to you.' Acknowledged is not delivered; the reconciliation itself is still outstanding. This is the highest-leverage item on the board: it is the only reply where the blocker is ZMR's own books rather than Houston, and it is fixable. | 22 Oct: not a follow-up gap - the ball is on our side. Laura's 12 Oct diligence list went to Megan, who is still assembling it because the property changed management companies and the historical data is split across two operators. Megan updated Laura on 21 Oct and Laura acknowledged at 00:44 on 22 Oct. What this row needs is the data, not another email.",
   "tags": [],
   "heat": 4
  },
@@ -1047,6 +1047,19 @@
   "tags": [
    "raise-progress"
   ],
+  "heat": 4
+ },
+ {
+  "firm": "Tarsadia Investments",
+  "person": "Ace Patel",
+  "title": "SVP, Real Estate",
+  "email": "ace@tarsadia.com",
+  "channel": "direct",
+  "stage": "meeting",
+  "ts": "2026-10-12T21:46:10Z",
+  "quote": "Hey bud thanks for following up can we catch up Friday between 2-5?? Hoping there's some recent trades / live deals we can point to.",
+  "action": "Found by reconciling the outbox against this board on 22 Oct - it was the one firm the campaign had reached that had never been recorded here, which is why no follow-up was ever drafted for it. The relationship runs deeper than the deal: Ace hosted Zamir for lunch on 14 Aug, asked for a deck, and got the company overview, track record and 2026 pipeline on 23 Sep. His 12 Oct ask is the useful part - he wants recent trades and live deals to point to internally, which is exactly what Allen Genoa is. A 2pm Friday call was agreed on 12 Oct and Zamir sent a video link on 16 Oct at 5pm, after the slot. Nothing has moved since. Confirm whether that call happened before sending anything else, then put Allen Genoa in front of him as the live deal he asked for.",
+  "tags": [],
   "heat": 4
  }
 ]

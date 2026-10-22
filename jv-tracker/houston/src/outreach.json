@@ -904,6 +904,18 @@
    ],
    "sent": "2026-10-21",
    "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Tarsadia Investments",
+   "person": "Ace Patel",
+   "email": "ace@tarsadia.com",
+   "also": [
+    "ankurm@tarsadia.com"
+   ],
+   "sent": "2026-09-23",
+   "outcome": "replied",
+   "note": "Platform-level relationship rather than a one-deal LP approach - lunch with Ace in person on 14 Aug, company overview, track record and 2026 pipeline sent 23 Sep. Was never recorded on this board at all until the 22 Oct outbox reconciliation found it; 109 campaign addresses were checked against the board and this was the only firm missing."
   }
  ],
  "carveouts": [],
