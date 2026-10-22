@@ -378,12 +378,14 @@
   "title": "Director, Investments",
   "email": "bcutrell@flagshipco.com",
   "channel": "direct",
-  "stage": "reviewing",
-  "ts": "2026-10-13T13:12:16Z",
-  "quote": "Thanks for sending. Do you have some time tomorrow afternoon to hop on a call to discuss further?",
-  "action": "Call held 14 Oct, 19 minutes, with Chip, Kevin and Michael on. Brian is modelling exit caps and preparing a committee presentation. Kevin sent the follow-up package on 15 Oct: Crime & Safety Overview, debt matrix, Resident Demographics Report, AR report and the rent and sale comps. Still outstanding to him are the on-site report, Chip's umbrella policy and tax underwriting, and the bulk-internet quotes, which have no contract behind them yet. Two things the rest of the desk should take from this: the call sensitivity-tested a 6.25% exit, where Slocumb put it and inside Blue Vista's 6.50%+; and a Resident Demographics Report now exists, which is the first hard artifact against the micro-location objection that 621 Capital, BIG Equity, Arc, ARCTRUST and Marble all raised. Committee slipped: Mark Berins wrote at 20:26 on 21 Oct that Brian was out sick and the IC meeting moved to Thursday 22 Oct, with Brian back in touch shortly. So the decision lands tomorrow, not today - the outstanding items (on-site report, Chip's umbrella policy and tax underwriting, and above all the bulk-internet quotes, which still have no contract behind them) have one more evening to be closed out. Worth noting the 12 Oct send to Mark already put co-GP on the table in writing: 'we can bring more capital to the table on the GP side than the standard 10% - tell me what co-invest level would make this work for you.' That offer is live and unanswered. The quote below is still Brian's 13 Oct email; nothing from the call is recorded here verbatim.",
-  "tags": [],
-  "heat": 5
+  "stage": "pass",
+  "ts": "2026-10-22T19:07:30Z",
+  "quote": "Though the basis seems good, ultimately the submarket is not one we could get comfortable with. I appreciate the time walking me through the overview of the project, and hope we can connect on the next one.",
+  "action": "The most expensive loss of the round so far, and the clearest answer yet on what extra GP capital can and cannot buy. Flagship are Houston-based, at One Greenway Plaza; Zamir pitched it as a deal 'in your own backyard' and offered, in writing on 12 Oct, to put up more than the standard 10% on the GP side at whatever co-invest level made it work. Brian took a call on 14 Oct, Kevin sent crime and safety, the debt matrix, resident demographics, the AR report and comps on 15 Oct, and it went to committee on 21 Oct. It still died on the submarket. A local shop with the full file and an open-ended structural sweetener could not get comfortable, which says the GP co-invest lever does not move a submarket objection - and that offer is still sitting unanswered as a precedent, so it is worth deciding whether it stays on the table for the names that are still live. Note also that he never engaged with the Sunnyside point MLG raised; this is a conviction answer, not an analytical one.",
+  "tags": [
+   "submarket-conviction"
+  ],
+  "heat": 1
  },
  {
   "firm": "Belsky Capital",
@@ -511,9 +513,9 @@
   "email": "jgallo@higrealty.com",
   "channel": "direct",
   "stage": "meeting",
-  "ts": "2026-10-13T20:01:03Z",
-  "quote": "If we are capturing most of the upside, our IC would anticipate the next buyer would warrant a higher going-in yield and thus cap rate expansion on the exit. Happy to discuss further on a quick call if you have time tomorrow. I'm generally free after 3p ET.",
-  "action": "The second call of the round, and the sharpest version of the exit-cap problem. His logic is structural rather than a market view: if we harvest the loss-to-lease, the next buyer inherits a stabilized asset with no upside left and prices it at a higher going-in yield, so a flat 6.00% exit is internally inconsistent with our own business plan. That is the argument to have an answer for, because it does not go away if Houston sentiment improves. Note the clash - he is free after 3p ET, which is 2p CT, the slot Flagship first offered.",
+  "ts": "2026-10-22T20:14:26Z",
+  "quote": "Is there a time next Monday 3 - 5p that works for you?",
+  "action": "Converted to a scheduled conversation. James went quiet after the 13 Oct exchange, the 22 Oct bump went out at 20:09 ET the night before, and he came back with a concrete window rather than a pleasantry. Monday 3-5pm ET needs a slot picked and an invite sent - this is the one row where the next action is a calendar entry, not an email. Worth going in with the submarket answer ready: Grandview and Flagship both died on it the same day, and MLG named Sunnyside specifically, so it will come up.",
   "tags": [
    "exit-cap",
    "going-in-yield"
@@ -558,12 +560,12 @@
   "title": null,
   "email": "timothy.haskin@west-pine.com",
   "channel": "direct",
-  "stage": "meeting",
-  "ts": "2026-10-14T20:59:03Z",
-  "quote": "Talk tomorrow on deal late afternoon?",
-  "action": "Asked for a call, unprompted, two days after the send and with no questions or objections first - the shortest route to a yes on the board. Worth noting why: on Canyon Woods he asked what the going-in cap was and never got an answer, so the 12 Oct email opened with it (roughly 6.0% in, 6.00% out, 7.0% untrended yield-on-cost) before anything else. He copied Huisen Chua, a name not previously on file at West Pine. Confirm the time; late afternoon Thursday 15 Oct.",
+  "stage": "conditional",
+  "ts": "2026-10-22T20:00:00Z",
+  "quote": "Wants co-GP. [Relayed by Zamir on 22 Oct; West Pine's answer came outside email.]",
+  "action": "Tim asked for a call on 14 Oct, the follow-up apologising for the dropped Thursday slot went out on 22 Oct, and his answer is that West Pine want to come in on the GP side rather than write the LP cheque. Zamir's position, stated the same day, is that ZMR is not entertaining co-GP until the LP is placed. That is now a policy, not a one-off, and it governs every other structural conversation open on this board - Benedict's co-GP question, JSB's 'never a pure LP', Baltisse's (co)GP mandate and Artisan's majority-GP framing all sit behind the same gate. Six firms have now asked to sit on the GP side and none has offered to fill the $11.65M, which is the shape of the round: the deal reads well to people who want to own more of it and badly to people being asked to fund it. Park Tim until the LP is signed, then come back.",
   "tags": [],
-  "heat": 5
+  "heat": 3
  },
  {
   "firm": "Silver Cap Partners",
@@ -677,12 +679,14 @@
   "title": "Managing Partner",
   "email": "freeman@grandviewpartners.com",
   "channel": "direct",
-  "stage": "materials",
-  "ts": "2026-10-15T15:06:55Z",
-  "quote": "Yes, please send. Thanks.",
-  "action": "A straight reversal, and the fastest turn of the round: the 15 Oct follow-up went at 15:03 and he answered at 15:06, four minutes later, copying Sykes. On Canyon Woods he closed the door with 'No interest here. Thanks.' and no reason; the follow-up asked him to name whether it was Houston, the structure or the size, and instead of answering he asked for the file. Evidence that the bump is doing work the original send could not. Kevin, Michael and Chip are on the send - get the concession burn-off report, the full comp set and the model out today while it is warm.",
-  "tags": [],
-  "heat": 4
+  "stage": "pass",
+  "ts": "2026-10-22T18:13:51Z",
+  "quote": "Zamir - We are a pass here given submarket within Houston. Believe there are challenges in the near term and will pass on the opportunity. Thanks for following up.",
+  "action": "Closed, seven days after Kevin sent the full package on 15 Oct. The sequence is worth keeping: on Canyon Woods he said 'No interest here' with no reason; this time the 15 Oct follow-up turned him to 'Yes, please send' inside four minutes, he took the three-pager, demographics, concession burn-off and comp set, and went quiet for a week until the 22 Oct chase. So the follow-ups worked twice on the same man and still ended in a pass - but a reasoned one. He names the submarket rather than Houston, and 'challenges in the near term' is the same read Flagship gave forty-five minutes later.",
+  "tags": [
+   "submarket-conviction"
+  ],
+  "heat": 1
  },
  {
   "firm": "ABR Capital",
@@ -1076,5 +1080,18 @@
    "capital-paused"
   ],
   "heat": 1
+ },
+ {
+  "firm": "RJL Capital Advisors",
+  "person": "Jonathan Livi",
+  "title": "Managing Principal",
+  "email": "jonathan@rjlcapadvisors.com",
+  "channel": "direct",
+  "stage": "question",
+  "ts": "2026-10-22T20:47:07Z",
+  "quote": "Let me put together an engagement with a list and you could just cross off the ones who've seen it. Sounds good?",
+  "action": "Fastest and warmest engagement of the round - three replies in eleven minutes off a single email, and the only reader so far to call the basis 'incredible'. Two things need answering. First, the diligence ask is a replacement cost analysis, which no one else has requested and which is the natural case for a basis at $156/SF; Zamir has already given him the seller's motivation (the developer is wiped and the equity will not do a cash-in refi). Second, and more urgent: the LP he has in mind is MLG, who already have this deal. Zamir sent it direct on 12 Oct and Alex Lunde passed on 15 Oct - not on basis, which he called intriguing, but on household incomes below their thresholds and proximity to Sunnyside. Letting Jonathan walk it into MLG cold would re-introduce a name that has already answered and make ZMR look uncoordinated. Tell him MLG has seen it and give him Lunde's reason, which is worth more to him than the introduction; the real value here is the list of other groups he offered, and he should be pointed at that instead. | 20:47 update: told that names have already been covered, Jonathan's answer is to propose a formal engagement with a list attached, for ZMR to strike through whoever has already seen it. Read that word carefully - an engagement letter is a placement mandate with a fee, not a favour, and it is the first time anyone on this raise has asked to be paid. It is not obviously wrong at this point in the round, given that 44 firms have now passed and the objection is consistently the submarket rather than the deal, but it is a commercial decision for Zamir rather than a thread to keep answering casually. Before signing anything, the list is the thing worth having: cross-referencing his names against the 83 contacts already on this board shows immediately whether he is reaching capital ZMR cannot reach on its own, which is the only question that justifies a fee. The replacement cost analysis he asked for is still outstanding.",
+  "tags": [],
+  "heat": 5
  }
 ]
