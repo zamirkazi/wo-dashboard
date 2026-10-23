@@ -52,11 +52,12 @@ TAG_LABEL = {
     'check-too-large':       'Check larger than they write',
     'raise-progress':        'Wants to see how much of the raise is committed',
     'submarket-conviction':  'Cannot get comfortable with the submarket itself',
+    'year-one-cash':         'Year-one cash-on-cash below their hurdle',
 }
 # Which objections are about Houston itself vs. about this deal's economics.
 MARKET_TAGS = {'houston-exposure','houston-sentiment','submarket-demographics','strategy-mismatch','submarket-vacancy','submarket-conviction'}
 DEAL_TAGS   = {'going-in-yield','negative-leverage','exit-cap','fee-drag','occupancy-softness','unit-size','rent-spread','pref-only',
-               'partner-conflict','check-too-small','capital-paused','non-local-sponsor','profile-appetite','check-too-large','raise-progress'}
+               'partner-conflict','check-too-small','capital-paused','non-local-sponsor','profile-appetite','check-too-large','raise-progress','year-one-cash'}
 
 data = {
     'deal': deal,

@@ -932,12 +932,14 @@
   "title": "Director of Acquisitions",
   "email": "brian@easthamcapital.com",
   "channel": "direct",
-  "stage": "reviewing",
-  "ts": "2026-10-21T20:39:17Z",
-  "quote": "Thanks for sharing this one with us. I'll start reviewing with the team and touch base with you in a day or so.",
-  "action": "Replied in 85 minutes, which is the second-fastest turn of the round after Belsky's nine. No objection, no question, a commitment to a date - 'a day or so.' That puts a real callback on Thursday or Friday. Worth remembering what he passed on last time and why: on Fox Ridge in Sep 2025 he said the IC screens on price per unit at or under average in-place rent times 100, called it a flawed metric himself, and said they weight it heavily anyway. At $134,921 a door that screen clears only at $1,349/mo in-place. Nobody has put that number in front of him and he will run it himself within the day, so have the per-SF bridge and the in-place rent ready before he comes back. Note also that his own last message in August asked for Canyon Woods materials and never got an answer - this send opened without acknowledging that, so the relationship debt is still outstanding.",
-  "tags": [],
-  "heat": 4
+  "stage": "pass",
+  "ts": "2026-10-23T14:27:33Z",
+  "quote": "After reviewing the deal, I unfortunately think it would be a tough sell to our committee due to the deal level cash-on-cash returns. They are taking a particularly bearish stance in response to recent treasury movements and the broader market environment. As a result, they are holding firm on their 5% Y1 hurdle and need to see that it is satisfied without factoring in any escrows or prepaids. With that said, I understand why you're pursuing this deal as the price per unit is quite low for the vintage.",
+  "action": "Turned around in two days and is the most precisely specified rejection on the board. Not Houston, not the submarket, not the basis - which he concedes outright - but a hard 5% Year-1 cash-on-cash hurdle that has to clear without escrows or prepaids counted in. Everything the deal leads with is back-ended: 9.9% stabilized cash-on-cash, a 7.0% untrended yield-on-cost, concessions burning off over three years. Year one is the weakest number in the file and this is the second firm to say so after JDI, who put the T1 yield on total cost at 5.2% and called it below their comfort. Two independent readers now failing the deal on the same year-one line is worth more attention than any single pass. He also names the cause - committee turned bearish on recent treasury movements - which is a market-timing answer rather than an asset one, so Eastham is a clean re-approach on the next deal with stronger day-one cash flow. Worth knowing the exact Year-1 unlevered and levered cash-on-cash, ex-escrows, before the next conversation with anyone running a hurdle like this.",
+  "tags": [
+   "year-one-cash"
+  ],
+  "heat": 1
  },
  {
   "firm": "Artisan Capital",
