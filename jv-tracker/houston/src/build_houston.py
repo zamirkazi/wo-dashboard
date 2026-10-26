@@ -54,10 +54,11 @@ TAG_LABEL = {
     'submarket-conviction':  'Cannot get comfortable with the submarket itself',
     'year-one-cash':         'Year-one cash-on-cash below their hurdle',
     'climate-risk':          'Flood / climate exposure near the Ship Channel',
+    'competing-deal':        'Chose a competing Houston deal on relative value',
 }
 # Which objections are about Houston itself vs. about this deal's economics.
 MARKET_TAGS = {'houston-exposure','houston-sentiment','submarket-demographics','strategy-mismatch','submarket-vacancy','submarket-conviction','climate-risk'}
-DEAL_TAGS   = {'going-in-yield','negative-leverage','exit-cap','fee-drag','occupancy-softness','unit-size','rent-spread','pref-only',
+DEAL_TAGS   = {'going-in-yield','negative-leverage','exit-cap','fee-drag','occupancy-softness','unit-size','rent-spread','pref-only','competing-deal',
                'partner-conflict','check-too-small','capital-paused','non-local-sponsor','profile-appetite','check-too-large','raise-progress','year-one-cash'}
 
 data = {
