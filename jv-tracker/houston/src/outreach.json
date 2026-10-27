@@ -980,6 +980,18 @@
    "sent": "2026-10-27",
    "outcome": "replied",
    "note": "Hand-sent under the new 21.5% subject. CFO passed in 52 minutes without a reason."
+  },
+  {
+   "channel": "direct",
+   "firm": "RWN Management",
+   "person": "Mary Harada",
+   "email": "mharada@rwnmgmt.com",
+   "also": [
+    "kglassman@rwnmgmt.com"
+   ],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Hand-sent under the new 21.5% subject. CEO passed in 58 minutes without a reason."
   }
  ],
  "carveouts": [],

@@ -41,6 +41,7 @@ TAG_LABEL = {
     'going-in-yield':        'Going-in yield too thin',
     'negative-leverage':     'Negative leverage at $34M',
     'exit-cap':              'Exit cap too tight at 6.00%',
+    'exit-rent-multiple':    'Exit valued off the rent multiple, not the cap rate',
     'fee-drag':              'Returns thin net of fees and waterfall',
     'occupancy-softness':    'Rent roll softer than the pitch',
     'unit-size':             'Unit size',
@@ -59,7 +60,7 @@ TAG_LABEL = {
 # Which objections are about Houston itself vs. about this deal's economics.
 MARKET_TAGS = {'houston-exposure','houston-sentiment','submarket-demographics','strategy-mismatch','submarket-vacancy','submarket-conviction','climate-risk'}
 DEAL_TAGS   = {'going-in-yield','negative-leverage','exit-cap','fee-drag','occupancy-softness','unit-size','rent-spread','pref-only','competing-deal',
-               'partner-conflict','check-too-small','capital-paused','non-local-sponsor','profile-appetite','check-too-large','raise-progress','year-one-cash'}
+               'partner-conflict','check-too-small','capital-paused','non-local-sponsor','profile-appetite','check-too-large','raise-progress','year-one-cash','exit-rent-multiple'}
 
 data = {
     'deal': deal,
