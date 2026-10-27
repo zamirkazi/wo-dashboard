@@ -1114,5 +1114,31 @@
    "climate-risk"
   ],
   "heat": 1
+ },
+ {
+  "firm": "Equity Resource Investments",
+  "person": "Dylan Kyriakakis",
+  "title": "Principal, Acquisitions",
+  "email": "dylank@erillc.com",
+  "channel": "direct",
+  "stage": "materials",
+  "ts": "2026-10-27T13:00:57Z",
+  "quote": "Nice to hear from you. Are you able to send a financial model and any additional materials you've put together? We will review and circle back.",
+  "action": "The first RJL-carveout send to convert, and it converted off the cc line rather than the addressee. Zamir wrote to Paul Coelho at 09:00 copying Mike, Dylan and Bill; Paul came back out-of-office pointing to Joanne Foley and bill@ bounced mailbox-full, so three of the four doors were shut. Dylan Kyriakakis took it four hours later and asked for the model. Zamir pulled Kevin in at 13:09 to send everything. Worth noting the pattern for the six carveout drafts still unsent: copying the bench is what got this one answered. This also closes the question of whether paul@erillc.com was dead after the July postmaster bounce - the address accepts mail, the person is just away.",
+  "tags": [],
+  "heat": 4
+ },
+ {
+  "firm": "CIM Group",
+  "person": "Lars Lopatka",
+  "title": null,
+  "email": "llopatka@cimgroup.com",
+  "channel": "direct",
+  "stage": "referred",
+  "ts": "2026-10-27T12:56:56Z",
+  "quote": "Thanks for sending. Including Brandon Mayer on our side who covers Houston multi and can let you know if a potential fit.",
+  "action": "Filed referred, and read it the way Pearlmark was read: a four-hour internal hand-off to the person who actually covers the market is forward motion, not a brush-off. Brandon Mayer (bmayer@cimgroup.com) covers Houston multifamily at CIM and is now on the thread; Zamir pulled Kevin in at 13:09 to send the full package. The next move is Mayer directly, not another email to Lars. One address on the send bounced hard - osamari@cimgroup.com, 550 address not found - so that contact is stale; Lars and Jesse Fischer received it.",
+  "tags": [],
+  "heat": 3
  }
 ]

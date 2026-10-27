@@ -941,8 +941,21 @@
     "bill@erillc.com"
    ],
    "sent": "2026-10-27",
-   "outcome": "silent",
-   "note": "First of the nine RJL-carveout firms ZMR already knew to actually go out. Delivered to Paul, Mike and Dylan; bill@ bounced 554 mailbox full. Paul is out of office and points to Joanne Foley (joanne@erillc.com). The July postmaster bounce on paul@ was not a dead mailbox - the address accepts mail."
+   "outcome": "replied",
+   "note": "Delivered to Paul, Mike and Dylan; bill@ bounced 554 mailbox full and Paul is out of office pointing to Joanne Foley. Dylan Kyriakakis answered from the cc line. The July postmaster bounce on paul@ was not a dead mailbox - the address accepts mail."
+  },
+  {
+   "channel": "direct",
+   "firm": "CIM Group",
+   "person": "Lars Lopatka",
+   "email": "llopatka@cimgroup.com",
+   "also": [
+    "JFischer@cimgroup.com",
+    "osamari@cimgroup.com"
+   ],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Second of the nine RJL-carveout firms to go out. osamari@cimgroup.com bounced 550 address not found; Lars and Jesse Fischer received it."
   }
  ],
  "carveouts": [],
