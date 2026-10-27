@@ -342,7 +342,7 @@ $('#uw').innerHTML =
   '<b>And answer Lightning Tree\'s question first:</b> their CIO is the only reader who opened the ' +
   'model, and he found the returns stop being compelling once rent growth and return on capex are ' +
   'modestly stressed and the waterfall and asset management fees are layered in — before any ' +
-  'below-NOI owner expenses. If the headline 20.3% is project-level rather than LP net, every ' +
+  'below-NOI owner expenses. If the headline 21.5% is project-level rather than LP net, every ' +
   'sophisticated reader repeats that exercise and reaches the same place.';
 
 $('#foot').innerHTML =
