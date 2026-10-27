@@ -968,6 +968,18 @@
    "sent": "2026-10-27",
    "outcome": "replied",
    "note": "Equity broker, brought in cold off a 5 Oct check-in Zamir had left unanswered. Replied in two minutes."
+  },
+  {
+   "channel": "direct",
+   "firm": "Meruelo Group",
+   "person": "Alexis Meruelo",
+   "email": "alexis.meruelo@meruelogroup.com",
+   "also": [
+    "astoller@meruelogroup.com"
+   ],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Hand-sent under the new 21.5% subject. CFO passed in 52 minutes without a reason."
   }
  ],
  "carveouts": [],
