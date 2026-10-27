@@ -1181,5 +1181,20 @@
   "action": "Hand-sent to Mary Harada at 15:40 with Glassman copied; the CEO answered in 58 minutes. Four words, no reason, no opening. Second clean no-reason pass on the 21.5% set today after Meruelo, and like Meruelo it says nothing about whether the new numbers land - neither reader engaged with them.",
   "tags": [],
   "heat": 1
+ },
+ {
+  "firm": "Claremont Corp",
+  "person": "Ned Carney",
+  "title": null,
+  "email": "ecarney@claremontcorp.com",
+  "channel": "direct",
+  "stage": "relationship",
+  "ts": "2026-10-27T19:21:38Z",
+  "quote": "Thank you for thinking of us, Zamir. Do you have any properties for sale in south Florida?",
+  "action": "Not a pass on the numbers - a redirect to a different side of the table. Carney did not engage with Allen Genoa at all and came back asking what ZMR has for sale in South Florida, which means Claremont reads as a direct buyer of assets rather than an LP writing equity into someone else's deal. Filed relationship rather than pass: worthless for this raise, potentially useful on a disposition, and ZMR is a Florida owner. Paul Carney and K. McNamara are both on the thread, so the ask came from the firm rather than one person. The answer is a straight one - tell him what is or is not for sale - and it costs nothing.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 2
  }
 ]
