@@ -1036,9 +1036,103 @@
    "sent": "2026-10-27",
    "outcome": "silent",
    "note": "RJL-carveout name Zamir already knew. Sent 27 Oct morning with the pre-re-underwrite 20.3% figures, a day after Kevin's re-underwrite. No reply yet."
+  },
+  {
+   "channel": "direct",
+   "firm": "Dome Equities",
+   "person": "Daniel Bourla",
+   "email": "dbourla@domeeq.com",
+   "also": [
+    "ejones@domeeq.com"
+   ],
+   "sent": null,
+   "outcome": "proposed",
+   "note": "RJL named them; Zamir struck them as a known relationship, so free to approach. Never drafted."
+  },
+  {
+   "channel": "direct",
+   "firm": "Hamilton Lane",
+   "person": "Mario Giannini",
+   "email": "mgiannini@hamiltonlane.com",
+   "also": [],
+   "sent": null,
+   "outcome": "proposed",
+   "note": "RJL named them; Zamir struck them as a known relationship, so free to approach. Previously carried as having no working address - Giannini is on ZMR's own equity list."
+  },
+  {
+   "channel": "direct",
+   "firm": "Humphreys Capital",
+   "person": "Justin Lewellen",
+   "email": "justin@humphreyscapital.com",
+   "also": [
+    "todd@humphreyscapital.com"
+   ],
+   "sent": null,
+   "outcome": "proposed",
+   "note": "RJL named them; Zamir struck them as a known relationship, so free to approach. Lewellen is Senior Director, Investments and runs Southeast coverage (ATL, Carolinas, Florida). Not to be confused with Nikki Humphrey at Virgin, a family-office blast recipient."
+  },
+  {
+   "channel": "direct",
+   "firm": "KCB Private Equity",
+   "person": "Romayh El Jurdi",
+   "email": "reljurdi@kcb-partners.com",
+   "also": [
+    "pknell@kcbm.com",
+    "mgutnikov@kcb-partners.com"
+   ],
+   "sent": null,
+   "outcome": "proposed",
+   "note": "RJL named them as KCB Real Estate Management; Zamir struck them as a known relationship, so free to approach. National JV equity, underwrites all deals; previously carried as having no working address for Peter Knell, but five contacts sit on ZMR's own equity list and KCB personally reviewed a ZMR Orlando deal."
+  },
+  {
+   "channel": "direct",
+   "firm": "Peak Rock Capital",
+   "person": "Brooks Hallock",
+   "email": "hallock@peakrockcapital.com",
+   "also": [
+    "jonker@peakrockcapital.com",
+    "moran@peakrockcapital.com"
+   ],
+   "sent": null,
+   "outcome": "proposed",
+   "note": "RJL named them; Zamir struck them as a known relationship, so free to approach. File notes Tampa, Orlando and Dallas multifamily value-add - the closest market fit of the five. Never drafted."
   }
  ],
- "carveouts": [],
+ "carveouts": [
+  {
+   "firm": "Abod Capital"
+  },
+  {
+   "firm": "Aureon Partners (formerly Quilvest)"
+  },
+  {
+   "firm": "Calibogue Capital"
+  },
+  {
+   "firm": "Corten Real Estate Partners"
+  },
+  {
+   "firm": "JW Capital"
+  },
+  {
+   "firm": "Lakerock"
+  },
+  {
+   "firm": "Monocle Group"
+  },
+  {
+   "firm": "NCA Realty Partners"
+  },
+  {
+   "firm": "ReCap - RGA (Reinsurance Group of America)"
+  },
+  {
+   "firm": "Triangle Capital Group"
+  },
+  {
+   "firm": "Vikingprt"
+  }
+ ],
  "suppressed": [
   {
    "firm": "Abrams Capital",
@@ -1051,5 +1145,6 @@
    "why": "\"We've never met - how did you get these emails?\" linking Canada's anti-spam legislation. A CASL complaint, not a pass. Do not mail connelly.ca again."
   }
  ],
- "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week."
+ "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",
+ "carveout_note": "RJL Capital Advisors (Jonathan Livi) proposed 35 groups on 22 Oct. Zamir struck the 24 ZMR already knew and confirmed on 26 Oct that RJL may approach only the eleven listed here, and that the engagement terms do not apply to the struck names. These eleven are RJL's exclusively for 30 days from 26 Oct (to ~25 Nov), have never been sent the deal, and are covered by a non-disclosure clause \u2014 do not name them to any third party. Every other name on Livi's list is ZMR's to work freely."
 }
