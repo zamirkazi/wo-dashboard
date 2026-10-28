@@ -1005,6 +1005,16 @@
    "sent": "2026-10-27",
    "outcome": "replied",
    "note": "Came back asking what ZMR has for sale in South Florida - a buyer, not an LP."
+  },
+  {
+   "channel": "direct",
+   "firm": "Allegro Real Estate (Toeller family office)",
+   "person": "Stefan Brimmers",
+   "email": "sbrimmers@devario.eu",
+   "also": [],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Originally sent to Torsten Toeller at tt@fressnapf.de; Brimmers runs real estate for the family office and asked that Torsten be removed and all future offers go to him alone."
   }
  ],
  "carveouts": [],

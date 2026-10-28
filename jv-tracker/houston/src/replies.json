@@ -1196,5 +1196,20 @@
    "strategy-mismatch"
   ],
   "heat": 2
+ },
+ {
+  "firm": "Allegro Real Estate (Toeller family office)",
+  "person": "Stefan Brimmers",
+  "title": "Managing Director",
+  "email": "sbrimmers@devario.eu",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-10-28T10:15:09Z",
+  "quote": "The offer in Houston seems reasonably priced at first glance. However, we are currently lacking returns from existing investments, so we are unable to participate in new investments at this time. We'd be happy to discuss this again starting in mid-2027.",
+  "action": "Two useful things in one reply. First the routing: Zamir mailed Torsten Toeller at fressnapf.de on 27 Oct; Brimmers runs all real estate for the family office and asks to be the sole contact going forward - 'please send any offers, etc., exclusively to me in the future and remove Torsten from the distribution list.' Honour that: tt@fressnapf.de comes off the list, sbrimmers@devario.eu goes on. Second the substance, and it is not a deal objection. He calls the Houston basis 'reasonably priced at first glance' and then says they cannot participate because their existing investments are not returning capital - a denominator problem on their side, nothing to do with Allen Genoa. He named a date unprompted: mid-2027. That makes this the cleanest diary entry on the board; most passes give no re-approach window at all. Worth noting the pattern now forming in the European names off the blast - the constraint is distributions, not the asset.",
+  "tags": [
+   "capital-paused"
+  ],
+  "heat": 2
  }
 ]
