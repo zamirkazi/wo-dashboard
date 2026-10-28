@@ -1211,5 +1211,18 @@
    "capital-paused"
   ],
   "heat": 2
+ },
+ {
+  "firm": "Corebridge Financial",
+  "person": "James \"Buster\" Black",
+  "title": "Corebridge Real Estate Investors",
+  "email": "james.black@corebridgefinancial.com",
+  "channel": "direct",
+  "stage": "relationship",
+  "ts": "2026-10-28T13:40:28Z",
+  "quote": "Sorry for the radio silence. Been wrapped up on a few things. I don't think this deal's a fit for us right now, but would love to connect and hear about what you're seeing. Do you have some time tomorrow or Friday?",
+  "action": "Third of the nine RJL-carveout firms to go out, third to answer - that channel is running at 100%. No on Allen Genoa, no reason given, but he proposes two specific dates unprompted. Same shape as Palatine: the deal is dead and the relationship is not, so filed relationship rather than pass. This one has a clock on it - he offered tomorrow or Friday and the reply is a calendar slot, not an argument.\n\nWorth noting what he was sent. Zamir's 27 Oct email to Black carried the OLD number set - 20.3% / 2.25x / 9.9% CoC, $11.65M equity, 5-yr full-term I/O at 6.69% - a day after the re-underwrite and after the blast had already gone out at 21.5%. The four carveout drafts still unsent (Dome, Cohen & Steers, Humphreys, Peak Rock) carry the same stale figures and need updating before they go.",
+  "tags": [],
+  "heat": 3
  }
 ]
