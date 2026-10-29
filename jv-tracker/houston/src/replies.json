@@ -619,14 +619,14 @@
   "title": null,
   "email": null,
   "channel": "slocumb",
-  "stage": "reviewing",
-  "ts": "2026-10-15T00:17:42Z",
-  "quote": "Manglar Capital - Likes basis, more focused on Capital A affordable. Potentially unable to meet project timeline.",
-  "action": "Likes the basis, but is an affordable-housing investor and may not make a January close. Two independent reasons, neither about the asset.",
+  "stage": "materials",
+  "ts": "2026-10-28T23:27:17Z",
+  "quote": "Manglar shared a few requests about deliverables. All very straightforward. I suspect they'll want an introductory call after reviewing. September and October operating statements. Current rent roll, including future leases and concessions. Current availability and pre-leasing report, along with the trailing 12-month occupancy trend. Current advertised concessions and the number of units to which they apply. ZMR's corporate presentation and track record.",
+  "action": "First real diligence request to come out of the Slocumb channel, and it reverses the read from two weeks ago. On 14 Oct Slocumb had Manglar as reviewing-but-doubtful: likes the basis, focused on Capital A affordable, 'potentially unable to meet project timeline'. They have now asked for five specific items and Slocumb expects an introductory call after they review.\n\nThe list is ordinary and all of it should already exist: Sep and Oct operating statements; current rent roll with future leases and concessions; availability and pre-leasing report with the T12 occupancy trend; current advertised concessions and the unit count they apply to; ZMR's corporate presentation and track record. Nothing here needs building, only sending.\n\nTwo things make this worth moving on today rather than tomorrow. Manglar is now one of only a handful of live positions and the only one that has asked for documents rather than for a price or a list. And the concessions question is the deal's own soft spot - the plan burns them from 2.6% T3 to 0.5% stabilized, and they have asked precisely how many units are advertised with concessions right now. That answer should be checked before it is sent, not after.\n\nSlocumb's own 5 Oct underwriting note still stands unanswered on affordability: CoStar 1-mile AMIs below the $71.2K in the teaser, and $282 of fees at stabilization, 19% of rent. Manglar is an affordable-housing investor. They are the likeliest reader to run that test.",
   "tags": [
    "strategy-mismatch"
   ],
-  "heat": 2
+  "heat": 4
  },
  {
   "firm": "Arc Capital Partners",
