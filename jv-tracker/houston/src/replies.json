@@ -1398,5 +1398,20 @@
   "action": "Arthur Blank's family office, sent from a phone, three words, no reason. Nothing to read into it and nothing to work - a five-person distribution at AMBSE and AMBFO saw the deal and the head of the house answered for all of them. Worth one note for the list: the addresses here are mixed, bjewkes@, kpope@ and afranklin@ alongside dietmar.exler@ and andrea.demarco@, which is a reminder that no single naming rule holds across a firm and the only safe correction is one taken from real correspondence.",
   "tags": [],
   "heat": 1
+ },
+ {
+  "firm": "Borletti Group",
+  "person": "Maurizio Borletti",
+  "title": "Founding Partner",
+  "email": "m.borletti@borlettigroup.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-10-29T20:11:04Z",
+  "quote": "Not interested thank you",
+  "action": "Four words from the founding partner of a European retail-property family office, London and Luxembourg. No reason, and none worth inferring - a US garden-apartment deal at $11.77M was never going to fit a house built around department stores and European retail. The useful note is for the list rather than the deal: this is the second reply in two hours from a name that should not have been on a US multifamily JV equity wave at all, after Aprio. Worth a screen of the family-office file for non-US and non-multifamily houses before the next send. One good sign in the thread - the flyer, the OM and the model were all genuinely attached to this one, so the 'three-pager attached' worry does not apply to the 27 Oct wave.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
  }
 ]
