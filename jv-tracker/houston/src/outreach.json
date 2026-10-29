@@ -1213,6 +1213,54 @@
    "outcome": "silent",
    "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"4. Deal Sent - Awaiting Response\"; RJL holds the addresses and the send record, we do not.",
    "brokerSend": true
+  },
+  {
+   "channel": "direct",
+   "firm": "Willton Investment Management",
+   "person": "Chris Luo",
+   "email": "cluo@willtongroup.com",
+   "also": [],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "GMass family-office wave, 27 Oct 12:17. Replied two days later naming concessions as the reason Houston is off the list."
+  },
+  {
+   "channel": "direct",
+   "firm": "Cumming Capital",
+   "person": "Matt Cumming",
+   "email": "matt@cummingcapital.com",
+   "also": [
+    "cathy@cummingcapital.com",
+    "colby@cummingcapital.com"
+   ],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "GMass family-office wave, 27 Oct 08:55 to Catherine, Matthew and Colby. Passed on bandwidth after Zamir's 29 Oct bump."
+  },
+  {
+   "channel": "direct",
+   "firm": "Croson",
+   "person": "Charles Croson",
+   "email": "charles@croson.com",
+   "also": [],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "GMass family-office wave, 27 Oct 08:54. Passed within two minutes of Zamir's 29 Oct bump."
+  },
+  {
+   "channel": "direct",
+   "firm": "Aprio Wealth Management",
+   "person": "Simeon Wallis",
+   "email": "simeon.wallis@aprio.com",
+   "also": [
+    "eric.flynn@aprio.com",
+    "courtney.holt@aprio.com",
+    "keith.greenwald@aprio.com",
+    "noah.marell@aprio.com"
+   ],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "GMass family-office wave, 27 Oct 06:15 to Eric Flynn and team. The CIO answered on 29 Oct with a structural gate, not a view on the deal."
   }
  ],
  "carveouts": [

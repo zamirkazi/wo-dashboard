@@ -57,11 +57,14 @@ TAG_LABEL = {
     'year-one-cash':         'Year-one cash-on-cash below their hurdle',
     'climate-risk':          'Flood / climate exposure near the Ship Channel',
     'competing-deal':        'Chose a competing Houston deal on relative value',
+    'submarket-concessions': 'Concession levels across the Houston submarkets',
+    'diligence-bandwidth':   'No capacity to underwrite right now',
+    'feeder-platform':       'Only invests through an alternative-asset platform',
 }
 # Which objections are about Houston itself vs. about this deal's economics.
-MARKET_TAGS = {'houston-exposure','houston-sentiment','submarket-demographics','strategy-mismatch','submarket-vacancy','submarket-conviction','climate-risk'}
+MARKET_TAGS = {'houston-exposure','houston-sentiment','submarket-demographics','strategy-mismatch','submarket-vacancy','submarket-conviction','climate-risk','submarket-concessions'}
 DEAL_TAGS   = {'going-in-yield','negative-leverage','exit-cap','fee-drag','occupancy-softness','unit-size','rent-spread','pref-only','competing-deal',
-               'partner-conflict','check-too-small','capital-paused','non-local-sponsor','profile-appetite','check-too-large','raise-progress','year-one-cash','exit-rent-multiple','price-reduction'}
+               'partner-conflict','check-too-small','capital-paused','non-local-sponsor','profile-appetite','check-too-large','raise-progress','year-one-cash','exit-rent-multiple','price-reduction','diligence-bandwidth','feeder-platform'}
 
 data = {
     'deal': deal,

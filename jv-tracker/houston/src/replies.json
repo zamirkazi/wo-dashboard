@@ -1322,5 +1322,68 @@
   "action": "RJL's pipeline status, not the investor's words - they have the deal and have not come back with a view. Four of the eleven sit here, which is the single largest block on the RJL report and the reason the channel is worth leaving alone until it ripens. Treat the heat as provisional: there is no quote behind it, and the next report either turns it into a question or a pass. Ask Livi for the substance behind these four before reading anything into the count.",
   "tags": [],
   "heat": 2
+ },
+ {
+  "firm": "Willton Investment Management",
+  "person": "Chris Luo",
+  "title": "CEO",
+  "email": "cluo@willtongroup.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-10-29T17:51:41Z",
+  "quote": "Houston is not in our target market at the moment due to the heavy concession in most of the submarket.",
+  "action": "The most useful pass of the round, because he names the mechanism. Everyone else says Houston; Luo says concessions, and he is a CEO writing himself. That lands directly on the business plan: the model burns concessions from 2.6% of GPR on the T3 to 2.4% in year one to 0.5% stabilized, and a reader who already believes the whole market is giving away months of free rent will not accept a 0.5% terminal assumption on faith. Note the gap in how the deal is told - the teaser leads with 71 renewals at +1.25% and zero renewal concessions, which is a renewals statistic; Luo is talking about new leases, where the concessions actually sit. The answer he would need is the current advertised concession and the unit count it applies to, which is the same number Manglar asked for and Artisan will see in the rent roll. Worth having once and using everywhere, because this objection will come back.",
+  "tags": [
+   "houston-sentiment",
+   "submarket-concessions"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "Cumming Capital",
+  "person": "Matt Cumming",
+  "title": null,
+  "email": "matt@cummingcapital.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-10-29T18:02:35Z",
+  "quote": "It is an interesting opportunity but we don't have capacity for diligence at this time. If the deal is still active in January, please reach out.",
+  "action": "Not a no on the deal - the only pass in the round that calls it interesting and gives a date to come back. But the date is the problem: the contract closes 21 December and the EMD goes hard 20 November, so if this deal is still active in January something has gone wrong. Two honest options. Tell him the real timeline now and let him decide whether to find the capacity in the next three weeks - the teaser he was sent says 'year end close can extend till end of January', which is what produced his January answer, so he is not being unreasonable. Or accept the pass and put Cumming at the front of the list for the next deal, which is what he is actually offering.",
+  "tags": [
+   "diligence-bandwidth"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "Croson",
+  "person": "Charles Croson",
+  "title": null,
+  "email": "charles@croson.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-10-29T17:45:57Z",
+  "quote": "Appreciate you reaching out. We are very full on CRE and focusing on internal deals.",
+  "action": "Allocation is full and the family does its own deals. Nothing about Allen Genoa was weighed, and nothing about it would change the answer. Leave them alone until their CRE weighting comes down - this is a calendar problem measured in years, not months.",
+  "tags": [
+   "capital-paused",
+   "strategy-mismatch"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "Aprio Wealth Management",
+  "person": "Simeon Wallis",
+  "title": "Chief Investment Officer, Partner",
+  "email": "simeon.wallis@aprio.com",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-10-29T17:45:47Z",
+  "quote": "Is this available on an alternative asset platform (e.g., iCapital, Altera)? For our private investments, we focus on opportunities on those platforms as they enable scalability from operational and investment due diligence, as well as monitoring and maintenance perspectives.",
+  "action": "This is a channel lesson rather than a pass. Aprio is an RIA, not a family office, and RIAs buy private real estate through feeder platforms because that is how they get operational diligence, monitoring and reporting at scale across many client accounts. A single-asset JV equity ask does not fit that machinery no matter how good the basis is. He is the second reader to answer on process rather than substance, and he says it twice - this is his follow-up to an earlier email on the same point. Two takeaways. First, any RIA on the family-office list is a mis-send unless ZMR is on iCapital or similar, so the next blast should screen them out rather than spend the impression. Second, he offered to log ZMR in their sponsor database via a form - cheap to complete, and the only thing on the table here. Do not send the three-pager again.",
+  "tags": [
+   "feeder-platform",
+   "strategy-mismatch"
+  ],
+  "heat": 1
  }
 ]
