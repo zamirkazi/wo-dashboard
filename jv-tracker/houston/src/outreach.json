@@ -20,6 +20,13 @@
    "started": "2026-10-12",
    "status": "live",
    "note": "Jeremy Slocumb at IPA took seven names on 5 Oct and was cleared to send on 7 Oct, minus Grandview, Long Wharf and Mountain Pacific, which Zamir held back because he knows them. He reported back on 15 Oct: three reviewing, three declined, Nelnet still out. That report is the first hard confirmation that the send happened - IPA holds the send record, we never did. He is pushing 621 Capital himself."
+  },
+  "rjl": {
+   "label": "RJL Capital Advisors",
+   "owner": "Jonathan Livi, RJL Capital Advisors",
+   "started": "2026-10-26",
+   "status": "live",
+   "note": "Livi proposed 35 groups on 22 Oct. Zamir struck the 24 ZMR already knew and cleared RJL on 26 Oct to approach the eleven ZMR had never touched, exclusively for 30 days (to ~25 Nov). RJL holds the addresses and the send record - we have neither. Their first written progress report, dated 29 Oct, is the only evidence the sends happened; their dated notes run from 27 Oct, so the deal was out on or before then. The eleven are covered by a non-disclosure clause in the engagement letter: do not name them to any third party, Ackman-Ziff included."
   }
  },
  "contacts": [
@@ -1096,6 +1103,116 @@
    "sent": null,
    "outcome": "proposed",
    "note": "RJL named them; Zamir struck them as a known relationship, so free to approach. File notes Tampa, Orlando and Dallas multifamily value-add - the closest market fit of the five. Never drafted."
+  },
+  {
+   "channel": "rjl",
+   "firm": "Abod Capital",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"6. Taking A Look\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "rjl",
+   "firm": "Corten Real Estate Partners",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"6. Taking A Look\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "rjl",
+   "firm": "Monocle Group",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"6. Taking A Look\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "rjl",
+   "firm": "NCA Realty Partners",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"6. Taking A Look\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "rjl",
+   "firm": "Triangle Capital Group",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"6. Taking A Look\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "rjl",
+   "firm": "Lakerock",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"1. Pass\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "rjl",
+   "firm": "ReCap - RGA (Reinsurance Group of America)",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"1. Pass\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "rjl",
+   "firm": "Aureon Partners (formerly Quilvest)",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "silent",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"5. Followed Up After No Response\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "rjl",
+   "firm": "Calibogue Capital",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "silent",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"5. Followed Up After No Response\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "rjl",
+   "firm": "JW Capital",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "silent",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"5. Followed Up After No Response\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "rjl",
+   "firm": "Viking Partners",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "silent",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"4. Deal Sent - Awaiting Response\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
   }
  ],
  "carveouts": [
@@ -1130,7 +1247,7 @@
    "firm": "Triangle Capital Group"
   },
   {
-   "firm": "Vikingprt"
+   "firm": "Viking Partners"
   }
  ],
  "suppressed": [

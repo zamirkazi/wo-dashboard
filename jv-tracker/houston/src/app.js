@@ -348,13 +348,13 @@ $('#uw').innerHTML =
 $('#foot').innerHTML =
   'Allen Genoa Capital Desk · ' + D.replies.length + ' replies from the ' +
   D.contacts.filter(c => SENT.has(c.outcome)).length + ' firms the deal was actually sent to, out of ' +
-  D.contacts.filter(c => c.outcome !== 'excluded').length + ' named across three channels · ' +
+  D.contacts.filter(c => c.outcome !== 'excluded').length + ' named across four channels · ' +
   'built from the Gmail thread record, not a CRM.<br>' +
   'A firm counts as sent only where a send or a reply appears in the thread. Names that were proposed, ' +
   'agreed or offered in conversation are counted as unsent, however warm they are.<br>' +
   'Sources: the ZMR direct thread (Sub-$135K/Door on a 2023 Houston Build), Andrew Kirsh\'s ' +
   '&ldquo;Equity Opp - 252 units, 2023 built - Houston&rdquo; forwards, the IPA &ldquo;Houston&rdquo; thread, ' +
-  'and the Smart Living Allen Genoa debt thread.<br>' +
+  'the Smart Living Allen Genoa debt thread, and RJL Capital Advisors\' written progress report.<br>' +
   'Generated ' + D.generatedAt + ' · figures restate Kirsh\'s 2 Oct version of the deal. ' + esc(D.deal.note);
 
 /* ---------- boot ---------- */

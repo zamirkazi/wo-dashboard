@@ -1225,5 +1225,102 @@
   "action": "Third of the nine RJL-carveout firms to go out, third to answer - that channel is running at 100%. No on Allen Genoa, no reason given, but he proposes two specific dates unprompted. Same shape as Palatine: the deal is dead and the relationship is not, so filed relationship rather than pass. This one has a clock on it - he offered tomorrow or Friday and the reply is a calendar slot, not an argument.\n\nWorth noting what he was sent. Zamir's 27 Oct email to Black carried the OLD number set - 20.3% / 2.25x / 9.9% CoC, $11.65M equity, 5-yr full-term I/O at 6.69% - a day after the re-underwrite and after the blast had already gone out at 21.5%. The four carveout drafts still unsent (Dome, Cohen & Steers, Humphreys, Peak Rock) carry the same stale figures and need updating before they go.",
   "tags": [],
   "heat": 3
+ },
+ {
+  "firm": "NCA Realty Partners",
+  "person": "Reported via Jonathan Livi, RJL Capital Advisors",
+  "title": null,
+  "email": null,
+  "channel": "rjl",
+  "stage": "question",
+  "ts": "2026-10-29T00:00:00Z",
+  "quote": "Only focused on pref or hybrid pref equity structures at the moment. Requested: Confirm if pref or hybrid-pref equity structure is available on this deal (Oct 27). Focused on pref/hybrid-pref structures; reviewing how an 8%-12% rate plus backend profits interest (mid-teens total cost of capital) at up to ~85% LTC would fit this deal (Oct 28).",
+  "action": "The one item RJL puts under \"Items Needed from Sponsor\" - they want a yes or no on whether a pref or hybrid-pref structure is available, and they have been waiting since 27 Oct. NCA did the work: 8-12% current rate plus a backend profits interest, mid-teens all-in cost of capital, up to ~85% LTC. Against $34.0M that is roughly $28.9M of total capital stack, so on top of the $23.8M agency first it is about $5.1M of pref - not the whole $11.77M, which means NCA alone does not solve the raise even if Zamir says yes. The strategic question is bigger than NCA: pref at a mid-teens cost sits ahead of the LP, and this is the third reader after Walker & Dunlop's Michael Holland and the pref-only names on the equity list to arrive at the same structure. If the answer is no, say so quickly and let RJL redeploy; if it is maybe, it changes what every other LP in the stack is being offered and needs to be decided before the CastleSquare and Artisan conversations go further, not after.",
+  "tags": [
+   "pref-only"
+  ],
+  "heat": 3
+ },
+ {
+  "firm": "Lakerock",
+  "person": "Reported via Jonathan Livi, RJL Capital Advisors",
+  "title": null,
+  "email": null,
+  "channel": "rjl",
+  "stage": "pass",
+  "ts": "2026-10-28T00:00:00Z",
+  "quote": "Not very bullish on Houston, so it may be a tough fit (Oct 28)",
+  "action": "The pattern holds on a channel we had no data from. Lakerock had never seen a ZMR deal, came in cold through RJL with no prior Houston history with us, and still stopped at the market rather than the basis, the vintage or the returns. RJL lists it first under their own \"Notable Feedback Themes\" as Houston exposure not favored. Nothing to work here.",
+  "tags": [
+   "houston-sentiment"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "ReCap - RGA (Reinsurance Group of America)",
+  "person": "Reported via Jonathan Livi, RJL Capital Advisors",
+  "title": null,
+  "email": null,
+  "channel": "rjl",
+  "stage": "pass",
+  "ts": "2026-10-27T00:00:00Z",
+  "quote": "Not completing any additional multifamily acquisitions through 2026 (Oct 27)",
+  "action": "A calendar pass, not a deal pass - an insurance balance sheet that has closed the book on multifamily for the year. Worth keeping on the list for a January re-approach, which is RJL's to make while the exclusivity runs and ours after ~25 Nov. Nothing about Allen Genoa was rejected.",
+  "tags": [
+   "capital-paused"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "Abod Capital",
+  "person": "Reported via Jonathan Livi, RJL Capital Advisors",
+  "title": null,
+  "email": null,
+  "channel": "rjl",
+  "stage": "reviewing",
+  "ts": "2026-10-29T00:00:00Z",
+  "quote": "Taking A Look (no notes reported)",
+  "action": "RJL's pipeline status, not the investor's words - they have the deal and have not come back with a view. Four of the eleven sit here, which is the single largest block on the RJL report and the reason the channel is worth leaving alone until it ripens. Treat the heat as provisional: there is no quote behind it, and the next report either turns it into a question or a pass. Ask Livi for the substance behind these four before reading anything into the count.",
+  "tags": [],
+  "heat": 2
+ },
+ {
+  "firm": "Corten Real Estate Partners",
+  "person": "Reported via Jonathan Livi, RJL Capital Advisors",
+  "title": null,
+  "email": null,
+  "channel": "rjl",
+  "stage": "reviewing",
+  "ts": "2026-10-29T00:00:00Z",
+  "quote": "Taking A Look (no notes reported)",
+  "action": "RJL's pipeline status, not the investor's words - they have the deal and have not come back with a view. Four of the eleven sit here, which is the single largest block on the RJL report and the reason the channel is worth leaving alone until it ripens. Treat the heat as provisional: there is no quote behind it, and the next report either turns it into a question or a pass. Ask Livi for the substance behind these four before reading anything into the count.",
+  "tags": [],
+  "heat": 2
+ },
+ {
+  "firm": "Monocle Group",
+  "person": "Reported via Jonathan Livi, RJL Capital Advisors",
+  "title": null,
+  "email": null,
+  "channel": "rjl",
+  "stage": "reviewing",
+  "ts": "2026-10-29T00:00:00Z",
+  "quote": "Taking A Look (no notes reported)",
+  "action": "RJL's pipeline status, not the investor's words - they have the deal and have not come back with a view. Four of the eleven sit here, which is the single largest block on the RJL report and the reason the channel is worth leaving alone until it ripens. Treat the heat as provisional: there is no quote behind it, and the next report either turns it into a question or a pass. Ask Livi for the substance behind these four before reading anything into the count.",
+  "tags": [],
+  "heat": 2
+ },
+ {
+  "firm": "Triangle Capital Group",
+  "person": "Reported via Jonathan Livi, RJL Capital Advisors",
+  "title": null,
+  "email": null,
+  "channel": "rjl",
+  "stage": "reviewing",
+  "ts": "2026-10-29T00:00:00Z",
+  "quote": "Taking A Look (no notes reported)",
+  "action": "RJL's pipeline status, not the investor's words - they have the deal and have not come back with a view. Four of the eleven sit here, which is the single largest block on the RJL report and the reason the channel is worth leaving alone until it ripens. Treat the heat as provisional: there is no quote behind it, and the next report either turns it into a question or a pass. Ask Livi for the substance behind these four before reading anything into the count.",
+  "tags": [],
+  "heat": 2
  }
 ]
