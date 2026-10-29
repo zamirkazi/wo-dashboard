@@ -1360,15 +1360,15 @@
   "title": null,
   "email": "charles@croson.com",
   "channel": "direct",
-  "stage": "pass",
-  "ts": "2026-10-29T17:45:57Z",
-  "quote": "Appreciate you reaching out. We are very full on CRE and focusing on internal deals.",
-  "action": "Allocation is full and the family does its own deals. Nothing about Allen Genoa was weighed, and nothing about it would change the answer. Leave them alone until their CRE weighting comes down - this is a calendar problem measured in years, not months.",
+  "stage": "relationship",
+  "ts": "2026-10-29T18:20:06Z",
+  "quote": "Appreciate you reaching out. We are very full on CRE and focusing on internal deals. ... We have a mixed-use multi land site in Orlando we are potentially looking to market. That's about it at this time to sell.",
+  "action": "The equity answer is no and will stay no - allocation is full and the family does its own deals. But Zamir did the right thing and asked what they would sell, and Charles answered in 34 minutes: a mixed-use multifamily land site in Orlando, not yet marketed. That is pre-market deal flow in a market ZMR already operates in, from a family office with no broker attached yet. It is worth more than the LP conversation was. Second time this round the same move has worked - Claremont came back asking what ZMR has for sale in South Florida - so the blast is turning up counterparties as well as capital. Route the Orlando site to the acquisitions side rather than letting it die in the equity thread.",
   "tags": [
    "capital-paused",
    "strategy-mismatch"
   ],
-  "heat": 1
+  "heat": 2
  },
  {
   "firm": "Aprio Wealth Management",
@@ -1384,6 +1384,19 @@
    "feeder-platform",
    "strategy-mismatch"
   ],
+  "heat": 1
+ },
+ {
+  "firm": "AMB Family Office",
+  "person": "Brett Jewkes",
+  "title": null,
+  "email": "bjewkes@ambfo.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-10-29T18:57:28Z",
+  "quote": "No interest. Thanks.",
+  "action": "Arthur Blank's family office, sent from a phone, three words, no reason. Nothing to read into it and nothing to work - a five-person distribution at AMBSE and AMBFO saw the deal and the head of the house answered for all of them. Worth one note for the list: the addresses here are mixed, bjewkes@, kpope@ and afranklin@ alongside dietmar.exler@ and andrea.demarco@, which is a reminder that no single naming rule holds across a firm and the only safe correction is one taken from real correspondence.",
+  "tags": [],
   "heat": 1
  }
 ]
