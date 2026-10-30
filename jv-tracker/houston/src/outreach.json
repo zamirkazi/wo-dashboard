@@ -1314,6 +1314,114 @@
    "sent": "2026-10-29",
    "outcome": "replied",
    "note": "From the v5 PE send (GMass campaign 54069404). Signature gives ncarbone@farcap.com as an alternate; the send went to the faralloncapital.com address and reached him."
+  },
+  {
+   "channel": "direct",
+   "firm": "Kensington Stern",
+   "person": "David Stern",
+   "email": "david@kensingtonstern.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "direct",
+   "firm": "Mattoni Group",
+   "person": "Vicente P. Cotrim Jr.",
+   "email": "vcotrim@mattonigroup.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "direct",
+   "firm": "Clifton Blake",
+   "person": "KC Daya",
+   "email": "kdaya@cliftonblake.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "direct",
+   "firm": "Oaktree Capital Management",
+   "person": "Jared Lazarus",
+   "email": "jlazarus@oaktreecapital.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "direct",
+   "firm": "Adler Family Office / Lubert Adler",
+   "person": "Dean Adler",
+   "email": "dean@adlerfo.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "direct",
+   "firm": "Centerbridge Partners",
+   "person": "Adam Burinescu",
+   "email": "aburinescu@centerbridge.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "direct",
+   "firm": "Geolo Capital",
+   "person": "Jeffrey Reinstein",
+   "email": "jr@geolo.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "direct",
+   "firm": "InterVest",
+   "person": "Will Hutton",
+   "email": "w.hutton@intervest.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "direct",
+   "firm": "Artemis Real Estate Partners",
+   "person": "Ryan Eckert",
+   "email": "ryan.eckert@artemisrep.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "direct",
+   "firm": "Blackbird Investment Group",
+   "person": "Matt Jenson",
+   "email": "mjenson@blackbirdinv.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "direct",
+   "firm": "Investcorp",
+   "person": "Affan Ahmed",
+   "email": "aahmed1@investcorp.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "direct",
+   "firm": "FCP",
+   "person": "Cole Kellogg",
+   "email": "ckellogg@fcpdc.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
   }
  ],
  "carveouts": [

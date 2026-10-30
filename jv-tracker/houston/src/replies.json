@@ -1444,5 +1444,181 @@
    "check-too-small"
   ],
   "heat": 1
+ },
+ {
+  "firm": "Kensington Stern",
+  "person": "David Stern",
+  "title": null,
+  "email": "david@kensingtonstern.com",
+  "stage": "materials",
+  "ts": "2026-10-30T14:00:58Z",
+  "quote": "I hope you're well. Please send the package for review.",
+  "tags": [],
+  "heat": 4,
+  "action": "Six words, no objection, and a direct ask for the package - the cleanest open of the wave. Frank is copied, so two people are on it. Send the full package today while the mail is still at the top of his inbox; this is one of only three names out of 286 that asked to see more, and the gap between a same-day send and a Monday send is the whole conversion.",
+  "channel": "direct"
+ },
+ {
+  "firm": "Mattoni Group",
+  "person": "Vicente P. Cotrim Jr.",
+  "title": "Director of Finance",
+  "email": "vcotrim@mattonigroup.com",
+  "stage": "materials",
+  "ts": "2026-10-30T14:07:14Z",
+  "quote": "Can you send us the full package?",
+  "tags": [],
+  "heat": 4,
+  "action": "A finance director asking for the package inside an hour of the send, with Rodrigo Caporal on the thread. Coral Gables, so a short flight from Tampa if it goes anywhere. No objection of any kind, Houston included. Same instruction as Kensington Stern: send it today, and send the same package to both so the answers line up if they compare notes.",
+  "channel": "direct"
+ },
+ {
+  "firm": "Clifton Blake",
+  "person": "KC Daya",
+  "title": null,
+  "email": "kdaya@cliftonblake.com",
+  "stage": "question",
+  "ts": "2026-10-30T14:00:43Z",
+  "quote": "Good to see you in LA.. Does this fund pay cash flow ? Has the agency loan been arranged ?",
+  "tags": [],
+  "heat": 4,
+  "action": "A relationship, not a cold name - he opens on having just seen Zamir in LA - and both questions are answerable today. On cash flow: yes, 9.0% stabilized cash-on-cash, with two years of interest-only before amortization starts, which is the honest version because the coupon steps into a 30-year amortization in year three and the cash yield drops. Say that rather than quote the stabilized number alone; Eastham passed on precisely the gap between those two figures. On the loan, answer precisely: it is quoted at 5.94% fixed with a 2% buydown, 70% of purchase price, not closed - 'arranged' means something specific to a lender-literate reader and overstating it is the one thing that would cost this conversation.",
+  "channel": "direct"
+ },
+ {
+  "firm": "Oaktree Capital Management",
+  "person": "Jared Lazarus",
+  "title": "Real Estate",
+  "email": "jlazarus@oaktreecapital.com",
+  "stage": "reviewing",
+  "ts": "2026-10-30T13:34:01Z",
+  "quote": "Copying Chris in our office since Will is no longer with Oaktree. Seems like an interesting basis but might be too small for us. Happy to take a quick look.",
+  "tags": [
+   "check-too-small"
+  ],
+  "heat": 3,
+  "action": "Oaktree flagged the size risk and offered to look anyway, which is better than it sounds from a manager of that scale - 'seems like an interesting basis' is the basis argument landing with a reader who sees everything. Chris Ahn is now copied and is the name to work; Will has left Oaktree, so correct that on the master list. Send the package without waiting to be asked again and lead with the basis, since that is the thing he reacted to. Treat the size caveat as real - this is the fifth size pass or size flag of the morning - but a 'quick look' from Oaktree costs nothing to feed.",
+  "channel": "direct"
+ },
+ {
+  "firm": "Adler Family Office / Lubert Adler",
+  "person": "Dean Adler",
+  "title": null,
+  "email": "dean@adlerfo.com",
+  "stage": "pass",
+  "ts": "2026-10-30T13:29:33Z",
+  "quote": "i bid on it at 120000 per key and i was stretching we have an office in houston they didn't like it at all",
+  "tags": [
+   "underbid-this-asset",
+   "submarket-conviction"
+  ],
+  "heat": 1,
+  "action": "The most valuable reply of the wave and the one that most needs answering internally rather than externally. Dean Adler bid on THIS asset at $120,000 per unit and calls that a stretch; ZMR is under contract at $134,921, which is 12% above the number a competing bidder thought was already full. And his own Houston office - people on the ground, not a screen - 'didn't like it at all'. That is a direct challenge to the two load-bearing claims in the pitch: that the basis is roughly half comparable-vintage pricing, and that the submarket is simply under-covered. Both can still be true, because a bid is one buyer's view and he may have been underwriting a different business plan, but the marketing cannot keep asserting the basis is unarguable while a real underbidder on file says otherwise. Work out what he was solving for before the next wave. Note also the routing: as of 11 Sep all his mail goes to dean@adlerfo.com, not dadler@lubertadler.com - fix that on the master list.",
+  "channel": "direct"
+ },
+ {
+  "firm": "Centerbridge Partners",
+  "person": "Adam Burinescu",
+  "title": null,
+  "email": "aburinescu@centerbridge.com",
+  "stage": "pass",
+  "ts": "2026-10-30T13:39:06Z",
+  "quote": "Our min investment size is $50m of equity but thx u",
+  "tags": [
+   "check-too-small"
+  ],
+  "heat": 1,
+  "action": "A hard floor at $50M against an $11.77M ask - more than four times the raise. Nothing to work here and nothing wrong with the deal; Centerbridge was simply never a candidate and should not have been on the list. Take it as list hygiene rather than feedback.",
+  "channel": "direct"
+ },
+ {
+  "firm": "Geolo Capital",
+  "person": "Jeffrey Reinstein",
+  "title": null,
+  "email": "jr@geolo.com",
+  "stage": "pass",
+  "ts": "2026-10-30T14:00:34Z",
+  "quote": "Seems like a solid opportunity but we are mostly a pass on Houston right now, so we are going to sit this one out. Good luck getting this to the finish line.",
+  "tags": [
+   "houston-sentiment"
+  ],
+  "heat": 1,
+  "action": "This answers the open question about what Geolo said last time - now there is a current answer, and it is the board's headline finding stated as plainly as it gets: 'mostly a pass on Houston right now'. Not the basis, not the size, not the returns. 'Seems like a solid opportunity' is the compliment-then-Houston shape that has now appeared more than twenty times. Jay Moorhead and hc@geolo.com are on the thread; nothing to action, file it.",
+  "channel": "direct"
+ },
+ {
+  "firm": "InterVest",
+  "person": "Will Hutton",
+  "title": null,
+  "email": "w.hutton@intervest.com",
+  "stage": "pass",
+  "ts": "2026-10-30T13:41:56Z",
+  "quote": "thanks for thinking of us here. The check size will be too small for us.",
+  "tags": [
+   "check-too-small"
+  ],
+  "heat": 1,
+  "action": "Another size pass, no number given. Polite and final. The only use for it is as one more data point that the v5 list needs a floor filter before the next wave.",
+  "channel": "direct"
+ },
+ {
+  "firm": "Artemis Real Estate Partners",
+  "person": "Ryan Eckert",
+  "title": null,
+  "email": "ryan.eckert@artemisrep.com",
+  "stage": "relationship",
+  "ts": "2026-10-30T13:35:54Z",
+  "quote": "This Smart Living deal is too small for us but happy to connect today or early next week to learn more about ZMR / chat about other Houston opportunities if you're fairly active in the market",
+  "tags": [
+   "check-too-small"
+  ],
+  "heat": 3,
+  "action": "The deal is dead here but the call is worth more than the deal. Rich Banjo routed it internally to Ryan Eckert, who covers Houston for Artemis - a Barings company - and Eckert offered to talk today or early next week about other Houston opportunities. Two things make this the best non-deal outcome of the wave: he is the man on the ground in the exact market every other reader is refusing, so his read on why is worth having first-hand, and he explicitly asked whether ZMR is active there. Take the call today and go in asking what Artemis is seeing in Southeast Houston, not pitching Allen Genoa.",
+  "channel": "direct"
+ },
+ {
+  "firm": "Blackbird Investment Group",
+  "person": "Matt Jenson",
+  "title": "Principal",
+  "email": "mjenson@blackbirdinv.com",
+  "stage": "relationship",
+  "ts": "2026-10-30T14:17:31Z",
+  "quote": "Sounds like a nice deal but we are slightly more risk off at the moment and are focusing on existing deals and corresponding business plans. Once we execute a few lease-up business plans, we will be back out to market for new deals.",
+  "tags": [
+   "capital-paused"
+  ],
+  "heat": 2,
+  "action": "A posture, not a view on the deal - and a specific one worth keeping. Blackbird is working through lease-up business plans of their own and will be back out when those execute, which makes them a natural reader for a stabilised 2023 build once they are through it. No Houston objection at all, which is rare on this board. Todd Vender is the other name on the thread. Diary it rather than push.",
+  "channel": "direct"
+ },
+ {
+  "firm": "Investcorp",
+  "person": "Affan Ahmed",
+  "title": null,
+  "email": "aahmed1@investcorp.com",
+  "stage": "relationship",
+  "ts": "2026-10-30T13:52:02Z",
+  "quote": "Thanks for sharing, I've been hearing more 6 caps on deals recently. In general are you seeing similar pricing on new vintage deals in the Sunbelt? This deals not a fit for us as we don't have equity for multifamily in the near term. We'll likely re-evaluate the strategy sometime mid Q1 next year.",
+  "tags": [
+   "capital-paused"
+  ],
+  "heat": 2,
+  "action": "A pass on allocation, not on the asset, with a re-entry date attached - mid Q1 - and, unusually, a question coming back the other way. He is hearing more 6 caps and wants to know whether that is general across new-vintage Sunbelt product. Answer it properly and for free: it costs nothing, it is the kind of exchange that makes the mid-Q1 call land, and his own observation is corroboration that the ~6% going-in here is market rather than aggressive. Ryan Bassett is the other name on the thread.",
+  "channel": "direct"
+ },
+ {
+  "firm": "FCP",
+  "person": "Cole Kellogg",
+  "title": null,
+  "email": "ckellogg@fcpdc.com",
+  "stage": "reviewing",
+  "ts": "2026-10-30T13:36:45Z",
+  "quote": "we know the deal and have looked at it a few times in the past. We don't love the micro location (and frankly don't really love Houston) so passed on it during the last marketing. Happy to take a quick look, but likely just a quick pass for us.",
+  "tags": [
+   "submarket-conviction",
+   "houston-sentiment"
+  ],
+  "heat": 2,
+  "action": "Read this as a pass that left a door open, not as a live name - 'likely just a quick pass' is the operative clause and the offer to look is courtesy. The value is in what it confirms. FCP already saw this asset during the last marketing and passed on the micro location, which puts them alongside Dean Adler's Houston office as a second party that evaluated this specific site on the ground and did not like it. That is now six independent flags on the submarket - Sabal, Green Pine, Slocumb, Island Capital, FCP and Adler - and two of the six had the asset in front of them. The affordability and micro-location reconciliation is no longer something to prepare for the next reader; it is the single thing most likely to be deciding these outcomes. Only re-engage Kellogg if there is genuinely new ground-level evidence; sending the same package will produce the quick pass he predicted.",
+  "channel": "direct"
  }
 ]
