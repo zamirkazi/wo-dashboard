@@ -1305,6 +1305,15 @@
    "sent": "2026-10-27",
    "outcome": "replied",
    "note": "Family-office blast (fo_SEND.csv), not the equity list. Mike Kane's own office, Devon PA."
+  },
+  {
+   "channel": "direct",
+   "firm": "Farallon Capital Management",
+   "person": "Nick Carbone",
+   "email": "NCarbone@faralloncapital.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404). Signature gives ncarbone@farcap.com as an alternate; the send went to the faralloncapital.com address and reached him."
   }
  ],
  "carveouts": [

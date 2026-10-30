@@ -1429,5 +1429,20 @@
   "action": "A call request with a slot attached, off the family-office blast rather than the equity list - Kestrel is Mike Kane's own family office and sits on fo_SEND.csv, so this is the blast converting to a meeting rather than a reply. Two days and thirteen hours after the 27 Oct send, which is a considered reply, not a reflex. He proposed Friday 6 November after 11am and offered to take alternatives, so the only thing that can lose this is silence; book it today. Two things to carry into the call: he read the 21.5% / 5.71% set and the current numbers are 21.1% / 2.30x / 9.0% on a 5.94% coupon, so lead with the re-cut rather than let him find it; and the mail he answered says 'three-pager attached' - confirm it actually went, because a family office that asks for a call before seeing the deck will ask for the deck on the call. No objection of any kind in the reply, Houston included.",
   "tags": [],
   "heat": 4
+ },
+ {
+  "firm": "Farallon Capital Management",
+  "person": "Nick Carbone",
+  "title": null,
+  "email": "NCarbone@faralloncapital.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-10-30T13:23:21Z",
+  "quote": "Thanks for sending Zamir, sounds like a good story. This one will be too small for us though, we want to stay > $25 mm of equity. Good luck",
+  "action": "The first reply off the v5 send, and it is a clean size pass with a compliment attached - 'sounds like a good story' from a $39B manager is worth more than the no costs. Farallon writes above $25M of equity; the ask is $11.77M, so this was never reachable and nothing about the deal is in question. Two things to take from it rather than one. First, it is the fourth size pass on the board after Vey, TPG and JDI, and it says the v5 list still carries names whose floor is above this raise - worth a pass over the remaining 327 for anyone whose published minimum clears $20M before the next wave goes. Second, and more useful: Farallon is a name to keep for a larger deal, and the reply invites exactly that. File it with Island's 'keep us in mind for the next one'.",
+  "tags": [
+   "check-too-small"
+  ],
+  "heat": 1
  }
 ]
