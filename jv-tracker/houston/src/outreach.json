@@ -1594,7 +1594,8 @@
    "email": "kirk@robertsequities.com",
    "sent": "2026-10-30",
    "outcome": "silent",
-   "note": "Cold. No prior correspondence anywhere in the mailbox; the address came from Zamir. No last name on file."
+   "note": "YPO relationship, not a cold name - no prior correspondence in the mailbox because the relationship runs through YPO rather than email. Sent 30 Oct. Read any reply as a peer's read rather than an institutional screen: he is likely an individual cheque rather than a fund, so the $11.77M ask is the wrong frame and a slug is the right one. No last name on file; a reply signature will fill that in.",
+   "knows": "YPO"
   }
  ],
  "carveouts": [
