@@ -1422,6 +1422,24 @@
    "sent": "2026-10-29",
    "outcome": "replied",
    "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "direct",
+   "firm": "Red Cove Capital",
+   "person": "A. Tishkoff",
+   "email": "atishkoff@redcovecap.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "direct",
+   "firm": "Makarora",
+   "person": "S. Dunn",
+   "email": "SDunn@makarora-lp.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
   }
  ],
  "carveouts": [
@@ -1469,6 +1487,11 @@
    "firm": "Connelly Capital",
    "person": "Jon Connelly",
    "why": "\"We've never met - how did you get these emails?\" linking Canada's anti-spam legislation. A CASL complaint, not a pass. Do not mail connelly.ca again."
+  },
+  {
+   "firm": "Progeny 3",
+   "person": "Michael-Ann M. McAboy",
+   "why": "\"Remove our emails, please\" - 30 Oct, off the v5 send. Plural, so the whole domain: mmcaboy@progeny3.com and eswitaj@progeny3.com. Not a pass on the deal; an opt-out. Do not mail progeny3.com again."
   }
  ],
  "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",

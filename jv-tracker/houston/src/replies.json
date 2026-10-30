@@ -591,7 +591,7 @@
   "stage": "reviewing",
   "ts": "2026-10-15T00:17:42Z",
   "quote": "621 Capital - Wants 2022 and newer at 30-40% below replacement cost. Houston is an actionable market. Potentially concerned with the broader area.",
-  "action": "The warmest name on Slocumb's list and the one he says he is personally pushing. The screen fits almost exactly - 2022-and-newer at 30-40% below replacement cost is this deal's whole argument, and they treat Houston as actionable, which most of the direct list does not. The hesitation is the immediate area, not the city or the basis. That is the same objection ARCTRUST and Marble raised, and it is the one the memo still does not answer.",
+  "action": "Still the slowest name on the board. Slocumb followed up again on Monday 26 Oct and reported on the 28th that 621 is simply being slow - no new view, no objection, no decline. Their stated filter (2022 and newer at 30-40% below replacement cost) is the single best fit for this asset anywhere in the four channels, which is why it is worth one more push rather than writing off. Ask Slocumb for a direct introduction instead of another relay; three weeks of silence through an intermediary is where deals go to die.",
   "tags": [
    "submarket-demographics"
   ],
@@ -603,15 +603,14 @@
   "title": null,
   "email": null,
   "channel": "slocumb",
-  "stage": "reviewing",
-  "ts": "2026-10-15T00:17:42Z",
-  "quote": "BIG Equity Investors - Potentially wanting to invest in projects with a more substantial business plan. Basis and yield are interesting. Demographic sensitive on multifamily.",
-  "action": "Basis and yield land; the business plan does not. A stabilized asset at 95% with concession burn-off and bulk internet reads as too thin for a group that wants something to build. Also demographic-sensitive, which is the round's recurring block.",
+  "stage": "pass",
+  "ts": "2026-10-28T23:32:00Z",
+  "quote": "BIG unlikely to get there due to location concerns.",
+  "action": "Slocumb closed this one on 28 Oct and the reason is the location, not the business plan he flagged on 15 Oct. That matters more than losing the name: BIG is a Slocumb-channel reader with no ZMR relationship and no sight of the direct channel's feedback, and it lands on the same ground as Island Capital, FCP, Dean Adler's Houston office, Arc Capital, Sabal, Green Pine and Slocumb's own underwriting. Seven independent parties, four channels, one submarket. The micro-location question is now the central objection on this raise, ahead of Houston generally.",
   "tags": [
-   "submarket-demographics",
-   "strategy-mismatch"
+   "submarket-conviction"
   ],
-  "heat": 3
+  "heat": 1
  },
  {
   "firm": "Manglar Capital",
@@ -622,7 +621,7 @@
   "stage": "materials",
   "ts": "2026-10-28T23:27:17Z",
   "quote": "Manglar shared a few requests about deliverables. All very straightforward. I suspect they'll want an introductory call after reviewing. September and October operating statements. Current rent roll, including future leases and concessions. Current availability and pre-leasing report, along with the trailing 12-month occupancy trend. Current advertised concessions and the number of units to which they apply. ZMR's corporate presentation and track record.",
-  "action": "First real diligence request to come out of the Slocumb channel, and it reverses the read from two weeks ago. On 14 Oct Slocumb had Manglar as reviewing-but-doubtful: likes the basis, focused on Capital A affordable, 'potentially unable to meet project timeline'. They have now asked for five specific items and Slocumb expects an introductory call after they review.\n\nThe list is ordinary and all of it should already exist: Sep and Oct operating statements; current rent roll with future leases and concessions; availability and pre-leasing report with the T12 occupancy trend; current advertised concessions and the unit count they apply to; ZMR's corporate presentation and track record. Nothing here needs building, only sending.\n\nTwo things make this worth moving on today rather than tomorrow. Manglar is now one of only a handful of live positions and the only one that has asked for documents rather than for a price or a list. And the concessions question is the deal's own soft spot - the plan burns them from 2.6% T3 to 0.5% stabilized, and they have asked precisely how many units are advertised with concessions right now. That answer should be checked before it is sent, not after.\n\nSlocumb's own 5 Oct underwriting note still stands unanswered on affordability: CoStar 1-mile AMIs below the $71.2K in the teaser, and $282 of fees at stabilization, 19% of rent. Manglar is an affordable-housing investor. They are the likeliest reader to run that test.",
+  "action": "The five deliverables went out. Kevin sent them at 08:42 on 29 Oct - August and September operating statements, the current rent roll and concession report, box score, occupancy and leasing reports, and the ZMR track record and deck - and Slocumb acknowledged receipt the same morning. That closes the item. Two things follow. The October statement is still outstanding and Kevin owes it 'in the next week or so', so chase it before Manglar asks. And the concession answer is now on the record in writing: one month free on new leases on select units, nothing on renewals. That is the figure Willton, Artisan and Manglar were all circling, and it is consistent with the 2.6% T3 in the model rather than contradicting it - worth using proactively rather than waiting to be asked.",
   "tags": [
    "strategy-mismatch"
   ],
@@ -1619,6 +1618,38 @@
   ],
   "heat": 2,
   "action": "Read this as a pass that left a door open, not as a live name - 'likely just a quick pass' is the operative clause and the offer to look is courtesy. The value is in what it confirms. FCP already saw this asset during the last marketing and passed on the micro location, which puts them alongside Dean Adler's Houston office as a second party that evaluated this specific site on the ground and did not like it. That is now six independent flags on the submarket - Sabal, Green Pine, Slocumb, Island Capital, FCP and Adler - and two of the six had the asset in front of them. The affordability and micro-location reconciliation is no longer something to prepare for the next reader; it is the single thing most likely to be deciding these outcomes. Only re-engage Kellogg if there is genuinely new ground-level evidence; sending the same package will produce the quick pass he predicted.",
+  "channel": "direct"
+ },
+ {
+  "firm": "Red Cove Capital",
+  "person": "A. Tishkoff",
+  "title": null,
+  "email": "atishkoff@redcovecap.com",
+  "stage": "pass",
+  "ts": "2026-10-30T15:21:44Z",
+  "quote": "thanks for sending. Unfortunately, this one is too small for our value-add bucket. There, we're looking for min equity checks of $40m and garden assets are not really the focus.",
+  "tags": [
+   "check-too-small",
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "action": "Two mandate gates at once - a $40M floor on the value-add bucket and garden product outside the focus - so neither the basis nor Houston ever got a hearing. Three colleagues copied, none of whom will revisit it. The only value is as list hygiene: this is the sixth size pass of the day and the second to name a hard minimum in writing, after Centerbridge at $50M.",
+  "channel": "direct"
+ },
+ {
+  "firm": "Makarora",
+  "person": "S. Dunn",
+  "title": null,
+  "email": "SDunn@makarora-lp.com",
+  "stage": "pass",
+  "ts": "2026-10-30T15:16:04Z",
+  "quote": "Thanks for reaching out. This sounds cheap and looks like a pretty nice quality asset. Our team is stretched at the moment, so we're not going to be able to prioritize a deal of this size.",
+  "tags": [
+   "diligence-bandwidth",
+   "check-too-small"
+  ],
+  "heat": 1,
+  "action": "The basis argument landed - 'sounds cheap and looks like a pretty nice quality asset' - and then bandwidth and size closed it anyway. Worth noting precisely because the pitch worked and the outcome did not change: on a $11.77M ask, a stretched team will spend its hours on something larger. That is the structural problem with this raise in one sentence, and it is the same sentence from Farallon, Centerbridge, InterVest, Artemis, Oaktree and Red Cove today.",
   "channel": "direct"
  }
 ]
