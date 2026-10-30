@@ -1760,11 +1760,11 @@
   "email": "zak@birbas.com",
   "channel": "peblast",
   "stage": "meeting",
-  "ts": "2026-10-30T17:46:40Z",
-  "quote": "Thanks for reaching out. We'd be happy to learn more about the opportunity. Do you have time for a call on Wednesday afternoon, November 4th (ET)? Please feel free to send over any materials in advance.",
+  "ts": "2026-10-30T18:41:39Z",
+  "quote": "1:00 pm Eastern on Wednesday works well for us. Looking forward to connecting with you and the team.",
   "tags": [],
   "heat": 5,
-  "action": "A call with a date on it and a request for materials in advance, inside two hours of the send - the second meeting to come off the v5 list today after Kestrel came off the family office merge. No objection of any kind, Houston included. Shane is copied, so two people are on it. Two things to do and both today: confirm Wednesday afternoon before the slot goes, and send the package now rather than at the call, because he asked for it in advance and reading it beforehand is what turns a courtesy call into a real one."
+  "action": "Booked: Wednesday 4 November, 1:00pm Eastern. Zamir pulled Kevin, Chip and Mike Regan onto the thread and Shane is on their side, so it is a four-on-two with the people who built the model in the room. Two hours from cold send to a confirmed slot, and still not a single objection raised - not Houston, not the location, not the size. Send the package before the weekend rather than Monday: he asked for materials in advance on the first reply, and the difference between a call where they have read it and one where they have not is the difference between a second meeting and a polite no. Have the submarket answer ready; it is the question eight parties have now raised and the one most likely to decide this."
  },
  {
   "firm": "New York Life Investment Management",
@@ -1822,5 +1822,33 @@
   "tags": [],
   "heat": 1,
   "action": "Four words, no reason. The sixth bare not-a-fit off the family office merge today. Individually worthless; collectively it is the clearest argument for filtering that list on real-estate activity before the next pull, because a firm that evaluates deals explains itself and these ones do not."
+ },
+ {
+  "firm": "Clairmont Capital Group",
+  "person": "Cheng",
+  "title": null,
+  "email": "cheng@clairmontcg.com",
+  "channel": "peblast",
+  "stage": "materials",
+  "ts": "2026-10-30T18:08:25Z",
+  "quote": "good to hear from you and thanks for the notes below. We've looked at a few oppys. in Houston this year, and would love to learn more. Could you please circulate the OM & U/W info.?",
+  "tags": [],
+  "heat": 5,
+  "action": "The most promising reply of the day on the one dimension that has been killing this raise. Twenty-two firms have now declined because of Houston or this submarket; Clairmont has been underwriting Houston deals all year and wants the OM and the underwriting. They are not a reader who has to be talked past the market - they are already in it, which also means they will have their own comps and will test the basis claim rather than accept it. Send the OM and the model today with the concession figure and the submarket answer included rather than waiting to be asked. Nick and Ryan Snaguski are both on the thread; the send went to Ryan with Cheng copied, and Cheng answered, so Cheng is the one engaging."
+ },
+ {
+  "firm": "Stanton Road Capital",
+  "person": "Dylan A. Holt",
+  "title": "Principal",
+  "email": "dholt@stantonroadcapital.com",
+  "channel": "peblast",
+  "stage": "pass",
+  "ts": "2026-10-30T18:11:50Z",
+  "quote": "Thanks for sending over. Pencils down on multi for the time being.",
+  "tags": [
+   "capital-paused"
+  ],
+  "heat": 1,
+  "action": "Pencils down on multifamily entirely, so nothing about this deal was reached. A posture with no date attached, unlike Investcorp's mid-Q1 or Walker & Dunlop's Q1 fund - worth a note on the master list to re-check in a quarter rather than a diary entry."
  }
 ]

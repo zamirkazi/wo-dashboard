@@ -1604,6 +1604,24 @@
    "outcome": "silent",
    "note": "Inbound. Came back off the 30 Oct YPO deal flow chat post rather than any send, so he raised his own hand - the warmest origin of any contact on the board. Zamir sent him the deal by email the same day. No prior correspondence in the mailbox because the relationship runs through YPO. Read any reply as a peer's view, not an institutional screen, and expect an individual cheque: a slug is the right frame, not the full $11.77M. No last name on file yet.",
    "knows": "YPO"
+  },
+  {
+   "channel": "peblast",
+   "firm": "Clairmont Capital Group",
+   "person": "Cheng",
+   "email": "cheng@clairmontcg.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Stanton Road Capital",
+   "person": "Dylan A. Holt",
+   "email": "dholt@stantonroadcapital.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404)."
   }
  ],
  "carveouts": [
