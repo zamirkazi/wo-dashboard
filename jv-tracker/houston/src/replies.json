@@ -884,19 +884,6 @@
   "heat": 2
  },
  {
-  "firm": "Island Capital Group",
-  "person": "Joe Lytle",
-  "title": null,
-  "email": "jlytle@islecap.com",
-  "channel": "direct",
-  "stage": "reviewing",
-  "ts": "2026-10-20T12:33:28Z",
-  "quote": "I have forwarded to Matt and Brandon for their review. Will let you know.",
-  "action": "Eight days after the send and four after the follow-up, Joe routed it internally to Matt Seskin and Brandon Bickett rather than answering himself. No objection of any kind - not Houston, not the basis, not the check - which makes this one of the few replies on the board with nothing adverse in it at all. It is also thin: a hand-off is not a view, and two new names now hold the file. The follow-up that moved him was the same one that worked on Lindell and Grandview - realized concessions, the comp set, the exit 23-31% below comparable-vintage trades. Leave Joe alone for a week and let the reviewers come back; if nothing lands, go to Seskin and Bickett directly rather than back through Joe.",
-  "tags": [],
-  "heat": 3
- },
- {
   "firm": "Brasa Capital Management",
   "person": "Matt Milich",
   "title": null,
@@ -913,18 +900,19 @@
  },
  {
   "firm": "Island Capital Group",
-  "person": "Brandon Bickett",
-  "title": "Vice President, Principal Investments",
-  "email": "bbickett@islecap.com",
+  "person": "Jake Robertson",
+  "title": "Associate, Principal Investments",
+  "email": "jrobertson@islecap.com",
   "channel": "direct",
-  "stage": "materials",
-  "ts": "2026-10-21T19:25:28Z",
-  "quote": "Thanks. Yes, it would be helpful if you are able to send: Lease trade-out report last 90 days for both new and renewal leases including concessions; In-place tenant demographic report; Raw rent roll and T-12 files in excel",
-  "action": "The hand-off converted. Joe's referral on 20 Oct became a real diligence list 31 hours later: Bickett took the file himself, looped in Jake Robertson, and asked for three specific documents. Four Island names are now on the thread - Lytle, Seskin, Bickett, Robertson - and Zamir pulled Michael, Kevin and Chip onto it the same afternoon. Kevin answered at 19:47 with a 4MB send. This is the second-deepest live name on the board after ABR, and it got there the same way: a specific ask answered the same day with evidence attached. Note the middle item - an in-place tenant demographic report is the fourth independent request touching affordability, after Sabal, Green Pine and Slocumb. That reconciliation can no longer wait for the next send; it is now a diligence item on a live deal. Jake Robertson came back at 20:15 asking for an unprotected copy of the model - they are already inside it rather than reading the summary - and Kevin answered at 20:26 with a 21MB send, promising another batch of documents within a day.",
+  "stage": "pass",
+  "ts": "2026-10-29T23:56:45Z",
+  "quote": "Thank you for sharing this deal with us. Unfortunately, we are not going to get there on this one. We already have heavy exposure in Houston in this fund, so the bar is extremely high for adding another one. We also have some internal concerns around the specific location. Good luck and please keep us in mind for the next one.",
+  "action": "The deepest diligence on the board ended in a no, and the reason is the same one the board is built around. Island worked this file for nine days across four names on one thread: Lytle routed it 20 Oct, Bickett took it himself 21 Oct and asked for the 90-day trade-out report, an in-place tenant demographic report and the raw rent roll and T-12, Robertson asked the same afternoon for an unprotected copy of the model, and Kevin answered both inside the hour with 4MB and 21MB sends. They went all the way into the model and still passed - and not on the basis, the vintage, the check or the returns, none of which Robertson mentions. He names two things: Houston exposure already heavy in this fund, and an internal concern about the specific location. The first is the headline finding arriving from a reader who cannot be accused of a shallow screen. The second is the fourth independent flag on this submarket after Sabal, Green Pine and Slocumb, and it followed the demographic report Bickett asked for - which means the affordability reconciliation is no longer a diligence item to prepare for the next reader, it is a reason a reader who had everything said no. Zamir's 29 Oct follow-up at the updated 21.5% did not move them; the answer came seven hours later. Treat the close as genuine - 'keep us in mind for the next one' from a firm that read the whole model is worth more than most live rows - and send them the next non-Houston deal first.",
   "tags": [
+   "houston-exposure",
    "submarket-demographics"
   ],
-  "heat": 4
+  "heat": 1
  },
  {
   "firm": "Eastham Capital",
@@ -1428,5 +1416,18 @@
    "strategy-mismatch"
   ],
   "heat": 1
+ },
+ {
+  "firm": "Kestrel Investments",
+  "person": "Michael Kane",
+  "title": "President",
+  "email": "mike@kestrelinv.com",
+  "channel": "direct",
+  "stage": "meeting",
+  "ts": "2026-10-29T23:52:59Z",
+  "quote": "Thanks for your message. I'd be interested to discuss this opportunity with you but am about to start a little travel. Would you have time on Friday November 6th after 11am? If not, I can suggest some other times or you can send me some as well.",
+  "action": "A call request with a slot attached, off the family-office blast rather than the equity list - Kestrel is Mike Kane's own family office and sits on fo_SEND.csv, so this is the blast converting to a meeting rather than a reply. Two days and thirteen hours after the 27 Oct send, which is a considered reply, not a reflex. He proposed Friday 6 November after 11am and offered to take alternatives, so the only thing that can lose this is silence; book it today. Two things to carry into the call: he read the 21.5% / 5.71% set and the current numbers are 21.1% / 2.30x / 9.0% on a 5.94% coupon, so lead with the re-cut rather than let him find it; and the mail he answered says 'three-pager attached' - confirm it actually went, because a family office that asks for a call before seeing the deck will ask for the deck on the call. No objection of any kind in the reply, Houston included.",
+  "tags": [],
+  "heat": 4
  }
 ]
