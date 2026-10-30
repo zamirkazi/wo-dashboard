@@ -1460,6 +1460,33 @@
    "sent": "2026-10-29",
    "outcome": "replied",
    "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "CAPREIT",
+   "person": "Matt Skurka",
+   "email": "mskurka@capreit.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404)."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Keyes Capital",
+   "person": "Tim Keyes",
+   "email": "tkeyes@keyescap.com",
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "From the family office merge (GMass campaign 54006506)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Walker & Dunlop Investment Partners",
+   "person": "Michael Holland",
+   "email": "MHolland@walkerdunlop.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404)."
   }
  ],
  "carveouts": [

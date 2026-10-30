@@ -1651,5 +1651,50 @@
   "heat": 1,
   "action": "The basis argument landed - 'sounds cheap and looks like a pretty nice quality asset' - and then bandwidth and size closed it anyway. Worth noting precisely because the pitch worked and the outcome did not change: on a $11.77M ask, a stretched team will spend its hours on something larger. That is the structural problem with this raise in one sentence, and it is the same sentence from Farallon, Centerbridge, InterVest, Artemis, Oaktree and Red Cove today.",
   "channel": "peblast"
+ },
+ {
+  "firm": "CAPREIT",
+  "person": "Matt Skurka",
+  "title": "Director of Investments",
+  "email": "mskurka@capreit.com",
+  "channel": "peblast",
+  "stage": "pass",
+  "ts": "2026-10-30T15:37:19Z",
+  "quote": "Houston is not a target market for us, but thank you for thinking of us on this opportunity.",
+  "tags": [
+   "houston-exposure"
+  ],
+  "heat": 1,
+  "action": "One line, no hedge, from a Director of Investments - the title that actually decides. Houston is simply off the target list. Nothing about the basis, the vintage or the size was reached. File it; the only thing to take is that the market gate is being applied before any deal detail is read, which is the same behaviour driving most of this board."
+ },
+ {
+  "firm": "Keyes Capital",
+  "person": "Tim Keyes",
+  "title": null,
+  "email": "tkeyes@keyescap.com",
+  "channel": "familyoffice",
+  "stage": "pass",
+  "ts": "2026-10-30T15:47:22Z",
+  "quote": "At the present we are not allocating any funds to real estate.",
+  "tags": [
+   "capital-paused"
+  ],
+  "heat": 1,
+  "action": "Not allocating to real estate at all at the moment, so neither Houston nor the deal was ever in play. This is the family-office merge's characteristic reply: the firm is not a real-estate allocator and the list did not know that before mailing. Worth tagging on the FinTrx source so the next pull filters it out rather than spending a send on it."
+ },
+ {
+  "firm": "Walker & Dunlop Investment Partners",
+  "person": "Michael Holland",
+  "title": "Director",
+  "email": "MHolland@walkerdunlop.com",
+  "channel": "peblast",
+  "stage": "relationship",
+  "ts": "2026-10-30T15:59:53Z",
+  "quote": "the profile definitely sounds interesting here. Unfortunately this one is going to be a bit early for our next fund still. We're anticipating having deployable capital for that fund sometime in Q1 but can't commit to new deals yet. We'll keep you updated as the fund raise progresses but I think this will be the type of deal we're definitely targeting. Going to be a value-add fund, with an emphasis on multifamily, so will certainly be targeting deals like this - high quality newer vintage assets, but with a big basis discount. Please continue to keep us in mind on future ones.",
+  "tags": [
+   "capital-paused"
+  ],
+  "heat": 3,
+  "action": "The most useful forward-looking reply on the board, and it settles a question that has been open for weeks. Walker & Dunlop is the listing broker on Allen Genoa and the standing instruction was not to solicit their investment partners arm without a decision; the send went at 07:42 today anyway, and Holland simply answered as a normal LP candidate with no conflict raised. So the conflict concern can be closed. What he actually said is worth more than this deal: their next fund is value-add with a multifamily emphasis targeting 'high quality newer vintage assets, but with a big basis discount', which is a description of ZMR's strategy written by someone else, and it has deployable capital in Q1. He asked to be kept in mind. Diary him for early January with whatever is next, and note he is a Director at the fund rather than a broker contact - this is not a Ryan Epstein conversation."
  }
 ]
