@@ -6,7 +6,7 @@
    "started": "2026-09-21",
    "status": "live",
    "note": "One-to-one forwards off Kevin's 21 Sep memo, then a second wave on 12 Oct to every name Kirsh had proposed but never mailed, then a third wave the same evening off ZMR's own equity list (1,087 contacts on Drive) and the Canyon Woods reply record. All three waves are out \u2014 54 firms on 12 Oct alone, the last at 22:25. A fourth wave of bumps went 15-16 Oct and a fifth on 21-22 Oct (14 firms between 20:03 and 20:09 ET, then Pearlmark and Integrity by hand the next morning). Six follow-ups are written and sitting in drafts: Grandview, West Pine, Benedict, STRE, Parse and Capital Solutions. Each email opens on that firm's own last answer to us where one exists. Subject throughout: \"Houston 2023 Vintage $135K/door $13M Check 20%+ IRR\".",
-   "reach": 75
+   "reach": 79
   },
   "kirsh": {
    "label": "Andrew Kirsh",
@@ -1568,6 +1568,33 @@
    "sent": "2026-10-26",
    "outcome": "replied",
    "note": "From the family office merge (GMass campaign 54006506)."
+  },
+  {
+   "channel": "direct",
+   "firm": "LEM Capital",
+   "person": "Kevin Weidman",
+   "email": "weidman@lemcapital.com",
+   "sent": "2026-10-30",
+   "outcome": "silent",
+   "note": "Managing Director. Sent 30 Oct as a reply on the 27 Aug San Ramon thread, so his own pass sits directly below. He declined Canyon Woods on two grounds that both fall away here: Bay Area allocation was tight after their Fremont acquisition and another Bay Area deal under contract, and he said it would only work as 'a very small equity check'. This is Houston, and $11.77M against San Ramon's $30.96M. Dinner at Butcher & Singer in Philly on 30 Sep, so the relationship is current. Aaron from their acquisitions team is the other name."
+  },
+  {
+   "channel": "direct",
+   "firm": "KRE Capital",
+   "person": "Matt Khoury",
+   "email": "matt.khoury@krecapital.com",
+   "sent": "2026-10-30",
+   "outcome": "silent",
+   "note": "Prior contact from Sep 2023 on a GP platform investment - he took it away to read and the thread went quiet. Dotted address: the Gmail search index renders it mattkhoury@, the message headers have matt.khoury@."
+  },
+  {
+   "channel": "direct",
+   "firm": "Roberts Equities",
+   "person": "Kirk",
+   "email": "kirk@robertsequities.com",
+   "sent": "2026-10-30",
+   "outcome": "silent",
+   "note": "Cold. No prior correspondence anywhere in the mailbox; the address came from Zamir. No last name on file."
   }
  ],
  "carveouts": [
