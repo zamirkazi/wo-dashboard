@@ -1752,5 +1752,75 @@
   "tags": [],
   "heat": 1,
   "action": "Two words from a CFO, no reason. The fifth bare no-interest reply off the family office merge and the clearest illustration of the titles problem on that list: a chief financial officer is an administrative principal, not the person who evaluates a direct real estate JV, and people who do evaluate deals say why. Nothing to recover here - the use is in the FinTrx pull, where investment titles and a real-estate-activity filter would have spent this send better."
+ },
+ {
+  "firm": "Birbas",
+  "person": "Zak Birbas",
+  "title": null,
+  "email": "zak@birbas.com",
+  "channel": "peblast",
+  "stage": "meeting",
+  "ts": "2026-10-30T17:46:40Z",
+  "quote": "Thanks for reaching out. We'd be happy to learn more about the opportunity. Do you have time for a call on Wednesday afternoon, November 4th (ET)? Please feel free to send over any materials in advance.",
+  "tags": [],
+  "heat": 5,
+  "action": "A call with a date on it and a request for materials in advance, inside two hours of the send - the second meeting to come off the v5 list today after Kestrel came off the family office merge. No objection of any kind, Houston included. Shane is copied, so two people are on it. Two things to do and both today: confirm Wednesday afternoon before the slot goes, and send the package now rather than at the call, because he asked for it in advance and reading it beforehand is what turns a courtesy call into a real one."
+ },
+ {
+  "firm": "New York Life Investment Management",
+  "person": "Robert Bevers",
+  "title": null,
+  "email": "robert.bevers@nylim.com",
+  "channel": "direct",
+  "stage": "referred",
+  "ts": "2026-10-30T17:28:40Z",
+  "quote": "Jordan and Chris Hunt are no longer with the company. Paul Noland (copied) now covers Chris' territories including Houston.",
+  "tags": [],
+  "heat": 3,
+  "action": "More useful than it looks. Two contacts on our list are dead - Jordan and Chris Hunt have both left NYLIM - and Bevers did not just say so, he named and copied the replacement: Paul Noland now covers Houston. So the deal is already in front of the right person at a major institution without a cold approach. Go to Noland directly at paul.noland@nylim.com with the package rather than waiting for him to surface, and fix all three rows on the master list: Jordan and Chris Hunt out, Noland in, Bevers as the routing contact. Note the addresses are dotted - robert.bevers, paul.noland, daniel.gazzola."
+ },
+ {
+  "firm": "Lone Star Funds",
+  "person": "Evan Layne",
+  "title": "Managing Director, Lone Star Americas",
+  "email": "elayne@lonestarfunds.com",
+  "channel": "peblast",
+  "stage": "pass",
+  "ts": "2026-10-30T17:51:21Z",
+  "quote": "Thank you for your note - we appreciate you thinking of us. This transaction does not fit our criteria due to size.",
+  "tags": [
+   "check-too-small"
+  ],
+  "heat": 1,
+  "action": "Size again, from a Managing Director, with no number attached. Lone Star raises multi-billion opportunity funds, so $11.77M was never within reach and this is list hygiene rather than feedback. It is the ninth size pass in two days, which is now the second-largest single reason on the board after the market itself."
+ },
+ {
+  "firm": "Morrison Street Capital / Northmarq",
+  "person": "Peter Sherman",
+  "title": "Northmarq Fund Management",
+  "email": "psherman@morrisonstreetcapital.com",
+  "channel": "peblast",
+  "stage": "pass",
+  "ts": "2026-10-30T17:29:11Z",
+  "quote": "Not a fit. No JV equity in Houston (not a target market for the fund).",
+  "tags": [
+   "houston-exposure",
+   "houston-sentiment"
+  ],
+  "heat": 1,
+  "action": "A fund-level exclusion stated flatly: no JV equity in Houston, full stop, because Houston is not a target market for the vehicle. Not a view on this asset and not something a better package would move. Worth a contact note - he writes from morrisonstreetcapital.com but signs as Northmarq Fund Management with a northmarq.com address, so the master list should carry both."
+ },
+ {
+  "firm": "Zittman",
+  "person": "Joe Roos",
+  "title": null,
+  "email": "joe@zittman.com",
+  "channel": "familyoffice",
+  "stage": "pass",
+  "ts": "2026-10-30T17:30:04Z",
+  "quote": "Thanks, Zamir. Not a fit.",
+  "tags": [],
+  "heat": 1,
+  "action": "Four words, no reason. The sixth bare not-a-fit off the family office merge today. Individually worthless; collectively it is the clearest argument for filtering that list on real-estate activity before the next pull, because a firm that evaluates deals explains itself and these ones do not."
  }
 ]

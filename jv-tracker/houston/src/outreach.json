@@ -1523,6 +1523,51 @@
    "sent": "2026-10-26",
    "outcome": "replied",
    "note": "From the family office merge (GMass campaign 54006506)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Birbas",
+   "person": "Zak Birbas",
+   "email": "zak@birbas.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404)."
+  },
+  {
+   "channel": "direct",
+   "firm": "New York Life Investment Management",
+   "person": "Robert Bevers",
+   "email": "robert.bevers@nylim.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Hand-sent 30 Oct. Jordan and Chris Hunt have left NYLIM; Paul Noland now covers Houston."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Lone Star Funds",
+   "person": "Evan Layne",
+   "email": "elayne@lonestarfunds.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Morrison Street Capital / Northmarq",
+   "person": "Peter Sherman",
+   "email": "psherman@morrisonstreetcapital.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404)."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Zittman",
+   "person": "Joe Roos",
+   "email": "joe@zittman.com",
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "From the family office merge (GMass campaign 54006506)."
   }
  ],
  "carveouts": [
