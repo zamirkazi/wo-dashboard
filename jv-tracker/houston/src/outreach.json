@@ -1487,6 +1487,42 @@
    "sent": "2026-10-29",
    "outcome": "replied",
    "note": "From the v5 PE send (GMass campaign 54069404)."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "RBM",
+   "person": "Duston Barton",
+   "email": "dbarton@rbm.us",
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "From the family office merge (GMass campaign 54006506)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "ARA Capital / Avison Young",
+   "person": "Edward Fonseca",
+   "email": "efonseca@ay-ara.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Rockport Equity",
+   "person": "Keith Guerraz",
+   "email": "kguerraz@rockportequity.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404)."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Reichenbaum",
+   "person": "Galina Zavaliy",
+   "email": "galina@reichenbaum.com",
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "From the family office merge (GMass campaign 54006506)."
   }
  ],
  "carveouts": [

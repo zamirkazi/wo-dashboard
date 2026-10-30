@@ -1696,5 +1696,61 @@
   ],
   "heat": 3,
   "action": "The most useful forward-looking reply on the board, and it settles a question that has been open for weeks. Walker & Dunlop is the listing broker on Allen Genoa and the standing instruction was not to solicit their investment partners arm without a decision; the send went at 07:42 today anyway, and Holland simply answered as a normal LP candidate with no conflict raised. So the conflict concern can be closed. What he actually said is worth more than this deal: their next fund is value-add with a multifamily emphasis targeting 'high quality newer vintage assets, but with a big basis discount', which is a description of ZMR's strategy written by someone else, and it has deployable capital in Q1. He asked to be kept in mind. Diary him for early January with whatever is next, and note he is a Director at the fund rather than a broker contact - this is not a Ryan Epstein conversation."
+ },
+ {
+  "firm": "RBM",
+  "person": "Duston Barton",
+  "title": null,
+  "email": "dbarton@rbm.us",
+  "channel": "familyoffice",
+  "stage": "reviewing",
+  "ts": "2026-10-30T17:08:59Z",
+  "quote": "We'll take a look and let you know if there's interest. We still have between 5 and 20M unspoken for in the exchange.",
+  "tags": [
+   "exchange-capital"
+  ],
+  "heat": 5,
+  "action": "The best size fit the raise has produced and the first reply anywhere that volunteers a live pot of money. $5-20M unspoken for, against an $11.77M ask - dead centre, where seven firms today were out because the cheque was too small. It is exchange money, which cuts both ways: 1031 capital is under a statutory clock, so it is genuinely motivated rather than browsing, but the identification and closing deadlines have to line up with a December or January close and that is the first question to settle, not the last. Ask what date their exchange has to close by before sending anything else. Note the source too - this came off the family office merge, the channel running at under 2%, which is an argument against writing that list off on the headline rate."
+ },
+ {
+  "firm": "ARA Capital / Avison Young",
+  "person": "Edward Fonseca",
+  "title": "Investments, Southern California",
+  "email": "efonseca@ay-ara.com",
+  "channel": "peblast",
+  "stage": "referred",
+  "ts": "2026-10-30T16:52:13Z",
+  "quote": "Appreciate you giving us a chance to review here. Looping in Xander who leads our east coast team and covers TX.",
+  "tags": [],
+  "heat": 3,
+  "action": "Routed to the right desk within twenty minutes - Xander Dyer leads the east coast team and covers Texas, and he is on the thread at xdyer@aracapital.com. No objection was raised at all, which is the same shape as Island Capital in October, where Joe Lytle's hand-off became a real diligence list thirty-one hours later. Treat Dyer as the live name now and go to him directly rather than back through Fonseca. Worth noting the address split: Fonseca writes from ay-ara.com, Dyer from aracapital.com."
+ },
+ {
+  "firm": "Rockport Equity",
+  "person": "Keith Guerraz",
+  "title": "Managing Partner",
+  "email": "kguerraz@rockportequity.com",
+  "channel": "peblast",
+  "stage": "pass",
+  "ts": "2026-10-30T16:40:20Z",
+  "quote": "this location is not a fit for us, but looks like solid terms",
+  "tags": [
+   "submarket-conviction"
+  ],
+  "heat": 1,
+  "action": "Eleven words that contain the entire finding: the terms are fine, the location is not. From a Managing Partner, so this is the firm's answer rather than a screen. It is the eighth independent party to object to this specific location rather than to Houston at large, and the second today after Rockport's near neighbour in tone, FCP. Nothing to work; file it with the location evidence."
+ },
+ {
+  "firm": "Reichenbaum",
+  "person": "Galina Zavaliy",
+  "title": "Chief Financial Officer",
+  "email": "galina@reichenbaum.com",
+  "channel": "familyoffice",
+  "stage": "pass",
+  "ts": "2026-10-30T16:41:15Z",
+  "quote": "No interest.",
+  "tags": [],
+  "heat": 1,
+  "action": "Two words from a CFO, no reason. The fifth bare no-interest reply off the family office merge and the clearest illustration of the titles problem on that list: a chief financial officer is an administrative principal, not the person who evaluates a direct real estate JV, and people who do evaluate deals say why. Nothing to recover here - the use is in the FinTrx pull, where investment titles and a real-estate-activity filter would have spent this send better."
  }
 ]
