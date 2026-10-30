@@ -6,7 +6,7 @@
    "started": "2026-09-21",
    "status": "live",
    "note": "One-to-one forwards off Kevin's 21 Sep memo, then a second wave on 12 Oct to every name Kirsh had proposed but never mailed, then a third wave the same evening off ZMR's own equity list (1,087 contacts on Drive) and the Canyon Woods reply record. All three waves are out \u2014 54 firms on 12 Oct alone, the last at 22:25. A fourth wave of bumps went 15-16 Oct and a fifth on 21-22 Oct (14 firms between 20:03 and 20:09 ET, then Pearlmark and Integrity by hand the next morning). Six follow-ups are written and sitting in drafts: Grandview, West Pine, Benedict, STRE, Parse and Capital Solutions. Each email opens on that firm's own last answer to us where one exists. Subject throughout: \"Houston 2023 Vintage $135K/door $13M Check 20%+ IRR\".",
-   "reach": 79
+   "reach": 78
   },
   "kirsh": {
    "label": "Andrew Kirsh",
@@ -47,6 +47,14 @@
    "status": "live",
    "reach": 286,
    "note": "The remainder of ZMR's own equity list, screened to v5 and sent 29 Oct 16:15 PDT as \"Houston 2023 Vintage | +LTO | $135K/Door | $12M Equity | 21% IRR\". 328 addresses went in, GMass suppressed 42 as prior bounces, 286 delivered in 42 minutes. 13 replies inside the first four hours - 4.55%, the best rate of any channel - but seven of them are size passes, which says the list still needs a check-size floor before the next wave."
+  },
+  "ypo": {
+   "label": "YPO deal flow chat",
+   "owner": "Zamir",
+   "started": "2026-10-30",
+   "status": "live",
+   "reach": 1,
+   "note": "A single post to the YPO deal flow group chat, not a merge and not a list. It is the only channel on the board where the audience self-selects: nobody was targeted, and anyone who comes back has raised their own hand. Reach counts named respondents rather than chat members, since we hold no roster. The cheque profile is the inverse of every other channel - YPO members write individual cheques, where nine firms have now passed here because $11.77M was below their floor."
   }
  },
  "contacts": [
@@ -1588,13 +1596,13 @@
    "note": "Prior contact from Sep 2023 on a GP platform investment - he took it away to read and the thread went quiet. Dotted address: the Gmail search index renders it mattkhoury@, the message headers have matt.khoury@."
   },
   {
-   "channel": "direct",
+   "channel": "ypo",
    "firm": "Roberts Equities",
    "person": "Kirk",
    "email": "kirk@robertsequities.com",
    "sent": "2026-10-30",
    "outcome": "silent",
-   "note": "YPO relationship, not a cold name - no prior correspondence in the mailbox because the relationship runs through YPO rather than email. Sent 30 Oct. Read any reply as a peer's read rather than an institutional screen: he is likely an individual cheque rather than a fund, so the $11.77M ask is the wrong frame and a slug is the right one. No last name on file; a reply signature will fill that in.",
+   "note": "Inbound. Came back off the 30 Oct YPO deal flow chat post rather than any send, so he raised his own hand - the warmest origin of any contact on the board. Zamir sent him the deal by email the same day. No prior correspondence in the mailbox because the relationship runs through YPO. Read any reply as a peer's view, not an institutional screen, and expect an individual cheque: a slug is the right frame, not the full $11.77M. No last name on file yet.",
    "knows": "YPO"
   }
  ],

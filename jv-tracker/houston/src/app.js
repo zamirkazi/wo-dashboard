@@ -82,7 +82,7 @@ function renderStatus(){
     : '';
   $('#headline').innerHTML = dl +
     '<b>' + usd(d.equity) + ' to raise, and the deal has now gone to ' + totalReach() +
-      ' firms across six channels.</b> ' +
+      ' firms across seven channels.</b> ' +
     'Of those, ' + D.replies.length + ' came back — ' +
     D.replies.filter(r => r.stage === 'pass').length + ' passes and ' +
     D.replies.filter(r => LIVE.has(r.stage)).length + ' still live. Almost every pass names Houston — ' +
@@ -363,7 +363,7 @@ $('#uw').innerHTML =
 
 $('#foot').innerHTML =
   'Allen Genoa Capital Desk · ' + D.replies.length + ' replies from ' + totalReach() +
-  ' firms mailed across six channels, of which ' +
+  ' firms reached across seven channels, of which ' +
   D.contacts.filter(c => c.outcome !== 'excluded').length + ' are named individually · ' +
   'built from the Gmail thread record, not a CRM.<br>' +
   'A firm counts as sent only where a send or a reply appears in the thread. Names that were proposed, ' +
