@@ -39,15 +39,21 @@ $('#spec').innerHTML = [
 const chanKeys = Object.keys(D.channels);
 const inChan = x => channel === 'all' || x.channel === channel;
 const contactsIn = k => D.contacts.filter(c => c.channel === k);
+// Reach is the number of firms a channel actually mailed. The blasts named only their
+// repliers, so counting contact rows understates them by an order of magnitude.
+const reachOf = k => (D.channels[k] && D.channels[k].reach) ||
+  contactsIn(k).filter(c => SENT.has(c.outcome)).length;
+const totalReach = () => chanKeys.reduce((n,k) => n + reachOf(k), 0);
+const reachIn = () => channel === 'all' ? totalReach() : reachOf(channel);
 
 function renderChanBtns(){
   const btn = (key,label,n,live) =>
     '<button class="cbtn" data-ch="'+key+'" aria-pressed="'+(channel===key)+'">'+
     esc(label)+' <b>'+n+'</b>'+(live?'<span class="live-dot"></span>':'')+'</button>';
   const liveBy = k => D.replies.filter(r => LIVE.has(r.stage) && (k==='all'||r.channel===k)).length;
-  let h = btn('all','All channels', D.contacts.filter(c=>c.outcome!=='excluded').length, liveBy('all')>0);
+  let h = btn('all','All channels', totalReach(), liveBy('all')>0);
   for (const k of chanKeys)
-    h += btn(k, D.channels[k].label, contactsIn(k).filter(c=>c.outcome!=='excluded').length, liveBy(k)>0);
+    h += btn(k, D.channels[k].label, reachOf(k), liveBy(k)>0);
   $('#chanbtns').innerHTML = h;
   $('#chanbtns').querySelectorAll('.cbtn').forEach(b => b.onclick = () => {
     channel = b.dataset.ch; renderChanBtns(); renderFilters(); renderAll();
@@ -64,7 +70,9 @@ function renderStatus(){
   const pool = D.contacts.filter(c => inChan(c) && SENT.has(c.outcome));
   const silent = pool.filter(c => c.outcome === 'silent');
   const untapped = D.contacts.filter(c => inChan(c) && UNSENT.has(c.outcome));
-  const rate = pool.length ? Math.round(100 * reps.length / pool.length) : 0;
+  const mailed = reachIn();
+  const rate = mailed ? (100 * reps.length / mailed) : 0;
+  const rateTxt = rate >= 10 ? Math.round(rate) + '%' : rate.toFixed(1) + '%';
 
   const hot = D.replies.filter(r => LIVE.has(r.stage)).sort((a,b)=>b.heat-a.heat)[0];
   const dl = D.deadline
@@ -73,21 +81,22 @@ function renderStatus(){
       ' The raise is now running against that clock, not against a January close.</div>'
     : '';
   $('#headline').innerHTML = dl +
-    '<b>' + usd(d.equity) + ' to raise, and the deal has only actually been sent to ' +
-      D.contacts.filter(c => SENT.has(c.outcome)).length + ' firms.</b> ' +
+    '<b>' + usd(d.equity) + ' to raise, and the deal has now gone to ' + totalReach() +
+      ' firms across six channels.</b> ' +
     'Of those, ' + D.replies.length + ' came back — ' +
     D.replies.filter(r => r.stage === 'pass').length + ' passes and ' +
     D.replies.filter(r => LIVE.has(r.stage)).length + ' still live. Almost every pass names Houston — ' +
     'exposure, sentiment or submarket — rather than this deal\'s basis, vintage, check size or returns, ' +
     'and six firms praised the basis on their way to no. ' +
     'The warmest name is <b>' + esc(hot.firm) + '</b>: ' + esc(hot.action.split('.')[0]) + '. ' +
-    '<b>The round went out in a single block on 12 Oct</b> — ' +
-    D.contacts.filter(c => c.sent === '2026-10-12').length +
-    ' firms, each opening on that firm\'s own last answer to us where there was one, the rest ' +
-    'pulled from ZMR\'s equity list. ' +
-    D.contacts.filter(c => c.brokerSend).length +
-    ' of those are Slocumb\'s groups, and his 15 Oct report-back is the first hard confirmation ' +
-    'that the send happened — IPA holds that record, not us. ' +
+    '<b>Reach is not one number.</b> ' + reachOf('direct') + ' firms were hand-sent one at a time, ' +
+    'each opening on that firm\'s own last answer where there was one; ' + reachOf('familyoffice') +
+    ' went out as a family-office merge on 26 Oct; ' + reachOf('peblast') +
+    ' as the rest of the equity list on 29 Oct; and ' +
+    (reachOf('kirsh')+reachOf('slocumb')+reachOf('rjl')) +
+    ' through the three brokers, who hold those send records rather than us. ' +
+    'The hand-sent names answer at a different order of magnitude from the merges — ' +
+    'compare the reply rates channel by channel below. ' +
     (function(u){ return u.length
         ? 'One name is still ours to send: <b>' + esc(u[0].firm) + '</b>.'
         : 'Nothing is left to send.'; })(D.contacts.filter(c => UNSENT.has(c.outcome)));
@@ -95,7 +104,7 @@ function renderStatus(){
   const k = (n,l,note,cls) =>
     '<div class="kpi'+(cls?' '+cls:'')+'"><div class="n">'+n+'</div><div class="lbl">'+esc(l)+'</div>'+
     (note?'<div class="note">'+note+'</div>':'')+'</div>';
-  if (!pool.length){
+  if (!mailed){
     $('#kpis').innerHTML = '';
     $('#headline').innerHTML = '<b>Nothing has gone out on this channel yet.</b> ' +
       esc(D.channels[channel] ? D.channels[channel].note : '') +
@@ -105,7 +114,7 @@ function renderStatus(){
   $('#kpis').innerHTML =
     k(live.length,'Live conversations','Reviewing or conditional — not yet a no','hot') +
     k(pass.length,'Passes', pass.length ? Math.round(100*pass.length/reps.length)+'% of replies' : '') +
-    k(reps.length + ' / ' + pool.length,'Replied / sent', rate + '% reply rate — a hand-picked list answers') +
+    k(reps.length + ' / ' + mailed,'Replied / mailed', rateTxt + ' reply rate') +
     k(silent.length,'Silent','Hold the deal, nothing back yet') +
     k(untapped.length,'Still unsent','Ours to send — nobody else is sending it','hot');
 }
@@ -136,22 +145,29 @@ function renderChannels(){
            'Grandview, Long Wharf and Mountain Pacific — because he knows them personally and is going direct. ' +
            'Nothing from this channel has landed yet, so none of the numbers above include it.</div>';
     } else {
-      const named = sent.length + unsent.length;
+      const mailed = reachOf(key);
+      // On the two merges only repliers have named rows, so the funnel is measured
+      // against what the channel actually mailed, not against rows we happen to hold.
       const rows = [
-        ['Named', named, 'var(--seq-2)'],
-        ['Actually sent', sent.length, 'var(--seq-4)'],
+        ['Firms mailed', mailed, 'var(--seq-2)'],
+        ['Named individually', sent.length + unsent.length, 'var(--seq-3)'],
         ['Replied', reps.length, 'var(--seq-4)'],
         ['Still live', live.length, 'var(--live)'],
         ['Silent', silent.length, 'var(--dead)'],
         ['Lined up, unsent', unsent.length, 'var(--dead)'],
-      ].filter(r => !(r[0] === 'Lined up, unsent' && !unsent.length));
-      const max = named || 1;
+      ].filter(r => !(r[0] === 'Lined up, unsent' && !unsent.length))
+       .filter(r => !(r[0] === 'Silent' && !silent.length));
+      const named = mailed;
+      const max = mailed || 1;
       h += '<div class="funnel">' + rows.map(([l,n,col]) =>
         '<div class="frow"><div class="fl"><b>' + esc(l) + '</b></div>' +
         '<div class="ftrack"><div class="fbar" style="width:' + (100*n/max).toFixed(1) +
           '%;background:' + col + '"></div></div>' +
         '<div class="fval">' + n + ' <span>/ ' + named + '</span></div></div>').join('') + '</div>';
+      const rr = mailed ? (100*reps.length/mailed) : 0;
       h += '<p class="sub" style="margin-top:12px;font-family:inherit;font-size:13px;color:var(--ink-3)">' +
+           '<b style="color:var(--ink)">' + (rr>=10?Math.round(rr):rr.toFixed(1)) + '% reply rate</b> — ' +
+           reps.length + ' of ' + mailed + '. ' +
            esc(c.note) + (excl.length ? ' ' + excl.length + ' name' + (excl.length>1?'s':'') +
              ' pulled before sending.' : '') + '</p>';
     }
@@ -346,9 +362,9 @@ $('#uw').innerHTML =
   'sophisticated reader repeats that exercise and reaches the same place.';
 
 $('#foot').innerHTML =
-  'Allen Genoa Capital Desk · ' + D.replies.length + ' replies from the ' +
-  D.contacts.filter(c => SENT.has(c.outcome)).length + ' firms the deal was actually sent to, out of ' +
-  D.contacts.filter(c => c.outcome !== 'excluded').length + ' named across four channels · ' +
+  'Allen Genoa Capital Desk · ' + D.replies.length + ' replies from ' + totalReach() +
+  ' firms mailed across six channels, of which ' +
+  D.contacts.filter(c => c.outcome !== 'excluded').length + ' are named individually · ' +
   'built from the Gmail thread record, not a CRM.<br>' +
   'A firm counts as sent only where a send or a reply appears in the thread. Names that were proposed, ' +
   'agreed or offered in conversation are counted as unsent, however warm they are.<br>' +

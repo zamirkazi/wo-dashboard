@@ -1,32 +1,52 @@
 {
  "channels": {
   "direct": {
-   "label": "ZMR direct",
+   "label": "ZMR direct (hand-sent)",
    "owner": "Zamir / Kevin / Chip",
    "started": "2026-09-21",
    "status": "live",
-   "note": "One-to-one forwards off Kevin's 21 Sep memo, then a second wave on 12 Oct to every name Kirsh had proposed but never mailed, then a third wave the same evening off ZMR's own equity list (1,087 contacts on Drive) and the Canyon Woods reply record. All three waves are out \u2014 54 firms on 12 Oct alone, the last at 22:25. A fourth wave of bumps went 15-16 Oct and a fifth on 21-22 Oct (14 firms between 20:03 and 20:09 ET, then Pearlmark and Integrity by hand the next morning). Six follow-ups are written and sitting in drafts: Grandview, West Pine, Benedict, STRE, Parse and Capital Solutions. Each email opens on that firm's own last answer to us where one exists. Subject throughout: \"Houston 2023 Vintage $135K/door $13M Check 20%+ IRR\"."
+   "note": "One-to-one forwards off Kevin's 21 Sep memo, then a second wave on 12 Oct to every name Kirsh had proposed but never mailed, then a third wave the same evening off ZMR's own equity list (1,087 contacts on Drive) and the Canyon Woods reply record. All three waves are out \u2014 54 firms on 12 Oct alone, the last at 22:25. A fourth wave of bumps went 15-16 Oct and a fifth on 21-22 Oct (14 firms between 20:03 and 20:09 ET, then Pearlmark and Integrity by hand the next morning). Six follow-ups are written and sitting in drafts: Grandview, West Pine, Benedict, STRE, Parse and Capital Solutions. Each email opens on that firm's own last answer to us where one exists. Subject throughout: \"Houston 2023 Vintage $135K/door $13M Check 20%+ IRR\".",
+   "reach": 75
   },
   "kirsh": {
    "label": "Andrew Kirsh",
    "owner": "Andrew Kirsh, Sklar Kirsh LLP",
    "started": "2026-10-02",
    "status": "live",
-   "note": "Kirsh sent to Tramview on 2 Oct, then to the three groups Zamir said he did not know \u2014 Mile Rock, Green Pine and Range Equity \u2014 on the morning of 3 Oct. All four came back. The rest of his list he raised as a question and never confirmed sending. Argosy was pulled from his list because Zamir knows them and went direct; they passed on 7 Oct."
+   "note": "Kirsh sent to Tramview on 2 Oct, then to the three groups Zamir said he did not know \u2014 Mile Rock, Green Pine and Range Equity \u2014 on the morning of 3 Oct. All four came back. The rest of his list he raised as a question and never confirmed sending. Argosy was pulled from his list because Zamir knows them and went direct; they passed on 7 Oct.",
+   "reach": 4
   },
   "slocumb": {
    "label": "Jeremy Slocumb",
    "owner": "Jeremy Slocumb, IPA Capital Markets",
    "started": "2026-10-12",
    "status": "live",
-   "note": "Jeremy Slocumb at IPA took seven names on 5 Oct and was cleared to send on 7 Oct, minus Grandview, Long Wharf and Mountain Pacific, which Zamir held back because he knows them. He reported back on 15 Oct: three reviewing, three declined, Nelnet still out. That report is the first hard confirmation that the send happened - IPA holds the send record, we never did. He is pushing 621 Capital himself."
+   "note": "Jeremy Slocumb at IPA took seven names on 5 Oct and was cleared to send on 7 Oct, minus Grandview, Long Wharf and Mountain Pacific, which Zamir held back because he knows them. He reported back on 15 Oct: three reviewing, three declined, Nelnet still out. That report is the first hard confirmation that the send happened - IPA holds the send record, we never did. He is pushing 621 Capital himself.",
+   "reach": 7
   },
   "rjl": {
    "label": "RJL Capital Advisors",
    "owner": "Jonathan Livi, RJL Capital Advisors",
    "started": "2026-10-26",
    "status": "live",
-   "note": "Livi's engagement letter of 22 Oct listed 34 groups and claimed a 2% fee, a 30-day exclusive and a non-circumvention over all of them. Zamir narrowed it by email on 26 Oct - \"confirmed you are OK to send to the 11 groups i mentioned below and the terms do not apply to the groups i carved out\" - and Livi did not push back. That email is the governing scope. RJL sent to the eleven and holds the addresses and the send record; we have neither. Their first written progress report came back 29 Oct 15:48 UTC, four hours after Zamir asked what feedback they had, with the covering line \"just waiting on feedback and some potential around a hybrid pref structure.\" Their dated notes run from 27 Oct, so the deal was out on or before then. The eleven are covered by a non-disclosure clause: do not name them to any third party, Ackman-Ziff included."
+   "note": "Livi's engagement letter of 22 Oct listed 34 groups and claimed a 2% fee, a 30-day exclusive and a non-circumvention over all of them. Zamir narrowed it by email on 26 Oct - \"confirmed you are OK to send to the 11 groups i mentioned below and the terms do not apply to the groups i carved out\" - and Livi did not push back. That email is the governing scope. RJL sent to the eleven and holds the addresses and the send record; we have neither. Their first written progress report came back 29 Oct 15:48 UTC, four hours after Zamir asked what feedback they had, with the covering line \"just waiting on feedback and some potential around a hybrid pref structure.\" Their dated notes run from 27 Oct, so the deal was out on or before then. The eleven are covered by a non-disclosure clause: do not name them to any third party, Ackman-Ziff included.",
+   "reach": 11
+  },
+  "familyoffice": {
+   "label": "Family office blast",
+   "owner": "Zamir (GMass)",
+   "started": "2026-10-26",
+   "status": "live",
+   "reach": 634,
+   "note": "A GMass merge to 634 family offices off the FinTrx-sourced fo_SEND list, sent 26 Oct 14:34 PDT under \"Depreciation | Houston 2023 Vintage | $135K/Door | $12M Equity | 21.5% IRR\", with a stage-one follow-up to the 330 who had not answered on 29 Oct. This is the only channel on the board that is a true blast: nobody here was hand-picked and most had never heard of ZMR. It returned 12 replies, 1.89%, against 4.55% on the PE send the same week from the same mailbox - and four of the eleven recorded replies are firms that do not invest in direct real estate at all, so the gap is list quality rather than message."
+  },
+  "peblast": {
+   "label": "PE / institutional send",
+   "owner": "Zamir (GMass)",
+   "started": "2026-10-29",
+   "status": "live",
+   "reach": 286,
+   "note": "The remainder of ZMR's own equity list, screened to v5 and sent 29 Oct 16:15 PDT as \"Houston 2023 Vintage | +LTO | $135K/Door | $12M Equity | 21% IRR\". 328 addresses went in, GMass suppressed 42 as prior bounces, 286 delivered in 42 minutes. 13 replies inside the first four hours - 4.55%, the best rate of any channel - but seven of them are size passes, which says the list still needs a check-size floor before the next wave."
   }
  },
  "contacts": [
@@ -977,7 +997,7 @@
    "note": "Equity broker, brought in cold off a 5 Oct check-in Zamir had left unanswered. Replied in two minutes."
   },
   {
-   "channel": "direct",
+   "channel": "familyoffice",
    "firm": "Meruelo Group",
    "person": "Alexis Meruelo",
    "email": "alexis.meruelo@meruelogroup.com",
@@ -989,7 +1009,7 @@
    "note": "Hand-sent under the new 21.5% subject. CFO passed in 52 minutes without a reason."
   },
   {
-   "channel": "direct",
+   "channel": "familyoffice",
    "firm": "RWN Management",
    "person": "Mary Harada",
    "email": "mharada@rwnmgmt.com",
@@ -1001,7 +1021,7 @@
    "note": "Hand-sent under the new 21.5% subject. CEO passed in 58 minutes without a reason."
   },
   {
-   "channel": "direct",
+   "channel": "familyoffice",
    "firm": "Claremont Corp",
    "person": "Ned Carney",
    "email": "ecarney@claremontcorp.com",
@@ -1215,7 +1235,7 @@
    "brokerSend": true
   },
   {
-   "channel": "direct",
+   "channel": "familyoffice",
    "firm": "Willton Investment Management",
    "person": "Chris Luo",
    "email": "cluo@willtongroup.com",
@@ -1225,7 +1245,7 @@
    "note": "GMass family-office wave, 27 Oct 12:17. Replied two days later naming concessions as the reason Houston is off the list."
   },
   {
-   "channel": "direct",
+   "channel": "familyoffice",
    "firm": "Cumming Capital",
    "person": "Matt Cumming",
    "email": "matt@cummingcapital.com",
@@ -1238,7 +1258,7 @@
    "note": "GMass family-office wave, 27 Oct 08:55 to Catherine, Matthew and Colby. Passed on bandwidth after Zamir's 29 Oct bump."
   },
   {
-   "channel": "direct",
+   "channel": "familyoffice",
    "firm": "Croson",
    "person": "Charles Croson",
    "email": "charles@croson.com",
@@ -1248,7 +1268,7 @@
    "note": "GMass family-office wave, 27 Oct 08:54. Passed on equity within two minutes of the 29 Oct bump, then offered a pre-market Orlando mixed-use multifamily land site when Zamir asked what they would sell."
   },
   {
-   "channel": "direct",
+   "channel": "familyoffice",
    "firm": "Aprio Wealth Management",
    "person": "Simeon Wallis",
    "email": "simeon.wallis@aprio.com",
@@ -1263,7 +1283,7 @@
    "note": "GMass family-office wave, 27 Oct 06:15 to Eric Flynn and team. The CIO answered on 29 Oct with a structural gate, not a view on the deal."
   },
   {
-   "channel": "direct",
+   "channel": "familyoffice",
    "firm": "AMB Family Office",
    "person": "Brett Jewkes",
    "email": "bjewkes@ambfo.com",
@@ -1278,7 +1298,7 @@
    "note": "GMass family-office wave, 27 Oct 08:11 to Brett Jewkes with four of the AMBSE team copied. Two-word pass off the 29 Oct bump."
   },
   {
-   "channel": "direct",
+   "channel": "familyoffice",
    "firm": "Borletti Group",
    "person": "Maurizio Borletti",
    "email": "m.borletti@borlettigroup.com",
@@ -1288,7 +1308,7 @@
    "note": "GMass family-office wave, 27 Oct 06:34. London and Luxembourg. Passed off the 29 Oct bump."
   },
   {
-   "channel": "direct",
+   "channel": "familyoffice",
    "firm": "35V",
    "person": "Jose Mena",
    "email": "jmena@35v.tv",
@@ -1298,7 +1318,7 @@
    "note": "GMass family-office wave, 27 Oct 06:02 to Sarah and Jose. Passed off the 29 Oct bump."
   },
   {
-   "channel": "direct",
+   "channel": "familyoffice",
    "firm": "Kestrel Investments",
    "person": "Michael Kane",
    "email": "mike@kestrelinv.com",
@@ -1307,7 +1327,7 @@
    "note": "Family-office blast (fo_SEND.csv), not the equity list. Mike Kane's own office, Devon PA."
   },
   {
-   "channel": "direct",
+   "channel": "peblast",
    "firm": "Farallon Capital Management",
    "person": "Nick Carbone",
    "email": "NCarbone@faralloncapital.com",
@@ -1316,7 +1336,7 @@
    "note": "From the v5 PE send (GMass campaign 54069404). Signature gives ncarbone@farcap.com as an alternate; the send went to the faralloncapital.com address and reached him."
   },
   {
-   "channel": "direct",
+   "channel": "peblast",
    "firm": "Kensington Stern",
    "person": "David Stern",
    "email": "david@kensingtonstern.com",
@@ -1325,7 +1345,7 @@
    "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
   },
   {
-   "channel": "direct",
+   "channel": "peblast",
    "firm": "Mattoni Group",
    "person": "Vicente P. Cotrim Jr.",
    "email": "vcotrim@mattonigroup.com",
@@ -1334,7 +1354,7 @@
    "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
   },
   {
-   "channel": "direct",
+   "channel": "peblast",
    "firm": "Clifton Blake",
    "person": "KC Daya",
    "email": "kdaya@cliftonblake.com",
@@ -1343,7 +1363,7 @@
    "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
   },
   {
-   "channel": "direct",
+   "channel": "peblast",
    "firm": "Oaktree Capital Management",
    "person": "Jared Lazarus",
    "email": "jlazarus@oaktreecapital.com",
@@ -1352,7 +1372,7 @@
    "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
   },
   {
-   "channel": "direct",
+   "channel": "peblast",
    "firm": "Adler Family Office / Lubert Adler",
    "person": "Dean Adler",
    "email": "dean@adlerfo.com",
@@ -1361,7 +1381,7 @@
    "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
   },
   {
-   "channel": "direct",
+   "channel": "peblast",
    "firm": "Centerbridge Partners",
    "person": "Adam Burinescu",
    "email": "aburinescu@centerbridge.com",
@@ -1370,7 +1390,7 @@
    "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
   },
   {
-   "channel": "direct",
+   "channel": "peblast",
    "firm": "Geolo Capital",
    "person": "Jeffrey Reinstein",
    "email": "jr@geolo.com",
@@ -1379,7 +1399,7 @@
    "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
   },
   {
-   "channel": "direct",
+   "channel": "peblast",
    "firm": "InterVest",
    "person": "Will Hutton",
    "email": "w.hutton@intervest.com",
@@ -1388,7 +1408,7 @@
    "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
   },
   {
-   "channel": "direct",
+   "channel": "peblast",
    "firm": "Artemis Real Estate Partners",
    "person": "Ryan Eckert",
    "email": "ryan.eckert@artemisrep.com",
@@ -1397,7 +1417,7 @@
    "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
   },
   {
-   "channel": "direct",
+   "channel": "peblast",
    "firm": "Blackbird Investment Group",
    "person": "Matt Jenson",
    "email": "mjenson@blackbirdinv.com",
@@ -1406,7 +1426,7 @@
    "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
   },
   {
-   "channel": "direct",
+   "channel": "peblast",
    "firm": "Investcorp",
    "person": "Affan Ahmed",
    "email": "aahmed1@investcorp.com",
@@ -1415,7 +1435,7 @@
    "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
   },
   {
-   "channel": "direct",
+   "channel": "peblast",
    "firm": "FCP",
    "person": "Cole Kellogg",
    "email": "ckellogg@fcpdc.com",
@@ -1424,7 +1444,7 @@
    "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
   },
   {
-   "channel": "direct",
+   "channel": "peblast",
    "firm": "Red Cove Capital",
    "person": "A. Tishkoff",
    "email": "atishkoff@redcovecap.com",
@@ -1433,7 +1453,7 @@
    "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
   },
   {
-   "channel": "direct",
+   "channel": "peblast",
    "firm": "Makarora",
    "person": "S. Dunn",
    "email": "SDunn@makarora-lp.com",
@@ -1495,5 +1515,46 @@
   }
  ],
  "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",
- "carveout_note": "RJL Capital Advisors (Jonathan Livi) proposed 34 groups on 22 Oct. Zamir struck the 23 ZMR already knew and confirmed on 26 Oct that RJL may approach only the eleven listed here, and that the terms do not apply to the struck names. These eleven are RJL's exclusively for 30 days from 26 Oct (to ~25 Nov), had never been sent the deal, and are covered by a non-disclosure clause - do not name them to any third party. WORTH KNOWING: the letter as drafted applied the 2% fee AND a non-circumvention clause to all 34, plus \"any other group that RJL Capital Advisors may introduce.\" Sixteen of the 34 are firms ZMR had already reached on its own - among them Equity Resource (currently at materials), BIG Equity (reviewing), CIM (referred), Corebridge, Eastham, Tramview, Arc Capital, Blue Vista, Brasa, Atlantic Creek, Eagle Realty, JDI, Marble, Midloch, Pennybacker and SilverCap. The only thing carving those out is Zamir's 26 Oct email, not a countersigned amendment. If RJL ever claims the fee on one of them, that email is the whole defence. Cheap to close in writing now."
+ "carveout_note": "RJL Capital Advisors (Jonathan Livi) proposed 34 groups on 22 Oct. Zamir struck the 23 ZMR already knew and confirmed on 26 Oct that RJL may approach only the eleven listed here, and that the terms do not apply to the struck names. These eleven are RJL's exclusively for 30 days from 26 Oct (to ~25 Nov), had never been sent the deal, and are covered by a non-disclosure clause - do not name them to any third party. WORTH KNOWING: the letter as drafted applied the 2% fee AND a non-circumvention clause to all 34, plus \"any other group that RJL Capital Advisors may introduce.\" Sixteen of the 34 are firms ZMR had already reached on its own - among them Equity Resource (currently at materials), BIG Equity (reviewing), CIM (referred), Corebridge, Eastham, Tramview, Arc Capital, Blue Vista, Brasa, Atlantic Creek, Eagle Realty, JDI, Marble, Midloch, Pennybacker and SilverCap. The only thing carving those out is Zamir's 26 Oct email, not a countersigned amendment. If RJL ever claims the fee on one of them, that email is the whole defence. Cheap to close in writing now.",
+ "campaigns": [
+  {
+   "id": "54006506",
+   "channel": "familyoffice",
+   "label": "Family office blast",
+   "subject": "Depreciation | Houston 2023 Vintage | $135K/Door | $12M Equity | 21.5% IRR",
+   "sent": "2026-10-26T21:34:18Z",
+   "recipients": 634,
+   "opens": 12,
+   "replies": 12,
+   "unsub": 0,
+   "bounces": 14,
+   "blocks": 5
+  },
+  {
+   "id": "54060721",
+   "channel": "familyoffice",
+   "label": "Family office follow-up (stage 1)",
+   "subject": "Depreciation | Houston 2023 Vintage | $135K/Door | $12M Equity | 21.5% IRR",
+   "sent": "2026-10-29T15:53:21Z",
+   "recipients": 330,
+   "opens": 5,
+   "replies": 5,
+   "unsub": 0,
+   "bounces": 2,
+   "blocks": 8
+  },
+  {
+   "id": "54069404",
+   "channel": "peblast",
+   "label": "PE / institutional send (v5)",
+   "subject": "Houston 2023 Vintage | +LTO | $135K/Door | $12M Equity | 21% IRR",
+   "sent": "2026-10-29T23:15:21Z",
+   "recipients": 286,
+   "opens": 13,
+   "replies": 13,
+   "unsub": 0,
+   "bounces": 5,
+   "blocks": 13
+  }
+ ]
 }
