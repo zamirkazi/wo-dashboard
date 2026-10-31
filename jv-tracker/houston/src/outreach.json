@@ -5,7 +5,7 @@
    "owner": "Zamir / Kevin / Chip",
    "started": "2026-09-21",
    "status": "live",
-   "note": "One-to-one forwards off Kevin's 21 Sep memo, then a second wave on 12 Oct to every name Kirsh had proposed but never mailed, then a third wave the same evening off ZMR's own equity list (1,087 contacts on Drive) and the Canyon Woods reply record. All three waves are out \u2014 54 firms on 12 Oct alone, the last at 22:25. A fourth wave of bumps went 15-16 Oct and a fifth on 21-22 Oct (14 firms between 20:03 and 20:09 ET, then Pearlmark and Integrity by hand the next morning). Six follow-ups are written and sitting in drafts: Grandview, West Pine, Benedict, STRE, Parse and Capital Solutions. Each email opens on that firm's own last answer to us where one exists. Subject throughout: \"Houston 2023 Vintage $135K/door $13M Check 20%+ IRR\".",
+   "note": "One-to-one forwards off Kevin's 21 Sep memo, then a second wave on 12 Oct to every name Kirsh had proposed but never mailed, then a third wave the same evening off ZMR's own equity list (1,087 contacts on Drive) and the Canyon Woods reply record. All three waves are out — 54 firms on 12 Oct alone, the last at 22:25. A fourth wave of bumps went 15-16 Oct and a fifth on 21-22 Oct (14 firms between 20:03 and 20:09 ET, then Pearlmark and Integrity by hand the next morning). Six follow-ups are written and sitting in drafts: Grandview, West Pine, Benedict, STRE, Parse and Capital Solutions. Each email opens on that firm's own last answer to us where one exists. Subject throughout: \"Houston 2023 Vintage $135K/door $13M Check 20%+ IRR\".",
    "reach": 78
   },
   "kirsh": {
@@ -13,7 +13,7 @@
    "owner": "Andrew Kirsh, Sklar Kirsh LLP",
    "started": "2026-10-02",
    "status": "live",
-   "note": "Kirsh sent to Tramview on 2 Oct, then to the three groups Zamir said he did not know \u2014 Mile Rock, Green Pine and Range Equity \u2014 on the morning of 3 Oct. All four came back. The rest of his list he raised as a question and never confirmed sending. Argosy was pulled from his list because Zamir knows them and went direct; they passed on 7 Oct.",
+   "note": "Kirsh sent to Tramview on 2 Oct, then to the three groups Zamir said he did not know — Mile Rock, Green Pine and Range Equity — on the morning of 3 Oct. All four came back. The rest of his list he raised as a question and never confirmed sending. Argosy was pulled from his list because Zamir knows them and went direct; they passed on 7 Oct.",
    "reach": 4
   },
   "slocumb": {
@@ -705,7 +705,7 @@
    "email": "mk@astorrealtycapital.com",
    "sent": "2026-10-12",
    "outcome": "bounced",
-   "note": "Primary address mk@astorrealtycapital.com hard-bounced on 12 Oct (550 5.7.1, recipient rejected as invalid) \u2014 Michael Korine never received it. Alena was copied and did receive it; a note asking her to forward or supply the right address is drafted.",
+   "note": "Primary address mk@astorrealtycapital.com hard-bounced on 12 Oct (550 5.7.1, recipient rejected as invalid) — Michael Korine never received it. Alena was copied and did receive it; a note asking her to forward or supply the right address is drafted.",
    "also": [
     "alena@astorrealtycapital.com"
    ]
@@ -1683,6 +1683,11 @@
    "firm": "Progeny 3",
    "person": "Michael-Ann M. McAboy",
    "why": "\"Remove our emails, please\" - 30 Oct, off the v5 send. Plural, so the whole domain: mmcaboy@progeny3.com and eswitaj@progeny3.com. Not a pass on the deal; an opt-out. Do not mail progeny3.com again."
+  },
+  {
+   "firm": "KIN Group (Geminder Family Office)",
+   "person": "Nick Perkins",
+   "why": "\"no, remove me\" - 31 Oct, off the family-office send, from the CEO. Singular, so at minimum nick@kingroup.com.au; the CEO answered for the firm, so treat Melbourne as closed. Not a pass on the deal; an opt-out."
   }
  ],
  "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",
