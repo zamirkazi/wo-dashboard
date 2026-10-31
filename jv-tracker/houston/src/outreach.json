@@ -1641,6 +1641,15 @@
    "outcome": "replied",
    "knows": "YPO",
    "note": "YPO relationship, hand-sent by Zamir on 31 Oct - not an inbound off the group-chat post, so it sits on direct rather than the ypo channel. Nowhere in fo_SEND, the v5 PE list or the screened roster, so this was first contact. Went out at the canonical direct-LP set (21.5% / 2.33x / 9.5% CoC on the 5.71% coupon) with the OM and the 10.26.26 model attached, and Zamir trimmed the partial-check paragraph before sending. Replied in 69 minutes asking exit timing and minimum check. Firm name inferred from the garnier.cr domain; not independently confirmed."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Basis Investment Group",
+   "person": "Kunle Shoyombo",
+   "email": "kshoyombo@basisinvgroup.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "On the v5 PE send (row 42). Zamir followed up by hand on 30 Oct 09:08 with a personal note, and that is the message the reply quotes. Kept on peblast rather than direct so the hand-sent channel's 78-firm base stays honest."
   }
  ],
  "carveouts": [

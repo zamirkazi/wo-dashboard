@@ -64,9 +64,10 @@ TAG_LABEL = {
     'exchange-capital':      'Has 1031 exchange money to place',
     'hold-period':           'Asked how long the hold is',
     'minimum-check':         'Asked the minimum check to participate',
+    'texas-selective':       'Open but selective on Texas right now',
 }
 # Which objections are about Houston itself vs. about this deal's economics.
-MARKET_TAGS = {'houston-exposure','houston-sentiment','submarket-demographics','strategy-mismatch','submarket-vacancy','submarket-conviction','climate-risk','submarket-concessions'}
+MARKET_TAGS = {'houston-exposure','houston-sentiment','submarket-demographics','strategy-mismatch','submarket-vacancy','submarket-conviction','climate-risk','submarket-concessions','texas-selective'}
 DEAL_TAGS   = {'going-in-yield','negative-leverage','exit-cap','fee-drag','occupancy-softness','unit-size','rent-spread','pref-only','competing-deal',
                'partner-conflict','check-too-small','capital-paused','non-local-sponsor','profile-appetite','check-too-large','raise-progress','year-one-cash','exit-rent-multiple','price-reduction','diligence-bandwidth','feeder-platform','underbid-this-asset','exchange-capital','hold-period','minimum-check'}
 
