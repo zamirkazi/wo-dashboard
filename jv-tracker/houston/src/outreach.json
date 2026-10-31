@@ -1631,6 +1631,16 @@
    "sent": "2026-10-29",
    "outcome": "replied",
    "note": "From the v5 PE send (GMass campaign 54069404). Dmitry Gasinsky copied."
+  },
+  {
+   "channel": "direct",
+   "firm": "Garnier",
+   "person": "Alberto Bonilla",
+   "email": "abonilla@garnier.cr",
+   "sent": null,
+   "outcome": "drafted",
+   "knows": "YPO",
+   "note": "YPO relationship, hand-sent by Zamir on 31 Oct - not an inbound off the group-chat post, so it sits on direct rather than the ypo channel. Nowhere in fo_SEND, the v5 PE list or the screened roster, so this is first contact. Drafted at the live 29 Oct set (21.1% / 2.30x / ~9% CoC on the 5.94% coupon), opened to a partial check since YPO members write individual tickets, and worded 'under contract' rather than 'awarded' with the close left as year-end extending into January. Firm name inferred from the garnier.cr domain; not independently confirmed."
   }
  ],
  "carveouts": [
