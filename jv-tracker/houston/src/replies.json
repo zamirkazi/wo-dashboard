@@ -1896,5 +1896,18 @@
    "texas-selective"
   ],
   "heat": 3
+ },
+ {
+  "firm": "Turtle Creek Wealth Advisors",
+  "person": "Jack Reilly",
+  "title": null,
+  "email": "jreilly@turtlecreekwealth.com",
+  "channel": "familyoffice",
+  "stage": "pass",
+  "ts": "2026-10-31T18:19:00Z",
+  "quote": "Hi Zamir - thanks for reaching out. We discussed as a team, and this one is not a fit for us at this time.",
+  "action": "Closed, and no reason given - it joins the no-reason pile the objections chart counts separately. Two things worth keeping. It is a Dallas RIA, which makes it the second data point after Aprio on whether the RIA tier is worth working: both took it seriously enough to circulate internally and both declined without engaging on the asset, which is what a platform that allocates through feeders rather than single-asset JVs looks like. And the follow-up did its job - the 27 Oct send drew nothing, the 30 Oct bump produced a team discussion and an answer in a day. That is the same pattern as Grandview and Basis.",
+  "tags": [],
+  "heat": 1
  }
 ]
