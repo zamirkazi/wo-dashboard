@@ -125,7 +125,7 @@
   "channel": "direct",
   "stage": "reviewing",
   "ts": "2026-10-22T15:00:00Z",
-  "quote": "We reviewed the opportunity with our team last week, and the feedback has been positive. Everyone likes the story, and we are continuing to work through the numbers in more detail\u2026 there is one item we are working through on our side. We have a long-standing local partner in Houston with whom we remain actively invested\u2026 This does not reflect any hesitation on the opportunity itself.",
+  "quote": "We reviewed the opportunity with our team last week, and the feedback has been positive. Everyone likes the story, and we are continuing to work through the numbers in more detail… there is one item we are working through on our side. We have a long-standing local partner in Houston with whom we remain actively invested… This does not reflect any hesitation on the opportunity itself.",
   "action": "Call held 22 Oct at 11:00 EST - Chip organised, Zamir and Kevin on, Camilo for STRE, twelve minutes, recorded to Fireflies with no summary generated. That call supersedes the chase that was drafted for this row earlier the same morning; the draft has been deleted. Before the call the position was: team feedback positive, everyone likes the story, numbers still being worked, and one unresolved item - a long-standing Houston partner STRE remains actively invested with, which Camilo was explicit was not a comment on the opportunity. Still the hottest name in the book. What the row now needs is the outcome of those twelve minutes, which only Chip, Kevin or Zamir can supply.",
   "tags": [
    "partner-conflict"
@@ -171,7 +171,7 @@
   "channel": "direct",
   "stage": "pass",
   "ts": "2026-10-02T19:38:14Z",
-  "quote": "The asset quality is there, but this isn't a market or submarket we're long on right now. The demographic profile was the biggest hurdle\u2026 median household income within 5 miles is ~$54K\u2026 leaves little room to grow rents over the hold. Rates were the other piece. With the 5-year Treasury up since the 9/21 lender quote, the deal starts with negative leverage at $34M. We're more constructive on Texas markets like DFW (northern corridor) and Austin.",
+  "quote": "The asset quality is there, but this isn't a market or submarket we're long on right now. The demographic profile was the biggest hurdle… median household income within 5 miles is ~$54K… leaves little room to grow rents over the hold. Rates were the other piece. With the 5-year Treasury up since the 9/21 lender quote, the deal starts with negative leverage at $34M. We're more constructive on Texas markets like DFW (northern corridor) and Austin.",
   "action": "The most useful pass we got. Two fixable objections: the $54K CoStar 5-mile median vs. the $71.2K on-site median, and negative leverage at the 9/21 quote. Rebut both in the next version of the memo.",
   "tags": [
    "submarket-demographics",
@@ -219,7 +219,7 @@
   "stage": "pass",
   "ts": "2026-10-05T14:39:45Z",
   "quote": "Unfortunately, this one is not a fit for us as our fund exposure in Houston is maxed out at this time.",
-  "action": "Fund-level cap. Revisit after their next vintage closes \u2014 nothing about this deal moves them.",
+  "action": "Fund-level cap. Revisit after their next vintage closes — nothing about this deal moves them.",
   "tags": [
    "houston-exposure"
   ],
@@ -233,7 +233,7 @@
   "channel": "direct",
   "stage": "pass",
   "ts": "2026-10-01T22:39:38Z",
-  "quote": "It was a pass \u2014 Houston's a non-starter right now.",
+  "quote": "It was a pass — Houston's a non-starter right now.",
   "action": "Flat market veto, no deal-level read. Nothing to rebut.",
   "tags": [
    "houston-sentiment"
@@ -248,7 +248,7 @@
   "channel": "direct",
   "stage": "pass",
   "ts": "2026-10-06T12:49:00Z",
-  "quote": "We had a chance to review the opportunity\u2026 it is not a submarket we are currently pursuing or investing in.",
+  "quote": "We had a chance to review the opportunity… it is not a submarket we are currently pursuing or investing in.",
   "action": "Submarket-level no after a real review. Southeast Houston is the blocker, not the basis.",
   "tags": [
    "submarket-demographics"
@@ -263,8 +263,8 @@
   "channel": "kirsh",
   "stage": "pass",
   "ts": "2026-10-03T14:31:02Z",
-  "quote": "Thanks for thinking of us, Andrew \u2014 we're not as focused on Houston right now unless it's affordable at Max rents.",
-  "action": "Mandate mismatch \u2014 they want LIHTC/affordable in Houston. Market-rate will never clear here.",
+  "quote": "Thanks for thinking of us, Andrew — we're not as focused on Houston right now unless it's affordable at Max rents.",
+  "action": "Mandate mismatch — they want LIHTC/affordable in Houston. Market-rate will never clear here.",
   "tags": [
    "strategy-mismatch"
   ],
@@ -1097,7 +1097,7 @@
   "channel": "direct",
   "stage": "pass",
   "ts": "2026-10-26T17:10:03Z",
-  "quote": "While the price per door is intriguing, the numbers don\u2019t jump off the page. We are seeing better numbers in better locations. Our experience in Houston has ranged from bad to worse which doesn\u2019t help. Plus, this area is climate challenged given vicinity to the Port.",
+  "quote": "While the price per door is intriguing, the numbers don’t jump off the page. We are seeing better numbers in better locations. Our experience in Houston has ranged from bad to worse which doesn’t help. Plus, this area is climate challenged given vicinity to the Port.",
   "action": "Five days of silence after the 21 Oct send, then a pass that blames a computer rather than the deal for the delay. Three objections stacked in one paragraph, and the order matters: the basis registers (\"intriguing\"), the returns do not clear his bar against what else he is seeing, and then Houston itself - \"bad to worse\" - which is the burned-sentiment pattern this round keeps hitting. The third objection is new to the board. Nobody else has named flood or climate risk from the Ship Channel proximity, and it is the one line here that the memo has no material for: the crime and safety overview, the demographics report and the submarket brief all go to other questions. If the deal is going to keep landing in Southeast Houston inboxes, a flood-zone and insurance page is now the gap, alongside the submarket answer. He is not close on this one - the relative-value objection (\"better numbers in better locations\") means nothing about Allen Genoa specifically would move him.",
   "tags": [
    "houston-sentiment",
@@ -1865,5 +1865,21 @@
   ],
   "heat": 1,
   "action": "A relative-value pass, not a view on the asset: other options are more attractive right now. That is the LaSalle shape - the only other firm on the board to decline on relative value rather than on Houston or on fit - and it is a more useful no than most, because it says the deal is in the comparison set rather than screened out before it got there. Dmitry Gasinsky is copied and is the second name at NB. Nothing to work on this deal; worth keeping for the next one, where 'other options' may look different."
+ },
+ {
+  "firm": "Garnier",
+  "person": "Alberto Bonilla",
+  "title": null,
+  "email": "abonilla@garnier.cr",
+  "channel": "direct",
+  "stage": "question",
+  "ts": "2026-10-31T15:10:08Z",
+  "quote": "Thanks Zamir, will talk ea closer look but interesting in understanding your exit timing (is this a long term hold or quick turnaround)? Also, minimum check size looking to fund the LP portion?",
+  "action": "Same-day reply off a cold YPO send, and he has the OM and the full model in hand - Zamir attached ZMR_SmartLivingAllenGenoa_OM.pdf and Houston_TX_SmartLivingAllenGenoa_ZMR_PF_10.26.26.xlsx. Two answers owed, neither of which is in any marketing document. The exit question is answerable from the model's own hold - the agency loan is five-year fixed and the exit runs at a 6.00% cap - but confirm the exact term with Kevin rather than inferring it from the 2.33x. The minimum check is the harder one: there is no stated minimum anywhere, the send that went out had the partial-check language cut from it, and he asked for it unprompted. This is the second time the question has come from the YPO side, where the money is individual tickets rather than fund allocations, so a number needs setting rather than improvising per reply.",
+  "tags": [
+   "hold-period",
+   "minimum-check"
+  ],
+  "heat": 4
  }
 ]
