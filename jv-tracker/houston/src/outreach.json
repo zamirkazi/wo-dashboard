@@ -1622,6 +1622,15 @@
    "sent": "2026-10-29",
    "outcome": "replied",
    "note": "From the v5 PE send (GMass campaign 54069404)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Neuberger Berman",
+   "person": "Gerald Kaminsky",
+   "email": "GKaminsky@nb.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404). Dmitry Gasinsky copied."
   }
  ],
  "carveouts": [
