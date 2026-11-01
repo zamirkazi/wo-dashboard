@@ -1120,17 +1120,18 @@
    "note": "RJL named them as KCB Real Estate Management; Zamir struck them as a known relationship, so free to approach. National JV equity, underwrites all deals; previously carried as having no working address for Peter Knell, but five contacts sit on ZMR's own equity list and KCB personally reviewed a ZMR Orlando deal."
   },
   {
-   "channel": "direct",
+   "channel": "peblast",
    "firm": "Peak Rock Capital",
-   "person": "Brooks Hallock",
-   "email": "hallock@peakrockcapital.com",
+   "person": "Andrew Dellinger",
+   "email": "dellinger@peakrockcapital.com",
    "also": [
-    "jonker@peakrockcapital.com",
-    "moran@peakrockcapital.com"
+    "jaffrey@peakrockcapital.com",
+    "moran@peakrockcapital.com",
+    "tujios@peakrockcapital.com"
    ],
-   "sent": null,
-   "outcome": "proposed",
-   "note": "RJL named them; Zamir struck them as a known relationship, so free to approach. File notes Tampa, Orlando and Dallas multifamily value-add - the closest market fit of the five. Never drafted."
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "RJL named them; Zamir struck them as a known relationship, so free to approach. File notes Tampa, Orlando and Dallas multifamily value-add - the closest market fit of the five struck names. Row 241 of the v5 PE list with Dellinger primary and Jaffrey, Moran and Tujios copied, so kept on peblast rather than direct. Zamir also hand-sent on 30 Oct 08:33, and Moran answered off that. The earlier row carried Brooks Hallock as the contact and 'never drafted' - superseded."
   },
   {
    "channel": "rjl",
