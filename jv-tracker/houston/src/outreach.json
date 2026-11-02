@@ -2012,6 +2012,24 @@
       "sent": "2026-10-30",
       "outcome": "replied",
       "note": "Reached on the PE / institutional send; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "peblast",
+      "firm": "Townlane",
+      "person": "Grant Sholem",
+      "email": "gsholem@townlane.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send; replied 2 Nov."
+    },
+    {
+      "channel": "peblast",
+      "firm": "Mayfield Holding (via Round Hill Capital)",
+      "person": "Mark Finn",
+      "email": "mfinn@mayfieldholding.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Mailed to Michael Bickford at Round Hill Capital 30 Oct; Mark Finn at an affiliated holding company forwarded himself in and replied 2 Nov."
     }
   ],
   "carveouts": [
@@ -2094,6 +2112,11 @@
       "firm": "The Family Office Co. BSC (Bahrain)",
       "person": "Abdulmohsin Al Omran",
       "why": "\"Pls take me out of your list\" - 2 Nov, off the family-office send, third touch. Regulated by the Central Bank of Bahrain. Suppress tfoco.com including y.shabeeb@ and a.bukhari@. Fourth removal demand today after Affinius, Palm Ventures and Next Titan, and the fifth counting Connelly's repeat."
+    },
+    {
+      "firm": "Brainvest",
+      "person": "Laurent Cudre-Mauroux",
+      "why": "\"Please take me out of your distribution list !\" - 2 Nov, off the family-office send, third touch, Switzerland. Fifth removal demand of the day after Affinius, Palm Ventures, Next Titan and The Family Office Co, and the sixth incident counting Connelly's repeat objection. Suppress brainvest.com."
     }
   ],
   "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",

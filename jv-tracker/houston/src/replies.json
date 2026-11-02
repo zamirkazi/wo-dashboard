@@ -2448,5 +2448,31 @@
     "tags": [],
     "heat": 1,
     "action": "Two words on a second touch. Nothing to work."
+  },
+  {
+    "firm": "Townlane",
+    "person": "Grant Sholem",
+    "title": null,
+    "email": "gsholem@townlane.com",
+    "channel": "peblast",
+    "stage": "pass",
+    "ts": "2026-11-02T22:05:31Z",
+    "quote": "Thanks Zamir - this is a pass for us, but I appreciate the look here!",
+    "tags": [],
+    "heat": 1,
+    "action": "Polite, no reason, second touch. Nothing to work."
+  },
+  {
+    "firm": "Mayfield Holding (via Round Hill Capital)",
+    "person": "Mark Finn",
+    "title": null,
+    "email": "mfinn@mayfieldholding.com",
+    "channel": "peblast",
+    "stage": "question",
+    "ts": "2026-11-02T21:45:15Z",
+    "quote": "What are you asking for? LP capital? Flipping the contract? Do you have a teaser for the property?",
+    "tags": [],
+    "heat": 3,
+    "action": "Send him the three-pager tonight and answer the question in one line: LP equity, $11.77M at 90/10, not a contract assignment. Two things worth noting. First, this arrived by forward - Zamir mailed Michael Bickford at Round Hill Capital on 30 Oct and Finn, at an affiliated holding company, is the one who picked it up and engaged, which is the same cc-and-forward dynamic that produced most of today's replies. Second, and more useful: a fresh reader could not tell from the email what was being asked for, and wondered whether we were flipping the contract. The subject line leads with '$12M Equity | 21% IRR' and the body never says the words 'LP equity' until the seventh bullet. That is worth fixing before the next wave - if one reader said it, others thought it and moved on."
   }
 ]
