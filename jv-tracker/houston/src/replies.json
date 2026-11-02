@@ -2366,18 +2366,18 @@
   },
   {
     "firm": "Dentressangle",
-    "person": "Jean-Louis Savoye",
-    "title": "Directeur General",
-    "email": "jl.savoye@dentressangle.com",
+    "person": "Sylvain Froissard",
+    "title": "Investment lead (Jean-Louis Savoye, Directeur General, also replied)",
+    "email": "s.froissard@dentressangle.com",
     "channel": "familyoffice",
     "stage": "pass",
-    "ts": "2026-11-02T18:14:39Z",
-    "quote": "Thank you for sharing this opportunity but it doesn't fit our investment strategy.",
+    "ts": "2026-11-02T19:18:10Z",
+    "quote": "Thank you for your email, our investment focus is currently tilted towards PE US funds. Your current opportunity is therefore out of scope for our assets allocation. Should we shift our strategy in the future, I will contact you.",
     "tags": [
       "strategy-mismatch"
     ],
     "heat": 1,
-    "action": "This one should never have been sent. Dentressangle is already on the Not A Fit exclusion tab of the master list, logged from Sylvain Froissard's own words - 'this investment opportunity is out of scope for our strategy' - and the firm was mailed anyway, three times, and has now said the same thing again through its Directeur General. The exclusion tabs are not being applied to the family-office send. That is a process failure worth more than this row: sixteen tabs exist precisely to stop this, and at least one firm got through."
+    "action": "Two people at the same firm answered the same send within an hour, and the firm was already on the Not A Fit exclusion tab of the master list from Froissard's own words in a prior round - 'out of scope for our strategy'. He has now said it a second time and added the reason: they are tilted to US private equity funds, not direct real estate. Jean-Louis Savoye, the Directeur General, replied separately at 18:14. Nothing here is a deal problem; it is an exclusion-tab problem. Note the real addresses are dotted - s.froissard@, jl.savoye@, a.guillon@, t.coloigner@ - and Gmail search strips the dots."
   },
   {
     "firm": "Vibe, Inc.",
@@ -2406,5 +2406,18 @@
     "tags": [],
     "heat": 1,
     "action": "No reason given. Worth noting what the signature says: securities offered through GT Securities, FINRA and SIPC member. That makes Pasadena the fifth wealth-management or broker-dealer platform in this round after Cresset, Aprio, Arete and Turtle Creek, and every one of them has either passed or pointed at a due-diligence process rather than a cheque. The RIA tier is not an LP tier for a single-asset JV. Screen them out of the family-office list rather than keep learning this one firm at a time."
+  },
+  {
+    "firm": "Westlake Realty Group",
+    "person": "Kristina Chang",
+    "title": null,
+    "email": "Kristina@westlake-realty.com",
+    "channel": "familyoffice",
+    "stage": "pass",
+    "ts": "2026-11-02T19:30:11Z",
+    "quote": "Sorry this is a pass for us good luck with the project",
+    "tags": [],
+    "heat": 1,
+    "action": "Third touch, no reason, answered by the cc rather than Will Chang who was addressed - the same pattern as most of today. Nothing to work. Close it."
   }
 ]

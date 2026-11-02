@@ -1985,6 +1985,15 @@
       "sent": "2026-10-27",
       "outcome": "replied",
       "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "familyoffice",
+      "firm": "Westlake Realty Group",
+      "person": "Kristina Chang",
+      "email": "Kristina@westlake-realty.com",
+      "sent": "2026-10-27",
+      "outcome": "replied",
+      "note": "Reached on the family-office send; replied 2 Nov off the Monday follow-up."
     }
   ],
   "carveouts": [
@@ -2031,7 +2040,7 @@
     {
       "firm": "Connelly Capital",
       "person": "Jon Connelly",
-      "why": "\"We've never met - how did you get these emails?\" linking Canada's anti-spam legislation. A CASL complaint, not a pass. Do not mail connelly.ca again."
+      "why": "\"We've never met - how did you get these emails?\" linking Canada's anti-spam legislation. A CASL complaint, not a pass. Do not mail connelly.ca again. ESCALATED 2 Nov: mailed a THIRD time at 18:00 despite the 27 Oct no-contact entry, and he answered - \"I already replied to you on the 27th asking how we've met (we haven't). Your AI obviously isn't working very well. Take me off your mailing list.\" The cause is mechanical and now proven: fo_SUPPRESSED.csv, the file the sends screen against, holds 40 pre-send exclusions and NONE of the campaign opt-outs. connelly.ca was never written into it. Until that file carries the opt-outs, every follow-up wave re-mails everyone who asked to be removed from the last one. CASL applies and he has now objected twice in writing."
     },
     {
       "firm": "Progeny 3",
@@ -2062,6 +2071,11 @@
       "firm": "Next Titan Capital",
       "person": "Michael Mook",
       "why": "\"Please remove me from this email. Thanks. My focus is only cannabis\" - 2 Nov, off the family-office send, from the COO and co-founder. Third touch. A cannabis investor on a US real-estate family-office list is a sourcing error, not a near miss. Suppress nexttitancapital.com. This is the third removal demand today after Affinius and Palm Ventures."
+    },
+    {
+      "firm": "The Family Office Co. BSC (Bahrain)",
+      "person": "Abdulmohsin Al Omran",
+      "why": "\"Pls take me out of your list\" - 2 Nov, off the family-office send, third touch. Regulated by the Central Bank of Bahrain. Suppress tfoco.com including y.shabeeb@ and a.bukhari@. Fourth removal demand today after Affinius, Palm Ventures and Next Titan, and the fifth counting Connelly's repeat."
     }
   ],
   "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",
