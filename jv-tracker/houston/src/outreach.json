@@ -1931,6 +1931,60 @@
       "sent": "2026-10-30",
       "outcome": "replied",
       "note": "Reached on the PE / institutional send; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "direct",
+      "firm": "The Roxborough Group",
+      "person": "Matt McCormick",
+      "email": "mmccormick@roxboroughgp.com",
+      "sent": "2026-11-02",
+      "outcome": "replied",
+      "note": "Restored to the equity list 2 Nov after it emerged he had never been on any version of it despite a 2021-2026 relationship. Hand-sent the same morning at the 21.5% set; replied in 35 minutes. Second address on file, perrinm@roxboroughgp.com, still unverified."
+    },
+    {
+      "channel": "peblast",
+      "firm": "Partners Group",
+      "person": "Ron Lamontagne",
+      "email": "ron.lamontagne@partnersgroup.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "peblast",
+      "firm": "Brown Advisory",
+      "person": "JJ Baylin",
+      "email": "jbaylin@brownadvisory.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "familyoffice",
+      "firm": "Dentressangle",
+      "person": "Jean-Louis Savoye",
+      "email": "jl.savoye@dentressangle.com",
+      "sent": "2026-10-27",
+      "outcome": "replied",
+      "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "familyoffice",
+      "firm": "Vibe, Inc.",
+      "person": "Robert Hayman",
+      "email": "rhayman@vibeinc.com",
+      "sent": "2026-10-27",
+      "outcome": "replied",
+      "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "familyoffice",
+      "firm": "Pasadena Private Wealth",
+      "person": "Simon Holford",
+      "email": "sholford@pasadenapw.com",
+      "sent": "2026-10-27",
+      "outcome": "replied",
+      "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
     }
   ],
   "carveouts": [
@@ -2003,6 +2057,11 @@
       "firm": "Palm Ventures (Palmer Family Office)",
       "person": "Robert Pflieger",
       "why": "\"Please stop.\" - 2 Nov, off the family-office send, from Greenwich. Two words after three touches on 27 Oct, 30 Oct and 2 Nov, and the third one is what broke it. Not a view on the deal; a cadence complaint. Suppress palmventures.com. This is the second removal demand today after Affinius and the third provenance or opt-out incident counting Schwaben, all three produced by the same Monday bump."
+    },
+    {
+      "firm": "Next Titan Capital",
+      "person": "Michael Mook",
+      "why": "\"Please remove me from this email. Thanks. My focus is only cannabis\" - 2 Nov, off the family-office send, from the COO and co-founder. Third touch. A cannabis investor on a US real-estate family-office list is a sourcing error, not a near miss. Suppress nexttitancapital.com. This is the third removal demand today after Affinius and Palm Ventures."
     }
   ],
   "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",

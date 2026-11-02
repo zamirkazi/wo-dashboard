@@ -2320,5 +2320,91 @@
     "tags": [],
     "heat": 1,
     "action": "Courteous, no reason, and answered for the firm over Seth Cohen who was the named recipient. 'At this time' is the only thread to pull and it is thin. Note the addresses are dotted - S.Soucy@ and S.Cohen@ deutsche-finance.com - and Gmail search strips the dots, so take them from the message, not the search result, before any future send."
+  },
+  {
+    "firm": "The Roxborough Group",
+    "person": "Matt McCormick",
+    "title": null,
+    "email": "mmccormick@roxboroughgp.com",
+    "channel": "direct",
+    "stage": "pass",
+    "ts": "2026-11-02T18:46:46Z",
+    "quote": "Zamir, unfortunately we are focused on the west coast right now.",
+    "tags": [
+      "not-targeted"
+    ],
+    "heat": 2,
+    "action": "Answered in 35 minutes. That is the headline, not the no. Roxborough had never been on any equity list - not the CLEANED master, not the superseded 061826 file, no Cleanup Log entry - despite 23 threads since 2021, two in-person meetings and a Teams call in March. Zamir restored him to CONTACTS this morning, sent direct at 10:11, and had a reply by 10:46. The objection is geography and nothing else: they are focused on the west coast, which is consistent with the last thing we sent him being San Ramon in August. Nothing to re-pitch on Allen Genoa. The real result is that the relationship is confirmed live and the list gap is closed, and it is the argument for running the full reverse diff - every outside domain ZMR has sent a JV deal to since 2021, against the 1,086 contacts - to find the rest of the Roxboroughs."
+  },
+  {
+    "firm": "Partners Group",
+    "person": "Ron Lamontagne",
+    "title": null,
+    "email": "ron.lamontagne@partnersgroup.com",
+    "channel": "peblast",
+    "stage": "pass",
+    "ts": "2026-11-02T18:39:12Z",
+    "quote": "I'm overexposed to Houston MF at this time so I'm a pass.",
+    "tags": [
+      "houston-exposure"
+    ],
+    "heat": 1,
+    "action": "The cleanest statement of the thesis this board is built around - not the basis, not the returns, not the cheque size, just too much Houston multifamily already. Nothing answers that. Worth noting he is a live contact at a firm the master roster had written off: both Partners Group names on file, Eric Shepsman and Ryan Madani, are flagged as departed. Add Lamontagne as the working contact."
+  },
+  {
+    "firm": "Brown Advisory",
+    "person": "JJ Baylin",
+    "title": null,
+    "email": "jbaylin@brownadvisory.com",
+    "channel": "peblast",
+    "stage": "pass",
+    "ts": "2026-11-02T18:11:15Z",
+    "quote": "Thanks for sending. This isn't a fit at the moment, but looking forward to staying in touch.",
+    "tags": [],
+    "heat": 1,
+    "action": "Courteous no reason. Note the list defect: brownadvisory.com sits on BOTH the family-office list and the v5 institutional list, so the firm was exposed to two different subject lines, the same problem Access Industries showed this morning. De-duplicate the two lists by domain before anything else goes out."
+  },
+  {
+    "firm": "Dentressangle",
+    "person": "Jean-Louis Savoye",
+    "title": "Directeur General",
+    "email": "jl.savoye@dentressangle.com",
+    "channel": "familyoffice",
+    "stage": "pass",
+    "ts": "2026-11-02T18:14:39Z",
+    "quote": "Thank you for sharing this opportunity but it doesn't fit our investment strategy.",
+    "tags": [
+      "strategy-mismatch"
+    ],
+    "heat": 1,
+    "action": "This one should never have been sent. Dentressangle is already on the Not A Fit exclusion tab of the master list, logged from Sylvain Froissard's own words - 'this investment opportunity is out of scope for our strategy' - and the firm was mailed anyway, three times, and has now said the same thing again through its Directeur General. The exclusion tabs are not being applied to the family-office send. That is a process failure worth more than this row: sixteen tabs exist precisely to stop this, and at least one firm got through."
+  },
+  {
+    "firm": "Vibe, Inc.",
+    "person": "Robert Hayman",
+    "title": "CEO / Chairman",
+    "email": "rhayman@vibeinc.com",
+    "channel": "familyoffice",
+    "stage": "pass",
+    "ts": "2026-11-02T18:16:36Z",
+    "quote": "Perhaps in another 2-3 months - too busy to investigate at the moment. Thanks!",
+    "tags": [
+      "diligence-bandwidth"
+    ],
+    "heat": 2,
+    "action": "Bandwidth, not a view, and he put a date on it. Two to three months lands well after this deal closes, so it is a next-deal name rather than an Allen Genoa one. Diary him for February and do not bump him again before then - he has already had three touches."
+  },
+  {
+    "firm": "Pasadena Private Wealth",
+    "person": "Simon Holford",
+    "title": "CEO & CIO, Founding Partner",
+    "email": "sholford@pasadenapw.com",
+    "channel": "familyoffice",
+    "stage": "pass",
+    "ts": "2026-11-02T18:50:16Z",
+    "quote": "Thanks Zamir but I don't have an interest at this time.",
+    "tags": [],
+    "heat": 1,
+    "action": "No reason given. Worth noting what the signature says: securities offered through GT Securities, FINRA and SIPC member. That makes Pasadena the fifth wealth-management or broker-dealer platform in this round after Cresset, Aprio, Arete and Turtle Creek, and every one of them has either passed or pointed at a due-diligence process rather than a cheque. The RIA tier is not an LP tier for a single-asset JV. Screen them out of the family-office list rather than keep learning this one firm at a time."
   }
 ]
