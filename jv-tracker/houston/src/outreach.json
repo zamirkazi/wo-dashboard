@@ -1922,6 +1922,15 @@
       "sent": "2026-11-02",
       "outcome": "drafted",
       "note": "Asked Zamir directly in the YPO deal flow chat to send him the deal - \"want to send me what you have on this? We'll take a look.\" He is the principal at JSB and senior to Scott Liebman, who passed 26 Oct on relative value, JSB's Houston experience and flood exposure near the Port. Draft written 2 Nov at the 21.5% set and surfaces Scott's pass rather than routing around it. Needs the three-pager attached before it goes."
+    },
+    {
+      "channel": "peblast",
+      "firm": "Deutsche Finance America",
+      "person": "Scott J. Soucy",
+      "email": "S.Soucy@deutsche-finance.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send; replied 2 Nov off the Monday follow-up."
     }
   ],
   "carveouts": [
@@ -1989,6 +1998,11 @@
       "firm": "Affinius Capital",
       "person": "Eric Cohen",
       "why": "\"This is not a fit - pls remove us.\" - 2 Nov, off the PE / institutional send. An explicit removal request, so it goes here rather than in the reply ledger. Two caveats worth Zamir's judgement: Cohen is Managing Director and Co-Head of DEBT Origination, not the equity decision-maker, and the named recipient - Craig Solomon, Vice Chairman and CIO - never answered. Treating it as firm-level to be safe. Note also that the master roster still carries three stale squaremilecapital.com rows that are now Affinius, so suppress on the firm, not just the domain."
+    },
+    {
+      "firm": "Palm Ventures (Palmer Family Office)",
+      "person": "Robert Pflieger",
+      "why": "\"Please stop.\" - 2 Nov, off the family-office send, from Greenwich. Two words after three touches on 27 Oct, 30 Oct and 2 Nov, and the third one is what broke it. Not a view on the deal; a cadence complaint. Suppress palmventures.com. This is the second removal demand today after Affinius and the third provenance or opt-out incident counting Schwaben, all three produced by the same Monday bump."
     }
   ],
   "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",

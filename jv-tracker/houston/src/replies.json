@@ -2307,5 +2307,18 @@
     ],
     "heat": 2,
     "action": "A pass on Houston but an explicit offer to talk about everything else, and he took the trouble to clear his colleagues off the thread first rather than let it die quietly. Take the call. He is EVP of Investments, so he can speak for the desk, and the ask costs nothing: find out which markets they are actively in before the next deal is tied up, rather than discovering it on the next blast."
+  },
+  {
+    "firm": "Deutsche Finance America",
+    "person": "Scott J. Soucy",
+    "title": "Senior Managing Director, Investments",
+    "email": "S.Soucy@deutsche-finance.com",
+    "channel": "peblast",
+    "stage": "pass",
+    "ts": "2026-11-02T17:43:22Z",
+    "quote": "This one is not for us at this time, but thank you for the look.",
+    "tags": [],
+    "heat": 1,
+    "action": "Courteous, no reason, and answered for the firm over Seth Cohen who was the named recipient. 'At this time' is the only thread to pull and it is thin. Note the addresses are dotted - S.Soucy@ and S.Cohen@ deutsche-finance.com - and Gmail search strips the dots, so take them from the message, not the search result, before any future send."
   }
 ]
