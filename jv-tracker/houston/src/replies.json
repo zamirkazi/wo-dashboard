@@ -2272,13 +2272,14 @@
     "email": "tennant@lambllc.com",
     "channel": "peblast",
     "stage": "pass",
-    "ts": "2026-11-02T17:21:50Z",
-    "quote": "I think it's interesting, but not a fit for what we do. We are not typically LP investors. Prefer a co-gp structure.",
+    "ts": "2026-11-02T20:17:24Z",
+    "quote": "I think it's interesting, but not a fit for what we do. We are not typically LP investors. Prefer a co-gp structure. [then, to Zamir's co-GP offer] It's still too small for us. We are typically looking to invest $20M+.",
     "tags": [
-      "strategy-mismatch"
+      "strategy-mismatch",
+      "check-too-small"
     ],
-    "heat": 2,
-    "action": "Likes the deal, wrong seat at the table - they want co-GP, not LP. That is now the third co-GP answer alongside Benedict Realty Group and the Co-GP exclusion tab, and it is a structural question Zamir has not answered any of them. If a co-GP slot is genuinely available, these three are a group to go back to at once; if it is not, say so and move LAMB to the Co-GP tab so nobody mails them LP deals again."
+    "heat": 1,
+    "action": "Zamir did the right thing and tested the co-GP door within two hours - 'I'd be open to co-GP here, would you be able to help bring LP' - and Tennant shut it on size: they write $20M+. So the co-GP answer was never really a structure preference, it was a size screen wearing a structure's clothes. Worth applying that lesson to the other two co-GP replies, Benedict Realty and the Co-GP tab, before building anything around them: ask the size question first. Move LAMB to the Co-GP tab with the $20M floor recorded so nobody mails them an $11.77M LP deal again."
   },
   {
     "firm": "Kingdom Holding Company (Prince Alwaleed Bin Talal Family Office)",
@@ -2419,5 +2420,33 @@
     "tags": [],
     "heat": 1,
     "action": "Third touch, no reason, answered by the cc rather than Will Chang who was addressed - the same pattern as most of today. Nothing to work. Close it."
+  },
+  {
+    "firm": "Todd Hanson",
+    "person": "Todd Hanson",
+    "title": null,
+    "email": "hansonte34@gmail.com",
+    "channel": "direct",
+    "stage": "relationship",
+    "ts": "2026-11-02T20:57:51Z",
+    "quote": "Congrats!! That's an amazing basis - I couldn't find anything newer vintage that sold anywhere near that low (Standard at Westlake (2023) was $141K/unit, but is 17 miles away)... I'm seeing zip code 77017 population down 10% over last five years and jobs down 12.5% - do they know why? I saw a headline that the LyondellBasell refinery nearby closed in 2025... I think the IRR and CoC may be calculating off of $12.7M of equity, rather than the full $13.1M.",
+    "tags": [
+      "submarket-demographics"
+    ],
+    "heat": 5,
+    "action": "THE MOST USEFUL EMAIL OF THE ROUND AND IT IS NOT FROM AN INVESTOR. Zamir asked a trusted reader for a view and got a full underwriting QC back. Five items, in order of what they cost if ignored. ONE, a possible arithmetic error: he reads the IRR and cash-on-cash as calculating off $12.7M of equity rather than the full $13.1M - that is $11.77M of LP at 90/10 grossed up - and if he is right, every return figure in front of 180 groups is overstated. Kevin needs to check that tonight, before another send goes out. TWO, zip 77017 population down 10% and jobs down 12.5% over five years, with the LyondellBasell refinery nearby closing in 2025. The entire demand story rests on Port Houston and Ship Channel petrochemical employment, and this is the fifth independent reader to push on submarket demographics after Sabal, Green Pine, Slocumb and Island Capital - but the first to name a cause. If a refinery closed, the memo has to address it rather than wait to be asked. THREE, the sale comp set contains a build-for-rent deal and an urban midrise, neither comparable to a suburban garden property, and the basis argument is the whole pitch - a reader who checks will find the same thing. FOUR, year-one cash-on-cash may be flattered by releasing reserves without replenishing them. FIVE, the tax consultant has to confirm taxes actually fall on the new basis. He also asked the practical question nobody else has: when can you rate lock if the close may slip to January. Everything else on this board is noise next to items one and two."
+  },
+  {
+    "firm": "HG Investors",
+    "person": "Hannah F. Buchan",
+    "title": null,
+    "email": "hbuchan@hginvestors.com",
+    "channel": "peblast",
+    "stage": "pass",
+    "ts": "2026-11-02T20:22:52Z",
+    "quote": "No thank you!",
+    "tags": [],
+    "heat": 1,
+    "action": "Two words on a second touch. Nothing to work."
   }
 ]
