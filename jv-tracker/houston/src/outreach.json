@@ -1850,6 +1850,69 @@
       "sent": "2026-10-27",
       "outcome": "replied",
       "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "peblast",
+      "firm": "Kildare Partners",
+      "person": "Avik Mukhopadhyay",
+      "email": "amukhopadhyay@kildarepartners.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "peblast",
+      "firm": "Ares Management",
+      "person": "Sam Averbach",
+      "email": "saverbach@aresmgmt.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "peblast",
+      "firm": "ELV Associates",
+      "person": "Jay Evans",
+      "email": "jevans@elv-us.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "familyoffice",
+      "firm": "Ganmi Corporation (Eric Gan Family Office)",
+      "person": "Casey Gan",
+      "email": "casey@ganmi.us",
+      "sent": "2026-10-27",
+      "outcome": "replied",
+      "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "peblast",
+      "firm": "LAMB Properties",
+      "person": "Ryne Tennant",
+      "email": "tennant@lambllc.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "familyoffice",
+      "firm": "Kingdom Holding Company (Prince Alwaleed Bin Talal Family Office)",
+      "person": "Tamim B. Jabr",
+      "email": "tamim@kingdom.com.sa",
+      "sent": "2026-10-27",
+      "outcome": "replied",
+      "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "peblast",
+      "firm": "Peaceable Street Capital",
+      "person": "Fernando G. Sotelo",
+      "email": "fsotelo@peaceablestreet.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
     }
   ],
   "carveouts": [
@@ -1912,6 +1975,11 @@
       "firm": "Schwaben Capital Group",
       "person": "Albrecht Weller",
       "why": "\"How do I know you ???\" - 2 Nov, off the family-office send, from the President and CEO. Toronto, so CASL applies, and this is the second Canadian recipient after Connelly Capital to challenge where we got the address. Not a pass on the deal and not yet a complaint, but the same shape as the one that became one. Stop mailing schwaben.ca, and the question of whether to pull the remaining Canadian family offices has now been asked three times without an answer."
+    },
+    {
+      "firm": "Affinius Capital",
+      "person": "Eric Cohen",
+      "why": "\"This is not a fit - pls remove us.\" - 2 Nov, off the PE / institutional send. An explicit removal request, so it goes here rather than in the reply ledger. Two caveats worth Zamir's judgement: Cohen is Managing Director and Co-Head of DEBT Origination, not the equity decision-maker, and the named recipient - Craig Solomon, Vice Chairman and CIO - never answered. Treating it as firm-level to be safe. Note also that the master roster still carries three stale squaremilecapital.com rows that are now Affinius, so suppress on the firm, not just the domain."
     }
   ],
   "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",

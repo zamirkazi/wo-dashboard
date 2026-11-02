@@ -2206,5 +2206,106 @@
     ],
     "heat": 2,
     "action": "The CEO does not know who we are, which is the third provenance challenge off the family-office list in a week, but unlike Connelly and Schwaben he is offering a route rather than complaining. Read it for what it is: Arete is a FINRA broker-dealer and RIA, so the path is a selling agreement and a third-party due-diligence review, not an LP cheque - weeks of process against a 20 Nov hard-money date. Answer him properly, say who ZMR is and what the track record is, and be honest that the timeline on this asset will not suit a platform review. Then decide separately whether Arete is worth building for the next deal."
+  },
+  {
+    "firm": "Kildare Partners",
+    "person": "Avik Mukhopadhyay",
+    "title": null,
+    "email": "amukhopadhyay@kildarepartners.com",
+    "channel": "peblast",
+    "stage": "pass",
+    "ts": "2026-11-02T17:12:12Z",
+    "quote": "Hard for us to buy at a 6.0% cap. We'd play but at a 8.0% going in yield on our last dollar. Think there is cheaper capital out there for you on this. Seems like an interesting deal though. Good luck!",
+    "tags": [
+      "going-in-yield"
+    ],
+    "heat": 2,
+    "action": "The most useful pass of the entire round, because it is the first one that names a price. Everyone else has said too small, wrong market or not our mandate; Kildare says the asset is interesting and quotes the number it would need - an 8.0% going-in yield on its last dollar against the ~6.0% cap we are buying at. That is a real alternative structure, not a rejection: it prices opportunistic money into this deal and it is the same conversation NCA Realty opened through RJL on 27 Oct. Two things follow. Hold the quote - if the LP market stays shut, an 8% last-dollar yield is a priceable fallback and Kildare has effectively pre-bid it. And note his read that 'there is cheaper capital out there' - a distressed buyer looking at this thinks the deal should clear at a lower cost of capital than he charges, which is an argument that the basis story is working and the distribution is not."
+  },
+  {
+    "firm": "Ares Management",
+    "person": "Sam Averbach",
+    "title": null,
+    "email": "saverbach@aresmgmt.com",
+    "channel": "peblast",
+    "stage": "pass",
+    "ts": "2026-11-02T17:39:41Z",
+    "quote": "Thanks Zamir but too small for us. Good luck with this.",
+    "tags": [
+      "check-too-small"
+    ],
+    "heat": 1,
+    "action": "Twelfth size pass. Nothing to work here, but one data correction: the master roster's Departures tab says 'no search result mentioned an Alex Kaye at Ares Management at all - possible name error'. Alexandra Kaye was cc'd on this thread and the address did not bounce, so akaye@aresmgmt.com is real. Clear that flag."
+  },
+  {
+    "firm": "ELV Associates",
+    "person": "Jay Evans",
+    "title": "Managing Director, Investments",
+    "email": "jevans@elv-us.com",
+    "channel": "peblast",
+    "stage": "pass",
+    "ts": "2026-11-02T16:56:51Z",
+    "quote": "We're a pass here. We have a thin pipeline that we need to focus on in the development space and don't have the acquisition capital available yet. Hopefully that changes soon. Let's stay in touch.",
+    "tags": [
+      "capital-paused"
+    ],
+    "heat": 1,
+    "action": "A timing pass with a door left open, from a firm that is developing rather than acquiring right now. Worth keeping warm. Also fix three things on the master list: the domain has changed from elvassoc.com to elv-us.com - the v5 wave mailed the old address and his reply came from the new one, so it is forwarding for now but will not forever; his title is Managing Director, Investments, not Director; and ELV is at 889 Howell Mill Road NW in Atlanta."
+  },
+  {
+    "firm": "Ganmi Corporation (Eric Gan Family Office)",
+    "person": "Casey Gan",
+    "title": "Chief Financial Officer",
+    "email": "casey@ganmi.us",
+    "channel": "familyoffice",
+    "stage": "pass",
+    "ts": "2026-11-02T16:48:44Z",
+    "quote": "Hey we are not interested thanks.",
+    "tags": [],
+    "heat": 1,
+    "action": "Third touch, no reason, from the CFO. San Diego family office off the FinTrx list. Close it and stop mailing the domain."
+  },
+  {
+    "firm": "LAMB Properties",
+    "person": "Ryne Tennant",
+    "title": null,
+    "email": "tennant@lambllc.com",
+    "channel": "peblast",
+    "stage": "pass",
+    "ts": "2026-11-02T17:21:50Z",
+    "quote": "I think it's interesting, but not a fit for what we do. We are not typically LP investors. Prefer a co-gp structure.",
+    "tags": [
+      "strategy-mismatch"
+    ],
+    "heat": 2,
+    "action": "Likes the deal, wrong seat at the table - they want co-GP, not LP. That is now the third co-GP answer alongside Benedict Realty Group and the Co-GP exclusion tab, and it is a structural question Zamir has not answered any of them. If a co-GP slot is genuinely available, these three are a group to go back to at once; if it is not, say so and move LAMB to the Co-GP tab so nobody mails them LP deals again."
+  },
+  {
+    "firm": "Kingdom Holding Company (Prince Alwaleed Bin Talal Family Office)",
+    "person": "Tamim B. Jabr",
+    "title": null,
+    "email": "tamim@kingdom.com.sa",
+    "channel": "familyoffice",
+    "stage": "pass",
+    "ts": "2026-11-02T17:08:36Z",
+    "quote": "Thanks no interest from ourside",
+    "tags": [],
+    "heat": 1,
+    "action": "No reason given. Riyadh, and the cheque profile was never going to match a $11.77M single asset. Close it."
+  },
+  {
+    "firm": "Peaceable Street Capital",
+    "person": "Fernando G. Sotelo",
+    "title": "EVP - Investments",
+    "email": "fsotelo@peaceablestreet.com",
+    "channel": "peblast",
+    "stage": "relationship",
+    "ts": "2026-11-02T17:06:25Z",
+    "quote": "At the moment, Houston is not a market we're actively looking to invest in, so we'll have to pass on this particular opportunity. That said, I'd be happy to connect and learn more about other deals you're currently exploring to see if there might be opportunities for us to work together.",
+    "tags": [
+      "not-targeted"
+    ],
+    "heat": 2,
+    "action": "A pass on Houston but an explicit offer to talk about everything else, and he took the trouble to clear his colleagues off the thread first rather than let it die quietly. Take the call. He is EVP of Investments, so he can speak for the desk, and the ask costs nothing: find out which markets they are actively in before the next deal is tied up, rather than discovering it on the next blast."
   }
 ]
