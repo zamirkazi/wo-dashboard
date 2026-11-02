@@ -53,8 +53,8 @@
       "owner": "Zamir",
       "started": "2026-10-30",
       "status": "live",
-      "reach": 1,
-      "note": "A single post to the YPO deal flow group chat, not a merge and not a list. It is the only channel on the board where the audience self-selects: nobody was targeted, and anyone who comes back has raised their own hand. Reach counts named respondents rather than chat members, since we hold no roster. The cheque profile is the inverse of every other channel - YPO members write individual cheques, where nine firms have now passed here because $11.77M was below their floor."
+      "reach": 2,
+      "note": "A single post to the YPO deal flow group chat, not a merge and not a list. It is the only channel on the board where the audience self-selects: nobody was targeted, and anyone who comes back has raised their own hand. Reach counts named respondents rather than chat members, since we hold no roster: Alberto Bonilla at Garnier on 1 Nov and Stephen Lobell at JSB on 2 Nov, both of whom raised their own hand. The cheque profile is the inverse of every other channel - YPO members write individual cheques, where nine firms have now passed here because $11.77M was below their floor."
     }
   },
   "contacts": [
@@ -1913,6 +1913,15 @@
       "sent": "2026-10-30",
       "outcome": "replied",
       "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "ypo",
+      "firm": "JSB Capital Group",
+      "person": "Stephen Lobell",
+      "email": "stephen@jsbcapitalgroup.com",
+      "sent": "2026-11-02",
+      "outcome": "drafted",
+      "note": "Asked Zamir directly in the YPO deal flow chat to send him the deal - \"want to send me what you have on this? We'll take a look.\" He is the principal at JSB and senior to Scott Liebman, who passed 26 Oct on relative value, JSB's Houston experience and flood exposure near the Port. Draft written 2 Nov at the 21.5% set and surfaces Scott's pass rather than routing around it. Needs the three-pager attached before it goes."
     }
   ],
   "carveouts": [
