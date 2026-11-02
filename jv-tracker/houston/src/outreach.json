@@ -1256,7 +1256,7 @@
     {
       "channel": "familyoffice",
       "firm": "Cumming Capital",
-      "person": "Matt Cumming",
+      "person": "Matt Ireland",
       "email": "matt@cummingcapital.com",
       "also": [
         "cathy@cummingcapital.com",
@@ -1688,6 +1688,168 @@
       "sent": "2026-10-30",
       "outcome": "replied",
       "note": "Hand-sent 30 Oct after a lunch, asking to be routed to whoever handles real estate allocations. Passed 2 Nov."
+    },
+    {
+      "channel": "familyoffice",
+      "firm": "Vector WM",
+      "person": "Alessandro Beggio",
+      "email": "ab@vectorwm.com",
+      "sent": "2026-10-27",
+      "outcome": "replied",
+      "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "peblast",
+      "firm": "GCG Real Estate",
+      "person": "Ashley Berglund",
+      "email": "ashley@gcg-re.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "peblast",
+      "firm": "Ocean West Capital Partners",
+      "person": "Sam Hooker",
+      "email": "shooker@oceanwestcp.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "peblast",
+      "firm": "A2 Management",
+      "person": "Suman Alagappan",
+      "email": "salagappan@a2mgmt.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "peblast",
+      "firm": "Deloache Capital",
+      "person": "Frank W. Busch III",
+      "email": "fbusch@deloachecapital.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "peblast",
+      "firm": "Oxford Properties Group",
+      "person": "Christie Chen",
+      "email": "cchen@oxfordproperties.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "peblast",
+      "firm": "GIC",
+      "person": "Sam Fancher",
+      "email": "samuelfancher@gic.com.sg",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "peblast",
+      "firm": "Access Industries",
+      "person": "Jacob Himmelrich",
+      "email": "jhimmelrich@accind.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "familyoffice",
+      "firm": "North Ocean Group",
+      "person": "David M Horowitz",
+      "email": "david@northoceangroup.com",
+      "sent": "2026-10-27",
+      "outcome": "replied",
+      "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "peblast",
+      "firm": "Seminole Financial Services",
+      "person": "Joe Ritter",
+      "email": "jritter@seminolefs.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "peblast",
+      "firm": "Mandrake Capital",
+      "person": "Ian Crowley",
+      "email": "icrowley@mandrakecapital.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "familyoffice",
+      "firm": "Bollinger Enterprises",
+      "person": "Peyton Bush",
+      "email": "peytonb@bollinger.com",
+      "sent": "2026-10-27",
+      "outcome": "replied",
+      "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "peblast",
+      "firm": "Freestone Capital Management",
+      "person": "Ryan Mills",
+      "email": "rmills@freestonecapital.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "peblast",
+      "firm": "PGIM Real Estate",
+      "person": "Mark Walker",
+      "email": "mark.walker@pgim.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "familyoffice",
+      "firm": "Five Eleven Partners",
+      "person": "Gilbert A. Calderon",
+      "email": "gil.calderon@five11partners.com",
+      "sent": "2026-10-27",
+      "outcome": "replied",
+      "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "peblast",
+      "firm": "Sundance Bay",
+      "person": "Andrew Peterson",
+      "email": "andrew@sundancebay.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "peblast",
+      "firm": "PCCP",
+      "person": "Scott Nugent",
+      "email": "snugent@pccpllc.com",
+      "sent": "2026-10-30",
+      "outcome": "replied",
+      "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+    },
+    {
+      "channel": "familyoffice",
+      "firm": "Arete Wealth",
+      "person": "David Levine",
+      "email": "david.levine@aretewealth.com",
+      "sent": "2026-10-27",
+      "outcome": "replied",
+      "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
     }
   ],
   "carveouts": [
@@ -1745,6 +1907,11 @@
       "firm": "KIN Group (Geminder Family Office)",
       "person": "Nick Perkins",
       "why": "\"no, remove me\" - 31 Oct, off the family-office send, from the CEO. Singular, so at minimum nick@kingroup.com.au; the CEO answered for the firm, so treat Melbourne as closed. Not a pass on the deal; an opt-out."
+    },
+    {
+      "firm": "Schwaben Capital Group",
+      "person": "Albrecht Weller",
+      "why": "\"How do I know you ???\" - 2 Nov, off the family-office send, from the President and CEO. Toronto, so CASL applies, and this is the second Canadian recipient after Connelly Capital to challenge where we got the address. Not a pass on the deal and not yet a complaint, but the same shape as the one that became one. Stop mailing schwaben.ca, and the question of whether to pull the remaining Canadian family offices has now been asked three times without an answer."
     }
   ],
   "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",

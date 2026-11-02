@@ -1207,9 +1207,9 @@
     "email": "james.black@corebridgefinancial.com",
     "channel": "direct",
     "stage": "relationship",
-    "ts": "2026-10-28T13:40:28Z",
-    "quote": "Sorry for the radio silence. Been wrapped up on a few things. I don't think this deal's a fit for us right now, but would love to connect and hear about what you're seeing. Do you have some time tomorrow or Friday?",
-    "action": "Third of the nine RJL-carveout firms to go out, third to answer - that channel is running at 100%. No on Allen Genoa, no reason given, but he proposes two specific dates unprompted. Same shape as Palatine: the deal is dead and the relationship is not, so filed relationship rather than pass. This one has a clock on it - he offered tomorrow or Friday and the reply is a calendar slot, not an argument.\n\nWorth noting what he was sent. Zamir's 27 Oct email to Black carried the OLD number set - 20.3% / 2.25x / 9.9% CoC, $11.65M equity, 5-yr full-term I/O at 6.69% - a day after the re-underwrite and after the blast had already gone out at 21.5%. The four carveout drafts still unsent (Dome, Cohen & Steers, Humphreys, Peak Rock) carry the same stale figures and need updating before they go.",
+    "ts": "2026-11-02T15:36:04Z",
+    "quote": "Hey can you talk around 2pm et today?",
+    "action": "CALL TODAY AT 2PM ET - he named the time himself and it is the third attempt to land this one. He passed on the deal on 28 Oct and asked to connect anyway; Zamir offered four slots across 29-30 Oct, none were taken, and Zamir's 30 Oct nudge is what produced this. Corebridge is not a buyer of Allen Genoa and will not become one, so treat it as what he offered: a read on what a $400bn insurance balance sheet is seeing in multifamily, and a relationship for the next deal. Worth asking him directly why Houston keeps drawing the same answer from institutions - he is well placed to say, and 48 of our passes now turn on it.",
     "tags": [],
     "heat": 3
   },
@@ -1328,14 +1328,14 @@
   },
   {
     "firm": "Cumming Capital",
-    "person": "Matt Cumming",
+    "person": "Matt Ireland",
     "title": null,
     "email": "matt@cummingcapital.com",
     "channel": "familyoffice",
     "stage": "pass",
-    "ts": "2026-10-29T18:02:35Z",
-    "quote": "It is an interesting opportunity but we don't have capacity for diligence at this time. If the deal is still active in January, please reach out.",
-    "action": "Not a no on the deal - the only pass in the round that calls it interesting and gives a date to come back. But the date is the problem: the contract closes 21 December and the EMD goes hard 20 November, so if this deal is still active in January something has gone wrong. Two honest options. Tell him the real timeline now and let him decide whether to find the capacity in the next three weeks - the teaser he was sent says 'year end close can extend till end of January', which is what produced his January answer, so he is not being unreasonable. Or accept the pass and put Cumming at the front of the list for the next deal, which is what he is actually offering.",
+    "ts": "2026-11-02T16:02:52Z",
+    "quote": "I think you missed my repose on October 29th or perhaps it didn't come through. We don't have capacity at this time. If the deal is open in January, please reach back out.",
+    "action": "Same answer as 29 Oct, repeated because the Monday bump went out as though he had never written. He had, and it is on this board - the follow-up list is not being reconciled against the replies before each wave, and that is now visible to the recipient. Fix the process before the next bump. On the substance nothing has changed: he is offering January, the EMD goes hard 20 Nov and the contract closes 21 Dec, so January is after the fact. Also correct his name - the board had him as Matt Cumming, inferred from the domain; the thread headers show matt@cummingcapital.com is Matt Ireland.",
     "tags": [
       "diligence-bandwidth"
     ],
@@ -1776,7 +1776,7 @@
     "ts": "2026-11-02T14:34:38Z",
     "quote": "Thanks for sending. We don't have interest in this one. Main reason is location. Not a target submarket for us.",
     "tags": [
-      "submarket-conviction"
+      "not-targeted"
     ],
     "heat": 1,
     "action": "The referral worked and the answer is no. Robert Bevers routed us to Paul Noland on 30 Oct because Jordan Hylton and Chris Hunt had both left; Kevin sent Noland the full package the same afternoon and Noland closed it out in three days. The reason is geography, not the deal: he does not dispute the basis, the lease-up or the returns, he says Southeast Houston is not a target submarket for NYLIM. Nothing to re-pitch here - a submarket screen at an institution that size is set above the acquisitions desk. Keep Noland as the live Houston contact for the next asset and keep Bevers as the routing contact; the master list still needs Hylton and Hunt removed."
@@ -1954,5 +1954,257 @@
     ],
     "heat": 1,
     "action": "A warm ask that still hit a structural wall. Zamir asked at lunch for an introduction to whoever handles real estate allocations; Ostroff answered for the firm instead - Cresset raises for directs only where they already know the fund and the GP and can co-invest alongside, so a first-time single-asset JV does not clear their bar no matter how it is priced. That is a relationship problem, not a deal problem, and it is the fourth wealth-management platform to say a version of it. Do not re-send Allen Genoa. If Cresset is worth having, the way in is a fund or a co-invest alongside a sponsor they already back, which is a year-ahead conversation, not this raise."
+  },
+  {
+    "firm": "Vector WM",
+    "person": "Alessandro Beggio",
+    "title": null,
+    "email": "ab@vectorwm.com",
+    "channel": "familyoffice",
+    "stage": "pass",
+    "ts": "2026-11-02T15:36:36Z",
+    "quote": "Not interested.",
+    "tags": [],
+    "heat": 1,
+    "action": "Two words off a third touch. No reason given and none worth chasing - an Italian wealth manager on the FinTrx list who was never a realistic buyer of a single Houston asset. Close it and stop mailing the domain."
+  },
+  {
+    "firm": "GCG Real Estate",
+    "person": "Ashley Berglund",
+    "title": "Vice President, Operations and Acquisitions",
+    "email": "ashley@gcg-re.com",
+    "channel": "peblast",
+    "stage": "pass",
+    "ts": "2026-11-02T15:46:43Z",
+    "quote": "Thanks for following up. We aren't doing LP investing currently.",
+    "tags": [
+      "strategy-mismatch"
+    ],
+    "heat": 1,
+    "action": "A California brokerage and developer that does its own deals, not LP cheques. Wrong column on the list rather than a view on Houston. Screen the v5 list for operator-developers before the next wave - this is the sixth of them."
+  },
+  {
+    "firm": "Ocean West Capital Partners",
+    "person": "Sam Hooker",
+    "title": null,
+    "email": "shooker@oceanwestcp.com",
+    "channel": "peblast",
+    "stage": "pass",
+    "ts": "2026-11-02T16:01:16Z",
+    "quote": "Thanks Zamir. It isn't for our capital at this time. Thanks for thinking of us.",
+    "tags": [
+      "strategy-mismatch"
+    ],
+    "heat": 1,
+    "action": "Polite and final. 'Not for our capital' is a mandate answer, not a Houston answer, and he gave no opening to work. Leave it."
+  },
+  {
+    "firm": "A2 Management",
+    "person": "Suman Alagappan",
+    "title": null,
+    "email": "salagappan@a2mgmt.com",
+    "channel": "peblast",
+    "stage": "materials",
+    "ts": "2026-11-02T15:42:57Z",
+    "quote": "Thanks can you please send the prelim materials",
+    "tags": [],
+    "heat": 3,
+    "action": "Send the package today. Asked five minutes after the follow-up landed, which is the pattern this whole raise has shown - the first send does nothing and the bump produces the reply. Nothing is known about their cheque size or mandate, so send the three-pager and the OM and ask what they typically write before spending time on a call."
+  },
+  {
+    "firm": "Deloache Capital",
+    "person": "Frank W. Busch III",
+    "title": "Managing Partner",
+    "email": "fbusch@deloachecapital.com",
+    "channel": "peblast",
+    "stage": "pass",
+    "ts": "2026-11-02T15:46:04Z",
+    "quote": "We are not currently investing.",
+    "tags": [
+      "capital-paused"
+    ],
+    "heat": 1,
+    "action": "Not investing at all, so not a read on the deal. Keep for a later cycle and do not spend a follow-up on it."
+  },
+  {
+    "firm": "Oxford Properties Group",
+    "person": "Christie Chen",
+    "title": null,
+    "email": "cchen@oxfordproperties.com",
+    "channel": "peblast",
+    "stage": "pass",
+    "ts": "2026-11-02T15:52:46Z",
+    "quote": "Hi Zamir - thanks for sharing. This is current not a fit for us. So won't exercise you.",
+    "tags": [],
+    "heat": 1,
+    "action": "OMERS' real estate arm, writing out of 50 Hudson Yards. No reason given and a $12M cheque was never going to clear their minimum - the same size mismatch that has now produced eleven passes. Oxford belongs on a fund or a portfolio, not a single 252-unit asset."
+  },
+  {
+    "firm": "GIC",
+    "person": "Sam Fancher",
+    "title": null,
+    "email": "samuelfancher@gic.com.sg",
+    "channel": "peblast",
+    "stage": "pass",
+    "ts": "2026-11-02T15:45:15Z",
+    "quote": "Pass",
+    "tags": [],
+    "heat": 1,
+    "action": "One word from Singapore's sovereign fund. $11.77M is three orders of magnitude below anything GIC transacts in directly; this was a list error, not a lost opportunity. Pull sovereign wealth funds and the largest pensions out of the v5 list before the next wave - they cost credibility, not just a send."
+  },
+  {
+    "firm": "Access Industries",
+    "person": "Jacob Himmelrich",
+    "title": null,
+    "email": "jhimmelrich@accind.com",
+    "channel": "peblast",
+    "stage": "pass",
+    "ts": "2026-11-02T15:32:06Z",
+    "quote": "Not a fit thanks. Too small and haven't found Houston to be a market of interest.",
+    "tags": [
+      "check-too-small",
+      "not-targeted"
+    ],
+    "heat": 1,
+    "action": "Blavatnik's family office, and it names both objections at once: too small and Houston is not a market they want. Note the list problem this exposes - accind.com sits on the family-office list as Access Industries (Gilbertson, McDonough, Benet) AND on the v5 list as Sonnenborn and Himmelrich, so the firm was mailed twice under two different subject lines to five different people. De-duplicate the two lists by domain before anything else goes out."
+  },
+  {
+    "firm": "North Ocean Group",
+    "person": "David M Horowitz",
+    "title": "Chief Investment Officer",
+    "email": "david@northoceangroup.com",
+    "channel": "familyoffice",
+    "stage": "meeting",
+    "ts": "2026-11-02T15:59:56Z",
+    "quote": "Hey Zamir, Hope you're doing well. What's your schedule like early next week for a call?",
+    "tags": [],
+    "heat": 4,
+    "action": "Book it. The CIO himself, asking for a call, off the family-office list - and only the second live conversation that channel has produced in 634 sends. Offer two slots early next week and send the package ahead of the call so the hour is spent on their questions rather than the basics. Palm Beach family office, so expect the cheque-size question early; have the answer ready."
+  },
+  {
+    "firm": "Seminole Financial Services",
+    "person": "Joe Ritter",
+    "title": "Chief Development Officer & Principal",
+    "email": "jritter@seminolefs.com",
+    "channel": "peblast",
+    "stage": "pass",
+    "ts": "2026-11-02T15:58:15Z",
+    "quote": "We're at capacity with respect to our subordinate capital. I'll let you know if/when that changes.",
+    "tags": [
+      "pref-only",
+      "capital-paused"
+    ],
+    "heat": 1,
+    "action": "A sub-debt and pref shop, full up. Two things follow. They were never an LP prospect, so the v5 list is still carrying lenders in the equity column. And if the pref structure question ever gets answered for NCA Realty, Seminole is the kind of counterparty to revisit - he offered to come back when capacity frees up, which is worth holding him to."
+  },
+  {
+    "firm": "Mandrake Capital",
+    "person": "Ian Crowley",
+    "title": "Vice President",
+    "email": "icrowley@mandrakecapital.com",
+    "channel": "peblast",
+    "stage": "materials",
+    "ts": "2026-11-02T15:54:24Z",
+    "quote": "Hi Zamir - we did not review this over the weekend, feel free to send the package and we will review and get back to you if there's any interest",
+    "tags": [],
+    "heat": 3,
+    "action": "Send it. Measured rather than keen - 'if there's any interest' is doing work in that sentence - but they asked, and the VP answered for a desk that includes Haefele and Oprindick. Charlotte-based, single-family rental development by the look of the title, so lead the package with the 2023 vintage and the stabilised operations rather than the value-add story."
+  },
+  {
+    "firm": "Bollinger Enterprises",
+    "person": "Peyton Bush",
+    "title": null,
+    "email": "peytonb@bollinger.com",
+    "channel": "familyoffice",
+    "stage": "pass",
+    "ts": "2026-11-02T15:56:47Z",
+    "quote": "Don't think this one is for us, Zamir. We are not currently making any new real estate investments while we focus on the existing assets in our portfolio.",
+    "tags": [
+      "capital-paused"
+    ],
+    "heat": 1,
+    "action": "Inward-facing right now, managing what they own. Not a Houston answer and not a pricing answer, so it says nothing about the deal. Next cycle."
+  },
+  {
+    "firm": "Freestone Capital Management",
+    "person": "Ryan Mills",
+    "title": "CFA",
+    "email": "rmills@freestonecapital.com",
+    "channel": "peblast",
+    "stage": "referred",
+    "ts": "2026-11-02T16:08:18Z",
+    "quote": "Thanks for the update. Erik and I are not the best contacts for RE. cc'ing Jason Mann, who oversees our RE strategies. Can you send future opportunities to him?",
+    "tags": [],
+    "heat": 3,
+    "action": "Free routing to the decision-maker: Jason Mann oversees real estate strategies at Freestone, is now copied, and was asked for by name. Send him the package directly today rather than waiting for him to surface - this is exactly how the NYLIM referral worked and the only thing that went wrong there was geography. Update the master list: Erik Morgan and Ryan Mills out of the real estate column, Jason Mann in."
+  },
+  {
+    "firm": "PGIM Real Estate",
+    "person": "Mark Walker",
+    "title": "Executive Director, Transactions",
+    "email": "mark.walker@pgim.com",
+    "channel": "peblast",
+    "stage": "pass",
+    "ts": "2026-11-02T15:59:22Z",
+    "quote": "We're a pass",
+    "tags": [],
+    "heat": 1,
+    "action": "Three words from Prudential's real estate arm in Dallas, with Capurro, Mihalek and Jacobs all on the thread. No reason and no opening. Same size story as Oxford and GIC."
+  },
+  {
+    "firm": "Five Eleven Partners",
+    "person": "Gilbert A. Calderon",
+    "title": "Partner, Chief Investment Officer",
+    "email": "gil.calderon@five11partners.com",
+    "channel": "familyoffice",
+    "stage": "pass",
+    "ts": "2026-11-02T15:39:23Z",
+    "quote": "Thank for the emails. This isn't for us. Appreciate the look but we don't seek single asset RE deals at this point.",
+    "tags": [
+      "strategy-mismatch"
+    ],
+    "heat": 1,
+    "action": "The CIO answering for the firm: they do not do single-asset real estate. Clean mandate pass, nothing to re-pitch, and worth noting that 'thank for the emails' plural is a mild signal the three-touch cadence is being felt. Suppress the domain for this raise."
+  },
+  {
+    "firm": "Sundance Bay",
+    "person": "Andrew Peterson",
+    "title": null,
+    "email": "andrew@sundancebay.com",
+    "channel": "peblast",
+    "stage": "pass",
+    "ts": "2026-11-02T16:44:39Z",
+    "quote": "Thanks for the follow-up. Unfortunately, this is not a great fit for us.",
+    "tags": [],
+    "heat": 1,
+    "action": "No reason given. Worth one line back asking what would have made it a fit - Sundance Bay buys multifamily and the answer would be useful even though this one is closed."
+  },
+  {
+    "firm": "PCCP",
+    "person": "Scott Nugent",
+    "title": "Vice President",
+    "email": "snugent@pccpllc.com",
+    "channel": "peblast",
+    "stage": "referred",
+    "ts": "2026-11-02T15:54:31Z",
+    "quote": "Thanks Zamir. Looping in Brad who covers Houston for us. Moving Barbs/Haber to Bcc. Brad - any interest?",
+    "tags": [],
+    "heat": 3,
+    "action": "Routed internally to the person who covers Houston and asked the question in the open - 'Brad, any interest?' - which is as good as a cold send gets. Do not reply into the thread chasing Brad today; give it a day, then write to him directly with the package. PCCP writes both debt and equity at scale, so if Brad engages, lead with the basis and be ready on cheque size."
+  },
+  {
+    "firm": "Arete Wealth",
+    "person": "David Levine",
+    "title": "Chief Executive Officer",
+    "email": "david.levine@aretewealth.com",
+    "channel": "familyoffice",
+    "stage": "question",
+    "ts": "2026-11-02T16:00:55Z",
+    "quote": "Apologies - who are you? It sounds like we should be directing you first to our due diligence team - assuming we have indications or a demand profile for your offering. Please advise",
+    "tags": [
+      "feeder-platform"
+    ],
+    "heat": 2,
+    "action": "The CEO does not know who we are, which is the third provenance challenge off the family-office list in a week, but unlike Connelly and Schwaben he is offering a route rather than complaining. Read it for what it is: Arete is a FINRA broker-dealer and RIA, so the path is a selling agreement and a third-party due-diligence review, not an LP cheque - weeks of process against a 20 Nov hard-money date. Answer him properly, say who ZMR is and what the track record is, and be honest that the timeline on this asset will not suit a platform review. Then decide separately whether Arete is worth building for the next deal."
   }
 ]
