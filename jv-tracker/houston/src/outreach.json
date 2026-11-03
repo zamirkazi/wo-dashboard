@@ -1655,13 +1655,13 @@
   },
   {
    "channel": "direct",
-   "firm": "Daniel Zairick",
+   "firm": "Daniel Zairick (Grupza / Rovianda / ZC Estates)",
    "person": "Daniel Zairick",
    "email": "danielzairick@gmail.com",
-   "sent": null,
-   "outcome": "drafted",
+   "sent": "2026-11-02",
+   "outcome": "replied",
    "knows": "YPO",
-   "note": "YPO relationship, hand-sent by Zamir - not an inbound off the group-chat post, so it sits on direct rather than the ypo channel. Nowhere in fo_SEND, the v5 PE list or the screened roster, so first contact. Drafted at the canonical direct-LP set, 21.5% / 2.33x / 9.5% CoC on the 5.71% coupon, matching the Bonilla send. Personal gmail address rather than a firm domain, so this is individual money and the minimum-check question Bonilla asked will almost certainly come back. The draft says the OM and model are attached - they must actually be attached before sending."
+   "note": "YPO relationship, hand-sent by Zamir - not an inbound off the group-chat post, so it sits on direct rather than the ypo channel. Nowhere in fo_SEND, the v5 PE list or the screened roster, so first contact. Sent 2 Nov 12:58 PT at the canonical direct-LP set, 21.5% / 2.33x / 9.5% CoC on the 5.71% coupon, matching the Bonilla send. Personal gmail address rather than a firm domain, so this is individual money and the minimum-check question Bonilla asked will almost certainly come back. The OM and the full model went with it, and he read both line by line: his reply the next morning names three arithmetic errors, including the $340K equity-base understatement Todd Hanson had flagged the day before."
   },
   {
    "channel": "familyoffice",
@@ -2049,6 +2049,33 @@
    "sent": "2026-10-30",
    "outcome": "replied",
    "note": "Reached on the PE / institutional send; replied just after midnight UTC 3 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "direct",
+   "firm": "Impex Capital Group",
+   "person": "Michael Munshi",
+   "email": "michael.munshi@impexcapitalgroup.com",
+   "also": [
+    "ash.shah@impexcapitalgroup.com",
+    "krish.shah@impexcapitalgroup.com"
+   ],
+   "sent": null,
+   "outcome": "drafted",
+   "knows": "knows them",
+   "note": "Never sent Allen Genoa. Relationship runs the other way: Zamir cold-emailed Ash Shah in Aug 2026 about buying The Grand at Stone Creek, and a 26-minute call followed on 13 Aug with Michael Munshi. Impex is Houston-based, $2.1B AUM, co-GP interest in 82 projects across 23 states, asset- and geography-agnostic. Their business IS assembling the capital stack for sponsors - LP equity sources, co-GP equity sources, and Ash signing loan guarantees off his balance sheet - while taking a deliberately passive co-GP role and relying on the sponsor as the local expert. On that call Michael asked whether ZMR had the debt and LP equity handled and Zamir said 'I think we're pretty well capitalized', so the draft corrects that on the record rather than around it. Michael also promised to talk to Ash about dispositions and either book another call or send over assets to offload; neither happened, which is the natural reason to reconnect. Draft created 3 Nov, UNSENT - needs the three-pager attached."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Canyon Partners Real Estate",
+   "person": "Robin Potts",
+   "email": "rpotts@canyonpartners.com",
+   "also": [
+    "sschlee@canyonpartners.com",
+    "nbaccile@canyonpartners.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send to Robin Potts with Schlee and Baccile copied; Spencer Schlee answered for the firm off the Monday follow-up. Another cc, not the addressee, carrying the reply."
   }
  ],
  "carveouts": [
