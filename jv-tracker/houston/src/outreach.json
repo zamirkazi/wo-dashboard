@@ -55,6 +55,14 @@
    "status": "live",
    "reach": 2,
    "note": "A single post to the YPO deal flow group chat, not a merge and not a list. It is the only channel on the board where the audience self-selects: nobody was targeted, and anyone who comes back has raised their own hand. Reach counts named respondents rather than chat members, since we hold no roster: Alberto Bonilla at Garnier on 1 Nov and Stephen Lobell at JSB on 2 Nov, both of whom raised their own hand. The cheque profile is the inverse of every other channel - YPO members write individual cheques, where nine firms have now passed here because $11.77M was below their floor."
+  },
+  "sfo": {
+   "label": "Rest of SFO (single family offices)",
+   "owner": "Zamir (GMass)",
+   "started": "2026-11-03",
+   "status": "live",
+   "reach": 0,
+   "note": "The 'Rest of SFO not sent previously' list - roughly 600 single family offices sourced from FinTrx, sent 3 Nov under the new subject 'Houston Multifamily LP Equity' with three bullets no other wave carried: Year 1 CoC 11%, Depreciation, and Accept 1031 Exchange. Reach is not yet fixed because the send was still running when Gmail throttled the account. This wave bounced at least 22 addresses in its first few hours and triggered eleven 'you have reached a limit for sending mail' failures, one of which killed an unrelated reply to Rialto Capital."
   }
  },
  "contacts": [
@@ -2111,6 +2119,43 @@
    "sent": "2026-11-03",
    "outcome": "replied",
    "note": "Hand-sent by Zamir 3 Nov 08:13 CT under the new 'Houston Multifamily LP Equity' subject, to Jason and Stephen together. Markscheid answered in three minutes asking why ZMR is approaching outside capital at all."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Contrarian Capital Management",
+   "person": "Dacker Chen",
+   "email": "dchen@contrariancapital.com",
+   "also": [
+    "tenzer@contrariancapital.com",
+    "mrader@contrariancapital.com",
+    "mhalperin@contrariancapital.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send to Dacker Chen with Gil Tenzer and Michael Rader copied. Tenzer passed it to Michael Halperin, who answered on 3 Nov with a quantified yield-on-cost bar."
+  },
+  {
+   "channel": "sfo",
+   "firm": "Chromo Invest",
+   "person": "Willian Bueno",
+   "email": "willian@chromoinvest.com",
+   "also": [
+    "tiago@chromoinvest.com",
+    "frederico@chromoinvest.com",
+    "sanvitto@chromoinvest.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Brazilian family office on the Rest-of-SFO list. Mailed 16:07, Frederico Becker asked for the full package at 19:54 and added Sanvitto to the thread."
+  },
+  {
+   "channel": "sfo",
+   "firm": "Smartbox.ai (Gravicus)",
+   "person": "Anthony Rawlinson",
+   "email": "anthony.rawlinson@smartbox.ai",
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "On the Rest-of-SFO list in error - a UK AI software company, not an investor. Evidence the list was never screened for firm type."
   }
  ],
  "carveouts": [
@@ -2198,6 +2243,11 @@
    "firm": "Brainvest",
    "person": "Laurent Cudre-Mauroux",
    "why": "\"Please take me out of your distribution list !\" - 2 Nov, off the family-office send, third touch, Switzerland. Fifth removal demand of the day after Affinius, Palm Ventures, Next Titan and The Family Office Co, and the sixth incident counting Connelly's repeat objection. Suppress brainvest.com."
+  },
+  {
+   "firm": "Certina Group",
+   "email": null,
+   "note": "Dr. Hans Wehrmann, CEO, replied to the 3 Nov SFO send with a single word: 'Unsubscribe'. German firm (Grunwald, Bavaria) so GDPR applies. Suppress the whole certina-group.com domain - hans.wehrmann@, andras.kontz@ and stefan.brungs@ were all on the thread."
   }
  ],
  "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",
