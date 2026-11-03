@@ -2156,6 +2156,32 @@
    "sent": "2026-11-03",
    "outcome": "replied",
    "note": "On the Rest-of-SFO list in error - a UK AI software company, not an investor. Evidence the list was never screened for firm type."
+  },
+  {
+   "channel": "sfo",
+   "firm": "Carlson Private Capital Partners",
+   "person": "Andy Cantwell",
+   "email": "acantwell@carlsonprivatecapital.com",
+   "also": [
+    "lborg@carlsonprivatecapital.com",
+    "jmcginty@carlsonprivatecapital.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "On the Rest-of-SFO list. Does not invest in real estate at all - out of scope by mandate, not by preference."
+  },
+  {
+   "channel": "sfo",
+   "firm": "CGC Properties (cgcpi.com)",
+   "person": "David Redfern",
+   "email": "dredfern@cgcpi.com",
+   "also": [
+    "tshort@cgcpi.com",
+    "dcochener@cgcpi.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "On the Rest-of-SFO list in error - a hotel developer seeking LP equity of his own, not a capital provider."
   }
  ],
  "carveouts": [

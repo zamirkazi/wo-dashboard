@@ -2633,5 +2633,35 @@
   "tags": [],
   "heat": 1,
   "action": "Not an investor at all - Smartbox.ai is a UK artificial-intelligence software company trading as Gravicus, and their mail server tagged the email as external to Gravicus. This is list contamination, not a pass, and it is the clearest single piece of evidence that the FinTrx-sourced SFO list has not been screened for whether the firm invests in anything. He answered politely within two minutes, which is more courtesy than the send deserved. Remove the domain and, more to the point, screen the remaining names on the list for whether they are investment firms before the rest goes out."
+ },
+ {
+  "firm": "Carlson Private Capital Partners",
+  "person": "Logan Borg",
+  "title": "Vice President",
+  "email": "lborg@carlsonprivatecapital.com",
+  "channel": "sfo",
+  "stage": "outofscope",
+  "ts": "2026-11-03T20:26:35Z",
+  "quote": "Unfortunately, this is not a fit for us as real estate is out of our core scope, but appreciate you thinking of us here. Look forward to connecting on the next one.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "action": "The Carlson family office does not invest in real estate at all - it is out of their core scope, full stop. Not a pass on Houston or on this deal, a firm that was never a candidate. Third name off the Rest-of-SFO list today that should not have been on it. Borg was a cc, not the addressee, and answered for the firm within ninety minutes; he left the door open for other asset classes, which is worth nothing for a multifamily raise. Remove the domain from the SFO list."
+ },
+ {
+  "firm": "CGC Properties (cgcpi.com)",
+  "person": "David Redfern",
+  "title": null,
+  "email": "dredfern@cgcpi.com",
+  "channel": "sfo",
+  "stage": "outofscope",
+  "ts": "2026-11-03T20:09:11Z",
+  "quote": "Thanks for the email and the details of your project. Very strong! We do not invest outside of our own projects at this point. In fact, we are looking for LP equity providers like you for our Marriott extended stay hotel development.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "action": "THE LIST IS SO UNSCREENED IT IS NOW SOLICITING OTHER SPONSORS. Redfern is not an investor - he is a developer raising LP equity for a Marriott extended-stay hotel, and he answered a capital solicitation by soliciting capital back. He did praise the deal ('Very strong!') before explaining he only invests in his own projects. Fourth name off the Rest-of-SFO list in one afternoon that was never a prospect, after Smartbox.ai (a UK AI software company), Carlson (does not do real estate) and Certina (unsubscribed outright). That is four in roughly a hundred sends, which puts the contamination rate somewhere near four percent before counting the twenty-two addresses that bounced. Remove the domain, and treat this as the argument for screening the remaining names by firm type before any more of this list goes out."
  }
 ]
