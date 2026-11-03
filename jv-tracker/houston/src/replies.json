@@ -2474,5 +2474,20 @@
     "tags": [],
     "heat": 3,
     "action": "Send him the three-pager tonight and answer the question in one line: LP equity, $11.77M at 90/10, not a contract assignment. Two things worth noting. First, this arrived by forward - Zamir mailed Michael Bickford at Round Hill Capital on 30 Oct and Finn, at an affiliated holding company, is the one who picked it up and engaged, which is the same cc-and-forward dynamic that produced most of today's replies. Second, and more useful: a fresh reader could not tell from the email what was being asked for, and wondered whether we were flipping the contract. The subject line leads with '$12M Equity | 21% IRR' and the body never says the words 'LP equity' until the seventh bullet. That is worth fixing before the next wave - if one reader said it, others thought it and moved on."
+  },
+  {
+    "firm": "Claridge",
+    "person": "Frederic Martel",
+    "title": null,
+    "email": "fredericmartel@claridgeinc.com",
+    "channel": "familyoffice",
+    "stage": "pass",
+    "ts": "2026-11-02T23:30:23Z",
+    "quote": "Hi Zamir. Our real estate activities are focused on Canada.",
+    "tags": [
+      "not-targeted"
+    ],
+    "heat": 1,
+    "action": "The second firm today mailed in spite of its own exclusion tab. Claridge sits on Not A Fit with this exact sentence already recorded against it - 'Our investment activities in RE are primarily focussed on Canada' - and Frederic Martel has now had to write it again after three touches. Dentressangle was the first. Two confirmed exclusion-tab failures in one wave means the sixteen tabs are not being applied to the family-office send at all, which is the same class of defect as the opt-outs missing from fo_SUPPRESSED.csv. Claridge is also Montreal, so it belongs in the Canadian cohort question Zamir has now been asked three times and has not answered."
   }
 ]

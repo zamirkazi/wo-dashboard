@@ -2030,6 +2030,15 @@
       "sent": "2026-10-30",
       "outcome": "replied",
       "note": "Mailed to Michael Bickford at Round Hill Capital 30 Oct; Mark Finn at an affiliated holding company forwarded himself in and replied 2 Nov."
+    },
+    {
+      "channel": "familyoffice",
+      "firm": "Claridge",
+      "person": "Frederic Martel",
+      "email": "fredericmartel@claridgeinc.com",
+      "sent": "2026-10-27",
+      "outcome": "replied",
+      "note": "On the Not A Fit exclusion tab and mailed anyway; replied 2 Nov repeating the Canada-only answer already on file."
     }
   ],
   "carveouts": [
