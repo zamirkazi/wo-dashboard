@@ -2389,6 +2389,19 @@
    ],
    "sent": "2026-11-04",
    "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Scope Hanson / ANH Hausbesitz",
+   "person": "Malte Sittig",
+   "email": "malte.sittig@anh-hausbesitz.de",
+   "also": [
+    "andreas.bremke@anh-hausbesitz.de",
+    "robin.steigerwald@anh-hausbesitz.de"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Replied 4 Nov from ms@scopehanson.com, not the anh-hausbesitz.de address he was mailed at. Use scopehanson.com."
   }
  ],
  "carveouts": [
