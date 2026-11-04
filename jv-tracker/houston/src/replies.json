@@ -3086,5 +3086,80 @@
   "heat": 1,
   "quote": "Zamir - this is not a fit for Ingleside.",
   "action": "A flat no within sixteen minutes of the send, no reason given. Thomas Israel and Greg Warner were copied. Nothing to work with; mark closed and leave the address live."
+ },
+ {
+  "firm": "Finco (Antwerp)",
+  "person": "Camille Lammens",
+  "title": null,
+  "email": "lammens@finco.be",
+  "channel": "familyoffice",
+  "stage": "outofscope",
+  "ts": "2026-11-04T16:30:09Z",
+  "quote": "Thank you for reaching out. Unfortunately, we do not invest in real estate deals or funds.",
+  "action": "Belgian family office in Antwerp, reached on the 4 Nov direct wave to Kristof Verluyten with t'Serstevens and Lammens copied. Lammens answered in two hours for the whole firm: no real estate, not deals and not funds. That is a mandate statement, not a view on Houston or on the basis, and it is the cleanest kind of no - nothing to re-pitch, nothing to re-cut. Mark the finco.be domain not-a-fit on the roster so the next wave does not spend three addresses on it. Note the pattern: this is the fourth European family office this week to answer that real estate is outside the mandate entirely, which says the European slice of the list was built off a generic family-office universe rather than off a real-estate screen.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "Excession",
+  "person": "Jared Birchall",
+  "title": null,
+  "email": "jared@excession.com",
+  "channel": "familyoffice",
+  "stage": "outofscope",
+  "ts": "2026-11-04T16:48:46Z",
+  "quote": "Thanks for reaching out, Zamir. We only invest in our own companies.",
+  "action": "Single-family office that invests only in its own operating companies - no third-party sponsors, no LP positions in anyone else's deal, by design rather than by preference. A courteous and immediate no two hours after the send. There is no version of Allen Genoa that fits a mandate written that way, so there is nothing to follow up and nothing to learn about the deal from it. The useful read is on the list, not the reply: a captive single-family office should never have been on a JV-equity send, and it is the same list-construction problem that produced the aerospace holding company and the government ministry address earlier this week.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "Fairfield-Maxwell",
+  "person": "Sean D. Lee",
+  "title": null,
+  "email": "slee@fairfield.com",
+  "channel": "familyoffice",
+  "stage": "pass",
+  "ts": "2026-11-04T16:12:47Z",
+  "quote": "Hi Zamir - thanks for sharing the opportunity. Unfortunately, this does not fit with our current investment strategy.",
+  "action": "New York holding company (60 East 42nd Street), reached on the 4 Nov wave to Christopher Sugahara with Dowd and Lee copied; Lee answered inside two hours for the group. A one-line strategy pass with no reference to Houston, the basis, the vintage or the check - so it tells us nothing about the deal and should not be read as another data point on the submarket. Worth noting only that the word 'current' leaves the door ajar in a way the Finco and Excession replies do not; if a future deal sits closer to whatever they are doing now, the address is live and the reply was prompt and polite. Nothing owed back beyond a thank-you.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "Caliber (CaliberCos)",
+  "person": "Lisa Pudewell",
+  "title": "VP of Real Estate Assets",
+  "email": "lisa.pudewell@caliberco.com",
+  "channel": "familyoffice",
+  "stage": "pass",
+  "ts": "2026-11-04T16:57:37Z",
+  "quote": "Hi Zamir, We don't have enough runway to complete this deal right now, would need a much longer closing.",
+  "action": "The first pass in the whole file that turns on the clock rather than on Houston, the basis or the return. Caliber is an Arizona alternative-asset manager that raises into its own funds, and Pudewell is saying the raise cycle on their side cannot be completed between now and a January close - not that the deal is wrong. It took three sends to get here (30 Oct, a 2 Nov follow-up, and a 4 Nov ask for a call), and the answer came within ninety minutes of the third, which is what a real constraint sounds like rather than a brush-off. Two things follow. First, it is a live relationship for the next deal if the process starts earlier - file it with the timing-revisit group, not with the Houston passes. Second, it is worth asking whether an extension is genuinely unavailable: DD expires 20 Nov and the contract closes 21 December 2026, so the window is tighter than the 'mid-January' language in the outbound email implies, and that gap is now being read by investors.",
+  "tags": [
+   "closing-timeline"
+  ],
+  "heat": 2
+ },
+ {
+  "firm": "Fidelity (FMR)",
+  "person": "Caitlin Yanchek",
+  "title": null,
+  "email": "caitlin.yanchek@fmr.com",
+  "channel": "familyoffice",
+  "stage": "outofscope",
+  "ts": "2026-11-04T16:35:33Z",
+  "quote": "Hi Zamir, Thanks for thinking of us. We don't do traditional real estate in our group so this won't be a fit.",
+  "action": "Yanchek replied for the group even though the two addresses the email was actually sent to - david.guy@fmr.com and ryan.prinzo@fmr.com - were both hard-blocked by Fidelity's gateway within three seconds of the send. She was on copy and the copy got through, which is why the reply exists at all. Her answer is a scope statement about her group, not about Houston or the deal: no traditional real estate. Both blocked addresses are already in BOUNCE_MASTER and DO_NOT_SEND, and this row is the reason the reply status has to outrank a bounce on the same firm - Fidelity is a polite no from a named person, not a dead domain. Nothing is owed back.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
  }
 ]

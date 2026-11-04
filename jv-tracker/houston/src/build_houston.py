@@ -72,11 +72,12 @@ TAG_LABEL = {
     'not-targeted':          'Market is not on their target list',
     'bulk-internet':         'Bulk-internet income assumed without market precedent',
     'co-gp-structure':       'Wants co-GP equity rather than LP',
+    'closing-timeline':      'Needs a longer closing timeline than the contract allows',
 }
 # Which objections are about Houston itself vs. about this deal's economics.
 MARKET_TAGS = {'houston-exposure','houston-sentiment','submarket-demographics','strategy-mismatch','submarket-vacancy','submarket-conviction','climate-risk','submarket-concessions','texas-selective','not-targeted'}
 DEAL_TAGS   = {'going-in-yield','negative-leverage','exit-cap','fee-drag','occupancy-softness','unit-size','rent-spread','pref-only','competing-deal',
-               'partner-conflict','check-too-small','capital-paused','non-local-sponsor','profile-appetite','check-too-large','raise-progress','year-one-cash','exit-rent-multiple','price-reduction','diligence-bandwidth','feeder-platform','underbid-this-asset','exchange-capital','hold-period','minimum-check','bulk-internet','co-gp-structure'}
+               'partner-conflict','check-too-small','capital-paused','non-local-sponsor','profile-appetite','check-too-large','raise-progress','year-one-cash','exit-rent-multiple','price-reduction','diligence-bandwidth','feeder-platform','underbid-this-asset','exchange-capital','hold-period','minimum-check','bulk-internet','co-gp-structure','closing-timeline'}
 
 data = {
     'deal': deal,

@@ -2331,6 +2331,64 @@
    ],
    "sent": "2026-11-04",
    "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Finco (Antwerp)",
+   "person": "Kristof Verluyten",
+   "email": "verluyten@finco.be",
+   "also": [
+    "tserstevens@finco.be",
+    "lammens@finco.be"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Excession",
+   "person": "Jared Birchall",
+   "email": "jared@excession.com",
+   "also": [],
+   "sent": "2026-11-04",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Fairfield-Maxwell",
+   "person": "Christopher Sugahara",
+   "email": "csugahara@fairfield.com",
+   "also": [
+    "adowd@fairfield.com",
+    "slee@fairfield.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Caliber (CaliberCos)",
+   "person": "Lisa Pudewell",
+   "email": "acquisitions@caliberco.com",
+   "also": [
+    "chris.loeffler@caliberco.com",
+    "jennifer.schrader@caliberco.com",
+    "sofie.jakelis@caliberco.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Fidelity (FMR)",
+   "person": "David Guy",
+   "email": "david.guy@fmr.com",
+   "also": [
+    "ryan.prinzo@fmr.com",
+    "caitlin.yanchek@fmr.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied"
   }
  ],
  "carveouts": [
