@@ -2310,6 +2310,27 @@
    ],
    "sent": "2026-11-04",
    "outcome": "replied"
+  },
+  {
+   "channel": "peblast",
+   "firm": "Blue Owl Capital",
+   "person": "Alex Grecco",
+   "email": "alex.grecco@blueowl.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "sfo",
+   "firm": "Ingleside Investors",
+   "person": "Mayer Rosenzweig",
+   "email": "mrosenzweig@inginv.com",
+   "also": [
+    "tisrael@inginv.com",
+    "gwarner@inginv.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied"
   }
  ],
  "carveouts": [
@@ -2376,7 +2397,7 @@
   {
    "firm": "Affinius Capital",
    "person": "Eric Cohen",
-   "why": "\"This is not a fit - pls remove us.\" - 2 Nov, off the PE / institutional send. An explicit removal request, so it goes here rather than in the reply ledger. Two caveats worth Zamir's judgement: Cohen is Managing Director and Co-Head of DEBT Origination, not the equity decision-maker, and the named recipient - Craig Solomon, Vice Chairman and CIO - never answered. Treating it as firm-level to be safe. Note also that the master roster still carries three stale squaremilecapital.com rows that are now Affinius, so suppress on the firm, not just the domain."
+   "why": "\"This is not a fit - pls remove us.\" - 2 Nov, off the PE / institutional send. An explicit removal request, so it goes here rather than in the reply ledger. Two caveats worth Zamir's judgement: Cohen is Managing Director and Co-Head of DEBT Origination, not the equity decision-maker, and the named recipient - Craig Solomon, Vice Chairman and CIO - never answered. Treating it as firm-level to be safe. Note also that the master roster still carries three stale squaremilecapital.com rows that are now Affinius, so suppress on the firm, not just the domain. ESCALATED 4 Nov: mailed AGAIN on 30 Oct, 2 Nov and 4 Nov despite the standing no-contact entry. Eric Cohen answered a second time - \"We already passed. Please remove us from the distribution\" - with Craig Solomon and Jeff Fastov copied. Same mechanical failure as Connelly Capital: the opt-out lives in this file but never reached the list the sends screen against, so every wave re-mails it. Two firms have now objected twice."
   },
   {
    "firm": "Palm Ventures (Palmer Family Office)",

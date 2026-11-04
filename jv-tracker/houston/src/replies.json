@@ -1294,16 +1294,21 @@
  },
  {
   "firm": "Corebridge Financial",
-  "person": "James \"Buster\" Black",
-  "title": "Corebridge Real Estate Investors",
+  "person": "Matt Kordsmeier (VP, Investments) / James \"Buster\" Black",
+  "title": "Vice President, Investments - Corebridge Real Estate Investors",
   "email": "james.black@corebridgefinancial.com",
   "channel": "direct",
-  "stage": "relationship",
-  "ts": "2026-11-02T15:36:04Z",
-  "quote": "Hey can you talk around 2pm et today?",
-  "action": "CALL TODAY AT 2PM ET - he named the time himself and it is the third attempt to land this one. He passed on the deal on 28 Oct and asked to connect anyway; Zamir offered four slots across 29-30 Oct, none were taken, and Zamir's 30 Oct nudge is what produced this. Corebridge is not a buyer of Allen Genoa and will not become one, so treat it as what he offered: a read on what a $400bn insurance balance sheet is seeing in multifamily, and a relationship for the next deal. Worth asking him directly why Houston keeps drawing the same answer from institutions - he is well placed to say, and 48 of our passes now turn on it.",
+  "stage": "materials",
+  "ts": "2026-11-04T15:20:31Z",
+  "quote": "Looks really interesting and we're jumping on it. Do you have time this afternoon between 3-4:30pm ET this afternoon to hop on a quick call? Also, can you please share any additional DD materials you have to this Box.com folder I created (let me know if I need to provide access to anyone else on your side)?",
+  "action": "A pass that reversed, and the hottest thing on the board. Buster Black passed on 28 Oct, Zamir kept at it anyway, got a call on 2 Nov and sent the deck plus the CBRE higher-for-longer piece. Buster forwarded it internally on 3 Nov to Matt Kordsmeier, Patrick Curran and Royce Hadden, and Kordsmeier - a VP in Investments - came back the next morning with 'we're jumping on it', a call window of 3:00-4:30pm ET TODAY, and a Box DD folder already created at crbg.box.com/s/yp0s5ms8e23ggprp7r06mtjhwak6z1ic. A counterparty standing up a data room before the first call is not browsing. Three things, fast. Take the call - the window is hours wide and it closes today. Load the Box folder with the corrected numbers, not the 20.3%/2.25x/$11.65M set Buster was originally sent on 27 Oct, which is two re-underwrites stale; he needs 20.9%/2.27x deal-level and 17.1%/1.97x LP net. And have the demographics and affordability answer ready in a form that survives contact - that single issue has now cost ABR a fully-diligenced position and been raised by five other readers, and Corebridge is an insurance balance sheet with exactly the long-dated mandate ABR said the location failed. Ask who else needs Box access on their side before the call, not after.",
   "tags": [],
-  "heat": 3
+  "heat": 5,
+  "followup": {
+   "owed": "none",
+   "lastOut": null,
+   "ask": null
+  }
  },
  {
   "firm": "NCA Realty Partners",
@@ -3046,5 +3051,40 @@
   "heat": 1,
   "quote": "Thanks for reaching out but we do not have any interest here.",
   "action": "A flat no with no reason and nothing to work with. Worth one observation on the list rather than the firm: the send went to Jeff with Henry Schuck of ZoomInfo copied, which means the Rest-of-SFO list is pairing an advisory firm's president with his client's corporate address. Mailing a wealth adviser and the underlying principal on the same thread is how a cold list reads as careless to both. Mark closed."
+ },
+ {
+  "firm": "Blue Owl Capital",
+  "person": "Alex Grecco",
+  "title": null,
+  "email": "alex.grecco@blueowl.com",
+  "channel": "peblast",
+  "stage": "question",
+  "ts": "2026-11-04T15:38:44Z",
+  "tags": [
+   "pref-only"
+  ],
+  "heat": 4,
+  "quote": "Happy to discuss. We aren't doing true common assuming that's what you're looking for. We have done a lot of pref behind agency so if you think that is in play would be happy to discuss. We have been a little risk off in Houston relative to other markets in the sunbelt but have one signed up there now so curious how these compare. What's the going in T3/T12 cap? Are you locked on the agency debt? Obviously rates have come in a bit last couple weeks.",
+  "action": "Three specific questions and an open door, from a firm that will not write common but has done a lot of pref behind agency debt. This is the FOURTH independent pull toward pref in a fortnight - NCA through RJL, Michael Holland at Walker & Dunlop, the Pref Equity tab of the equity list, and now Blue Owl - and Zamir still has not answered the structural question RJL asked on 27 Oct. Blue Owl is a $280B manager offering to look; that is worth a decision on pref by itself. Answer the three questions directly: the going-in T3 and T12 cap rate, whether the agency debt is locked (it is not - W&D has produced a debt matrix, not a term sheet, and rates moving in is an argument for engaging rather than a problem), and how Allen Genoa compares with the Houston deal they have already signed up. That last question is an invitation to make the basis argument against a live comparable, which is the strongest ground this deal has. Alex also flags being 'a little risk off in Houston' - same theme, stated more softly than the twenty-two firms that passed on it.",
+  "followup": {
+   "owed": "us",
+   "lastOut": "2026-11-04",
+   "ask": "Answer three questions: going-in T3/T12 cap, whether the agency debt is locked (it is not - W&D has a debt matrix, not a term sheet), and how Allen Genoa compares with the Houston deal they already signed up. They will not write common but do pref behind agency. Fourth pull toward pref in a fortnight."
+  }
+ },
+ {
+  "firm": "Ingleside Investors",
+  "person": "Mayer Rosenzweig",
+  "title": null,
+  "email": "mrosenzweig@inginv.com",
+  "channel": "sfo",
+  "stage": "pass",
+  "ts": "2026-11-04T15:22:34Z",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "quote": "Zamir - this is not a fit for Ingleside.",
+  "action": "A flat no within sixteen minutes of the send, no reason given. Thomas Israel and Greg Warner were copied. Nothing to work with; mark closed and leave the address live."
  }
 ]
