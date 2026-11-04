@@ -1,17 +1,29 @@
-priority,time_utc,recipient,cc,firm_or_person,subject,note
-1,16:20:28,matthewkordsmeier@corebridgefinancial.com,"kevin@zmrcapital.com; jamesblack@ / patrickcurran@ / roycehadden@corebridgefinancial.com; chip@ mregan@zmrcapital.com",Corebridge Financial,Re: Houston 2023 Vintage $135K/door $13M Check 20%+ IRR,"Box access + looping in the team. Call window was 3:00-4:30pm ET TODAY. He has not seen it."
-2,16:42:38,zoseland@zmrcapital.com,"pokorney@ sachs@ bylin@ callaway@atlanticcreek.com; mregan@ megan@zmrcapital.com",Atlantic Creek - Joseph Pokorney,Skye Isle and Skye at Love June 2026 rate cap confirmations,"Blocked twice - again at 16:55:33. Rate cap recommendation."
-3,16:27:47,mmccormick@roxboroughgp.com,,Roxborough - Matt McCormick,Fwd: Blossoms at Brentwood - Deal Summary,"20MB attachment. Consider a link instead."
-4,16:28:54,jlassere@pccpllc.com,,PCCP - Jed Lassere,Fwd: Blossoms at Brentwood - Deal Summary,"20MB attachment. Consider a link instead."
-5,16:29:36,daniel@feient.com,jlassere@pccpllc.com,Daniel Feiner,Re: intro,"Intro thread with PCCP."
-6,16:37:10,info@laoffmarket.com,,LA Off Market - Michael Koshet,Re: Just Closed! 320-Units in San Antonio,
-7,15:33:20,dbourla@domeeq.com,ejones@domeeq.com,Dome Equities - Daniel Bourla,Re: Houston 2023 Vintage | +LTO | $135K/Door | $12M Equity | 21% IRR,"3rd follow-up. RJL struck name - existing relationship, never sent the package."
-8,15:33:39,dennis@wolvertoncapital.com,ryan@wolvertoncapital.com,Wolverton Capital - Dennis Allen,Re: Houston 2023 Vintage | +LTO | $135K/Door | $12M Equity | 21% IRR,3rd follow-up
-9,15:33:48,dg@biscayneatlantic.com,,Biscayne Atlantic - David Garfinkle,Re: Houston 2023 Vintage | +LTO | $135K/Door | $12M Equity | 21% IRR,3rd follow-up
-10,15:33:56,dhood@sonencapital.com,,Sonen Capital - David Hood,Re: Houston 2023 Vintage | +LTO | $135K/Door | $12M Equity | 21% IRR,3rd follow-up
-11,15:34:04,dixi.wang@quarterra.com,,Quarterra - Dixi Wang,Re: Houston 2023 Vintage | +LTO | $135K/Door | $12M Equity | 21% IRR,3rd follow-up
-12,15:34:11,dlee@brightstonecap.com,,Brightstone Capital - Douglas Lee,Re: Houston 2023 Vintage | +LTO | $135K/Door | $12M Equity | 21% IRR,3rd follow-up
-13,15:34:21,dloeb@thirdpoint.com,,Third Point - Daniel Loeb,Re: Houston 2023 Vintage | +LTO | $135K/Door | $12M Equity | 21% IRR,3rd follow-up
-14,15:34:30,dnigro@amrecap.com,,AmRE Capital - David Nigro,Re: Houston 2023 Vintage | +LTO | $135K/Door | $12M Equity | 21% IRR,3rd follow-up
-15,15:34:41,dspangenberg@capfundinc.com,,Capital Fund Inc - Debbie Spangenberg,Re: Houston 2023 Vintage | +LTO | $135K/Door | $12M Equity | 21% IRR,3rd follow-up
-16,18:14:35,zamir@zmrcapital.com,,self,test,"Your own capacity test - also blocked. Most recent evidence of the block."
+priority,date,time_utc,recipient,cc,firm_or_person,subject,deal_related,note
+1,2026-11-03,15:19:01,jake.stevens@rialtocapital.com,dylan.burstyn@rialtocapital.com,Rialto Capital - Jake Stevens,Re: Call,NO,"RATE CAP PURCHASE INSTRUCTION. Body: 'We would like to buy 6 month cap then 12 month'. Unsent for 28 hours. Highest-value non-deal item in this file."
+2,2026-11-04,16:20:28,matthewkordsmeier@corebridgefinancial.com,"kevin@zmrcapital.com; jamesblack@ patrickcurran@ roycehadden@corebridgefinancial.com; chip@ mregan@zmrcapital.com",Corebridge Financial,Re: Houston 2023 Vintage $135K/door $13M Check 20%+ IRR,YES,"Box access + team loop-in. Call window was 3:00-4:30pm ET today. He has not seen it."
+3,2026-11-04,16:42:38,zoseland@zmrcapital.com,"pokorney@ sachs@ bylin@ callaway@atlanticcreek.com; mregan@ megan@zmrcapital.com",Atlantic Creek - Joseph Pokorney,Skye Isle and Skye at Love June 2026 rate cap confirmations,NO,"Blocked twice - again at 16:55:33."
+4,2026-11-04,16:27:47,mmccormick@roxboroughgp.com,,Roxborough - Matt McCormick,Fwd: Blossoms at Brentwood - Deal Summary,NO,"20MB attachment. Send as a link."
+5,2026-11-04,16:28:54,jlassere@pccpllc.com,,PCCP - Jed Lassere,Fwd: Blossoms at Brentwood - Deal Summary,NO,"20MB attachment. Send as a link."
+6,2026-11-04,16:29:36,daniel@feient.com,jlassere@pccpllc.com,Daniel Feiner,Re: intro,NO,PCCP intro thread.
+7,2026-11-04,16:37:10,info@laoffmarket.com,,LA Off Market - Michael Koshet,Re: Just Closed! 320-Units in San Antonio,NO,
+8,2026-11-04,15:33:20,dbourla@domeeq.com,ejones@domeeq.com,Dome Equities - Daniel Bourla,Re: Houston 2023 Vintage | +LTO,YES,"3rd follow-up. RJL struck name - existing relationship, never had the package. NOT in the 19:38 retry."
+9,2026-11-04,15:33:48,dg@biscayneatlantic.com,,Biscayne Atlantic - David Garfinkle,Re: Houston 2023 Vintage | +LTO,YES,"3rd follow-up. NOT in the 19:38 retry."
+10,2026-11-04,19:38:11,dwalsh@citymarkcapital.com,,Citymark Capital - Daniel Walsh,Re: Houston 2023 Vintage | +LTO,YES,3rd follow-up
+11,2026-11-04,15:33:39,dennis@wolvertoncapital.com,ryan@wolvertoncapital.com,Wolverton Capital - Dennis Allen,Re: Houston 2023 Vintage | +LTO,YES,"3rd follow-up. Blocked twice - retried 19:38."
+12,2026-11-04,15:33:56,dhood@sonencapital.com,,Sonen Capital - David Hood,Re: Houston 2023 Vintage | +LTO,YES,"3rd follow-up. Blocked twice - retried 19:38."
+13,2026-11-04,15:34:04,dixi.wang@quarterra.com,,Quarterra - Dixi Wang,Re: Houston 2023 Vintage | +LTO,YES,"3rd follow-up. Blocked twice - retried 19:38."
+14,2026-11-04,15:34:11,dlee@brightstonecap.com,,Brightstone Capital - Douglas Lee,Re: Houston 2023 Vintage | +LTO,YES,"3rd follow-up. Blocked twice - retried 19:38."
+15,2026-11-04,15:34:21,dloeb@thirdpoint.com,,Third Point - Daniel Loeb,Re: Houston 2023 Vintage | +LTO,YES,"3rd follow-up. Blocked twice - retried 19:38."
+16,2026-11-04,15:34:30,dnigro@amrecap.com,,AmRE Capital - David Nigro,Re: Houston 2023 Vintage | +LTO,YES,"3rd follow-up. Blocked twice - retried 19:38."
+17,2026-11-04,15:34:41,dspangenberg@capfundinc.com,,Capital Fund Inc - Debbie Spangenberg,Re: Houston 2023 Vintage | +LTO,YES,"3rd follow-up. Blocked twice - retried 19:38."
+18,2026-11-03,14:23:11,ahernando@aramafuturo.com,"angel@ agutierrez@aramafuturo.com",Arama Futuro,Houston Multifamily LP Equity,YES,First-touch. Never reached them.
+19,2026-11-03,14:23:31,nithinj@arcbridgecapital.com,neethi@arcbridgecapital.com,Arcbridge Capital,Houston Multifamily LP Equity,YES,First-touch. Never reached them.
+20,2026-11-03,14:23:39,gordana.greguric-cicak@meddox.com,igor.cicak@arctium-capital.com,Arctium Capital / Meddox,Houston Multifamily LP Equity,YES,First-touch. Never reached them.
+21,2026-11-03,14:23:48,trey@arcturusventure.com,aleto@emergemarket.com,Arcturus Venture,Houston Multifamily LP Equity,YES,First-touch. Never reached them.
+22,2026-11-03,14:23:57,francois.garcin@argenthal.com,"marceau.savigny@argenthal.com; pteroerde@arlingtoncapital.co.uk",Argenthal / Arlington Capital,Houston Multifamily LP Equity,YES,First-touch. Never reached them.
+23,2026-11-03,14:24:04,wehinger@argon.ag,,Argon AG,Houston Multifamily LP Equity,YES,First-touch. Never reached them.
+24,2026-11-03,14:24:13,jeremy@arison.co.il,"ido@ irit@arison.co.il",Arison (Israel),Houston Multifamily LP Equity,YES,First-touch. Never reached them.
+25,2026-11-03,14:24:22,lenglish@arkblucap.com,"fwidjojo@ ewidjojo@arkblucap.com",Ark Blue Capital,Houston Multifamily LP Equity,YES,First-touch. Never reached them.
+26,2026-11-03,14:24:30,ari.gendason@arlongroup.com,"ruth.kimmelshue@conti.com; jordana.fribourg@conti.com",Arlon Group / Conti,Houston Multifamily LP Equity,YES,First-touch. Never reached them.
+27,2026-11-03,14:24:36,cmacgill@armoniallc.com,"alexandralunt@ larrylunt@armoniallc.com",Armonia LLC,Houston Multifamily LP Equity,YES,First-touch. Never reached them.
+28,2026-11-04,18:14:35,zamir@zmrcapital.com,,self,test,NO,Your own capacity test - blocked.
