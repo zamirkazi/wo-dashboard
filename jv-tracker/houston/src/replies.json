@@ -125,7 +125,7 @@
   "channel": "direct",
   "stage": "reviewing",
   "ts": "2026-10-22T15:00:00Z",
-  "quote": "We reviewed the opportunity with our team last week, and the feedback has been positive. Everyone likes the story, and we are continuing to work through the numbers in more detail\u2026 there is one item we are working through on our side. We have a long-standing local partner in Houston with whom we remain actively invested\u2026 This does not reflect any hesitation on the opportunity itself.",
+  "quote": "We reviewed the opportunity with our team last week, and the feedback has been positive. Everyone likes the story, and we are continuing to work through the numbers in more detail… there is one item we are working through on our side. We have a long-standing local partner in Houston with whom we remain actively invested… This does not reflect any hesitation on the opportunity itself.",
   "action": "Call held 22 Oct at 11:00 EST - Chip organised, Zamir and Kevin on, Camilo for STRE, twelve minutes, recorded to Fireflies with no summary generated. That call supersedes the chase that was drafted for this row earlier the same morning; the draft has been deleted. Before the call the position was: team feedback positive, everyone likes the story, numbers still being worked, and one unresolved item - a long-standing Houston partner STRE remains actively invested with, which Camilo was explicit was not a comment on the opportunity. Still the hottest name in the book. What the row now needs is the outcome of those twelve minutes, which only Chip, Kevin or Zamir can supply.",
   "tags": [
    "partner-conflict"
@@ -171,7 +171,7 @@
   "channel": "direct",
   "stage": "pass",
   "ts": "2026-10-02T19:38:14Z",
-  "quote": "The asset quality is there, but this isn't a market or submarket we're long on right now. The demographic profile was the biggest hurdle\u2026 median household income within 5 miles is ~$54K\u2026 leaves little room to grow rents over the hold. Rates were the other piece. With the 5-year Treasury up since the 9/21 lender quote, the deal starts with negative leverage at $34M. We're more constructive on Texas markets like DFW (northern corridor) and Austin.",
+  "quote": "The asset quality is there, but this isn't a market or submarket we're long on right now. The demographic profile was the biggest hurdle… median household income within 5 miles is ~$54K… leaves little room to grow rents over the hold. Rates were the other piece. With the 5-year Treasury up since the 9/21 lender quote, the deal starts with negative leverage at $34M. We're more constructive on Texas markets like DFW (northern corridor) and Austin.",
   "action": "The most useful pass we got. Two fixable objections: the $54K CoStar 5-mile median vs. the $71.2K on-site median, and negative leverage at the 9/21 quote. Rebut both in the next version of the memo.",
   "tags": [
    "submarket-demographics",
@@ -219,7 +219,7 @@
   "stage": "pass",
   "ts": "2026-10-05T14:39:45Z",
   "quote": "Unfortunately, this one is not a fit for us as our fund exposure in Houston is maxed out at this time.",
-  "action": "Fund-level cap. Revisit after their next vintage closes \u2014 nothing about this deal moves them.",
+  "action": "Fund-level cap. Revisit after their next vintage closes — nothing about this deal moves them.",
   "tags": [
    "houston-exposure"
   ],
@@ -233,7 +233,7 @@
   "channel": "direct",
   "stage": "pass",
   "ts": "2026-10-01T22:39:38Z",
-  "quote": "It was a pass \u2014 Houston's a non-starter right now.",
+  "quote": "It was a pass — Houston's a non-starter right now.",
   "action": "Flat market veto, no deal-level read. Nothing to rebut.",
   "tags": [
    "houston-sentiment"
@@ -248,7 +248,7 @@
   "channel": "direct",
   "stage": "pass",
   "ts": "2026-10-06T12:49:00Z",
-  "quote": "We had a chance to review the opportunity\u2026 it is not a submarket we are currently pursuing or investing in.",
+  "quote": "We had a chance to review the opportunity… it is not a submarket we are currently pursuing or investing in.",
   "action": "Submarket-level no after a real review. Southeast Houston is the blocker, not the basis.",
   "tags": [
    "submarket-demographics"
@@ -263,8 +263,8 @@
   "channel": "kirsh",
   "stage": "pass",
   "ts": "2026-10-03T14:31:02Z",
-  "quote": "Thanks for thinking of us, Andrew \u2014 we're not as focused on Houston right now unless it's affordable at Max rents.",
-  "action": "Mandate mismatch \u2014 they want LIHTC/affordable in Houston. Market-rate will never clear here.",
+  "quote": "Thanks for thinking of us, Andrew — we're not as focused on Houston right now unless it's affordable at Max rents.",
+  "action": "Mandate mismatch — they want LIHTC/affordable in Houston. Market-rate will never clear here.",
   "tags": [
    "strategy-mismatch"
   ],
@@ -1097,7 +1097,7 @@
   "channel": "direct",
   "stage": "pass",
   "ts": "2026-10-26T17:10:03Z",
-  "quote": "While the price per door is intriguing, the numbers don\u2019t jump off the page. We are seeing better numbers in better locations. Our experience in Houston has ranged from bad to worse which doesn\u2019t help. Plus, this area is climate challenged given vicinity to the Port.",
+  "quote": "While the price per door is intriguing, the numbers don’t jump off the page. We are seeing better numbers in better locations. Our experience in Houston has ranged from bad to worse which doesn’t help. Plus, this area is climate challenged given vicinity to the Port.",
   "action": "Five days of silence after the 21 Oct send, then a pass that blames a computer rather than the deal for the delay. Three objections stacked in one paragraph, and the order matters: the basis registers (\"intriguing\"), the returns do not clear his bar against what else he is seeing, and then Houston itself - \"bad to worse\" - which is the burned-sentiment pattern this round keeps hitting. The third objection is new to the board. Nobody else has named flood or climate risk from the Ship Channel proximity, and it is the one line here that the memo has no material for: the crime and safety overview, the demographics report and the submarket brief all go to other questions. If the deal is going to keep landing in Southeast Houston inboxes, a flood-zone and insurance page is now the gap, alongside the submarket answer. He is not close on this one - the relative-value objection (\"better numbers in better locations\") means nothing about Allen Genoa specifically would move him.",
   "tags": [
    "houston-sentiment",
@@ -1827,16 +1827,18 @@
  },
  {
   "firm": "Clairmont Capital Group",
-  "person": "Cheng",
+  "person": "Cheng Chen / Nick Burk",
   "title": null,
   "email": "cheng@clairmontcg.com",
   "channel": "peblast",
-  "stage": "materials",
-  "ts": "2026-10-30T18:08:25Z",
-  "quote": "good to hear from you and thanks for the notes below. We've looked at a few oppys. in Houston this year, and would love to learn more. Could you please circulate the OM & U/W info.?",
-  "tags": [],
+  "stage": "reviewing",
+  "ts": "2026-11-04T04:44:33Z",
+  "quote": "Thanks for sending, Kevin and Zamir. We'll dig in and get back to you this week with our initial questions/requests. Also, as you know, we'd be looking at this from a co-GP equity perspective. In general, our targeted minimum check size is $2 million per project, with flex to go up to $4 million. Depending on how your conversations with LPs shake out, our preference would be to get to at least that $2m mark, which could also be helpful in giving you some additional flexibility and pricing power in your LP negotiations.",
+  "tags": [
+   "co-gp-structure"
+  ],
   "heat": 5,
-  "action": "The most promising reply of the day on the one dimension that has been killing this raise. Twenty-two firms have now declined because of Houston or this submarket; Clairmont has been underwriting Houston deals all year and wants the OM and the underwriting. They are not a reader who has to be talked past the market - they are already in it, which also means they will have their own comps and will test the basis claim rather than accept it. Send the OM and the model today with the concession figure and the submarket answer included rather than waiting to be asked. Nick and Ryan Snaguski are both on the thread; the send went to Ryan with Cheng copied, and Cheng answered, so Cheng is the one engaging."
+  "action": "The strongest live position on the board. Kevin sent the full package on 30 Oct; Nick Burk, the SVP, came back on 4 Nov saying they are digging in and will return this week with questions and requests, and he put a number on it unprompted: $2M minimum per project with flex to $4M, taken as co-GP rather than LP. Two things follow. First, this is the only group in 184 replies that has named a cheque size without being asked, and $2-4M is 17-34% of the raise. Second, co-GP is a different seat from the one being marketed - it sits beside the GP's $1.3M, shares promote and likely wants approval rights, so it is not a straight fill against the $11.77M LP stack and Zamir has to decide what he is willing to give up before the questions arrive. Nick's own framing is the useful part: he thinks a committed co-GP cheque gives ZMR pricing power with the LPs, which is the first time anyone in this raise has offered leverage rather than asked for it. Prepare the answers now - the model errors Zairick found are fixed, so send the corrected numbers (20.9%/2.27x deal-level, 17.1%/1.97x LP net) rather than letting them underwrite the superseded set that went out with the package. Cheng, Nick and Ryan Snaguski are all on the thread."
  },
  {
   "firm": "Stanton Road Capital",
@@ -2529,12 +2531,12 @@
   "title": null,
   "email": "danielzairick@gmail.com",
   "channel": "direct",
-  "stage": "question",
-  "ts": "2026-11-03T06:09:17Z",
-  "quote": "While reviewing the model, I noticed a few things that looked like potential errors... To achieve 7.10%, roughly $2 million of required capital was excluded from the denominator... The Sources table clearly states the Total Equity required is $13.07M ($11.76M LP + $1.30M GP). The calculated 'Levered - Project Level' returns (and the 5.9% Year-1 Cash-on-Cash) use $12.73M as the denominator instead of $13.07M. $340K was subtracted, which artificially boosts the reported Cash-on-Cash and IRR... Returning $6.37M total on a $1.3M investment is mathematically a 4.88x multiple.",
+  "stage": "reviewing",
+  "ts": "2026-11-04T00:19:40Z",
+  "quote": "While reviewing the model, I noticed a few things that looked like potential errors... To achieve 7.10%, roughly $2 million of required capital was excluded from the denominator... The Sources table clearly states the Total Equity required is $13.07M ($11.76M LP + $1.30M GP). The calculated 'Levered - Project Level' returns (and the 5.9% Year-1 Cash-on-Cash) use $12.73M as the denominator instead of $13.07M. $340K was subtracted, which artificially boosts the reported Cash-on-Cash and IRR... Returning $6.37M total on a $1.3M investment is mathematically a 4.88x multiple. | 4 Nov: \"Thanks for the detailed clarifications and the updated model. That makes sense. I'll review the updated figures and let you know if I have further questions.\"",
   "tags": [],
   "heat": 5,
-  "action": "THE SECOND INDEPENDENT READER TO FIND THE SAME ERROR, AND HE BROUGHT THE RECEIPTS. Todd Hanson flagged on 2 Nov that the IRR and CoC looked like they were computing off $12.7M rather than the full $13.1M. Zairick has now opened the model and named the exact figure: $12.73M used where the Sources table says $13.07M, a $340K understatement of the denominator that flatters both the cash-on-cash and the IRR. Two readers, working independently, one of them with the model open. This is no longer a suspicion to check - it is a confirmed defect, and the number it inflates is in front of roughly 180 groups. HE ALSO FOUND TWO MORE, AND THE FIRST IS BIGGER. The headline 7.10% untrended yield-on-cost is measured against purchase price plus acquisition fee plus capex, not against the $36.87M of total capitalization the LP actually funds on day one. Put the $760K of loan closing costs, the $476K rate buydown, the $691K of tax and insurance escrows and the $252K operating reserve back into the denominator and the true yield on total cost is 6.70%, not 7.10%. That is 40 basis points on the single metric this deal is being sold on, and it sits directly on top of the going-in cap of ~6% that half the market has already pushed back on. Third, the OM claims a 6.24x GP equity multiple where $6.37M returned on $1.307M invested is 4.88x. Less consequential to an LP, but it is a third arithmetic error in the same document and it is the one a careful reader cites when deciding whether to trust any of the others. WHAT TO DO. Kevin has to take all three tonight, not just the equity base: confirm or correct, and decide what the corrected set actually is before another email goes out. Then the four groups who are live and have the model - KCB, Artisan, Eastham, Island Capital - need the corrected numbers from us before they find this themselves, because a reader who discovers a 40bp overstatement on their own does not come back. HIS OWN THREE QUESTIONS ARE EASY AND SHOULD NOT WAIT ON THE REST: minimum and maximum LP ticket, distribution frequency, and whether the hold is five years. Answer those in a short reply tonight and tell him the model points are being checked and he will have an answer tomorrow - he has earned a straight response. Note what he is: a YPO member writing from a personal gmail who read the OM and the model line by line within eighteen hours of receiving them. That is the most rigorous read anyone has given this deal, and it came from individual money, not an institution."
+  "action": "THE SECOND INDEPENDENT READER TO FIND THE SAME ERROR, AND HE BROUGHT THE RECEIPTS. Todd Hanson flagged on 2 Nov that the IRR and CoC looked like they were computing off $12.7M rather than the full $13.1M. Zairick has now opened the model and named the exact figure: $12.73M used where the Sources table says $13.07M, a $340K understatement of the denominator that flatters both the cash-on-cash and the IRR. Two readers, working independently, one of them with the model open. This is no longer a suspicion to check - it is a confirmed defect, and the number it inflates is in front of roughly 180 groups. HE ALSO FOUND TWO MORE, AND THE FIRST IS BIGGER. The headline 7.10% untrended yield-on-cost is measured against purchase price plus acquisition fee plus capex, not against the $36.87M of total capitalization the LP actually funds on day one. Put the $760K of loan closing costs, the $476K rate buydown, the $691K of tax and insurance escrows and the $252K operating reserve back into the denominator and the true yield on total cost is 6.70%, not 7.10%. That is 40 basis points on the single metric this deal is being sold on, and it sits directly on top of the going-in cap of ~6% that half the market has already pushed back on. Third, the OM claims a 6.24x GP equity multiple where $6.37M returned on $1.307M invested is 4.88x. Less consequential to an LP, but it is a third arithmetic error in the same document and it is the one a careful reader cites when deciding whether to trust any of the others. WHAT TO DO. Kevin has to take all three tonight, not just the equity base: confirm or correct, and decide what the corrected set actually is before another email goes out. Then the four groups who are live and have the model - KCB, Artisan, Eastham, Island Capital - need the corrected numbers from us before they find this themselves, because a reader who discovers a 40bp overstatement on their own does not come back. HIS OWN THREE QUESTIONS ARE EASY AND SHOULD NOT WAIT ON THE REST: minimum and maximum LP ticket, distribution frequency, and whether the hold is five years. Answer those in a short reply tonight and tell him the model points are being checked and he will have an answer tomorrow - he has earned a straight response. Note what he is: a YPO member writing from a personal gmail who read the OM and the model line by line within eighteen hours of receiving them. That is the most rigorous read anyone has given this deal, and it came from individual money, not an institution. | RESOLVED, AND THE MODEL HAS BEEN RE-RUN. Zamir answered in full at 16:46 PT and attached an updated model reflecting the tax consultant's report and current Treasury rates; Zairick came back four hours later with 'that makes sense' and is now reviewing the new figures. He is the only reader who has audited the model line by line and then accepted the answer, which makes him the best validation the numbers have. THREE THINGS CAME OUT OF THE EXCHANGE AND ALL OF THEM CHANGE WHAT GOES IN FRONT OF EVERYONE ELSE. One, the yield-on-cost methodology is defended rather than conceded: ZMR measures it unlevered at property level on $34.83M of purchase price, buyer closing costs and capital plan, excluding financing and structure items, which is the conventional treatment and is comparable to market cap rates. Zairick had assumed the acquisition fee was in the denominator; it is not. On full capitalisation the figure is 6.70%, and both numbers are now footnoted in the presentation. Two, the $340K is confirmed as deliberate, not an error: 21.5% / 2.33x are DEAL-LEVEL returns before the acquisition fee and the 1% asset management fee. Three, and this is the one that matters most, the LP number was disclosed for the first time: net of all fees and promote the LP gets 17.5% / 2.01x on its $11.77M, and on the updated model 17.1% / 1.97x. Every email in this campaign has led with the deal-level figure. THE UPDATED SET, which supersedes everything: 20.9% IRR / 2.27x deal level on $12.69M; LP net 17.1% / 1.97x on $11.73M; total equity $13.03M; 19.8% / 2.19x on total equity net of fees; YoC 7.00% property basis and 6.62% on $36.83M; GP multiple 4.65x. He also got the three structural answers nobody else has been given: minimum cheque $1M with flexibility for people Zamir knows, quarterly distributions, five-year hold."
  },
  {
   "firm": "Canyon Partners Real Estate",
@@ -2663,5 +2665,65 @@
   ],
   "heat": 1,
   "action": "THE LIST IS SO UNSCREENED IT IS NOW SOLICITING OTHER SPONSORS. Redfern is not an investor - he is a developer raising LP equity for a Marriott extended-stay hotel, and he answered a capital solicitation by soliciting capital back. He did praise the deal ('Very strong!') before explaining he only invests in his own projects. Fourth name off the Rest-of-SFO list in one afternoon that was never a prospect, after Smartbox.ai (a UK AI software company), Carlson (does not do real estate) and Certina (unsubscribed outright). That is four in roughly a hundred sends, which puts the contamination rate somewhere near four percent before counting the twenty-two addresses that bounced. Remove the domain, and treat this as the argument for screening the remaining names by firm type before any more of this list goes out."
+ },
+ {
+  "firm": "Avenir Capital",
+  "person": "Adrian Warner",
+  "title": null,
+  "email": "awarner@avenircapital.com.au",
+  "channel": "sfo",
+  "stage": "pass",
+  "ts": "2026-11-04T00:16:46Z",
+  "quote": "We are not making any external investments currently as we have several internal initiatives that we are focusing on. All the best with your capital raise.",
+  "tags": [
+   "capital-paused"
+  ],
+  "heat": 1,
+  "action": "Sydney-based, and paused on all external investment while they work internal initiatives. A clean timing pass with no view on Houston, the basis or the size - nothing to argue with and nothing to re-send. Worth one note for the list work: this is the second Australian name on the Rest-of-SFO list after KIN Group told us in blunt terms to remove them, and an Australian recipient is an odd fit for a $11.77M US multifamily LP cheque in any case. Adrian was the cc; Anya Haywood was the addressee."
+ },
+ {
+  "firm": "Al Quraishi Group / Anfal",
+  "person": "Ayman Khamdan",
+  "title": "Managing Director",
+  "email": "ayman.khamdan@alquraishi.com",
+  "channel": "sfo",
+  "stage": "pass",
+  "ts": "2026-11-04T08:55:08Z",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "quote": "We unfortunately will have to pass at this stage as we do not currently have an allocation to real estate within our investment portfolio. We appreciate you reaching out and would be happy to stay in touch should our investment strategy or allocation priorities evolve in the future.",
+  "action": "Bahrain family office with no real-estate allocation at all - not a Houston objection, not a pricing objection, simply an asset class they do not hold. Courteous and open to future contact, so no suppression needed, but there is nothing here to re-pitch and no follow-up is warranted on this deal. Worth noting for the list work: the send went to Yousef Al Quraishi with Cem Kutuk and Ayman copied, and it was the cc who answered - the fourth time this week that the reply came from a cc rather than the addressee, which is the single clearest argument for mailing every contact at a firm rather than one. Ayman signs from anfal.com, a related entity, so the alquraishi.com address is live but his working address is elsewhere."
+ },
+ {
+  "firm": "A.P. Moller Holding",
+  "person": "Jonas Kjersgaard",
+  "title": "Growth Equity",
+  "email": "jonas.kjersgaard@apmoller.com",
+  "channel": "sfo",
+  "stage": "outofscope",
+  "ts": "2026-11-04T01:20:21Z",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "quote": "Thank you for sharing this opportunity. It is outside of our scope and hence not for us. Wish you best of luck with the process.",
+  "action": "The Maersk family holding company, and Jonas sits in Growth Equity out of Singapore - they buy and build operating companies, not 252-unit garden apartments in Southeast Houston. A clean out-of-scope note with no reason to follow up. This one is a list-quality data point rather than a prospect: A.P. Moller Holding is a multi-billion-dollar industrial holding company that appeared on a single-family-office list, which is the same contamination pattern as Smartbox.ai and CGC Properties. It belongs on the screen-out list for any future wave, not on a suppression list."
+ },
+ {
+  "firm": "Dalo Capital",
+  "person": "Alberto Erhard Villareal",
+  "title": null,
+  "email": "alberto@dalocapital.com",
+  "channel": "familyoffice",
+  "stage": "pass",
+  "ts": "2026-11-04T06:00:24Z",
+  "tags": [
+   "capital-paused"
+  ],
+  "heat": 1,
+  "quote": "Thanks for reaching out. At this moment our allocation on Real Estate is fully committed. Please keep us in mind for future opportunities.",
+  "action": "Fully allocated to real estate for now, and explicitly asks to be kept in mind for the next one - a timing pass, not a view on the deal. This came off the third touch: the original 27 Oct send, a 29 Oct follow-up, and Zamir's 2 Nov call request, and it was that third push that produced the answer. Keep the address live for the next deal and do not re-send on Allen Genoa. Gerardo was the co-addressee and is copied."
  }
 ]
