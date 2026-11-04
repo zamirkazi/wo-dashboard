@@ -372,20 +372,15 @@
   "title": "Chief Growth Officer",
   "email": "clecates@arctrust.com",
   "channel": "direct",
-  "stage": "question",
+  "stage": "pass",
   "ts": "2026-10-13T12:42:47Z",
   "quote": "I will run into a great deal of pushback on a fully occupied property at a 6% cap that nets to $135k a door in a $235k market. If we are going in fully occupied at a 6% on mostly new renters, all of the benefit needs to come from raising rents, so my argument needs to be that the prior owner was 1/3 below market. By the numbers themselves, it looks like a nice deal. Let me know your thoughts.",
-  "action": "The sharpest read we have had, and it ends with a question rather than a no. Two challenges, both answerable only with evidence. First, he doubts the $235K comp from the outside: 3-4 bedroom homes near the site list at $150-225K, so the area 'looks relatively depressed' to him. Second, and this is the real one: buying fully occupied at a 6 cap means the entire return rides on rent growth, which only works if in-place rents are roughly a third below market - so prove the loss-to-lease. That is the fourth independent reader to land on rent growth and affordability after Sabal, Green Pine and Slocumb. Answer with the signed-lease trade-out record and an explicit loss-to-lease number, not with the IRR.",
+  "action": "A pass, confirmed by Zamir 4 November. LeCates had written the single most precise objection in the file on 13 October: he would face heavy internal pushback on a fully occupied property at a 6% cap netting $135k a door in a $235k market, because going in fully occupied at a 6% on mostly new renters means the entire case rests on raising rents, and his argument would have to be that the prior owner left rent on the table. Nobody answered it in three weeks and the firm has now closed. That objection is the going-in-yield and the demographics argument fused into one sentence, and it is still unanswered for every reader currently in the model - ABR made the same point on its way out, and Manglar priced it at $27.5M. Keep the sentence; the relationship is cold but not hostile.",
   "tags": [
    "going-in-yield",
    "submarket-demographics"
   ],
-  "heat": 4,
-  "followup": {
-   "owed": "us",
-   "lastOut": "2026-10-23",
-   "ask": "Open question from 13 Oct, unanswered for three weeks."
-  }
+  "heat": 1
  },
  {
   "firm": "Flagship Capital Partners",
@@ -408,17 +403,12 @@
   "title": "Senior Analyst",
   "email": "ge@marcbelsky.com",
   "channel": "direct",
-  "stage": "question",
+  "stage": "pass",
   "ts": "2026-10-13T16:44:25Z",
   "quote": "Regarding the addition of bulk cable / wifi, is there a contract for that? Do other assets in the market also charge for this income?",
-  "action": "Kevin answered at 20:51 with market comps, and straight on the bulk wifi: quotes are still being gathered. That is the honest answer and also the exposure - there is no contract yet, so the one piece of upside in the plan that is not already in place is the one piece we cannot evidence. Worth getting a signed term sheet or at least a firm quote before Wednesday, because a Houston operator will ask the same question and the analyst has already put it in writing.",
+  "action": "Out - confirmed by Zamir 4 November. Escobar's bulk-internet question (is there a contract, do other assets in the market charge for it) never got a written answer, and the firm has now closed the file, so the question dies with it. Worth keeping the question itself though: KCB asked the identical thing on 3 November and Todd Hanson flagged the bulk-internet income line too. Three independent readers on one assumption means the memo needs a market precedent for the ~$70/unit/month, not just the cost. Marc Belsky had already passed on the market on 22 October, so this closes both Belsky rows.",
   "tags": [],
-  "heat": 5,
-  "followup": {
-   "owed": "us",
-   "lastOut": "2026-10-20",
-   "ask": "Open question from 14 Oct, unanswered for three weeks. Either answer it or close the file."
-  }
+  "heat": 1
  },
  {
   "firm": "JDI Realty",
@@ -488,17 +478,14 @@
   "title": null,
   "email": "steven.kohn@brgny.com",
   "channel": "direct",
-  "stage": "question",
+  "stage": "outofscope",
   "ts": "2026-10-13T15:22:16Z",
   "quote": "Would a Co GP structure interest you?",
-  "action": "Not an answer on the LP ask - a counter-proposal. He is asking to sit on the GP side rather than write the $11.65M, which means he likes the deal and wants different economics for it. Worth a direct answer either way, and it is the third structural conversation now open alongside the extra GP co-invest offered to Flagship and the partnership framing sent to Halstatt. Decide what co-GP would actually cost before replying.",
-  "tags": [],
-  "heat": 4,
-  "followup": {
-   "owed": "us",
-   "lastOut": "2026-10-23",
-   "ask": "Open question from 13 Oct, unanswered for three weeks."
-  }
+  "action": "Closed from ZMR's side, not theirs. Kohn asked on 13 October whether a co-GP structure would interest us; Zamir's answer on 4 November is that co-GP is not needed yet. So this is a structure mismatch on a live and willing counterparty, which is a different thing from a pass - Benedict never looked at Houston, the basis or the returns and never said no. Two consequences. The row should not sit in the follow-up queue, because there is nothing to send. And Benedict belongs on a short list of groups to go back to if the LP raise does not close and the structure has to change: they volunteered co-GP unprompted, which almost nobody does. Clairmont wants the same thing. Two names, one structure, parked rather than lost.",
+  "tags": [
+   "co-gp-structure"
+  ],
+  "heat": 2
  },
  {
   "firm": "Blue Vista",
@@ -537,20 +524,15 @@
   "title": null,
   "email": "jgallo@higrealty.com",
   "channel": "direct",
-  "stage": "meeting",
+  "stage": "pass",
   "ts": "2026-10-22T20:14:26Z",
   "quote": "Is there a time next Monday 3 - 5p that works for you?",
-  "action": "Converted to a scheduled conversation. James went quiet after the 13 Oct exchange, the 22 Oct bump went out at 20:09 ET the night before, and he came back with a concrete window rather than a pleasantry. Confirmed: Zamir replied '3:30 works' at 22:19 ET, so the call is Monday 27 Oct at 3:30pm ET and only the invite is outstanding. Worth going in with the submarket answer ready: Grandview and Flagship both died on it the same day, and MLG named Sunnyside specifically, so it will come up.",
+  "action": "Out - confirmed by Zamir 4 November. This one is worth looking at squarely rather than filing. Gallo asked for a call slot on 22 October ('is there a time next Monday 3 - 5p that works for you?'), the row sat at meeting stage for two weeks on the teaser alone, no package ever went, and no outbound left ZMR in that window. His written objections were exit cap and going-in yield - both answerable, neither answered. It is not possible to say the silence caused the loss, because HIG may have passed on the merits anyway. But it is the clearest case in the file of a heat-5 row cooling while the materials sat, and it is the argument for clearing the no-package queue before working the cold list.",
   "tags": [
    "exit-cap",
    "going-in-yield"
   ],
-  "heat": 5,
-  "followup": {
-   "owed": "pkg",
-   "lastOut": "2026-10-20",
-   "ask": "At meeting stage since 23 Oct on the teaser alone, and no outbound from ZMR in over two weeks. Send the package."
-  }
+  "heat": 1
  },
  {
   "firm": "Tryperion Holdings",
@@ -1300,9 +1282,9 @@
   "tags": [],
   "heat": 5,
   "followup": {
-   "owed": "none",
-   "lastOut": null,
-   "ask": null
+   "owed": "us",
+   "lastOut": "2026-11-04",
+   "ask": "Your reply granting Box access and looping in the team was BLOCKED by the send limit at 16:20 and never reached him. He has not seen it."
   }
  },
  {
@@ -1997,9 +1979,9 @@
   "heat": 5,
   "action": "The strongest live position on the board. Kevin sent the full package on 30 Oct; Nick Burk, the SVP, came back on 4 Nov saying they are digging in and will return this week with questions and requests, and he put a number on it unprompted: $2M minimum per project with flex to $4M, taken as co-GP rather than LP. Two things follow. First, this is the only group in 184 replies that has named a cheque size without being asked, and $2-4M is 17-34% of the raise. Second, co-GP is a different seat from the one being marketed - it sits beside the GP's $1.3M, shares promote and likely wants approval rights, so it is not a straight fill against the $11.77M LP stack and Zamir has to decide what he is willing to give up before the questions arrive. Nick's own framing is the useful part: he thinks a committed co-GP cheque gives ZMR pricing power with the LPs, which is the first time anyone in this raise has offered leverage rather than asked for it. Prepare the answers now - the model errors Zairick found are fixed, so send the corrected numbers (20.9%/2.27x deal-level, 17.1%/1.97x LP net) rather than letting them underwrite the superseded set that went out with the package. Cheng, Nick and Ryan Snaguski are all on the thread.",
   "followup": {
-   "owed": "none",
-   "lastOut": null,
-   "ask": null
+   "owed": "them",
+   "lastOut": "2026-11-04",
+   "ask": "They said they would come back this week with questions. Note they want co-GP, which is not what this raise needs."
   }
  },
  {
@@ -2185,9 +2167,9 @@
   "heat": 3,
   "action": "Send the package today. Asked five minutes after the follow-up landed, which is the pattern this whole raise has shown - the first send does nothing and the bump produces the reply. Nothing is known about their cheque size or mandate, so send the three-pager and the OM and ask what they typically write before spending time on a call.",
   "followup": {
-   "owed": "none",
-   "lastOut": null,
-   "ask": null
+   "owed": "them",
+   "lastOut": "2026-11-02",
+   "ask": "Zamir sent the model and OM 2 Nov, 78 minutes after he asked. Their move."
   }
  },
  {
@@ -2260,9 +2242,9 @@
   "heat": 4,
   "action": "Book it. The CIO himself, asking for a call, off the family-office list - and only the second live conversation that channel has produced in 634 sends. Offer two slots early next week and send the package ahead of the call so the hour is spent on their questions rather than the basics. Palm Beach family office, so expect the cheque-size question early; have the answer ready.",
   "followup": {
-   "owed": "none",
-   "lastOut": null,
-   "ask": null
+   "owed": "us",
+   "lastOut": "2026-11-02",
+   "ask": "The CIO asked for a call \"early next week\" on 2 Nov and got no reply. That week is now. Book it."
   }
  },
  {
@@ -2294,9 +2276,9 @@
   "heat": 3,
   "action": "Send it. Measured rather than keen - 'if there's any interest' is doing work in that sentence - but they asked, and the VP answered for a desk that includes Haefele and Oprindick. Charlotte-based, single-family rental development by the look of the title, so lead the package with the 2023 vintage and the stabilised operations rather than the value-add story.",
   "followup": {
-   "owed": "none",
-   "lastOut": null,
-   "ask": null
+   "owed": "them",
+   "lastOut": "2026-11-02",
+   "ask": "Zamir sent the OM and model 2 Nov, 68 minutes after he asked. Their move."
   }
  },
  {
@@ -2396,9 +2378,9 @@
   "heat": 2,
   "action": "The CEO does not know who we are, which is the third provenance challenge off the family-office list in a week, but unlike Connelly and Schwaben he is offering a route rather than complaining. Read it for what it is: Arete is a FINRA broker-dealer and RIA, so the path is a selling agreement and a third-party due-diligence review, not an LP cheque - weeks of process against a 20 Nov hard-money date. Answer him properly, say who ZMR is and what the track record is, and be honest that the timeline on this asset will not suit a platform review. Then decide separately whether Arete is worth building for the next deal.",
   "followup": {
-   "owed": "none",
-   "lastOut": null,
-   "ask": null
+   "owed": "us",
+   "lastOut": "2026-11-02",
+   "ask": "Asked \"who are you?\" and offered to route ZMR to their due-diligence team. Unanswered since 2 Nov - a warm handoff left on the table."
   }
  },
  {
@@ -2670,9 +2652,9 @@
   "heat": 3,
   "action": "Send him the three-pager tonight and answer the question in one line: LP equity, $11.77M at 90/10, not a contract assignment. Two things worth noting. First, this arrived by forward - Zamir mailed Michael Bickford at Round Hill Capital on 30 Oct and Finn, at an affiliated holding company, is the one who picked it up and engaged, which is the same cc-and-forward dynamic that produced most of today's replies. Second, and more useful: a fresh reader could not tell from the email what was being asked for, and wondered whether we were flipping the contract. The subject line leads with '$12M Equity | 21% IRR' and the body never says the words 'LP equity' until the seventh bullet. That is worth fixing before the next wave - if one reader said it, others thought it and moved on.",
   "followup": {
-   "owed": "none",
-   "lastOut": null,
-   "ask": null
+   "owed": "them",
+   "lastOut": "2026-11-02",
+   "ask": "Zamir answered in one minute with the OM; Finn said they would take a look. Their move."
   }
  },
  {
@@ -2721,11 +2703,11 @@
    "houston-sentiment"
   ],
   "heat": 4,
-  "action": "THE BEST NEW CONVERSATION ON THE BOARD, AND IT CAME FROM MIKE REGAN'S FIRST DAY OF SENDS. He mailed Megan Gutnikov at 15:07 PT on his own IMN relationship from his CIM days; she answered in 38 minutes, handed it to acquisitions and asked for the model in Excel plus an effective rent study; Chandler Davis read the OM the same night and came back at 01:32 UTC with three specific underwriting questions and an offer of a call Tuesday on his own booking link. Cold to engaged acquisitions reader in ten hours. KCB was one of the four names Zamir struck from RJL's carveout as a known relationship, which until tonight meant nothing because Peter Knell at kcbm.com had never answered a ZMR email in ten tries - kcb-partners.com and a warm introducer were the unlock, not the list. FOUR THINGS TO DO AND ONE TO DECIDE. One, book the Tuesday slot through his link tonight before the week fills; he invited us to forward the invite, so Kevin and Mike both go. Two, the 10-year model does not exist - every version of this deal is a five-year hold with the agency loan's 5-year term as the spine, and he has explicitly said he does not want a refi and prefers 7-10 year debt to match his hold. That is not a tweak to the output; it is a different capital structure, and it needs Kevin to decide whether we quote the 10-year agency option before Tuesday or go into the call with the 5-year and the reasoning. Three, the bulk-internet question is the sharpest challenge anyone has put to this model and it is the FIRST time a reader has attacked the ancillary income rather than the rents: roughly $70/unit/month of income on about $30 of cost is a visible line in the growth, and he wants to know how many of our rent comps already charge for it, from direct experience of having to roll back a RUBS program after tenant blowback. We have never answered that question because nobody has asked it. Note it also collides with the unread Comcast Service Agreement dated August 2026 that Zach Oseland asked seller's counsel for on 7 Oct and never received - if that contract already commits the bulk-internet rights, the upside is not ours to add and this reader will find it. Four, his exit-cap and negative-leverage point is the standard objection and we have the answer. THE DECIDE: he reads Houston as oil-dependent and cyclical, which is the fifth independent reader on the submarket - and Todd Hanson's refinery and jobs data is the honest answer to it, not the Port Houston brief. Go into Tuesday with that in hand rather than around it.",
+  "action": "THE BEST NEW CONVERSATION ON THE BOARD, AND IT CAME FROM MIKE REGAN'S FIRST DAY OF SENDS. He mailed Megan Gutnikov at 15:07 PT on his own IMN relationship from his CIM days; she answered in 38 minutes, handed it to acquisitions and asked for the model in Excel plus an effective rent study; Chandler Davis read the OM the same night and came back at 01:32 UTC with three specific underwriting questions and an offer of a call Tuesday on his own booking link. Cold to engaged acquisitions reader in ten hours. KCB was one of the four names Zamir struck from RJL's carveout as a known relationship, which until tonight meant nothing because Peter Knell at kcbm.com had never answered a ZMR email in ten tries - kcb-partners.com and a warm introducer were the unlock, not the list. FOUR THINGS TO DO AND ONE TO DECIDE. One, book the Tuesday slot through his link tonight before the week fills; he invited us to forward the invite, so Kevin and Mike both go. Two, the 10-year model does not exist - every version of this deal is a five-year hold with the agency loan's 5-year term as the spine, and he has explicitly said he does not want a refi and prefers 7-10 year debt to match his hold. That is not a tweak to the output; it is a different capital structure, and it needs Kevin to decide whether we quote the 10-year agency option before Tuesday or go into the call with the 5-year and the reasoning. Three, the bulk-internet question is the sharpest challenge anyone has put to this model and it is the FIRST time a reader has attacked the ancillary income rather than the rents: roughly $70/unit/month of income on about $30 of cost is a visible line in the growth, and he wants to know how many of our rent comps already charge for it, from direct experience of having to roll back a RUBS program after tenant blowback. We have never answered that question because nobody has asked it. Note it also collides with the unread Comcast Service Agreement dated August 2026 that Zach Oseland asked seller's counsel for on 7 Oct and never received - if that contract already commits the bulk-internet rights, the upside is not ours to add and this reader will find it. Four, his exit-cap and negative-leverage point is the standard objection and we have the answer. THE DECIDE: he reads Houston as oil-dependent and cyclical, which is the fifth independent reader on the submarket - and Todd Hanson's refinery and jobs data is the honest answer to it, not the Port Houston brief. Go into Tuesday with that in hand rather than around it.  UPDATE 4 Nov: the materials went. Kevin sent 'ZMR / KCB Introduction & Houston Investment Opportunity' to acquisitions@kcb-partners.com with Mike Regan, Chip and Zamir copied - which also routes around the block on zamir@. The four written questions in their 3 November note (ten-year hold with no refi, the bulk-internet precedent, negative leverage, exit cap) are now live with the model in front of them. Nothing owed until they come back.",
   "followup": {
-   "owed": "pkg",
+   "owed": "them",
    "lastOut": "2026-11-04",
-   "ask": "They asked for materials and kcb-partners.com blocks mail from zamir@ - all three original addresses hard-bounced 30 Oct. They reached ZMR through Michael Regan. Have Kevin or Michael send the package on that thread."
+   "ask": "Kevin sent the intro and materials 4 Nov with Mike Regan and Chip copied. Their move."
   }
  },
  {
@@ -2741,9 +2723,9 @@
   "heat": 5,
   "action": "THE SECOND INDEPENDENT READER TO FIND THE SAME ERROR, AND HE BROUGHT THE RECEIPTS. Todd Hanson flagged on 2 Nov that the IRR and CoC looked like they were computing off $12.7M rather than the full $13.1M. Zairick has now opened the model and named the exact figure: $12.73M used where the Sources table says $13.07M, a $340K understatement of the denominator that flatters both the cash-on-cash and the IRR. Two readers, working independently, one of them with the model open. This is no longer a suspicion to check - it is a confirmed defect, and the number it inflates is in front of roughly 180 groups. HE ALSO FOUND TWO MORE, AND THE FIRST IS BIGGER. The headline 7.10% untrended yield-on-cost is measured against purchase price plus acquisition fee plus capex, not against the $36.87M of total capitalization the LP actually funds on day one. Put the $760K of loan closing costs, the $476K rate buydown, the $691K of tax and insurance escrows and the $252K operating reserve back into the denominator and the true yield on total cost is 6.70%, not 7.10%. That is 40 basis points on the single metric this deal is being sold on, and it sits directly on top of the going-in cap of ~6% that half the market has already pushed back on. Third, the OM claims a 6.24x GP equity multiple where $6.37M returned on $1.307M invested is 4.88x. Less consequential to an LP, but it is a third arithmetic error in the same document and it is the one a careful reader cites when deciding whether to trust any of the others. WHAT TO DO. Kevin has to take all three tonight, not just the equity base: confirm or correct, and decide what the corrected set actually is before another email goes out. Then the four groups who are live and have the model - KCB, Artisan, Eastham, Island Capital - need the corrected numbers from us before they find this themselves, because a reader who discovers a 40bp overstatement on their own does not come back. HIS OWN THREE QUESTIONS ARE EASY AND SHOULD NOT WAIT ON THE REST: minimum and maximum LP ticket, distribution frequency, and whether the hold is five years. Answer those in a short reply tonight and tell him the model points are being checked and he will have an answer tomorrow - he has earned a straight response. Note what he is: a YPO member writing from a personal gmail who read the OM and the model line by line within eighteen hours of receiving them. That is the most rigorous read anyone has given this deal, and it came from individual money, not an institution. | RESOLVED, AND THE MODEL HAS BEEN RE-RUN. Zamir answered in full at 16:46 PT and attached an updated model reflecting the tax consultant's report and current Treasury rates; Zairick came back four hours later with 'that makes sense' and is now reviewing the new figures. He is the only reader who has audited the model line by line and then accepted the answer, which makes him the best validation the numbers have. THREE THINGS CAME OUT OF THE EXCHANGE AND ALL OF THEM CHANGE WHAT GOES IN FRONT OF EVERYONE ELSE. One, the yield-on-cost methodology is defended rather than conceded: ZMR measures it unlevered at property level on $34.83M of purchase price, buyer closing costs and capital plan, excluding financing and structure items, which is the conventional treatment and is comparable to market cap rates. Zairick had assumed the acquisition fee was in the denominator; it is not. On full capitalisation the figure is 6.70%, and both numbers are now footnoted in the presentation. Two, the $340K is confirmed as deliberate, not an error: 21.5% / 2.33x are DEAL-LEVEL returns before the acquisition fee and the 1% asset management fee. Three, and this is the one that matters most, the LP number was disclosed for the first time: net of all fees and promote the LP gets 17.5% / 2.01x on its $11.77M, and on the updated model 17.1% / 1.97x. Every email in this campaign has led with the deal-level figure. THE UPDATED SET, which supersedes everything: 20.9% IRR / 2.27x deal level on $12.69M; LP net 17.1% / 1.97x on $11.73M; total equity $13.03M; 19.8% / 2.19x on total equity net of fees; YoC 7.00% property basis and 6.62% on $36.83M; GP multiple 4.65x. He also got the three structural answers nobody else has been given: minimum cheque $1M with flexibility for people Zamir knows, quarterly distributions, five-year hold.",
   "followup": {
-   "owed": "none",
-   "lastOut": null,
-   "ask": null
+   "owed": "us",
+   "lastOut": "2026-11-04",
+   "ask": "He found specific model errors - the $2M excluded from the YoC denominator and the $13.07M equity line. Needs an answer from Kevin, not a thank-you."
   }
  },
  {
@@ -2796,17 +2778,12 @@
   "title": null,
   "email": "smarkscheid@gmail.com",
   "channel": "direct",
-  "stage": "question",
+  "stage": "relationship",
   "ts": "2026-11-03T16:16:43Z",
   "quote": "looks like a great deal! which I suspect you should be able to fund from your existing/prior investors vs. cold outreach to folks like us?",
   "tags": [],
-  "heat": 3,
-  "action": "The signal-reading question, asked out loud for the first time in this round - and asked three minutes after the send, with two colleagues copied. He is not objecting to Houston, the basis, the vintage or the size; he is asking why he is being approached at all, which is really the question of what the existing investor base knows that he does not. Every cold recipient who has gone quiet may have thought some version of it. The answer that works is the one the record supports: the cheque is too SMALL for ZMR's institutional base, which only looks at $20M and up, and ten firms have now passed on exactly that ground - Canyon Partners this morning with a hard $15M floor, LAMB at $20M+. That reframes the outreach as a consequence of deal size rather than deal quality, and it is checkable. Zamir's own draft adds the stronger half: ZMR has no family-office relationships, wants them, and is saying so plainly. Reply drafted and sitting unsent. Two cautions. First, do not restate the returns - he was sent the 21.1% / Year-1 11% set at 08:13 CT, which is the arithmetic Zairick and Hanson have both now shown is computed off the wrong equity base. Second, if he asks for the package, that is three more readers holding the disputed numbers.",
-  "followup": {
-   "owed": "us",
-   "lastOut": "2026-11-04",
-   "ask": "Reply is DRAFTED AND UNSENT in Gmail (draft r-8039618885714629083). Send it."
-  }
+  "heat": 2,
+  "action": "Zamir answered him - the reply went out on 3 November to smarkscheid@gmail.com with Jason at Grain Ecosystem and Markscheid's SVR Global address copied. The board had this logged as a drafted-and-unsent reply; that was wrong and it is corrected here. His point was never an objection to the deal - he called it a great deal and asked why it was not being funded from existing investors rather than cold outreach. That is a fair question from someone who has not been shown the raise history, and it is worth having a ready answer to, because he will not be the last to ask it. Nothing owed; he is a relationship for the next deal, not a live LP on this one."
  },
  {
   "firm": "Contrarian Capital Management",
@@ -2836,9 +2813,9 @@
   "heat": 4,
   "action": "THE FIRST CONVERSION OFF THE SFO WAVE, and it arrived under two hours. Zamir mailed Willian Bueno at 16:07 with Tiago Kretzmann and Frederico Becker copied; Becker answered for the firm and put Willian and Marcelo Sanvitto on the reply, so four people at a Brazilian family office are now on the thread. No objection of any kind - not Houston, not the submarket, not size. Send the package, but send the CORRECTED one: they were pitched the 21.1% / Year-1 11% set, and both the equity base and the yield-on-cost in that set are now known to be wrong. A first-contact family office that reads a package and finds three arithmetic errors does not come back, and this is the only thing the SFO list has produced so far. Worth pairing the package with the minimum-cheque answer up front, since a single family office rarely writes $11.77M.",
   "followup": {
-   "owed": "none",
-   "lastOut": null,
-   "ask": null
+   "owed": "them",
+   "lastOut": "2026-11-03",
+   "ask": "Kevin sent the full package 3 Nov, 49 minutes after the ask. Their move."
   }
  },
  {
@@ -3000,9 +2977,9 @@
   "quote": "Alicia shared the below information with us for review, thank you for providing. If you are able to share the project package and agency loan term sheet, that would be helpful for our review.",
   "action": "A live materials request, and the best news of the day. The 30 Oct send went to Alicia Glen alone; she has passed it internally to Natalie, Sara Myerson and Marissa Schaffer, and the firm is now reviewing as a team. Alicia Glen is the former New York City Deputy Mayor for Housing and Economic Development and M Squared is her platform - a serious, policy-literate reader, which cuts both ways given that five separate groups have now pushed on the submarket's demographics. Send the package today. One problem to solve first: she has asked for the AGENCY LOAN TERM SHEET, and there isn't one. Kevin told ABR on 19 Oct that W&D will only go out for term sheets once the financing strategy is finalised; what exists is the W&D debt matrix. Send that, label it plainly as indicative pricing rather than a term sheet, and say when a real one is expected - do not let a document gap read as evasion to a first-time reader. Also note the returns in the 30 Oct send are the superseded 21.1%/2.30x set; Zairick's corrections give 20.9%/2.27x deal-level and 17.1%/1.97x LP net, so the package should carry the corrected numbers, not the ones in the email she is replying to.",
   "followup": {
-   "owed": "none",
-   "lastOut": null,
-   "ask": null
+   "owed": "them",
+   "lastOut": "2026-11-04",
+   "ask": "Kevin sent model, deck and debt matrix 4 Nov within five minutes; two rounds of Q&A followed and she signed off. Their move."
   }
  },
  {
