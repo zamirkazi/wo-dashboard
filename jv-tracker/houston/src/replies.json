@@ -123,19 +123,14 @@
   "title": "CIO / Executive Manager",
   "email": "camilo.padron@strem.us",
   "channel": "direct",
-  "stage": "reviewing",
-  "ts": "2026-10-22T15:00:00Z",
-  "quote": "We reviewed the opportunity with our team last week, and the feedback has been positive. Everyone likes the story, and we are continuing to work through the numbers in more detail… there is one item we are working through on our side. We have a long-standing local partner in Houston with whom we remain actively invested… This does not reflect any hesitation on the opportunity itself.",
-  "action": "Call held 22 Oct at 11:00 EST - Chip organised, Zamir and Kevin on, Camilo for STRE, twelve minutes, recorded to Fireflies with no summary generated. That call supersedes the chase that was drafted for this row earlier the same morning; the draft has been deleted. Before the call the position was: team feedback positive, everyone likes the story, numbers still being worked, and one unresolved item - a long-standing Houston partner STRE remains actively invested with, which Camilo was explicit was not a comment on the opportunity. Still the hottest name in the book. What the row now needs is the outcome of those twelve minutes, which only Chip, Kevin or Zamir can supply.",
+  "stage": "pass",
+  "ts": "2026-11-04T17:27:39Z",
+  "quote": "It was great connecting with you last week. We had a meeting this morning and unfortunately, we are going to pass on this opportunity. We have too many partnership concerns internally that we can't get comfortable with at the moment. We want to finalize this potential partnership and then focus on deploying capital. We changed our trip around and now will be in Chicago for some meetings. The team will be back in the states in March... Best of luck on this one, it is a great a deal for you guys, I am sure you will get a partner on board.",
+  "action": "THE HOTTEST NAME IN THE BOOK IS GONE. STRE carried heat 5 from 6 October, through the debt matrix, a twelve-minute call on 22 October and a positive internal review, and it has now passed on exactly the thing Camilo flagged on 12 October and told us not to worry about: the long-standing Houston operator they have been invested with for over forty years. His words then were 'this does not reflect any hesitation on the opportunity itself', and his words today confirm it - the pass is about their partnership, not about Allen Genoa, and he closed by calling it a great deal. Three things follow. First, the partner-conflict tag was the right read and the lesson is to price it as a real risk rather than a footnote the next time a prospect discloses an incumbent operator in the market; it has now killed the single most advanced conversation in the file. Second, the 11 November trip is off - the principals were flying in to meet their Houston operator and have rerouted to Chicago, so there is no meeting to salvage and no reason to chase this week. Third, this row was one of the five logged as never having had the package, and the package would not have saved it, because nothing in the objection touches the numbers - but four names on that list are still waiting and that lesson does not transfer to them. The relationship is intact and explicitly reopened: the team is back in the States in March and Camilo said he will reach out with dates. Diarise March, send nothing now.",
   "tags": [
    "partner-conflict"
   ],
-  "heat": 5,
-  "followup": {
-   "owed": "pkg",
-   "lastOut": "2026-11-02",
-   "ask": "Logged as reviewing since 22 Oct but has only ever had the teaser. Send the package."
-  }
+  "heat": 1
  },
  {
   "firm": "Capital Solutions",
@@ -2627,13 +2622,14 @@
   "email": "hansonte34@gmail.com",
   "channel": "direct",
   "stage": "relationship",
-  "ts": "2026-11-02T20:57:51Z",
-  "quote": "Congrats!! That's an amazing basis - I couldn't find anything newer vintage that sold anywhere near that low (Standard at Westlake (2023) was $141K/unit, but is 17 miles away)... I'm seeing zip code 77017 population down 10% over last five years and jobs down 12.5% - do they know why? I saw a headline that the LyondellBasell refinery nearby closed in 2025... I think the IRR and CoC may be calculating off of $12.7M of equity, rather than the full $13.1M.",
+  "ts": "2026-11-04T17:51:48Z",
+  "quote": "Thanks! Impressive detail from the team. Materials are well done too... I'VE NOT SEEN PROPERTY-LEVEL (OR PROJECT-LEVEL) RETURNS PRESENTED TO EXCLUDE DEAL-LEVEL EXPENSES. IT WASN'T CLEAR TO ME ON PG 16 THAT WAS WHAT WAS BEING PRESENTED. LP RETURNS WOULD BE INCREMENTALLY NET OF PROMOTE... DECK SAYS ONGOING INS AND PROPERTY TAXES RESERVES ARE REQUIRED (STANDARD FOR AGENCY), SO I DON'T FOLLOW HOW THIS IS A SOURCE OF CASH. THE NET SOURCE SHOULD BE AT SALE WHEN YOU GET BACK UNUSED RESERVES.",
   "tags": [
-   "submarket-demographics"
+   "submarket-demographics",
+   "year-one-cash"
   ],
   "heat": 5,
-  "action": "THE MOST USEFUL EMAIL OF THE ROUND AND IT IS NOT FROM AN INVESTOR. Zamir asked a trusted reader for a view and got a full underwriting QC back. Five items, in order of what they cost if ignored. ONE, a possible arithmetic error: he reads the IRR and cash-on-cash as calculating off $12.7M of equity rather than the full $13.1M - that is $11.77M of LP at 90/10 grossed up - and if he is right, every return figure in front of 180 groups is overstated. Kevin needs to check that tonight, before another send goes out. TWO, zip 77017 population down 10% and jobs down 12.5% over five years, with the LyondellBasell refinery nearby closing in 2025. The entire demand story rests on Port Houston and Ship Channel petrochemical employment, and this is the fifth independent reader to push on submarket demographics after Sabal, Green Pine, Slocumb and Island Capital - but the first to name a cause. If a refinery closed, the memo has to address it rather than wait to be asked. THREE, the sale comp set contains a build-for-rent deal and an urban midrise, neither comparable to a suburban garden property, and the basis argument is the whole pitch - a reader who checks will find the same thing. FOUR, year-one cash-on-cash may be flattered by releasing reserves without replenishing them. FIVE, the tax consultant has to confirm taxes actually fall on the new basis. He also asked the practical question nobody else has: when can you rate lock if the close may slip to January. Everything else on this board is noise next to items one and two."
+  "action": "SECOND ROUND, AND HE DID NOT ACCEPT TWO OF THE FIVE ANSWERS. Hanson is not capital - he is the trusted reader Zamir sent the deal to on 2 November - and he has now read the team's written responses and pushed back on the two that go to the headline numbers. (1) PRESENTATION OF THE RETURNS. The team answered that 21.5% / 2.33x are deal-level returns on $12.74M of equity, before the $340K acquisition fee and the asset management fee, with LP net at 17.5% / 2.01x on the full $13.1M. His reply: he has never seen property- or project-level returns presented to exclude deal-level expenses, and page 16 did not make clear that was what was being shown. That is not an arithmetic error - the earlier read of a possible miscalculation is resolved - it is a disclosure objection, and it is more dangerous, because the number on the front page of every send is computed on a basis a sophisticated reader calls non-standard and cannot find explained. Roughly 180 groups have that figure. (2) THE RESERVE RELEASE. The team said year-one cash-on-cash is lifted by releasing $539K of tax and insurance escrows and $113K of prepaid debt service over the first three months. He answers that the deck itself says ongoing insurance and property-tax reserves are required, which is standard for agency debt, so he does not follow how a required escrow is a source of cash - the money comes back at sale, not in year one. If he is right the normalised 5.9% is the real year-one number and the 11.3% should not be led with. (3) He also closed the demographics question we had asked him to source: the 12.5% is Census 2024 for ZIP 77017, change in total employment - twelve and a half per cent fewer people employed in the zip. That is now a sourced figure sitting alongside the 10% population decline and the LyondellBasell closure, and it belongs in the memo before the sixth reader finds it. He praised the materials and the detail, so none of this is hostile - it is free pre-mortem from someone with no position. Two of these three items need Kevin tonight, not a reply from Zamir."
  },
  {
   "firm": "HG Investors",
