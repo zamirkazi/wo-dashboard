@@ -2402,6 +2402,38 @@
    "sent": "2026-11-03",
    "outcome": "replied",
    "note": "Replied 4 Nov from ms@scopehanson.com, not the anh-hausbesitz.de address he was mailed at. Use scopehanson.com."
+  },
+  {
+   "channel": "direct",
+   "firm": "Biscayne Atlantic",
+   "person": "David Garfinkle",
+   "email": "dg@biscayneatlantic.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Dartbrook",
+   "person": "Rosie Horton",
+   "email": "rosie@dartbrook.com",
+   "also": [
+    "don@dartbrook.com",
+    "ken@dartbrook.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Ken Beall answered for the office."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Buena Vista Capital",
+   "person": "Juan Manuel Carvallo",
+   "email": "jmcarvallo@buenavistacapital.com",
+   "also": [],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Reached via GMass alias domain zmrcapitalmy.com, not zmrcapital.com."
   }
  ],
  "carveouts": [
@@ -2509,6 +2541,11 @@
    "firm": "Dundee Partners",
    "person": "Sam Hendel",
    "why": "\"Take us off this list, irrelevant\" - three minutes after the 4 Nov send. Suppress dundeepartners.com: jay@, leah@ and sam@ were all on the send."
+  },
+  {
+   "firm": "Fautores",
+   "person": "Michael L. Chindamo (Founder)",
+   "why": "\"Stop.\" One word, 4 Nov, off the GMass alias domain zmrcapitaltoday.com. Suppress mlchindamo@fautores.com on every domain and alias, not just the one he was mailed from."
   }
  ],
  "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",

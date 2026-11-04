@@ -3175,5 +3175,48 @@
    "lastOut": "2026-11-03",
    "ask": "Asked for a firm-and-project deck with the time horizon. Send the package by link, to ms@scopehanson.com."
   }
+ },
+ {
+  "firm": "Biscayne Atlantic",
+  "person": "David Garfinkle",
+  "title": null,
+  "email": "dg@biscayneatlantic.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-04T21:14:11Z",
+  "quote": "Hi Zamir, I appreciate the look but don't really like the Houston market.",
+  "action": "Took three sends over six days to get here and the answer is the single most common sentence in this file: not the basis, not the vintage, not the return - the market. He is the twenty-somethingth reader to pass on Houston as a category rather than on anything specific to Allen Genoa, and he did not engage with a single number in the email. Worth noting the mechanics: the 4 Nov 15:33 chase to him was blocked by the send limit, the 19:37 resend went through, and he replied inside two hours. So the resend worked and the answer was simply no. Nothing owed. He gave a mobile number in the signature, which is a small courtesy - file it for a Florida deal rather than a Texas one.",
+  "tags": [
+   "houston-sentiment"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "Dartbrook",
+  "person": "Ken Beall",
+  "title": null,
+  "email": "ken@dartbrook.com",
+  "channel": "familyoffice",
+  "stage": "pass",
+  "ts": "2026-11-04T21:27:50Z",
+  "quote": "No interest",
+  "action": "Two words, seven hours after the send, from Ken Beall answering for the office on a mail addressed to Rosie Horton with Don Beall copied. No reason, no opening, nothing to work with - and nothing to chase, because the principal himself closed it rather than leaving it to the associate. The only useful read is negative: he did not say Houston, did not say size, did not say timing, so this is not another data point for the market thesis. Mark the domain and move on.",
+  "tags": [],
+  "heat": 1
+ },
+ {
+  "firm": "Buena Vista Capital",
+  "person": "Juan Manuel Carvallo",
+  "title": null,
+  "email": "jmcarvallo@buenavistacapital.com",
+  "channel": "familyoffice",
+  "stage": "outofscope",
+  "ts": "2026-11-04T19:52:21Z",
+  "quote": "Dear Zamir, I'm not interested; this is outside my scope.",
+  "action": "A scope pass inside an hour. The detail that matters is not the answer but the address it came to: this reply is to zamir@zmrcapitalmy.com, a GMass alias domain, not to zmr capital's real domain. Live prospect outreach is going out under warm-up aliases, so a real investor who wanted to reply to the firm would be writing to a throwaway. Anyone who converts off this wave converts into an alias inbox, and anyone who searches the domain finds nothing. Two of today's four replies arrived this way.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
  }
 ]
