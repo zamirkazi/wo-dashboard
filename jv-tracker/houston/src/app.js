@@ -204,6 +204,42 @@ function renderQueue(){
   });
 }
 
+/* ---------- follow-ups ---------- */
+const OWED = {us:['Owed by us','ow-us'], pkg:['No package','ow-pkg'], them:['Chase','ow-them']};
+function days(d){ return Math.round((Date.now()-Date.parse(d+'T12:00:00Z'))/864e5); }
+function renderFollow(){
+  const rows = D.replies.filter(r => inChan(r) && LIVE.has(r.stage) && r.followup && r.followup.owed !== 'none');
+  const rank = {us:0, pkg:1, them:2};
+  rows.sort((a,b) => (rank[a.followup.owed]-rank[b.followup.owed]) || (days(b.followup.lastOut)-days(a.followup.lastOut)));
+  $('#fucount').textContent = rows.length;
+  if (!rows.length){ $('#follow').innerHTML = '<div class="pending">Nothing outstanding in this channel.</div>'; return; }
+  const done = JSON.parse(localStorage.getItem('ag-follow') || '{}');
+  const groups = ['us','pkg','them'].map(k => {
+    const g = rows.filter(r => r.followup.owed === k);
+    if (!g.length) return '';
+    return '<div class="qgroup"><h3>' + OWED[k][0] + ' <em>' + g.length + '</em></h3><div class="cards">' +
+      g.map(r => {
+        const id = r.email || 'firm:' + r.firm, d = days(r.followup.lastOut);
+        return '<div class="card ' + OWED[k][1] + (done[id] ? ' done' : '') + '" data-id="' + esc(id) + '">' +
+          '<div class="card-top"><div><div class="firm">' + esc(r.firm) + '</div>' +
+          '<div class="who">' + esc(r.person) + (r.email ? ' · ' + esc(r.email) : '') + '</div></div>' +
+          '<span class="chip c-' + r.stage + '">' + esc(D.stageLabel[r.stage]) + '</span></div>' +
+          '<div class="act">' + esc(r.followup.ask) + '</div>' +
+          '<div class="card-foot"><span class="cmark' + (r.channel !== 'direct' ? ' fo' : '') + '">' +
+            d + ' day' + (d === 1 ? '' : 's') + ' since we wrote</span>' +
+          '<label class="tick"><input type="checkbox"' + (done[id] ? ' checked' : '') + '> handled</label></div>' +
+          '</div>';
+      }).join('') + '</div></div>';
+  }).join('');
+  $('#follow').innerHTML = groups;
+  $('#follow').querySelectorAll('.card input').forEach(cb => cb.onchange = e => {
+    const card = e.target.closest('.card'), store = JSON.parse(localStorage.getItem('ag-follow')||'{}');
+    if (e.target.checked){ store[card.dataset.id] = 1; card.classList.add('done'); }
+    else { delete store[card.dataset.id]; card.classList.remove('done'); }
+    localStorage.setItem('ag-follow', JSON.stringify(store));
+  });
+}
+
 /* ---------- objections ---------- */
 function renderObjections(){
   const reps = D.replies.filter(r => inChan(r) && r.stage === 'pass');
@@ -374,5 +410,5 @@ $('#foot').innerHTML =
   'Generated ' + D.generatedAt + ' · figures restate Kirsh\'s 2 Oct version of the deal. ' + esc(D.deal.note);
 
 /* ---------- boot ---------- */
-function renderAll(){ renderStatus(); renderChannels(); renderQueue(); renderObjections(); renderLedger(); renderGaps(); }
+function renderAll(){ renderStatus(); renderChannels(); renderQueue(); renderFollow(); renderObjections(); renderLedger(); renderGaps(); }
 renderChanBtns(); renderFilters(); renderAll();

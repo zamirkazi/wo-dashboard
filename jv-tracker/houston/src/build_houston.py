@@ -24,7 +24,11 @@ css = re.search(r'<style>.*?</style>', shared.read_text(), re.S).group(0)
 # Houston-only: the drafted queue carries a note per row, so it needs wider columns.
 css = css.replace('</style>',
   '.draft-grid{grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:0 26px}\n'
-  '.draft-grid > div{border-bottom:1px solid var(--rule)}\n</style>')
+  '.draft-grid > div{border-bottom:1px solid var(--rule)}\n'
+  '#follow .card.ow-us{border-left:3px solid var(--live)}\n'
+  '#follow .card.ow-pkg{border-left:3px solid var(--routed)}\n'
+  '#follow .card.ow-them{border-left:3px solid var(--rule-hard)}\n'
+  '</style>')
 
 LIVE = {'meeting','materials','question','conditional','reviewing'}
 STAGE_LABEL = {'reviewing':'Reviewing','conditional':'Conditional','pass':'Pass',
@@ -121,7 +125,7 @@ doc = (
   + '</body></html>'
 )
 assert doc.count('<script') == doc.count('</script>'), 'unbalanced script tags'
-for anchor in ('id="channels"', 'id="queue"', 'id="ledger"', 'id="objections"', 'id="split"'):
+for anchor in ('id="channels"', 'id="queue"', 'id="follow"', 'id="ledger"', 'id="objections"', 'id="split"'):
     assert anchor in doc, f'missing anchor {anchor}'
 
 # Ship next to the sources when flat, one level up when they live in src/.
