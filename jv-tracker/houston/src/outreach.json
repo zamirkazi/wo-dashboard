@@ -2262,6 +2262,54 @@
    "also": [],
    "sent": "2026-10-30",
    "outcome": "replied"
+  },
+  {
+   "channel": "peblast",
+   "firm": "M Squared",
+   "person": "Alicia Glen",
+   "email": "aglen@buildmsquared.com",
+   "also": [
+    "nhunter@buildmsquared.com",
+    "smyerson@buildmsquared.com",
+    "mschaffer@buildmsquared.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "sfo",
+   "firm": "Gardner Standard",
+   "person": "Craig Mell",
+   "email": "cmell@gardnerstandard.com",
+   "also": [
+    "operations@gardnerstandard.com",
+    "ryost@gardnerstandard.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied"
+  },
+  {
+   "channel": "sfo",
+   "firm": "Fayer Family Office",
+   "person": "Etienne Robitaille",
+   "email": "etienne@fayerfo.com",
+   "also": [
+    "marcelo@fayerfo.com",
+    "adam@fayerfo.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied"
+  },
+  {
+   "channel": "sfo",
+   "firm": "Forum Family Office",
+   "person": "Jeff Little",
+   "email": "jeff@forumfo.com",
+   "also": [
+    "henry.schuck@zoominfo.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied"
   }
  ],
  "carveouts": [
@@ -2354,6 +2402,21 @@
    "firm": "Certina Group",
    "email": null,
    "note": "Dr. Hans Wehrmann, CEO, replied to the 3 Nov SFO send with a single word: 'Unsubscribe'. German firm (Grunwald, Bavaria) so GDPR applies. Suppress the whole certina-group.com domain - hans.wehrmann@, andras.kontz@ and stefan.brungs@ were all on the thread."
+  },
+  {
+   "firm": "Friba Investment",
+   "person": "Edzard Stock",
+   "why": "\"Zamir - pls take me off your mailing lists. Thx\" German firm, replied in German headers within seven minutes of the 4 Nov send. GDPR applies. Suppress the whole friba-investment.com domain: m.lobis@, e.stock@ and m.kallmeyer@ were all on the send."
+  },
+  {
+   "firm": "Dolby Family Ventures",
+   "person": "Andrew Krowne",
+   "why": "\"Remove us from all emails. We don't do real estate.\" The Managing Partner, within an hour of the 4 Nov send. A venture firm on a real-estate list - not a prospect at any point. Suppress dolbyventures.com: andrew@, pascal@ and alona@ were all on the send."
+  },
+  {
+   "firm": "Dundee Partners",
+   "person": "Sam Hendel",
+   "why": "\"Take us off this list, irrelevant\" - three minutes after the 4 Nov send. Suppress dundeepartners.com: jay@, leah@ and sam@ were all on the send."
   }
  ],
  "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",
