@@ -690,17 +690,18 @@
  {
   "firm": "ABR Capital",
   "person": "Peter Heller",
-  "title": null,
+  "title": "Director, Acquisitions & Capital Markets",
   "email": "peter.heller@abrcapital.com",
   "channel": "direct",
-  "stage": "meeting",
-  "ts": "2026-10-19T20:21:16Z",
-  "quote": "Thanks for the detailed responses. Do you have any time tomorrow to connect on the deal? I'm free at 10am and 1pm if either happens to work for you.",
-  "action": "Converted. The ten questions went to Kevin at 10:30 ET, he answered all of them at 15:21 with the evidence attached - Lockton quote, no-loss letter, ALTA survey, aged receivables, effective rent, rent and sale comps and a soft bulk-internet quote - and Peter came back an hour later asking for a call. Second meeting on the board after West Pine, and the only one earned by answering underwriting rather than by relationship. Two things the answers settled that the rest of the desk should carry: the 95% starting occupancy Peter challenged is a teaser number, not a model number - the model starts Month 1 at ~92% and builds to 95% by Month 9 against last year's identical seasonal curve - and the $258,804 of miscellaneous closing costs was a 2% equity placement agent fee, now removed since we are sourcing directly, worth ~60 bps of IRR. Still soft if he presses: renewal retention is 'we've been told ~50%' and unverified until DD, and there is no lender term sheet yet, only the W&D debt matrix. He offered 10am and 1pm - he is Baltimore, so that is 7am and 10am Pacific while Zamir is at the LA Roundtable; Kevin owns the call either way.",
+  "stage": "pass",
+  "ts": "2026-11-04T14:00:11Z",
+  "quote": "Short answer is - we simply don't have a home for this one at the moment. It's a better fit for our core-plus SMA from a return perspective; however, the location (demos, school system etc.) leave a bit to be desired for an investment mandate with a longer-term outlook.",
+  "action": "The deepest reader on this deal has passed, and the reason is the one the board was built around. Peter put ten written questions to Kevin on 15 Oct, took a call on 20 Oct, received the demographics report, concession report, AR report, track record and updated model, and sat on it for two weeks through a voicemail, texts and two chasers. The answer is not about the basis, the vintage, the concessions, the taxes, the flood zone or the bulk internet - every one of those was answered in detail and none of them is cited. He says the RETURNS fit his core-plus SMA; what fails is the location, and he names demographics and the school system. That is the fifth independent reader to land on affordability and household income after Sabal, Green Pine, Slocumb and Island Capital, and it is the first time one of them walked away from a fully-diligenced position over it. Two things follow. First, the demographics report ZMR sent is evidently not answering the question - it is being read and then used as grounds to pass, so it needs rebuilding or it needs to stop going out. Second, Peter named a real fit on his own side: the core-plus SMA works on returns. If a longer-dated mandate is the obstacle, a shorter-hold structure is the conversation, not this deal. Worth a direct call rather than an email - he apologised for going quiet and asked to stay in touch, and he has read this asset more carefully than anyone outside ZMR.",
   "tags": [
+   "submarket-demographics",
    "occupancy-softness"
   ],
-  "heat": 5
+  "heat": 1
  },
  {
   "firm": "Lenox West",
@@ -2738,5 +2739,35 @@
   "heat": 1,
   "quote": "It's a pass.",
   "action": "Three words and nothing else - no reason, no counter, no door left open. Charlotte-based, Alexa Calahan copied. There is no objection here to answer and no information to extract, which is its own small data point: a same-day one-line pass from a principal usually means the deal was screened and dismissed on something structural (size, market or asset class) rather than read. Mark it closed and spend no more time on it. Keep the address live - the reply arrived cleanly and Lee is reachable for a future deal."
+ },
+ {
+  "firm": "Clarion Partners",
+  "person": "Brent Gerst",
+  "title": null,
+  "email": "brent.gerst@clarionpartners.com",
+  "channel": "peblast",
+  "stage": "pass",
+  "ts": "2026-11-04T13:28:35Z",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "quote": "Thanks for following up, don't see this on as fit for us but appreciate the look.",
+  "action": "A one-line no from a $80B+ manager with no reason attached, arriving only after Zamir's 2 Nov chaser - the 30 Oct original drew nothing. Clarion runs core and core-plus open-end vehicles; a $11.77M LP cheque into a single 252-unit asset is an order of magnitude below what those funds write, so this is a size and mandate mismatch rather than a view on Houston. The send went to Khalid Rashid with Andrew Palmquist and Robert Wilshusen copied, and it was Brent, a fourth name not on the original To line, who answered - the fifth time this week a cc rather than the addressee has replied. Nothing to re-pitch here."
+ },
+ {
+  "firm": "ICM Group",
+  "person": "John Courtliff",
+  "title": "CEO",
+  "email": "jcourtliff@icmgroup.ca",
+  "channel": "peblast",
+  "stage": "pass",
+  "ts": "2026-11-04T13:41:09Z",
+  "tags": [
+   "capital-paused"
+  ],
+  "heat": 2,
+  "quote": "This looks pretty interesting. It's amazing what is available in market right now. Unfortunately, timing isn't going to line up. We've got a number of assets that we are refinancing/recapping that are sucking our equity at the moment. Keep sending across what you are seeing though.",
+  "action": "The warmest pass on the board. The CEO of a Calgary firm read it, liked it, volunteered that the basis is remarkable - 'it's amazing what is available in market right now' - and asked to keep receiving deals. The only obstacle is that his own equity is tied up refinancing and recapping existing assets, which is a balance-sheet timing problem and nothing to do with Houston, the submarket or the underwriting. This is exactly the profile worth a named follow-up in the first quarter rather than another blast: he asked to be sent what ZMR is seeing, which is an invitation, and he answered personally within a day of a single chaser. One caveat for the list work - ICM is Canadian, and the Connelly CASL complaint question is still unanswered. John asked to keep hearing from us, so consent is not the issue here, but if the decision is to drop Canada wholesale he should be carved out of it by hand."
  }
 ]

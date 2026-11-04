@@ -2240,6 +2240,28 @@
    ],
    "sent": "2026-11-03",
    "outcome": "replied"
+  },
+  {
+   "channel": "peblast",
+   "firm": "Clarion Partners",
+   "person": "Khalid Rashid",
+   "email": "khalid.rashid@clarionpartners.com",
+   "also": [
+    "andrew.palmquist@clarionpartners.com",
+    "robert.wilshusen@clarionpartners.com",
+    "brent.gerst@clarionpartners.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "peblast",
+   "firm": "ICM Group",
+   "person": "John Courtliff",
+   "email": "jcourtliff@icmgroup.ca",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied"
   }
  ],
  "carveouts": [
