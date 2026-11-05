@@ -2640,6 +2640,24 @@
    "also": [],
    "sent": "2026-10-30",
    "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Sonen Capital",
+   "person": "David Hood",
+   "email": "dhood@sonencapital.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Grandes Patrimonios",
+   "person": "Diego Parra",
+   "email": "diego.parra@grandespatrimonios.co",
+   "also": [],
+   "sent": "2026-11-05",
+   "outcome": "replied"
   }
  ],
  "carveouts": [
@@ -2757,6 +2775,11 @@
    "firm": "Paratus Financial",
    "person": "Maxx Grisz",
    "why": "\"Unsubscribe.\" 5 Nov, via the GMass alias domain zmrcapitalstart.com. Suppress on every domain and alias."
+  },
+  {
+   "firm": "Horizon21",
+   "person": "Daniel Sidler (Head of IT / CTO)",
+   "why": "\"As Head of IT/CTO, I am not the appropriate contact for investment opportunities of this nature. I kindly ask that you refrain from contacting me about similar topics in the future.\" 5 Nov, off the 4 Nov 16:00 send. Suppress daniel.sidler@horizon21.com ONLY - this is a wrong-contact routing error, not a firm-level no. Daniel Rode and Pascal Schmid were already cc'd on the same email and are the investment side; the Zurich firm itself has not answered and is not suppressed."
   }
  ],
  "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",

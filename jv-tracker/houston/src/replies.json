@@ -3528,5 +3528,31 @@
    "strategy-mismatch"
   ],
   "heat": 1
+ },
+ {
+  "firm": "Sonen Capital",
+  "person": "David Hood",
+  "title": null,
+  "email": "dhood@sonencapital.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-05T18:55:24Z",
+  "quote": "Thx Zamir - I asked around and think I'll pass on this. Appreciate the outreach...",
+  "action": "A pass, but one that was actually shopped internally first - 'I asked around' means Hood put it in front of colleagues before answering, which is more than most of today's noes got. Sonen is a San Francisco impact manager, so a market-rate Houston garden deal with no stated impact thesis was always going to be a stretch for their mandate; he gives no reason, so there is nothing to rebut. Three touches to get here (30 Oct, 2 Nov, and this morning's 07:16 call request) and the reply came back inside twelve hours of the last one. Civil, no friction, worth keeping warm for anything with a workforce-housing or affordability angle - but nothing to chase on Allen Genoa.",
+  "tags": [],
+  "heat": 1
+ },
+ {
+  "firm": "Grandes Patrimonios",
+  "person": "Diego Parra",
+  "title": null,
+  "email": "diego.parra@grandespatrimonios.co",
+  "channel": "familyoffice",
+  "stage": "pass",
+  "ts": "2026-11-05T18:55:45Z",
+  "quote": "NOT INTERESTED",
+  "action": "Two words in the subject line, nothing in the body, answered about nine hours after a send that went out at 09:47 this morning. Worth noting the mechanics: it came back to zamir@zmrcapitalgo.com, one of the GMass alias domains, which means this is blast traffic rather than a named approach, and the Spanish-language quoting ('El 5/11/2026, a las 9:47 am, Zamir Kazi escribio') confirms a Colombian wealth-management house reading a cold English-language US multifamily pitch. He does not ask to be removed, so this is a pass and not a suppression - but the capitals are a signal. On a list where tone is the only early warning of a complaint, this is the one worth not mailing a third time.",
+  "tags": [],
+  "heat": 1
  }
 ]
