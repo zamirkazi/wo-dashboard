@@ -1075,21 +1075,15 @@
   "title": "Director",
   "email": "aw@castlesquare.com",
   "channel": "direct",
-  "stage": "conditional",
-  "ts": "2026-10-28T16:27:25Z",
-  "quote": "Zamir - I know you've already gotten a price cut on this one but do you think there is any more room on reduction?",
-  "action": "Third message from Alanna today and the sharpest. At 15:48 she said she had one group in mind and would make a feeler call; 39 minutes later she is asking whether there is more room on price. That is not a courtesy call - she is testing the basis before she spends her own relationship capital, which means her group's interest is real enough to pre-negotiate.\n\nThe arc, in one place: 22 Oct she asked how much equity was raised to date, answered the same day with 'None so far - we'd like to just bring in one LP', which is now the house answer. 26 Oct Zamir asked her for names. 28 Oct 15:48 she named one, unnamed to us, that she has closed with before. 28 Oct 16:27 she asks for price.\n\nThis needs a decision from Zamir, not a holding reply. We were the underbidder this summer and came back $1.0M lower at $34.0M when the winning buyer's process broke - the cut has already been taken, and the whole pitch is that the basis is half of comparable-vintage Houston. Saying no closes nothing; saying yes reprices a deal that 51 groups passed on for Houston rather than price. Either way she should hear it today while her feeler call is still ahead of her.\n\nShe still has not been sent the no-fly list she asked for on 22 Oct. She is about to put this in front of a group she will not name and 84 groups already have it.",
+  "stage": "pass",
+  "ts": "2026-11-05T15:42:49Z",
+  "quote": "Zamir, they passed. Thanks for the look.",
+  "action": "Her group passed. Four words, and the heat-5 conditional row that had been open since 22 October is closed. Read the sequence before filing it: Alanna had one equity group in mind, one she had closed with before and described as VERY selective; she asked on 28 October whether there was more room on the price, Zamir answered 'we can try', and no number ever followed. Then nothing for a week until his 4 November chase produced this. It is not possible to say the missing price answer lost it - a selective group that passes in a week was probably never close - but the price question is the one item on the follow-up board that sat unanswered longest while a named buyer waited on it, and it is now moot. Two things survive: she asked on 22 October who else had seen the deal and was never told, which is the same question Ackman-Ziff asked and the same unsent no-fly list answers both; and she is a Director at an intermediary who went to the trouble of working a name for this. Worth a thank-you and a request for the group's actual reason, because a VERY selective buyer's no is worth more than most.",
   "tags": [
    "raise-progress",
    "price-reduction"
   ],
-  "heat": 5,
-  "followup": {
-   "owed": "us",
-   "lastOut": "2026-10-28",
-   "ask": "Answer \"is there any more room on the reduction?\" with a yes or a no. She is holding a feeler call on it. She also asked who else has seen the deal on 22 Oct and has never been answered."
-  },
-  "has": "unclear"
+  "heat": 1
  },
  {
   "firm": "Tarsadia Investments",
@@ -1898,16 +1892,16 @@
   "title": null,
   "email": "zak@birbas.com",
   "channel": "peblast",
-  "stage": "meeting",
-  "ts": "2026-10-30T20:15:10Z",
-  "quote": "1:00 pm Eastern on Wednesday works well for us. Looking forward to connecting with you and the team.",
+  "stage": "referred",
+  "ts": "2026-11-05T14:31:46Z",
+  "quote": "After reviewing internally, we think Eastham Capital, a group we work closely with on select opportunities, could be a strong fit for this deal. They invest as an LP alongside operating partners and typically prefer to provide the majority of the equity... With your approval, we'd be happy to make the introduction and coordinate a call to explore the fit.",
   "tags": [],
-  "heat": 5,
-  "action": "Booked and armed. Wednesday 4 November, 1:00pm Eastern, with Kevin, Chip and Mike Regan on our side and Shane on theirs. Kevin sent the full package at 15:04 ET and Zak came back at 16:15 with 'We'll review ahead of our call on Wednesday' - so they go in having read it, which was the one thing that could have wasted the slot. Start to finish: cold send at 09:00, call booked by 13:46, package delivered and acknowledged by 16:15, all inside one working day, and not one objection raised at any point - not Houston, not the location, not the size. Prepare for the submarket question rather than the basis; eight parties have now raised the location and two of them had the asset in front of them. Have the concession figure ready too - one month free on new leases on select units, none on renewals.",
+  "heat": 3,
+  "action": "THEY WANT TO INTRODUCE A FIRM THAT HAS ALREADY PASSED. Birbas took the full package on 30 October, held the call on 4 November, took the updated model and deck, reviewed internally - and came back not as an investor but as a referrer, proposing Eastham Capital. Eastham is already on this board: Brian Hertig passed, and his second note is one of the sharpest objections in the file - their IC values the exit off projected effective rent rather than a cap rate and will not accept the rent multiple expanding from 7.6x going in to 9.6x out. So the answer to Zak is not simply yes. Tell him Eastham has seen it and passed, and on what grounds; that is more useful to him than a blind introduction and it protects a relationship he is offering up. Then ask the question his email leaves open: Birbas reviewed the whole package and chose to refer rather than invest, and nobody has asked why. That answer is worth having before the next deal goes to them. Note also what the referral implies - 'typically prefer to provide the majority of the equity' is Birbas reading this as a single-LP deal, which is exactly how it is being marketed.",
   "followup": {
-   "owed": "them",
-   "lastOut": "2026-10-31",
-   "ask": "Package sent 30 Oct."
+   "owed": "us",
+   "lastOut": "2026-11-04",
+   "ask": "They want approval to introduce Eastham Capital. Eastham already passed on 28 Oct - tell Zak before he spends the relationship."
   },
   "has": "package"
  },
@@ -3274,6 +3268,141 @@
   "quote": "Thank you for following up and for sharing the opportunity. We have decided not to pursue this investment, but appreciate you thinking of us.",
   "action": "A decided pass from the Zurich trust company, answered off a follow-up with Dr. Peppi Schnieper copied. The wording is worth reading precisely: 'we have decided not to pursue this investment' is a considered internal decision rather than a scope rejection, which means somebody at CC Trust actually looked at it before saying no. They give no reason, so there is nothing to answer and no point pressing - but it is a different quality of no from the mandate replies that came in alongside it this morning, and the relationship reads as intact. They were on the 27 October Depreciation wave at the 21.5% / 5.71% set, so this is a ten-day consideration, not a reflex.",
   "tags": [],
+  "heat": 1
+ },
+ {
+  "firm": "Dekel Capital",
+  "person": "Shlomi Ronen",
+  "title": null,
+  "email": "sronen@dekelcapital.com",
+  "channel": "direct",
+  "stage": "meeting",
+  "ts": "2026-11-05T15:41:09Z",
+  "quote": "How's 2 PM today?",
+  "action": "A call offered for this afternoon, four minutes after the chase went out, with Matin Roshan and Hayden Millerick already copied - Ronen pulled his team onto the thread before agreeing to talk, which is how a principal behaves when he intends to do something. Dekel is a Los Angeles capital advisory and placement shop, so read this carefully: they may come as an intermediary rather than the check, and that distinction needs settling on the call before any package goes over, because an advisor introduces the deal to groups ZMR may already have burned. Ask first who they would take it to. He has seen the 21.1% / 5.94% set.",
+  "tags": [],
+  "heat": 5,
+  "has": "teaser",
+  "followup": {
+   "owed": "us",
+   "lastOut": "2026-11-05",
+   "ask": "He offered 2 PM TODAY. Confirm the slot."
+  }
+ },
+ {
+  "firm": "PIMCO",
+  "person": "Michael Givner",
+  "title": "Executive Vice President, Portfolio Management",
+  "email": "michael.givner@pimco.com",
+  "channel": "direct",
+  "stage": "meeting",
+  "ts": "2026-11-05T15:31:11Z",
+  "quote": "Let's do it. What's convenient tomorrow afternoon?",
+  "action": "The largest name on the board agreeing to a call in five words, with David Grossman copied. Givner is an EVP in Portfolio Management out of 1633 Broadway. Temper the excitement with arithmetic before the call: this is an $11.77M LP cheque and PIMCO's real estate vehicles write multiples of that, so the realistic outcomes are a relationship conversation, a referral down to a smaller vehicle, or interest in the sponsor rather than the asset - Oaktree reached for exactly that reason ('might be too small for us'). That does not make the call less worth having; it makes the agenda different. Go in with what ZMR is buying across the portfolio, not just this one deal, and let them tell you which vehicle it fits. Book the slot today - he asked about tomorrow afternoon and a same-day answer is the whole game with a desk this size.",
+  "tags": [],
+  "heat": 5,
+  "has": "teaser",
+  "followup": {
+   "owed": "us",
+   "lastOut": "2026-11-05",
+   "ask": "He asked what works tomorrow afternoon. Send a time today."
+  }
+ },
+ {
+  "firm": "RM Adviser",
+  "person": "Eric Levy",
+  "title": "Managing Director",
+  "email": "eric.levy@rm-adviser.com",
+  "channel": "direct",
+  "stage": "materials",
+  "ts": "2026-11-05T15:22:15Z",
+  "quote": "Zamir, apologies I missed this. Please send materials. Do you have time tomorrow at 1130am et? Cc'ing Grant on my team.",
+  "action": "Both asks in one line - materials and a specific slot at 11:30am ET tomorrow - and he brought Grant onto the thread himself. That is the most complete first reply of the day: no objection, no qualification, a named time and a colleague assigned. Two things to do before tomorrow morning and neither is optional: get the package out today so he is not reading it in the meeting, and confirm 11:30 explicitly rather than assuming. He apologised for missing the earlier note, which means the chase is what produced this - a point worth remembering against the instinct to stop at two follow-ups.",
+  "tags": [],
+  "heat": 5,
+  "has": "teaser",
+  "followup": {
+   "owed": "us",
+   "lastOut": "2026-11-05",
+   "ask": "Send the package today and confirm 11:30am ET tomorrow. Include Grant."
+  }
+ },
+ {
+  "firm": "Eldridge Acre Partners",
+  "person": "Josh Katzin -> Sam Levy",
+  "title": null,
+  "email": "joshua.katzin@eldridgeacre.com",
+  "channel": "direct",
+  "stage": "referred",
+  "ts": "2026-11-05T15:31:02Z",
+  "quote": "Andrew is no longer here, but copying Sam who can connect with you on this",
+  "action": "A warm internal handoff rather than a bounce - the original contact has left and Katzin put Sam Levy on the thread himself rather than letting the email die. That is worth more than it looks, because the alternative outcome for a departed contact on this list has usually been a hard bounce and a dead row. Sam Levy is now the live address; reply to him directly and treat it as a fresh first contact, since he has seen only whatever was in the forwarded chain. Update the roster: Andrew's address at eldridgeacre.com is dead and should come off before the next wave.",
+  "tags": [],
+  "heat": 3,
+  "has": "teaser",
+  "followup": {
+   "owed": "us",
+   "lastOut": "2026-11-05",
+   "ask": "Sam Levy (sam.levy@eldridgeacre.com) was handed the thread. Write to him."
+  }
+ },
+ {
+  "firm": "Alpaca Real Estate",
+  "person": "Daniel Carr",
+  "title": "Co-Founder & Managing Partner",
+  "email": "daniel.carr@alpacarealestate.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-05T15:20:06Z",
+  "quote": "Apologies for missing your prior note Zamir. We are not focused on Houston currently, in TX we are investing in Dallas.",
+  "action": "A Texas pass that is not a Texas pass - they are actively investing in Dallas and simply not in Houston. Coming from a co-founder, with Ryan Freedman copied, that is a firm-level allocation statement rather than one person's view. It belongs with the Artisan reply from last night in the same column: the market is not the problem for these buyers, the specific city or submarket is, and both firms volunteered where they ARE deploying. Two names now point at Dallas. If ZMR brings a Dallas deal, Alpaca is a first call and the relationship is already warm.",
+  "tags": [
+   "not-targeted"
+  ],
+  "heat": 2
+ },
+ {
+  "firm": "King Street Capital",
+  "person": "Jordan Jancze",
+  "title": null,
+  "email": "jjancze@kingstreet.com",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-05T15:40:02Z",
+  "quote": "Appreciate you thinking of us here. The opportunity is unfort not within scope for our credit focused funds.",
+  "action": "Out of scope at the vehicle level - King Street's funds here are credit, and this is common equity. Nothing about the asset, the market or the basis enters into it. The useful correction is to the list rather than the pitch: a credit manager should not have been on a JV-equity send, and the equity list has a Credit exclusion tab that exists precisely to catch this. Worth checking whether King Street is on it; if not, add it. That said, they do run real-estate credit, so if the pref conversation ever becomes real they are a different kind of call.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "Choreo Advisors",
+  "person": "Matthew Gotlin",
+  "title": "Chief Investment Officer",
+  "email": "matthew.gotlin@choreoadvisors.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-05T15:45:53Z",
+  "quote": "We will pass. Thanks.",
+  "action": "Three words from the CIO. No reason, no opening, and from the person who makes the decision - so there is nothing to chase and nobody above him to appeal to. Choreo is a wealth advisory rather than a direct real-estate buyer, which is the likeliest explanation, but he did not say so and it would be a guess to write it down as one. File and move on.",
+  "tags": [],
+  "heat": 1
+ },
+ {
+  "firm": "Northwestern Mutual",
+  "person": "Kevin Westra",
+  "title": "Regional Director",
+  "email": "kevin.westra@northwesternmutual.com",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-05T15:40:56Z",
+  "quote": "Unfortunately, we don't acquire existing apartments...we develop them instead and our typical deal size is $75 - $150 million for JV equities.",
+  "action": "Two disqualifiers in one sentence, and both are structural. They develop rather than acquire, so a three-year-old stabilised asset is the wrong product entirely; and their JV equity cheques run $75-150M against an $11.77M ask, so this is roughly a tenth of their minimum. Henry Lange and Brandt Foster were copied, so it is the house position. This is the clearest check-too-large reply in the file and it is useful calibration: the institutional names near the top of the equity list are mostly unreachable at this cheque size, which is the same wall Oaktree and PIMCO represent. The list needs a size screen before the next wave, not just an exclusion-tab screen.",
+  "tags": [
+   "check-too-large",
+   "strategy-mismatch"
+  ],
   "heat": 1
  }
 ]
