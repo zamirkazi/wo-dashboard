@@ -2658,6 +2658,15 @@
    "also": [],
    "sent": "2026-11-05",
    "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "BlackRock",
+   "person": "Greg Burns",
+   "email": "gregory.burns@blackrock.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied"
   }
  ],
  "carveouts": [
