@@ -43,6 +43,7 @@ css = css.replace('</style>',
   '.tag{display:inline-block;padding:2px 7px;border:1px solid var(--rule-hard);font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap;color:var(--ink-2)}\n'
   '.tag.h-dd{border-color:var(--live);color:var(--live-ink);font-weight:600}\n'
   '.tag.h-package{border-color:var(--routed);color:var(--routed-ink)}\n'
+  '.tag.h-pending{border-color:var(--live);color:var(--live-ink);border-style:dashed;font-weight:600}\n'
   '.tag.h-teaser{color:var(--ink-3)}\n'
   '.tag.h-unclear{border-style:dashed;color:var(--ink-3)}\n'
   '.tag.o-us{border-color:var(--live);color:var(--live-ink);font-weight:600}\n'

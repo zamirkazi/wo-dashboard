@@ -411,7 +411,7 @@ $('#foot').innerHTML =
 
 /* ---------- boot ---------- */
 // ---- pipeline table ------------------------------------------------------
-const HASLBL = {dd:'Full DD', package:'Package', teaser:'Teaser', broker:'Via broker', unclear:'Unknown'};
+const HASLBL = {dd:'Full DD', package:'Package', pending:'Send pending', teaser:'Teaser', broker:'Via broker', unclear:'Unknown'};
 const OWEDLBL = {us:'Us', pkg:'Package', them:'Them', none:'—'};
 let pipeSort = {k:'owed', asc:true};
 function renderPipe(){
@@ -423,7 +423,7 @@ function renderPipe(){
   });
   $('#pipecount').textContent = rows.length;
   const orank = {us:0, pkg:1, them:2, none:3};
-  const hrank = {dd:0, package:1, teaser:2, broker:3, unclear:4};
+  const hrank = {dd:0, package:1, pending:2, teaser:3, broker:4, unclear:5};
   const k = pipeSort.k, dir = pipeSort.asc ? 1 : -1;
   rows.sort((a,b) => {
     let v;
