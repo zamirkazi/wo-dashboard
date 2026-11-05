@@ -123,14 +123,20 @@
   "title": "CIO / Executive Manager",
   "email": "camilo.padron@strem.us",
   "channel": "direct",
-  "stage": "pass",
+  "stage": "question",
   "ts": "2026-11-04T17:27:39Z",
   "quote": "It was great connecting with you last week. We had a meeting this morning and unfortunately, we are going to pass on this opportunity. We have too many partnership concerns internally that we can't get comfortable with at the moment. We want to finalize this potential partnership and then focus on deploying capital. We changed our trip around and now will be in Chicago for some meetings. The team will be back in the states in March... Best of luck on this one, it is a great a deal for you guys, I am sure you will get a partner on board.",
-  "action": "THE HOTTEST NAME IN THE BOOK IS GONE. STRE carried heat 5 from 6 October, through the debt matrix, a twelve-minute call on 22 October and a positive internal review, and it has now passed on exactly the thing Camilo flagged on 12 October and told us not to worry about: the long-standing Houston operator they have been invested with for over forty years. His words then were 'this does not reflect any hesitation on the opportunity itself', and his words today confirm it - the pass is about their partnership, not about Allen Genoa, and he closed by calling it a great deal. Three things follow. First, the partner-conflict tag was the right read and the lesson is to price it as a real risk rather than a footnote the next time a prospect discloses an incumbent operator in the market; it has now killed the single most advanced conversation in the file. Second, the 11 November trip is off - the principals were flying in to meet their Houston operator and have rerouted to Chicago, so there is no meeting to salvage and no reason to chase this week. Third, this row was one of the five logged as never having had the package, and the package would not have saved it, because nothing in the objection touches the numbers - but four names on that list are still waiting and that lesson does not transfer to them. The relationship is intact and explicitly reopened: the team is back in the States in March and Camilo said he will reach out with dates. Diarise March, send nothing now.",
+  "action": "THE HOTTEST NAME IN THE BOOK IS GONE. STRE carried heat 5 from 6 October, through the debt matrix, a twelve-minute call on 22 October and a positive internal review, and it has now passed on exactly the thing Camilo flagged on 12 October and told us not to worry about: the long-standing Houston operator they have been invested with for over forty years. His words then were 'this does not reflect any hesitation on the opportunity itself', and his words today confirm it - the pass is about their partnership, not about Allen Genoa, and he closed by calling it a great deal. Three things follow. First, the partner-conflict tag was the right read and the lesson is to price it as a real risk rather than a footnote the next time a prospect discloses an incumbent operator in the market; it has now killed the single most advanced conversation in the file. Second, the 11 November trip is off - the principals were flying in to meet their Houston operator and have rerouted to Chicago, so there is no meeting to salvage and no reason to chase this week. Third, this row was one of the five logged as never having had the package, and the package would not have saved it, because nothing in the objection touches the numbers - but four names on that list are still waiting and that lesson does not transfer to them. The relationship is intact and explicitly reopened: the team is back in the States in March and Camilo said he will reach out with dates. Diarise March, send nothing now.  REOPENED 5 Nov 19:29. After STRE's 4 Nov pass - which was a partner-conflict pass, not a deal pass ('too many partnership concerns internally', a 40-year Houston relationship they did not want to cut across) - Zamir went back at 11:43 with the structural answer to exactly that objection: 'what if we were open to partnering 50/50 with your Houston partner?' Padron's reply does two things at once. He asks us to explain - 'Can you explain more about what you envision with this?' - and in the same breath repeats that 'the timing will not work for us right now' and points at March. So the probability is low and the row is back to live only because a direct question is sitting unanswered. Worth answering properly rather than letting it lapse: a 50/50 with their existing Houston operator is the one shape that solves their stated problem, and Padron's own words on the deal were 'it is a great a deal for you guys'.",
   "tags": [
    "partner-conflict"
   ],
-  "heat": 1
+  "heat": 1,
+  "has": "package",
+  "followup": {
+   "owed": "us",
+   "lastOut": "2026-11-05",
+   "ask": "Camilo asked \"Can you explain more about what you envision with this?\" on the 50/50-with-their-Houston-partner idea. Answer it, even though the timing answer is already no."
+  }
  },
  {
   "firm": "Capital Solutions",
@@ -1189,15 +1195,15 @@
   "stage": "question",
   "ts": "2026-10-28T12:08:47Z",
   "quote": "Thanks guys. Solid story. Who's the seller? Would you mind sharing who you've shown the deal to and what feedback you've received? Since the deal has already been shopped, it's tough for us to add value without that context. We take a ton of pride in our equity relationships and want to be thoughtful about where we share deal flow. We may have an idea or two after reviewing the list.",
-  "action": "Brustein is the third reader to ask who has already seen this, and the first to make it a precondition rather than curiosity. Belsky asked on 13 Oct and never got an answer; CastleSquare asked on 22 Oct how the book was filling; Brustein now says plainly he cannot work the deal without the list, and explains why in a way worth taking seriously - his own equity relationships are the asset he is protecting, and burning them on a name that has already passed costs him more than it costs us. 'We may have an idea or two after reviewing the list' is the trade on offer: the no-fly list buys introductions ZMR does not currently have.\n\nThis is now the single cheapest unblocked action on the board. The list exists - it is this page - and it has been drafted and unsent since 13 Oct. Three intermediaries are waiting on the same artefact.\n\nHe also asks who the seller is, which is a one-word answer (RAH Contractors) and should not hold up the reply.",
+  "action": "Brustein is the third reader to ask who has already seen this, and the first to make it a precondition rather than curiosity. Belsky asked on 13 Oct and never got an answer; CastleSquare asked on 22 Oct how the book was filling; Brustein now says plainly he cannot work the deal without the list, and explains why in a way worth taking seriously - his own equity relationships are the asset he is protecting, and burning them on a name that has already passed costs him more than it costs us. 'We may have an idea or two after reviewing the list' is the trade on offer: the no-fly list buys introductions ZMR does not currently have.\n\nThis is now the single cheapest unblocked action on the board. The list exists - it is this page - and it has been drafted and unsent since 13 Oct. Three intermediaries are waiting on the same artefact.\n\nHe also asks who the seller is, which is a one-word answer (RAH Contractors) and should not hold up the reply.  CORRECTION - THE LIST WENT OUT. The board had this logged as written-but-unsent. It was sent on 28 Oct at 09:36: the seller named as RAH Contractors, all 84 groups listed by channel, and the feedback paragraph ('almost nobody passed on the deal. They passed on Houston. Fifteen cited Houston sentiment, fourteen the submarket demographics, five said their Houston exposure was already maxed'). Two things about that send. First, it is cut off mid-sentence - it ends '51 passed outright, 22 positions are' and simply stops, so Brustein got a truncated email and that may be exactly why he is asking for the feedback a second time today. Second, and more serious: the list Zamir pasted INCLUDES the eleven RJL-exclusive names - Abod, Aureon/Quilvest, Calibogue, Corten, JW Capital, Lakerock, Monocle, NCA Realty, ReCap-RGA, Triangle, Vikingprt - which is the one thing the RJL engagement letter's non-disclosure clause forbids passing to a third party, Ackman-Ziff included. That is done and cannot be unsent; it should be known rather than discovered. Then 5 Nov: Zamir asked at 13:06 'Any groups outside of this?' and Brustein answered at 14:19 - 'I'd love to say yes, but you guys have already been out to almost 70 LPs lol. Many of them are solid and likely candidates for this type of deal. What's the feedback been so far?' He has not declined. He is saying the list burned the names he would have used and he wants to know what came back before he spends a relationship. The answer should be the current numbers, not October's.",
   "tags": [],
   "heat": 5,
   "followup": {
    "owed": "us",
-   "lastOut": "2026-10-28",
-   "ask": "The no-fly list is written and sitting UNSENT in Gmail (thread 19bba232ea0f273a). Send it."
+   "lastOut": "2026-11-05",
+   "ask": "Brustein asked \"What is the feedback been so far?\" again at 19:19 and says we have been to ~70 LPs. He has not said no. Answer with the current count, not the 28 Oct one."
   },
-  "has": "unclear"
+  "has": "dd"
  },
  {
   "firm": "Meruelo Group",
@@ -1610,12 +1616,12 @@
    "check-too-small"
   ],
   "heat": 5,
-  "action": "THE NO-PACKAGE ROW CONVERTED THE DAY THE PACKAGE WENT. Oaktree sat at 'teaser only' on this board for six days after Jared Lazarus said he was happy to take a quick look; Kevin sent the materials and Chris Ahn - the name Lazarus routed it to when Will Beischer left - came back asking for a call the same afternoon, with Caroline Paul added to the thread. Three people from Oaktree now on it. Take the slot today: he named a window, wide open before 4PM PT outside 2:30, and a same-day answer is what keeps a desk this size engaged. Carry one thing into the call that the file already knows: Lazarus's first reaction was 'might be too small for us', and nothing about the $11.77M ask has changed since. Ahn asking for a call anyway means either the basis is interesting enough to stretch for, or they are sizing up ZMR rather than this asset. Find out which in the first five minutes and pitch accordingly. This is also the single cleanest argument on the board for clearing the no-package queue: the row went from cold to a same-day call request on the strength of sending what was asked for.  CONFIRMED: Kevin's send is in the record at 14:12 - model, deck and the rest, with Jared, Chris and the ZMR team on it. Ahn's call request came two hours later at 16:12. Nothing has gone back since.",
+  "action": "THE NO-PACKAGE ROW CONVERTED THE DAY THE PACKAGE WENT. Oaktree sat at 'teaser only' on this board for six days after Jared Lazarus said he was happy to take a quick look; Kevin sent the materials and Chris Ahn - the name Lazarus routed it to when Will Beischer left - came back asking for a call the same afternoon, with Caroline Paul added to the thread. Three people from Oaktree now on it. Take the slot today: he named a window, wide open before 4PM PT outside 2:30, and a same-day answer is what keeps a desk this size engaged. Carry one thing into the call that the file already knows: Lazarus's first reaction was 'might be too small for us', and nothing about the $11.77M ask has changed since. Ahn asking for a call anyway means either the basis is interesting enough to stretch for, or they are sizing up ZMR rather than this asset. Find out which in the first five minutes and pitch accordingly. This is also the single cleanest argument on the board for clearing the no-package queue: the row went from cold to a same-day call request on the strength of sending what was asked for.  CONFIRMED: Kevin's send is in the record at 14:12 - model, deck and the rest, with Jared, Chris and the ZMR team on it. Ahn's call request came two hours later at 16:12. Nothing has gone back since.  5 Nov 18:23: Ahn answered Kevin's 16:36 note with three words - 'I can do 1230'. That is 12:30 Pacific, his own clock. As of the 20:08 sweep nothing has gone back to him: no confirmation, no invite, no dial-in. This is the one row in the book that converted the same day its package landed, and it is fifteen minutes from a call that only Oaktree has agreed to.",
   "channel": "peblast",
   "followup": {
    "owed": "us",
    "lastOut": "2026-11-05",
-   "ask": "Chris Ahn is wide open this afternoon before 4PM PT, outside 2:30. Take a slot today."
+   "ask": "URGENT: Chris Ahn said \"I can do 1230\" at 18:23 (12:30 PT = 20:30 UTC). Nothing has gone back. No invite, no dial-in."
   },
   "has": "package"
  },
@@ -1897,11 +1903,11 @@
   "quote": "After reviewing internally, we think Eastham Capital, a group we work closely with on select opportunities, could be a strong fit for this deal. They invest as an LP alongside operating partners and typically prefer to provide the majority of the equity... With your approval, we'd be happy to make the introduction and coordinate a call to explore the fit.",
   "tags": [],
   "heat": 3,
-  "action": "THEY WANT TO INTRODUCE A FIRM THAT HAS ALREADY PASSED. Birbas took the full package on 30 October, held the call on 4 November, took the updated model and deck, reviewed internally - and came back not as an investor but as a referrer, proposing Eastham Capital. Eastham is already on this board: Brian Hertig passed, and his second note is one of the sharpest objections in the file - their IC values the exit off projected effective rent rather than a cap rate and will not accept the rent multiple expanding from 7.6x going in to 9.6x out. So the answer to Zak is not simply yes. Tell him Eastham has seen it and passed, and on what grounds; that is more useful to him than a blind introduction and it protects a relationship he is offering up. Then ask the question his email leaves open: Birbas reviewed the whole package and chose to refer rather than invest, and nobody has asked why. That answer is worth having before the next deal goes to them. Note also what the referral implies - 'typically prefer to provide the majority of the equity' is Birbas reading this as a single-LP deal, which is exactly how it is being marketed.",
+  "action": "THEY WANT TO INTRODUCE A FIRM THAT HAS ALREADY PASSED. Birbas took the full package on 30 October, held the call on 4 November, took the updated model and deck, reviewed internally - and came back not as an investor but as a referrer, proposing Eastham Capital. Eastham is already on this board: Brian Hertig passed, and his second note is one of the sharpest objections in the file - their IC values the exit off projected effective rent rather than a cap rate and will not accept the rent multiple expanding from 7.6x going in to 9.6x out. So the answer to Zak is not simply yes. Tell him Eastham has seen it and passed, and on what grounds; that is more useful to him than a blind introduction and it protects a relationship he is offering up. Then ask the question his email leaves open: Birbas reviewed the whole package and chose to refer rather than invest, and nobody has asked why. That answer is worth having before the next deal goes to them. Note also what the referral implies - 'typically prefer to provide the majority of the equity' is Birbas reading this as a single-LP deal, which is exactly how it is being marketed.  CLOSED 5 Nov 14:32: Zamir answered - 'We know them well and they passed.' So the introduction is headed off before Birbas spent the relationship, which was the live risk on this row. The other half is still unasked: Birbas reviewed this internally and came back with a referral rather than a cheque, and nobody has asked them why.",
   "followup": {
-   "owed": "us",
-   "lastOut": "2026-11-04",
-   "ask": "They want approval to introduce Eastham Capital. Eastham already passed on 28 Oct - tell Zak before he spends the relationship."
+   "owed": "them",
+   "lastOut": "2026-11-05",
+   "ask": "Zamir told Zak that Eastham already passed. Still open: why Birbas referred rather than invested."
   },
   "has": "package"
  },
@@ -1977,11 +1983,11 @@
    "co-gp-structure"
   ],
   "heat": 5,
-  "action": "The strongest live position on the board. Kevin sent the full package on 30 Oct; Nick Burk, the SVP, came back on 4 Nov saying they are digging in and will return this week with questions and requests, and he put a number on it unprompted: $2M minimum per project with flex to $4M, taken as co-GP rather than LP. Two things follow. First, this is the only group in 184 replies that has named a cheque size without being asked, and $2-4M is 17-34% of the raise. Second, co-GP is a different seat from the one being marketed - it sits beside the GP's $1.3M, shares promote and likely wants approval rights, so it is not a straight fill against the $11.77M LP stack and Zamir has to decide what he is willing to give up before the questions arrive. Nick's own framing is the useful part: he thinks a committed co-GP cheque gives ZMR pricing power with the LPs, which is the first time anyone in this raise has offered leverage rather than asked for it. Prepare the answers now - the model errors Zairick found are fixed, so send the corrected numbers (20.9%/2.27x deal-level, 17.1%/1.97x LP net) rather than letting them underwrite the superseded set that went out with the package. Cheng, Nick and Ryan Snaguski are all on the thread.",
+  "action": "The strongest live position on the board. Kevin sent the full package on 30 Oct; Nick Burk, the SVP, came back on 4 Nov saying they are digging in and will return this week with questions and requests, and he put a number on it unprompted: $2M minimum per project with flex to $4M, taken as co-GP rather than LP. Two things follow. First, this is the only group in 184 replies that has named a cheque size without being asked, and $2-4M is 17-34% of the raise. Second, co-GP is a different seat from the one being marketed - it sits beside the GP's $1.3M, shares promote and likely wants approval rights, so it is not a straight fill against the $11.77M LP stack and Zamir has to decide what he is willing to give up before the questions arrive. Nick's own framing is the useful part: he thinks a committed co-GP cheque gives ZMR pricing power with the LPs, which is the first time anyone in this raise has offered leverage rather than asked for it. Prepare the answers now - the model errors Zairick found are fixed, so send the corrected numbers (20.9%/2.27x deal-level, 17.1%/1.97x LP net) rather than letting them underwrite the superseded set that went out with the package. Cheng, Nick and Ryan Snaguski are all on the thread.  5 Nov 19:19: Cheng Chen came back on Zamir's 07:35 chase - 'Sure thing, Zamir. What time works best next week?' So the call is agreed in principle and the only thing missing is a slot from our side. Worth going in with the co-GP question settled: Clairmont has been clear they want co-GP economics and this raise is an LP cheque, so either Zamir is willing to carve that or the call should say so early.",
   "followup": {
-   "owed": "them",
+   "owed": "us",
    "lastOut": "2026-11-05",
-   "ask": "They said they would come back this week with questions. Note they want co-GP, which is not what this raise needs."
+   "ask": "Cheng Chen asked \"What time works best next week?\" at 19:19. Name a time. Note they want co-GP, which is not what this raise needs."
   },
   "has": "package"
  },
@@ -3317,14 +3323,14 @@
   "stage": "materials",
   "ts": "2026-11-05T15:22:15Z",
   "quote": "Zamir, apologies I missed this. Please send materials. Do you have time tomorrow at 1130am et? Cc'ing Grant on my team.",
-  "action": "Both asks in one line - materials and a specific slot at 11:30am ET tomorrow - and he brought Grant onto the thread himself. That is the most complete first reply of the day: no objection, no qualification, a named time and a colleague assigned. Two things to do before tomorrow morning and neither is optional: get the package out today so he is not reading it in the meeting, and confirm 11:30 explicitly rather than assuming. He apologised for missing the earlier note, which means the chase is what produced this - a point worth remembering against the instinct to stop at two follow-ups.  UPDATE 5 Nov 15:27: answered five minutes later. Zamir could not do 11:30 - 'I have a call then any other times that work for you?' - looped in Kevin, Chip and Mike Regan and asked Kevin to send the materials. So the ball is back with Levy on timing, but the package is only as good as Kevin's follow-through: it is requested internally, not confirmed sent. That distinction is why this row reads 'pending' rather than 'package'. Watch it - a materials request that dies in an internal handoff is exactly how HIG cooled.",
+  "action": "Both asks in one line - materials and a specific slot at 11:30am ET tomorrow - and he brought Grant onto the thread himself. That is the most complete first reply of the day: no objection, no qualification, a named time and a colleague assigned. Two things to do before tomorrow morning and neither is optional: get the package out today so he is not reading it in the meeting, and confirm 11:30 explicitly rather than assuming. He apologised for missing the earlier note, which means the chase is what produced this - a point worth remembering against the instinct to stop at two follow-ups.  UPDATE 5 Nov 15:27: answered five minutes later. Zamir could not do 11:30 - 'I have a call then any other times that work for you?' - looped in Kevin, Chip and Mike Regan and asked Kevin to send the materials. So the ball is back with Levy on timing, but the package is only as good as Kevin's follow-through: it is requested internally, not confirmed sent. That distinction is why this row reads 'pending' rather than 'package'. Watch it - a materials request that dies in an internal handoff is exactly how HIG cooled.  SENT 5 Nov 15:43: Kevin's package went out - model, deck, T12, rent roll. The handoff did not die this time, which is the thing to note: sixteen minutes from Zamir's ask to Kevin's send. The slot is still open though - Zamir declined 11:30 and asked for other times without naming any, so if Levy does not come back with one, that silence is on us.",
   "tags": [],
   "heat": 5,
-  "has": "pending",
+  "has": "package",
   "followup": {
    "owed": "them",
    "lastOut": "2026-11-05",
-   "ask": "Zamir declined 11:30 (\"I have a call then\") and asked for other times; Kevin asked to send. Their move on the slot."
+   "ask": "Kevin sent the full package at 15:43. Zamir still owes Levy alternative times after declining 11:30."
   }
  },
  {
@@ -3336,14 +3342,14 @@
   "stage": "meeting",
   "ts": "2026-11-05T17:29:31Z",
   "quote": "Thanks, Josh - moving you to BCC. Zamir - would be great to connect. Let me know if you have any time tomorrow or early next week to connect",
-  "action": "The handoff landed and converted inside two hours. Josh Katzin passed the thread to Sam Levy, VP of Investments, who moved Katzin to BCC - a small courtesy that signals he is taking ownership rather than being copied in - and asked for time tomorrow or early next week. No objection, no qualification, just a meeting request. Offer two slots rather than asking what works; he gave a range and the side that proposes times usually gets the earlier one. Worth noting the mechanism: the original contact had left the firm, and instead of the hard bounce that has killed a dozen rows on this list, a colleague routed it to the right person. That is what a live relationship at a firm looks like versus a stale address, and it argues for a human follow-up on the departed-contact rows rather than simply deleting them.  UPDATE 5 Nov 17:32: answered in three minutes - 'Hey Sam great to meet. Does 12pm ET work for you tomorrow? Kevin would you mind sending updated materials/full package?' A slot proposed and the package requested internally. Two live dependencies: Sam confirming noon, and Kevin actually sending. The row shows 'pending' until the materials are confirmed out.",
+  "action": "The handoff landed and converted inside two hours. Josh Katzin passed the thread to Sam Levy, VP of Investments, who moved Katzin to BCC - a small courtesy that signals he is taking ownership rather than being copied in - and asked for time tomorrow or early next week. No objection, no qualification, just a meeting request. Offer two slots rather than asking what works; he gave a range and the side that proposes times usually gets the earlier one. Worth noting the mechanism: the original contact had left the firm, and instead of the hard bounce that has killed a dozen rows on this list, a colleague routed it to the right person. That is what a live relationship at a firm looks like versus a stale address, and it argues for a human follow-up on the departed-contact rows rather than simply deleting them.  UPDATE 5 Nov 17:32: answered in three minutes - 'Hey Sam great to meet. Does 12pm ET work for you tomorrow? Kevin would you mind sending updated materials/full package?' A slot proposed and the package requested internally. Two live dependencies: Sam confirming noon, and Kevin actually sending. The row shows 'pending' until the materials are confirmed out.  BOOKED 5 Nov 19:54: Sam Levy - 'Great - chat soon. Just circulated an invite' - with the Teams invite attached. The call is 1PM PT Monday 9 Nov; Levy had offered 1-3PM PT and Zamir took the top of it. Kevin's package went at 15:04 - model, deck, T12 and rent roll - so this row is fully served and the meeting is real. ONE WARNING BEFORE THAT CALL: Levy was sent two different return sets inside ninety minutes on this same thread. Zamir's 07:25 note says 21.1% / 2.30x / 9.0% on a 5.94% coupon, $11.77M, comps 6.6 miles away. Kevin's 10:04 package says 20.9% deal-level / 2.27x (17.1% / 1.97x LP net), 9.4% / 7.1% stabilized, 5.58% coupon, $11.73M, comps 5.7 miles away. That is a fourth number set in the market and the first time an LP-net figure has gone out at all. Pick one before Monday and open with it, because an analyst who reads both will ask.",
   "tags": [],
   "heat": 4,
-  "has": "pending",
+  "has": "package",
   "followup": {
    "owed": "them",
    "lastOut": "2026-11-05",
-   "ask": "Zamir offered 12pm ET tomorrow and asked Kevin for the full package. Waiting on Sam to confirm."
+   "ask": "BOOKED: 1PM PT Monday 9 Nov with Sam Levy, Teams invite circulated. Package confirmed sent 15:04. Read the number-set warning in the notes before the call."
   }
  },
  {
@@ -3433,14 +3439,14 @@
   "stage": "materials",
   "ts": "2026-11-05T16:33:47Z",
   "quote": "Zamir, Please send me the full package and I will give you my thoughts on our interest.",
-  "action": "A clean materials request with a promise attached - he will come back with a view on their interest, which is more than most package requests offer. Sabin runs GSSW Real Estate Investments out of Dallas for Americo, an insurance group, so this is balance-sheet money rather than a fund with a cycle, and insurance capital is the one pool that has been largely absent from this raise. Send the package today while the request is warm. One note for the Dallas column: Sabin is the third Texas-based reader this week, and unlike Alpaca and Artisan he has not said anything about geography - he asked to see the deal. Worth watching whether he comes back on the submarket like the others did.  NOTE on sequencing: Zamir's chase went at 15:37:52, Sabin's package request at 16:33:47 - the chase came first, so the request is unanswered. Nothing has been sent.",
+  "action": "A clean materials request with a promise attached - he will come back with a view on their interest, which is more than most package requests offer. Sabin runs GSSW Real Estate Investments out of Dallas for Americo, an insurance group, so this is balance-sheet money rather than a fund with a cycle, and insurance capital is the one pool that has been largely absent from this raise. Send the package today while the request is warm. One note for the Dallas column: Sabin is the third Texas-based reader this week, and unlike Alpaca and Artisan he has not said anything about geography - he asked to see the deal. Worth watching whether he comes back on the submarket like the others did.  NOTE on sequencing: Zamir's chase went at 15:37:52, Sabin's package request at 16:33:47 - the chase came first, so the request is unanswered. Nothing has been sent.  SENT 5 Nov 18:05: Kevin's package is confirmed in the record - 'our latest underwriting model, updated to reflect our tax consultant's report and the recent movement in Treasuries', plus the deck, T12 and rent roll, with Mike Regan and Chip copied. Ninety minutes from request to delivery. Sabin said he would come back with a view, so this is now his move.",
   "tags": [],
   "heat": 4,
-  "has": "teaser",
+  "has": "package",
   "followup": {
-   "owed": "pkg",
+   "owed": "them",
    "lastOut": "2026-11-05",
-   "ask": "Asked for the full package and promised a view. Send it today."
+   "ask": "Kevin sent the full package at 18:05 - model, deck, T12, rent roll. Sabin promised a view. Their move."
   }
  },
  {
@@ -3554,5 +3560,20 @@
   "action": "Two words in the subject line, nothing in the body, answered about nine hours after a send that went out at 09:47 this morning. Worth noting the mechanics: it came back to zamir@zmrcapitalgo.com, one of the GMass alias domains, which means this is blast traffic rather than a named approach, and the Spanish-language quoting ('El 5/11/2026, a las 9:47 am, Zamir Kazi escribio') confirms a Colombian wealth-management house reading a cold English-language US multifamily pitch. He does not ask to be removed, so this is a pass and not a suppression - but the capitals are a signal. On a list where tone is the only early warning of a complaint, this is the one worth not mailing a third time.",
   "tags": [],
   "heat": 1
+ },
+ {
+  "firm": "Impex Capital Group",
+  "person": "Michael D. Munshi",
+  "title": "Chief Revenue Officer",
+  "email": "michael.munshi@impexcapitalgroup.com",
+  "channel": "direct",
+  "stage": "conditional",
+  "ts": "2026-11-05T19:47:04Z",
+  "quote": "We do not typically accept LP equity raise requests unless we're involved in the loan guarantee portion.",
+  "action": "Read this as a decline with a named door rather than interest. Impex is a Houston shop on Westheimer whose business is credit enhancement, and Munshi's first question back was the tell - 'Is Impex needed for a loan guarantee/credit enhancement for the debt?' Zamir answered straight ('No we are looking for common equity on this, is that something you'd guys would do?') and got the mandate line in six minutes. The door is real though: this deal carries a $23.8M agency loan that needs a balance-sheet guarantor for the non-recourse carveouts, and Zamir had already written on 3 Nov that he is flexible - 'straight LP, co-GP, or something in between' - and open to paying a fee. If ZMR wants Impex, the ask is a KP / guarantor role with equity attached, not an LP cheque. The row sits as conditional for exactly that reason and for no other; left alone it is a no. Worth noting this was a warm thread - Zamir reopened an August conversation about Impex's own disposition plans and the Grand at Stone Creek, and that half is still unanswered.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 2
  }
 ]
