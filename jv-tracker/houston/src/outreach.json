@@ -2467,6 +2467,17 @@
    "also": [],
    "sent": "2026-11-03",
    "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "CC Trust",
+   "person": "Silvan Freiheit",
+   "email": "sfreiheit@cctrust.ch",
+   "also": [
+    "pschnieper@cctrust.ch"
+   ],
+   "sent": "2026-10-27",
+   "outcome": "replied"
   }
  ],
  "carveouts": [
