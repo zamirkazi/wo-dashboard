@@ -3513,5 +3513,20 @@
    "strategy-mismatch"
   ],
   "heat": 1
+ },
+ {
+  "firm": "Spear Street Capital",
+  "person": "John Grassi",
+  "title": null,
+  "email": "jgrassi@spearstreetcapital.com",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-05T17:51:14Z",
+  "quote": "We're an office company.",
+  "action": "Four words, and they close the file. Spear Street is a San Francisco manager that buys and repositions office - that is the whole firm, not a sleeve of it - so multifamily was never going to land however the numbers read. Worth noting what it cost to learn that: the original 30 October note, a 2 November follow-up ('would love to talk through the deal if it's of interest'), and a third chase this morning at 07:22 asking for a call, before Grassi answered at 11:51 ET. Three touches to a firm whose mandate the list should have screened out. No tag, no nurture, no reason to re-approach on a Houston garden deal - but the reply itself is civil and the name is worth keeping for anything office-adjacent.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
  }
 ]
