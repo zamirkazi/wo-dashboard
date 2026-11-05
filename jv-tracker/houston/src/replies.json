@@ -1257,20 +1257,20 @@
  },
  {
   "firm": "Corebridge Financial",
-  "person": "Matt Kordsmeier (VP, Investments) / James \"Buster\" Black",
+  "person": "Matt Kordsmeier / Patrick Curran / James \"Buster\" Black",
   "title": "Vice President, Investments - Corebridge Real Estate Investors",
   "email": "james.black@corebridgefinancial.com",
   "channel": "direct",
-  "stage": "materials",
-  "ts": "2026-11-04T15:20:31Z",
-  "quote": "Looks really interesting and we're jumping on it. Do you have time this afternoon between 3-4:30pm ET this afternoon to hop on a quick call? Also, can you please share any additional DD materials you have to this Box.com folder I created (let me know if I need to provide access to anyone else on your side)?",
-  "action": "THE DEEPEST DATA ROOM ANY PARTY HAS, AND IT CLOSED IN ONE DAY. Buster Black passed on 28 October, Zamir kept the relationship alive with a call on 2 November, Black forwarded it internally on 3 November, and Kordsmeier came back on 4 November at 10:20 ET with 'looks really interesting and we're jumping on it', a call slot and a Box folder. Zamir's reply granting access was blocked by the Gmail send limit and never went - but it did not cost the deal, because Kordsmeier added Kevin to the chain himself at 15:07 and sent him the Box invite directly. Kevin uploaded at 16:42: latest model, deal presentation, rent roll and T12, debt quotes, tax consultant report and RealAdvice report, insurance quote, RPM proforma, rent and sale comps, expense comps, AR / concession / trade-out reports, and the resident demographics report. Kordsmeier confirmed receipt at 22:33 - 'we will let you know if we need anything else.' Two things follow. This is now the most advanced conversation in the file by a distance, and it is a reversal of a written pass, which is the single best argument on this board for working a no rather than filing it. And every objection the other readers raised is now sitting in front of a buyer with the documents to test it: the demographics report that stopped ABR, the concession report Manglar asked for, the exit multiple Eastham rejected, and the yield-on-cost denominator Zairick flagged. Expect their questions to land on those.",
+  "stage": "question",
+  "ts": "2026-11-05T17:14:27Z",
+  "quote": "Kevin and ZMR team, Do you all happen to have cap rate information for the sales comps in the image below?",
+  "action": "Their analyst is now in the file and asking for cap rates on the sales comps - the first substantive diligence question since the data room went over, and it arrived within twenty-four hours of the upload. Patrick Curran is a Senior Analyst, which means the deal is being worked rather than skimmed, and he has gone to the trouble of clipping the comp table out of the deck. Four Corebridge people are now on the thread. Answer it fast and answer it carefully, because this is the exact seam where the file is thin: Texas is a non-disclosure state, prices on several of those comps are not public, and the two nearest trades were sold by Walker & Dunlop, who are also the listing broker here. Say plainly which cap rates are derived versus reported, and from what. A confident number that cannot be sourced is worse than 'these are brokered estimates, here is the NOI basis'. Artisan's parting line - that similar basis exists in better Houston locations - is the shadow over this question, so the comp answer needs to be airtight.",
   "tags": [],
   "heat": 5,
   "followup": {
-   "owed": "them",
+   "owed": "us",
    "lastOut": "2026-11-04",
-   "ask": "Kevin uploaded the full DD set to their Box at 16:42; Kordsmeier confirmed 22:33. Their move."
+   "ask": "Patrick Curran wants cap rates on the sales comps. Answer today - this is their first real diligence question."
   },
   "has": "dd"
  },
@@ -1600,24 +1600,24 @@
  },
  {
   "firm": "Oaktree Capital Management",
-  "person": "Jared Lazarus",
+  "person": "Chris Ahn / Jared Lazarus",
   "title": "Real Estate",
   "email": "jlazarus@oaktreecapital.com",
-  "stage": "reviewing",
-  "ts": "2026-10-30T13:34:01Z",
-  "quote": "Copying Chris in our office since Will is no longer with Oaktree. Seems like an interesting basis but might be too small for us. Happy to take a quick look.",
+  "stage": "meeting",
+  "ts": "2026-11-05T16:12:28Z",
+  "quote": "Thanks Kevin. Are you free for a call later today to discuss? I'm wide open this afternoon (outside of 230PM PT) before 4PM PT.",
   "tags": [
    "check-too-small"
   ],
-  "heat": 3,
-  "action": "Oaktree flagged the size risk and offered to look anyway, which is better than it sounds from a manager of that scale - 'seems like an interesting basis' is the basis argument landing with a reader who sees everything. Chris Ahn is now copied and is the name to work; Will has left Oaktree, so correct that on the master list. Send the package without waiting to be asked again and lead with the basis, since that is the thing he reacted to. Treat the size caveat as real - this is the fifth size pass or size flag of the morning - but a 'quick look' from Oaktree costs nothing to feed.",
+  "heat": 5,
+  "action": "THE NO-PACKAGE ROW CONVERTED THE DAY THE PACKAGE WENT. Oaktree sat at 'teaser only' on this board for six days after Jared Lazarus said he was happy to take a quick look; Kevin sent the materials and Chris Ahn - the name Lazarus routed it to when Will Beischer left - came back asking for a call the same afternoon, with Caroline Paul added to the thread. Three people from Oaktree now on it. Take the slot today: he named a window, wide open before 4PM PT outside 2:30, and a same-day answer is what keeps a desk this size engaged. Carry one thing into the call that the file already knows: Lazarus's first reaction was 'might be too small for us', and nothing about the $11.77M ask has changed since. Ahn asking for a call anyway means either the basis is interesting enough to stretch for, or they are sizing up ZMR rather than this asset. Find out which in the first five minutes and pitch accordingly. This is also the single cleanest argument on the board for clearing the no-package queue: the row went from cold to a same-day call request on the strength of sending what was asked for.",
   "channel": "peblast",
   "followup": {
-   "owed": "pkg",
-   "lastOut": "2026-10-30",
-   "ask": "Jared said \"happy to take a quick look\" on 30 Oct and has had nothing but the teaser since. Send the package to him and Chris Ahn. Do NOT use WBeischer@ - Will has left Oaktree."
+   "owed": "us",
+   "lastOut": "2026-11-05",
+   "ask": "Chris Ahn is wide open this afternoon before 4PM PT, outside 2:30. Take a slot today."
   },
-  "has": "teaser"
+  "has": "package"
  },
  {
   "firm": "Adler Family Office / Lubert Adler",
@@ -3329,21 +3329,21 @@
  },
  {
   "firm": "Eldridge Acre Partners",
-  "person": "Josh Katzin -> Sam Levy",
-  "title": null,
+  "person": "Sam Levy",
+  "title": "Vice President, Investments",
   "email": "joshua.katzin@eldridgeacre.com",
   "channel": "direct",
-  "stage": "referred",
-  "ts": "2026-11-05T15:31:02Z",
-  "quote": "Andrew is no longer here, but copying Sam who can connect with you on this",
-  "action": "A warm internal handoff rather than a bounce - the original contact has left and Katzin put Sam Levy on the thread himself rather than letting the email die. That is worth more than it looks, because the alternative outcome for a departed contact on this list has usually been a hard bounce and a dead row. Sam Levy is now the live address; reply to him directly and treat it as a fresh first contact, since he has seen only whatever was in the forwarded chain. Update the roster: Andrew's address at eldridgeacre.com is dead and should come off before the next wave.",
+  "stage": "meeting",
+  "ts": "2026-11-05T17:29:31Z",
+  "quote": "Thanks, Josh - moving you to BCC. Zamir - would be great to connect. Let me know if you have any time tomorrow or early next week to connect",
+  "action": "The handoff landed and converted inside two hours. Josh Katzin passed the thread to Sam Levy, VP of Investments, who moved Katzin to BCC - a small courtesy that signals he is taking ownership rather than being copied in - and asked for time tomorrow or early next week. No objection, no qualification, just a meeting request. Offer two slots rather than asking what works; he gave a range and the side that proposes times usually gets the earlier one. Worth noting the mechanism: the original contact had left the firm, and instead of the hard bounce that has killed a dozen rows on this list, a colleague routed it to the right person. That is what a live relationship at a firm looks like versus a stale address, and it argues for a human follow-up on the departed-contact rows rather than simply deleting them.",
   "tags": [],
-  "heat": 3,
+  "heat": 4,
   "has": "teaser",
   "followup": {
    "owed": "us",
    "lastOut": "2026-11-05",
-   "ask": "Sam Levy (sam.levy@eldridgeacre.com) was handed the thread. Write to him."
+   "ask": "Sam Levy asked for time tomorrow or early next week. Offer slots - and write to sam.levy@eldridgeacre.com."
   }
  },
  {
@@ -3401,6 +3401,115 @@
   "action": "Two disqualifiers in one sentence, and both are structural. They develop rather than acquire, so a three-year-old stabilised asset is the wrong product entirely; and their JV equity cheques run $75-150M against an $11.77M ask, so this is roughly a tenth of their minimum. Henry Lange and Brandt Foster were copied, so it is the house position. This is the clearest check-too-large reply in the file and it is useful calibration: the institutional names near the top of the equity list are mostly unreachable at this cheque size, which is the same wall Oaktree and PIMCO represent. The list needs a size screen before the next wave, not just an exclusion-tab screen.",
   "tags": [
    "check-too-large",
+   "strategy-mismatch"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "CFG Bank",
+  "person": "Ken Assiran",
+  "title": "Managing Director",
+  "email": "kassiran@cfg.bank",
+  "channel": "direct",
+  "stage": "meeting",
+  "ts": "2026-11-05T16:27:38Z",
+  "quote": "Hi Zamir, Would 3:30 work today?",
+  "action": "A Managing Director offering a slot for this afternoon, six words, no preamble. CFG Bank is a Baltimore lender, so go into this one clear-eyed about what is on the table: the likeliest read is debt or a balance-sheet conversation rather than the LP cheque, and the agency loan is already quoted and buydown-priced. That does not make the call a waste - a bank MD who answers in minutes is worth knowing, and if the pref question ever gets answered there is a version of this conversation that matters - but do not spend the call pitching common equity to a lender. Ask what they do on the equity side before you present. Confirm 3:30 today or it evaporates.",
+  "tags": [],
+  "heat": 4,
+  "has": "teaser",
+  "followup": {
+   "owed": "us",
+   "lastOut": "2026-11-05",
+   "ask": "He offered 3:30 TODAY. Confirm or counter now."
+  }
+ },
+ {
+  "firm": "Americo / GSSW Real Estate",
+  "person": "Thomas W. Sabin Jr.",
+  "title": null,
+  "email": "tom.sabin@americo.com",
+  "channel": "direct",
+  "stage": "materials",
+  "ts": "2026-11-05T16:33:47Z",
+  "quote": "Zamir, Please send me the full package and I will give you my thoughts on our interest.",
+  "action": "A clean materials request with a promise attached - he will come back with a view on their interest, which is more than most package requests offer. Sabin runs GSSW Real Estate Investments out of Dallas for Americo, an insurance group, so this is balance-sheet money rather than a fund with a cycle, and insurance capital is the one pool that has been largely absent from this raise. Send the package today while the request is warm. One note for the Dallas column: Sabin is the third Texas-based reader this week, and unlike Alpaca and Artisan he has not said anything about geography - he asked to see the deal. Worth watching whether he comes back on the submarket like the others did.",
+  "tags": [],
+  "heat": 4,
+  "has": "teaser",
+  "followup": {
+   "owed": "pkg",
+   "lastOut": "2026-11-05",
+   "ask": "Asked for the full package and promised a view. Send it today."
+  }
+ },
+ {
+  "firm": "PCP Real Estate",
+  "person": "Brendan Orient",
+  "title": null,
+  "email": "borient@pcpre.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-05T16:16:37Z",
+  "quote": "Unfortunately, I don't think this one will be a fit for us. Our fund is nearing its full allocation in Houston, so we're being extremely selective on any additional opportunities.",
+  "action": "The textbook version of the objection this whole board was built around, and worth recording precisely because it is the cleanest statement of it in the file: the fund is nearing full allocation in Houston, so the bar for anything further is extreme. Nothing about the basis, the vintage, the submarket or the returns - they are simply out of room. That is a different failure from Artisan's (wrong submarket) and from Alpaca's (wrong city within Texas), and keeping the three distinct matters: exposure-capped buyers come back when a position sells, submarket objections do not resolve at all for this asset. Steve Mastor was copied, so it is the firm's position. Diary them for the next Houston deal rather than the next deal.",
+  "tags": [
+   "houston-exposure"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "Raith Capital Partners",
+  "person": "Sahil Amin",
+  "title": null,
+  "email": "sahil.amin@raithcapital.com",
+  "channel": "direct",
+  "stage": "relationship",
+  "ts": "2026-11-05T16:15:48Z",
+  "quote": "Hey - sorry for delay. I'm heading out in 1.5 weeks to get married, so mostly dealing with wedding stuff. That's going to make this tough for us. Let's circle up in January 2027 when I'm back.",
+  "action": "Not a pass on the deal - a pass on the calendar. He is getting married in a week and a half and has named January 2027 to pick it up again, which is after this closes. Nothing to do and nothing to read into it about Houston or the basis. Two practical notes: send congratulations rather than a chase, because a warm two-line reply now is worth more than anything else available here; and put a January reminder against the name, since he set the date himself and will expect the follow-up. File with the timing group alongside Caliber and Cambiata - three rows this week lost to timing rather than to the asset.",
+  "tags": [],
+  "heat": 2
+ },
+ {
+  "firm": "Groupe Artémis",
+  "person": "Alexandra d'Angerville",
+  "title": null,
+  "email": "adangerville@groupeartemis.com",
+  "channel": "familyoffice",
+  "stage": "pass",
+  "ts": "2026-11-05T16:23:13Z",
+  "quote": "This opportunity does not align with our strategic priorities so we will pass on this one. Thank you again for thinking of Artémis and best of luck with the next steps.",
+  "action": "A courteous strategic pass from the Pinault family's holding company in Paris. 'Does not align with our strategic priorities' is a mandate statement and 'on this one' is the only softness in it. Artémis holds Kering, Christie's and Puma - US garden multifamily was never within a plausible distance of what they do, and the useful conclusion is about the list rather than the deal. The European slice keeps producing polite scope passes from operating holding companies, which is the signature of a universe assembled from a generic family-office database rather than a real-estate screen. Count it alongside A.P. Møller, Excession, KKCG and Gardner Standard.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "Randall Capital Group",
+  "person": "Najoi Jabali (for Mr. Randall)",
+  "title": null,
+  "email": "naj@randallcapitalgroup.com",
+  "channel": "direct",
+  "stage": "relationship",
+  "ts": "2026-11-05T16:21:46Z",
+  "quote": "Mr. Randall appreciates you sending this over and asks you to continue to do so in case one comes up that he might be interested in. He will pass on this one.",
+  "action": "A pass on this deal paired with an explicit standing request for the next one - relayed by his assistant, which means Randall read it and dictated a reply rather than ignoring it. No reason given, so there is nothing to learn about the asset, but 'continue to do so' is a rare and valuable thing on a cold list: an open invitation from a principal to keep sending. Make sure the roster records that as a positive flag rather than filing the row as a dead pass, because the one risk here is that a suppression sweep treats this like any other no and drops him. He should be on the next deal's first wave.",
+  "tags": [],
+  "heat": 2
+ },
+ {
+  "firm": "Corinthian Capital",
+  "person": "C. Kenneth Clay",
+  "title": null,
+  "email": "kclay@corinthiancap.com",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-05T17:08:39Z",
+  "quote": "Thanks for the outreach and the follow up. Looks like an attractive deal, but we don't do real estate transactions. Separately, John Hughes is no longer with the firm.",
+  "action": "Out of scope - Corinthian is a private equity firm that does not do real estate - but he called the deal attractive on the way out, which is the pattern that recurs through this whole file: readers who cannot buy it still like the look of it. The operational content is the second sentence. John Hughes has left the firm, and Clay volunteered that unprompted, so the roster should retire that address now rather than waiting for a bounce. That is the second departure surfaced today after Eldridge Acre's, both found by replying humans rather than by the bounce log - which is an argument for reading the replies rather than only the mailer-daemon output.",
+  "tags": [
    "strategy-mismatch"
   ],
   "heat": 1
