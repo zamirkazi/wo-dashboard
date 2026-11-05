@@ -3215,5 +3215,52 @@
    "strategy-mismatch"
   ],
   "heat": 1
+ },
+ {
+  "firm": "Grupo Inversiones Consolidadas (GIC)",
+  "person": "Cecilia Colmenarez / Matias Lyon",
+  "title": "VP Real Estate / Portfolio Manager, real estate vertical",
+  "email": "ccolmenarez@ic.cl",
+  "channel": "familyoffice",
+  "stage": "reviewing",
+  "ts": "2026-11-05T09:34:06Z",
+  "quote": "First, I would like to introduce Matias Lyon, our portfolio manager who is heading the real estate vertical within the FFOO. We will review the information shared and revert with you if/when questions arise.",
+  "action": "A Santiago family office that answered by putting its real-estate portfolio manager on the thread - the most substantive thing a first reply can do short of asking for the model. Colmenarez is VP of Real Estate at Grupo Inversiones Consolidadas and she has brought in Matias Lyon, who runs the real estate vertical, with Rodrigo Swett also copied. Three people from one house inside twenty-two hours of a cold email is a real internal routing, not a courtesy. The gap to close is what they are reviewing: they have the bullet email and nothing else, because the 4 November wave carried no attachment and the line in it was 'happy to send full package if you're interested'. They did not ask, but they are about to spend time on a summary when the model, deck and debt matrix exist - send the package now rather than waiting to be asked, the way Oaktree and Basis were left waiting. Two cautions. Lyon's address is lithiumcm.com, not ic.cl, so reply-all rather than to Cecilia alone or he drops off the thread. And the footer carries a Ley 20.393 compliance notice requiring corporate addresses only - keep everything on zmrcapital.com, which also means not routing this one through a GMass alias domain. They saw the 21.1% / 5.94% set.",
+  "tags": [],
+  "heat": 3,
+  "has": "teaser",
+  "followup": {
+   "owed": "pkg",
+   "lastOut": "2026-11-04",
+   "ask": "Reviewing off the bullet email alone. Send the package to Cecilia, Matias Lyon (lithiumcm.com) and Rodrigo Swett."
+  }
+ },
+ {
+  "firm": "KKCG",
+  "person": "Martin Vršanský",
+  "title": null,
+  "email": "martin.vrsansky@kkcg.com",
+  "channel": "familyoffice",
+  "stage": "outofscope",
+  "ts": "2026-11-05T09:51:30Z",
+  "quote": "Thank you for reaching out to us with the opportunity. Unfortunately, it falls outside our current investment scope, so we will not be pursuing it further.",
+  "action": "A scope pass from the Czech investment group, answered promptly and for the house with Kamil Zeman copied. No reference to Houston, the basis or the return - this is a mandate statement, and 'will not be pursuing it further' closes it rather than leaving it ajar. Nothing to re-pitch and nothing to learn about the deal. Worth noting only as another data point on the European slice of the list: KKCG is an operating investment group rather than a US real-estate LP, so the fit was never likely.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "Cambiata",
+  "person": "Myriam Burger",
+  "title": null,
+  "email": "m.burger@cambiata.ch",
+  "channel": "familyoffice",
+  "stage": "pass",
+  "ts": "2026-11-05T09:30:19Z",
+  "quote": "Many thanks for your email and the update. At the moment, this opportunity isn't one of our priorities but thank you for reaching out and please let us come back to you if the situation changes.",
+  "action": "A Swiss pass with the door deliberately left open - 'at the moment', 'if the situation changes', and an explicit invitation to be contacted again. No objection to anything in the deal; this is a priorities and timing answer, which is the softest kind of no in the file and the kind worth re-approaching on a different asset rather than pressing on this one. She also calls the email 'the update', which suggests she had read an earlier send, so Cambiata has been tracking rather than ignoring. File with the timing-revisit group.",
+  "tags": [],
+  "heat": 1
  }
 ]

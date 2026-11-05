@@ -2434,6 +2434,39 @@
    "sent": "2026-11-04",
    "outcome": "replied",
    "note": "Reached via GMass alias domain zmrcapitalmy.com, not zmrcapital.com."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Grupo Inversiones Consolidadas (GIC)",
+   "person": "Cecilia Colmenarez",
+   "email": "ccolmenarez@ic.cl",
+   "also": [
+    "rswett@ic.cl",
+    "ewaugh@ic.cl"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Santiago. Brought in Matias Lyon (mlyon@lithiumcm.com), PM for the real estate vertical. Ley 20.393 - corporate addresses only."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "KKCG",
+   "person": "Martin Vrsansky",
+   "email": "martin.vrsansky@kkcg.com",
+   "also": [
+    "kamil.zeman@kkcg.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Cambiata",
+   "person": "Myriam Burger",
+   "email": "m.burger@cambiata.ch",
+   "also": [],
+   "sent": "2026-11-03",
+   "outcome": "replied"
   }
  ],
  "carveouts": [
