@@ -964,18 +964,15 @@
   "title": null,
   "email": "greg@artisancp.com",
   "channel": "direct",
-  "stage": "materials",
-  "ts": "2026-10-29T02:22:12Z",
-  "quote": "Zamir, hope all is well brother, can we get the raw T12 and RR?",
-  "action": "Eight days after Greg Khodara said \"we'll dig right in,\" Mina Roufail came back herself and asked for the raw T12 and rent roll - not the flyer, not the model, the underlying operating statement and the lease-by-lease. That is the request of someone building their own numbers rather than reading ours, and she is the one who does the work at Artisan; Greg wrote the courtesy, she is writing the underwriting. Zamir answered twelve minutes later and asked Kevin to send it, with Chip and Mike Regan copied, so the ball is in Kevin's court and the only thing to watch is that it actually goes out. Two cautions on what we hand over. The rent roll will show the 94.8% leased figure against the concession picture - 3.7% of GPR on the T12 falling to 2.6% on the T3 - and Manglar has separately asked for the current advertised concessions and the unit count they apply to, so the same answer should be consistent across both. Second, Greg's February objection was size ('his deals are above our thresholds'); at $11.77M this is the first one that clears it, and Newmark's Ricky Warner put Artisan at the majority of the GP check plus roughly 75% of the LP on their joint deal, so capacity here is well above their own $3-7M. Worth asking for the call once the data lands.",
-  "tags": [],
-  "heat": 5,
-  "followup": {
-   "owed": "them",
-   "lastOut": "2026-10-29",
-   "ask": "Kevin DID send the T12 and rent roll on 29 Oct - that open item is closed. Six days of silence since."
-  },
-  "has": "dd"
+  "stage": "pass",
+  "ts": "2026-11-05T00:03:31Z",
+  "quote": "We do agree that this is a very solid basis, however we cannot get too comfortable with this micro location. We have seen similar basis' on similar products in better locations in Houston. We do like Houston and have investments in Houston, and are looking for more. Generally we are a pass on the Pasadena area.",
+  "action": "THE MOST IMPORTANT PASS ON THIS BOARD, AND IT BREAKS THE HOUSTON THESIS. Artisan held the deepest file of any firm bar Corebridge - raw T12 and rent roll on 29 October, the re-underwritten model and the debt matrix the same morning - and took a week to answer. The answer dismantles the framing the whole page is built on. They like Houston. They own Houston. They are actively looking for more Houston. What they will not do is Pasadena, and they say so in those words: 'generally we are a pass on the Pasadena area'. So the objection was never the market. It is the micro location, and Houston was only ever the shorthand readers reached for. Worse, they attack the one claim the pitch rests on. The entire basis argument is that $134,921 a door is roughly half of comparable-vintage Houston pricing. Artisan's reply is that they have seen 'similar basis' on similar products in better locations in Houston' - an operating buyer with Houston positions saying the discount is not unique and can be had without the submarket risk. That is a different and harder objection than anything recorded so far, and it earns its own tag. If it is true, the basis stops being a reason to accept Pasadena and becomes a reason to ask why this one is cheap. If it is not true, somebody has to produce the trades that disprove it, because ABR, Manglar, Palatine and now Artisan have all arrived at the same place from different directions. Two firms have now named Pasadena out loud - Palatine on 19 October and Artisan tonight. The relationship is warm and explicitly open for the next deal; the lesson is to lead the next one with the location, not the discount.",
+  "tags": [
+   "submarket-conviction",
+   "basis-not-unique"
+  ],
+  "heat": 2
  },
  {
   "firm": "Halstatt Real Estate Partners",
