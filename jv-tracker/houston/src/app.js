@@ -410,5 +410,55 @@ $('#foot').innerHTML =
   'Generated ' + D.generatedAt + ' · figures restate Kirsh\'s 2 Oct version of the deal. ' + esc(D.deal.note);
 
 /* ---------- boot ---------- */
-function renderAll(){ renderStatus(); renderChannels(); renderQueue(); renderFollow(); renderObjections(); renderLedger(); renderGaps(); }
+// ---- pipeline table ------------------------------------------------------
+const HASLBL = {dd:'Full DD', package:'Package', teaser:'Teaser', broker:'Via broker', unclear:'Unknown'};
+const OWEDLBL = {us:'Us', pkg:'Package', them:'Them', none:'—'};
+let pipeSort = {k:'owed', asc:true};
+function renderPipe(){
+  const rows = D.replies.filter(r => inChan(r) && LIVE.has(r.stage)).map(r => {
+    const f = r.followup || {};
+    return { r, firm:r.firm, stage:D.stageLabel[r.stage]||r.stage, has:r.has||'unclear',
+             heard:days(r.ts.slice(0,10)), sent:f.lastOut ? days(f.lastOut) : null,
+             owed:f.owed || 'none', heat:r.heat||0 };
+  });
+  $('#pipecount').textContent = rows.length;
+  const orank = {us:0, pkg:1, them:2, none:3};
+  const hrank = {dd:0, package:1, teaser:2, broker:3, unclear:4};
+  const k = pipeSort.k, dir = pipeSort.asc ? 1 : -1;
+  rows.sort((a,b) => {
+    let v;
+    if (k === 'owed') v = (orank[a.owed]-orank[b.owed]) || (b.heard-a.heard);
+    else if (k === 'has') v = (hrank[a.has]-hrank[b.has]) || (b.heard-a.heard);
+    else if (k === 'firm') v = a.firm.localeCompare(b.firm);
+    else if (k === 'stage') v = a.stage.localeCompare(b.stage);
+    else if (k === 'sent') v = (b.sent==null?-1:b.sent) - (a.sent==null?-1:a.sent);
+    else v = b[k]-a[k];
+    return v*dir;
+  });
+  const tb = $('#pipe tbody');
+  tb.innerHTML = rows.map(x => {
+    const nd = n => n==null ? '<td class="num">—</td>'
+      : '<td class="num' + (n>=7?' old':'') + '">' + n + 'd</td>';
+    return '<tr' + (x.owed==='us' ? ' class="w-us"' : '') + '>' +
+      '<td><span class="nm">' + esc(x.firm) + '</span>' +
+        '<span class="ps">' + esc(x.r.person || '') + '</span></td>' +
+      '<td>' + esc(x.stage) + '</td>' +
+      '<td><span class="tag h-' + x.has + '">' + HASLBL[x.has] + '</span></td>' +
+      nd(x.heard) + nd(x.sent) +
+      '<td>' + (x.owed==='none' ? '<span class="tag">—</span>'
+        : '<span class="tag o-' + x.owed + '">' + OWEDLBL[x.owed] + '</span>') + '</td>' +
+      '<td class="num">' + x.heat + '</td></tr>';
+  }).join('');
+  document.querySelectorAll('#pipe th').forEach(th => {
+    th.removeAttribute('aria-sort');
+    if (th.dataset.k === k) th.setAttribute('aria-sort', pipeSort.asc ? 'ascending' : 'descending');
+    th.onclick = () => {
+      if (pipeSort.k === th.dataset.k) pipeSort.asc = !pipeSort.asc;
+      else { pipeSort.k = th.dataset.k; pipeSort.asc = true; }
+      renderPipe();
+    };
+  });
+}
+
+function renderAll(){ renderStatus(); renderChannels(); renderQueue(); renderPipe(); renderFollow(); renderObjections(); renderLedger(); renderGaps(); }
 renderChanBtns(); renderFilters(); renderAll();

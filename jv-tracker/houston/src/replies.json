@@ -138,19 +138,14 @@
   "title": "Principal",
   "email": "rhakim@cap-sol.com",
   "channel": "direct",
-  "stage": "conditional",
+  "stage": "pass",
   "ts": "2026-10-01T23:52:00Z",
   "quote": "Sounds great. Don't love houston but let's discuss.",
-  "action": "Lunch is on the books for 30 Oct, but hold it loosely - Rami's son Gabriel arrived six weeks early on 10 Oct and is in the NICU. Lead with the basis when you do speak; he has already pre-registered the Houston objection.",
+  "action": "Closed as a pass on Zamir's read, 5 November - Rami Hakim never wrote a no, so this is a judgement call rather than their word, and it should be read that way. His only line was 'sounds great, don't love houston but let's discuss' on 2 October, and in thirty-three days it never became a discussion. That made it the oldest live row on the board and the clearest example of a conditional yes that nobody converted. If the raise gets tight he is a cheap phone call, because he never actually declined.",
   "tags": [
    "houston-sentiment"
   ],
-  "heat": 4,
-  "followup": {
-   "owed": "them",
-   "lastOut": "2026-10-27",
-   "ask": "Conditional since 2 Oct - the oldest live row on the board at 33 days. Chase or close."
-  }
+  "heat": 1
  },
  {
   "firm": "Parse Capital",
@@ -320,7 +315,8 @@
    "owed": "them",
    "lastOut": "2026-10-30",
    "ask": "Conditional since 13 Oct. Megan emailed 30 Oct, no answer."
-  }
+  },
+  "has": "unclear"
  },
  {
   "firm": "Pearlmark",
@@ -582,7 +578,8 @@
    "owed": "them",
    "lastOut": "2026-10-30",
    "ask": "Conditional since 23 Oct."
-  }
+  },
+  "has": "unclear"
  },
  {
   "firm": "Silver Cap Partners",
@@ -617,7 +614,8 @@
    "owed": "none",
    "lastOut": null,
    "ask": null
-  }
+  },
+  "has": "broker"
  },
  {
   "firm": "BIG Equity Investors",
@@ -879,7 +877,8 @@
    "owed": "them",
    "lastOut": "2026-10-23",
    "ask": "Reviewing since 19 Oct, silent 16 days."
-  }
+  },
+  "has": "teaser"
  },
  {
   "firm": "Vey Capital",
@@ -975,7 +974,8 @@
    "owed": "them",
    "lastOut": "2026-10-29",
    "ask": "Kevin DID send the T12 and rent roll on 29 Oct - that open item is closed. Six days of silence since."
-  }
+  },
+  "has": "dd"
  },
  {
   "firm": "Halstatt Real Estate Partners",
@@ -995,7 +995,8 @@
    "owed": "them",
    "lastOut": "2026-10-22",
    "ask": "Reviewing since 22 Oct and ZMR has not written since. Thirteen days both ways."
-  }
+  },
+  "has": "unclear"
  },
  {
   "firm": "Realm",
@@ -1064,17 +1065,12 @@
   "title": null,
   "email": "steven@integrityhg.com",
   "channel": "direct",
-  "stage": "reviewing",
+  "stage": "pass",
   "ts": "2026-10-22T15:00:00Z",
   "quote": "He said he was going to look it over. They're still open to doing deals with us. [Relayed by Zamir from a phone call; recorded 22 Oct, call date not specified.]",
-  "action": "Not silent - he answered by phone and Zamir relayed it on 22 Oct. This row had been held out of every follow-up batch on the basis that Steven is an existing JV partner in Skye at Conway and Skye Reserve with counsel engaged in a dispute since 25 Sep, and that approaching him on a new raise was Zach Oseland's call rather than a fundraising one. Zamir has now spoken to him directly: the dispute has not closed the relationship and Integrity is still open to transacting. Treat the hold as lifted; the written follow-up went out 22 Oct at 10:53am ET as an in-thread reply on the 12 Oct send, so nothing is pending in drafts. Two practical notes: Travis Cotter (travis@integrityhg.com) has left Integrity and must not be sent to - he is still listed PRIMARY on the equity list CONTACTS tab and does not appear on the Departures - Verify tab, which means that tab is incomplete and the rest of the send list carries the same risk; and whatever is agreed here should keep Conway and Reserve explicitly on their own track so the new deal is not read as leverage in the existing matter.",
+  "action": "Out - confirmed by Zamir 5 November. The row had been live on a relayed phone call from 22 October where Libman said he would look it over and that they were still open to doing deals with ZMR. Nothing was ever written down by them, which is why it sat at reviewing for two weeks on no evidence. The relationship line in that call is the part worth keeping - they are open to ZMR, just not to this.",
   "tags": [],
-  "heat": 3,
-  "followup": {
-   "owed": "them",
-   "lastOut": "2026-10-27",
-   "ask": "Reviewing since 22 Oct, no outbound in a week."
-  }
+  "heat": 1
  },
  {
   "firm": "CastleSquare",
@@ -1095,7 +1091,8 @@
    "owed": "us",
    "lastOut": "2026-10-28",
    "ask": "Answer \"is there any more room on the reduction?\" with a yes or a no. She is holding a feeler call on it. She also asked who else has seen the deal on 22 Oct and has never been answered."
-  }
+  },
+  "has": "unclear"
  },
  {
   "firm": "Tarsadia Investments",
@@ -1103,17 +1100,12 @@
   "title": "SVP, Real Estate",
   "email": "ace@tarsadia.com",
   "channel": "direct",
-  "stage": "meeting",
+  "stage": "relationship",
   "ts": "2026-10-12T21:46:10Z",
   "quote": "Hey bud thanks for following up can we catch up Friday between 2-5?? Hoping there's some recent trades / live deals we can point to.",
-  "action": "Found by reconciling the outbox against this board on 22 Oct - it was the one firm the campaign had reached that had never been recorded here, which is why no follow-up was ever drafted for it. The relationship runs deeper than the deal: Ace hosted Zamir for lunch on 14 Aug, asked for a deck, and got the company overview, track record and 2026 pipeline on 23 Sep. His 12 Oct ask is the useful part - he wants recent trades and live deals to point to internally, which is exactly what Allen Genoa is. A 2pm Friday call was agreed on 12 Oct and Zamir sent a video link on 16 Oct at 5pm, after the slot. Nothing has moved since. Confirm whether that call happened before sending anything else, then put Allen Genoa in front of him as the live deal he asked for.",
+  "action": "Not an Allen Genoa conversation - confirmed by Zamir 5 November, and moved off the live pipeline so it stops reading as a stalled deal row. Ace Patel's 13 October note asked to catch up Friday between 2 and 5 and said he was hoping for recent trades or live deals to point to, which is relationship traffic rather than a response to this offering. Keeping the row because the ask itself is useful: he wants evidence of transactions, which is the thing ZMR can supply whenever the next deal goes out.",
   "tags": [],
-  "heat": 4,
-  "followup": {
-   "owed": "them",
-   "lastOut": "2026-10-23",
-   "ask": "Met 13 Oct, silent three weeks."
-  }
+  "heat": 2
  },
  {
   "firm": "Pearlmark",
@@ -1146,7 +1138,8 @@
    "owed": "us",
    "lastOut": "2026-10-27",
    "ask": "Confirm whether pref or hybrid-pref is available. It is the ONLY item RJL lists as needed from the sponsor, it gates NCA Realty, and the 30-day carveout on their eleven exclusive names runs out ~25 Nov."
-  }
+  },
+  "has": "unclear"
  },
  {
   "firm": "JSB Capital Group",
@@ -1180,7 +1173,8 @@
    "owed": "them",
    "lastOut": "2026-10-27",
    "ask": "Kevin sent the full package 27 Oct. Eight days of silence on a firm that asked for it the same morning."
-  }
+  },
+  "has": "package"
  },
  {
   "firm": "CIM Group",
@@ -1211,7 +1205,8 @@
    "owed": "us",
    "lastOut": "2026-10-28",
    "ask": "The no-fly list is written and sitting UNSENT in Gmail (thread 19bba232ea0f273a). Send it."
-  }
+  },
+  "has": "unclear"
  },
  {
   "firm": "Meruelo Group",
@@ -1278,14 +1273,15 @@
   "stage": "materials",
   "ts": "2026-11-04T15:20:31Z",
   "quote": "Looks really interesting and we're jumping on it. Do you have time this afternoon between 3-4:30pm ET this afternoon to hop on a quick call? Also, can you please share any additional DD materials you have to this Box.com folder I created (let me know if I need to provide access to anyone else on your side)?",
-  "action": "A pass that reversed, and the hottest thing on the board. Buster Black passed on 28 Oct, Zamir kept at it anyway, got a call on 2 Nov and sent the deck plus the CBRE higher-for-longer piece. Buster forwarded it internally on 3 Nov to Matt Kordsmeier, Patrick Curran and Royce Hadden, and Kordsmeier - a VP in Investments - came back the next morning with 'we're jumping on it', a call window of 3:00-4:30pm ET TODAY, and a Box DD folder already created at crbg.box.com/s/yp0s5ms8e23ggprp7r06mtjhwak6z1ic. A counterparty standing up a data room before the first call is not browsing. Three things, fast. Take the call - the window is hours wide and it closes today. Load the Box folder with the corrected numbers, not the 20.3%/2.25x/$11.65M set Buster was originally sent on 27 Oct, which is two re-underwrites stale; he needs 20.9%/2.27x deal-level and 17.1%/1.97x LP net. And have the demographics and affordability answer ready in a form that survives contact - that single issue has now cost ABR a fully-diligenced position and been raised by five other readers, and Corebridge is an insurance balance sheet with exactly the long-dated mandate ABR said the location failed. Ask who else needs Box access on their side before the call, not after.",
+  "action": "THE DEEPEST DATA ROOM ANY PARTY HAS, AND IT CLOSED IN ONE DAY. Buster Black passed on 28 October, Zamir kept the relationship alive with a call on 2 November, Black forwarded it internally on 3 November, and Kordsmeier came back on 4 November at 10:20 ET with 'looks really interesting and we're jumping on it', a call slot and a Box folder. Zamir's reply granting access was blocked by the Gmail send limit and never went - but it did not cost the deal, because Kordsmeier added Kevin to the chain himself at 15:07 and sent him the Box invite directly. Kevin uploaded at 16:42: latest model, deal presentation, rent roll and T12, debt quotes, tax consultant report and RealAdvice report, insurance quote, RPM proforma, rent and sale comps, expense comps, AR / concession / trade-out reports, and the resident demographics report. Kordsmeier confirmed receipt at 22:33 - 'we will let you know if we need anything else.' Two things follow. This is now the most advanced conversation in the file by a distance, and it is a reversal of a written pass, which is the single best argument on this board for working a no rather than filing it. And every objection the other readers raised is now sitting in front of a buyer with the documents to test it: the demographics report that stopped ABR, the concession report Manglar asked for, the exit multiple Eastham rejected, and the yield-on-cost denominator Zairick flagged. Expect their questions to land on those.",
   "tags": [],
   "heat": 5,
   "followup": {
-   "owed": "us",
+   "owed": "them",
    "lastOut": "2026-11-04",
-   "ask": "Your reply granting Box access and looping in the team was BLOCKED by the send limit at 16:20 and never reached him. He has not seen it."
-  }
+   "ask": "Kevin uploaded the full DD set to their Box at 16:42; Kordsmeier confirmed 22:33. Their move."
+  },
+  "has": "dd"
  },
  {
   "firm": "NCA Realty Partners",
@@ -1305,7 +1301,8 @@
    "owed": "none",
    "lastOut": null,
    "ask": null
-  }
+  },
+  "has": "broker"
  },
  {
   "firm": "Lakerock",
@@ -1353,7 +1350,8 @@
    "owed": "none",
    "lastOut": null,
    "ask": null
-  }
+  },
+  "has": "broker"
  },
  {
   "firm": "Corten Real Estate Partners",
@@ -1371,7 +1369,8 @@
    "owed": "none",
    "lastOut": null,
    "ask": null
-  }
+  },
+  "has": "broker"
  },
  {
   "firm": "Monocle Group",
@@ -1389,7 +1388,8 @@
    "owed": "none",
    "lastOut": null,
    "ask": null
-  }
+  },
+  "has": "broker"
  },
  {
   "firm": "Triangle Capital Group",
@@ -1407,7 +1407,8 @@
    "owed": "none",
    "lastOut": null,
    "ask": null
-  }
+  },
+  "has": "broker"
  },
  {
   "firm": "Willton Investment Management",
@@ -1531,7 +1532,8 @@
    "owed": "them",
    "lastOut": "2026-10-30",
    "ask": "Met 30 Oct."
-  }
+  },
+  "has": "teaser"
  },
  {
   "firm": "Farallon Capital Management",
@@ -1564,7 +1566,8 @@
    "owed": "them",
    "lastOut": "2026-10-30",
    "ask": "Package sent 30 Oct."
-  }
+  },
+  "has": "package"
  },
  {
   "firm": "Mattoni Group",
@@ -1582,7 +1585,8 @@
    "owed": "them",
    "lastOut": "2026-10-30",
    "ask": "Package sent 30 Oct."
-  }
+  },
+  "has": "package"
  },
  {
   "firm": "Clifton Blake",
@@ -1600,7 +1604,8 @@
    "owed": "them",
    "lastOut": "2026-10-30",
    "ask": "Question answered 30 Oct, nothing back."
-  }
+  },
+  "has": "unclear"
  },
  {
   "firm": "Oaktree Capital Management",
@@ -1620,7 +1625,8 @@
    "owed": "pkg",
    "lastOut": "2026-10-30",
    "ask": "Jared said \"happy to take a quick look\" on 30 Oct and has had nothing but the teaser since. Send the package to him and Chris Ahn. Do NOT use WBeischer@ - Will has left Oaktree."
-  }
+  },
+  "has": "teaser"
  },
  {
   "firm": "Adler Family Office / Lubert Adler",
@@ -1747,7 +1753,8 @@
    "owed": "them",
    "lastOut": "2026-10-30",
    "ask": "Materials 30 Oct."
-  }
+  },
+  "has": "package"
  },
  {
   "firm": "Red Cove Capital",
@@ -1844,7 +1851,8 @@
    "owed": "them",
    "lastOut": "2026-10-31",
    "ask": "Package sent 30 Oct."
-  }
+  },
+  "has": "package"
  },
  {
   "firm": "ARA Capital / Avison Young",
@@ -1903,7 +1911,8 @@
    "owed": "them",
    "lastOut": "2026-10-31",
    "ask": "Package sent 30 Oct."
-  }
+  },
+  "has": "package"
  },
  {
   "firm": "New York Life Investment Management",
@@ -1982,7 +1991,8 @@
    "owed": "them",
    "lastOut": "2026-11-04",
    "ask": "They said they would come back this week with questions. Note they want co-GP, which is not what this raise needs."
-  }
+  },
+  "has": "package"
  },
  {
   "firm": "Stanton Road Capital",
@@ -2033,7 +2043,8 @@
    "owed": "them",
    "lastOut": "2026-10-31",
    "ask": "Answered 31 Oct."
-  }
+  },
+  "has": "unclear"
  },
  {
   "firm": "Basis Investment Group",
@@ -2053,7 +2064,8 @@
    "owed": "pkg",
    "lastOut": "2026-10-30",
    "ask": "Teaser only since 30 Oct. Send the package."
-  }
+  },
+  "has": "teaser"
  },
  {
   "firm": "Turtle Creek Wealth Advisors",
@@ -2170,7 +2182,8 @@
    "owed": "them",
    "lastOut": "2026-11-02",
    "ask": "Zamir sent the model and OM 2 Nov, 78 minutes after he asked. Their move."
-  }
+  },
+  "has": "package"
  },
  {
   "firm": "Deloache Capital",
@@ -2245,7 +2258,8 @@
    "owed": "us",
    "lastOut": "2026-11-02",
    "ask": "The CIO asked for a call \"early next week\" on 2 Nov and got no reply. That week is now. Book it."
-  }
+  },
+  "has": "teaser"
  },
  {
   "firm": "Seminole Financial Services",
@@ -2279,7 +2293,8 @@
    "owed": "them",
    "lastOut": "2026-11-02",
    "ask": "Zamir sent the OM and model 2 Nov, 68 minutes after he asked. Their move."
-  }
+  },
+  "has": "package"
  },
  {
   "firm": "Bollinger Enterprises",
@@ -2381,7 +2396,8 @@
    "owed": "us",
    "lastOut": "2026-11-02",
    "ask": "Asked \"who are you?\" and offered to route ZMR to their due-diligence team. Unanswered since 2 Nov - a warm handoff left on the table."
-  }
+  },
+  "has": "teaser"
  },
  {
   "firm": "Kildare Partners",
@@ -2655,7 +2671,8 @@
    "owed": "them",
    "lastOut": "2026-11-02",
    "ask": "Zamir answered in one minute with the OM; Finn said they would take a look. Their move."
-  }
+  },
+  "has": "package"
  },
  {
   "firm": "Claridge",
@@ -2708,7 +2725,8 @@
    "owed": "them",
    "lastOut": "2026-11-04",
    "ask": "Kevin sent the intro and materials 4 Nov with Mike Regan and Chip copied. Their move."
-  }
+  },
+  "has": "package"
  },
  {
   "firm": "Daniel Zairick (Grupza / Rovianda / ZC Estates)",
@@ -2726,7 +2744,8 @@
    "owed": "us",
    "lastOut": "2026-11-04",
    "ask": "He found specific model errors - the $2M excluded from the YoC denominator and the $13.07M equity line. Needs an answer from Kevin, not a thank-you."
-  }
+  },
+  "has": "dd"
  },
  {
   "firm": "Canyon Partners Real Estate",
@@ -2816,7 +2835,8 @@
    "owed": "them",
    "lastOut": "2026-11-03",
    "ask": "Kevin sent the full package 3 Nov, 49 minutes after the ask. Their move."
-  }
+  },
+  "has": "package"
  },
  {
   "firm": "Smartbox.ai (Gravicus)",
@@ -2980,7 +3000,8 @@
    "owed": "them",
    "lastOut": "2026-11-04",
    "ask": "Kevin sent model, deck and debt matrix 4 Nov within five minutes; two rounds of Q&A followed and she signed off. Their move."
-  }
+  },
+  "has": "package"
  },
  {
   "firm": "Gardner Standard",
@@ -3043,7 +3064,8 @@
    "owed": "us",
    "lastOut": "2026-11-04",
    "ask": "Answer three questions: going-in T3/T12 cap, whether the agency debt is locked (it is not - W&D has a debt matrix, not a term sheet), and how Allen Genoa compares with the Houston deal they already signed up. They will not write common but do pref behind agency. Fourth pull toward pref in a fortnight."
-  }
+  },
+  "has": "teaser"
  },
  {
   "firm": "Ingleside Investors",
@@ -3151,7 +3173,8 @@
    "owed": "us",
    "lastOut": "2026-11-03",
    "ask": "Asked for a firm-and-project deck with the time horizon. Send the package by link, to ms@scopehanson.com."
-  }
+  },
+  "has": "teaser"
  },
  {
   "firm": "Biscayne Atlantic",

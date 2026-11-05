@@ -41,6 +41,18 @@
   <div class="queue" id="queue"></div>
 </section>
 
+<section id="s-pipe">
+  <div class="sec-head">
+    <h2>Pipeline</h2>
+    <p><b id="pipecount"></b> live conversations. <b>Has</b> is what they are actually holding; <b>heard</b> is how long since they last wrote; <b>sent</b> is how long since anything left ZMR. Click a column to sort. Rows shaded orange are waiting on us.</p>
+  </div>
+  <div class="pipewrap"><table class="pipe" id="pipe"><thead><tr>
+    <th data-k="firm">Firm</th><th data-k="stage">Stage</th><th data-k="has">Has</th>
+    <th data-k="heard" class="num">Heard</th><th data-k="sent" class="num">Sent</th>
+    <th data-k="owed">Owed</th><th data-k="heat" class="num">Heat</th>
+  </tr></thead><tbody></tbody></table></div>
+</section>
+
 <section id="s-follow">
   <div class="sec-head">
     <h2>Follow-ups</h2>

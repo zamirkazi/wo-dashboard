@@ -25,6 +25,27 @@ css = re.search(r'<style>.*?</style>', shared.read_text(), re.S).group(0)
 css = css.replace('</style>',
   '.draft-grid{grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:0 26px}\n'
   '.draft-grid > div{border-bottom:1px solid var(--rule)}\n'
+  '.pipewrap{overflow-x:auto;border:1px solid var(--rule-hard)}\n'
+  'table.pipe{width:100%;border-collapse:collapse;font-size:13.5px;min-width:720px}\n'
+  'table.pipe th{position:sticky;top:0;background:var(--sunk);text-align:left;padding:9px 12px;font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3);border-bottom:1px solid var(--rule-hard);cursor:pointer;white-space:nowrap;user-select:none}\n'
+  'table.pipe th:hover{color:var(--ink)}\n'
+  'table.pipe th.num,table.pipe td.num{text-align:right}\n'
+  'table.pipe th[aria-sort]{color:var(--ink)}\n'
+  'table.pipe th[aria-sort]::after{content:"\\2193";margin-left:5px;opacity:.7}\n'
+  'table.pipe th[aria-sort="ascending"]::after{content:"\\2191"}\n'
+  'table.pipe td{padding:9px 12px;border-bottom:1px solid var(--rule);vertical-align:top}\n'
+  'table.pipe tbody tr:last-child td{border-bottom:0}\n'
+  'table.pipe tr.w-us{background:var(--live-soft)}\n'
+  'table.pipe .nm{font-weight:600;color:var(--ink)}\n'
+  'table.pipe .ps{display:block;color:var(--ink-3);font-size:12px;margin-top:2px}\n'
+  'table.pipe td.num{font-family:"IBM Plex Mono",monospace;color:var(--ink-2);white-space:nowrap}\n'
+  'table.pipe td.num.old{color:var(--live-ink);font-weight:600}\n'
+  '.tag{display:inline-block;padding:2px 7px;border:1px solid var(--rule-hard);font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap;color:var(--ink-2)}\n'
+  '.tag.h-dd{border-color:var(--live);color:var(--live-ink);font-weight:600}\n'
+  '.tag.h-package{border-color:var(--routed);color:var(--routed-ink)}\n'
+  '.tag.h-teaser{color:var(--ink-3)}\n'
+  '.tag.h-unclear{border-style:dashed;color:var(--ink-3)}\n'
+  '.tag.o-us{border-color:var(--live);color:var(--live-ink);font-weight:600}\n'
   '#follow .card.ow-us{border-left:3px solid var(--live)}\n'
   '#follow .card.ow-pkg{border-left:3px solid var(--routed)}\n'
   '#follow .card.ow-them{border-left:3px solid var(--rule-hard)}\n'
@@ -126,7 +147,7 @@ doc = (
   + '</body></html>'
 )
 assert doc.count('<script') == doc.count('</script>'), 'unbalanced script tags'
-for anchor in ('id="channels"', 'id="queue"', 'id="follow"', 'id="ledger"', 'id="objections"', 'id="split"'):
+for anchor in ('id="pipe"', 'id="channels"', 'id="queue"', 'id="follow"', 'id="ledger"', 'id="objections"', 'id="split"'):
     assert anchor in doc, f'missing anchor {anchor}'
 
 # Ship next to the sources when flat, one level up when they live in src/.
