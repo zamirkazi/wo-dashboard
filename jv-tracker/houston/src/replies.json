@@ -3603,5 +3603,21 @@
    "not-targeted"
   ],
   "heat": 1
+ },
+ {
+  "firm": "Apollo Global Management",
+  "person": "Joseph Kaplan",
+  "title": null,
+  "email": "jokaplan@apollo.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-06T02:14:43Z",
+  "quote": "Hi Zamir. Too small and this is not a target submarket of Houston for us. Thanks for sending",
+  "action": "Twenty words, two objections, and the second one is the interesting half. Apollo passing on size is unremarkable - an $11.77M LP cheque is a rounding error at that balance sheet, and the board already carries the same reason from Northwestern Mutual, who put their JV range at $75-150M. What is worth reading twice is 'not a target submarket of Houston for us'. Kaplan does not say Houston. He says this part of Houston. That is now the fourth independent reader to locate the problem at the micro level rather than the market - Palatine named Pasadena on 19 October, Artisan said on 5 November that they have 'seen similar basis' on similar products in better locations in Houston', and the affordability thread from Sabal, Green Pine, Slocumb and Island Capital is the same objection wearing different clothes. The board's headline is that almost every pass names Houston rather than the deal; this is the refinement of that finding, and it is less comfortable, because a submarket objection cannot be answered by waiting for Houston sentiment to turn. Nothing to chase here - but the pattern belongs in how the Meadowbrook/Allendale story gets told to the live rows.",
+  "tags": [
+   "check-too-large",
+   "submarket-conviction"
+  ],
+  "heat": 1
  }
 ]
