@@ -3692,5 +3692,20 @@
   "action": "Fastest no on the board: the note went at 04:34 this morning and Welch answered at 08:51 ET, about nine hours door to door, on a first touch with no follow-up needed. 'Not a fit for MCG right now' gives nothing to work with and nothing to rebut. Two small things worth keeping. He misspells the name - 'Hi Zamor' - which is the tell of a reply fired off from a phone between other things rather than a considered screen, so the firm may not have looked at the deal at all. And Cathy D at LIG Capital was on the original note and has not answered separately; Mid Cap Global and LIG appear to be working together here, so a reply from one may not close the other. Nothing to chase.",
   "tags": [],
   "heat": 1
+ },
+ {
+  "firm": "Kinship Capital",
+  "person": "Andrew Youngling",
+  "title": "Managing Director",
+  "email": "andrew.youngling@kinshipcapital.com",
+  "channel": "familyoffice",
+  "stage": "pass",
+  "ts": "2026-11-06T14:39:22Z",
+  "quote": "Thanks Zamir. We're focused on other strategies right now. Good luck with the raise.",
+  "action": "Courteous, immediate and empty of information. 'Focused on other strategies right now' is the shape a mandate answer takes when the reader does not want to explain the mandate, and there is nothing in it about Houston, the submarket, the basis or the check. Worth noting only as campaign evidence rather than deal evidence: it came back to zamir@myzmrcapital.com, which makes this the fourth GMass alias domain seen in two days alongside zmrcapitalgo.com, zmrcapitalstart.com and zmrcapitalmy.com. A Managing Director answering a cold alias-domain send within hours, by name and with a good-luck line, is a sign the alias traffic is still landing in primary inboxes rather than spam - which is the one genuinely useful read here while the reputation throttle is live.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
  }
 ]

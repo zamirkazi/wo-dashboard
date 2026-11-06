@@ -2742,6 +2742,15 @@
    ],
    "sent": "2026-11-06",
    "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Kinship Capital",
+   "person": "Andrew Youngling",
+   "email": "andrew.youngling@kinshipcapital.com",
+   "also": [],
+   "sent": "2026-11-06",
+   "outcome": "replied"
   }
  ],
  "carveouts": [
