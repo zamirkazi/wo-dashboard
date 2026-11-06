@@ -3588,5 +3588,20 @@
   "action": "The largest name on the list answers, and answers short. 'No capital fit at the moment' is the sort of line that means a $11.77M LP cheque is below the size at which BlackRock Private Markets can do anything, rather than anything about Houston or the basis - nothing in the reply touches the deal. The apology for the delay is the only warmth in it, and it came off the third touch (30 Oct, 2 Nov, and this morning's 10:19 call request). Nothing to rebut, nothing to chase, and no reason to read a Houston signal into it. Keep Burns for a fund-scale deal; he is not a prospect for this one.",
   "tags": [],
   "heat": 1
+ },
+ {
+  "firm": "Declaration Partners",
+  "person": "Matthew Cohen",
+  "title": "Partner",
+  "email": "mcohen@declarationpartners.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-05T23:19:10Z",
+  "quote": "Thanks for following up. Unfortunately Houston is not a market we're actively targeting at the moment.",
+  "action": "One more for the column that already explains this raise. Declaration Partners is the Bethesda family office built around David Rubenstein's capital, and Cohen is a partner answering personally with David Rabin copied, so this is the firm's view rather than a screen. The wording is the familiar shape: not the basis, not the vintage, not the $11.77M check, not the returns - the market. 'Not a market we're actively targeting at the moment' is a capital-allocation posture, the same tag Alpaca's reply earned when they said they were doing Dallas instead. Nothing here is answerable with a better deck. Three touches to get it (30 Oct, 2 Nov, and this morning's 10:29 call request) and the answer came back at 18:19 ET, polite and final.",
+  "tags": [
+   "not-targeted"
+  ],
+  "heat": 1
  }
 ]

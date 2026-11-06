@@ -2667,6 +2667,17 @@
    "also": [],
    "sent": "2026-10-30",
    "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Declaration Partners",
+   "person": "Matthew Cohen",
+   "email": "mcohen@declarationpartners.com",
+   "also": [
+    "drabin@declarationpartners.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied"
   }
  ],
  "carveouts": [
