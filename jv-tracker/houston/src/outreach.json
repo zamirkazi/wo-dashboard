@@ -2698,6 +2698,28 @@
    ],
    "sent": "2026-10-30",
    "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Family Office Partners (Prague)",
+   "person": "Lenka Krištofič",
+   "email": "lk@familyofficepartners.cz",
+   "also": [],
+   "sent": "2026-11-04",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Grupo Zriser",
+   "person": "Pablo Serratosa Luján",
+   "email": "pslujan@zriser.es",
+   "also": [
+    "rgarcia@zriser.es",
+    "csanchez@zriser.es",
+    "mmartinez@zriser.es"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied"
   }
  ],
  "carveouts": [
