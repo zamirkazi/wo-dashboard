@@ -2763,6 +2763,18 @@
    "sent": null,
    "outcome": "replied",
    "note": "INBOUND - they approached ZMR, unsolicited, on 6 Nov. Never on a ZMR send list. Likely sourced from the GP-LP Match listing that went live the same morning."
+  },
+  {
+   "channel": "direct",
+   "firm": "Manulife Investment Management",
+   "person": "Nate Nguyen",
+   "email": "nate_nguyen@manulife.com",
+   "also": [
+    "emily_wickey@manulife.com",
+    "jp_perez@manulife.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied"
   }
  ],
  "carveouts": [

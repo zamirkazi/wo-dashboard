@@ -3726,5 +3726,24 @@
    "lastOut": null,
    "ask": "Asked for 20 minutes next week. Decide the intermediary question before the call: RJL non-circumvention to ~25 Nov, Ackman-Ziff already engaged."
   }
+ },
+ {
+  "firm": "Manulife Investment Management",
+  "person": "Nate Nguyen",
+  "title": "Director, Transactions Texas-West",
+  "email": "nate_nguyen@manulife.com",
+  "channel": "direct",
+  "stage": "meeting",
+  "ts": "2026-11-06T19:12:43Z",
+  "quote": "Zamir - My bad. Been an insanely busy two weeks for us. You free this afternoon after 130? We unfortunately have not been very active on multifamily lately but happy to discuss and see if there is interest internally.",
+  "action": "TIME-SENSITIVE: he is offering a call TODAY. Nguyen sits in El Segundo, so 'after 130' almost certainly means 1:30 Pacific - about 21:30 UTC, roughly ninety minutes after this sweep. Nobody has answered yet, and this is the second time this week a same-day slot has been offered and left hanging; Oaktree's 12:30 only got confirmed at the last minute. Read the offer honestly though. 'We unfortunately have not been very active on multifamily lately but happy to discuss and see if there is interest internally' is a Director being candid that he has no mandate in hand and would be shopping it inside the firm, not a buyer leaning in. Against that: his title is Transactions Texas-West, which is exactly the desk this asset belongs to, and Emily Wickey and JP Perez are on the thread, so the right three people at a large insurance manager are reading it. The apology also tells you the silence since 30 October was workload, not disinterest - two chases (2 Nov, and yesterday's 07:31 call request) finally landed. Take the slot, lead with the Corebridge comp work (5.30-5.54% Houston trades against a 6.00% underwritten exit), and ask him directly what would have to be true for Manulife to look at a $11.77M LP position.",
+  "tags": [],
+  "heat": 3,
+  "has": "teaser",
+  "followup": {
+   "owed": "us",
+   "lastOut": "2026-11-05",
+   "ask": "URGENT: Nguyen offered a call today after 1:30 (Pacific, El Segundo - approx 21:30 UTC). Unanswered. Confirm or counter now."
+  }
  }
 ]
