@@ -2751,6 +2751,18 @@
    "also": [],
    "sent": "2026-11-06",
    "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Detailed Capital",
+   "person": "Lyle MacLennan",
+   "email": "lyle@detailedcapital.com",
+   "also": [
+    "andy@detailedcapital.com"
+   ],
+   "sent": null,
+   "outcome": "replied",
+   "note": "INBOUND - they approached ZMR, unsolicited, on 6 Nov. Never on a ZMR send list. Likely sourced from the GP-LP Match listing that went live the same morning."
   }
  ],
  "carveouts": [

@@ -3707,5 +3707,24 @@
    "strategy-mismatch"
   ],
   "heat": 1
+ },
+ {
+  "firm": "Detailed Capital",
+  "person": "Lyle MacLennan",
+  "title": null,
+  "email": "lyle@detailedcapital.com",
+  "channel": "direct",
+  "stage": "question",
+  "ts": "2026-11-06T17:59:11Z",
+  "quote": "Your Smart Living Allen Genoa deal came across my desk this morning. Buying a 2023 asset at $135K a door after the first buyer's capital stack broke is a good find, and the deck makes a clear case. Detailed Capital places LP and co-GP equity with family offices and institutional groups. Your $11.8M raise and Q1 close fit well with what our investors are looking for right now. Could we get 20 minutes next week to walk through the deal?",
+  "action": "The first genuinely INBOUND approach of the raise, and it is a broker rather than an investor. MacLennan is not offering money; Detailed Capital places LP and co-GP equity for a fee, so this is a third intermediary asking to sit between ZMR and the same pool of family offices. WHERE IT CAME FROM MATTERS. 'Came across my desk this morning' lines up with the GP-LP Match listing, which went live at 14:00 UTC today under a Premium membership. If that is the source, the paid platform's first result is an equity broker prospecting the listing rather than an LP reading it - worth knowing before judging whether the membership is working. BEFORE ANY CALL, TWO THINGS NEED CHECKING. First, the RJL engagement letter's non-circumvention runs to roughly 25 November and covers eleven named groups; a second placement agent working the same family-office universe is exactly the overlap that clause is written about. Second, Ackman-Ziff is already engaged and Brustein's live complaint is that the deal has been to nearly seventy LPs - adding a third party to the same list does not fix that and makes the story harder to control. The canonical equity list even keeps an 'Equity Broker' exclusion tab for firms in this category. None of which makes him wrong. He read the deck, he leads with the right fact (a 2023 build at $135K a door off a broken capital stack), and twenty minutes costs nothing. But the question to answer first is whether ZMR wants a third intermediary at all - not whether this one is any good. Note also he says 'Q1 close', which is a fourth version of the closing date now in circulation.",
+  "tags": [],
+  "heat": 2,
+  "has": "teaser",
+  "followup": {
+   "owed": "us",
+   "lastOut": null,
+   "ask": "Asked for 20 minutes next week. Decide the intermediary question before the call: RJL non-circumvention to ~25 Nov, Ackman-Ziff already engaged."
+  }
  }
 ]
