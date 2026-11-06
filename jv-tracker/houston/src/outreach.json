@@ -2687,6 +2687,17 @@
    "also": [],
    "sent": "2026-10-30",
    "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Arzentia Capital",
+   "person": "Rogelio Prieto",
+   "email": "rprieto@arzentia.com",
+   "also": [
+    "sodriozola@arzentia.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied"
   }
  ],
  "carveouts": [
