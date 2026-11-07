@@ -3745,5 +3745,24 @@
    "lastOut": "2026-11-05",
    "ask": "URGENT: Nguyen offered a call today after 1:30 (Pacific, El Segundo - approx 21:30 UTC). Unanswered. Confirm or counter now."
   }
+ },
+ {
+  "firm": "Engle Family Office",
+  "person": "Jeb Hollingsworth",
+  "title": "Director, Investments",
+  "email": "jeb@englefo.com",
+  "channel": "familyoffice",
+  "stage": "materials",
+  "ts": "2026-11-06T23:53:31Z",
+  "quote": "Zamir, can you please share the package and UW for this opportunity? Maybe we jump on a 30 minute intro call next week. Give me a few days/times that would work for you.",
+  "action": "The best reply of the day, and the only one that asks for more rather than less. Hollingsworth wants two things - the full package and the underwriting, and a 30-minute call next week with ZMR naming the times. Both are ours to send; nothing is pending on his side. The route it took is the point. The 4 November note went to Alexis Rains with Don Engle and a Carlton Senior Living address copied; Rains forwarded it internally to Hollingsworth at 19:44 on 5 November, and the Director of Investments wrote back the next evening. That is a family office circulating the deal to the person who actually underwrites - the opposite of the reflex passes that have filled this week. Note he asks for the UW specifically, not just the deck. That is the version question again: Kevin's Eldridge Acre package carried 20.9% deal-level / 2.27x with a 17.1% LP net, a 5.58% coupon and $11.73M, while the email Rains forwarded says 21.1% / 2.30x / 9.0% on 5.94% and $11.77M. Send him one set and be able to explain it; an investments director reading a model against the teaser that reached him will find the gap in ten minutes. Lead the call with the Corebridge comp evidence - closed same-vintage Houston trades at 5.30-5.54% against a 6.00% underwritten exit.",
+  "tags": [],
+  "heat": 4,
+  "has": "teaser",
+  "followup": {
+   "owed": "pkg",
+   "lastOut": "2026-11-04",
+   "ask": "Asked for the full package AND the underwriting model, plus a few times for a 30-minute call next week. Both sides of that are ours to send."
+  }
  }
 ]
