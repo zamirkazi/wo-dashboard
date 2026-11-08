@@ -2801,6 +2801,16 @@
    "sent": "2026-10-30",
    "outcome": "replied",
    "note": "Sent to Jeff Garden with Jason Ozur CC'd; chased 2 Nov and 5 Nov. Garden never answered - Ozur, the CC, replied 8 Nov asking what current average rents are."
+  },
+  {
+   "channel": "direct",
+   "firm": "Empire Global Financial Services",
+   "person": "Milton H. Barbarosh",
+   "email": "milton@empireglobalfinancial.com",
+   "also": [],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Off the 'Rest of SFO' wave under the 'Houston Multifamily LP Equity' subject. Empire Global is a business brokerage / M&A intermediary, not an LP - a list quality miss rather than a deal-level pass."
   }
  ],
  "carveouts": [
