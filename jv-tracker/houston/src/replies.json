@@ -3764,5 +3764,24 @@
    "lastOut": "2026-11-04",
    "ask": "Asked for the full package AND the underwriting model, plus a few times for a 30-minute call next week. Both sides of that are ours to send."
   }
+ },
+ {
+  "firm": "Lido Advisors",
+  "person": "Jason Ozur",
+  "title": null,
+  "email": "jozur@lidoadvisors.com",
+  "channel": "direct",
+  "stage": "question",
+  "ts": "2026-11-08T17:11:17Z",
+  "quote": "What is current average rents?",
+  "action": "Four words, no greeting, no sign-off, sent on a Sunday - and it is the single most answerable question on the board. Ozur was the CC on the 30 October note to Jeff Garden; Garden never answered, the 2 November and 5 November chases went to him alone, and the CC is the one who finally wrote back. That is the second time this month a deal has been saved by the person copied rather than the person addressed (Engle did the same on 5 November). Reply to Ozur and keep Garden on. ANSWER IT TODAY AND ANSWER IT PRECISELY. The teaser he is holding quotes concessions (2.6% T3 to 2.4% Y1 to 0.5% stabilized) and trade-outs (71 renewals at +1.25%, new leases flat in January to +1.7% in August) but never states the rent itself, which is exactly the gap he has put his finger on. The number must come off the same rent roll Kevin sent Eldridge Acre on 5 November, not off the deck, and it must be stated as both in-place and effective - a four-word question from an RIA usually means he is testing the affordability line four other readers have already pushed on (Sabal, Green Pine, Slocumb, Island Capital), where Slocumb says CoStar 1-mile AMIs sit below the $71.2K median in the teaser and $282 of fees at stabilization is 19% of rent. Give him the rent, the fees and the AMI in one go rather than waiting to be asked twice. On the firm: Lido is a large RIA out of Century City, so a cheque here is likely to come from client accounts rather than a fund - that shapes the minimum, the timeline and who signs, and is worth establishing on the first call rather than discovering at IC.",
+  "tags": [],
+  "heat": 3,
+  "has": "teaser",
+  "followup": {
+   "owed": "us",
+   "lastOut": "2026-11-05",
+   "ask": "Asked what current average rents are. One number, off the rent roll - send in-place and effective, and pre-empt the fee/AMI follow-up."
+  }
  }
 ]
