@@ -3062,6 +3062,59 @@
    "sent": "2026-11-03",
    "outcome": "replied",
    "note": "Chased 9 Nov 11:50; 'No interest, thx' three hours later."
+  },
+  {
+   "channel": "direct",
+   "firm": "RFM Property Group / Bulkspan",
+   "person": "Gary F (Circle F Capital)",
+   "email": "garyf@circlefcapital.com",
+   "also": [
+    "david@circlefcapital.com",
+    "mfeldman@rfmpropertygroup.com",
+    "David@bulkspan.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 12:20. Michael Feldman (a CC, at RFM Property Group not Circle F) passed on LP, floated co-GP in principle, and pitched his partner David Benharouch of Bulkspan - a bulk-internet broker, 30,000+ units in 12 months. Bulk internet is a live Allen Genoa underwriting line ($70/$30 per unit per month). Vendor conversation, not an equity one - keep them separate."
+  },
+  {
+   "channel": "direct",
+   "firm": "Calgary Enterprises",
+   "person": "Lester (Calgary Enterprises)",
+   "email": "lester@calgaryenterprises.com",
+   "also": [
+    "insalaco@calgaryenterprises.com",
+    "heard@calgaryenterprises.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 11:37; Steven Insalaco (President/Managing Partner, a CC) replied 'Not of interest' four and a half hours later."
+  },
+  {
+   "channel": "direct",
+   "firm": "Advance",
+   "person": "Sam Powers",
+   "email": "spowers@advance.com",
+   "also": [
+    "wmeade@advance.com",
+    "rkoontz@advance.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 09:02; Winston Meade (a CC) replied 15:24. Multifamily is outside Advance's investment sectors and criteria - a mandate boundary, not a Houston view."
+  },
+  {
+   "channel": "direct",
+   "firm": "EBGR",
+   "person": "Jason Beren",
+   "email": "jason.beren@ebgr.com",
+   "also": [
+    "ben.farbowitz@ebgr.com",
+    "andrew.fishkoff@ebgr.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 13:44; 'Not the right fit for us' 89 minutes later."
   }
  ],
  "carveouts": [

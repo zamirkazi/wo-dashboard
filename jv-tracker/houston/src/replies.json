@@ -4078,5 +4078,61 @@
   "action": "Three words, three hours after the 11:50 chase. Nothing to read and nothing to chase. Stals was the addressee and answered himself.",
   "tags": [],
   "heat": 1
+ },
+ {
+  "firm": "RFM Property Group / Bulkspan",
+  "person": "Michael Feldman",
+  "title": "Principal",
+  "email": "mfeldman@rfmpropertygroup.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-09T16:05:05Z",
+  "quote": "Appreciate the thought here. We don't typically put out LP money. We consider Co-GP under the right circumstances. However, my partner David CC'd here, launched a division of our company focusing solely on bulk internet. He connects providers with operators and negotiates the best possible deals... He has closed north of 30,000 units in the past 12 months... We have recently negotiated massive contracts and would love the opportunity to show you what he can do on a property or two.",
+  "action": "NOT AN LP, BUT THE REVERSE ASK LANDS ON AN ACTUAL UNDERWRITING LINE. Feldman passes on LP money and keeps the door open on co-GP 'under the right circumstances' - which is a structural note, not an offer, and he did not ask to see the deal on that basis. What he did instead is pitch his partner David Benharouch (Bulkspan, copied on the reply), who runs a bulk-internet brokerage and says he has closed north of 30,000 units in the last twelve months. That is worth a reply for a reason that has nothing to do with this raise: bulk internet is one of the two upside items in the Allen Genoa business plan. The bullet every one of the 170-odd recipients has read says 'add bulk internet (~$70/unit/mo income vs. ~$30 cost)'. Feldman has read that bullet and answered it with a broker who negotiates exactly those contracts at scale and claims provider-level relationships that get deals an individual operator cannot. If the $70/$30 spread in the model is right, he is confirmation; if it is conservative, he is margin on 252 units plus the rest of the portfolio. Either way it is a cheap call and it tests the assumption rather than defending it. Keep the two things apart. The LP answer is no, so this row is closed for the raise. The vendor conversation is an asset-management matter for a property or two, which is what he actually asked for, and it does not belong anywhere near the equity thread. Note also that nobody at the firm actually addressed is in this: the send went to Gary F at Circle F Capital with David J Feldman and Michael Feldman copied, and the reply came from the copied Michael at a different company (RFM Property Group) with a fourth man at a third company (Bulkspan) added. Seventh consecutive reply from a CC.",
+  "tags": [
+   "co-gp-structure"
+  ],
+  "heat": 2
+ },
+ {
+  "firm": "Calgary Enterprises",
+  "person": "Steven Insalaco",
+  "title": "President / Managing Partner",
+  "email": "insalaco@calgaryenterprises.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-09T15:59:19Z",
+  "quote": "Not of interest. Steve",
+  "action": "Three words, four and a half hours after the 11:37 chase. Nothing to read and nothing to chase. Insalaco is President/Managing Partner of Calgary Enterprises and also signs as CEO of Quantum Energetics Corp - the pairing of a holding company with an operating business, which is the same roster construction that has produced most of this week's mandate misses. The send went to Lester at calgaryenterprises.com with Insalaco and Heard copied; the copied principal answered and the addressee did not. Eighth consecutive reply from the CC.",
+  "tags": [],
+  "heat": 1
+ },
+ {
+  "firm": "Advance",
+  "person": "Winston Meade",
+  "title": null,
+  "email": "wmeade@advance.com",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-09T15:24:58Z",
+  "quote": "Zamir, Thank you for reaching out. Multifamily real estate investments are not within our investment sectors or criteria. Wish you the best of luck in your process.",
+  "action": "A clean sector-level no from the Newhouse family's holding company, six and a half hours after the 09:02 chase: multifamily is not within their investment sectors or criteria. Not a Houston view and not a timing answer - a mandate boundary, courteously drawn, with nothing to rebut. Worth counting rather than re-reading: this is now the seventh firm in three days to reply that real estate or multifamily sits outside the mandate entirely - after Empire Global, ALFAHIM, 247VC, 4L Vision, CAPNOR and Ananta. Six of the seven came off the same 'Rest of SFO' wave. The list has no asset-class screen, and each of these costs a send, a chase and a small amount of goodwill at a name that might have been right for something else. Meade was a CC; Sam Powers was the addressee and did not answer.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "EBGR",
+  "person": "Jason Beren",
+  "title": null,
+  "email": "jason.beren@ebgr.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-09T15:13:37Z",
+  "quote": "Not the right fit for us",
+  "action": "Five words, 89 minutes after the 13:44 chase, on a 4 November send that had sat five days. No reason, no door, no signature. Beren was the addressee and answered himself, with Farbowitz and Fishkoff still copied. Nothing to chase.",
+  "tags": [],
+  "heat": 1
  }
 ]
