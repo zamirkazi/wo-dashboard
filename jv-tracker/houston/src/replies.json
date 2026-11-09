@@ -4037,5 +4037,46 @@
    "strategy-mismatch"
   ],
   "heat": 1
+ },
+ {
+  "firm": "Chestnut Capital / KABR Group",
+  "person": "Kenneth Pasternak",
+  "title": null,
+  "email": "kpasternak@chestnutcap.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-09T14:29:49Z",
+  "quote": "Zamir, We are never a LP . We run a similar strategy in Florida and own 3000 units . www.kabrgroup.com This is a GP/LP fund To give you credit you will do well on this one.",
+  "action": "THE ONLY THIRD-PARTY ENDORSEMENT OF THE ECONOMICS ANYONE HAS GIVEN. Pasternak is not an LP and never will be - he runs the same strategy himself, 3,000 units in Florida, as a GP. So the pass is structural and costs nothing. But he then volunteered the line that matters: 'To give you credit you will do well on this one.' That is an operator who buys and runs exactly this product, in a comparable Sunbelt market, reading the same bullets that 170-odd firms have now read, and saying the deal works. Unprompted, with nothing to gain and no position to talk. USE IT, CAREFULLY. The whole board's problem is that the basis argument keeps being made by the sponsor. Corebridge's comp work (5.30-5.54% Houston trades against a 6.00% underwritten exit) is the hard evidence; this is the soft version - a peer operator's read, which is exactly what a hesitant family office weighs. It is not a reference and he has not offered to be one, so do not quote him to third parties without asking. But asking costs one email, and a one-line note from a 3,000-unit Florida operator saying the deal is well-bought would do more work than another re-cut of the sensitivity table. Worth noting he also diagnosed the structure correctly from the bullets alone: 'This is a GP/LP fund'. He understood in one read what several readers needed a call to establish.",
+  "tags": [
+   "co-gp-structure"
+  ],
+  "heat": 2
+ },
+ {
+  "firm": "Black Fountain Capital",
+  "person": "Noelia Santana",
+  "title": null,
+  "email": "noelia@blackfountaincapital.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-09T14:57:06Z",
+  "quote": "Dear Mr. Kazi, Thank you for following up and for sharing this opportunity with us. We appreciate you thinking of us, but this is not something we are interested in pursuing at this time.",
+  "action": "Formal, warm and empty - four hours after the 10:50 chase, no reason given. 'At this time' leaves a crack rather than a door, so keep the name rather than suppressing it. Santana was a CC on the 3 November note to Jose Fernando Silva Lopez and answered on behalf of the firm; the addressee did not. Sixth consecutive reply from the copied party rather than the person addressed.",
+  "tags": [],
+  "heat": 1
+ },
+ {
+  "firm": "Carlin Partners",
+  "person": "Paul Stals",
+  "title": null,
+  "email": "paul@carlinpartners.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-09T14:55:06Z",
+  "quote": "No interest, thx",
+  "action": "Three words, three hours after the 11:50 chase. Nothing to read and nothing to chase. Stals was the addressee and answered himself.",
+  "tags": [],
+  "heat": 1
  }
 ]

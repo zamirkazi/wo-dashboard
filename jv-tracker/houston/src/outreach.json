@@ -3024,6 +3024,44 @@
    "sent": "2026-11-04",
    "outcome": "replied",
    "note": "Chased 9 Nov 13:22; passed nine minutes later. NY equities manager, not a real-estate LP. Hingorani replies from nhingorani@dikerllc.onmicrosoft.com - an O365 fallback, so the dikerllc.com alias on file may not deliver."
+  },
+  {
+   "channel": "direct",
+   "firm": "Chestnut Capital / KABR Group",
+   "person": "Kenneth Pasternak",
+   "email": "kp@chestnutcap.com",
+   "also": [
+    "kh@chestnutcap.com",
+    "kpasternak@chestnutcap.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 07:15 (sent to kp@, replied from kpasternak@). Never an LP - runs the same strategy as a GP, 3,000 units in Florida via KABR Group. VOLUNTEERED that ZMR 'will do well on this one' - the only peer-operator endorsement of the deal economics on the board. Ask before quoting him."
+  },
+  {
+   "channel": "direct",
+   "firm": "Black Fountain Capital",
+   "person": "Jose Fernando Silva Lopez",
+   "email": "jose@blackfountaincapital.com",
+   "also": [
+    "noelia@blackfountaincapital.com",
+    "hector@blackfountaincapital.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 10:50; Noelia Santana (a CC) passed on the firm's behalf four hours later. 'Not at this time' - keep the name."
+  },
+  {
+   "channel": "direct",
+   "firm": "Carlin Partners",
+   "person": "Paul Stals",
+   "email": "paul@carlinpartners.com",
+   "also": [
+    "jason@carlinpartners.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 11:50; 'No interest, thx' three hours later."
   }
  ],
  "carveouts": [
@@ -3151,6 +3189,11 @@
    "firm": "Consolidated Press Holdings",
    "person": "Lawrence Myers (Chief Executive Officer)",
    "why": "\"Please remove me from this list.\" 9 Nov 12:45, from the CEO of Consolidated Press Holdings, 12 minutes after the 12:33 chase on a 3 November send. An explicit removal request, so lmyers@cph.com.au and amatrone@cph.com.au both come off - the chase went to Aldo Matrone with Myers copied, and it was the copied CEO who objected. Australian recipient, so the Spam Act applies to any further send; this is the second opt-out of the campaign to come from a jurisdiction with its own anti-spam statute, after the Connelly CASL complaint on 27 October. Suppress the domain."
+  },
+  {
+   "firm": "Ridgeline",
+   "person": "Trevor Heiner",
+   "why": "\"Not a fit, please remove us from your list.\" 9 Nov 14:23, 28 minutes after a first-touch send made at 11:54 the same morning - so this name was added to the list today and asked to be taken off today. An explicit removal request, so trevor@, ryan@ and todd@ridgeline.com all come off. Third opt-out of the campaign after Connelly (CASL) and Consolidated Press Holdings (Australia), and the first to arrive inside half an hour of the only email ever sent."
   }
  ],
  "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",
