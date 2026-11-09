@@ -2849,6 +2849,41 @@
    "sent": "2026-11-03",
    "outcome": "replied",
    "note": "Off the 'Rest of SFO' wave; chased 9 Nov 09:29. Ralph Suikat (a CC) replied the same morning. Karlsruhe impact-mandate family office - not a market-rate LP."
+  },
+  {
+   "channel": "direct",
+   "firm": "Deilmann Family (Carl-Gerrit Deilmann)",
+   "person": "Carl-Gerrit Deilmann",
+   "email": "cdeilmann@mac.com",
+   "also": [],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 12:25. Refuses US exposure on political grounds and says he has told ZMR before - no prior reply exists on this deal, so the earlier no was never recorded. DO NOT RE-MAIL."
+  },
+  {
+   "channel": "direct",
+   "firm": "ARTEQ Investment Management",
+   "person": "Michal Kemp",
+   "email": "michal@arteqin.com",
+   "also": [
+    "alison@arteqin.com",
+    "amit@arteqin.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 09:50; Kemp answered personally two hours later. Not allocating to the asset class at the moment - a timing/allocation no, worth a revisit next cycle."
+  },
+  {
+   "channel": "direct",
+   "firm": "247VC",
+   "person": "Shashank Randev",
+   "email": "shashank@247vc.in",
+   "also": [
+    "sandhyarandev123@gmail.com"
+   ],
+   "sent": "2026-11-09",
+   "outcome": "replied",
+   "note": "NEW NAME ADDED 9 Nov 11:36, replied 17 minutes later. A GP closing an India-domiciled venture fund, not an LP - and he asked ZMR to introduce family offices to HIS raise."
   }
  ],
  "carveouts": [

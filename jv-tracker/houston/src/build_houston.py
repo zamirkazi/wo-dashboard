@@ -93,6 +93,7 @@ TAG_LABEL = {
     'texas-selective':       'Open but selective on Texas right now',
     'not-targeted':          'Market is not on their target list',
     'domestic-only':         'Invests only in their home market, not US real estate',
+    'us-political-risk':     'Will not deploy into the US on political grounds',
     'bulk-internet':         'Bulk-internet income assumed without market precedent',
     'co-gp-structure':       'Wants co-GP equity rather than LP',
     'closing-timeline':      'Needs a longer closing timeline than the contract allows',
@@ -100,7 +101,7 @@ TAG_LABEL = {
     'us-tax-benefit':        'Depreciation / 1031 pitch only works for a US taxpayer',
 }
 # Which objections are about Houston itself vs. about this deal's economics.
-MARKET_TAGS = {'houston-exposure','houston-sentiment','submarket-demographics','strategy-mismatch','submarket-vacancy','submarket-conviction','climate-risk','submarket-concessions','texas-selective','not-targeted','us-tax-benefit','domestic-only'}
+MARKET_TAGS = {'houston-exposure','houston-sentiment','submarket-demographics','strategy-mismatch','submarket-vacancy','submarket-conviction','climate-risk','submarket-concessions','texas-selective','not-targeted','us-tax-benefit','domestic-only','us-political-risk'}
 DEAL_TAGS   = {'going-in-yield','negative-leverage','exit-cap','fee-drag','occupancy-softness','unit-size','rent-spread','pref-only','competing-deal',
                'partner-conflict','check-too-small','capital-paused','non-local-sponsor','profile-appetite','check-too-large','raise-progress','year-one-cash','exit-rent-multiple','price-reduction','diligence-bandwidth','feeder-platform','underbid-this-asset','exchange-capital','hold-period','minimum-check','bulk-internet','co-gp-structure','closing-timeline','basis-not-unique'}
 
