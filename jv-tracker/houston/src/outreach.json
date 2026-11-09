@@ -2884,6 +2884,70 @@
    "sent": "2026-11-09",
    "outcome": "replied",
    "note": "NEW NAME ADDED 9 Nov 11:36, replied 17 minutes later. A GP closing an India-domiciled venture fund, not an LP - and he asked ZMR to introduce family offices to HIS raise."
+  },
+  {
+   "channel": "direct",
+   "firm": "Darco Capital",
+   "person": "Marc Poliskin",
+   "email": "marc@darcocapital.com",
+   "also": [
+    "jacob@darcocapital.com",
+    "stefanie@darcocapital.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 13:10; Jake Poliskin (Head of Investments, a CC) replied 'No thanks' 94 seconds later."
+  },
+  {
+   "channel": "direct",
+   "firm": "Willoughby Capital Holdings",
+   "person": "John Walton",
+   "email": "john@willcapllc.com",
+   "also": [
+    "mmuhtadie@willcapllc.com",
+    "astella@willcapllc.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Three sends (30 Oct, 2 Nov, 5 Nov) all unanswered; passed on the fourth touch, 9 Nov 12:50."
+  },
+  {
+   "channel": "direct",
+   "firm": "Corniche Group",
+   "person": "Hani Farsi",
+   "email": "hani@corniche-group.com",
+   "also": [
+    "louise@corniche-group.com",
+    "raed@corniche-group.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 12:40; Louise Adams (Head of Family Office, a CC) passed nine minutes later. 'Not of interest currently' - keep for a different profile."
+  },
+  {
+   "channel": "direct",
+   "firm": "Hestia Investments",
+   "person": "Sasha Bernier",
+   "email": "sasha@hestiainv.com",
+   "also": [
+    "mweisman@majescosales.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 12:13. Houston deal-flow saturation plus a rotation into IOS. Worth re-approaching on a non-Houston deal."
+  },
+  {
+   "channel": "direct",
+   "firm": "CAPNOR",
+   "person": "Javier Barrientos",
+   "email": "jbarrientos@capnor.be",
+   "also": [
+    "gprevitali@capnor.be",
+    "gcramer@capnor.be"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 11:46. Direct investments in EU operating businesses only - not real estate, not US, not passive LP. Offered to see things that fit."
   }
  ],
  "carveouts": [
@@ -3006,6 +3070,11 @@
    "firm": "Horizon21",
    "person": "Daniel Sidler (Head of IT / CTO)",
    "why": "\"As Head of IT/CTO, I am not the appropriate contact for investment opportunities of this nature. I kindly ask that you refrain from contacting me about similar topics in the future.\" 5 Nov, off the 4 Nov 16:00 send. Suppress daniel.sidler@horizon21.com ONLY - this is a wrong-contact routing error, not a firm-level no. Daniel Rode and Pascal Schmid were already cc'd on the same email and are the investment side; the Zurich firm itself has not answered and is not suppressed."
+  },
+  {
+   "firm": "Consolidated Press Holdings",
+   "person": "Lawrence Myers (Chief Executive Officer)",
+   "why": "\"Please remove me from this list.\" 9 Nov 12:45, from the CEO of Consolidated Press Holdings, 12 minutes after the 12:33 chase on a 3 November send. An explicit removal request, so lmyers@cph.com.au and amatrone@cph.com.au both come off - the chase went to Aldo Matrone with Myers copied, and it was the copied CEO who objected. Australian recipient, so the Spam Act applies to any further send; this is the second opt-out of the campaign to come from a jurisdiction with its own anti-spam statute, after the Connelly CASL complaint on 27 October. Suppress the domain."
   }
  ],
  "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",
