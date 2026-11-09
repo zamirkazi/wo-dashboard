@@ -3953,5 +3953,89 @@
    "strategy-mismatch"
   ],
   "heat": 1
+ },
+ {
+  "firm": "BRK Capital",
+  "person": "Wesley Chung",
+  "title": null,
+  "email": "wesley@brkcapital.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-09T14:09:02Z",
+  "quote": "Hi Zamir, Thanks for following up and for sharing the details on Smart Living Allen Genoa. This one isn't of interest for us, but we appreciate you thinking of us.",
+  "action": "Polite and empty, just under four hours after the 10:17 chase. He names the asset, which means he read far enough to register it, but gives no reason - no Houston view, no mandate note, no check size. Nothing to rebut and nothing to chase. Chung was the addressee and answered himself.",
+  "tags": [],
+  "heat": 1
+ },
+ {
+  "firm": "Ananta Family Office",
+  "person": "Jaideep Khanna",
+  "title": null,
+  "email": "jaideep@anantafo.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-09T14:06:52Z",
+  "quote": "No interest or investment in the space. Thanks",
+  "action": "Seven words, four and a half hours after the 09:31 chase: no interest and no investment in the space at all. Not a Houston view - a flat statement that they do not do this asset class, which makes it the sixth mandate miss in two days. ONE PIECE OF LIST HYGIENE WORTH RECORDING: the send went to jaideep@anantafo.com and the reply came back from jaideep@ananta-om.com, with Kris Nyzio likewise moving from kris@anantafo.com to kris@ananta-om.com. The firm has migrated domains and the old addresses still deliver, so both roster entries are stale but not dead. Update them rather than dropping them; a domain change that still forwards is exactly the kind of row that silently rots on a 1,086-contact list.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "Eagle Point Properties",
+  "person": "Justin Amirian",
+  "title": null,
+  "email": "justin@eaglepointproperties.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-09T13:43:43Z",
+  "quote": "We are not interested, thank you.",
+  "action": "Five words, 57 seconds after the 13:42 chase - the second-fastest reply of the day after Darco's 94 seconds. A send that sat from 4 November to today and then resolved inside a minute of being chased. No reason given, nothing to chase.",
+  "tags": [],
+  "heat": 1
+ },
+ {
+  "firm": "RZC Advisors",
+  "person": "Matthew Tarver",
+  "title": null,
+  "email": "mtarver@rzcadvisors.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-09T13:38:31Z",
+  "quote": "Thanks, Zamir. Not a fit for us at this time. matt",
+  "action": "A two-hour turnaround on a name added to the list at 11:30 THIS MORNING - sent and closed inside the same day. 'Not a fit at this time' gives nothing to work with. Worth a glance at the routing: the send went to Tarver at RZC Advisors with swalton@gamecomposites.com copied - an aircraft composites manufacturer. That pairing suggests the row was built from a principal and his operating company rather than from an investment mandate, which is the same construction problem running through today's batch.",
+  "tags": [],
+  "heat": 1
+ },
+ {
+  "firm": "D'Orazio Capital Partners",
+  "person": "Allison Leone",
+  "title": "Portfolio Director, HR & Compliance",
+  "email": "aleone@doraziocp.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-09T13:36:40Z",
+  "quote": "I think our plate doth runneth over at the moment, Zamir. But thank you.",
+  "action": "A capacity no, wryly put, half an hour after the 13:06 chase - their plate is full, not their mandate closed. That is a timing answer rather than a verdict on the deal, so the name keeps for a later cycle rather than going to suppression. The answer came from Allison Leone, whose title is Portfolio Director, HR & Compliance - not an investment seat. She was the addressee; Tony Brough (an engineer, P.E.) and an address at dorazioford.com were the CCs. Nobody on this thread was the investment decision-maker, which means the no is about bandwidth as reported by the person who picked up the phone, not a considered pass. If D'Orazio is worth another approach later, find the investments contact first.",
+  "tags": [
+   "capital-paused"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "Diker Management",
+  "person": "Mark Diker",
+  "title": null,
+  "email": "mdiker@dikerllc.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-09T13:31:43Z",
+  "quote": "Not interested. Thx.",
+  "action": "Three words, nine minutes after the 13:22 chase. Diker Management is a New York equities manager; a Houston multifamily LP position was never within reach. Nothing to chase. Note for the roster: Nikhil Hingorani's address came back as nhingorani@dikerllc.onmicrosoft.com rather than the dikerllc.com on file - an Office 365 fallback domain, which usually means the primary alias is misconfigured on their side. Harmless here, but the kind of thing that turns into a silent non-delivery on the next send.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
  }
 ]

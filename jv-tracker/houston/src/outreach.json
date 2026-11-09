@@ -2948,6 +2948,82 @@
    "sent": "2026-11-03",
    "outcome": "replied",
    "note": "Chased 9 Nov 11:46. Direct investments in EU operating businesses only - not real estate, not US, not passive LP. Offered to see things that fit."
+  },
+  {
+   "channel": "direct",
+   "firm": "BRK Capital",
+   "person": "Wesley Chung",
+   "email": "wesley@brkcapital.com",
+   "also": [
+    "glenn@brkcapital.com",
+    "angela@brkcapital.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 10:17; Chung passed just under four hours later. No reason given."
+  },
+  {
+   "channel": "direct",
+   "firm": "Ananta Family Office",
+   "person": "Jaideep Khanna",
+   "email": "jaideep@anantafo.com",
+   "also": [
+    "kris@anantafo.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "DOMAIN MIGRATED: replies now come from @ananta-om.com (jaideep@ananta-om.com, kris@ananta-om.com). The @anantafo.com addresses still deliver. Update both rows. No interest in the asset class."
+  },
+  {
+   "channel": "direct",
+   "firm": "Eagle Point Properties",
+   "person": "Justin Amirian",
+   "email": "justin@eaglepointproperties.com",
+   "also": [
+    "adam@eaglepointproperties.com",
+    "michael@eaglepointproperties.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 13:42; passed 57 seconds later."
+  },
+  {
+   "channel": "direct",
+   "firm": "RZC Advisors",
+   "person": "Matthew Tarver",
+   "email": "mtarver@rzcadvisors.com",
+   "also": [
+    "swalton@gamecomposites.com"
+   ],
+   "sent": "2026-11-09",
+   "outcome": "replied",
+   "note": "NEW NAME ADDED 9 Nov 11:30, passed 13:38 the same day. CC is an aircraft composites manufacturer - the row looks built from a principal plus his operating company rather than an investment mandate."
+  },
+  {
+   "channel": "direct",
+   "firm": "D'Orazio Capital Partners",
+   "person": "Allison Leone",
+   "email": "aleone@doraziocp.com",
+   "also": [
+    "abrough@doraziocp.com",
+    "rdorazio@dorazioford.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 13:06. Capacity no, not a mandate no - worth a later cycle. BUT no investment contact on the thread: Leone is HR & Compliance, Brough is an engineer, third address is a car dealership. Find the investments contact before re-approaching."
+  },
+  {
+   "channel": "direct",
+   "firm": "Diker Management",
+   "person": "Mark Diker",
+   "email": "mdiker@dikerllc.com",
+   "also": [
+    "kbrower@dikerllc.com",
+    "nhingorani@dikerllc.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 13:22; passed nine minutes later. NY equities manager, not a real-estate LP. Hingorani replies from nhingorani@dikerllc.onmicrosoft.com - an O365 fallback, so the dikerllc.com alias on file may not deliver."
   }
  ],
  "carveouts": [
