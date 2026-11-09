@@ -3140,6 +3140,21 @@
    "sent": "2026-11-03",
    "outcome": "replied",
    "note": "Chased 9 Nov 11:00; Ted Albrecht (a CC) replied 'This is not for us' at 16:49."
+  },
+  {
+   "channel": "direct",
+   "firm": "Barings",
+   "person": "Harry Day-Reiss",
+   "email": "harry.dayreiss@barings.com",
+   "also": [
+    "kevin.miller@barings.com",
+    "eric.lloyd@barings.com",
+    "clayton.matsuda@barings.com",
+    "caitlin.newsom@barings.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Three sends (30 Oct, 2 Nov, 5 Nov). Day-Reiss replied 9 Nov 22:42 - Houston is not a target market - and referred it to Caitlin Newsom, who covers Texas; she confirmed the same pass 17 minutes later. Note Artemis Real Estate Partners, a Barings company, is a separate live relationship row."
   }
  ],
  "carveouts": [
