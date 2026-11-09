@@ -4134,5 +4134,33 @@
   "action": "Five words, 89 minutes after the 13:44 chase, on a 4 November send that had sat five days. No reason, no door, no signature. Beren was the addressee and answered himself, with Farbowitz and Fishkoff still copied. Nothing to chase.",
   "tags": [],
   "heat": 1
+ },
+ {
+  "firm": "Raiz Investimentos",
+  "person": "Lee Herzog",
+  "title": "CFA",
+  "email": "lee@raizinvestimentos.com.br",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-09T16:32:31Z",
+  "quote": "Zamir, I appreciate you thinking of us. However, US RE is outside of our investment mandate.",
+  "action": "The eighth mandate-boundary pass in three days, and the second reply off a single thread. Herzog is explicit and final: US real estate is outside the mandate. Nothing to rebut, nothing to revisit. The routing on this one is the story. The send went out at 11:33 THIS MORNING to Livia Bartholomei, who no longer works at Raiz - Camila Goes wrote back an hour later asking that Livia be removed from future mailings, and then Lee Herzog, a CC, answered the substance five hours after that. So one send to a departed addressee produced a departure notice and a mandate pass from two different colleagues, and neither was the person written to. Worth noting Herzog signs from 400 Madison Avenue in New York with a US mobile, so the firm has a New York seat; the mandate still excludes US real estate, which is a cleaner answer than geography would suggest. Update the roster: drop livia@, keep lee@ and rafael@.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "Bodley Group",
+  "person": "Ted Albrecht",
+  "title": null,
+  "email": "ted@bodleygroup.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-09T16:49:33Z",
+  "quote": "This is not for us. Thanks though, Ted",
+  "action": "Six words, just under six hours after the 11:00 chase on a 3 November send. No reason, no door, nothing to chase. Albrecht was a CC; Barry at Bodley was the addressee and did not answer.",
+  "tags": [],
+  "heat": 1
  }
 ]

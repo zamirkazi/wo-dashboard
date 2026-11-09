@@ -3115,6 +3115,31 @@
    "sent": "2026-11-04",
    "outcome": "replied",
    "note": "Chased 9 Nov 13:44; 'Not the right fit for us' 89 minutes later."
+  },
+  {
+   "channel": "direct",
+   "firm": "Raiz Investimentos",
+   "person": "Livia Bartholomei (departed)",
+   "email": "livia@raizinvestimentos.com.br",
+   "also": [
+    "lee@raizinvestimentos.com.br",
+    "rafael@raizinvestimentos.com.br"
+   ],
+   "sent": "2026-11-09",
+   "outcome": "replied",
+   "note": "NEW NAME ADDED 9 Nov 11:33 and sent to a departed addressee. Camila Goes confirmed 12:33 that Livia has left and asked for her address to be removed; Lee Herzog (a CC) passed at 16:32 - US real estate is outside the mandate. DROP livia@, keep lee@ and rafael@."
+  },
+  {
+   "channel": "direct",
+   "firm": "Bodley Group",
+   "person": "Barry (Bodley Group)",
+   "email": "barry@bodleygroup.com",
+   "also": [
+    "ted@bodleygroup.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 11:00; Ted Albrecht (a CC) replied 'This is not for us' at 16:49."
   }
  ],
  "carveouts": [
