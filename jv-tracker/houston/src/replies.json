@@ -2250,11 +2250,11 @@
   "quote": "Hey Zamir, Hope you're doing well. What's your schedule like early next week for a call?",
   "tags": [],
   "heat": 4,
-  "action": "Book it. The CIO himself, asking for a call, off the family-office list - and only the second live conversation that channel has produced in 634 sends. Offer two slots early next week and send the package ahead of the call so the hour is spent on their questions rather than the basics. Palm Beach family office, so expect the cheque-size question early; have the answer ready.",
+  "action": "Book it. The CIO himself, asking for a call, off the family-office list - and only the second live conversation that channel has produced in 634 sends. Offer two slots early next week and send the package ahead of the call so the hour is spent on their questions rather than the basics. Palm Beach family office, so expect the cheque-size question early; have the answer ready.  CORRECTION (10 Nov): this row was carrying 'the CIO asked for a call and got no reply', and that is wrong. Zamir DID answer, on 4 November at 23:57: 'Yes all good on my end hope you're OK too! Please let me know a few times that work for you Monday/Tuesday. Looking forward to connecting.' So the ball has been with Horowitz for six days, not with us. The row needs a nudge rather than an apology, and the mis-flag is worth noting in itself: an owed-by-us label that was actually owed-by-them sat at heat 4 for a week and would have produced an unnecessary apology to a chief investment officer.",
   "followup": {
-   "owed": "us",
-   "lastOut": "2026-11-02",
-   "ask": "The CIO asked for a call \"early next week\" on 2 Nov and got no reply. That week is now. Book it."
+   "owed": "them",
+   "lastOut": "2026-11-04",
+   "ask": "Zamir asked Horowitz for Monday/Tuesday times on 4 Nov and got nothing back. Six days silent - nudge, do not apologise."
   },
   "has": "teaser"
  },
