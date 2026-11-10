@@ -3231,6 +3231,57 @@
    "sent": "2026-11-04",
    "outcome": "replied",
    "note": "Chased 10 Nov 13:48; passed two minutes later. Control equity in UK/European operating companies - not real estate, not US, not LP."
+  },
+  {
+   "channel": "direct",
+   "firm": "HFI Capital Management",
+   "person": "Phillip Thompson",
+   "email": "pthompson@hershfi.com",
+   "also": [
+    "jschieferdecker@hershfi.com",
+    "rwhennen@hershfi.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 14:28; the MD of Real Estate passed 24 minutes later with no reason. Dallas-based real-estate seat - worth one line asking what made it a miss."
+  },
+  {
+   "channel": "direct",
+   "firm": "Lufin Partners",
+   "person": "Rohan Pandit",
+   "email": "rohan.pandit@lufinpartners.com",
+   "also": [
+    "christian.lepple@lufin.ch",
+    "rob.bingen@lufin.ch"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 14:03; passed 14:52. BOTH sends bounced on a lufin.ch CC address - verify christian.lepple@ and rob.bingen@ before reuse. Pandit's lufinpartners.com address is live."
+  },
+  {
+   "channel": "direct",
+   "firm": "Hasma Capital Advisors",
+   "person": "Ashley Williams",
+   "email": "awilliams@hasmacapital.com",
+   "also": [
+    "rshah@hasmacapital.com",
+    "agodwin@hasmacapital.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 14:15; replied 50 seconds later - no longer allocating to real estate at all. London. Capital-paused rather than a mandate miss; keep for a later cycle."
+  },
+  {
+   "channel": "direct",
+   "firm": "Grand Oaks Capital",
+   "person": "Dave Bovenzi",
+   "email": "dbovenzi@grandoakscap.com",
+   "also": [
+    "tgolisano@golisanofoundation.org"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 13:42; passed 34 minutes later. Golisano family venture vehicle, not real estate. The CC is a charitable foundation address - the row was built from a principal's philanthropy, not a mandate."
   }
  ],
  "carveouts": [
@@ -3363,6 +3414,11 @@
    "firm": "Ridgeline",
    "person": "Trevor Heiner",
    "why": "\"Not a fit, please remove us from your list.\" 9 Nov 14:23, 28 minutes after a first-touch send made at 11:54 the same morning - so this name was added to the list today and asked to be taken off today. An explicit removal request, so trevor@, ryan@ and todd@ridgeline.com all come off. Third opt-out of the campaign after Connelly (CASL) and Consolidated Press Holdings (Australia), and the first to arrive inside half an hour of the only email ever sent."
+  },
+  {
+   "firm": "Fingerboard Family Office",
+   "person": "Michael D. Shapiro (Associate General Counsel, Trusts & Estates)",
+   "why": "\"Not interested. Please remove me from your list.\" 10 Nov 14:29, just under two hours after the 12:37 chase on a 4 November send. An explicit removal request, so mshapiro@fbfo.com and MShapiro@fingerboard.law both come off - he was a CC and replied from the firm's legal domain rather than the one he was mailed at. NOTE THE SCOPE: he wrote 'remove me', not 'remove us', so this is read as personal rather than firm-wide. Alyssa Dondero (adondero@fbfo.com, the addressee) and b.saville@advance.com are not covered by the request and are left on, but a removal demand from the family office's own counsel is a poor footing for chasing his colleague - treat the firm as closed in practice. Fourth opt-out of the campaign after Connelly (CASL), Consolidated Press Holdings (Australia) and Ridgeline, and the first to come from a lawyer."
   }
  ],
  "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",

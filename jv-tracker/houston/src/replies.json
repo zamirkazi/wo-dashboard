@@ -4260,5 +4260,61 @@
    "strategy-mismatch"
   ],
   "heat": 1
+ },
+ {
+  "firm": "HFI Capital Management",
+  "person": "Phillip Thompson",
+  "title": "Managing Director, Real Estate",
+  "email": "pthompson@hershfi.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-10T14:52:49Z",
+  "quote": "Zamir, This is not a fit for us.",
+  "action": "THE BEST-QUALIFIED READER TO PASS TODAY, AND THE LEAST INFORMATIVE ANSWER. Thompson is Managing Director of Real Estate at HFI Capital Management, in Dallas - the right seat, the right asset class and the right state, which is a combination almost nothing else on this board has had. He was the addressee and answered himself, 24 minutes after the 14:28 chase, with six words and no reason. That is worth one follow-up question rather than a shrug. A Texas real-estate MD who looks at a 2023-build at $135K a door and says 'not a fit' knows something specific - basis, submarket, sponsor, structure or simply that they do not write LP cheques. Any of those answers is worth more than the pass itself, and he is the kind of reader whose reason would be worth putting in front of the next investor. One line asking what made it a miss costs nothing and he has already shown he replies quickly.",
+  "tags": [],
+  "heat": 1
+ },
+ {
+  "firm": "Lufin Partners",
+  "person": "Rohan Pandit",
+  "title": "Investment Director",
+  "email": "rohan.pandit@lufinpartners.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-10T14:52:14Z",
+  "quote": "Thank you but this is not really a fit for the client portfolio. Regards, Rohan",
+  "action": "A clean no from a New York investment director 48 minutes after the 14:03 chase - 'not really a fit for the client portfolio', so a discretionary wealth mandate rather than a Houston view. Nothing to rebut. ROSTER FAULT WORTH FIXING: both sends on this thread, 4 November and today, produced immediate mailer-daemon bounces. Pandit himself is on lufinpartners.com and his address works; the two copied colleagues are on lufin.ch, and at least one of those is dead. So every send to this firm has been half-failing for a week without anyone noticing, because the reply came back anyway. Verify christian.lepple@ and rob.bingen@ before either is used again.",
+  "tags": [],
+  "heat": 1
+ },
+ {
+  "firm": "Hasma Capital Advisors",
+  "person": "Ashley Williams",
+  "title": null,
+  "email": "awilliams@hasmacapital.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-10T14:16:47Z",
+  "quote": "Hi Zamir We're no longer allocating to Real Estate Thanks Ashley",
+  "action": "Fifty seconds after the 14:15 chase - the fastest reply on the board after Darco's 94 seconds, and this one beats it. A London advisory firm that has stopped allocating to real estate entirely. Not a Houston view, not a deal view: the asset class is off their book. 'No longer' is the operative word. This is a firm that used to do this and has stepped back, which puts it with the capital-paused names rather than the mandate misses - worth keeping for a later cycle rather than suppressing, though nothing about Allen Genoa will change it. Williams was the addressee and answered personally.",
+  "tags": [
+   "capital-paused"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "Grand Oaks Capital",
+  "person": "Dave Bovenzi",
+  "title": null,
+  "email": "dbovenzi@grandoakscap.com",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-10T14:16:30Z",
+  "quote": "Thanks for sharing, but this does not fit our investment mandate.",
+  "action": "A flat mandate no 34 minutes after the 13:42 chase, from the addressee. Nothing to chase. The routing is the note worth keeping: the send went to Bovenzi with tgolisano@golisanofoundation.org copied - a charitable foundation address alongside a capital firm. Grand Oaks is the Golisano family's venture vehicle, which invests in early-stage companies rather than real estate, so the mandate line is accurate and the foundation CC explains how the row was built: from a principal's philanthropic identity rather than from an investment mandate. That is the same construction fault as RZC's aircraft-composites CC and D'Orazio's car dealership.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
  }
 ]
