@@ -3168,6 +3168,30 @@
    "sent": "2026-11-03",
    "outcome": "replied",
    "note": "Chased 9 Nov 10:39; Brett Gamble (a CC) passed 10 Nov 02:32. New Zealand - its own anti-spam statute applies, so no further unsolicited sends to this domain."
+  },
+  {
+   "channel": "direct",
+   "firm": "Far East Organization",
+   "person": "Graham Ng",
+   "email": "grahamng@fareast.com",
+   "also": [
+    "ngekong@fareast.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chase repeatedly bounced on 9 Nov under the Gmail send limit (53-message thread, mostly mailer-daemon). Got through 10 Nov; Nge Kong Lai (a CC) passed within minutes."
+  },
+  {
+   "channel": "direct",
+   "firm": "Fink Family Office",
+   "person": "Jordan Fink",
+   "email": "jordan@finkfamilyoffice.com",
+   "also": [
+    "alex@finkfamilyoffice.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 12:37; Alex Fink (Principal, a CC) replied 'Not for us' nine minutes later. Single family office of Lord Stanley Fink - a principal office, not a real-estate allocator."
   }
  ],
  "carveouts": [

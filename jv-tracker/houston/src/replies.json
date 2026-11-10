@@ -4191,5 +4191,31 @@
   "action": "A courteous New Zealand no, just under sixteen hours after the 10:39 chase - which is a same-business-day turnaround at NZDT, not a slow one. No reason given and nothing to chase. Gamble was a CC; Kirstin McLeod was the addressee and did not answer, so the copied party carried it again. Worth noting the jurisdiction before any further send: New Zealand has its own anti-spam statute (the Unsolicited Electronic Messages Act), which makes this the third such jurisdiction on the list after Canada and Australia, both of which have already produced opt-out demands. This is a polite decline rather than a removal request, so the name stays - but it does not get another unsolicited send.",
   "tags": [],
   "heat": 1
+ },
+ {
+  "firm": "Far East Organization",
+  "person": "Nge Kong Lai",
+  "title": null,
+  "email": "ngekong@fareast.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-10T12:59:11Z",
+  "quote": "Thanks but will pass on this. Regards Nge Kong",
+  "action": "Six words from Singapore, minutes after the chase landed. No reason and nothing to chase. Lai was a CC; Graham Ng was the addressee and did not answer. The thread itself is the thing worth noting: it carries 53 messages, almost all of them mailer-daemon bounces from yesterday's send-limit episode. The chase to this firm was rejected repeatedly through the afternoon and evening of 9 November and only got through once the 24-hour window rolled this morning - at which point it drew an answer in minutes. So the limit did not lose the contact, it just delayed it by a day; but a 53-message thread is what a throttled campaign looks like from the inside, and any further retries against this address would have been landing on a recipient who had already decided.",
+  "tags": [],
+  "heat": 1
+ },
+ {
+  "firm": "Fink Family Office",
+  "person": "Alex Fink",
+  "title": "Principal",
+  "email": "alex@finkfamilyoffice.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-10T12:46:31Z",
+  "quote": "Not for us",
+  "action": "Three words, nine minutes after the 12:37 chase on a 4 November send. The signature identifies the firm as the single family office of Lord Stanley Fink, former Man Group chief executive - a UK principal office rather than an allocator with a real-estate mandate, which is consistent with how fast the answer came. No reason given, nothing to rebut. Fink was a CC; Jordan Fink was the addressee and did not answer. That remains the dominant routing pattern on this campaign.",
+  "tags": [],
+  "heat": 1
  }
 ]
