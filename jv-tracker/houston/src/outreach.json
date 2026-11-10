@@ -3282,6 +3282,92 @@
    "sent": "2026-11-04",
    "outcome": "replied",
    "note": "Chased 10 Nov 13:42; passed 34 minutes later. Golisano family venture vehicle, not real estate. The CC is a charitable foundation address - the row was built from a principal's philanthropy, not a mandate."
+  },
+  {
+   "channel": "direct",
+   "firm": "Nuveen Real Estate",
+   "person": "Timothy Goeke",
+   "email": "timothy.goeke@nuveen.com",
+   "also": [
+    "marc.roth@nuveen.com",
+    "carlos.burneo@nuveen.com",
+    "brian.wallick@nuveen.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "FOUR sends (30 Oct, 2 Nov, 5 Nov, 10 Nov) to Goeke direct. Answered 10 Nov 16:06: 'we have plenty of Houston.' Pure exposure constraint from a top-tier manager - go back with a non-Houston deal."
+  },
+  {
+   "channel": "direct",
+   "firm": "RanchHarbor",
+   "person": "John Meek",
+   "email": "jmeek@ranchharbor.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Four sends; passed 10 Nov 16:02. Houston not a target market AND the family is not interested in Texas. INVITED FUTURE DEAL FLOW in writing - keep for the next non-Texas deal."
+  },
+  {
+   "channel": "direct",
+   "firm": "Elmington Residential",
+   "person": "Jason Abel",
+   "email": "jabel@elmingtonresidential.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Four sends; replied 10 Nov. A GP, not an LP. Referred us to 'Devlin or Rick at Argosy' - Argosy already passed on 7 Oct, tapped out on Houston. Dead-end referral."
+  },
+  {
+   "channel": "direct",
+   "firm": "James Richardson & Sons",
+   "person": "Ashley Hearn",
+   "email": "ashley.hearn@jrsl.ca",
+   "also": [
+    "brent.dreger@jrsl.ca",
+    "hartley.richardson@jrsl.ca"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 15:26; Brent Dreger (a CC) passed 13 minutes later. CANADIAN (Winnipeg) - second Canadian name today, still inside the unanswered CASL question."
+  },
+  {
+   "channel": "direct",
+   "firm": "Jaggi Family Office",
+   "person": "Brett (Jaggi Family Office)",
+   "email": "brett@jaggifamilyoffice.com",
+   "also": [
+    "reema@jaggifamilyoffice.com",
+    "jaggi@iridiuscapital.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 15:22; GS Jaggi (founder, a CC) passed 21 minutes later from iridiuscapital.com."
+  },
+  {
+   "channel": "direct",
+   "firm": "Joddes",
+   "person": "George Dafnas",
+   "email": "gdafnas@joddes.com",
+   "also": [
+    "falassane@joddes.com",
+    "tcomber@joddes.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 15:31; Tomas Comber (a CC) passed 19 minutes later."
+  },
+  {
+   "channel": "direct",
+   "firm": "Inbox Capital",
+   "person": "Markus Kitunen",
+   "email": "markus.kitunen@inboxcap.com",
+   "also": [
+    "m@inboxcap.com",
+    "ludvig.frykholm@inboxcap.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 14:55; Ludvig Frykholm (a CC) passed 32 minutes later - outside investment criteria. 'm@inboxcap.com' is probably an alias of markus.kitunen@; collapse the duplicate."
   }
  ],
  "carveouts": [
@@ -3419,6 +3505,16 @@
    "firm": "Fingerboard Family Office",
    "person": "Michael D. Shapiro (Associate General Counsel, Trusts & Estates)",
    "why": "\"Not interested. Please remove me from your list.\" 10 Nov 14:29, just under two hours after the 12:37 chase on a 4 November send. An explicit removal request, so mshapiro@fbfo.com and MShapiro@fingerboard.law both come off - he was a CC and replied from the firm's legal domain rather than the one he was mailed at. NOTE THE SCOPE: he wrote 'remove me', not 'remove us', so this is read as personal rather than firm-wide. Alyssa Dondero (adondero@fbfo.com, the addressee) and b.saville@advance.com are not covered by the request and are left on, but a removal demand from the family office's own counsel is a poor footing for chasing his colleague - treat the firm as closed in practice. Fourth opt-out of the campaign after Connelly (CASL), Consolidated Press Holdings (Australia) and Ridgeline, and the first to come from a lawyer."
+  },
+  {
+   "firm": "247 Lookout",
+   "person": "Jeffrey Chin",
+   "why": "\"I'll pass on getting further info. Please remove me from all marketing and distribution lists.\" 10 Nov 15:36, ONE MINUTE AND FORTY-FOUR SECONDS after a first-touch send made at 15:34 the same afternoon. The fastest opt-out of the campaign by a wide margin, and the second name added to the list and removed from it on the same day, after Ridgeline. The send went to issac@247lookout.com with jeffrey@ copied, and the copied party objected - so both addresses come off, and the request says 'all marketing and distribution lists', which is broader than this campaign. Fifth opt-out after Connelly (CASL), Consolidated Press Holdings (Australia), Ridgeline and Fingerboard."
+  },
+  {
+   "firm": "Foinco (Fossum family)",
+   "person": "Anne Birgitte Fossum",
+   "why": "\"Please delete all Foinco adresses - Foinco is not investing!\" 10 Nov 15:18, two and a half hours after the 12:44 chase on a 4 November send. An explicit deletion demand covering the whole firm, not one address, with an exclamation mark - so anne.bi.fossum@foinco.no comes off along with every other foinco.no address on the roster. She replied from abf@abisco.no, a separate Norwegian vehicle, which is NOT covered by the request and should not be mailed either on the strength of it. The third address on the thread, stig.eide.sivertsen@online.no, is a personal account on a consumer domain - another sign of how this row was assembled. Sixth opt-out of the campaign."
   }
  ],
  "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",
