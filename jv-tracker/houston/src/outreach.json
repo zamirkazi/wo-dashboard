@@ -3368,6 +3368,52 @@
    "sent": "2026-11-04",
    "outcome": "replied",
    "note": "Chased 10 Nov 14:55; Ludvig Frykholm (a CC) passed 32 minutes later - outside investment criteria. 'm@inboxcap.com' is probably an alias of markus.kitunen@; collapse the duplicate."
+  },
+  {
+   "channel": "direct",
+   "firm": "Cigna Realty Investors",
+   "person": "Mike Brown",
+   "email": "mike.brown@cignahealthcare.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "FOUR sends; replied 10 Nov 16:12. Not pursuing multifamily acquisitions on a direct basis. SENT THEIR COVERAGE MAP (CRI Marketing Flyer 2026.pdf) and named Jeff Keenan as the Texas contact - add Keenan, retire Brown for deal sends."
+  },
+  {
+   "channel": "direct",
+   "firm": "Park Row Equity Partners",
+   "person": "Alan Steinberg",
+   "email": "alan@parkrowep.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Four sends; passed 10 Nov 08:29 - just closed a large Miami deal, resting. THEN volunteered that their BRANDON asset did not sell (buyer failed at the end of DD) and may come back to market. Acquisitions lead, not equity - route to whoever runs acquisitions."
+  },
+  {
+   "channel": "direct",
+   "firm": "Validor Capital",
+   "person": "Matthew Pearson",
+   "email": "mpearson@validorcap.com",
+   "also": [
+    "mkaufman@validorcap.com",
+    "amcdermand@validorcap.com"
+   ],
+   "sent": "2026-11-10",
+   "outcome": "replied",
+   "note": "NEW NAME SENT 10 Nov 16:26, passed 16:27 - eighty seconds. Real estate is outside their focus areas. Eleventh non-real-estate firm in eight days."
+  },
+  {
+   "channel": "direct",
+   "firm": "Fernandez Holdings",
+   "person": "Barry Green",
+   "email": "bgreen@fernandezholdings.com",
+   "also": [
+    "aharthaller@fernandezholdings.com",
+    "jjohnson@fernandezholdings.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 12:30; Alex Harthaller (a CC) passed 16:52."
   }
  ],
  "carveouts": [

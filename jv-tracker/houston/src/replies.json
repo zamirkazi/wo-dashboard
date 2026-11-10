@@ -4414,5 +4414,61 @@
    "strategy-mismatch"
   ],
   "heat": 1
+ },
+ {
+  "firm": "Cigna Realty Investors",
+  "person": "Mike Brown",
+  "title": "Senior Vice President, Acquisitions (CFA)",
+  "email": "mike.brown@cignahealthcare.com",
+  "channel": "direct",
+  "stage": "referred",
+  "ts": "2026-11-10T16:12:15Z",
+  "quote": "Apologies. Jeff Keenan on our team covers TX markets for us. I've attached our current coverage map for future reference. We have not been actively pursuing multi acquisitions on a direct basis, so this is likely not a strategic fit but appreciate you reaching out.",
+  "action": "THE MOST USEFUL CLOSED ROW OF THE DAY, BECAUSE HE SENT A MAP. Brown is SVP of Acquisitions at Cigna Realty Investors and he did three things in four lines: named the colleague who covers Texas (Jeff Keenan), attached Cigna's current coverage map 'for future reference', and explained the actual constraint - they are not pursuing multifamily acquisitions on a direct basis at the moment. The attachment is the asset here (CRI Marketing Flyer 2026.pdf, on this thread). It states what a large insurance balance sheet is buying right now, by market and by product, which is worth more than this pass and is reusable across every future ZMR deal. Read it, file it, and put Keenan on the roster as the Texas contact rather than mailing Brown again. 'Not on a direct basis' leaves the indirect door open - fund, JV or programmatic - which is a different conversation from a single-asset LP cheque and one Keenan would be the right person for. Four sends to get here (30 Oct, 2 Nov, 5 Nov, 10 Nov), all to Brown direct, and he apologised for the delay.",
+  "tags": [],
+  "heat": 2
+ },
+ {
+  "firm": "Park Row Equity Partners",
+  "person": "Alan Steinberg",
+  "title": "President & CEO",
+  "email": "alan@parkrowep.com",
+  "channel": "direct",
+  "stage": "relationship",
+  "ts": "2026-11-10T16:34:09Z",
+  "quote": "We just closed on a huge deal in Miami, so we need to take a rest for some time. Best of success with this investment. | 16:34, on Brandon: \"No. The buyer had a last-minute issue at the end of DD, so we did not sell it. It's a great asset with great cash flow and great upside, so we're not in a hurry to sell and may place it back on the market in the future.\"",
+  "action": "A pass that turned into an acquisition lead because Zamir asked one good question. Steinberg passed at 08:29 - just closed a large Miami deal, needs a rest - which is capital timing rather than a view on Houston. Zamir came back at 11:30 with 'Congrats! Did you ever sell that deal in Brandon?' and got a real answer. THE ANSWER IS THE POINT, AND IT IS NOT ABOUT ALLEN GENOA. Park Row's Brandon asset did not trade: the buyer blew up at the end of due diligence. Steinberg says it has great cash flow and great upside, they are in no hurry, and they 'may place it back on the market in the future'. That is an owner-told account of a broken process on a Tampa-market asset, delivered to a Tampa-based buyer who has just lived through the identical situation on the buy side - Allen Genoa itself was won because the winning buyer's process broke. This is acquisitions business, not equity, so it does not belong in the raise. But it is the second time this week an LP solicitation has produced something more valuable than LP capital (after Bulkspan on bulk internet), and both came from asking a follow-up question rather than accepting the no. Worth a note to whoever runs acquisitions before Park Row re-lists through a broker.",
+  "tags": [
+   "capital-paused"
+  ],
+  "heat": 2
+ },
+ {
+  "firm": "Validor Capital",
+  "person": "Alexander McDermand",
+  "title": "Associate",
+  "email": "amcdermand@validorcap.com",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-10T16:27:34Z",
+  "quote": "Thanks Zamir - Real estate is outside of our focus areas.",
+  "action": "EIGHTY SECONDS. The send went out at 16:26 and the answer came back at 16:27 - the fastest turnaround of the entire campaign, beating Hasma's fifty-second reply only because that one was to a chase rather than a first touch. Real estate is outside their focus areas, full stop. This is the ELEVENTH firm in eight days to say it does not invest in real estate - after Empire Global, ALFAHIM, 247VC, 4L Vision, CAPNOR, Ananta, Gardner Standard, Advance, Carlson and Greybull. Validor is a Boca Raton private investment firm and the row was built, sent and closed inside ninety seconds without anyone on either side learning anything. That is the asset-class screen failing in real time, and it is now costing quota that Google is rationing. McDermand was a CC; Matthew Pearson was the addressee.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "Fernandez Holdings",
+  "person": "Alex Harthaller",
+  "title": null,
+  "email": "aharthaller@fernandezholdings.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-10T16:52:06Z",
+  "quote": "Zamir, We will be a pass on this opportunity.",
+  "action": "Seven words, four and a half hours after the 12:30 chase on a 4 November send. No reason, nothing to chase. Harthaller was a CC; Barry Green was the addressee and Jeremy Johnson the other copy.",
+  "tags": [],
+  "heat": 1
  }
 ]
