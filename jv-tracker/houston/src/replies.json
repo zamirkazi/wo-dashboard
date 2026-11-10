@@ -4489,5 +4489,42 @@
    "lastOut": "2026-11-10",
    "ask": "The Managing Partner asked \"when is good next week?\" Send two or three specific times today."
   }
+ },
+ {
+  "firm": "American Real Estate Capital (AmRE)",
+  "person": "David J. Nigro",
+  "title": "Senior Managing Director",
+  "email": "dnigro@amrecap.com",
+  "channel": "direct",
+  "stage": "relationship",
+  "ts": "2026-11-10T18:33:51Z",
+  "quote": "Houston is not a market we have targeted for equity investment nor lending. There may be an exception for The Woodlands or Sugerland. Smart Living Allen Genoa is not located in an area we would have an interest. If you would like to catch-up we are available this afternoon.",
+  "action": "THE MOST PRECISE HOUSTON ANSWER ON THE BOARD - IT NAMES THE LINE INSTEAD OF DRAWING IT. Nigro does not say Houston is closed; he says Houston is not targeted for equity OR lending, with a possible exception for THE WOODLANDS or SUGAR LAND, and then rules out this asset specifically: 'Smart Living Allen Genoa is not located in an area we would have an interest.' Those two exceptions are the affluent north and southwest suburbs. Allen Genoa is Southeast Houston, near the Ship Channel. So an investor who does both debt and equity has drawn the submarket line exactly where Slocumb, Sabal, Green Pine and Island Capital drew it on affordability and household income - and he drew it without being asked, having read only the bullets. That is the fifth independent read on the submarket rather than the market, and it is the one that names the acceptable alternatives. IT SHARPENS THE WHOLE 'HOUSTON IS CLOSED' FINDING. Nuveen, Barings and Argosy said the allocation is full. Nigro says something different and more useful: the capital exists for Houston, it is just not for this part of Houston. Read alongside LaSalle choosing a competing Houston deal, the pattern is less 'nobody wants Houston' and more 'the submarket is doing the work'. Worth reflecting in how the next memo frames the location. HE OFFERED A CALL THE SAME AFTERNOON and it is unanswered. Four sends (30 Oct, 2 Nov, 5 Nov, 10 Nov) produced a senior managing director volunteering time - take it, not to re-pitch Allen Genoa, which he has ruled out cleanly, but because he will tell you what he would fund in Houston and at what basis. That is worth more than another LP conversation.",
+  "tags": [
+   "submarket-conviction",
+   "not-targeted"
+  ],
+  "heat": 3,
+  "has": "teaser",
+  "followup": {
+   "owed": "us",
+   "lastOut": "2026-11-10",
+   "ask": "Nigro offered a call \"this afternoon\" and it is unanswered. He passed on the deal but will do The Woodlands / Sugar Land, equity or debt. Take the call for the market read, not to re-pitch."
+  }
+ },
+ {
+  "firm": "DVO Real Estate",
+  "person": "Victoria Goldenberg",
+  "title": null,
+  "email": "vgoldenberg@dvorealestate.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-10T19:08:40Z",
+  "quote": "Hi Zamir, This is a pass for us as we are not investing in Houston right now.",
+  "action": "A market-level pass after four sends (30 Oct, 2 Nov, 5 Nov, 10 Nov), three hours after the last one. Not the basis, not the deal - 'we are not investing in Houston right now'. 'Right now' is doing work in that sentence, so this is a posture rather than a policy and the name keeps for a later cycle or a different market. Goldenberg was the sole addressee throughout and answered personally. Together with Nuveen, Barings, Argosy and AmRE today, that is five separate firms in one day declining on the market rather than the asset.",
+  "tags": [
+   "not-targeted"
+  ],
+  "heat": 1
  }
 ]
