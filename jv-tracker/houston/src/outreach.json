@@ -3501,6 +3501,31 @@
    "sent": "2026-11-10",
    "outcome": "replied",
    "note": "Personal relationship, not a list name - Zamir forwarded the 11.10.26 package 'per our conversation'. Founder/CEO of a Sherman Oaks ad-tech firm, brother Danny copied. Asked for deal terms and loan rate; got the Strawman LP Terms doc and the full debt snapshot the same hour. First recipient of term-sheet language."
+  },
+  {
+   "channel": "direct",
+   "firm": "Lateral",
+   "person": "Anand Kapadia",
+   "email": "akapadia@lateralllc.com",
+   "also": [
+    "ehattem@lateralllc.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Replied 10 Nov 23:05 after an 11-day gap, apologising. ACTIVELY EVALUATING TWO OTHER HOUSTON MULTIFAMILY DEALS. Wants the investment memo, the model and a CoStar market report. Eli Hattem copied."
+  },
+  {
+   "channel": "sfo",
+   "firm": "KF Matheson (Matheson Financial)",
+   "person": "Kevin Little",
+   "email": "klittle@kfmatheson.com",
+   "also": [
+    "rperhar@kfmatheson.com",
+    "ryan.perillo@gmail.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 15:42; passed 22:22, no reason. Mississauga, Ontario - third Canadian firm to answer civilly today. A consumer gmail address (ryan.perillo@) sits on the row; verify before resending."
   }
  ],
  "carveouts": [
