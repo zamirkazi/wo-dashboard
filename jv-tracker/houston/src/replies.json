@@ -4178,5 +4178,18 @@
    "not-targeted"
   ],
   "heat": 1
+ },
+ {
+  "firm": "Gough Group",
+  "person": "Brett Gamble",
+  "title": null,
+  "email": "brett@gough.co.nz",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-10T02:32:30Z",
+  "quote": "Hi Zamir Thanks for sending this through, but this is not of interest to us. Regards Brett",
+  "action": "A courteous New Zealand no, just under sixteen hours after the 10:39 chase - which is a same-business-day turnaround at NZDT, not a slow one. No reason given and nothing to chase. Gamble was a CC; Kirstin McLeod was the addressee and did not answer, so the copied party carried it again. Worth noting the jurisdiction before any further send: New Zealand has its own anti-spam statute (the Unsolicited Electronic Messages Act), which makes this the third such jurisdiction on the list after Canada and Australia, both of which have already produced opt-out demands. This is a polite decline rather than a removal request, so the name stays - but it does not get another unsolicited send.",
+  "tags": [],
+  "heat": 1
  }
 ]
