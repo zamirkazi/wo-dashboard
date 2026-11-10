@@ -4217,5 +4217,48 @@
   "action": "Three words, nine minutes after the 12:37 chase on a 4 November send. The signature identifies the firm as the single family office of Lord Stanley Fink, former Man Group chief executive - a UK principal office rather than an allocator with a real-estate mandate, which is consistent with how fast the answer came. No reason given, nothing to rebut. Fink was a CC; Jordan Fink was the addressee and did not answer. That remains the dominant routing pattern on this campaign.",
   "tags": [],
   "heat": 1
+ },
+ {
+  "firm": "Greystone Group",
+  "person": "Francis Roby",
+  "title": "Chief Financial Officer (CPA, CA)",
+  "email": "francis@greystonegroupco.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-10T13:55:28Z",
+  "quote": "Thank you for the interest Zamir - we will have to pass on this one.",
+  "action": "Six minutes after the 13:49 chase, from the CFO himself - Roby was the addressee, which breaks the run of CC replies. Courteous, no reason, nothing to chase. THE ONE THING TO NOTE IS THE JURISDICTION. Greystone is in Grand Falls, New Brunswick, and the copied address is at kbco.ca - so both parties on this thread are Canadian. That makes this a live instance of the question Zamir has now been asked twice and has not answered: whether to pull the remaining Canadian family offices from future sends after the Connelly CASL complaint. This one answered politely and promptly rather than objecting, which is evidence on the 'keep mailing Canada' side - but it is one data point against a formal complaint, and the decision is still outstanding.",
+  "tags": [],
+  "heat": 1
+ },
+ {
+  "firm": "GlenRock Israel",
+  "person": "Asaf Iram",
+  "title": null,
+  "email": "ai@grg.co.il",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-10T13:52:00Z",
+  "quote": "Many thanks for the opportunity dear Zamir, however input is not in line with GlenRock's investment strategy. We wish you much success",
+  "action": "A warm mandate-level no from Tel Aviv, 24 minutes after the 13:28 chase. GlenRock is a technology and growth investor; a Houston multifamily LP position was never inside the strategy. Nothing to rebut. Iram replied from ai@grg.co.il, which is not one of the three addresses on the send - the note went to lr@ with ronit@ and asaf@ copied. So the firm has at least one more live alias than the roster carries, and the asaf@ entry may be a duplicate of the same person under a different local part. Worth tidying rather than re-mailing.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "Greybull Capital",
+  "person": "Robbie Brough",
+  "title": null,
+  "email": "robbie@greybull.eu",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-10T13:50:54Z",
+  "quote": "Hello This is not one for us. We focus on control equity investments in operating companies. Primarily in the UK and Europe. Thank you Robbie",
+  "action": "Two minutes after the 13:48 chase, and specific about why: control equity in operating companies, UK and Europe. Not real estate, not the US, not a passive LP position - three separate reasons, any one of which closes it. Brough was the addressee and answered himself. This is the TENTH firm in a week to reply that it invests in operating companies rather than real estate, after Empire Global, ALFAHIM, 247VC, 4L Vision, CAPNOR, Ananta, Gardner Standard, Advance and Carlson. Ten is no longer a run of bad luck on a 1,086-name roster; it is a missing screen. Every one of these costs a send, a chase and a small amount of goodwill at a firm that might have been right for something else, and they are now arriving faster than the genuine prospects.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
  }
 ]

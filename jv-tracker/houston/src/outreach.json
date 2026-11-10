@@ -3192,6 +3192,45 @@
    "sent": "2026-11-04",
    "outcome": "replied",
    "note": "Chased 10 Nov 12:37; Alex Fink (Principal, a CC) replied 'Not for us' nine minutes later. Single family office of Lord Stanley Fink - a principal office, not a real-estate allocator."
+  },
+  {
+   "channel": "direct",
+   "firm": "Greystone Group",
+   "person": "Francis Roby",
+   "email": "francis@greystonegroupco.com",
+   "also": [
+    "louis@kbco.ca"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 13:49; the CFO passed six minutes later. CANADIAN (New Brunswick, plus a kbco.ca CC) - relevant to the unanswered question about pulling Canadian names post-CASL."
+  },
+  {
+   "channel": "direct",
+   "firm": "GlenRock Israel",
+   "person": "GlenRock (lr@)",
+   "email": "lr@grg.co.il",
+   "also": [
+    "ronit@grg.co.il",
+    "asaf@grg.co.il",
+    "ai@grg.co.il"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 13:28; Asaf Iram replied 13:52 from ai@grg.co.il, an alias not on the send list. Technology and growth investor - outside strategy. Tidy the aliases."
+  },
+  {
+   "channel": "direct",
+   "firm": "Greybull Capital",
+   "person": "Robbie Brough",
+   "email": "robbie@greybull.eu",
+   "also": [
+    "sam@greybull.eu",
+    "marc@greybull.eu"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 13:48; passed two minutes later. Control equity in UK/European operating companies - not real estate, not US, not LP."
   }
  ],
  "carveouts": [
