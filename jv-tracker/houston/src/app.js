@@ -37,6 +37,7 @@ $('#spec').innerHTML = [
 
 /* ---------- channel switcher ---------- */
 const chanKeys = Object.keys(D.channels);
+const NUMWORD = n => ['zero','one','two','three','four','five','six','seven','eight','nine','ten','eleven','twelve'][n] || String(n);
 const inChan = x => channel === 'all' || x.channel === channel;
 const contactsIn = k => D.contacts.filter(c => c.channel === k);
 // Reach is the number of firms a channel actually mailed. The blasts named only their
@@ -82,7 +83,7 @@ function renderStatus(){
     : '';
   $('#headline').innerHTML = dl +
     '<b>' + usd(d.equity) + ' to raise, and the deal has now gone to ' + totalReach() +
-      ' firms across seven channels.</b> ' +
+      ' firms across ' + NUMWORD(chanKeys.length) + ' channels.</b> ' +
     'Of those, ' + D.replies.length + ' came back — ' +
     D.replies.filter(r => r.stage === 'pass').length + ' passes and ' +
     D.replies.filter(r => LIVE.has(r.stage)).length + ' still live. Almost every pass names Houston — ' +

@@ -63,6 +63,14 @@
    "status": "live",
    "reach": 0,
    "note": "The 'Rest of SFO not sent previously' list - roughly 600 single family offices sourced from FinTrx, sent 3 Nov under the new subject 'Houston Multifamily LP Equity' with three bullets no other wave carried: Year 1 CoC 11%, Depreciation, and Accept 1031 Exchange. Reach is not yet fixed because the send was still running when Gmail throttled the account. This wave bounced at least 22 addresses in its first few hours and triggered eleven 'you have reached a limit for sending mail' failures, one of which killed an unrelated reply to Rialto Capital."
+  },
+  "windmass": {
+   "label": "Mitchell Voss (WindMass)",
+   "owner": "Mitchell Voss, Founder & CEO, WindMass Capital",
+   "started": "2026-11-10",
+   "status": "live",
+   "note": "Zamir asked Voss on 2 November - a Dallas competitor, not a broker - 'do you know any groups this deal might be a fit for', and attached the OM and the full model. Voss sat on it for eight days and then, between 19:30 and 19:56 on 10 November, forwarded it to four firms with a personal note on each: Connor Monaghan at Arcapita, Meredith at Machine Investment Group, Michael Pokorny and Katie Harris at Cerberus, and Jawad Ahmed at Farallon. Zamir was copied on every one. Cerberus answered 78 seconds after the introduction landed. This is the first channel on the board opened by a competitor rather than a broker or a list, and it is the only one whose names are all institutional. It also carries the live underwriting model (Houston_TX_SmartLivingAllenGenoa_ZMR_PF_10.26.26.xlsx) out to four firms at once - Zamir attached it himself on 2 Nov, so that was his call, but it is now in four more hands.",
+   "reach": 4
   }
  },
  "contacts": [
@@ -3447,6 +3455,28 @@
    "sent": "2026-10-30",
    "outcome": "replied",
    "note": "Four sends; passed 10 Nov 19:08 - not investing in Houston right now. 'Right now' - keep for a later cycle."
+  },
+  {
+   "channel": "windmass",
+   "firm": "Cerberus Capital Management",
+   "person": "Michael Pokorny",
+   "email": "mpokorny@cerberus.com",
+   "also": [
+    "kharris@cerberus.com"
+   ],
+   "sent": "2026-11-10",
+   "outcome": "replied",
+   "note": "Introduced by Mitchell Voss 10 Nov 19:52 with the OM and the full model attached. Pokorny replied 19:57 - 78 seconds - 'we'll take a look and Zamir we'll reach out separately.' Katie Harris with him. Ball is theirs."
+  },
+  {
+   "channel": "windmass",
+   "firm": "Arcapita",
+   "person": "Connor Monaghan",
+   "email": "cmonaghan@arcapita.com",
+   "also": [],
+   "sent": "2026-11-10",
+   "outcome": "sent",
+   "note": "Introduced by Mitchell Voss 10 Nov 19:30 with the OM and the full model attached - the first of his four forwards. Voss's covering line was that his own deal is moving away and Zamir's is worth a look. No reply yet."
   }
  ],
  "carveouts": [
