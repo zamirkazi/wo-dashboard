@@ -2033,18 +2033,18 @@
   "email": "abonilla@garnier.cr",
   "channel": "direct",
   "stage": "question",
-  "ts": "2026-10-31T15:10:08Z",
-  "quote": "Thanks Zamir, will talk ea closer look but interesting in understanding your exit timing (is this a long term hold or quick turnaround)? Also, minimum check size looking to fund the LP portion?",
-  "action": "Same-day reply off a cold YPO send, and he has the OM and the full model in hand - Zamir attached ZMR_SmartLivingAllenGenoa_OM.pdf and Houston_TX_SmartLivingAllenGenoa_ZMR_PF_10.26.26.xlsx. Two answers owed, neither of which is in any marketing document. The exit question is answerable from the model's own hold - the agency loan is five-year fixed and the exit runs at a 6.00% cap - but confirm the exact term with Kevin rather than inferring it from the 2.33x. The minimum check is the harder one: there is no stated minimum anywhere, the send that went out had the partial-check language cut from it, and he asked for it unprompted. This is the second time the question has come from the YPO side, where the money is individual tickets rather than fund allocations, so a number needs setting rather than improvising per reply.",
+  "ts": "2026-11-10T23:32:30Z",
+  "quote": "Thanks Zamir, will talk ea closer look but interesting in understanding your exit timing (is this a long term hold or quick turnaround)? Also, minimum check size looking to fund the LP portion? | 10 Nov 23:32: \"Been bogged down closing a couple of other deals. Sorry I haven't gotten to it. Will keep you posted. Might have to pass if timing is critical, but will let you know by next week.\"",
+  "action": "Same-day reply off a cold YPO send, and he has the OM and the full model in hand - Zamir attached ZMR_SmartLivingAllenGenoa_OM.pdf and Houston_TX_SmartLivingAllenGenoa_ZMR_PF_10.26.26.xlsx. Two answers owed, neither of which is in any marketing document. The exit question is answerable from the model's own hold - the agency loan is five-year fixed and the exit runs at a 6.00% cap - but confirm the exact term with Kevin rather than inferring it from the 2.33x. The minimum check is the harder one: there is no stated minimum anywhere, the send that went out had the partial-check language cut from it, and he asked for it unprompted. This is the second time the question has come from the YPO side, where the money is individual tickets rather than fund allocations, so a number needs setting rather than improvising per reply.  A SOFT WARNING ATTACHED TO A SOFT YES. Bonilla is still in, still apologetic, and has not opened the file - he is closing other deals. 'Might have to pass if timing is critical' is him asking, without asking, how much runway he has. ANSWER THAT QUESTION PLAINLY, BECAUSE THE DATES ARE TIGHTER THAN 'NEXT WEEK'. Due diligence expires 20 November and the executed PSA puts closing at 21 December, a month earlier than the January date every marketing document quotes. If he comes back on 17 or 18 November that is already inside DD expiry. Telling him the real timetable now either moves him or frees the attention - both beat waiting a week for a maybe. HE IS READING A FILE THAT IS TWO GENERATIONS OLD. Bonilla holds the 10.26.26 model and the 21.5% / 2.33x / $11.77M / 5.71% set from 31 October. The live package is the 11.10.26 OM and model at 21.1% / 2.28x / 16.2% LP net / $12.03M / 5.51%. Sending the refresh is both the honest move and a natural reason to re-engage without chasing. ONE COMMITMENT ON THIS THREAD IS NOT RECORDED ANYWHERE ELSE: on 31 October Zamir told him the minimum check is '$1m min with discretion to flex down if needed for people I know', against a five-year hold. That is the only place a minimum has been quoted to anyone, and it sets a precedent for every individual investor who asks next - alongside the Strawman LP Terms that went to Advertise.com today. Note also that Microsoft flagged Zamir's address twice on this thread - 'You don't often get email from zamir@zmrcapital.com' - on a warm YPO introduction. A deliverability signal worth watching.",
   "tags": [
    "hold-period",
    "minimum-check"
   ],
   "heat": 4,
   "followup": {
-   "owed": "them",
-   "lastOut": "2026-10-31",
-   "ask": "Answered 31 Oct."
+   "owed": "us",
+   "lastOut": "2026-11-10",
+   "ask": "He will revert by next week but warns he may pass if timing is critical. Give him the real dates (DD expires 20 Nov, PSA closing 21 Dec) and send the 11.10.26 package - he is still reading the 10.26 model."
   },
   "has": "unclear"
  },
@@ -2174,16 +2174,19 @@
   "title": null,
   "email": "salagappan@a2mgmt.com",
   "channel": "peblast",
-  "stage": "materials",
-  "ts": "2026-11-02T15:42:57Z",
-  "quote": "Thanks can you please send the prelim materials",
-  "tags": [],
-  "heat": 3,
-  "action": "Send the package today. Asked five minutes after the follow-up landed, which is the pattern this whole raise has shown - the first send does nothing and the bump produces the reply. Nothing is known about their cheque size or mandate, so send the three-pager and the OM and ask what they typically write before spending time on a call.",
+  "stage": "pass",
+  "ts": "2026-11-10T23:51:07Z",
+  "quote": "Thanks can you please send the prelim materials | 10 Nov 23:51: \"I don't think this one is a fit for us given smaller size and just pretty limited traction internally at the moment for anything non 'distressed'. I can see why you like the deal though, pretty interesting situation.\"",
+  "tags": [
+   "check-too-small",
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "action": "Send the package today. Asked five minutes after the follow-up landed, which is the pattern this whole raise has shown - the first send does nothing and the bump produces the reply. Nothing is known about their cheque size or mandate, so send the three-pager and the OM and ask what they typically write before spending time on a call.  PASSED ON TWO GROUNDS, EIGHT DAYS AFTER TAKING THE PACKAGE. Alagappan asked for the preliminary materials on 2 November, got the model and OM 17 minutes later, and came back with size plus a mandate problem: A2 currently has limited internal traction for anything that is not distressed. Neither is negotiable here - Allen Genoa is a performing 2023-build at 90%-plus occupancy, which is the opposite of what their committee wants right now. THE COMPLIMENT IS REAL AND WORTH FILING: 'I can see why you like the deal though, pretty interesting situation.' That is the seventh reader to praise the setup on the way out. SIXTH SIZE PASS ON THE BOARD, after Vey, TPG, JDI, Farallon and Oaktree. Three of those six took a full package first and one took a call as well. The screen that would have caught them is a published minimum, and it is still not being applied to the remaining list.",
   "followup": {
-   "owed": "them",
-   "lastOut": "2026-11-02",
-   "ask": "Zamir sent the model and OM 2 Nov, 78 minutes after he asked. Their move."
+   "owed": "none",
+   "lastOut": "2026-11-10",
+   "ask": "Closed - too small and they are only doing distressed at the moment. Worth revisiting on a larger or genuinely distressed deal; he liked the setup."
   },
   "has": "package"
  },
