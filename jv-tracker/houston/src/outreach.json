@@ -3747,6 +3747,11 @@
    "firm": "Webb Investment Network (winfunding.com)",
    "person": "Jeremy Schneider",
    "why": "\"Thank you but this is not a fit for our team. Please kindly remove us from your distribution list.\" 10 Nov 17:12, two hours after a first-touch send at 09:05 the same morning. 'Remove us', so the whole firm comes off: jeremy@, irene@ and dena@winfunding.com. Third name this week added to the list and removed from it on the same day, after Ridgeline and 247 Lookout. Seventh opt-out of the campaign."
+  },
+  {
+   "firm": "Graham Partners",
+   "person": "Bill McKee",
+   "why": "\"Please Unsubscribe me. Thanks.\" - put in the SUBJECT LINE with an empty body, 11 Nov 21:26, answering the 10 Nov chase on a 4 November send. Sent to BMcKee@grahampartners.net with Christina Morin (cmorin@grahampartners.net) and Mike Granbois (mike_granbois@grcap.com) copied; suppress all three, and note that Granbois sits on a DIFFERENT domain (grcap.com), so a domain-level block on grahampartners.net alone would miss him - the same fault that let Affinius be mailed four times after suppression. EIGHTH OPT-OUT OF THE CAMPAIGN, after Connelly (CASL), Consolidated Press Holdings, Ridgeline, Fingerboard, 247 Lookout, Foinco and Webb Investment Network. The send that drew it opens \"Hey Hi William and team\" - the same doubled-greeting merge seam that went to Hadley, whose Partner then asked where ZMR got their contact details, and to Guetermann. THIRD instance of the identical fault, all three to family offices or private investors, and this one addressed a man who signs himself Bill as \"William\". The template is now the common factor in three separate bad outcomes."
   }
  ],
  "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",
