@@ -4638,5 +4638,35 @@
    "lastOut": "2026-11-10",
    "ask": "A Partner is screening ZMR, not the deal: how did you get our details, and have you worked with other family offices? Answer both directly - name real FO relationships and be straight that Hadley came off a list. His Calendly is in the signature."
   }
+ },
+ {
+  "firm": "GenHenn Capital",
+  "person": "Raul Martinez",
+  "title": "Vice President",
+  "email": "RMartinez@genhenncapital.com",
+  "channel": "sfo",
+  "stage": "outofscope",
+  "ts": "2026-11-11T05:56:22Z",
+  "quote": "GenHenn only invest in life sciences companies, this is outside of our mandate.",
+  "action": "A LIFE SCIENCES VENTURE FIRM ON A MULTIFAMILY EQUITY LIST. Martinez answered the 10 November chase on a 4 November send with the plainest possible mandate statement: GenHenn does life sciences companies. Not real estate, not an allocation question - a different asset class entirely. He was the addressee; Michael Hennessy and Brett Hagaman were copied throughout. TWELFTH FIRM IN NINE DAYS TO SAY IT DOES NOT INVEST IN REAL ESTATE, after Empire Global, ALFAHIM, 247VC, 4L Vision, CAPNOR, Ananta, Gardner Standard, Advance, Carlson, Greybull and Validor. Two sends and a week of waiting to establish something a single line on their website would have settled. The asset-class screen is the cheapest fix available on this campaign and it still has not been applied. Every one of these costs a send, a chase, a reply and a row - and the sends are being rationed by Google.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
+ },
+ {
+  "firm": "Terrasias Capital",
+  "person": "Stefan Nilsson",
+  "title": null,
+  "email": "snilsson@terrasias.com",
+  "channel": "sfo",
+  "stage": "outofscope",
+  "ts": "2026-11-11T05:21:58Z",
+  "quote": "It's not a fit for us. We do not invest in US assets.",
+  "action": "A GEOGRAPHIC MANDATE NO, AND THE FASTEST TURNAROUND SINCE VALIDOR. The send went to Ichiro Yamanaka at 15:18 on 10 November with Nilsson copied; Nilsson answered fourteen hours later with a flat statement of scope - Terrasias does not invest in US assets at all. Nothing about Houston, the basis or the structure is in question, and no re-cut reaches it. ANOTHER SCREEN THAT COULD HAVE RUN BEFORE THE SEND. 'Does not invest in the United States' sits alongside 'does not invest in real estate' as a filter that costs nothing to apply and has now cost this campaign a dozen-plus rows. Terrasias joins the non-US-mandate group with Consolidated Press Holdings, Foinco and the European names on the board. NOTE THE SEND TIME: the roster shows the first touch going out at 00:18 Pacific. Mail originating in the small hours is a deliverability signal in its own right, and it comes the same night Microsoft flagged Zamir's address as an unfamiliar sender on the Garnier thread and Hadley asked where the contact details came from. Three separate list-and-sender problems in one night.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1
  }
 ]

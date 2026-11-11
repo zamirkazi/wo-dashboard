@@ -3557,6 +3557,31 @@
    "sent": "2026-11-04",
    "outcome": "replied",
    "note": "Sent 4 Nov, chased 10 Nov. James Scott (Partner, a CC) replied 11 Nov 03:58 asking HOW ZMR GOT THEIR CONTACT DETAILS and whether ZMR has worked with other family offices - a provenance screen, not a deal question. Both sends open 'Hey Hi Elaine and team', a visible mail-merge seam. Calendly in his signature."
+  },
+  {
+   "channel": "sfo",
+   "firm": "GenHenn Capital",
+   "person": "Raul Martinez",
+   "email": "RMartinez@genhenncapital.com",
+   "also": [
+    "mhennessy@genhenncapital.com",
+    "bhagaman@genhenncapital.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Sent 4 Nov, chased 10 Nov; Martinez (VP, the addressee) replied 11 Nov 05:56 - GenHenn only invests in LIFE SCIENCES companies. Twelfth non-real-estate firm in nine days. Remove the firm."
+  },
+  {
+   "channel": "sfo",
+   "firm": "Terrasias Capital",
+   "person": "Ichiro Yamanaka",
+   "email": "iyamanaka@terrasias.com",
+   "also": [
+    "snilsson@terrasias.com"
+   ],
+   "sent": "2026-11-10",
+   "outcome": "replied",
+   "note": "First touch 10 Nov 15:18 (sent 00:18 Pacific); Stefan Nilsson (a CC) replied 11 Nov 05:21 - Terrasias DOES NOT INVEST IN US ASSETS. Geographic mandate; remove the firm."
   }
  ],
  "carveouts": [
