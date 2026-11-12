@@ -1694,7 +1694,7 @@
  {
   "firm": "Artemis Real Estate Partners",
   "person": "Ryan Eckert",
-  "title": null,
+  "title": "Houston coverage",
   "email": "ryan.eckert@artemisrep.com",
   "stage": "relationship",
   "ts": "2026-10-30T13:35:54Z",
@@ -1703,8 +1703,13 @@
    "check-too-small"
   ],
   "heat": 3,
-  "action": "The deal is dead here but the call is worth more than the deal. Rich Banjo routed it internally to Ryan Eckert, who covers Houston for Artemis - a Barings company - and Eckert offered to talk today or early next week about other Houston opportunities. Two things make this the best non-deal outcome of the wave: he is the man on the ground in the exact market every other reader is refusing, so his read on why is worth having first-hand, and he explicitly asked whether ZMR is active there. Take the call today and go in asking what Artemis is seeing in Southeast Houston, not pitching Allen Genoa.",
-  "channel": "peblast"
+  "action": "The deal is dead here but the call is worth more than the deal. Rich Banjo routed it internally to Ryan Eckert, who covers Houston for Artemis - a Barings company - and Eckert offered to talk today or early next week about other Houston opportunities. Two things make this the best non-deal outcome of the wave: he is the man on the ground in the exact market every other reader is refusing, so his read on why is worth having first-hand, and he explicitly asked whether ZMR is active there. Take the call today and go in asking what Artemis is seeing in Southeast Houston, not pitching Allen Genoa.  RECORD CORRECTED 12 Nov: this was logged as a PE-blast reply off GMass campaign 54069404 on 29 October. It was not. The only Allen Genoa thread with this firm is a DIRECT send Zamir wrote himself on 30 October at 06:06 PT to Kerry Kartsonis, with Aaron Hancock, Rich Banjo and Anar Chudgar copied by name - four existing relationships, not a list. Banjo routed it to Eckert 23 minutes later and moved everyone else to Bcc; Eckert passed 6 minutes after that. Twenty-nine minutes from send to no. THEY NEVER ASKED FOR THE PACKAGE AND NEVER SAW A MODEL. All Artemis has ever seen of this deal is the 30 October bullet set - 21.1% / 2.30x / 5.94% / $11.77M - in the body of one email. No OM, no model, no rent study. The pass is on size alone and cost them no diligence. ECKERT'S CALL OFFER IS 13 DAYS UNANSWERED. 'Happy to connect today or early next week' was 30 October; the thread has had no reply since. He covers Houston for a Barings company and asked whether ZMR is active in the market - the one reader on this board who is paid to have a first-hand view of the submarket everyone else is refusing in the abstract, and nobody took him up on it. THE FIRM IS WARM EVERYWHERE ELSE, WHICH IS THE POINT. Banjo accepted a 3 November 3pm PT call; Jackson Moore sat a 20-minute Blossoms at Brentwood (Bay Area) call on 4 November with Chip, Mike Regan and Eric Nemirovsky and took an action item to review that opportunity; Zamir had drinks with Moore in Venice on 11 November. Artemis is one of ZMR's closest live relationships. It is simply not a $12M check. Voss was told not to bother with them, and that was right.",
+  "channel": "direct",
+  "followup": {
+   "owed": "us",
+   "lastOut": "2026-10-30",
+   "ask": "Eckert's 30 Oct call offer - 'today or early next week' - has sat 13 days with no reply. Not a deal call: he covers Houston for Artemis/Barings and asked if ZMR is active there. Worth 20 minutes for his read on the submarket every other LP is refusing."
+  }
  },
  {
   "firm": "Blackbird Investment Group",

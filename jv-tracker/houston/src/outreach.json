@@ -1434,13 +1434,19 @@
    "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
   },
   {
-   "channel": "peblast",
+   "channel": "direct",
    "firm": "Artemis Real Estate Partners",
-   "person": "Ryan Eckert",
-   "email": "ryan.eckert@artemisrep.com",
-   "sent": "2026-10-29",
+   "person": "Kerry Kartsonis (-> Rich Banjo -> Ryan Eckert)",
+   "email": "kerry.kartsonis@artemisrep.com",
+   "sent": "2026-10-30",
    "outcome": "replied",
-   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+   "note": "CORRECTED 12 Nov - previously logged as the v5 PE GMass send on 29 Oct, which never happened. Zamir sent the bullets direct to Kerry Kartsonis on 30 Oct 06:06 PT, cc Hancock, Banjo, Chudgar. Banjo handed it to Ryan Eckert (Houston coverage) at 13:29 UTC and Bcc'd the rest; Eckert passed on size at 13:35 UTC. 29 minutes end to end. No package, no model, no OM ever requested or sent. Eckert's call offer is unanswered. Firm is live with ZMR on Blossoms at Brentwood and socially (Jackson Moore, drinks 11 Nov).",
+   "also": [
+    "aaron.hancock@artemisrep.com",
+    "rich.banjo@artemisrep.com",
+    "anar.chudgar@artemisrep.com",
+    "ryan.eckert@artemisrep.com"
+   ]
   },
   {
    "channel": "peblast",
