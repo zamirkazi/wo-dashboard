@@ -3660,6 +3660,44 @@
    "sent": "2026-11-06",
    "outcome": "replied",
    "note": "Cold send 6 Nov on the 'Houston Multifamily LP Equity' subject, chased 12 Nov. Passed at 10:31 - the firm does not invest in real estate at all. Mandate miss, not a deal judgement."
+  },
+  {
+   "channel": "direct",
+   "firm": "Myer Family Investments",
+   "person": "Russell Bullen",
+   "email": "russell.bullen@myerfamilyinvestments.com.au",
+   "also": [
+    "michael.hoffmann@myerfamilyinvestments.com.au",
+    "victoria.duthy@myerfamilyinvestments.com.au"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Melbourne family office. Cold send 6 Nov, chased 12 Nov; outside mandate."
+  },
+  {
+   "channel": "direct",
+   "firm": "North Horizon",
+   "person": "Xiaobo Wang",
+   "email": "xiaobo.wang@northhorizon.com",
+   "also": [
+    "steven.wang@northhorizon.com",
+    "cindy.zhang@northhorizon.com"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Cold send 6 Nov, chased 12 Nov; passed on bandwidth, not on the deal. Keep for the next one."
+  },
+  {
+   "channel": "direct",
+   "firm": "Novel TMT Capital Partners",
+   "person": "Andrew L. Fine",
+   "email": "andrew@noveltmt.com",
+   "also": [
+    "matt@noveltmt.com"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "New York TMT investor - technology, media and telecoms. Real estate is not their focus. Should never have been on the list."
   }
  ],
  "carveouts": [
