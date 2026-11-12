@@ -2584,9 +2584,12 @@
    "firm": "CFG Bank",
    "person": "Ken Assiran",
    "email": "kassiran@cfg.bank",
-   "also": [],
+   "also": [
+    "ayerger@cfg.bank"
+   ],
    "sent": "2026-10-30",
-   "outcome": "replied"
+   "outcome": "replied",
+   "note": " | 12 Nov: Assiran made the intro. Andrew Yerger, Associate, Multifamily Origination, NYC (Capital Funding LLC) - a LENDING desk, not equity. Call booked Fri 12:30 ET."
   },
   {
    "channel": "direct",
