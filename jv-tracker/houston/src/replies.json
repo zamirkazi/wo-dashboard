@@ -4686,5 +4686,24 @@
    "strategy-mismatch"
   ],
   "heat": 2
+ },
+ {
+  "firm": "Wolverton Capital",
+  "person": "Ryan Johnson",
+  "title": null,
+  "email": "ryan@wolvertoncapital.com",
+  "channel": "direct",
+  "stage": "meeting",
+  "ts": "2026-11-11T23:13:16Z",
+  "quote": "Thanks for following up (I've been out on vacation and catching up). Are you available Friday between 9am to 2pm CST to catch up?",
+  "action": "A CALL BOOKED FOR FRIDAY, AND IT NEARLY NEVER HAPPENED. Johnson had been on holiday; he came back, worked through the backlog and answered the fifth touch with a two-hour window - 9am to 2pm CST Friday 13 November. Zamir took 11am CST twelve minutes later and asked Kevin to send the package ahead of it. Dennis Allen was the addressee throughout; Johnson was the CC and answered for the firm. THE REAL FINDING IS IN THE SEND RECORD, NOT THE REPLY. Two of the five chases to this firm NEVER LEFT GMAIL: the 4 November 15:33 send and the 4 November 19:36 resend both came straight back as 'You have reached a limit for sending mail. Your message was not sent.' Zamir tried twice in four hours and was blocked twice, then got through on 5 November. So on the day the account hit its ceiling, at least one live prospect silently received nothing at all - and the only reason it is visible here is that the bounce landed in this thread. THAT IS WORTH A SWEEP OF ITS OWN. Eleven send-limit notifications were logged on 10 November and the rolling counter pinned at 1,010; nobody has checked which individual one-to-one chases were swallowed on the days the limit bit. A prospect who is 'silent' may simply never have been written to. Search 'You have reached a limit for sending mail' across the campaign threads and re-send anything that failed. Before Friday: Johnson has only ever seen the 30 October bullets - 21.1% / 2.30x / 5.94% / $11.77M. The live package is the 11.10.26 set at 21.1% / 2.28x, 16.2% LP net, $12.03M and a 5.51% coupon. Kevin should send that one, and someone should make sure he does: the same 'Kevin can you shoot over the package' instruction on 4 November for Basis has never been confirmed as actually sent.",
+  "tags": [],
+  "heat": 4,
+  "has": "pending",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-11",
+   "ask": "BOOKED Fri 13 Nov 11:00 CST. Kevin asked to send the package - confirm it actually goes, and that it is the 11.10.26 set, not the 30 Oct bullets Johnson has now."
+  }
  }
 ]
