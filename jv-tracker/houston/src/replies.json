@@ -4730,5 +4730,45 @@
    "lastOut": "2026-11-12",
    "ask": "Closed, no reason given. Nothing owed. Fix the \"Hey Hi {Name}\" merge seam before the next tranche of this send goes out - fourth instance."
   }
+ },
+ {
+  "firm": "Lorton",
+  "person": "Leeanda Paino",
+  "title": "Director",
+  "email": "leeanda@lorton.com.au",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-12T08:57:54Z",
+  "quote": "We are in Australia and we don't invest in property outside Australia so this is not of interest.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "A GEOGRAPHIC NO, AND A CLEAN ONE. Lorton is a Sydney family office that does not invest in property outside Australia - a fact about their mandate that no version of this deal reaches, and one that was knowable before the send. Alexii Paino was copied and the reply came back to both. THIS IS THE THIRD CONTINENT IN TWELVE HOURS. Kantara passed at 07:59 with 'No thanks', Larchpoint in London at 08:50 with 'No thank you', and Lorton in Australia at 08:57. All three came off the same 'Houston Multifamily LP Equity' chase Zamir ran between 07:42 and 08:49 this morning, and all three closed inside an hour. The chase is working as a clearing mechanism - it converts silence into decisions fast - but the hit rate on this slice of the list is the thing to watch: a Sydney family office with a domestic-only property mandate was never a buyer of a 252-unit garden deal in Southeast Houston, and the screening that put them on the list did not catch it.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-12",
+   "ask": "Closed on mandate. Nothing owed. Worth checking how many more domestic-only offshore family offices sit in the same tranche before the next chase goes."
+  }
+ },
+ {
+  "firm": "Larchpoint Capital",
+  "person": "David Lindstrom",
+  "title": null,
+  "email": "david.lindstrom@larchpoint.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-12T08:50:12Z",
+  "quote": "No thank you.",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "THREE WORDS FROM LONDON. Larchpoint Capital LLP, 61 Aldwych - Lindstrom answered a 08:49 chase at 08:50, one minute later, from his phone. Gilles Crouspeyre and Ed Williamson were copied and neither added anything. No reason, no market, no size. Second identical construction in an hour: Kantara's 'No thanks' at 07:59 and this at 08:50. Both from the same chase, both from partners, both with nothing attached. These are not objections to record against the deal - they are the list clearing itself, and they belong in the denominator rather than the feedback pattern.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-12",
+   "ask": "Closed, no reason given. Nothing owed."
+  }
  }
 ]
