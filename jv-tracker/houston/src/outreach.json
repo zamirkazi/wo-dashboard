@@ -3714,6 +3714,18 @@
    "sent": "2026-11-12",
    "outcome": "replied",
    "note": "Mark Pincus's family office. Sent 12 Nov 10:34 to katie@workplay.ventures (Chief of Staff) with Pincus and Mehta copied; Katie auto-replied that she has left and pointed to niko@. Mehta replied from the CC line six hours later asking for materials. DO NOT mail katie@ again."
+  },
+  {
+   "channel": "direct",
+   "firm": "Hector Ventures",
+   "person": "Paul Yde",
+   "email": "paul.yde@hectorventures.com",
+   "also": [
+    "mark.yde@hectorventures.com"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Cold send 6 Nov, chased 10 Nov; 'not interested' 12 Nov, no reason."
   }
  ],
  "carveouts": [
