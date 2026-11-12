@@ -4770,5 +4770,26 @@
    "lastOut": "2026-11-12",
    "ask": "Closed, no reason given. Nothing owed."
   }
+ },
+ {
+  "firm": "Miras Invest",
+  "person": "Loganathan Balaguru",
+  "title": null,
+  "email": "loganathan@mirasinvest.com",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-12T10:31:08Z",
+  "quote": "Thank you for sharing it with us. We don't invest in Real Estate and it's a pass from us.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "THEY DO NOT INVEST IN REAL ESTATE AT ALL. Not Houston, not multifamily, not US - no real estate of any kind. That is the cleanest possible statement that this name should never have been on the list, and it is the second mandate miss in two hours after Lorton's domestic-only-Australia pass at 08:57. FOUR CLOSURES THIS MORNING, THREE OF THEM TELLING US NOTHING ABOUT THE DEAL. Kantara 07:59 'No thanks'. Larchpoint 08:50 'No thank you'. Lorton 08:57, no property outside Australia. Miras 10:31, no real estate. One of those four is a judgement about Allen Genoa and three are facts about the recipient that a screen should have caught before a send went out. THE BOARD NOW CARRIES 29 OUT-OF-SCOPE ROWS AND 62 STRATEGY-MISMATCH TAGS. That is a large and growing share of the response set, and it dilutes the one finding this page exists to carry - that the passes which ARE about the deal name Houston rather than basis, vintage or returns. Rows like this one belong in the denominator when counting pass reasons, not in the pattern. The practical read: before the next tranche of the 'Houston Multifamily LP Equity' chase goes out, someone should pull the names whose own published mandate rules out US real estate. It costs nothing to check and each one spent is a send against a daily limit that has already swallowed live chases twice this month.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-12",
+   "ask": "Closed on mandate - they do not invest in real estate. Nothing owed. Screen the remaining tranche for non-real-estate and domestic-only mandates before the next chase."
+  }
  }
 ]
