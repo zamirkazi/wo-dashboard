@@ -4711,5 +4711,24 @@
    "lastOut": "2026-11-12",
    "ask": "INVITE SENT: Fri 13 Nov 9:00-9:30 AM PT (11:00 CST), Google Meet, Ryan + Dennis Allen with Kevin, Chip and Mike Regan. Kevin still owes the 11.10.26 package ahead of it - Johnson has only the 30 Oct bullets."
   }
+ },
+ {
+  "firm": "Kantara Capital",
+  "person": "David Walsh",
+  "title": "Partner",
+  "email": "dwalsh@kantaracapital.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-12T07:59:31Z",
+  "quote": "No thanks",
+  "action": "TWO WORDS, SEVENTEEN MINUTES. Zamir chased a 6 November send at 07:42 UTC today with 'would love to talk through the deal if it's of interest. If not, let me know and we will keep you in mind for the next one.' Walsh, a Partner, answered 'No thanks' at 07:59 and nothing else - no reason, no market, no size, no countersign beyond the firm's web address. The chase did its job: it converted a silent name into a closed one in under twenty minutes, which is worth more than another fortnight of nothing. THE MERGE SEAM AGAIN - FOURTH INSTANCE. The send opens 'Hey Hi David and Graeme'. That is the same doubled greeting that went to Hadley (whose Partner then asked where ZMR got their contact details), to Guetermann, and to Graham Partners (who opted out). Four for four, all to private investors and family offices, and nobody has fixed the template. It is now impossible to say whether this pass was about the deal or about an email that announced itself as a mail merge in its first three words. NOTE THE NUMBER SET. This send carries a variant nobody else has seen in writing: the 30 October core (21.1% / 2.30x / 5.94% / $11.77M) plus three appended lines - 'Year 1 CoC 11%, average 9% through hold', 'Depreciation', and 'Accept 1031 Exchange'. The 11% Year 1 cash-on-cash is the first time that figure has appeared anywhere in the campaign; every other document says 9.0-9.5% stabilized. If that is a real number it belongs in the main package, and if it is not it should not be in a cold send.",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-12",
+   "ask": "Closed, no reason given. Nothing owed. Fix the \"Hey Hi {Name}\" merge seam before the next tranche of this send goes out - fourth instance."
+  }
  }
 ]

@@ -3613,6 +3613,18 @@
    "sent": "2026-10-30",
    "outcome": "replied",
    "note": "FIVE touches (30 Oct, 2 Nov, 4 Nov x2, 5 Nov, 10 Nov). TWO OF THEM NEVER SENT - both 4 Nov attempts bounced with 'You have reached a limit for sending mail.' Ryan Johnson (a CC) replied 11 Nov after returning from holiday and booked Fri 13 Nov 11:00 CST. He has only seen the 30 Oct bullets."
+  },
+  {
+   "channel": "direct",
+   "firm": "Kantara Capital",
+   "person": "David Walsh",
+   "email": "dwalsh@kantaracapital.com",
+   "also": [
+    "gnewman@kantaracapital.com"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Cold send 6 Nov on the 'Houston Multifamily LP Equity' subject, Graeme Newman copied. Chased 12 Nov 07:42; Walsh passed with 'No thanks' at 07:59. Send opens 'Hey Hi David and Graeme' - fourth instance of the merge-seam fault."
   }
  ],
  "carveouts": [
