@@ -52,8 +52,8 @@ css = css.replace('</style>',
   '#follow .card.ow-them{border-left:3px solid var(--rule-hard)}\n'
   '</style>')
 
-LIVE = {'meeting','materials','question','conditional','reviewing'}
-STAGE_LABEL = {'reviewing':'Reviewing','conditional':'Conditional','pass':'Pass',
+LIVE = {'committed','meeting','materials','question','conditional','reviewing'}
+STAGE_LABEL = {'committed':'COMMITTED','reviewing':'Reviewing','conditional':'Conditional','pass':'Pass',
                'meeting':'Meeting','materials':'Materials','question':'Question',
                'referred':'Referred','relationship':'Relationship','outofscope':'Out of scope'}
 TAG_LABEL = {
