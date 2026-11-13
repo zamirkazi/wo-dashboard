@@ -3886,6 +3886,26 @@
    "sent": "2026-11-03",
    "outcome": "replied",
    "note": "Cold send 3 Nov, chased 9 and 13 Nov; replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "75 & Sunny Ventures",
+   "person": "Spencer Rascoff",
+   "email": "spencer@75andsunny.vc",
+   "also": [],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Cold send 3 Nov, chased 13 Nov; replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Bakala Capital",
+   "person": "Kris Kapoor",
+   "email": "kris.kapoor@bakalacapital.com",
+   "also": [],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Cold send 3 Nov, chased 13 Nov; replied 13 Nov."
   }
  ],
  "carveouts": [
@@ -4048,6 +4068,11 @@
    "firm": "ANH Hausbesitz (Malte Sittig, second address)",
    "person": "Malte Sittig",
    "why": "\"I have already answered you on a separate mail chat. Please stop spamming this one!!\" - 13 Nov 12:03. THIS IS A ROUTING REQUEST, NOT AN OPT-OUT, and it is the same person as the LIVE Scope Hanson row: suppress malte.sittig@anh-hausbesitz.de plus andreas.bremke@anh-hausbesitz.de and robin.steigerwald@anh-hausbesitz.de, and KEEP ms@scopehanson.com, where he is currently reviewing the package and replied courteously at 09:55 the same morning. Cause: he was chased on the ANH thread at 10:12, seventeen minutes after replying on the Scope Hanson one. Same person, two domains, no dedupe against who has already answered - the same fault as Affinius (mailed four times after suppression) and Granbois (grcap.com outside a grahampartners.net block). Treat like Honour Brimmers: a channel to drop, not a name to lose."
+  },
+  {
+   "firm": "Bakala Capital (Pierson and Heren only)",
+   "person": "Meghan Pierson / Seth Heren",
+   "why": "\"Please remove Meghan and Seth from your distribution list\" - Kris Kapoor, CIO, 13 Nov 17:35. A ROUTING REQUEST, NOT AN OPT-OUT: Kapoor says in the same email that he does not mind receiving opportunities himself. Suppress meghan.pierson@bakalacapital.com and seth.heren@bakalacapital.com; KEEP kris.kapoor@bakalacapital.com, whose row sits as a live pass on multifamily exposure. Cause: the 3 Nov send was addressed to Pierson with Kapoor and Heren on CC - the decision-maker was the copy, not the addressee, which is the same fault behind the Brimmers and Sittig routing requests."
   }
  ],
  "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",

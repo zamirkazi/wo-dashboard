@@ -4711,17 +4711,19 @@
   "title": null,
   "email": "ryan@wolvertoncapital.com",
   "channel": "direct",
-  "stage": "meeting",
-  "ts": "2026-11-11T23:13:16Z",
-  "quote": "Thanks for following up (I've been out on vacation and catching up). Are you available Friday between 9am to 2pm CST to catch up?",
-  "action": "A CALL BOOKED FOR FRIDAY, AND IT NEARLY NEVER HAPPENED. Johnson had been on holiday; he came back, worked through the backlog and answered the fifth touch with a two-hour window - 9am to 2pm CST Friday 13 November. Zamir took 11am CST twelve minutes later and asked Kevin to send the package ahead of it. Dennis Allen was the addressee throughout; Johnson was the CC and answered for the firm. THE REAL FINDING IS IN THE SEND RECORD, NOT THE REPLY. Two of the five chases to this firm NEVER LEFT GMAIL: the 4 November 15:33 send and the 4 November 19:36 resend both came straight back as 'You have reached a limit for sending mail. Your message was not sent.' Zamir tried twice in four hours and was blocked twice, then got through on 5 November. So on the day the account hit its ceiling, at least one live prospect silently received nothing at all - and the only reason it is visible here is that the bounce landed in this thread. THAT IS WORTH A SWEEP OF ITS OWN. Eleven send-limit notifications were logged on 10 November and the rolling counter pinned at 1,010; nobody has checked which individual one-to-one chases were swallowed on the days the limit bit. A prospect who is 'silent' may simply never have been written to. Search 'You have reached a limit for sending mail' across the campaign threads and re-send anything that failed. Before Friday: Johnson has only ever seen the 30 October bullets - 21.1% / 2.30x / 5.94% / $11.77M. The live package is the 11.10.26 set at 21.1% / 2.28x, 16.2% LP net, $12.03M and a 5.51% coupon. Kevin should send that one, and someone should make sure he does: the same 'Kevin can you shoot over the package' instruction on 4 November for Basis has never been confirmed as actually sent.  12 NOV 05:17 - INVITE SENT. Zamir agreed 11 AM CST Friday in writing on 11 Nov but nothing had been put on the calendar; the slot existed only in an email. Now booked as a Google Meet, 9:00-9:30 AM PT Friday 13 November, with Dennis Allen, Kevin, Chip and Mike Regan on it. The package remains unsent.  12 NOV 13:59 - RYAN JOHNSON ACCEPTED. The Friday 13 November 9:00-9:30 AM PT (11:00 CST) invite is confirmed on both sides, Google Meet, with Dennis Allen, Kevin, Chip and Mike Regan on it. This is the first firm meeting with a prospect whose chases were silently swallowed by the Gmail send limit twice on 4 November - it exists because somebody went back and looked at the send record. ONE THING LEFT AND IT IS KEVIN'S: the package. Johnson has only ever seen the 30 October bullets (21.1% / 2.30x / 5.94% / $11.77M). The live set is the 11.10.26 package at 21.1% / 2.28x, 16.2% LP net, $12.03M and a 5.51% coupon. Zamir asked Kevin to send it on 11 November; it has not been confirmed out, and the call is in under 24 hours.",
-  "tags": [],
+  "stage": "conditional",
+  "ts": "2026-11-13T17:34:00Z",
+  "quote": "Thanks for following up (I've been out on vacation and catching up). Are you available Friday between 9am to 2pm CST to catch up? | 13 Nov, on the call: not ready to provide a reliable equity commitment for this transaction - timing, not the deal, is the constraint; preferred check $6-12M, prefers to be the single equity partner; asked ZMR to keep sending opportunities.",
+  "action": "A CALL BOOKED FOR FRIDAY, AND IT NEARLY NEVER HAPPENED. Johnson had been on holiday; he came back, worked through the backlog and answered the fifth touch with a two-hour window - 9am to 2pm CST Friday 13 November. Zamir took 11am CST twelve minutes later and asked Kevin to send the package ahead of it. Dennis Allen was the addressee throughout; Johnson was the CC and answered for the firm. THE REAL FINDING IS IN THE SEND RECORD, NOT THE REPLY. Two of the five chases to this firm NEVER LEFT GMAIL: the 4 November 15:33 send and the 4 November 19:36 resend both came straight back as 'You have reached a limit for sending mail. Your message was not sent.' Zamir tried twice in four hours and was blocked twice, then got through on 5 November. So on the day the account hit its ceiling, at least one live prospect silently received nothing at all - and the only reason it is visible here is that the bounce landed in this thread. THAT IS WORTH A SWEEP OF ITS OWN. Eleven send-limit notifications were logged on 10 November and the rolling counter pinned at 1,010; nobody has checked which individual one-to-one chases were swallowed on the days the limit bit. A prospect who is 'silent' may simply never have been written to. Search 'You have reached a limit for sending mail' across the campaign threads and re-send anything that failed. Before Friday: Johnson has only ever seen the 30 October bullets - 21.1% / 2.30x / 5.94% / $11.77M. The live package is the 11.10.26 set at 21.1% / 2.28x, 16.2% LP net, $12.03M and a 5.51% coupon. Kevin should send that one, and someone should make sure he does: the same 'Kevin can you shoot over the package' instruction on 4 November for Basis has never been confirmed as actually sent.  12 NOV 05:17 - INVITE SENT. Zamir agreed 11 AM CST Friday in writing on 11 Nov but nothing had been put on the calendar; the slot existed only in an email. Now booked as a Google Meet, 9:00-9:30 AM PT Friday 13 November, with Dennis Allen, Kevin, Chip and Mike Regan on it. The package remains unsent.  12 NOV 13:59 - RYAN JOHNSON ACCEPTED. The Friday 13 November 9:00-9:30 AM PT (11:00 CST) invite is confirmed on both sides, Google Meet, with Dennis Allen, Kevin, Chip and Mike Regan on it. This is the first firm meeting with a prospect whose chases were silently swallowed by the Gmail send limit twice on 4 November - it exists because somebody went back and looked at the send record. ONE THING LEFT AND IT IS KEVIN'S: the package. Johnson has only ever seen the 30 October bullets (21.1% / 2.30x / 5.94% / $11.77M). The live set is the 11.10.26 package at 21.1% / 2.28x, 16.2% LP net, $12.03M and a 5.51% coupon. Zamir asked Kevin to send it on 11 November; it has not been confirmed out, and the call is in under 24 hours.  13 NOV - THE CALL HAPPENED AND IT IS THE BEST-FIT CHECK ON THIS BOARD. 34 minutes, 9:00 AM PT, Ryan Johnson AND Dennis Allen both on, with Kevin, Chip and Mike Regan. Read the recording summary with care - the auto-summariser transposed ZMR and Wolverton in several lines - but the substance is unambiguous. WHY HE MATTERS MORE THAN THE OTHER 25 LIVE NAMES: Johnson's preferred equity cheque is $6-12M and he PREFERS TO BE THE ONLY EQUITY PARTNER - 'simpler decision-making, legal work and execution'. The raise is $11.77M. He is the one reader on this board who could take the whole thing alone and would rather. He also said the profile is what he wants: newer product, real cash flow, execution rather than heavy capex, returns that beat Treasuries while keeping real-estate upside. AND HE STILL SAID NOT YET. The constraint is his own capital, not the asset: he is still moving an investor base of roughly 20 syndicate participants plus long-standing HNW and family-office money from development toward stabilised acquisitions, and he could not give a reliable commitment for a mid-January close. He asked for continued deal flow. That is a timing no on Allen Genoa with the door held open, not a verdict on the deal - which is why this row is conditional and not a pass. THREE THINGS ARE OWED AND THEY ARE SPECIFIC: (1) the Houston tax consultant report behind the year-one tax assumption; (2) the RealAdvice purchase-price-allocation materials - $125-150K a year, over $500K across five years, deliberately NOT in the underwriting; (3) Kevin's rent comparison showing what a resident actually gets for $1,100-1,200 at older and renovated alternatives versus this asset. Send all three. They cost nothing and they are the only reason to write to him again before the next deal. FOUR THINGS CAME OUT OF THIS CALL THAT CHANGE WHAT OTHER READERS SEE: (a) AFFORDABILITY NOW HAS NUMBERS. $71K at the property, $66K at one mile, $51K at three miles. That is the fifth independent reader on household income after Sabal, Green Pine, Slocumb and Island Capital, and it confirms Slocumb's objection rather than answering it. Johnson's framing is the sharp one: higher income at the property buys you a better resident but caps rent growth. (b) THE COMP SET HAS AN ERROR IN OUR OWN MATERIALS. Aria at Burke is shown at 63% leased; Kevin rang them and it is 94% leased with ZERO concessions. That is good news for the thesis and bad news for the document - every reader holding the package has a stale number in it. Fix it. (c) THE BULK INTERNET NUMBERS DO NOT MATCH THE TEASER. On the call: $29/door cost, $100/door charged to the resident. The marketing says ~$70/unit/mo of income against ~$30 of cost. Johnson went straight at whether a resident paying $1,100-1,200 absorbs another $100. Reconcile before the next reader does it. (d) THE CLOSING-DATE DISCREPANCY IS PROBABLY RESOLVED. Mid-to-late December target plus the 30-day extension lands mid-January - which is how the 21 December PSA date and the January 2027 marketing date can both be true. Confirm it, then stop carrying it as an open contradiction. ONE MORE FACT WORTH KEEPING: the developer's loan balance is ~$22.5M and matures in MARCH. That is the clock behind the seller's behaviour and it is four months after close.",
+  "tags": [
+   "capital-paused"
+  ],
   "heat": 4,
-  "has": "pending",
+  "has": "package",
   "followup": {
-   "owed": "pkg",
-   "lastOut": "2026-11-12",
-   "ask": "CONFIRMED Fri 13 Nov 9:00 AM PT / 11:00 CST, Johnson accepted. Only open item is the 11.10.26 package - chase Kevin today, not Wolverton."
+   "owed": "us",
+   "lastOut": "2026-11-13",
+   "ask": "CALL DONE. Not ready for this one - his investor base is mid-shift, not a deal objection. Send the three things he asked for: Houston tax consultant report, RealAdvice PPA materials, and Kevin's rent comparison vs older/renovated alternatives at $1,100-1,200. Then keep him on the list - $6-12M cheque, wants to be the sole equity partner, which no other live name offers."
   }
  },
  {
@@ -5225,6 +5227,48 @@
    "owed": "none",
    "lastOut": "2026-11-13",
    "ask": "Closed, no reason. Nothing owed."
+  }
+ },
+ {
+  "firm": "75 & Sunny Ventures",
+  "person": "Spencer Rascoff",
+  "title": null,
+  "email": "spencer@75andsunny.vc",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-13T17:51:07Z",
+  "quote": "Not a fit for us. thanks",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "A VENTURE FUND, NOT A REAL ESTATE ALLOCATOR. Rascoff - Zillow's co-founder - answered from the CC line on a send addressed to Jeanne, with Wil copied. Four words. Another name the screen put on this list that was never going to write a multifamily LP cheque.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-13",
+   "ask": "Closed on mandate - venture, not real estate."
+  }
+ },
+ {
+  "firm": "Bakala Capital",
+  "person": "Kris Kapoor",
+  "title": "Chief Investment Officer",
+  "email": "kris.kapoor@bakalacapital.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-13T17:35:13Z",
+  "quote": "We are currently not looking to add to existing MF exposure. Although I don't mind receiving investment opportunities via email, Please remove Meghan and Seth from your distribution list.",
+  "tags": [
+   "houston-exposure"
+  ],
+  "heat": 2,
+  "has": "teaser",
+  "action": "A MULTIFAMILY-EXPOSURE PASS AND A ROUTING REQUEST IN THE SAME BREATH, AND THE SECOND HALF IS THE PART THAT MATTERS. Kapoor is Bakala's CIO in Greenville. He is explicit that HE is happy to keep receiving deals - it is Meghan Pierson and Seth Heren who come off the list. Honour that precisely: suppress those two addresses, keep writing to Kapoor. THIRD ROUTING REQUEST IN SIX DAYS, after Honour Brimmers and Malte Sittig at ANH. Each one is a CIO saying 'me, not my team' - and each one got there because the send went to a junior name with the decision-maker on CC. The list is addressing the wrong person at the top of these firms. 'Currently not looking to add to existing MF exposure' is allocation, not Houston - the LaSalle and Benson pattern again. Worth a re-approach when their exposure rolls.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-13",
+   "ask": "Passed on MF exposure. KEEP Kapoor on the list at his own request; drop Meghan Pierson and Seth Heren. Re-approach when their multifamily exposure rolls."
   }
  }
 ]
