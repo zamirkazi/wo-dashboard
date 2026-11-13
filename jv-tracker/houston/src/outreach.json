@@ -3903,6 +3903,11 @@
    "firm": "Graham Partners",
    "person": "Bill McKee",
    "why": "\"Please Unsubscribe me. Thanks.\" - put in the SUBJECT LINE with an empty body, 11 Nov 21:26, answering the 10 Nov chase on a 4 November send. Sent to BMcKee@grahampartners.net with Christina Morin (cmorin@grahampartners.net) and Mike Granbois (mike_granbois@grcap.com) copied; suppress all three, and note that Granbois sits on a DIFFERENT domain (grcap.com), so a domain-level block on grahampartners.net alone would miss him - the same fault that let Affinius be mailed four times after suppression. EIGHTH OPT-OUT OF THE CAMPAIGN, after Connelly (CASL), Consolidated Press Holdings, Ridgeline, Fingerboard, 247 Lookout, Foinco and Webb Investment Network. The send that drew it opens \"Hey Hi William and team\" - the same doubled-greeting merge seam that went to Hadley, whose Partner then asked where ZMR got their contact details, and to Guetermann. THIRD instance of the identical fault, all three to family offices or private investors, and this one addressed a man who signs himself Bill as \"William\". The template is now the common factor in three separate bad outcomes."
+  },
+  {
+   "firm": "ANH Hausbesitz (Malte Sittig, second address)",
+   "person": "Malte Sittig",
+   "why": "\"I have already answered you on a separate mail chat. Please stop spamming this one!!\" - 13 Nov 12:03. THIS IS A ROUTING REQUEST, NOT AN OPT-OUT, and it is the same person as the LIVE Scope Hanson row: suppress malte.sittig@anh-hausbesitz.de plus andreas.bremke@anh-hausbesitz.de and robin.steigerwald@anh-hausbesitz.de, and KEEP ms@scopehanson.com, where he is currently reviewing the package and replied courteously at 09:55 the same morning. Cause: he was chased on the ANH thread at 10:12, seventeen minutes after replying on the Scope Hanson one. Same person, two domains, no dedupe against who has already answered - the same fault as Affinius (mailed four times after suppression) and Granbois (grcap.com outside a grahampartners.net block). Treat like Honour Brimmers: a channel to drop, not a name to lose."
   }
  ],
  "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",
