@@ -870,19 +870,20 @@
   "title": "Chief Investment Officer",
   "email": "burke@lindellinvestments.com",
   "channel": "direct",
-  "stage": "reviewing",
-  "ts": "2026-10-19T14:09:08Z",
-  "quote": "thanks for thinking of us, deal seems to pencil nicely based on your comments below. Likely not a fit for us given the geography and non-local sponsorship but we will discuss when Carl gets back later this week and get you defeinitive feedback.",
-  "action": "The 16 Oct follow-up - concessions realized, the comp set, the exit 23-31% below comparable-vintage trades - landed: he says the deal 'seems to pencil nicely.' The two reasons he gives for leaning no are both about who and where, not the numbers: geography, and that ZMR is not a local sponsor. Non-local sponsorship is new - no one else in this round has raised it - and it is the one objection Kevin can answer personally, since Burke is a former colleague of his. Carl is back later this week and Burke committed to definitive feedback, so this is a live committee look, not a pass. Have Kevin reach out directly before Carl's meeting rather than sending more material.",
+  "stage": "pass",
+  "ts": "2026-11-13T13:31:37Z",
+  "quote": "thanks for thinking of us, deal seems to pencil nicely based on your comments below. Likely not a fit for us given the geography and non-local sponsorship but we will discuss when Carl gets back later this week and get you defeinitive feedback. | 13 Nov: \"apologies for not closing the loop, Carl is not keen to go into Houston. Appreciate the look, please keep us in the loop on future deals in FL.\"",
+  "action": "The 16 Oct follow-up - concessions realized, the comp set, the exit 23-31% below comparable-vintage trades - landed: he says the deal 'seems to pencil nicely.' The two reasons he gives for leaning no are both about who and where, not the numbers: geography, and that ZMR is not a local sponsor. Non-local sponsorship is new - no one else in this round has raised it - and it is the one objection Kevin can answer personally, since Burke is a former colleague of his. Carl is back later this week and Burke committed to definitive feedback, so this is a live committee look, not a pass. Have Kevin reach out directly before Carl's meeting rather than sending more material.  13 NOV - CLOSED, AND IT IS HOUSTON AGAIN. Roper came back after 25 days of silence to say the principal would not go into the market at all - not the basis, not the vintage, not the price. He asked to stay on the list for FLORIDA deals, which is the useful half: a warm relationship that simply will not cross the state line. Add to the Florida list and stop chasing on this one.",
   "tags": [
    "strategy-mismatch",
-   "non-local-sponsor"
+   "non-local-sponsor",
+   "houston-sentiment"
   ],
-  "heat": 2,
+  "heat": 1,
   "followup": {
-   "owed": "them",
-   "lastOut": "2026-10-23",
-   "ask": "Reviewing since 19 Oct, silent 16 days."
+   "owed": "none",
+   "lastOut": "2026-11-13",
+   "ask": "Passed - principal will not go into Houston. Wants FL deals. Keep for the next Florida asset."
   },
   "has": "teaser"
  },
@@ -2394,18 +2395,18 @@
   "title": "Chief Executive Officer",
   "email": "david.levine@aretewealth.com",
   "channel": "familyoffice",
-  "stage": "question",
-  "ts": "2026-11-02T16:00:55Z",
-  "quote": "Apologies - who are you? It sounds like we should be directing you first to our due diligence team - assuming we have indications or a demand profile for your offering. Please advise",
+  "stage": "referred",
+  "ts": "2026-11-13T14:17:48Z",
+  "quote": "Apologies - who are you? It sounds like we should be directing you first to our due diligence team - assuming we have indications or a demand profile for your offering. Please advise | 13 Nov: \"The appropriate way for you to seek to engage Arete is through our Managing Broker Dealer division which conducts due diligence and evaluates sponsors and offerings. From this point forward, please direct all communication ONLY to the following individuals: Karlton Kleis, Todd Doorenbos.\"",
   "tags": [
    "feeder-platform"
   ],
   "heat": 2,
-  "action": "The CEO does not know who we are, which is the third provenance challenge off the family-office list in a week, but unlike Connelly and Schwaben he is offering a route rather than complaining. Read it for what it is: Arete is a FINRA broker-dealer and RIA, so the path is a selling agreement and a third-party due-diligence review, not an LP cheque - weeks of process against a 20 Nov hard-money date. Answer him properly, say who ZMR is and what the track record is, and be honest that the timeline on this asset will not suit a platform review. Then decide separately whether Arete is worth building for the next deal.",
+  "action": "The CEO does not know who we are, which is the third provenance challenge off the family-office list in a week, but unlike Connelly and Schwaben he is offering a route rather than complaining. Read it for what it is: Arete is a FINRA broker-dealer and RIA, so the path is a selling agreement and a third-party due-diligence review, not an LP cheque - weeks of process against a 20 Nov hard-money date. Answer him properly, say who ZMR is and what the track record is, and be honest that the timeline on this asset will not suit a platform review. Then decide separately whether Arete is worth building for the next deal.  13 NOV - THE CEO HAS ROUTED US AND CLOSED HIS OWN DOOR. David Levine's answer to a 12 November chase is a formal redirect: all communication from this point forward ONLY to Karlton Kleis (Karlton.Kleis@aretewealth.com) and Todd Doorenbos (tdoorenbos@aretewealth.com) in the Managing Broker Dealer division, which does sponsor and offering diligence. Five other Arete people were copied and dropped from the instruction. READ THE WORD 'ONLY'. This is the second time Arete has pointed at their diligence team - Levine said it on 2 November ('It sounds like we should be directing you first to our due diligence team') and was not taken up on it for eleven days, during which he got two more chases. The redirect is now an instruction, in capitals, with the CEO removing himself. IT IS NOT A NO. A broker-dealer diligence desk is how a wealth platform like Arete actually buys - this is the correct door, not a brush-off. But it is a different process from an LP conversation: sponsor diligence, offering review, selling agreements, and a timeline measured in weeks, not days. Against a 20 November DD expiry that is almost certainly too slow for Allen Genoa, and the honest play is to open it with Kleis and Doorenbos for the NEXT deal rather than force this one. DO NOT MAIL LEVINE, COTTON, CUCHARALE, RAYNER, TERRANA OR WORMAN AGAIN on this.",
   "followup": {
    "owed": "us",
-   "lastOut": "2026-11-02",
-   "ask": "Asked \"who are you?\" and offered to route ZMR to their due-diligence team. Unanswered since 2 Nov - a warm handoff left on the table."
+   "lastOut": "2026-11-12",
+   "ask": "CEO instruction: communicate ONLY with Karlton Kleis and Todd Doorenbos (Managing Broker Dealer). Stop mailing Levine and the five copied. Likely too slow for Allen Genoa - open it for the next deal."
   },
   "has": "teaser"
  },
@@ -3740,16 +3741,16 @@
   "email": "lyle@detailedcapital.com",
   "channel": "direct",
   "stage": "meeting",
-  "ts": "2026-11-12T20:35:40Z",
-  "quote": "Your Smart Living Allen Genoa deal came across my desk this morning. Buying a 2023 asset at $135K a door after the first buyer's capital stack broke is a good find, and the deck makes a clear case. Detailed Capital places LP and co-GP equity with family offices and institutional groups. Your $11.8M raise and Q1 close fit well with what our investors are looking for right now. Could we get 20 minutes next week to walk through the deal? | 10 Nov 21:15: \"We are EST so in your time zone we look good for tomorrow Noon - 2 PT, Thursday 10-4 PT or Friday 10- Noon PT. Let me know what's best and we'll send invite out. Andy and I look forward to it.\" | 12 Nov 20:35: \"I misread your email and we can't do 4:30 Monday so let's see what's best for your Tues and I'll update the invite.\"",
-  "action": "The first genuinely INBOUND approach of the raise, and it is a broker rather than an investor. MacLennan is not offering money; Detailed Capital places LP and co-GP equity for a fee, so this is a third intermediary asking to sit between ZMR and the same pool of family offices. WHERE IT CAME FROM MATTERS. 'Came across my desk this morning' lines up with the GP-LP Match listing, which went live at 14:00 UTC today under a Premium membership. If that is the source, the paid platform's first result is an equity broker prospecting the listing rather than an LP reading it - worth knowing before judging whether the membership is working. BEFORE ANY CALL, TWO THINGS NEED CHECKING. First, the RJL engagement letter's non-circumvention runs to roughly 25 November and covers eleven named groups; a second placement agent working the same family-office universe is exactly the overlap that clause is written about. Second, Ackman-Ziff is already engaged and Brustein's live complaint is that the deal has been to nearly seventy LPs - adding a third party to the same list does not fix that and makes the story harder to control. The canonical equity list even keeps an 'Equity Broker' exclusion tab for firms in this category. None of which makes him wrong. He read the deck, he leads with the right fact (a 2023 build at $135K a door off a broken capital stack), and twenty minutes costs nothing. But the question to answer first is whether ZMR wants a third intermediary at all - not whether this one is any good. Note also he says 'Q1 close', which is a fourth version of the closing date now in circulation.  WINDOWS GIVEN, AND THEY DID THE WORK OF CONVERTING TO PACIFIC THEMSELVES. MacLennan came back inside an hour with three wide windows already translated out of Eastern, offered to send the invite, and confirmed Andy is joining. That is as easy as a counterparty gets. Pick one tonight. Tomorrow noon-2 PT is clear of both the 9:00 Eldridge call and whichever Dekel slot gets taken, so it is the cheapest of the three. THE INTERMEDIARY QUESTION STILL HAS TO BE SETTLED BEFORE THE CALL, not during it: RJL's non-circumvention runs to roughly 25 November and Ackman-Ziff is already engaged. Know what Zamir is willing to offer a third intermediary before Lyle and Andy ask.  12 NOV 05:18 - TIME TAKEN. MacLennan offered Wed noon-2, Thu 10-4 and Fri 10-noon PT and said they would send the invite. Thursday 3:00 PM PT taken, Andy Reinhard copied, Kevin flagged to join. Watch for their invite to actually arrive.  12 NOV 12:07 - TODAY'S CALL IS OFF. MacLennan: 'I am managing an unexpected health issue today and unable to make a call today. Apologies. Tomorrow or Monday work. Let me know what's best.' Andy Reinhard copied. Nothing to read into it - he has moved quickly at every other step, offering three windows within an hour of the first approach. Pick Friday or Monday and keep it moving; the intermediary question (RJL non-circumvention to ~25 Nov, Ackman-Ziff engaged) still needs settling before the call happens.  12 NOV 15:46 - HE IS IN HOSPITAL. 'Im recovering in the hospital from a severe anaphylaxis that happened last night. Prognosis good.' He still worked the scheduling: wanted Friday 11-12 ET but has a conflict, and offered MONDAY 5:00 PM ET (2:00 PM PT). That is a man in a hospital bed moving a deal call forward, which says more about Detailed Capital's interest than anything in the thread so far. Monday 2:00-2:30 PM PT is clear; PCCP starts at 2:30, so it is a hard 30 minutes. Confirm it, send the invite rather than making him do it, and make clear he can move or drop it without explanation.  12 NOV 20:10 - AN INVITE ARRIVED, AND IT NAMES A THIRD PARTY. 'Smart Living Allen Genoa project call - AMR Capital and Detailed Capital intros', Monday 16 November 2:00-2:45 PM PST, Google Meet, Andy Weber copied. 'AMR Capital' in that title is Lyle mistyping ZMR - there is no third party on the invite, just the two firms. THEN HE PULLED IT 25 MINUTES LATER. 'I misread your email and we can't do 4:30 Monday so let's see what's best for your Tues and I'll update the invite.' He is in hospital, he has now moved this call three times in nine hours, and he is still the one doing the organising. Give him Tuesday times tonight so he can update the invite from a bed rather than chase. MONDAY WAS NEVER CLEAN ANYWAY: the 2:00-2:45 PM PST slot he sent overlaps PCCP at 2:30 PM PT. Tuesday is the better answer for both sides. Tuesday free in ET: 2:00-4:00 PM, and 5:30 PM onward.",
+  "ts": "2026-11-13T12:48:09Z",
+  "quote": "Your Smart Living Allen Genoa deal came across my desk this morning. Buying a 2023 asset at $135K a door after the first buyer's capital stack broke is a good find, and the deck makes a clear case. Detailed Capital places LP and co-GP equity with family offices and institutional groups. Your $11.8M raise and Q1 close fit well with what our investors are looking for right now. Could we get 20 minutes next week to walk through the deal? | 10 Nov 21:15: \"We are EST so in your time zone we look good for tomorrow Noon - 2 PT, Thursday 10-4 PT or Friday 10- Noon PT. Let me know what's best and we'll send invite out. Andy and I look forward to it.\" | 12 Nov 20:35: \"I misread your email and we can't do 4:30 Monday so let's see what's best for your Tues and I'll update the invite.\" | 13 Nov 12:48: \"I recognized my mistake yesterday and sent a request for best options on Tuesday for you. Please let me know and I'll shift the invite.\"",
+  "action": "The first genuinely INBOUND approach of the raise, and it is a broker rather than an investor. MacLennan is not offering money; Detailed Capital places LP and co-GP equity for a fee, so this is a third intermediary asking to sit between ZMR and the same pool of family offices. WHERE IT CAME FROM MATTERS. 'Came across my desk this morning' lines up with the GP-LP Match listing, which went live at 14:00 UTC today under a Premium membership. If that is the source, the paid platform's first result is an equity broker prospecting the listing rather than an LP reading it - worth knowing before judging whether the membership is working. BEFORE ANY CALL, TWO THINGS NEED CHECKING. First, the RJL engagement letter's non-circumvention runs to roughly 25 November and covers eleven named groups; a second placement agent working the same family-office universe is exactly the overlap that clause is written about. Second, Ackman-Ziff is already engaged and Brustein's live complaint is that the deal has been to nearly seventy LPs - adding a third party to the same list does not fix that and makes the story harder to control. The canonical equity list even keeps an 'Equity Broker' exclusion tab for firms in this category. None of which makes him wrong. He read the deck, he leads with the right fact (a 2023 build at $135K a door off a broken capital stack), and twenty minutes costs nothing. But the question to answer first is whether ZMR wants a third intermediary at all - not whether this one is any good. Note also he says 'Q1 close', which is a fourth version of the closing date now in circulation.  WINDOWS GIVEN, AND THEY DID THE WORK OF CONVERTING TO PACIFIC THEMSELVES. MacLennan came back inside an hour with three wide windows already translated out of Eastern, offered to send the invite, and confirmed Andy is joining. That is as easy as a counterparty gets. Pick one tonight. Tomorrow noon-2 PT is clear of both the 9:00 Eldridge call and whichever Dekel slot gets taken, so it is the cheapest of the three. THE INTERMEDIARY QUESTION STILL HAS TO BE SETTLED BEFORE THE CALL, not during it: RJL's non-circumvention runs to roughly 25 November and Ackman-Ziff is already engaged. Know what Zamir is willing to offer a third intermediary before Lyle and Andy ask.  12 NOV 05:18 - TIME TAKEN. MacLennan offered Wed noon-2, Thu 10-4 and Fri 10-noon PT and said they would send the invite. Thursday 3:00 PM PT taken, Andy Reinhard copied, Kevin flagged to join. Watch for their invite to actually arrive.  12 NOV 12:07 - TODAY'S CALL IS OFF. MacLennan: 'I am managing an unexpected health issue today and unable to make a call today. Apologies. Tomorrow or Monday work. Let me know what's best.' Andy Reinhard copied. Nothing to read into it - he has moved quickly at every other step, offering three windows within an hour of the first approach. Pick Friday or Monday and keep it moving; the intermediary question (RJL non-circumvention to ~25 Nov, Ackman-Ziff engaged) still needs settling before the call happens.  12 NOV 15:46 - HE IS IN HOSPITAL. 'Im recovering in the hospital from a severe anaphylaxis that happened last night. Prognosis good.' He still worked the scheduling: wanted Friday 11-12 ET but has a conflict, and offered MONDAY 5:00 PM ET (2:00 PM PT). That is a man in a hospital bed moving a deal call forward, which says more about Detailed Capital's interest than anything in the thread so far. Monday 2:00-2:30 PM PT is clear; PCCP starts at 2:30, so it is a hard 30 minutes. Confirm it, send the invite rather than making him do it, and make clear he can move or drop it without explanation.  12 NOV 20:10 - AN INVITE ARRIVED, AND IT NAMES A THIRD PARTY. 'Smart Living Allen Genoa project call - AMR Capital and Detailed Capital intros', Monday 16 November 2:00-2:45 PM PST, Google Meet, Andy Weber copied. 'AMR Capital' in that title is Lyle mistyping ZMR - there is no third party on the invite, just the two firms. THEN HE PULLED IT 25 MINUTES LATER. 'I misread your email and we can't do 4:30 Monday so let's see what's best for your Tues and I'll update the invite.' He is in hospital, he has now moved this call three times in nine hours, and he is still the one doing the organising. Give him Tuesday times tonight so he can update the invite from a bed rather than chase. MONDAY WAS NEVER CLEAN ANYWAY: the 2:00-2:45 PM PST slot he sent overlaps PCCP at 2:30 PM PT. Tuesday is the better answer for both sides. Tuesday free in ET: 2:00-4:00 PM, and 5:30 PM onward.  13 NOV 12:48 - HE IS CHASING US NOW. Second time of asking for Tuesday options, still from hospital, still offering to move the invite himself. Four touches from him in 24 hours against none from us. This is the most persistent counterparty on the board and he is being kept waiting by a scheduling reply.",
   "tags": [],
   "heat": 3,
   "has": "teaser",
   "followup": {
    "owed": "us",
-   "lastOut": "2026-11-12",
-   "ask": "Lyle pulled Monday 5 ET and asked for Tuesday. Zamir has taken the thread over himself (19:41 and 21:31) and offered Mon 4:30 ET or later in the week. Ball is Lyle's - he will update the invite. Real windows: Mon 4:00-5:30 PM ET only (PCCP at 2:30 PT), Tue 1:30-4:00 PM ET or 5:30 PM ET onward."
+   "lastOut": "2026-11-13",
+   "ask": "HE HAS ASKED TWICE FOR TUESDAY TIMES AND IS WAITING. Tue 17 Nov free in ET: 2:00-4:00 PM, or 5:30 PM onward. Send one line; he shifts the invite himself."
   }
  },
  {
@@ -4915,6 +4916,269 @@
    "owed": "none",
    "lastOut": "2026-11-12",
    "ask": "Closed, no reason given. Nothing owed."
+  }
+ },
+ {
+  "firm": "Chief Partners LP",
+  "person": "Bill Vanderstraaten",
+  "title": null,
+  "email": "billv@chiefpartnerslp.com",
+  "channel": "direct",
+  "stage": "materials",
+  "ts": "2026-11-13T15:27:57Z",
+  "quote": "Zamir - please send the entire package and we will take a look at it.",
+  "tags": [],
+  "heat": 4,
+  "has": "teaser",
+  "action": "A PACKAGE REQUEST FROM A PRINCIPAL, NINE AND A HALF HOURS AFTER THE SEND. Zamir mailed Suzanne Rickman at 05:56; Vanderstraaten - the name on the firm - came back himself at 15:27 with Brian Bischoff copied. No questions, no conditions, just send it. SEND THE 11.10.26 SET TODAY, before the weekend and before the price conversation with RAH moves. This is the second-best new thing on the board after Yomtobian's $2.5M and it costs one email to keep alive.",
+  "followup": {
+   "owed": "us",
+   "lastOut": "2026-11-13",
+   "ask": "PACKAGE REQUESTED - send the 11.10.26 set today to billv@chiefpartnerslp.com, Brian Bischoff and Suzanne Rickman copied."
+  }
+ },
+ {
+  "firm": "Maxus Properties",
+  "person": "Taylor Stephen",
+  "title": "Acquisitions & Dispositions",
+  "email": "tstephen@maxusprop.com",
+  "channel": "direct",
+  "stage": "meeting",
+  "ts": "2026-11-13T14:04:33Z",
+  "quote": "Thanks Todd (bcc'd) Zamir - It would be good to meet you and hear what you are up to. I'm free this afternoon or Tuesday / Wednesday morning next week.",
+  "tags": [],
+  "heat": 3,
+  "has": "none",
+  "action": "HANSON'S INTRODUCTION CONVERTED IN TEN HOURS. Stephen replied at 14:04 offering THIS AFTERNOON or Tuesday/Wednesday morning, and bcc'd Todd out of the thread - the courtesy of someone who intends to take the meeting rather than be seen to. HE IS A BUYER, NOT AN LP, AND HIS WORDS CONFIRM IT: 'hear what you are up to', not 'see the deal'. Maxus closed 324 units in NW Houston within the last few weeks, which makes him one of very few people with a current, first-hand read on the exact market roughly 200 LPs have refused in the abstract. That read is worth more today than another maybe. Take the afternoon slot if it is still open - it costs thirty minutes and the intro is warm right now. Lead with the market, let Allen Genoa come up only if he asks.",
+  "followup": {
+   "owed": "us",
+   "lastOut": "2026-11-13",
+   "ask": "HE OFFERED THIS AFTERNOON or Tue/Wed morning. Take it. Buyer not LP - lead with his Houston read (324 units in NW Houston just closed), not the $9.53M ask."
+  }
+ },
+ {
+  "firm": "Benson Capital Partners",
+  "person": "Remi Bourque",
+  "title": null,
+  "email": "remi@bensoncap.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-13T15:21:27Z",
+  "quote": "Thanks for sending this over and thinking of us. The equity check is a bit larger than we're targeting, and we also have a deal in the Houston market that we recently closed, so we're passing.",
+  "tags": [
+   "check-too-large",
+   "competing-deal"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "TWO REASONS, BOTH SPECIFIC: the check is too big for them AND they already closed a Houston deal. That second half is the LaSalle pattern again - not Houston aversion but Houston ALLOCATION, already spent. George and K. Clifford copied on bensoncp.com (note the different domain from the sender's bensoncap.com). Worth keeping for a smaller check.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-13",
+   "ask": "Passed: check too large and Houston allocation already spent on a recent close. Keep for a smaller deal."
+  }
+ },
+ {
+  "firm": "Breakaway Capital",
+  "person": "Warren Woo",
+  "title": null,
+  "email": "warren.woo@breakawaycap.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-13T15:26:56Z",
+  "quote": "Not interested. Thanks.",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Three words, same day, David Giroux copied. No reason given.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-13",
+   "ask": "Closed, no reason. Nothing owed."
+  }
+ },
+ {
+  "firm": "Bonit Capital",
+  "person": "Jonas Ahlen",
+  "title": "Managing Partner",
+  "email": "jonas@bonitcapital.com",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-13T15:17:07Z",
+  "quote": "This is out of scope for us I'm afraid. Best of luck,",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Stockholm. Out of scope, courteously. Erik and Richard copied. Another European mandate miss off the same tranche.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-13",
+   "ask": "Closed on mandate. Nothing owed."
+  }
+ },
+ {
+  "firm": "Casadona Group",
+  "person": "Lorenzo Donadeo",
+  "title": null,
+  "email": "ldonadeo@casadonagroup.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-13T15:12:13Z",
+  "quote": "Hello thanks for reaching out. We are not interested.",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Same day, from his phone. Kristie Brownridge and Tony Donadeo on the thread. No reason.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-13",
+   "ask": "Closed, no reason. Nothing owed."
+  }
+ },
+ {
+  "firm": "BBRC",
+  "person": "Joseph Kim",
+  "title": null,
+  "email": "jkim@bbrcpe.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-13T13:39:40Z",
+  "quote": "Thank you for your email, we won't proceed with interest",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Brett Blundy's private equity vehicle. Kim answered the same day on behalf of the house; the original went to brett@bbrcworld.com. No reason.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-13",
+   "ask": "Closed, no reason. Nothing owed."
+  }
+ },
+ {
+  "firm": "CPC, LLC",
+  "person": "Steven Swartzman",
+  "title": null,
+  "email": "sswartzman@cpc.llc",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-13T13:25:12Z",
+  "quote": "Thanks, Zamir, but it's not a fit. We do not acquire real estate.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "KANSAS CITY, AND THEY DO NOT BUY REAL ESTATE AT ALL. Fourth firm this week to say the asset class is outside their mandate, after Miras, Novel TMT and Acacia. Wiley Curran and Dave Walker copied. The screen that built this tranche is still not reading what these firms do.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-13",
+   "ask": "Closed on mandate - not a real estate buyer."
+  }
+ },
+ {
+  "firm": "Avalon",
+  "person": "John Hemmingstad",
+  "title": null,
+  "email": "jhemmingstad@avalon.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-13T12:56:25Z",
+  "quote": "Good on our RE allocations for now and busy with year end. Thanks for reaching out",
+  "tags": [
+   "capital-paused",
+   "diligence-bandwidth"
+  ],
+  "heat": 2,
+  "has": "teaser",
+  "action": "A TIMING NO, NOT A DEAL NO - allocations full and year-end workload, which both expire. Aaron Oestmann and Shane Hartnett copied. GMass has him opening ZMR mail going back three years, so the relationship is real. Worth a January re-approach when allocations reset; do not spend another chase on him this year.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-13",
+   "ask": "Passed on timing and allocation, not the deal. Re-approach in January."
+  }
+ },
+ {
+  "firm": "BCN Real Estate Group",
+  "person": "Alec Raggio",
+  "title": null,
+  "email": "araggio@bcnreg.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-13T12:46:24Z",
+  "quote": "Hey Zamir, we're not looking in Houston right now, thank you.",
+  "tags": [
+   "houston-sentiment"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Houston, explicitly, and 'right now' - a market timing call rather than a mandate. Juan Imery and Luis Aguirre copied. One more for the column this board exists to count.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-13",
+   "ask": "Passed on Houston. Nothing owed."
+  }
+ },
+ {
+  "firm": "Acacia",
+  "person": "Per Skyttvall",
+  "title": null,
+  "email": "per.skyttvall@acacia.nu",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-13T12:30:48Z",
+  "quote": "We only invest in Swedish based companies, so this is unfortunately not of interest for us.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "SWEDISH COMPANIES ONLY. A US multifamily JV was never reachable, and the firm says so in one line. Second Swedish house in this batch after Bonit.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-13",
+   "ask": "Closed on mandate. Nothing owed."
+  }
+ },
+ {
+  "firm": "Clarence Capital Partners",
+  "person": "Gregory Green",
+  "title": null,
+  "email": "ggreen@clarencecapitalpartners.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-13T12:12:50Z",
+  "quote": "Guys this one not for us.",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Delray Beach. Five words, Constantin Vana and Joseph Amoroso on the thread. No reason.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-13",
+   "ask": "Closed, no reason. Nothing owed."
+  }
+ },
+ {
+  "firm": "Gamnic",
+  "person": "Mario Ubillus",
+  "title": null,
+  "email": "marioubillus@gamnic.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-13T13:59:00Z",
+  "quote": "Hi Zamir, Thanks for reaching us but for both our family office and mutual funds, we [pass]",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Declined for both the family office and the mutual funds. Zamir answered graciously at 14:42. NOTE THE SENDING ADDRESS: his reply came to zamir.k@zmrcapitalget.com - a FOURTH ZMR sending domain, after zmrcapital.com, zmrcapitaluse.com and getzmrcapital.com. Nobody has mapped how many of these are running or which prospects sit behind each.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-13",
+   "ask": "Closed. Nothing owed."
   }
  }
 ]

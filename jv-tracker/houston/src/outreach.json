@@ -3743,9 +3743,129 @@
    "person": "Taylor Stephen",
    "email": "tstephen@maxusprop.com",
    "also": [],
-   "sent": null,
-   "outcome": "proposed",
+   "sent": "2026-11-13",
+   "outcome": "replied",
    "note": "Introduced by Todd Hanson 13 Nov 04:16 ('Houston connection'). Leads acquisitions and dispositions; Maxus just acquired a 324-unit property in NW Houston. A BUYER, not an LP allocator - Hanson framed it as two Houston buyers who should know each other. No send yet."
+  },
+  {
+   "channel": "direct",
+   "firm": "Chief Partners LP",
+   "person": "Bill Vanderstraaten",
+   "email": "billv@chiefpartnerslp.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Benson Capital Partners",
+   "person": "Remi Bourque",
+   "email": "remi@bensoncap.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Breakaway Capital",
+   "person": "Warren Woo",
+   "email": "warren.woo@breakawaycap.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Bonit Capital",
+   "person": "Jonas Ahlen",
+   "email": "jonas@bonitcapital.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Casadona Group",
+   "person": "Lorenzo Donadeo",
+   "email": "ldonadeo@casadonagroup.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "BBRC",
+   "person": "Joseph Kim",
+   "email": "jkim@bbrcpe.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "CPC, LLC",
+   "person": "Steven Swartzman",
+   "email": "sswartzman@cpc.llc",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Avalon",
+   "person": "John Hemmingstad",
+   "email": "jhemmingstad@avalon.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "BCN Real Estate Group",
+   "person": "Alec Raggio",
+   "email": "araggio@bcnreg.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Acacia",
+   "person": "Per Skyttvall",
+   "email": "per.skyttvall@acacia.nu",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Clarence Capital Partners",
+   "person": "Gregory Green",
+   "email": "ggreen@clarencecapitalpartners.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Gamnic",
+   "person": "Mario Ubillus",
+   "email": "marioubillus@gamnic.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
   }
  ],
  "carveouts": [
