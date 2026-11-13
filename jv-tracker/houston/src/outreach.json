@@ -3906,6 +3906,19 @@
    "sent": "2026-11-03",
    "outcome": "replied",
    "note": "Cold send 3 Nov, chased 13 Nov; replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Carroll Capital",
+   "person": "Will Duplock",
+   "email": "William@carrollcapital.com",
+   "also": [
+    "Leigh@carrollcapital.com",
+    "lin@carrollcapital.com"
+   ],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send 13 Nov; mandate pass same day - does not invest in real estate."
   }
  ],
  "carveouts": [
