@@ -3919,6 +3919,26 @@
    "sent": "2026-11-13",
    "outcome": "replied",
    "note": "Cold send 13 Nov; mandate pass same day - does not invest in real estate."
+  },
+  {
+   "channel": "direct",
+   "firm": "CC Industries (Henry Crown and Company)",
+   "person": "Jason J. Green",
+   "email": "jgreen@crown-chicago.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send; passed same day."
+  },
+  {
+   "channel": "direct",
+   "firm": "Erlen Capital",
+   "person": "Bruno Schneller",
+   "email": "bruno.schneller@erlencapital.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send; passed same day."
   }
  ],
  "carveouts": [

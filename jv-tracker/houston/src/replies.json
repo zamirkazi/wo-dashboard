@@ -5291,5 +5291,43 @@
    "lastOut": "2026-11-13",
    "ask": "Closed on mandate - not a real estate investor."
   }
+ },
+ {
+  "firm": "CC Industries (Henry Crown and Company)",
+  "person": "Jason J. Green",
+  "title": "Vice President and General Counsel",
+  "email": "jgreen@crown-chicago.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-13T20:43:42Z",
+  "quote": "Zamir - We're not interested in this one. Thanks for sending it along.",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "HENRY CROWN AND COMPANY - one of the largest and oldest family offices in Chicago, and among the biggest names the blast has reached. Courteous, same day, no reason. READ WHO ANSWERED: Jason Green is the VICE PRESIDENT AND GENERAL COUNSEL, not an investment professional. At a house this size the deal never reached an allocator - it reached the lawyer, who closed it. That is a targeting outcome, not a verdict on the asset, and the note 'this one' leaves the door ajar. If Crown is genuinely wanted, it needs a named investment contact and a warm introduction, not another cold send to the general address.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-13",
+   "ask": "Closed by the general counsel, no reason. If Crown matters, find a named investment contact and a warm intro - the cold route reached a lawyer, not an allocator."
+  }
+ },
+ {
+  "firm": "Erlen Capital",
+  "person": "Bruno Schneller",
+  "title": null,
+  "email": "bruno.schneller@erlencapital.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-13T20:13:08Z",
+  "quote": "Thanks for sharing the opportunity. I'll have to pass on this one, but appreciate you thinking of me. Best of luck with the transaction!",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "A warm, personal no - 'appreciate you thinking of me' reads like someone who knows ZMR rather than a cold recipient. No reason given. THE ADDRESS IT CAME TO IS THE STORY: zamir.k@todayzmrcapital.com. That is a FIFTH ZMR SENDING DOMAIN, after zmrcapital.com, zmrcapitaluse.com, getzmrcapital.com and zmrcapitalget.com - and the fourth was only discovered this morning on the Gamnic reply. Nobody has mapped how many of these exist, which prospects sit behind each, or who is monitoring the inboxes. Two of them have already drawn Microsoft 550 blocks. A reply landing on an unmapped domain is a reply that can be missed entirely, and this one was filed straight out of the inbox by the Label_36/Label_87 filters. Audit the domains before the next wave goes out.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-13",
+   "ask": "Closed, no reason. ACTION IS ON US, NOT HIM: reply arrived at a fifth sending domain (todayzmrcapital.com). Map every domain in use and who watches each inbox."
+  }
  }
 ]
