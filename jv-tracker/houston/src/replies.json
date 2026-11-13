@@ -3593,14 +3593,20 @@
   "title": "Chief Revenue Officer",
   "email": "michael.munshi@impexcapitalgroup.com",
   "channel": "direct",
-  "stage": "conditional",
-  "ts": "2026-11-05T19:47:04Z",
-  "quote": "We do not typically accept LP equity raise requests unless we're involved in the loan guarantee portion.",
-  "action": "Read this as a decline with a named door rather than interest. Impex is a Houston shop on Westheimer whose business is credit enhancement, and Munshi's first question back was the tell - 'Is Impex needed for a loan guarantee/credit enhancement for the debt?' Zamir answered straight ('No we are looking for common equity on this, is that something you'd guys would do?') and got the mandate line in six minutes. The door is real though: this deal carries a $23.8M agency loan that needs a balance-sheet guarantor for the non-recourse carveouts, and Zamir had already written on 3 Nov that he is flexible - 'straight LP, co-GP, or something in between' - and open to paying a fee. If ZMR wants Impex, the ask is a KP / guarantor role with equity attached, not an LP cheque. The row sits as conditional for exactly that reason and for no other; left alone it is a no. Worth noting this was a warm thread - Zamir reopened an August conversation about Impex's own disposition plans and the Grand at Stone Creek, and that half is still unanswered.",
+  "stage": "reviewing",
+  "ts": "2026-11-13T15:52:21Z",
+  "quote": "We do not typically accept LP equity raise requests unless we're involved in the loan guarantee portion. | 13 Nov 15:52: \"In order to assess this opportunity, I will need an OM & live underwriting model/pro forma. Please forward and we will begin our preliminary assessment.\"",
+  "action": "Read this as a decline with a named door rather than interest. Impex is a Houston shop on Westheimer whose business is credit enhancement, and Munshi's first question back was the tell - 'Is Impex needed for a loan guarantee/credit enhancement for the debt?' Zamir answered straight ('No we are looking for common equity on this, is that something you'd guys would do?') and got the mandate line in six minutes. The door is real though: this deal carries a $23.8M agency loan that needs a balance-sheet guarantor for the non-recourse carveouts, and Zamir had already written on 3 Nov that he is flexible - 'straight LP, co-GP, or something in between' - and open to paying a fee. If ZMR wants Impex, the ask is a KP / guarantor role with equity attached, not an LP cheque. The row sits as conditional for exactly that reason and for no other; left alone it is a no. Worth noting this was a warm thread - Zamir reopened an August conversation about Impex's own disposition plans and the Grand at Stone Creek, and that half is still unanswered.  13 NOV - THE DOOR THIS ROW NAMED IS THE ONE THAT OPENED. On 12 November Zamir took exactly the step this row called for - 'we would be open to involve you in the loan guarantee portion if you can help with the LP equity' - and Munshi came back this morning asking for the OM and the live underwriting model to begin a preliminary assessment. Zamir told Kevin to send at 16:11; Kevin sent the model and deck at 16:15. Materials are out, so this is now a read, not an ask. WHAT MAKES IT DIFFERENT FROM THE OTHER 200: Impex is ON WESTHEIMER, IN HOUSTON. Every other live name is underwriting this submarket from somewhere else, and the single most common reason for a no on this board is Houston itself. A Houston credit-enhancement shop does not need to be convinced the market exists. AND THE STRUCTURE IS NOW TWO-SIDED, WHICH CUTS BOTH WAYS. Munshi's price for looking is a guarantor role on the $23.8M agency first. That is cheap if it buys equity ZMR cannot otherwise raise, and expensive if it hands a third party a consent position in the capital stack before the LP is closed. Settle what 'involved in the loan guarantee portion' actually means - fee, carveout guarantor, co-GP, or equity - before the preliminary assessment comes back, not after. THE GRAND AT STONE CREEK HALF OF THIS THREAD IS STILL UNANSWERED from 3 November.",
   "tags": [
    "strategy-mismatch"
   ],
-  "heat": 2
+  "heat": 4,
+  "has": "package",
+  "followup": {
+   "owed": "them",
+   "lastOut": "2026-11-13",
+   "ask": "OM and live model sent by Kevin 13 Nov 16:15; Impex doing a preliminary assessment. Ball is theirs. Before it lands, decide what the guarantor role on the $23.8M agency first is actually worth and what form it takes - Munshi has made that the price of looking."
+  }
  },
  {
   "firm": "BlackRock",
@@ -5179,6 +5185,46 @@
    "owed": "none",
    "lastOut": "2026-11-13",
    "ask": "Closed. Nothing owed."
+  }
+ },
+ {
+  "firm": "Abacon Capital",
+  "person": "Andreas Steer",
+  "title": "Director Portfolio Support",
+  "email": "steer@abacon.capital",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-13T15:47:47Z",
+  "quote": "Thanks for chasing after us - however, the opportunity does not fit our current investment focus.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Hamburg. Answered the third touch - cold 3 Nov, chased 9 Nov, chased again today at 12:53 asking for a call - with a mandate line and nothing else. Sven Rossmann (a managing director) and Susanne Kloss copied throughout, so the house saw all three and let the portfolio-support director close it. Three touches to get a one-line no is the cost of the chase working.  SIXTH MERGE-SEAM INSTANCE: the 3 November send opens 'Hey Hi Andreas and team', after Hadley, Guetermann, Graham Partners, Kantara and Workplay. Nobody has fixed the template.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-13",
+   "ask": "Closed on mandate after three touches. Nothing owed."
+  }
+ },
+ {
+  "firm": "Copper Lion Capital",
+  "person": "Natasha Ali",
+  "title": null,
+  "email": "nali@copperlioncapital.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-13T15:36:36Z",
+  "quote": "Thank you for your email. We do not have interest in this investment. Best of luck.",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Answered a 03:43 chase within twelve hours, Oggy Talic copied. No reason given, no door left open.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-13",
+   "ask": "Closed, no reason. Nothing owed."
   }
  }
 ]

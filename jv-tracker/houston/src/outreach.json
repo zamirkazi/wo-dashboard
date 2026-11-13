@@ -2084,7 +2084,7 @@
    "sent": "2026-11-03",
    "outcome": "replied",
    "knows": "knows them",
-   "note": "Never sent Allen Genoa. Relationship runs the other way: Zamir cold-emailed Ash Shah in Aug 2026 about buying The Grand at Stone Creek, and a 26-minute call followed on 13 Aug with Michael Munshi. Impex is Houston-based, $2.1B AUM, co-GP interest in 82 projects across 23 states, asset- and geography-agnostic. Their business IS assembling the capital stack for sponsors - LP equity sources, co-GP equity sources, and Ash signing loan guarantees off his balance sheet - while taking a deliberately passive co-GP role and relying on the sponsor as the local expert. On that call Michael asked whether ZMR had the debt and LP equity handled and Zamir said 'I think we're pretty well capitalized', so the draft corrects that on the record rather than around it. Michael also promised to talk to Ash about dispositions and either book another call or send over assets to offload; neither happened, which is the natural reason to reconnect. CORRECTION: the 3 Nov draft was NOT unsent - it went out that day at 16:53 ET with the package attached, and Munshi answered on 5 Nov. The board had it logged as drafted-and-unsent; that was wrong."
+   "note": "Never sent Allen Genoa. Relationship runs the other way: Zamir cold-emailed Ash Shah in Aug 2026 about buying The Grand at Stone Creek, and a 26-minute call followed on 13 Aug with Michael Munshi. Impex is Houston-based, $2.1B AUM, co-GP interest in 82 projects across 23 states, asset- and geography-agnostic. Their business IS assembling the capital stack for sponsors - LP equity sources, co-GP equity sources, and Ash signing loan guarantees off his balance sheet - while taking a deliberately passive co-GP role and relying on the sponsor as the local expert. On that call Michael asked whether ZMR had the debt and LP equity handled and Zamir said 'I think we're pretty well capitalized', so the draft corrects that on the record rather than around it. Michael also promised to talk to Ash about dispositions and either book another call or send over assets to offload; neither happened, which is the natural reason to reconnect. CORRECTION: the 3 Nov draft was NOT unsent - it went out that day at 16:53 ET with the package attached, and Munshi answered on 5 Nov. The board had it logged as drafted-and-unsent; that was wrong. | 13 Nov: asked for OM + live model after Zamir offered a loan-guarantee role; Kevin sent model and deck 16:15."
   },
   {
    "channel": "peblast",
@@ -3866,6 +3866,26 @@
    "sent": "2026-11-13",
    "outcome": "replied",
    "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Abacon Capital",
+   "person": "Andreas Steer",
+   "email": "steer@abacon.capital",
+   "also": [],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Cold send 3 Nov, chased 9 and 13 Nov; replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Copper Lion Capital",
+   "person": "Natasha Ali",
+   "email": "nali@copperlioncapital.com",
+   "also": [],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Cold send 3 Nov, chased 9 and 13 Nov; replied 13 Nov."
   }
  ],
  "carveouts": [
