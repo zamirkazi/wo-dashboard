@@ -1,0 +1,66 @@
+email,verdict,reason,wave,firm
+gyates@abridgepartners.com,DEAD,550 permanent failure,sfo,Abridge Partners
+mallison@abundancellc.com,DEAD,550 permanent failure,sfo,Abundance LLC
+ra@alxza.com,DEAD,address not found,sfo,ALXZA
+dickson.wong@kmxkinvestment.com,DEAD,address not found,sfo,KMXK Investment
+s.gande@jupitercapital.in,DEAD,550 permanent failure (domain-wide),sfo,Jupiter Capital
+ravi.s@jupitercapital.in,DEAD,550 permanent failure (domain-wide),sfo,Jupiter Capital
+rchandrasekhar@meity.gov.in,DEAD,address not found - INDIAN GOVERNMENT MINISTRY address on an investor list,sfo,Ministry of Electronics & IT (India)
+robin.kovitz@jetstarcapital.com,DEAD,550 permanent failure (domain-wide),sfo,Jetstar Capital
+ron.kovitz@jetstarcapital.com,DEAD,550 permanent failure (domain-wide),sfo,Jetstar Capital
+tm_yee@yahoo.com,DEAD,message blocked - personal yahoo address on an institutional list,sfo,unknown (Tuck Meng Yee)
+j.schlia@jp-beteiligung.de,DEAD,message blocked,sfo,JP Beteiligung
+melissamantegazza@mantegazza.ch,DEAD,550 permanent failure (domain-wide),sfo,Mantegazza
+andreapiol@mantegazza.ch,DEAD,550 permanent failure (domain-wide),sfo,Mantegazza
+alessandrobornaghi@mantegazza.ch,DEAD,550 permanent failure (domain-wide),sfo,Mantegazza
+pete@chambers-interests.com,DEAD,550 permanent failure (domain-wide),sfo,Chambers Interests
+rankin@chambers-interests.com,DEAD,550 permanent failure (domain-wide),sfo,Chambers Interests
+tom@chambers-interests.com,DEAD,550 permanent failure (domain-wide),sfo,Chambers Interests
+guy@high-house.com,DEAD,550 5.7.1 blocked by recipient enterprise administrator,sfo,High House
+john@haleholdings.com,DEAD,message blocked (domain-wide),sfo,Hale Holdings
+bill@haleholdings.com,DEAD,message blocked (domain-wide),sfo,Hale Holdings
+joseph@haleholdings.com,DEAD,message blocked (domain-wide),sfo,Hale Holdings
+christian.lepple@lufin.ch,DEAD,remote server misconfigured,sfo,Lufin Partners
+britain@hbcinvestments.com,DEAD,550 permanent failure,sfo,HBC Investments
+kate@hbinvestments.com,DEAD,550 permanent failure (domain-wide),sfo,HB Investments
+mahindar@hbinvestments.com,DEAD,550 permanent failure (domain-wide),sfo,HB Investments
+lauren@hbinvestments.com,DEAD,550 permanent failure (domain-wide),sfo,HB Investments
+rtpa@gfo.nu,DEAD,550 permanent failure (domain-wide),sfo,GFO
+mooren@gfo.nu,DEAD,550 permanent failure (domain-wide),sfo,GFO
+baert@gfo.nu,DEAD,550 permanent failure (domain-wide),sfo,GFO
+g_white@grouseridgecapital.com,DEAD,address not found,sfo,Grouse Ridge Capital
+fwhitworth@globecor.com,DEAD,550 permanent failure (domain-wide),sfo,Globecor
+bagjr@globecor.com,DEAD,550 permanent failure (domain-wide),sfo,Globecor
+kcardinal@globecor.com,DEAD,550 permanent failure (domain-wide),sfo,Globecor
+r.goblet@globaleye.capital,DEAD,message blocked,sfo,Globaleye Capital
+aginsburg@ginsburgfamilyfoundation.org,DEAD,address not found 550,sfo,Ginsburg Family Foundation
+mholloway@gmh-inc.com,DEAD,550 permanent failure,sfo,GMH
+sbehrle@gmhcp.com,DEAD,550 permanent failure,sfo,GMH Capital Partners
+nscalamandre@gcfinance.net,DEAD,message blocked,sfo,GC Finance
+sherrycfa@aol.com,DEAD,message blocked - personal AOL address on an institutional list,sfo,unknown (Sherry)
+roman@forrestalcapital.com,DEAD,550 permanent failure (domain-wide),sfo,Forrestal Capital
+afranqui@forrestalcapital.com,DEAD,550 permanent failure (domain-wide),sfo,Forrestal Capital
+remco.obertop@ferrellcapinc.com,DEAD,550 permanent failure (domain-wide),sfo,Ferrell Capital
+jason.messerly@ferrellcapinc.com,DEAD,550 permanent failure (domain-wide),sfo,Ferrell Capital
+pamela.breuckmann@ferrellcapinc.com,DEAD,550 permanent failure (domain-wide),sfo,Ferrell Capital
+antoine@familyoffice-intl.com,DEAD,message blocked,sfo,Family Office International
+gert.bervoets@essers.com,DEAD,550 permanent failure (domain-wide),sfo,Essers
+hilde.essers@essers.com,DEAD,550 permanent failure (domain-wide),sfo,Essers
+lieven.leenders@essers.com,DEAD,550 permanent failure (domain-wide),sfo,Essers
+lauren@epsteinenterprises.com,DEAD,550 permanent failure (domain-wide),sfo,Epstein Enterprises
+earl@epsteinenterprises.com,DEAD,550 permanent failure (domain-wide),sfo,Epstein Enterprises
+harry@epsteinenterprises.com,DEAD,550 permanent failure (domain-wide),sfo,Epstein Enterprises
+pmwathi@eastcenturycapital.com,DEAD,address not found (domain-wide),sfo,East Century Capital
+ludyigondyi@eastcenturycapital.com,DEAD,address not found (domain-wide),sfo,East Century Capital
+jthompson@eastcenturycapital.com,DEAD,address not found (domain-wide),sfo,East Century Capital
+khanks@eaglebinecapital.com,DEAD,550 permanent failure (domain-wide),sfo,Eaglebine Capital
+chanks@eaglebinecapital.com,DEAD,550 permanent failure (domain-wide),sfo,Eaglebine Capital
+mmellon@eaglebinecapital.com,DEAD,550 permanent failure (domain-wide),sfo,Eaglebine Capital
+brian@friedmancap.com,DEAD,550 5.2.1 address not found,sfo,Friedman Capital
+david.guy@fmr.com,DEAD,message blocked,sfo,Fidelity (FMR)
+ryan.prinzo@fmr.com,DEAD,message blocked,sfo,Fidelity (FMR)
+giannehurks@hurks.nl,DEAD,recipient unknown at hurks.nl,sfo,Hurks
+fernando.maddock@alum.dartmouth.org,DEAD,address not found - university ALUMNI forwarding address,sfo,unknown (Fernando Maddock)
+sschwartz@kcb-partners.com,DEAD,550 permanent failure (domain-wide),direct,KCB Private Equity
+lknell@kcb-partners.com,DEAD,550 permanent failure (domain-wide),direct,KCB Private Equity
+cjarrouj@kcb-partners.com,DEAD,550 permanent failure (domain-wide),direct,KCB Private Equity

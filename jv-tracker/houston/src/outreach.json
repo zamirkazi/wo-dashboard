@@ -1,0 +1,4154 @@
+{
+ "channels": {
+  "direct": {
+   "label": "ZMR direct (hand-sent)",
+   "owner": "Zamir / Kevin / Chip",
+   "started": "2026-09-21",
+   "status": "live",
+   "note": "One-to-one forwards off Kevin's 21 Sep memo, then a second wave on 12 Oct to every name Kirsh had proposed but never mailed, then a third wave the same evening off ZMR's own equity list (1,087 contacts on Drive) and the Canyon Woods reply record. All three waves are out — 54 firms on 12 Oct alone, the last at 22:25. A fourth wave of bumps went 15-16 Oct and a fifth on 21-22 Oct (14 firms between 20:03 and 20:09 ET, then Pearlmark and Integrity by hand the next morning). Six follow-ups are written and sitting in drafts: Grandview, West Pine, Benedict, STRE, Parse and Capital Solutions. Each email opens on that firm's own last answer to us where one exists. Subject throughout: \"Houston 2023 Vintage $135K/door $13M Check 20%+ IRR\".",
+   "reach": 78
+  },
+  "kirsh": {
+   "label": "Andrew Kirsh",
+   "owner": "Andrew Kirsh, Sklar Kirsh LLP",
+   "started": "2026-10-02",
+   "status": "live",
+   "note": "Kirsh sent to Tramview on 2 Oct, then to the three groups Zamir said he did not know — Mile Rock, Green Pine and Range Equity — on the morning of 3 Oct. All four came back. The rest of his list he raised as a question and never confirmed sending. Argosy was pulled from his list because Zamir knows them and went direct; they passed on 7 Oct.",
+   "reach": 4
+  },
+  "slocumb": {
+   "label": "Jeremy Slocumb",
+   "owner": "Jeremy Slocumb, IPA Capital Markets",
+   "started": "2026-10-12",
+   "status": "live",
+   "note": "Jeremy Slocumb at IPA took seven names on 5 Oct and was cleared to send on 7 Oct, minus Grandview, Long Wharf and Mountain Pacific, which Zamir held back because he knows them. He reported back on 15 Oct: three reviewing, three declined, Nelnet still out. That report is the first hard confirmation that the send happened - IPA holds the send record, we never did. He is pushing 621 Capital himself.",
+   "reach": 7
+  },
+  "rjl": {
+   "label": "RJL Capital Advisors",
+   "owner": "Jonathan Livi, RJL Capital Advisors",
+   "started": "2026-10-26",
+   "status": "live",
+   "note": "Livi's engagement letter of 22 Oct listed 34 groups and claimed a 2% fee, a 30-day exclusive and a non-circumvention over all of them. Zamir narrowed it by email on 26 Oct - \"confirmed you are OK to send to the 11 groups i mentioned below and the terms do not apply to the groups i carved out\" - and Livi did not push back. That email is the governing scope. RJL sent to the eleven and holds the addresses and the send record; we have neither. Their first written progress report came back 29 Oct 15:48 UTC, four hours after Zamir asked what feedback they had, with the covering line \"just waiting on feedback and some potential around a hybrid pref structure.\" Their dated notes run from 27 Oct, so the deal was out on or before then. The eleven are covered by a non-disclosure clause: do not name them to any third party, Ackman-Ziff included.",
+   "reach": 11
+  },
+  "familyoffice": {
+   "label": "Family office blast",
+   "owner": "Zamir (GMass)",
+   "started": "2026-10-26",
+   "status": "live",
+   "reach": 634,
+   "note": "A GMass merge to 634 family offices off the FinTrx-sourced fo_SEND list, sent 26 Oct 14:34 PDT under \"Depreciation | Houston 2023 Vintage | $135K/Door | $12M Equity | 21.5% IRR\", with a stage-one follow-up to the 330 who had not answered on 29 Oct. This is the only channel on the board that is a true blast: nobody here was hand-picked and most had never heard of ZMR. It returned 12 replies, 1.89%, against 4.55% on the PE send the same week from the same mailbox - and four of the eleven recorded replies are firms that do not invest in direct real estate at all, so the gap is list quality rather than message."
+  },
+  "peblast": {
+   "label": "PE / institutional send",
+   "owner": "Zamir (GMass)",
+   "started": "2026-10-29",
+   "status": "live",
+   "reach": 286,
+   "note": "The remainder of ZMR's own equity list, screened to v5 and sent 29 Oct 16:15 PDT as \"Houston 2023 Vintage | +LTO | $135K/Door | $12M Equity | 21% IRR\". 328 addresses went in, GMass suppressed 42 as prior bounces, 286 delivered in 42 minutes. 13 replies inside the first four hours - 4.55%, the best rate of any channel - but seven of them are size passes, which says the list still needs a check-size floor before the next wave."
+  },
+  "ypo": {
+   "label": "YPO deal flow chat",
+   "owner": "Zamir",
+   "started": "2026-10-30",
+   "status": "live",
+   "reach": 2,
+   "note": "A single post to the YPO deal flow group chat, not a merge and not a list. It is the only channel on the board where the audience self-selects: nobody was targeted, and anyone who comes back has raised their own hand. Reach counts named respondents rather than chat members, since we hold no roster: Alberto Bonilla at Garnier on 1 Nov and Stephen Lobell at JSB on 2 Nov, both of whom raised their own hand. The cheque profile is the inverse of every other channel - YPO members write individual cheques, where nine firms have now passed here because $11.77M was below their floor."
+  },
+  "sfo": {
+   "label": "Rest of SFO (single family offices)",
+   "owner": "Zamir (GMass)",
+   "started": "2026-11-03",
+   "status": "live",
+   "reach": 0,
+   "note": "The 'Rest of SFO not sent previously' list - roughly 600 single family offices sourced from FinTrx, sent 3 Nov under the new subject 'Houston Multifamily LP Equity' with three bullets no other wave carried: Year 1 CoC 11%, Depreciation, and Accept 1031 Exchange. Reach is not yet fixed because the send was still running when Gmail throttled the account. This wave bounced at least 22 addresses in its first few hours and triggered eleven 'you have reached a limit for sending mail' failures, one of which killed an unrelated reply to Rialto Capital."
+  },
+  "windmass": {
+   "label": "Mitchell Voss (WindMass)",
+   "owner": "Mitchell Voss, Founder & CEO, WindMass Capital",
+   "started": "2026-11-10",
+   "status": "live",
+   "note": "Zamir asked Voss on 2 November - a Dallas competitor, not a broker - 'do you know any groups this deal might be a fit for', and attached the OM and the full model. Voss sat on it for eight days and then, between 19:30 and 19:56 on 10 November, forwarded it to four firms with a personal note on each: Connor Monaghan at Arcapita, Meredith at Machine Investment Group, Michael Pokorny and Katie Harris at Cerberus, and Jawad Ahmed at Farallon. Zamir was copied on every one. Cerberus answered 78 seconds after the introduction landed. This is the first channel on the board opened by a competitor rather than a broker or a list, and it is the only one whose names are all institutional. It also carries the live underwriting model (Houston_TX_SmartLivingAllenGenoa_ZMR_PF_10.26.26.xlsx) out to four firms at once - Zamir attached it himself on 2 Nov, so that was his call, but it is now in four more hands.",
+   "reach": 4
+  }
+ },
+ "contacts": [
+  {
+   "channel": "direct",
+   "firm": "Atlantic Creek Real Estate",
+   "person": "Jonathan Trucano",
+   "email": "trucano@atlanticcreek.com",
+   "also": [
+    "bylin@atlanticcreek.com",
+    "sachs@atlanticcreek.com"
+   ],
+   "sent": "2026-09-21",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Sabal Investment Holdings",
+   "person": "Tal Seder",
+   "email": "tal.seder@sabal.com",
+   "also": [
+    "mike.mehagian@sabal.com",
+    "ethan.knight@sabal.com",
+    "erik.kolar@sabal.com",
+    "drake.ayres@sabal.com",
+    "charles.alexander@sabal.com",
+    "barton.vaughan@sabal.com"
+   ],
+   "sent": "2026-10-01",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Capital Solutions",
+   "person": "Rami Hakim",
+   "email": "rhakim@cap-sol.com",
+   "sent": "2026-10-02",
+   "outcome": "replied",
+   "note": " | 22 Oct: follow-up written but deliberately held - Zamir is giving Rami time. His son Gabriel arrived six weeks early on 10 Oct and is in the NICU; lunch is on the books for 30 Oct and that is the next touch, not an email."
+  },
+  {
+   "channel": "direct",
+   "firm": "Argosy Real Estate Partners",
+   "person": "Devlin Ciccone",
+   "email": "dciccone@argosyrep.com",
+   "sent": "2026-10-02",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "ARCTRUST",
+   "person": "Chris LeCates",
+   "email": "clecates@arctrust.com",
+   "also": [
+    "gsheehan@arctrust.com",
+    "jdonalson@arctrust.com"
+   ],
+   "sent": "2026-10-02",
+   "outcome": "replied",
+   "note": "On Kevin's original 21 Sep memo thread, nudged again 12 Oct. Came back the next day with the most detailed underwriting pushback of the round - and an open question, not a pass."
+  },
+  {
+   "channel": "direct",
+   "firm": "Parse Capital",
+   "person": "Brett Balda",
+   "email": "brett.balda@parsecap.com",
+   "also": [
+    "bmitchell@parsecap.com"
+   ],
+   "sent": "2026-10-02",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Evergen Equity",
+   "person": "Omar Hamdan",
+   "email": "omar@evergenequity.com",
+   "also": [
+    "troy@evergenequity.com",
+    "investments@evergenequity.com"
+   ],
+   "sent": "2026-10-02",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "STRE Management USA",
+   "person": "Camilo Padron",
+   "email": "camilo.padron@strem.us",
+   "sent": "2026-10-06",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Cushman & Wakefield",
+   "person": "Chase Tagen",
+   "email": "chase.tagen@cushwake.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Offered 7 Oct, finally sent 12 Oct ahead of the 22 Oct breakfast."
+  },
+  {
+   "channel": "kirsh",
+   "firm": "Range Equity",
+   "person": "Andrew Gindy",
+   "email": "agindy@remlp.com",
+   "sent": "2026-10-03",
+   "outcome": "replied",
+   "knows": "doesn't know them"
+  },
+  {
+   "channel": "kirsh",
+   "firm": "Tramview Capital",
+   "person": "Beau Vande Walle",
+   "email": "bvandewalle@tramview.com",
+   "also": [
+    "cmyerson@tramview.com",
+    "rdavies@tramview.com"
+   ],
+   "sent": "2026-10-02",
+   "outcome": "replied",
+   "knows": null
+  },
+  {
+   "channel": "kirsh",
+   "firm": "Green Pine Real Estate",
+   "person": "Seth Grossman",
+   "email": "skg@greenpinere.com",
+   "sent": "2026-10-03",
+   "outcome": "replied",
+   "knows": "doesn't know them"
+  },
+  {
+   "channel": "kirsh",
+   "firm": "Mile Rock Capital",
+   "person": "Zack Georgeson",
+   "email": "zack@milerockcapital.com",
+   "sent": "2026-10-03",
+   "outcome": "replied",
+   "knows": "doesn't know them"
+  },
+  {
+   "channel": "direct",
+   "firm": "Horowitz Group",
+   "person": "Angela",
+   "email": "angela@horowitzgroup.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them.",
+   "knows": "current investor",
+   "also": [
+    "matt@horowitzgroup.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Belay Investment Group",
+   "person": "Michael van Leeuwen",
+   "email": "mvanleeuwen@belayinvestmentgroup.com",
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "knows": "knows them",
+   "note": "Sent 12 Oct to Michael van Leeuwen; only the survey list address was on file before."
+  },
+  {
+   "channel": "direct",
+   "firm": "Tryperion Holdings",
+   "person": "Greg Rollman",
+   "email": "grollman@tryperion.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "knows": "knows them",
+   "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them and sent direct 12 Oct, to Jeff Karsh with Greg copied. Greg answered. This is the one send that went under the wrong subject line - 'Equity Opp - 252 units, 2023 built - Houston' rather than the standard one.",
+   "also": [
+    "jkarsh@tryperion.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Singerman Real Estate",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "knows": "knows them",
+   "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
+  },
+  {
+   "channel": "kirsh",
+   "firm": "Argosy Real Estate Partners",
+   "person": "Devlin Ciccone",
+   "email": "dciccone@argosyrep.com",
+   "sent": null,
+   "outcome": "excluded",
+   "note": "Pulled from Kirsh's list because Zamir knows them and went direct on 2 Oct. Argosy passed on that thread on 7 Oct (Houston exposure), so the name is covered and closed - Kirsh never needed to send.",
+   "knows": "knows them"
+  },
+  {
+   "channel": "direct",
+   "firm": "Pennybacker Capital",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "knows": "knows them",
+   "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
+  },
+  {
+   "channel": "direct",
+   "firm": "Brasa Capital Management",
+   "person": "Eric Samek / Matt Milich",
+   "email": "esamek@brasacap.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "knows": "knows them",
+   "note": "No contact was on file; Zamir knew Eric Samek personally all along (\"been a long time... see you at the Roundtable next week\"). Sent 12 Oct.",
+   "also": [
+    "mmilich@brasacap.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Lenox West",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "knows": "knows them",
+   "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them.",
+   "also": [
+    "igarcia@lenoxwestcap.com",
+    "rfirouz@lenoxwestcap.com",
+    "vsaiz@lenoxwestcap.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Mountain Pacific",
+   "person": "Niv Henn",
+   "email": "niv@mntpac.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them and had introduced him to Clay and Ziggy over the summer. Zamir sent direct 12 Oct quoting their own Canyon Woods answer back to them, and Niv came back the next morning asking for seller motivation and comps.",
+   "knows": "knows them",
+   "vetoed": "On Slocumb's list; Zamir pulled it because he knows them and is going direct.",
+   "also": [
+    "brandon@mntpac.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Machine Investment Group",
+   "person": "Meredith Rodman",
+   "email": "mrodman@machineinv.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "knows": "knows them",
+   "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
+  },
+  {
+   "channel": "direct",
+   "firm": "Mavik Capital",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "knows": "knows them",
+   "note": "Kirsh proposed them 2 Oct and never sent; Zamir knows them. Zamir sent direct 12 Oct, quoting their own last answer back to them."
+  },
+  {
+   "channel": "kirsh",
+   "firm": "Artisan Realty Advisors",
+   "person": "Greg Khodara",
+   "email": null,
+   "sent": null,
+   "outcome": "excluded",
+   "note": "Zamir, 3 Oct: 'This won't be a fit for Greg/Artisan.'",
+   "knows": null
+  },
+  {
+   "channel": "kirsh",
+   "firm": "Alvarez & Marsal (family office)",
+   "person": null,
+   "email": null,
+   "sent": null,
+   "outcome": "excluded",
+   "note": "Kirsh, 3 Oct: only does JVs for ground-up development.",
+   "knows": null
+  },
+  {
+   "channel": "direct",
+   "firm": "Long Wharf Capital",
+   "person": "Philip Murphy",
+   "email": "philip.murphy@longwharf.com",
+   "also": [
+    "michael.elizondo@longwharf.com",
+    "solon.aposhian@longwharf.com",
+    "justin.smith@longwharf.com",
+    "david.stein@longwharf.com"
+   ],
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "knows": "knows them",
+   "note": "Held back from the IPA send because Zamir knows them. Passed Canyon Woods 27 Aug with 'This one's not for us' and no reason. Drafted 12 Oct.",
+   "vetoed": "On Slocumb's list; Zamir pulled it because he knows them and is going direct."
+  },
+  {
+   "channel": "direct",
+   "firm": "Grandview Partners",
+   "person": "Eric Freeman",
+   "email": "freeman@grandviewpartners.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "knows": "knows them",
+   "note": "Held back from the IPA send because Zamir knows them. Passed Canyon Woods 31 Aug with 'No interest here. Thanks.' and no reason. Sent 12 Oct, silent; the 15 Oct follow-up turned it - he asked for the materials four minutes later.",
+   "vetoed": "On Slocumb's list; Zamir pulled it because he knows them and is going direct.",
+   "also": [
+    "sykes@grandviewpartners.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Belsky Capital",
+   "person": "Marc Belsky",
+   "title": "Managing Principal",
+   "email": "marc@marcbelsky.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Not on anyone's list - Zamir added him on the day. Replied within nine minutes."
+  },
+  {
+   "channel": "slocumb",
+   "firm": "621 Capital",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "slocumb",
+   "firm": "Arc Capital Partners",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "slocumb",
+   "firm": "BIG Equity Investors",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "slocumb",
+   "firm": "Claritas Capital",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "slocumb",
+   "firm": "Manglar Capital",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "slocumb",
+   "firm": "Nelnet",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. Send confirmed by his 15 Oct report-back; the only one of his seven still awaiting a response.",
+   "brokerSend": true
+  },
+  {
+   "channel": "slocumb",
+   "firm": "Ulysses Capital Management",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "On Slocumb's 5 Oct list, cleared to send 7 Oct. He reported back on it 15 Oct, which confirms the send: IPA holds the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "direct",
+   "firm": "Silver Cap Partners",
+   "person": "John Scott Trotter",
+   "email": "Trotter@silvercappartners.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Relationship send, not from the equity list - sent direct on 12 Oct ahead of the broader round. Passed 14 Oct on Houston concentration."
+  },
+  {
+   "channel": "direct",
+   "firm": "Two Sigma",
+   "person": "Spencer Traver",
+   "email": "Spencer.Traver@twosigma.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Relationship send, not from the equity list - sent direct on 12 Oct ahead of the broader round."
+  },
+  {
+   "channel": "direct",
+   "firm": "TriGate Capital",
+   "person": "Adam Aultz",
+   "email": "aaultz@trigatecapital.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Canyon Woods was a conditional, not a pass: 'that equity requirement is slightly too large for our value-add fund'. This is a third the size.",
+   "also": [
+    "credding@trigatecapital.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "ABR Capital",
+   "person": "Peter Heller",
+   "email": "peter.heller@abrcapital.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Told us they write $5-15M checks. $11.65M is dead centre.",
+   "also": [
+    "jake.martin@abrcapital.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "West Pine",
+   "person": "Tim Haskin",
+   "email": "timothy.haskin@west-pine.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Asked 'what is going in cap' on Canyon Woods and never got an answer, so this email led with it. Replied 14 Oct asking for a call.",
+   "also": [
+    "huisen.chua@west-pine.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "CastleSquare",
+   "person": "Alanna Wojciechowski",
+   "email": "aw@castlesquare.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Materials stage on Canyon Woods - asked for an OM or model. Offered up front this time."
+  },
+  {
+   "channel": "direct",
+   "firm": "Benedict Realty Group",
+   "person": "Steven Kohn",
+   "email": "steven.kohn@brgny.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Tried to get a Monday on the books in August and it slipped. Came back in a day, not on the deal as sent but asking whether a co-GP structure would interest us."
+  },
+  {
+   "channel": "direct",
+   "firm": "Lindell Investments",
+   "person": "Burke Roper",
+   "email": "burke@lindellinvestments.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Burke Roper joined as CIO in 2026, replacing Mark Stroud, so the email leads to him with Jack and Carl copied. Jack's Canyon Woods read was 'single check writer, we're out... Carl will struggle with California' - not CA here, and a third the size. Burke is a former colleague of Kevin Mawby, who ran this underwriting.",
+   "also": [
+    "jack@lindellinvestments.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Marble Capital",
+   "person": "Brad Moynihan",
+   "email": "bmoynihan@marblecapitallp.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "'Not targeting CA or pre-2010 deals.' Both clear, and Marble is a Houston shop."
+  },
+  {
+   "channel": "direct",
+   "firm": "Blue Vista",
+   "person": "J.P. Sletteland",
+   "email": "jpsletteland@bluevistallc.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Passed Canyon Woods on pre-2000s construction, so the email led on the 2023 vintage and removed that objection outright. It worked - he passed on the exit cap instead, which is a better place to be.",
+   "also": [
+    "dstephenson@bluevistallc.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Lightning Tree Capital",
+   "person": "Chris Dzurinko",
+   "email": "chris@lightningtreecapital.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Gave feedback on Canyon Woods, so the email thanked him for it and led with Houston. He came back two days later having actually run the model - the only reader who did."
+  },
+  {
+   "channel": "direct",
+   "firm": "Wtrshd Capital",
+   "person": "Dave McCullagh / Laura Whitaker",
+   "email": "laura@wtrshdcap.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Passed Canyon Woods for bandwidth, not on merit - Laura was away. Sending to them both worked: she answered in 90 minutes, but with a reporting demand on the existing portfolio rather than a read on this deal.",
+   "also": [
+    "dave@wtrshdcap.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Pearlmark",
+   "person": "Rich Dougherty",
+   "email": "rdougherty@pearlmark.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "'Fully specified on our current equity fund' was the Canyon Woods answer - timing, not a view. Kyle Nealis has left, so the send went to Rich with Dhruv and Christian copied. He came back in three hours and handed it to Erin Sullivan, who covers Texas.",
+   "also": [
+    "cmendez@pearlmark.com",
+    "dshah@pearlmark.com",
+    "esullivan@pearlmark.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Westport Capital Partners",
+   "person": "Brent Fraker",
+   "email": "bfraker@westportcp.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "'New fund starting in 2027 with a multifamily allocation.' We close January 2027.",
+   "also": [
+    "sarmstrong@westportcp.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Forum Investment Group",
+   "person": "Jeremy Warren",
+   "email": "jwarren@forumig.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "'Vintage a little old; looking for 2010 and newer' - fixed. Their no-LP-equity point is not, and the email says so.",
+   "also": [
+    "jmanning@forumig.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Belveron Partners",
+   "person": "Ben Kraus",
+   "email": "ben@belveronpartners.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "'Let us know if there are any other deals' - taken at their word, and honest that this is not affordable product.",
+   "also": [
+    "jeremy@belveronpartners.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "IMCO",
+   "person": "Richard Varkey",
+   "email": "richard.varkey@imcoinvest.com",
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "Passed with no reason given. This email asks for one.",
+   "also": [
+    "rossitsa.stoyanova@imcoinvest.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Vey Capital",
+   "person": "Sergio Salas",
+   "email": "sergio@vey-capital.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "'$30MM, even half of that, is outside our scope.' $11.65M is below that half; the email concedes it may still be too big."
+  },
+  {
+   "channel": "direct",
+   "firm": "Halstatt Real Estate Partners",
+   "person": "Steve Iannaccone",
+   "email": "siannaccone@halstatt.com",
+   "sent": "2026-10-13",
+   "outcome": "replied",
+   "note": "Passed Canyon Woods 27 Aug on one ground only: 'out of our geographic footprint' - that was the Bay Area. Fund V ($200M target, $10-30M checks) deploys in Southeast Florida and Texas, and they already own in the Houston MSA. On the 21 Jul call Steve asked Zamir to send him anything compelling. Sent 00:50 on 13 Oct on that opening, offered either as LP or as a partnership. The last name in the round.",
+   "also": [
+    "kheinze@halstatt.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Flagship Capital Partners",
+   "person": "Mark Berins / Brian Cutrell",
+   "email": "bcutrell@flagshipco.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Houston-based, at One Greenway Plaza. Offered extra GP co-invest above the standard 10% and asked for their read on the submarket. Brian Cutrell, copied on the send, came back asking for a call.",
+   "also": [
+    "mberins@flagshipco.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Island Capital Group",
+   "person": "Joe Lytle",
+   "email": "jlytle@islecap.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "From the equity list. Not Island Wealth Management, which is a different firm that asked to be left alone.",
+   "also": [
+    "svonbonin@islecap.com",
+    "phughson@islecap.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Argos Capital Partners",
+   "person": "Shaun Walsh",
+   "email": "swalsh@argoscapitalpartners.com",
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "From the equity list. Distinct from Argosy, who passed on this deal on 7 Oct."
+  },
+  {
+   "channel": "direct",
+   "firm": "Astor Realty Capital",
+   "person": "Michael Korine",
+   "email": "mk@astorrealtycapital.com",
+   "sent": "2026-10-12",
+   "outcome": "bounced",
+   "note": "Primary address mk@astorrealtycapital.com hard-bounced on 12 Oct (550 5.7.1, recipient rejected as invalid) — Michael Korine never received it. Alena was copied and did receive it; a note asking her to forward or supply the right address is drafted.",
+   "also": [
+    "alena@astorrealtycapital.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Coulton Creek Capital",
+   "person": "Scott Brown / Will Hensley",
+   "email": "sbrown@ccrcapital.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "From the equity list. Scott Brown passed Canyon Woods on a full pipeline in August, which read as timing rather than a view - so the follow-up went back. Will Hensley answered 16 Oct with the same answer: still a full plate, check back any time.",
+   "also": [
+    "whensley@ccrcapital.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Eagle Realty Group",
+   "person": "Scott Pearson / Chad Gagnon",
+   "email": "chad.gagnon@eaglerealtygroup.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "From the equity list; their stated check ceiling is $40M, so $11.65M sits well inside. Scott Pearson is out of the country until 20 Oct and auto-replied, but Chad Gagnon - copied on the send - answered for the firm the next morning.",
+   "also": [
+    "scott.pearson@eaglerealtygroup.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "HIG Realty Partners",
+   "person": "James Gallo",
+   "email": "jgallo@higrealty.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Adam Belfer said in March that HIG wants high-teens IRR and 1.8x+, so the email led on 20.3% and 2.25x to clear that bar explicitly. It worked: James came back asking for a call, with the exit cap as the open question rather than the return.",
+   "also": [
+    "abelfer@higrealty.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "JDI Realty",
+   "person": "Maggie DeWoskin",
+   "email": "mdewoskin@jdirealty.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Sent to Maggie alone because Kevin Connor and Sam had moved on - the old CC would have bounced into two dead boxes. She came back inside a day with the only numerically specific pass we have."
+  },
+  {
+   "channel": "direct",
+   "firm": "Realm",
+   "person": "Travis King",
+   "email": "tking@realmlp.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "From the equity list.",
+   "also": [
+    "rphillips@realmlp.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Loci Capital",
+   "person": "Garrett Francis",
+   "email": "gfrancis@locicapital.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Reinstated. The 'remove from distribution list' line meant remove Mike N, who had left - not Loci. Garrett is a friend."
+  },
+  {
+   "channel": "direct",
+   "firm": "7 Acre Investments",
+   "person": "Adam",
+   "email": "adam@sevenacreinvest.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "From the equity list."
+  },
+  {
+   "channel": "direct",
+   "firm": "Cross Lake Partners",
+   "person": "B. Riley",
+   "email": "briley@crosslakepartners.com",
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "From the equity list."
+  },
+  {
+   "channel": "direct",
+   "firm": "LaSalle Investment Management",
+   "person": "Joe Paskov",
+   "email": "joseph.paskov@lasalle.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "From the equity list. Email concedes the check is small for LaSalle and asks for the right vehicle.",
+   "also": [
+    "dan.witte@lasalle.com"
+   ]
+  },
+  {
+   "channel": "direct",
+   "firm": "Lafayette Street Capital",
+   "person": "Dan Rosenbloom",
+   "email": "dan@lafayettesc.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "From the equity list; the tracker carried this as 'Lafayette Square' until his signature showed the real name. Passed 15 Oct off the follow-up, no reason given."
+  },
+  {
+   "channel": "direct",
+   "firm": "DRA Advisors",
+   "person": "Jake Hannah",
+   "email": "jhannah@draadvisors.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Added on the day, outside every prepared list."
+  },
+  {
+   "channel": "direct",
+   "firm": "Olive Point Capital",
+   "person": "Ricardo Goldberg",
+   "email": "ricardo@olivepointcapital.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Added on the day, outside every prepared list."
+  },
+  {
+   "channel": "direct",
+   "firm": "Palatine Capital Partners",
+   "person": "Jonah Gill",
+   "email": "jgill@pal-partners.com",
+   "also": [
+    "msacks@pal-partners.com",
+    "wcaplan@pal-partners.com",
+    "cbeckman@pal-partners.com"
+   ],
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Betesh and Sacks each passed Canyon Woods purely on California, independently of one another."
+  },
+  {
+   "channel": "direct",
+   "firm": "MLG Capital",
+   "person": "Terry Wallen",
+   "email": "terrywallen@mlgcapital.com",
+   "also": [
+    "alunde@mlgcapital.com"
+   ],
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Opens on the Charlotte BTR in March - 'the lack of cash flow would be challenging for our equity' - which is the one thing this stabilized asset has. The follow-up asked who covers Texas; Alex Lunde answered rather than Terry Wallen, and passed on household incomes and proximity to Sunnyside."
+  },
+  {
+   "channel": "direct",
+   "firm": "Midloch",
+   "person": "Brandon Banks",
+   "email": "brandon@midloch.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "'Midloch will not invest in CA multifamily' was their Canyon Woods line, so the email was short and led on basis. Replied in 3.5 hours: the basis landed, Houston did not."
+  },
+  {
+   "channel": "direct",
+   "firm": "Prospect Ridge",
+   "person": "Paul Galiano",
+   "email": "paul.galiano@prospectridge.com",
+   "also": [
+    "julia.issembert@prospectridge.com"
+   ],
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "The most specific feedback on Canyon Woods: it would have to sit in the value-add fund and they'd be wider than a 5% exit cap. A 2023 build isn't value-add, and we underwrite 6.00% out - both halves answered."
+  },
+  {
+   "channel": "direct",
+   "firm": "Citymark Capital",
+   "person": "E. Louttit",
+   "email": "elouttit@citymarkcapital.com",
+   "also": [
+    "gfent-baker@citymarkcapital.com"
+   ],
+   "sent": "2026-10-12",
+   "outcome": "silent",
+   "note": "'Focused on 2000s and newer product.' Also asks for a replacement name, since Damien and Gillian left."
+  },
+  {
+   "channel": "direct",
+   "firm": "Integrity Housing Group",
+   "person": "Steven Libman",
+   "email": "steven@integrityhg.com",
+   "sent": "2026-10-12",
+   "outcome": "replied",
+   "note": "Existing JV partner in Skye at Conway and Skye Reserve, with counsel engaged in a dispute since 25 Sep. HOLD LIFTED 22 Oct: Zamir spoke with Steven by phone - he is reviewing the deal and Integrity remains open to transacting. Written follow-up sent 22 Oct 10:53am ET in-thread on the 12 Oct send (\"Hey buddy, just wanted to follow up on this.\") - no draft pending. Keep Conway and Reserve on their own track. Travis Cotter (travis@integrityhg.com) has LEFT the firm - do not send. He is still listed PRIMARY on the equity list CONTACTS tab and does NOT appear on the Departures - Verify tab, so that tab is not catching every departure."
+  },
+  {
+   "channel": "direct",
+   "firm": "Eastham Capital",
+   "person": "Brian Hertig",
+   "email": "brian@easthamcapital.com",
+   "also": [
+    "eric@easthamcapital.com"
+   ],
+   "sent": "2026-10-21",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "JSB Capital Group",
+   "person": "Scott Liebman",
+   "email": "scott@jsbcapitalgroup.com",
+   "also": [],
+   "sent": "2026-10-21",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Baltisse",
+   "person": "Andrew Lohrfink",
+   "email": "andrew.lohrfink@baltisse.com",
+   "also": [],
+   "sent": "2026-10-21",
+   "outcome": "silent"
+  },
+  {
+   "channel": "direct",
+   "firm": "Artisan Capital",
+   "person": "Gregory Khodara",
+   "email": "greg@artisancp.com",
+   "also": [
+    "mina@artisancp.com"
+   ],
+   "sent": "2026-10-21",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Tarsadia Investments",
+   "person": "Ace Patel",
+   "email": "ace@tarsadia.com",
+   "also": [
+    "ankurm@tarsadia.com"
+   ],
+   "sent": "2026-09-23",
+   "outcome": "replied",
+   "note": "Platform-level relationship rather than a one-deal LP approach - lunch with Ace in person on 14 Aug, company overview, track record and 2026 pipeline sent 23 Sep. Was never recorded on this board at all until the 22 Oct outbox reconciliation found it; 109 campaign addresses were checked against the board and this was the only firm missing. | 22 Oct: Zamir confirmed Allen Genoa never reached Tarsadia and that no send is needed here, so the drafted follow-up was deleted rather than sent. The relationship stands on its own track - Ace asked in October for live deals to point to, and that ask is still unanswered."
+  },
+  {
+   "channel": "direct",
+   "firm": "RJL Capital Advisors",
+   "person": "Jonathan Livi",
+   "email": "jonathan@rjlcapadvisors.com",
+   "also": [
+    "nikko@rjlcapadvisors.com"
+   ],
+   "sent": "2026-10-22",
+   "outcome": "replied",
+   "note": "Equity broker in Great Neck, NY - Jonathan Livi is Managing Principal. Not an LP: he places capital, so a yes here is access to his group rather than a cheque from him. He posted on LinkedIn that he has a group this deal could suit, then emailed Zamir on 22 Oct at 12:46pm ET asking to catch up the same day; the reply is drafted on that thread and carries the deal. Separately, his analyst Nikko Acosta sent a 1031 mandate in March - $150MM for cash-flowing industrial and multifamily, multifamily at a 5.5%+ day-one yield, $20MM+ per deal - which Allen Genoa clears on yield at roughly a 6.0% cap going in but misses on size against the $11.65M ask. That mandate is not the reason he reached out and may well be a different group; worth establishing on the call which one this is."
+  },
+  {
+   "channel": "direct",
+   "firm": "Equity Resource Investments",
+   "person": "Paul Coelho",
+   "email": "paul@erillc.com",
+   "also": [
+    "mikeg@erillc.com",
+    "dylank@erillc.com",
+    "bill@erillc.com"
+   ],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Delivered to Paul, Mike and Dylan; bill@ bounced 554 mailbox full and Paul is out of office pointing to Joanne Foley. Dylan Kyriakakis answered from the cc line. The July postmaster bounce on paul@ was not a dead mailbox - the address accepts mail."
+  },
+  {
+   "channel": "direct",
+   "firm": "CIM Group",
+   "person": "Lars Lopatka",
+   "email": "llopatka@cimgroup.com",
+   "also": [
+    "JFischer@cimgroup.com",
+    "osamari@cimgroup.com"
+   ],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Second of the nine RJL-carveout firms to go out. osamari@cimgroup.com bounced 550 address not found; Lars and Jesse Fischer received it."
+  },
+  {
+   "channel": "direct",
+   "firm": "Ackman-Ziff",
+   "person": "Jordan Brustein",
+   "email": "jbrustein@ackmanziff.com",
+   "also": [
+    "arudy@ackmanziff.com"
+   ],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Equity broker, brought in cold off a 5 Oct check-in Zamir had left unanswered. Replied in two minutes."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Meruelo Group",
+   "person": "Alexis Meruelo",
+   "email": "alexis.meruelo@meruelogroup.com",
+   "also": [
+    "astoller@meruelogroup.com"
+   ],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Hand-sent under the new 21.5% subject. CFO passed in 52 minutes without a reason."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "RWN Management",
+   "person": "Mary Harada",
+   "email": "mharada@rwnmgmt.com",
+   "also": [
+    "kglassman@rwnmgmt.com"
+   ],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Hand-sent under the new 21.5% subject. CEO passed in 58 minutes without a reason."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Claremont Corp",
+   "person": "Ned Carney",
+   "email": "ecarney@claremontcorp.com",
+   "also": [
+    "pcarney@claremontcorp.com",
+    "kmcnamara@claremontcorp.com"
+   ],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Came back asking what ZMR has for sale in South Florida - a buyer, not an LP."
+  },
+  {
+   "channel": "direct",
+   "firm": "Allegro Real Estate (Toeller family office)",
+   "person": "Stefan Brimmers",
+   "email": "sbrimmers@devario.eu",
+   "also": [],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Originally sent to Torsten Toeller at tt@fressnapf.de; Brimmers runs real estate for the family office and asked that Torsten be removed and all future offers go to him alone."
+  },
+  {
+   "channel": "direct",
+   "firm": "Corebridge Financial",
+   "person": "James \"Buster\" Black",
+   "email": "james.black@corebridgefinancial.com",
+   "also": [
+    "royce.hadden@corebridgefinancial.com"
+   ],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "RJL-carveout name. Sent with the pre-re-underwrite 20.3% figures. Passed on the deal, asked for a call tomorrow or Friday."
+  },
+  {
+   "channel": "direct",
+   "firm": "Cohen & Steers",
+   "person": "J. Rhoden",
+   "email": "jrhoden@cohenandsteers.com",
+   "sent": "2026-10-27",
+   "outcome": "silent",
+   "note": "RJL-carveout name Zamir already knew. Sent 27 Oct morning with the pre-re-underwrite 20.3% figures, a day after Kevin's re-underwrite. No reply yet."
+  },
+  {
+   "channel": "direct",
+   "firm": "Dome Equities",
+   "person": "Daniel Bourla",
+   "email": "dbourla@domeeq.com",
+   "also": [
+    "ejones@domeeq.com"
+   ],
+   "sent": null,
+   "outcome": "proposed",
+   "note": "RJL named them; Zamir struck them as a known relationship, so free to approach. Never drafted."
+  },
+  {
+   "channel": "direct",
+   "firm": "Hamilton Lane",
+   "person": "Mario Giannini",
+   "email": "mgiannini@hamiltonlane.com",
+   "also": [],
+   "sent": null,
+   "outcome": "proposed",
+   "note": "RJL named them; Zamir struck them as a known relationship, so free to approach. Previously carried as having no working address - Giannini is on ZMR's own equity list."
+  },
+  {
+   "channel": "direct",
+   "firm": "Humphreys Capital",
+   "person": "Justin Lewellen",
+   "email": "justin@humphreyscapital.com",
+   "also": [
+    "todd@humphreyscapital.com"
+   ],
+   "sent": null,
+   "outcome": "proposed",
+   "note": "RJL named them; Zamir struck them as a known relationship, so free to approach. Lewellen is Senior Director, Investments and runs Southeast coverage (ATL, Carolinas, Florida). Not to be confused with Nikki Humphrey at Virgin, a family-office blast recipient."
+  },
+  {
+   "channel": "direct",
+   "firm": "KCB Private Equity",
+   "person": "Megan Pautler-Gutnikov / Chandler Davis",
+   "email": "mgutnikov@kcb-partners.com",
+   "also": [
+    "acquisitions@kcb-partners.com",
+    "reljurdi@kcb-partners.com",
+    "pknell@kcbm.com"
+   ],
+   "sent": "2026-11-02",
+   "outcome": "replied",
+   "note": "Struck from RJL's carveout as a known relationship. Mike Regan, ZMR's new CIO, mailed Megan Gutnikov direct on 2 Nov off an IMN relationship from his CIM years; she replied in 38 minutes and handed it to the acquisitions desk, and Chandler Davis came back overnight with underwriting questions and a call offer. Peter Knell at kcbm.com had never answered any of ten ZMR emails - the kcb-partners.com desk and a warm introducer are what opened it."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Peak Rock Capital",
+   "person": "Andrew Dellinger",
+   "email": "dellinger@peakrockcapital.com",
+   "also": [
+    "jaffrey@peakrockcapital.com",
+    "moran@peakrockcapital.com",
+    "tujios@peakrockcapital.com"
+   ],
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "RJL named them; Zamir struck them as a known relationship, so free to approach. File notes Tampa, Orlando and Dallas multifamily value-add - the closest market fit of the five struck names. Row 241 of the v5 PE list with Dellinger primary and Jaffrey, Moran and Tujios copied, so kept on peblast rather than direct. Zamir also hand-sent on 30 Oct 08:33, and Moran answered off that. The earlier row carried Brooks Hallock as the contact and 'never drafted' - superseded."
+  },
+  {
+   "channel": "rjl",
+   "firm": "Abod Capital",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"6. Taking A Look\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "rjl",
+   "firm": "Corten Real Estate Partners",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"6. Taking A Look\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "rjl",
+   "firm": "Monocle Group",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"6. Taking A Look\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "rjl",
+   "firm": "NCA Realty Partners",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"6. Taking A Look\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "rjl",
+   "firm": "Triangle Capital Group",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"6. Taking A Look\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "rjl",
+   "firm": "Lakerock",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"1. Pass\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "rjl",
+   "firm": "ReCap - RGA (Reinsurance Group of America)",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"1. Pass\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "rjl",
+   "firm": "Aureon Partners (formerly Quilvest)",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "silent",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"5. Followed Up After No Response\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "rjl",
+   "firm": "Calibogue Capital",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "silent",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"5. Followed Up After No Response\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "rjl",
+   "firm": "JW Capital",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "silent",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"5. Followed Up After No Response\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "rjl",
+   "firm": "Viking Partners",
+   "person": null,
+   "email": null,
+   "sent": "2026-10-26",
+   "outcome": "silent",
+   "note": "RJL-exclusive name, cleared 26 Oct. RJL's 29 Oct progress report has them at \"4. Deal Sent - Awaiting Response\"; RJL holds the addresses and the send record, we do not.",
+   "brokerSend": true
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Willton Investment Management",
+   "person": "Chris Luo",
+   "email": "cluo@willtongroup.com",
+   "also": [],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "GMass family-office wave, 27 Oct 12:17. Replied two days later naming concessions as the reason Houston is off the list."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Cumming Capital",
+   "person": "Matt Ireland",
+   "email": "matt@cummingcapital.com",
+   "also": [
+    "cathy@cummingcapital.com",
+    "colby@cummingcapital.com"
+   ],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "GMass family-office wave, 27 Oct 08:55 to Catherine, Matthew and Colby. Passed on bandwidth after Zamir's 29 Oct bump."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Croson",
+   "person": "Charles Croson",
+   "email": "charles@croson.com",
+   "also": [],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "GMass family-office wave, 27 Oct 08:54. Passed on equity within two minutes of the 29 Oct bump, then offered a pre-market Orlando mixed-use multifamily land site when Zamir asked what they would sell."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Aprio Wealth Management",
+   "person": "Simeon Wallis",
+   "email": "simeon.wallis@aprio.com",
+   "also": [
+    "eric.flynn@aprio.com",
+    "courtney.holt@aprio.com",
+    "keith.greenwald@aprio.com",
+    "noah.marell@aprio.com"
+   ],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "GMass family-office wave, 27 Oct 06:15 to Eric Flynn and team. The CIO answered on 29 Oct with a structural gate, not a view on the deal."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "AMB Family Office",
+   "person": "Brett Jewkes",
+   "email": "bjewkes@ambfo.com",
+   "also": [
+    "kpope@ambse.com",
+    "dietmar.exler@ambse.com",
+    "andrea.demarco@ambfo.com",
+    "afranklin@ambse.com"
+   ],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "GMass family-office wave, 27 Oct 08:11 to Brett Jewkes with four of the AMBSE team copied. Two-word pass off the 29 Oct bump."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Borletti Group",
+   "person": "Maurizio Borletti",
+   "email": "m.borletti@borlettigroup.com",
+   "also": [],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "GMass family-office wave, 27 Oct 06:34. London and Luxembourg. Passed off the 29 Oct bump."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "35V",
+   "person": "Jose Mena",
+   "email": "jmena@35v.tv",
+   "also": [],
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "GMass family-office wave, 27 Oct 06:02 to Sarah and Jose. Passed off the 29 Oct bump."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Kestrel Investments",
+   "person": "Michael Kane",
+   "email": "mike@kestrelinv.com",
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Family-office blast (fo_SEND.csv), not the equity list. Mike Kane's own office, Devon PA."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Farallon Capital Management",
+   "person": "Nick Carbone",
+   "email": "NCarbone@faralloncapital.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404). Signature gives ncarbone@farcap.com as an alternate; the send went to the faralloncapital.com address and reached him."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Kensington Stern",
+   "person": "David Stern",
+   "email": "david@kensingtonstern.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Mattoni Group",
+   "person": "Vicente P. Cotrim Jr.",
+   "email": "vcotrim@mattonigroup.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Clifton Blake",
+   "person": "KC Daya",
+   "email": "kdaya@cliftonblake.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Oaktree Capital Management",
+   "person": "Jared Lazarus",
+   "email": "jlazarus@oaktreecapital.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered). PASSED on check size, reported 10 Nov (the no is not in Zamir's mailbox - came to Kevin or by phone). Package + call + Kevin's full 5 Nov follow-up all done; died on the $11.77M size, which Lazarus flagged in his first reply on 30 Oct. Keep Ahn / Lazarus / Paul for a larger deal."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Adler Family Office / Lubert Adler",
+   "person": "Dean Adler",
+   "email": "dean@adlerfo.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Centerbridge Partners",
+   "person": "Adam Burinescu",
+   "email": "aburinescu@centerbridge.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Geolo Capital",
+   "person": "Jeffrey Reinstein",
+   "email": "jr@geolo.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "InterVest",
+   "person": "Will Hutton",
+   "email": "w.hutton@intervest.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "direct",
+   "firm": "Artemis Real Estate Partners",
+   "person": "Kerry Kartsonis (-> Rich Banjo -> Ryan Eckert)",
+   "email": "kerry.kartsonis@artemisrep.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "CORRECTED 12 Nov - previously logged as the v5 PE GMass send on 29 Oct, which never happened. Zamir sent the bullets direct to Kerry Kartsonis on 30 Oct 06:06 PT, cc Hancock, Banjo, Chudgar. Banjo handed it to Ryan Eckert (Houston coverage) at 13:29 UTC and Bcc'd the rest; Eckert passed on size at 13:35 UTC. 29 minutes end to end. No package, no model, no OM ever requested or sent. Eckert's call offer is unanswered. Firm is live with ZMR on Blossoms at Brentwood and socially (Jackson Moore, drinks 11 Nov).",
+   "also": [
+    "aaron.hancock@artemisrep.com",
+    "rich.banjo@artemisrep.com",
+    "anar.chudgar@artemisrep.com",
+    "ryan.eckert@artemisrep.com"
+   ]
+  },
+  {
+   "channel": "peblast",
+   "firm": "Blackbird Investment Group",
+   "person": "Matt Jenson",
+   "email": "mjenson@blackbirdinv.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Investcorp",
+   "person": "Affan Ahmed",
+   "email": "aahmed1@investcorp.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "FCP",
+   "person": "Cole Kellogg",
+   "email": "ckellogg@fcpdc.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Red Cove Capital",
+   "person": "A. Tishkoff",
+   "email": "atishkoff@redcovecap.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Makarora",
+   "person": "S. Dunn",
+   "email": "SDunn@makarora-lp.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404, 286 delivered)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "CAPREIT",
+   "person": "Matt Skurka",
+   "email": "mskurka@capreit.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404)."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Keyes Capital",
+   "person": "Tim Keyes",
+   "email": "tkeyes@keyescap.com",
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "From the family office merge (GMass campaign 54006506)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Walker & Dunlop Investment Partners",
+   "person": "Michael Holland",
+   "email": "MHolland@walkerdunlop.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404)."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "RBM",
+   "person": "Duston Barton",
+   "email": "dbarton@rbm.us",
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "From the family office merge (GMass campaign 54006506)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "ARA Capital / Avison Young",
+   "person": "Edward Fonseca",
+   "email": "efonseca@ay-ara.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Rockport Equity",
+   "person": "Keith Guerraz",
+   "email": "kguerraz@rockportequity.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404)."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Reichenbaum",
+   "person": "Galina Zavaliy",
+   "email": "galina@reichenbaum.com",
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "From the family office merge (GMass campaign 54006506)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Birbas",
+   "person": "Zak Birbas",
+   "email": "zak@birbas.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404)."
+  },
+  {
+   "channel": "direct",
+   "firm": "New York Life Investment Management",
+   "person": "Paul Noland",
+   "email": "paul.noland@nylim.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Hand-sent to Robert Bevers 30 Oct; Jordan Hylton and Chris Hunt have left NYLIM and Bevers routed us to Paul Noland, who covers Houston. Kevin sent Noland the full package 30 Oct 14:01. Noland passed 2 Nov on submarket."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Lone Star Funds",
+   "person": "Evan Layne",
+   "email": "elayne@lonestarfunds.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Morrison Street Capital / Northmarq",
+   "person": "Peter Sherman",
+   "email": "psherman@morrisonstreetcapital.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404)."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Zittman",
+   "person": "Joe Roos",
+   "email": "joe@zittman.com",
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "From the family office merge (GMass campaign 54006506)."
+  },
+  {
+   "channel": "direct",
+   "firm": "LEM Capital",
+   "person": "Kevin Weidman",
+   "email": "weidman@lemcapital.com",
+   "sent": "2026-10-30",
+   "outcome": "silent",
+   "note": "Managing Director. Sent 30 Oct as a reply on the 27 Aug San Ramon thread, so his own pass sits directly below. He declined Canyon Woods on two grounds that both fall away here: Bay Area allocation was tight after their Fremont acquisition and another Bay Area deal under contract, and he said it would only work as 'a very small equity check'. This is Houston, and $11.77M against San Ramon's $30.96M. Dinner at Butcher & Singer in Philly on 30 Sep, so the relationship is current. Aaron from their acquisitions team is the other name."
+  },
+  {
+   "channel": "direct",
+   "firm": "KRE Capital",
+   "person": "Matt Khoury",
+   "email": "matt.khoury@krecapital.com",
+   "sent": "2026-10-30",
+   "outcome": "silent",
+   "note": "Prior contact from Sep 2023 on a GP platform investment - he took it away to read and the thread went quiet. Dotted address: the Gmail search index renders it mattkhoury@, the message headers have matt.khoury@."
+  },
+  {
+   "channel": "ypo",
+   "firm": "Roberts Equities",
+   "person": "Kirk",
+   "email": "kirk@robertsequities.com",
+   "sent": "2026-10-30",
+   "outcome": "silent",
+   "note": "Inbound. Came back off the 30 Oct YPO deal flow chat post rather than any send, so he raised his own hand - the warmest origin of any contact on the board. Zamir sent him the deal by email the same day. No prior correspondence in the mailbox because the relationship runs through YPO. Read any reply as a peer's view, not an institutional screen, and expect an individual cheque: a slug is the right frame, not the full $11.77M. No last name on file yet.",
+   "knows": "YPO"
+  },
+  {
+   "channel": "peblast",
+   "firm": "Clairmont Capital Group",
+   "person": "Cheng",
+   "email": "cheng@clairmontcg.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Stanton Road Capital",
+   "person": "Dylan A. Holt",
+   "email": "dholt@stantonroadcapital.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404)."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Neuberger Berman",
+   "person": "Gerald Kaminsky",
+   "email": "GKaminsky@nb.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "From the v5 PE send (GMass campaign 54069404). Dmitry Gasinsky copied."
+  },
+  {
+   "channel": "direct",
+   "firm": "Garnier",
+   "person": "Alberto Bonilla",
+   "email": "abonilla@garnier.cr",
+   "sent": "2026-10-31",
+   "outcome": "replied",
+   "knows": "YPO",
+   "note": "YPO relationship, hand-sent by Zamir on 31 Oct - not an inbound off the group-chat post, so it sits on direct rather than the ypo channel. Nowhere in fo_SEND, the v5 PE list or the screened roster, so this was first contact. Went out at the canonical direct-LP set (21.5% / 2.33x / 9.5% CoC on the 5.71% coupon) with the OM and the 10.26.26 model attached, and Zamir trimmed the partial-check paragraph before sending. Replied in 69 minutes asking exit timing and minimum check. Firm name inferred from the garnier.cr domain; not independently confirmed."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Basis Investment Group",
+   "person": "Kunle Shoyombo",
+   "email": "kshoyombo@basisinvgroup.com",
+   "sent": "2026-10-29",
+   "outcome": "replied",
+   "note": "On the v5 PE send (row 42). Zamir followed up by hand on 30 Oct 09:08 with a personal note, and that is the message the reply quotes. Kept on peblast rather than direct so the hand-sent channel's 78-firm base stays honest."
+  },
+  {
+   "channel": "direct",
+   "firm": "Daniel Zairick (Grupza / Rovianda / ZC Estates)",
+   "person": "Daniel Zairick",
+   "email": "danielzairick@gmail.com",
+   "sent": "2026-11-02",
+   "outcome": "replied",
+   "knows": "YPO",
+   "note": "YPO relationship, hand-sent by Zamir - not an inbound off the group-chat post, so it sits on direct rather than the ypo channel. Nowhere in fo_SEND, the v5 PE list or the screened roster, so first contact. Sent 2 Nov 12:58 PT at the canonical direct-LP set, 21.5% / 2.33x / 9.5% CoC on the 5.71% coupon, matching the Bonilla send. Personal gmail address rather than a firm domain, so this is individual money and the minimum-check question Bonilla asked will almost certainly come back. The OM and the full model went with it, and he read both line by line: his reply the next morning names three arithmetic errors, including the $340K equity-base understatement Todd Hanson had flagged the day before."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Turtle Creek Wealth Advisors",
+   "person": "Jack Reilly",
+   "email": "jreilly@turtlecreekwealth.com",
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Row 592 of fo_SEND, five colleagues cc'd. FinTrx carries him as John Reilly; he signs Jack, so the merge greeting read 'Hi John and team'. Sent 27 Oct, bumped 30 Oct, answered 31 Oct."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "JD Group Holdings",
+   "person": "John F. Dunfee",
+   "email": "jd@jdgroupholdingsllc.com",
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Row 315 of fo_SEND, single contact. Sent 27 Oct, bumped 29 Oct, passed 1 Nov. Signature carries a Four Points Capital Partners FINRA disclosure - an intermediary, not a principal."
+  },
+  {
+   "channel": "direct",
+   "firm": "Cresset Capital",
+   "person": "Mark Ostroff",
+   "email": "mostroff@cressetcapital.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Hand-sent 30 Oct after a lunch, asking to be routed to whoever handles real estate allocations. Passed 2 Nov."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Vector WM",
+   "person": "Alessandro Beggio",
+   "email": "ab@vectorwm.com",
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "peblast",
+   "firm": "GCG Real Estate",
+   "person": "Ashley Berglund",
+   "email": "ashley@gcg-re.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Ocean West Capital Partners",
+   "person": "Sam Hooker",
+   "email": "shooker@oceanwestcp.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "peblast",
+   "firm": "A2 Management",
+   "person": "Suman Alagappan",
+   "email": "salagappan@a2mgmt.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Deloache Capital",
+   "person": "Frank W. Busch III",
+   "email": "fbusch@deloachecapital.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Oxford Properties Group",
+   "person": "Christie Chen",
+   "email": "cchen@oxfordproperties.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "peblast",
+   "firm": "GIC",
+   "person": "Sam Fancher",
+   "email": "samuelfancher@gic.com.sg",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Access Industries",
+   "person": "Jacob Himmelrich",
+   "email": "jhimmelrich@accind.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "North Ocean Group",
+   "person": "David M Horowitz",
+   "email": "david@northoceangroup.com",
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Seminole Financial Services",
+   "person": "Joe Ritter",
+   "email": "jritter@seminolefs.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Mandrake Capital",
+   "person": "Ian Crowley",
+   "email": "icrowley@mandrakecapital.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Bollinger Enterprises",
+   "person": "Peyton Bush",
+   "email": "peytonb@bollinger.com",
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Freestone Capital Management",
+   "person": "Ryan Mills",
+   "email": "rmills@freestonecapital.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "peblast",
+   "firm": "PGIM Real Estate",
+   "person": "Mark Walker",
+   "email": "mark.walker@pgim.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Five Eleven Partners",
+   "person": "Gilbert A. Calderon",
+   "email": "gil.calderon@five11partners.com",
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Sundance Bay",
+   "person": "Andrew Peterson",
+   "email": "andrew@sundancebay.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "peblast",
+   "firm": "PCCP",
+   "person": "Scott Nugent",
+   "email": "snugent@pccpllc.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Arete Wealth",
+   "person": "David Levine",
+   "email": "david.levine@aretewealth.com",
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Kildare Partners",
+   "person": "Avik Mukhopadhyay",
+   "email": "amukhopadhyay@kildarepartners.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Ares Management",
+   "person": "Sam Averbach",
+   "email": "saverbach@aresmgmt.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "peblast",
+   "firm": "ELV Associates",
+   "person": "Jay Evans",
+   "email": "jevans@elv-us.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Ganmi Corporation (Eric Gan Family Office)",
+   "person": "Casey Gan",
+   "email": "casey@ganmi.us",
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "peblast",
+   "firm": "LAMB Properties",
+   "person": "Ryne Tennant",
+   "email": "tennant@lambllc.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Kingdom Holding Company (Prince Alwaleed Bin Talal Family Office)",
+   "person": "Tamim B. Jabr",
+   "email": "tamim@kingdom.com.sa",
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Peaceable Street Capital",
+   "person": "Fernando G. Sotelo",
+   "email": "fsotelo@peaceablestreet.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "ypo",
+   "firm": "JSB Capital Group",
+   "person": "Stephen Lobell",
+   "email": "stephen@jsbcapitalgroup.com",
+   "sent": "2026-11-02",
+   "outcome": "drafted",
+   "note": "Asked Zamir directly in the YPO deal flow chat to send him the deal - \"want to send me what you have on this? We'll take a look.\" He is the principal at JSB and senior to Scott Liebman, who passed 26 Oct on relative value, JSB's Houston experience and flood exposure near the Port. Draft written 2 Nov at the 21.5% set and surfaces Scott's pass rather than routing around it. Needs the three-pager attached before it goes."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Deutsche Finance America",
+   "person": "Scott J. Soucy",
+   "email": "S.Soucy@deutsche-finance.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "direct",
+   "firm": "The Roxborough Group",
+   "person": "Matt McCormick",
+   "email": "mmccormick@roxboroughgp.com",
+   "sent": "2026-11-02",
+   "outcome": "replied",
+   "note": "Restored to the equity list 2 Nov after it emerged he had never been on any version of it despite a 2021-2026 relationship. Hand-sent the same morning at the 21.5% set; replied in 35 minutes. Second address on file, perrinm@roxboroughgp.com, still unverified."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Partners Group",
+   "person": "Ron Lamontagne",
+   "email": "ron.lamontagne@partnersgroup.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Brown Advisory",
+   "person": "JJ Baylin",
+   "email": "jbaylin@brownadvisory.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Dentressangle",
+   "person": "Jean-Louis Savoye",
+   "email": "jl.savoye@dentressangle.com",
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Vibe, Inc.",
+   "person": "Robert Hayman",
+   "email": "rhayman@vibeinc.com",
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Pasadena Private Wealth",
+   "person": "Simon Holford",
+   "email": "sholford@pasadenapw.com",
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Reached on the family-office send wave; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Westlake Realty Group",
+   "person": "Kristina Chang",
+   "email": "Kristina@westlake-realty.com",
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "Reached on the family-office send; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "direct",
+   "firm": "Todd Hanson",
+   "person": "Todd Hanson",
+   "email": "hansonte34@gmail.com",
+   "sent": "2026-11-02",
+   "outcome": "replied",
+   "note": "Not a capital source - a trusted reader Zamir sent the deal to on 2 Nov asking 'let me know what you think'. Came back in an hour with five underwriting items including a possible equity-base error in the returns."
+  },
+  {
+   "channel": "peblast",
+   "firm": "HG Investors",
+   "person": "Hannah F. Buchan",
+   "email": "hbuchan@hginvestors.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send; replied 2 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Townlane",
+   "person": "Grant Sholem",
+   "email": "gsholem@townlane.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send; replied 2 Nov."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Mayfield Holding (via Round Hill Capital)",
+   "person": "Mark Finn",
+   "email": "mfinn@mayfieldholding.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Mailed to Michael Bickford at Round Hill Capital 30 Oct; Mark Finn at an affiliated holding company forwarded himself in and replied 2 Nov."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Claridge",
+   "person": "Frederic Martel",
+   "email": "fredericmartel@claridgeinc.com",
+   "sent": "2026-10-27",
+   "outcome": "replied",
+   "note": "On the Not A Fit exclusion tab and mailed anyway; replied 2 Nov repeating the Canada-only answer already on file."
+  },
+  {
+   "channel": "peblast",
+   "firm": "FIGARI Capital",
+   "person": "Steven Figari",
+   "email": "steve@figaricapital.com",
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send; replied just after midnight UTC 3 Nov off the Monday follow-up."
+  },
+  {
+   "channel": "direct",
+   "firm": "Impex Capital Group",
+   "person": "Michael Munshi",
+   "email": "michael.munshi@impexcapitalgroup.com",
+   "also": [
+    "ash.shah@impexcapitalgroup.com",
+    "krish.shah@impexcapitalgroup.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "knows": "knows them",
+   "note": "Never sent Allen Genoa. Relationship runs the other way: Zamir cold-emailed Ash Shah in Aug 2026 about buying The Grand at Stone Creek, and a 26-minute call followed on 13 Aug with Michael Munshi. Impex is Houston-based, $2.1B AUM, co-GP interest in 82 projects across 23 states, asset- and geography-agnostic. Their business IS assembling the capital stack for sponsors - LP equity sources, co-GP equity sources, and Ash signing loan guarantees off his balance sheet - while taking a deliberately passive co-GP role and relying on the sponsor as the local expert. On that call Michael asked whether ZMR had the debt and LP equity handled and Zamir said 'I think we're pretty well capitalized', so the draft corrects that on the record rather than around it. Michael also promised to talk to Ash about dispositions and either book another call or send over assets to offload; neither happened, which is the natural reason to reconnect. CORRECTION: the 3 Nov draft was NOT unsent - it went out that day at 16:53 ET with the package attached, and Munshi answered on 5 Nov. The board had it logged as drafted-and-unsent; that was wrong. | 13 Nov: asked for OM + live model after Zamir offered a loan-guarantee role; Kevin sent model and deck 16:15."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Canyon Partners Real Estate",
+   "person": "Robin Potts",
+   "email": "rpotts@canyonpartners.com",
+   "also": [
+    "sschlee@canyonpartners.com",
+    "nbaccile@canyonpartners.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send to Robin Potts with Schlee and Baccile copied; Spencer Schlee answered for the firm off the Monday follow-up. Another cc, not the addressee, carrying the reply."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Seed Group (Sheikh Saeed Al Maktoum Family Office)",
+   "person": "Hisham Al Gurg",
+   "email": "hisham@seedgroup.com",
+   "sent": "2026-10-26",
+   "outcome": "replied",
+   "note": "On the 634-name family-office blast. Three touches - 27 Oct, the 30 Oct follow-up and a 2 Nov call request - before the CEO answered himself on 3 Nov to decline without a reason."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Virtus Real Estate Capital",
+   "person": "Josh Colter",
+   "email": "jcolter@virtusre.com",
+   "also": [
+    "gsimon@virtusre.com",
+    "mpowers@virtusre.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Austin-based. Reached on the PE / institutional send to Josh Colter with Simon and Powers copied; Matt Powers on the acquisitions desk answered off the Monday follow-up. Another cc carrying the reply."
+  },
+  {
+   "channel": "direct",
+   "firm": "Aerion Capital",
+   "person": "Stephen Markscheid",
+   "email": "smarkscheid@gmail.com",
+   "also": [
+    "jason@grainecosystem.com",
+    "smarkscheid@svrglobal.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Hand-sent by Zamir 3 Nov 08:13 CT under the new 'Houston Multifamily LP Equity' subject, to Jason and Stephen together. Markscheid answered in three minutes asking why ZMR is approaching outside capital at all."
+  },
+  {
+   "channel": "peblast",
+   "firm": "Contrarian Capital Management",
+   "person": "Dacker Chen",
+   "email": "dchen@contrariancapital.com",
+   "also": [
+    "tenzer@contrariancapital.com",
+    "mrader@contrariancapital.com",
+    "mhalperin@contrariancapital.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Reached on the PE / institutional send to Dacker Chen with Gil Tenzer and Michael Rader copied. Tenzer passed it to Michael Halperin, who answered on 3 Nov with a quantified yield-on-cost bar."
+  },
+  {
+   "channel": "sfo",
+   "firm": "Chromo Invest",
+   "person": "Willian Bueno",
+   "email": "willian@chromoinvest.com",
+   "also": [
+    "tiago@chromoinvest.com",
+    "frederico@chromoinvest.com",
+    "sanvitto@chromoinvest.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Brazilian family office on the Rest-of-SFO list. Mailed 16:07, Frederico Becker asked for the full package at 19:54 and added Sanvitto to the thread."
+  },
+  {
+   "channel": "sfo",
+   "firm": "Smartbox.ai (Gravicus)",
+   "person": "Anthony Rawlinson",
+   "email": "anthony.rawlinson@smartbox.ai",
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "On the Rest-of-SFO list in error - a UK AI software company, not an investor. Evidence the list was never screened for firm type."
+  },
+  {
+   "channel": "sfo",
+   "firm": "Carlson Private Capital Partners",
+   "person": "Andy Cantwell",
+   "email": "acantwell@carlsonprivatecapital.com",
+   "also": [
+    "lborg@carlsonprivatecapital.com",
+    "jmcginty@carlsonprivatecapital.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "On the Rest-of-SFO list. Does not invest in real estate at all - out of scope by mandate, not by preference."
+  },
+  {
+   "channel": "sfo",
+   "firm": "CGC Properties (cgcpi.com)",
+   "person": "David Redfern",
+   "email": "dredfern@cgcpi.com",
+   "also": [
+    "tshort@cgcpi.com",
+    "dcochener@cgcpi.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "On the Rest-of-SFO list in error - a hotel developer seeking LP equity of his own, not a capital provider."
+  },
+  {
+   "channel": "sfo",
+   "firm": "Avenir Capital",
+   "person": "Anya Haywood",
+   "email": "ahaywood@avenircapital.com.au",
+   "also": [
+    "awarner@avenircapital.com.au"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Sydney. On the Rest-of-SFO list; Adrian Warner answered off the cc line that they are not making external investments at present."
+  },
+  {
+   "channel": "sfo",
+   "firm": "Al Quraishi Group / Anfal",
+   "person": "Yousef Al Quraishi",
+   "email": "yousef@alquraishi.com",
+   "also": [
+    "Cem.Kutuk@alquraishi.com",
+    "ayman.khamdan@alquraishi.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied"
+  },
+  {
+   "channel": "sfo",
+   "firm": "A.P. Moller Holding",
+   "person": "Jan Nielsen",
+   "email": "jan.nielsen@apmoller.com",
+   "also": [
+    "jonas.kjersgaard@apmoller.com",
+    "morten.stakroge@apmoller.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Dalo Capital",
+   "person": "Gerardo / Alberto",
+   "email": "gerardo@dalocapital.com",
+   "also": [
+    "alberto@dalocapital.com"
+   ],
+   "sent": "2026-10-27",
+   "outcome": "replied"
+  },
+  {
+   "channel": "sfo",
+   "firm": "Cornwell Capital",
+   "person": "Lee Cornwell",
+   "email": "leecornwell@cornwellcapital.com",
+   "also": [
+    "alexacalahan@cornwellcapital.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied"
+  },
+  {
+   "channel": "peblast",
+   "firm": "Clarion Partners",
+   "person": "Khalid Rashid",
+   "email": "khalid.rashid@clarionpartners.com",
+   "also": [
+    "andrew.palmquist@clarionpartners.com",
+    "robert.wilshusen@clarionpartners.com",
+    "brent.gerst@clarionpartners.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "peblast",
+   "firm": "ICM Group",
+   "person": "John Courtliff",
+   "email": "jcourtliff@icmgroup.ca",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "peblast",
+   "firm": "M Squared",
+   "person": "Alicia Glen",
+   "email": "aglen@buildmsquared.com",
+   "also": [
+    "nhunter@buildmsquared.com",
+    "smyerson@buildmsquared.com",
+    "mschaffer@buildmsquared.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "sfo",
+   "firm": "Gardner Standard",
+   "person": "Craig Mell",
+   "email": "cmell@gardnerstandard.com",
+   "also": [
+    "operations@gardnerstandard.com",
+    "ryost@gardnerstandard.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied"
+  },
+  {
+   "channel": "sfo",
+   "firm": "Fayer Family Office",
+   "person": "Etienne Robitaille",
+   "email": "etienne@fayerfo.com",
+   "also": [
+    "marcelo@fayerfo.com",
+    "adam@fayerfo.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied"
+  },
+  {
+   "channel": "sfo",
+   "firm": "Forum Family Office",
+   "person": "Jeff Little",
+   "email": "jeff@forumfo.com",
+   "also": [
+    "henry.schuck@zoominfo.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied"
+  },
+  {
+   "channel": "peblast",
+   "firm": "Blue Owl Capital",
+   "person": "Alex Grecco",
+   "email": "alex.grecco@blueowl.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "sfo",
+   "firm": "Ingleside Investors",
+   "person": "Mayer Rosenzweig",
+   "email": "mrosenzweig@inginv.com",
+   "also": [
+    "tisrael@inginv.com",
+    "gwarner@inginv.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Finco (Antwerp)",
+   "person": "Kristof Verluyten",
+   "email": "verluyten@finco.be",
+   "also": [
+    "tserstevens@finco.be",
+    "lammens@finco.be"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Excession",
+   "person": "Jared Birchall",
+   "email": "jared@excession.com",
+   "also": [],
+   "sent": "2026-11-04",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Fairfield-Maxwell",
+   "person": "Christopher Sugahara",
+   "email": "csugahara@fairfield.com",
+   "also": [
+    "adowd@fairfield.com",
+    "slee@fairfield.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Caliber (CaliberCos)",
+   "person": "Lisa Pudewell",
+   "email": "acquisitions@caliberco.com",
+   "also": [
+    "chris.loeffler@caliberco.com",
+    "jennifer.schrader@caliberco.com",
+    "sofie.jakelis@caliberco.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Fidelity (FMR)",
+   "person": "David Guy",
+   "email": "david.guy@fmr.com",
+   "also": [
+    "ryan.prinzo@fmr.com",
+    "caitlin.yanchek@fmr.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Scope Hanson / ANH Hausbesitz",
+   "person": "Malte Sittig",
+   "email": "malte.sittig@anh-hausbesitz.de",
+   "also": [
+    "andreas.bremke@anh-hausbesitz.de",
+    "robin.steigerwald@anh-hausbesitz.de"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Replied 4 Nov from ms@scopehanson.com, not the anh-hausbesitz.de address he was mailed at. Use scopehanson.com."
+  },
+  {
+   "channel": "direct",
+   "firm": "Biscayne Atlantic",
+   "person": "David Garfinkle",
+   "email": "dg@biscayneatlantic.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Dartbrook",
+   "person": "Rosie Horton",
+   "email": "rosie@dartbrook.com",
+   "also": [
+    "don@dartbrook.com",
+    "ken@dartbrook.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Ken Beall answered for the office."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Buena Vista Capital",
+   "person": "Juan Manuel Carvallo",
+   "email": "jmcarvallo@buenavistacapital.com",
+   "also": [],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Reached via GMass alias domain zmrcapitalmy.com, not zmrcapital.com."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Grupo Inversiones Consolidadas (GIC)",
+   "person": "Cecilia Colmenarez",
+   "email": "ccolmenarez@ic.cl",
+   "also": [
+    "rswett@ic.cl",
+    "ewaugh@ic.cl"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Santiago. Brought in Matias Lyon (mlyon@lithiumcm.com), PM for the real estate vertical. Ley 20.393 - corporate addresses only."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "KKCG",
+   "person": "Martin Vrsansky",
+   "email": "martin.vrsansky@kkcg.com",
+   "also": [
+    "kamil.zeman@kkcg.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Cambiata",
+   "person": "Myriam Burger",
+   "email": "m.burger@cambiata.ch",
+   "also": [],
+   "sent": "2026-11-03",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "CC Trust",
+   "person": "Silvan Freiheit",
+   "email": "sfreiheit@cctrust.ch",
+   "also": [
+    "pschnieper@cctrust.ch"
+   ],
+   "sent": "2026-10-27",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Dekel Capital",
+   "person": "Shlomi Ronen",
+   "email": "sronen@dekelcapital.com",
+   "also": [
+    "mroshan@dekelcapital.com",
+    "hmillerick@dekelcapital.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "PIMCO",
+   "person": "Michael Givner",
+   "email": "michael.givner@pimco.com",
+   "also": [
+    "david.grossman@pimco.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "RM Adviser",
+   "person": "Eric Levy",
+   "email": "eric.levy@rm-adviser.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Eldridge Acre Partners",
+   "person": "Josh Katzin",
+   "email": "joshua.katzin@eldridgeacre.com",
+   "also": [
+    "sam.levy@eldridgeacre.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Andrew (original contact) has left. Sam Levy is the live address."
+  },
+  {
+   "channel": "direct",
+   "firm": "Alpaca Real Estate",
+   "person": "Daniel Carr",
+   "email": "daniel.carr@alpacarealestate.com",
+   "also": [
+    "ryan@alpacarealestate.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "King Street Capital",
+   "person": "Jordan Jancze",
+   "email": "jjancze@kingstreet.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Choreo Advisors",
+   "person": "Matthew Gotlin",
+   "email": "matthew.gotlin@choreoadvisors.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Northwestern Mutual",
+   "person": "Kevin Westra",
+   "email": "kevin.westra@northwesternmutual.com",
+   "also": [
+    "tomzale@northwesternmutual.com",
+    "henrylange@northwesternmutual.com",
+    "brandtfoster@northwesternmutual.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "CFG Bank",
+   "person": "Ken Assiran",
+   "email": "kassiran@cfg.bank",
+   "also": [
+    "ayerger@cfg.bank"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": " | 12 Nov: Assiran made the intro. Andrew Yerger, Associate, Multifamily Origination, NYC (Capital Funding LLC) - a LENDING desk, not equity. Call booked Fri 12:30 ET."
+  },
+  {
+   "channel": "direct",
+   "firm": "Americo / GSSW Real Estate",
+   "person": "Thomas W. Sabin Jr.",
+   "email": "tom.sabin@americo.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "PCP Real Estate",
+   "person": "Brendan Orient",
+   "email": "borient@pcpre.com",
+   "also": [
+    "smastor@pcpre.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Raith Capital Partners",
+   "person": "Sahil Amin",
+   "email": "sahil.amin@raithcapital.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Groupe Artémis",
+   "person": "Alexandra d'Angerville",
+   "email": "adangerville@groupeartemis.com",
+   "also": [],
+   "sent": "2026-11-04",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Randall Capital Group",
+   "person": "Najoi Jabali",
+   "email": "naj@randallcapitalgroup.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Mr. Randall asked to keep receiving deals. Positive flag - do not suppress."
+  },
+  {
+   "channel": "direct",
+   "firm": "Corinthian Capital",
+   "person": "C. Kenneth Clay",
+   "email": "kclay@corinthiancap.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "John Hughes has left the firm - retire that address."
+  },
+  {
+   "channel": "direct",
+   "firm": "Spear Street Capital",
+   "person": "John Grassi",
+   "email": "jgrassi@spearstreetcapital.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Sonen Capital",
+   "person": "David Hood",
+   "email": "dhood@sonencapital.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Grandes Patrimonios",
+   "person": "Diego Parra",
+   "email": "diego.parra@grandespatrimonios.co",
+   "also": [],
+   "sent": "2026-11-05",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "BlackRock",
+   "person": "Greg Burns",
+   "email": "gregory.burns@blackrock.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Declaration Partners",
+   "person": "Matthew Cohen",
+   "email": "mcohen@declarationpartners.com",
+   "also": [
+    "drabin@declarationpartners.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Apollo Global Management",
+   "person": "Joseph Kaplan",
+   "email": "jokaplan@apollo.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Arzentia Capital",
+   "person": "Rogelio Prieto",
+   "email": "rprieto@arzentia.com",
+   "also": [
+    "sodriozola@arzentia.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Family Office Partners (Prague)",
+   "person": "Lenka Krištofič",
+   "email": "lk@familyofficepartners.cz",
+   "also": [],
+   "sent": "2026-11-04",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Grupo Zriser",
+   "person": "Pablo Serratosa Luján",
+   "email": "pslujan@zriser.es",
+   "also": [
+    "rgarcia@zriser.es",
+    "csanchez@zriser.es",
+    "mmartinez@zriser.es"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Cain International",
+   "person": "Eric Poretsky",
+   "email": "eric.poretsky@cainint.com",
+   "also": [
+    "devon.hale@cainint.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Mid Cap Global",
+   "person": "Jesse Welch",
+   "email": "jw@midcapglobal.com",
+   "also": [
+    "cathyd@lig-capital.com"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Kinship Capital",
+   "person": "Andrew Youngling",
+   "email": "andrew.youngling@kinshipcapital.com",
+   "also": [],
+   "sent": "2026-11-06",
+   "outcome": "replied"
+  },
+  {
+   "channel": "direct",
+   "firm": "Detailed Capital",
+   "person": "Lyle MacLennan",
+   "email": "lyle@detailedcapital.com",
+   "also": [
+    "andy@detailedcapital.com"
+   ],
+   "sent": null,
+   "outcome": "replied",
+   "note": "INBOUND - they approached ZMR, unsolicited, on 6 Nov. Never on a ZMR send list. Likely sourced from the GP-LP Match listing that went live the same morning."
+  },
+  {
+   "channel": "direct",
+   "firm": "Manulife Investment Management",
+   "person": "Nate Nguyen",
+   "email": "nate_nguyen@manulife.com",
+   "also": [
+    "emily_wickey@manulife.com",
+    "jp_perez@manulife.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied"
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Engle Family Office",
+   "person": "Alexis Rains",
+   "email": "alex.rains@englefo.com",
+   "also": [
+    "jeb@englefo.com",
+    "don.engle@englefo.com",
+    "awilliams@carltonseniorliving.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Rains forwarded internally to Jeb Hollingsworth (Director, Investments) on 5 Nov 19:44; Hollingsworth replied 6 Nov asking for the package and the UW."
+  },
+  {
+   "channel": "direct",
+   "firm": "Lido Advisors",
+   "person": "Jeff Garden",
+   "email": "jgarden@lidoadvisors.com",
+   "also": [
+    "jozur@lidoadvisors.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Sent to Jeff Garden with Jason Ozur CC'd; chased 2 Nov and 5 Nov. Garden never answered - Ozur, the CC, replied 8 Nov asking what current average rents are."
+  },
+  {
+   "channel": "direct",
+   "firm": "Empire Global Financial Services",
+   "person": "Milton H. Barbarosh",
+   "email": "milton@empireglobalfinancial.com",
+   "also": [],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Off the 'Rest of SFO' wave under the 'Houston Multifamily LP Equity' subject. Empire Global is a business brokerage / M&A intermediary, not an LP - a list quality miss rather than a deal-level pass."
+  },
+  {
+   "channel": "direct",
+   "firm": "ALFAHIM",
+   "person": "Silva Apostolova",
+   "email": "silva.apostolova@alfahim.ae",
+   "also": [
+    "mohammed.alfahim@alfahim.ae",
+    "bilal.alribi@alfahim.ae"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Sent to Silva Apostolova with Mohammed Al Fahim and Bilal AlRibi copied; chased 9 Nov 09:09. Al Fahim (the CC) replied 25 minutes later - not within scope. ALFAHIM is an operating-company group, not an LP."
+  },
+  {
+   "channel": "direct",
+   "firm": "Allan Moss",
+   "person": "Allan Moss",
+   "email": "allan@allanmoss.com",
+   "also": [
+    "rachel@allanmoss.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Off the 'Rest of SFO' wave. Australia-resident; does not invest in real estate outside Australia. Do not re-mail."
+  },
+  {
+   "channel": "direct",
+   "firm": "4L Vision",
+   "person": "Florian Schildge",
+   "email": "florian.schildge@4l.vision",
+   "also": [
+    "ralph@4l.vision",
+    "alexander.raquet@4l.vision"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Off the 'Rest of SFO' wave; chased 9 Nov 09:29. Ralph Suikat (a CC) replied the same morning. Karlsruhe impact-mandate family office - not a market-rate LP."
+  },
+  {
+   "channel": "direct",
+   "firm": "Deilmann Family (Carl-Gerrit Deilmann)",
+   "person": "Carl-Gerrit Deilmann",
+   "email": "cdeilmann@mac.com",
+   "also": [],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 12:25. Refuses US exposure on political grounds and says he has told ZMR before - no prior reply exists on this deal, so the earlier no was never recorded. DO NOT RE-MAIL."
+  },
+  {
+   "channel": "direct",
+   "firm": "ARTEQ Investment Management",
+   "person": "Michal Kemp",
+   "email": "michal@arteqin.com",
+   "also": [
+    "alison@arteqin.com",
+    "amit@arteqin.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 09:50; Kemp answered personally two hours later. Not allocating to the asset class at the moment - a timing/allocation no, worth a revisit next cycle."
+  },
+  {
+   "channel": "direct",
+   "firm": "247VC",
+   "person": "Shashank Randev",
+   "email": "shashank@247vc.in",
+   "also": [
+    "sandhyarandev123@gmail.com"
+   ],
+   "sent": "2026-11-09",
+   "outcome": "replied",
+   "note": "NEW NAME ADDED 9 Nov 11:36, replied 17 minutes later. A GP closing an India-domiciled venture fund, not an LP - and he asked ZMR to introduce family offices to HIS raise."
+  },
+  {
+   "channel": "direct",
+   "firm": "Darco Capital",
+   "person": "Marc Poliskin",
+   "email": "marc@darcocapital.com",
+   "also": [
+    "jacob@darcocapital.com",
+    "stefanie@darcocapital.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 13:10; Jake Poliskin (Head of Investments, a CC) replied 'No thanks' 94 seconds later."
+  },
+  {
+   "channel": "direct",
+   "firm": "Willoughby Capital Holdings",
+   "person": "John Walton",
+   "email": "john@willcapllc.com",
+   "also": [
+    "mmuhtadie@willcapllc.com",
+    "astella@willcapllc.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Three sends (30 Oct, 2 Nov, 5 Nov) all unanswered; passed on the fourth touch, 9 Nov 12:50."
+  },
+  {
+   "channel": "direct",
+   "firm": "Corniche Group",
+   "person": "Hani Farsi",
+   "email": "hani@corniche-group.com",
+   "also": [
+    "louise@corniche-group.com",
+    "raed@corniche-group.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 12:40; Louise Adams (Head of Family Office, a CC) passed nine minutes later. 'Not of interest currently' - keep for a different profile."
+  },
+  {
+   "channel": "direct",
+   "firm": "Hestia Investments",
+   "person": "Sasha Bernier",
+   "email": "sasha@hestiainv.com",
+   "also": [
+    "mweisman@majescosales.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 12:13. Houston deal-flow saturation plus a rotation into IOS. Worth re-approaching on a non-Houston deal."
+  },
+  {
+   "channel": "direct",
+   "firm": "CAPNOR",
+   "person": "Javier Barrientos",
+   "email": "jbarrientos@capnor.be",
+   "also": [
+    "gprevitali@capnor.be",
+    "gcramer@capnor.be"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 11:46. Direct investments in EU operating businesses only - not real estate, not US, not passive LP. Offered to see things that fit."
+  },
+  {
+   "channel": "direct",
+   "firm": "BRK Capital",
+   "person": "Wesley Chung",
+   "email": "wesley@brkcapital.com",
+   "also": [
+    "glenn@brkcapital.com",
+    "angela@brkcapital.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 10:17; Chung passed just under four hours later. No reason given."
+  },
+  {
+   "channel": "direct",
+   "firm": "Ananta Family Office",
+   "person": "Jaideep Khanna",
+   "email": "jaideep@anantafo.com",
+   "also": [
+    "kris@anantafo.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "DOMAIN MIGRATED: replies now come from @ananta-om.com (jaideep@ananta-om.com, kris@ananta-om.com). The @anantafo.com addresses still deliver. Update both rows. No interest in the asset class."
+  },
+  {
+   "channel": "direct",
+   "firm": "Eagle Point Properties",
+   "person": "Justin Amirian",
+   "email": "justin@eaglepointproperties.com",
+   "also": [
+    "adam@eaglepointproperties.com",
+    "michael@eaglepointproperties.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 13:42; passed 57 seconds later."
+  },
+  {
+   "channel": "direct",
+   "firm": "RZC Advisors",
+   "person": "Matthew Tarver",
+   "email": "mtarver@rzcadvisors.com",
+   "also": [
+    "swalton@gamecomposites.com"
+   ],
+   "sent": "2026-11-09",
+   "outcome": "replied",
+   "note": "NEW NAME ADDED 9 Nov 11:30, passed 13:38 the same day. CC is an aircraft composites manufacturer - the row looks built from a principal plus his operating company rather than an investment mandate."
+  },
+  {
+   "channel": "direct",
+   "firm": "D'Orazio Capital Partners",
+   "person": "Allison Leone",
+   "email": "aleone@doraziocp.com",
+   "also": [
+    "abrough@doraziocp.com",
+    "rdorazio@dorazioford.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 13:06. Capacity no, not a mandate no - worth a later cycle. BUT no investment contact on the thread: Leone is HR & Compliance, Brough is an engineer, third address is a car dealership. Find the investments contact before re-approaching."
+  },
+  {
+   "channel": "direct",
+   "firm": "Diker Management",
+   "person": "Mark Diker",
+   "email": "mdiker@dikerllc.com",
+   "also": [
+    "kbrower@dikerllc.com",
+    "nhingorani@dikerllc.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 13:22; passed nine minutes later. NY equities manager, not a real-estate LP. Hingorani replies from nhingorani@dikerllc.onmicrosoft.com - an O365 fallback, so the dikerllc.com alias on file may not deliver."
+  },
+  {
+   "channel": "direct",
+   "firm": "Chestnut Capital / KABR Group",
+   "person": "Kenneth Pasternak",
+   "email": "kp@chestnutcap.com",
+   "also": [
+    "kh@chestnutcap.com",
+    "kpasternak@chestnutcap.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 07:15 (sent to kp@, replied from kpasternak@). Never an LP - runs the same strategy as a GP, 3,000 units in Florida via KABR Group. VOLUNTEERED that ZMR 'will do well on this one' - the only peer-operator endorsement of the deal economics on the board. Ask before quoting him."
+  },
+  {
+   "channel": "direct",
+   "firm": "Black Fountain Capital",
+   "person": "Jose Fernando Silva Lopez",
+   "email": "jose@blackfountaincapital.com",
+   "also": [
+    "noelia@blackfountaincapital.com",
+    "hector@blackfountaincapital.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 10:50; Noelia Santana (a CC) passed on the firm's behalf four hours later. 'Not at this time' - keep the name."
+  },
+  {
+   "channel": "direct",
+   "firm": "Carlin Partners",
+   "person": "Paul Stals",
+   "email": "paul@carlinpartners.com",
+   "also": [
+    "jason@carlinpartners.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 11:50; 'No interest, thx' three hours later."
+  },
+  {
+   "channel": "direct",
+   "firm": "RFM Property Group / Bulkspan",
+   "person": "Gary F (Circle F Capital)",
+   "email": "garyf@circlefcapital.com",
+   "also": [
+    "david@circlefcapital.com",
+    "mfeldman@rfmpropertygroup.com",
+    "David@bulkspan.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 12:20. Michael Feldman (a CC, at RFM Property Group not Circle F) passed on LP, floated co-GP in principle, and pitched his partner David Benharouch of Bulkspan - a bulk-internet broker, 30,000+ units in 12 months. Bulk internet is a live Allen Genoa underwriting line ($70/$30 per unit per month). Vendor conversation, not an equity one - keep them separate."
+  },
+  {
+   "channel": "direct",
+   "firm": "Calgary Enterprises",
+   "person": "Lester (Calgary Enterprises)",
+   "email": "lester@calgaryenterprises.com",
+   "also": [
+    "insalaco@calgaryenterprises.com",
+    "heard@calgaryenterprises.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 11:37; Steven Insalaco (President/Managing Partner, a CC) replied 'Not of interest' four and a half hours later."
+  },
+  {
+   "channel": "direct",
+   "firm": "Advance",
+   "person": "Sam Powers",
+   "email": "spowers@advance.com",
+   "also": [
+    "wmeade@advance.com",
+    "rkoontz@advance.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 09:02; Winston Meade (a CC) replied 15:24. Multifamily is outside Advance's investment sectors and criteria - a mandate boundary, not a Houston view."
+  },
+  {
+   "channel": "direct",
+   "firm": "EBGR",
+   "person": "Jason Beren",
+   "email": "jason.beren@ebgr.com",
+   "also": [
+    "ben.farbowitz@ebgr.com",
+    "andrew.fishkoff@ebgr.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 13:44; 'Not the right fit for us' 89 minutes later."
+  },
+  {
+   "channel": "direct",
+   "firm": "Raiz Investimentos",
+   "person": "Livia Bartholomei (departed)",
+   "email": "livia@raizinvestimentos.com.br",
+   "also": [
+    "lee@raizinvestimentos.com.br",
+    "rafael@raizinvestimentos.com.br"
+   ],
+   "sent": "2026-11-09",
+   "outcome": "replied",
+   "note": "NEW NAME ADDED 9 Nov 11:33 and sent to a departed addressee. Camila Goes confirmed 12:33 that Livia has left and asked for her address to be removed; Lee Herzog (a CC) passed at 16:32 - US real estate is outside the mandate. DROP livia@, keep lee@ and rafael@."
+  },
+  {
+   "channel": "direct",
+   "firm": "Bodley Group",
+   "person": "Barry (Bodley Group)",
+   "email": "barry@bodleygroup.com",
+   "also": [
+    "ted@bodleygroup.com"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 11:00; Ted Albrecht (a CC) replied 'This is not for us' at 16:49."
+  },
+  {
+   "channel": "direct",
+   "firm": "Barings",
+   "person": "Harry Day-Reiss",
+   "email": "harry.dayreiss@barings.com",
+   "also": [
+    "kevin.miller@barings.com",
+    "eric.lloyd@barings.com",
+    "clayton.matsuda@barings.com",
+    "caitlin.newsom@barings.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Three sends (30 Oct, 2 Nov, 5 Nov). Day-Reiss replied 9 Nov 22:42 - Houston is not a target market - and referred it to Caitlin Newsom, who covers Texas; she confirmed the same pass 17 minutes later. Note Artemis Real Estate Partners, a Barings company, is a separate live relationship row."
+  },
+  {
+   "channel": "direct",
+   "firm": "Gough Group",
+   "person": "Kirstin McLeod",
+   "email": "kirstin@gough.co.nz",
+   "also": [
+    "brett@gough.co.nz",
+    "kirsten.farrelly@gough.co.nz"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Chased 9 Nov 10:39; Brett Gamble (a CC) passed 10 Nov 02:32. New Zealand - its own anti-spam statute applies, so no further unsolicited sends to this domain."
+  },
+  {
+   "channel": "direct",
+   "firm": "Far East Organization",
+   "person": "Graham Ng",
+   "email": "grahamng@fareast.com",
+   "also": [
+    "ngekong@fareast.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chase repeatedly bounced on 9 Nov under the Gmail send limit (53-message thread, mostly mailer-daemon). Got through 10 Nov; Nge Kong Lai (a CC) passed within minutes."
+  },
+  {
+   "channel": "direct",
+   "firm": "Fink Family Office",
+   "person": "Jordan Fink",
+   "email": "jordan@finkfamilyoffice.com",
+   "also": [
+    "alex@finkfamilyoffice.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 12:37; Alex Fink (Principal, a CC) replied 'Not for us' nine minutes later. Single family office of Lord Stanley Fink - a principal office, not a real-estate allocator."
+  },
+  {
+   "channel": "direct",
+   "firm": "Greystone Group",
+   "person": "Francis Roby",
+   "email": "francis@greystonegroupco.com",
+   "also": [
+    "louis@kbco.ca"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 13:49; the CFO passed six minutes later. CANADIAN (New Brunswick, plus a kbco.ca CC) - relevant to the unanswered question about pulling Canadian names post-CASL."
+  },
+  {
+   "channel": "direct",
+   "firm": "GlenRock Israel",
+   "person": "GlenRock (lr@)",
+   "email": "lr@grg.co.il",
+   "also": [
+    "ronit@grg.co.il",
+    "asaf@grg.co.il",
+    "ai@grg.co.il"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 13:28; Asaf Iram replied 13:52 from ai@grg.co.il, an alias not on the send list. Technology and growth investor - outside strategy. Tidy the aliases."
+  },
+  {
+   "channel": "direct",
+   "firm": "Greybull Capital",
+   "person": "Robbie Brough",
+   "email": "robbie@greybull.eu",
+   "also": [
+    "sam@greybull.eu",
+    "marc@greybull.eu"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 13:48; passed two minutes later. Control equity in UK/European operating companies - not real estate, not US, not LP."
+  },
+  {
+   "channel": "direct",
+   "firm": "HFI Capital Management",
+   "person": "Phillip Thompson",
+   "email": "pthompson@hershfi.com",
+   "also": [
+    "jschieferdecker@hershfi.com",
+    "rwhennen@hershfi.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 14:28; the MD of Real Estate passed 24 minutes later with no reason. Dallas-based real-estate seat - worth one line asking what made it a miss."
+  },
+  {
+   "channel": "direct",
+   "firm": "Lufin Partners",
+   "person": "Rohan Pandit",
+   "email": "rohan.pandit@lufinpartners.com",
+   "also": [
+    "christian.lepple@lufin.ch",
+    "rob.bingen@lufin.ch"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 14:03; passed 14:52. BOTH sends bounced on a lufin.ch CC address - verify christian.lepple@ and rob.bingen@ before reuse. Pandit's lufinpartners.com address is live."
+  },
+  {
+   "channel": "direct",
+   "firm": "Hasma Capital Advisors",
+   "person": "Ashley Williams",
+   "email": "awilliams@hasmacapital.com",
+   "also": [
+    "rshah@hasmacapital.com",
+    "agodwin@hasmacapital.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 14:15; replied 50 seconds later - no longer allocating to real estate at all. London. Capital-paused rather than a mandate miss; keep for a later cycle."
+  },
+  {
+   "channel": "direct",
+   "firm": "Grand Oaks Capital",
+   "person": "Dave Bovenzi",
+   "email": "dbovenzi@grandoakscap.com",
+   "also": [
+    "tgolisano@golisanofoundation.org"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 13:42; passed 34 minutes later. Golisano family venture vehicle, not real estate. The CC is a charitable foundation address - the row was built from a principal's philanthropy, not a mandate."
+  },
+  {
+   "channel": "direct",
+   "firm": "Nuveen Real Estate",
+   "person": "Timothy Goeke",
+   "email": "timothy.goeke@nuveen.com",
+   "also": [
+    "marc.roth@nuveen.com",
+    "carlos.burneo@nuveen.com",
+    "brian.wallick@nuveen.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "FOUR sends (30 Oct, 2 Nov, 5 Nov, 10 Nov) to Goeke direct. Answered 10 Nov 16:06: 'we have plenty of Houston.' Pure exposure constraint from a top-tier manager - go back with a non-Houston deal."
+  },
+  {
+   "channel": "direct",
+   "firm": "RanchHarbor",
+   "person": "John Meek",
+   "email": "jmeek@ranchharbor.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Four sends; passed 10 Nov 16:02. Houston not a target market AND the family is not interested in Texas. INVITED FUTURE DEAL FLOW in writing - keep for the next non-Texas deal."
+  },
+  {
+   "channel": "direct",
+   "firm": "Elmington Residential",
+   "person": "Jason Abel",
+   "email": "jabel@elmingtonresidential.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Four sends; replied 10 Nov. A GP, not an LP. Referred us to 'Devlin or Rick at Argosy' - Argosy already passed on 7 Oct, tapped out on Houston. Dead-end referral."
+  },
+  {
+   "channel": "direct",
+   "firm": "James Richardson & Sons",
+   "person": "Ashley Hearn",
+   "email": "ashley.hearn@jrsl.ca",
+   "also": [
+    "brent.dreger@jrsl.ca",
+    "hartley.richardson@jrsl.ca"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 15:26; Brent Dreger (a CC) passed 13 minutes later. CANADIAN (Winnipeg) - second Canadian name today, still inside the unanswered CASL question."
+  },
+  {
+   "channel": "direct",
+   "firm": "Jaggi Family Office",
+   "person": "Brett (Jaggi Family Office)",
+   "email": "brett@jaggifamilyoffice.com",
+   "also": [
+    "reema@jaggifamilyoffice.com",
+    "jaggi@iridiuscapital.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 15:22; GS Jaggi (founder, a CC) passed 21 minutes later from iridiuscapital.com."
+  },
+  {
+   "channel": "direct",
+   "firm": "Joddes",
+   "person": "George Dafnas",
+   "email": "gdafnas@joddes.com",
+   "also": [
+    "falassane@joddes.com",
+    "tcomber@joddes.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 15:31; Tomas Comber (a CC) passed 19 minutes later."
+  },
+  {
+   "channel": "direct",
+   "firm": "Inbox Capital",
+   "person": "Markus Kitunen",
+   "email": "markus.kitunen@inboxcap.com",
+   "also": [
+    "m@inboxcap.com",
+    "ludvig.frykholm@inboxcap.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 14:55; Ludvig Frykholm (a CC) passed 32 minutes later - outside investment criteria. 'm@inboxcap.com' is probably an alias of markus.kitunen@; collapse the duplicate."
+  },
+  {
+   "channel": "direct",
+   "firm": "Cigna Realty Investors",
+   "person": "Mike Brown",
+   "email": "mike.brown@cignahealthcare.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "FOUR sends; replied 10 Nov 16:12. Not pursuing multifamily acquisitions on a direct basis. SENT THEIR COVERAGE MAP (CRI Marketing Flyer 2026.pdf) and named Jeff Keenan as the Texas contact - add Keenan, retire Brown for deal sends."
+  },
+  {
+   "channel": "direct",
+   "firm": "Park Row Equity Partners",
+   "person": "Alan Steinberg",
+   "email": "alan@parkrowep.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Four sends; passed 10 Nov 08:29 - just closed a large Miami deal, resting. THEN volunteered that their BRANDON asset did not sell (buyer failed at the end of DD) and may come back to market. Acquisitions lead, not equity - route to whoever runs acquisitions."
+  },
+  {
+   "channel": "direct",
+   "firm": "Validor Capital",
+   "person": "Matthew Pearson",
+   "email": "mpearson@validorcap.com",
+   "also": [
+    "mkaufman@validorcap.com",
+    "amcdermand@validorcap.com"
+   ],
+   "sent": "2026-11-10",
+   "outcome": "replied",
+   "note": "NEW NAME SENT 10 Nov 16:26, passed 16:27 - eighty seconds. Real estate is outside their focus areas. Eleventh non-real-estate firm in eight days."
+  },
+  {
+   "channel": "direct",
+   "firm": "Fernandez Holdings",
+   "person": "Barry Green",
+   "email": "bgreen@fernandezholdings.com",
+   "also": [
+    "aharthaller@fernandezholdings.com",
+    "jjohnson@fernandezholdings.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 12:30; Alex Harthaller (a CC) passed 16:52."
+  },
+  {
+   "channel": "direct",
+   "firm": "Shoreham Capital",
+   "person": "Joe Nesseler",
+   "email": "jnesseler@shorehamcapital.com",
+   "also": [
+    "doug@shorehamcapital.com",
+    "nick@shorehamcapital.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Four sends (30 Oct, 2 Nov, 5 Nov, 10 Nov). Doug Faron (Managing Partner, a CC) asked for a call next week 92 minutes after the fourth. West Palm Beach multifamily platform."
+  },
+  {
+   "channel": "direct",
+   "firm": "American Real Estate Capital (AmRE)",
+   "person": "David J. Nigro",
+   "email": "dnigro@amrecap.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Four sends; replied 10 Nov 18:33. Houston not targeted for equity OR lending, EXCEPT possibly The Woodlands or Sugar Land; Allen Genoa's area explicitly ruled out. OFFERED A CALL THE SAME AFTERNOON - unanswered. Worth taking for the submarket read."
+  },
+  {
+   "channel": "direct",
+   "firm": "DVO Real Estate",
+   "person": "Victoria Goldenberg",
+   "email": "vgoldenberg@dvorealestate.com",
+   "also": [],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Four sends; passed 10 Nov 19:08 - not investing in Houston right now. 'Right now' - keep for a later cycle."
+  },
+  {
+   "channel": "windmass",
+   "firm": "Cerberus Capital Management",
+   "person": "Michael Pokorny",
+   "email": "mpokorny@cerberus.com",
+   "also": [
+    "kharris@cerberus.com"
+   ],
+   "sent": "2026-11-10",
+   "outcome": "replied",
+   "note": "Introduced by Mitchell Voss 10 Nov 19:52 with the OM and the full model attached. Pokorny replied 19:57 - 78 seconds - 'we'll take a look and Zamir we'll reach out separately.' Katie Harris with him. Ball is theirs."
+  },
+  {
+   "channel": "windmass",
+   "firm": "Arcapita",
+   "person": "Connor Monaghan",
+   "email": "cmonaghan@arcapita.com",
+   "also": [],
+   "sent": "2026-11-10",
+   "outcome": "sent",
+   "note": "Introduced by Mitchell Voss 10 Nov 19:30 with the OM and the full model attached - the first of his four forwards. Voss's covering line was that his own deal is moving away and Zamir's is worth a look. No reply yet."
+  },
+  {
+   "channel": "direct",
+   "firm": "Wheelock Street Capital",
+   "person": "Timothy Hodes",
+   "email": "hodes@wheelockst.com",
+   "also": [
+    "eberhart@wheelockst.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Four sends (30 Oct, 2 Nov, 5 Nov, 10 Nov) to Hodes with Eberhart copied. Eberhart (the CC) passed 10 Nov 20:32, no reason given."
+  },
+  {
+   "channel": "direct",
+   "firm": "Advertise.com",
+   "person": "Daniel Yomtobian",
+   "email": "daniel@advertise.com",
+   "also": [
+    "dan@advertise.com"
+   ],
+   "sent": "2026-11-10",
+   "outcome": "replied",
+   "note": "Personal relationship, not a list name - Zamir forwarded the 11.10.26 package 'per our conversation'. Founder/CEO of a Sherman Oaks ad-tech firm, brother Danny copied. Asked for deal terms and loan rate; got the Strawman LP Terms doc and the full debt snapshot the same hour. First recipient of term-sheet language."
+  },
+  {
+   "channel": "direct",
+   "firm": "Lateral",
+   "person": "Anand Kapadia",
+   "email": "akapadia@lateralllc.com",
+   "also": [
+    "ehattem@lateralllc.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "Replied 10 Nov 23:05 after an 11-day gap, apologising. ACTIVELY EVALUATING TWO OTHER HOUSTON MULTIFAMILY DEALS. Wants the investment memo, the model and a CoStar market report. Eli Hattem copied."
+  },
+  {
+   "channel": "sfo",
+   "firm": "KF Matheson (Matheson Financial)",
+   "person": "Kevin Little",
+   "email": "klittle@kfmatheson.com",
+   "also": [
+    "rperhar@kfmatheson.com",
+    "ryan.perillo@gmail.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Chased 10 Nov 15:42; passed 22:22, no reason. Mississauga, Ontario - third Canadian firm to answer civilly today. A consumer gmail address (ryan.perillo@) sits on the row; verify before resending."
+  },
+  {
+   "channel": "familyoffice",
+   "firm": "Crow Holdings",
+   "person": "Michael Hyun",
+   "email": "mhyun@crowholdings.com",
+   "also": [
+    "mlevy@crowholdings.com",
+    "csilverthorn@crowholdings.com",
+    "pbertsch@crowholdings.com",
+    "kvalach@tcr.com",
+    "bmcclain@crowholdings.com",
+    "kdinnie@crowholdings.com",
+    "cjuracek@crowholdings.com"
+   ],
+   "sent": "2026-10-27",
+   "outcome": "silent",
+   "note": "THREE sends (27 Oct with the three-pager attached, 29 Oct, 2 Nov) to Hyun (CIO) with seven copied, off the family-office list. No reply from anyone, and they dropped out of the chase cadence after 2 Nov - no fourth send on 5 or 10 Nov. Crow has now been silent across three ZMR deals since February 2026, when Mia Ackels last answered (not a fit, market exposure). The three Crow people who HAVE engaged historically - Carlos Rainwater (Senior MD, the PRIMARY on the equity list), Kevin Fraker and Ackels - were not on the Allen Genoa thread at all. Different door if it is worth another try."
+  },
+  {
+   "channel": "sfo",
+   "firm": "Hadley Family Office",
+   "person": "Elaine (Hadley Family Office)",
+   "email": "elaine@hadleyfamilyoffice.com",
+   "also": [
+    "ben@hadleyfamilyoffice.com",
+    "james@hadleyfamilyoffice.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Sent 4 Nov, chased 10 Nov. James Scott (Partner, a CC) replied 11 Nov 03:58 asking HOW ZMR GOT THEIR CONTACT DETAILS and whether ZMR has worked with other family offices - a provenance screen, not a deal question. Both sends open 'Hey Hi Elaine and team', a visible mail-merge seam. Calendly in his signature."
+  },
+  {
+   "channel": "sfo",
+   "firm": "GenHenn Capital",
+   "person": "Raul Martinez",
+   "email": "RMartinez@genhenncapital.com",
+   "also": [
+    "mhennessy@genhenncapital.com",
+    "bhagaman@genhenncapital.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Sent 4 Nov, chased 10 Nov; Martinez (VP, the addressee) replied 11 Nov 05:56 - GenHenn only invests in LIFE SCIENCES companies. Twelfth non-real-estate firm in nine days. Remove the firm."
+  },
+  {
+   "channel": "sfo",
+   "firm": "Terrasias Capital",
+   "person": "Ichiro Yamanaka",
+   "email": "iyamanaka@terrasias.com",
+   "also": [
+    "snilsson@terrasias.com"
+   ],
+   "sent": "2026-11-10",
+   "outcome": "replied",
+   "note": "First touch 10 Nov 15:18 (sent 00:18 Pacific); Stefan Nilsson (a CC) replied 11 Nov 05:21 - Terrasias DOES NOT INVEST IN US ASSETS. Geographic mandate; remove the firm."
+  },
+  {
+   "channel": "sfo",
+   "firm": "Guetermann Family Office",
+   "person": "Frank Andris",
+   "email": "fa@guetermannfamilyoffice.com",
+   "also": [
+    "jy@guetermannfamilyoffice.com",
+    "ag@guetermannfamilyoffice.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Swiss SFO, Zollikon. Sent 4 Nov 23:50, chased 10 Nov; Jacqueline Yildirim (Partner, a CC) replied 11 Nov 10:52 - multifamily of this nature is outside their core focus, but INVITED FUTURE DEAL FLOW in writing. Keep for a non-multifamily or non-Texas deal. The send opens 'Hey Hi Frank and team' - same merge seam as the Hadley thread."
+  },
+  {
+   "channel": "direct",
+   "firm": "Wolverton Capital",
+   "person": "Dennis Allen",
+   "email": "dennis@wolvertoncapital.com",
+   "also": [
+    "ryan@wolvertoncapital.com"
+   ],
+   "sent": "2026-10-30",
+   "outcome": "replied",
+   "note": "FIVE touches (30 Oct, 2 Nov, 4 Nov x2, 5 Nov, 10 Nov). TWO OF THEM NEVER SENT - both 4 Nov attempts bounced with 'You have reached a limit for sending mail.' Ryan Johnson (a CC) replied 11 Nov after returning from holiday and booked Fri 13 Nov 11:00 CST. He has only seen the 30 Oct bullets."
+  },
+  {
+   "channel": "direct",
+   "firm": "Kantara Capital",
+   "person": "David Walsh",
+   "email": "dwalsh@kantaracapital.com",
+   "also": [
+    "gnewman@kantaracapital.com"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Cold send 6 Nov on the 'Houston Multifamily LP Equity' subject, Graeme Newman copied. Chased 12 Nov 07:42; Walsh passed with 'No thanks' at 07:59. Send opens 'Hey Hi David and Graeme' - fourth instance of the merge-seam fault."
+  },
+  {
+   "channel": "direct",
+   "firm": "Lorton",
+   "person": "Leeanda Paino",
+   "email": "leeanda@lorton.com.au",
+   "also": [
+    "alexii@lorton.com.au"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Sydney family office. Cold send 6 Nov, chased 12 Nov; passed on mandate - no property outside Australia."
+  },
+  {
+   "channel": "direct",
+   "firm": "Larchpoint Capital",
+   "person": "David Lindstrom",
+   "email": "david.lindstrom@larchpoint.com",
+   "also": [
+    "Gilles.Crouspeyre@larchpoint.com",
+    "Ed.Williamson@larchpoint.com"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "London LLP, 61 Aldwych. Cold send 6 Nov, chased 12 Nov 08:49; 'No thank you' one minute later."
+  },
+  {
+   "channel": "direct",
+   "firm": "Miras Invest",
+   "person": "Loganathan Balaguru",
+   "email": "loganathan@mirasinvest.com",
+   "also": [],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Cold send 6 Nov on the 'Houston Multifamily LP Equity' subject, chased 12 Nov. Passed at 10:31 - the firm does not invest in real estate at all. Mandate miss, not a deal judgement."
+  },
+  {
+   "channel": "direct",
+   "firm": "Myer Family Investments",
+   "person": "Russell Bullen",
+   "email": "russell.bullen@myerfamilyinvestments.com.au",
+   "also": [
+    "michael.hoffmann@myerfamilyinvestments.com.au",
+    "victoria.duthy@myerfamilyinvestments.com.au"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Melbourne family office. Cold send 6 Nov, chased 12 Nov; outside mandate."
+  },
+  {
+   "channel": "direct",
+   "firm": "North Horizon",
+   "person": "Xiaobo Wang",
+   "email": "xiaobo.wang@northhorizon.com",
+   "also": [
+    "steven.wang@northhorizon.com",
+    "cindy.zhang@northhorizon.com"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Cold send 6 Nov, chased 12 Nov; passed on bandwidth, not on the deal. Keep for the next one."
+  },
+  {
+   "channel": "direct",
+   "firm": "Novel TMT Capital Partners",
+   "person": "Andrew L. Fine",
+   "email": "andrew@noveltmt.com",
+   "also": [
+    "matt@noveltmt.com"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "New York TMT investor - technology, media and telecoms. Real estate is not their focus. Should never have been on the list."
+  },
+  {
+   "channel": "direct",
+   "firm": "Workplay Ventures",
+   "person": "Shaurya Mehta",
+   "email": "shaurya@workplay.ventures",
+   "also": [
+    "niko@workplay.ventures",
+    "mark@super.io"
+   ],
+   "sent": "2026-11-12",
+   "outcome": "replied",
+   "note": "Mark Pincus's family office. Sent 12 Nov 10:34 to katie@workplay.ventures (Chief of Staff) with Pincus and Mehta copied; Katie auto-replied that she has left and pointed to niko@. Mehta replied from the CC line six hours later asking for materials. DO NOT mail katie@ again."
+  },
+  {
+   "channel": "direct",
+   "firm": "Hector Ventures",
+   "person": "Paul Yde",
+   "email": "paul.yde@hectorventures.com",
+   "also": [
+    "mark.yde@hectorventures.com"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Cold send 6 Nov, chased 10 Nov; 'not interested' 12 Nov, no reason."
+  },
+  {
+   "channel": "direct",
+   "firm": "The Kriegsman Family Office",
+   "person": "Steven A. Kriegsman",
+   "email": "skriegsman1@gmail.com",
+   "also": [],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Cold send 6 Nov, chased 12 Nov; 'no interest' same day."
+  },
+  {
+   "channel": "direct",
+   "firm": "Maxus Properties",
+   "person": "Taylor Stephen",
+   "email": "tstephen@maxusprop.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Introduced by Todd Hanson 13 Nov 04:16 ('Houston connection'). Leads acquisitions and dispositions; Maxus just acquired a 324-unit property in NW Houston. A BUYER, not an LP allocator - Hanson framed it as two Houston buyers who should know each other. No send yet."
+  },
+  {
+   "channel": "direct",
+   "firm": "Chief Partners LP",
+   "person": "Bill Vanderstraaten",
+   "email": "billv@chiefpartnerslp.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Benson Capital Partners",
+   "person": "Remi Bourque",
+   "email": "remi@bensoncap.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Breakaway Capital",
+   "person": "Warren Woo",
+   "email": "warren.woo@breakawaycap.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Bonit Capital",
+   "person": "Jonas Ahlen",
+   "email": "jonas@bonitcapital.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Casadona Group",
+   "person": "Lorenzo Donadeo",
+   "email": "ldonadeo@casadonagroup.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "BBRC",
+   "person": "Joseph Kim",
+   "email": "jkim@bbrcpe.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "CPC, LLC",
+   "person": "Steven Swartzman",
+   "email": "sswartzman@cpc.llc",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Avalon",
+   "person": "John Hemmingstad",
+   "email": "jhemmingstad@avalon.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "BCN Real Estate Group",
+   "person": "Alec Raggio",
+   "email": "araggio@bcnreg.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Acacia",
+   "person": "Per Skyttvall",
+   "email": "per.skyttvall@acacia.nu",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Clarence Capital Partners",
+   "person": "Gregory Green",
+   "email": "ggreen@clarencecapitalpartners.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Gamnic",
+   "person": "Mario Ubillus",
+   "email": "marioubillus@gamnic.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send, replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Abacon Capital",
+   "person": "Andreas Steer",
+   "email": "steer@abacon.capital",
+   "also": [],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Cold send 3 Nov, chased 9 and 13 Nov; replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Copper Lion Capital",
+   "person": "Natasha Ali",
+   "email": "nali@copperlioncapital.com",
+   "also": [],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Cold send 3 Nov, chased 9 and 13 Nov; replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "75 & Sunny Ventures",
+   "person": "Spencer Rascoff",
+   "email": "spencer@75andsunny.vc",
+   "also": [],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Cold send 3 Nov, chased 13 Nov; replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Bakala Capital",
+   "person": "Kris Kapoor",
+   "email": "kris.kapoor@bakalacapital.com",
+   "also": [],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Cold send 3 Nov, chased 13 Nov; replied 13 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Carroll Capital",
+   "person": "Will Duplock",
+   "email": "William@carrollcapital.com",
+   "also": [
+    "Leigh@carrollcapital.com",
+    "lin@carrollcapital.com"
+   ],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send 13 Nov; mandate pass same day - does not invest in real estate."
+  },
+  {
+   "channel": "direct",
+   "firm": "CC Industries (Henry Crown and Company)",
+   "person": "Jason J. Green",
+   "email": "jgreen@crown-chicago.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send; passed same day."
+  },
+  {
+   "channel": "direct",
+   "firm": "Erlen Capital",
+   "person": "Bruno Schneller",
+   "email": "bruno.schneller@erlencapital.com",
+   "also": [],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send; passed same day."
+  }
+ ],
+ "carveouts": [
+  {
+   "firm": "Abod Capital"
+  },
+  {
+   "firm": "Aureon Partners (formerly Quilvest)"
+  },
+  {
+   "firm": "Calibogue Capital"
+  },
+  {
+   "firm": "Corten Real Estate Partners"
+  },
+  {
+   "firm": "JW Capital"
+  },
+  {
+   "firm": "Lakerock"
+  },
+  {
+   "firm": "Monocle Group"
+  },
+  {
+   "firm": "NCA Realty Partners"
+  },
+  {
+   "firm": "ReCap - RGA (Reinsurance Group of America)"
+  },
+  {
+   "firm": "Triangle Capital Group"
+  },
+  {
+   "firm": "Viking Partners"
+  }
+ ],
+ "suppressed": [
+  {
+   "firm": "Abrams Capital",
+   "person": "David Abrams",
+   "why": "\"Please stop emailing us.\" Structural and permanent."
+  },
+  {
+   "firm": "Connelly Capital",
+   "person": "Jon Connelly",
+   "why": "\"We've never met - how did you get these emails?\" linking Canada's anti-spam legislation. A CASL complaint, not a pass. Do not mail connelly.ca again. ESCALATED 2 Nov: mailed a THIRD time at 18:00 despite the 27 Oct no-contact entry, and he answered - \"I already replied to you on the 27th asking how we've met (we haven't). Your AI obviously isn't working very well. Take me off your mailing list.\" The cause is mechanical and now proven: fo_SUPPRESSED.csv, the file the sends screen against, holds 40 pre-send exclusions and NONE of the campaign opt-outs. connelly.ca was never written into it. Until that file carries the opt-outs, every follow-up wave re-mails everyone who asked to be removed from the last one. CASL applies and he has now objected twice in writing."
+  },
+  {
+   "firm": "Progeny 3",
+   "person": "Michael-Ann M. McAboy",
+   "why": "\"Remove our emails, please\" - 30 Oct, off the v5 send. Plural, so the whole domain: mmcaboy@progeny3.com and eswitaj@progeny3.com. Not a pass on the deal; an opt-out. Do not mail progeny3.com again."
+  },
+  {
+   "firm": "KIN Group (Geminder Family Office)",
+   "person": "Nick Perkins",
+   "why": "\"no, remove me\" - 31 Oct, off the family-office send, from the CEO. Singular, so at minimum nick@kingroup.com.au; the CEO answered for the firm, so treat Melbourne as closed. Not a pass on the deal; an opt-out."
+  },
+  {
+   "firm": "Schwaben Capital Group",
+   "person": "Albrecht Weller",
+   "why": "\"How do I know you ???\" - 2 Nov, off the family-office send, from the President and CEO. Toronto, so CASL applies, and this is the second Canadian recipient after Connelly Capital to challenge where we got the address. Not a pass on the deal and not yet a complaint, but the same shape as the one that became one. Stop mailing schwaben.ca, and the question of whether to pull the remaining Canadian family offices has now been asked three times without an answer."
+  },
+  {
+   "firm": "Affinius Capital",
+   "person": "Eric Cohen",
+   "why": "\"This is not a fit - pls remove us.\" - 2 Nov, off the PE / institutional send. An explicit removal request, so it goes here rather than in the reply ledger. Two caveats worth Zamir's judgement: Cohen is Managing Director and Co-Head of DEBT Origination, not the equity decision-maker, and the named recipient - Craig Solomon, Vice Chairman and CIO - never answered. Treating it as firm-level to be safe. Note also that the master roster still carries three stale squaremilecapital.com rows that are now Affinius, so suppress on the firm, not just the domain. ESCALATED 4 Nov: mailed AGAIN on 30 Oct, 2 Nov and 4 Nov despite the standing no-contact entry. Eric Cohen answered a second time - \"We already passed. Please remove us from the distribution\" - with Craig Solomon and Jeff Fastov copied. Same mechanical failure as Connelly Capital: the opt-out lives in this file but never reached the list the sends screen against, so every wave re-mails it. Two firms have now objected twice.  |  10 NOV - THEY WERE MAILED AGAIN, AND THE SUPPRESSION IS WHY IT FAILED. Eric Cohen wrote at 17:45: 'Pls remove Affinius Capital.' That is the THIRD removal demand from this firm, after 2 November and the 4 November escalation with Craig Solomon and Jeff Fastov copied. THE MECHANISM IS A LEGACY DOMAIN. This suppression was keyed to affiniuscapital.com. The thread that is still being mailed runs on SQUAREMILECAPITAL.COM - csolomon@ as the addressee, with ecohen@ and jfastov@ copied - because Affinius is the rebranded Square Mile Capital Management and the roster still carries the old domain as a separate row. Sends went out on 30 Oct, 2 Nov, 4 Nov and again on 10 Nov at 15:43, eight days after the firm was suppressed. Suppressing by address or domain does not work when a firm has two of them. SUPPRESS BOTH DOMAINS NOW: csolomon@, ecohen@ and jfastov@squaremilecapital.com alongside the affiniuscapital.com addresses, and sweep the roster for any other firm carrying a pre-rebrand domain. One more thing worth Zamir's eye rather than mine. His reply at 17:43 was 'Hey Eric please remove the Re:external and respond inline and it will stop. I'll remove you from further lists.' A third removal demand from a managing director at a firm that has already escalated once is a moment for an unqualified apology, not instructions about his email client. Cohen's answer two minutes later was four words."
+  },
+  {
+   "firm": "Palm Ventures (Palmer Family Office)",
+   "person": "Robert Pflieger",
+   "why": "\"Please stop.\" - 2 Nov, off the family-office send, from Greenwich. Two words after three touches on 27 Oct, 30 Oct and 2 Nov, and the third one is what broke it. Not a view on the deal; a cadence complaint. Suppress palmventures.com. This is the second removal demand today after Affinius and the third provenance or opt-out incident counting Schwaben, all three produced by the same Monday bump."
+  },
+  {
+   "firm": "Next Titan Capital",
+   "person": "Michael Mook",
+   "why": "\"Please remove me from this email. Thanks. My focus is only cannabis\" - 2 Nov, off the family-office send, from the COO and co-founder. Third touch. A cannabis investor on a US real-estate family-office list is a sourcing error, not a near miss. Suppress nexttitancapital.com. This is the third removal demand today after Affinius and Palm Ventures."
+  },
+  {
+   "firm": "The Family Office Co. BSC (Bahrain)",
+   "person": "Abdulmohsin Al Omran",
+   "why": "\"Pls take me out of your list\" - 2 Nov, off the family-office send, third touch. Regulated by the Central Bank of Bahrain. Suppress tfoco.com including y.shabeeb@ and a.bukhari@. Fourth removal demand today after Affinius, Palm Ventures and Next Titan, and the fifth counting Connelly's repeat."
+  },
+  {
+   "firm": "Brainvest",
+   "person": "Laurent Cudre-Mauroux",
+   "why": "\"Please take me out of your distribution list !\" - 2 Nov, off the family-office send, third touch, Switzerland. Fifth removal demand of the day after Affinius, Palm Ventures, Next Titan and The Family Office Co, and the sixth incident counting Connelly's repeat objection. Suppress brainvest.com."
+  },
+  {
+   "firm": "Certina Group",
+   "email": null,
+   "note": "Dr. Hans Wehrmann, CEO, replied to the 3 Nov SFO send with a single word: 'Unsubscribe'. German firm (Grunwald, Bavaria) so GDPR applies. Suppress the whole certina-group.com domain - hans.wehrmann@, andras.kontz@ and stefan.brungs@ were all on the thread."
+  },
+  {
+   "firm": "Friba Investment",
+   "person": "Edzard Stock",
+   "why": "\"Zamir - pls take me off your mailing lists. Thx\" German firm, replied in German headers within seven minutes of the 4 Nov send. GDPR applies. Suppress the whole friba-investment.com domain: m.lobis@, e.stock@ and m.kallmeyer@ were all on the send."
+  },
+  {
+   "firm": "Dolby Family Ventures",
+   "person": "Andrew Krowne",
+   "why": "\"Remove us from all emails. We don't do real estate.\" The Managing Partner, within an hour of the 4 Nov send. A venture firm on a real-estate list - not a prospect at any point. Suppress dolbyventures.com: andrew@, pascal@ and alona@ were all on the send."
+  },
+  {
+   "firm": "Dundee Partners",
+   "person": "Sam Hendel",
+   "why": "\"Take us off this list, irrelevant\" - three minutes after the 4 Nov send. Suppress dundeepartners.com: jay@, leah@ and sam@ were all on the send."
+  },
+  {
+   "firm": "Fautores",
+   "person": "Michael L. Chindamo (Founder)",
+   "why": "\"Stop.\" One word, 4 Nov, off the GMass alias domain zmrcapitaltoday.com. Suppress mlchindamo@fautores.com on every domain and alias, not just the one he was mailed from."
+  },
+  {
+   "firm": "Paratus Financial",
+   "person": "Maxx Grisz",
+   "why": "\"Unsubscribe.\" 5 Nov, via the GMass alias domain zmrcapitalstart.com. Suppress on every domain and alias."
+  },
+  {
+   "firm": "Horizon21",
+   "person": "Daniel Sidler (Head of IT / CTO)",
+   "why": "\"As Head of IT/CTO, I am not the appropriate contact for investment opportunities of this nature. I kindly ask that you refrain from contacting me about similar topics in the future.\" 5 Nov, off the 4 Nov 16:00 send. Suppress daniel.sidler@horizon21.com ONLY - this is a wrong-contact routing error, not a firm-level no. Daniel Rode and Pascal Schmid were already cc'd on the same email and are the investment side; the Zurich firm itself has not answered and is not suppressed."
+  },
+  {
+   "firm": "Consolidated Press Holdings",
+   "person": "Lawrence Myers (Chief Executive Officer)",
+   "why": "\"Please remove me from this list.\" 9 Nov 12:45, from the CEO of Consolidated Press Holdings, 12 minutes after the 12:33 chase on a 3 November send. An explicit removal request, so lmyers@cph.com.au and amatrone@cph.com.au both come off - the chase went to Aldo Matrone with Myers copied, and it was the copied CEO who objected. Australian recipient, so the Spam Act applies to any further send; this is the second opt-out of the campaign to come from a jurisdiction with its own anti-spam statute, after the Connelly CASL complaint on 27 October. Suppress the domain."
+  },
+  {
+   "firm": "Ridgeline",
+   "person": "Trevor Heiner",
+   "why": "\"Not a fit, please remove us from your list.\" 9 Nov 14:23, 28 minutes after a first-touch send made at 11:54 the same morning - so this name was added to the list today and asked to be taken off today. An explicit removal request, so trevor@, ryan@ and todd@ridgeline.com all come off. Third opt-out of the campaign after Connelly (CASL) and Consolidated Press Holdings (Australia), and the first to arrive inside half an hour of the only email ever sent."
+  },
+  {
+   "firm": "Fingerboard Family Office",
+   "person": "Michael D. Shapiro (Associate General Counsel, Trusts & Estates)",
+   "why": "\"Not interested. Please remove me from your list.\" 10 Nov 14:29, just under two hours after the 12:37 chase on a 4 November send. An explicit removal request, so mshapiro@fbfo.com and MShapiro@fingerboard.law both come off - he was a CC and replied from the firm's legal domain rather than the one he was mailed at. NOTE THE SCOPE: he wrote 'remove me', not 'remove us', so this is read as personal rather than firm-wide. Alyssa Dondero (adondero@fbfo.com, the addressee) and b.saville@advance.com are not covered by the request and are left on, but a removal demand from the family office's own counsel is a poor footing for chasing his colleague - treat the firm as closed in practice. Fourth opt-out of the campaign after Connelly (CASL), Consolidated Press Holdings (Australia) and Ridgeline, and the first to come from a lawyer."
+  },
+  {
+   "firm": "247 Lookout",
+   "person": "Jeffrey Chin",
+   "why": "\"I'll pass on getting further info. Please remove me from all marketing and distribution lists.\" 10 Nov 15:36, ONE MINUTE AND FORTY-FOUR SECONDS after a first-touch send made at 15:34 the same afternoon. The fastest opt-out of the campaign by a wide margin, and the second name added to the list and removed from it on the same day, after Ridgeline. The send went to issac@247lookout.com with jeffrey@ copied, and the copied party objected - so both addresses come off, and the request says 'all marketing and distribution lists', which is broader than this campaign. Fifth opt-out after Connelly (CASL), Consolidated Press Holdings (Australia), Ridgeline and Fingerboard."
+  },
+  {
+   "firm": "Foinco (Fossum family)",
+   "person": "Anne Birgitte Fossum",
+   "why": "\"Please delete all Foinco adresses - Foinco is not investing!\" 10 Nov 15:18, two and a half hours after the 12:44 chase on a 4 November send. An explicit deletion demand covering the whole firm, not one address, with an exclamation mark - so anne.bi.fossum@foinco.no comes off along with every other foinco.no address on the roster. She replied from abf@abisco.no, a separate Norwegian vehicle, which is NOT covered by the request and should not be mailed either on the strength of it. The third address on the thread, stig.eide.sivertsen@online.no, is a personal account on a consumer domain - another sign of how this row was assembled. Sixth opt-out of the campaign."
+  },
+  {
+   "firm": "Webb Investment Network (winfunding.com)",
+   "person": "Jeremy Schneider",
+   "why": "\"Thank you but this is not a fit for our team. Please kindly remove us from your distribution list.\" 10 Nov 17:12, two hours after a first-touch send at 09:05 the same morning. 'Remove us', so the whole firm comes off: jeremy@, irene@ and dena@winfunding.com. Third name this week added to the list and removed from it on the same day, after Ridgeline and 247 Lookout. Seventh opt-out of the campaign."
+  },
+  {
+   "firm": "Graham Partners",
+   "person": "Bill McKee",
+   "why": "\"Please Unsubscribe me. Thanks.\" - put in the SUBJECT LINE with an empty body, 11 Nov 21:26, answering the 10 Nov chase on a 4 November send. Sent to BMcKee@grahampartners.net with Christina Morin (cmorin@grahampartners.net) and Mike Granbois (mike_granbois@grcap.com) copied; suppress all three, and note that Granbois sits on a DIFFERENT domain (grcap.com), so a domain-level block on grahampartners.net alone would miss him - the same fault that let Affinius be mailed four times after suppression. EIGHTH OPT-OUT OF THE CAMPAIGN, after Connelly (CASL), Consolidated Press Holdings, Ridgeline, Fingerboard, 247 Lookout, Foinco and Webb Investment Network. The send that drew it opens \"Hey Hi William and team\" - the same doubled-greeting merge seam that went to Hadley, whose Partner then asked where ZMR got their contact details, and to Guetermann. THIRD instance of the identical fault, all three to family offices or private investors, and this one addressed a man who signs himself Bill as \"William\". The template is now the common factor in three separate bad outcomes."
+  },
+  {
+   "firm": "ANH Hausbesitz (Malte Sittig, second address)",
+   "person": "Malte Sittig",
+   "why": "\"I have already answered you on a separate mail chat. Please stop spamming this one!!\" - 13 Nov 12:03. THIS IS A ROUTING REQUEST, NOT AN OPT-OUT, and it is the same person as the LIVE Scope Hanson row: suppress malte.sittig@anh-hausbesitz.de plus andreas.bremke@anh-hausbesitz.de and robin.steigerwald@anh-hausbesitz.de, and KEEP ms@scopehanson.com, where he is currently reviewing the package and replied courteously at 09:55 the same morning. Cause: he was chased on the ANH thread at 10:12, seventeen minutes after replying on the Scope Hanson one. Same person, two domains, no dedupe against who has already answered - the same fault as Affinius (mailed four times after suppression) and Granbois (grcap.com outside a grahampartners.net block). Treat like Honour Brimmers: a channel to drop, not a name to lose."
+  },
+  {
+   "firm": "Bakala Capital (Pierson and Heren only)",
+   "person": "Meghan Pierson / Seth Heren",
+   "why": "\"Please remove Meghan and Seth from your distribution list\" - Kris Kapoor, CIO, 13 Nov 17:35. A ROUTING REQUEST, NOT AN OPT-OUT: Kapoor says in the same email that he does not mind receiving opportunities himself. Suppress meghan.pierson@bakalacapital.com and seth.heren@bakalacapital.com; KEEP kris.kapoor@bakalacapital.com, whose row sits as a live pass on multifamily exposure. Cause: the 3 Nov send was addressed to Pierson with Kapoor and Heren on CC - the decision-maker was the copy, not the addressee, which is the same fault behind the Brimmers and Sittig routing requests."
+  }
+ ],
+ "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",
+ "carveout_note": "RJL Capital Advisors (Jonathan Livi) proposed 34 groups on 22 Oct. Zamir struck the 23 ZMR already knew and confirmed on 26 Oct that RJL may approach only the eleven listed here, and that the terms do not apply to the struck names. These eleven are RJL's exclusively for 30 days from 26 Oct (to ~25 Nov), had never been sent the deal, and are covered by a non-disclosure clause - do not name them to any third party. WORTH KNOWING: the letter as drafted applied the 2% fee AND a non-circumvention clause to all 34, plus \"any other group that RJL Capital Advisors may introduce.\" Sixteen of the 34 are firms ZMR had already reached on its own - among them Equity Resource (currently at materials), BIG Equity (reviewing), CIM (referred), Corebridge, Eastham, Tramview, Arc Capital, Blue Vista, Brasa, Atlantic Creek, Eagle Realty, JDI, Marble, Midloch, Pennybacker and SilverCap. The only thing carving those out is Zamir's 26 Oct email, not a countersigned amendment. If RJL ever claims the fee on one of them, that email is the whole defence. Cheap to close in writing now.",
+ "campaigns": [
+  {
+   "id": "54006506",
+   "channel": "familyoffice",
+   "label": "Family office blast",
+   "subject": "Depreciation | Houston 2023 Vintage | $135K/Door | $12M Equity | 21.5% IRR",
+   "sent": "2026-10-26T21:34:18Z",
+   "recipients": 634,
+   "opens": 12,
+   "replies": 12,
+   "unsub": 0,
+   "bounces": 14,
+   "blocks": 5
+  },
+  {
+   "id": "54060721",
+   "channel": "familyoffice",
+   "label": "Family office follow-up (stage 1)",
+   "subject": "Depreciation | Houston 2023 Vintage | $135K/Door | $12M Equity | 21.5% IRR",
+   "sent": "2026-10-29T15:53:21Z",
+   "recipients": 330,
+   "opens": 5,
+   "replies": 5,
+   "unsub": 0,
+   "bounces": 2,
+   "blocks": 8
+  },
+  {
+   "id": "54069404",
+   "channel": "peblast",
+   "label": "PE / institutional send (v5)",
+   "subject": "Houston 2023 Vintage | +LTO | $135K/Door | $12M Equity | 21% IRR",
+   "sent": "2026-10-29T23:15:21Z",
+   "recipients": 286,
+   "opens": 13,
+   "replies": 13,
+   "unsub": 0,
+   "bounces": 5,
+   "blocks": 13
+  }
+ ]
+}
