@@ -5355,5 +5355,24 @@
    "lastOut": "2026-11-15",
    "ask": "Closed on fit and priority. Nothing owed."
   }
+ },
+ {
+  "firm": "Hinderer",
+  "person": "Marie Hinderer",
+  "title": null,
+  "email": "Marie@hinderer.uk",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-15T14:50:16Z",
+  "quote": "I appreciate the cold outreach but this does not fit into our portfolio. All the best",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "UK family office. Zamir mailed Stella Hinderer on Friday at 13:57; Marie answered for the house on Sunday afternoon. Gracious - she thanks him for the cold outreach before declining - but it is a portfolio-fit no with nothing named and no door left open.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-13",
+   "ask": "Closed on portfolio fit. Nothing owed."
+  }
  }
 ]

@@ -3952,6 +3952,18 @@
    "sent": "2026-11-03",
    "outcome": "replied",
    "note": "Cold send 3 Nov, chased; passed on fit 15 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Hinderer",
+   "person": "Marie Hinderer",
+   "email": "Marie@hinderer.uk",
+   "also": [
+    "Stella@hinderer.uk"
+   ],
+   "sent": "2026-11-13",
+   "outcome": "replied",
+   "note": "Cold send 13 Nov to Stella Hinderer; Marie answered for the house 15 Nov - portfolio fit."
   }
  ],
  "carveouts": [
