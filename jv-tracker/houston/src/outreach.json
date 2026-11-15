@@ -3939,6 +3939,19 @@
    "sent": "2026-11-13",
    "outcome": "replied",
    "note": "Cold send; passed same day."
+  },
+  {
+   "channel": "direct",
+   "firm": "Alta Advisers",
+   "person": "Alexander J Young",
+   "email": "alexander.young@altaadvisers.co.uk",
+   "also": [
+    "Kojah.Jarrett@altaadvisers.co.uk",
+    "bob.lutgen@altaadvisers.co.uk"
+   ],
+   "sent": "2026-11-03",
+   "outcome": "replied",
+   "note": "Cold send 3 Nov, chased; passed on fit 15 Nov."
   }
  ],
  "carveouts": [
