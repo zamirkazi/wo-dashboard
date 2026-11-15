@@ -2677,16 +2677,18 @@
   "title": null,
   "email": "mfinn@mayfieldholding.com",
   "channel": "peblast",
-  "stage": "question",
-  "ts": "2026-11-02T21:45:15Z",
-  "quote": "What are you asking for? LP capital? Flipping the contract? Do you have a teaser for the property?",
-  "tags": [],
-  "heat": 3,
-  "action": "Send him the three-pager tonight and answer the question in one line: LP equity, $11.77M at 90/10, not a contract assignment. Two things worth noting. First, this arrived by forward - Zamir mailed Michael Bickford at Round Hill Capital on 30 Oct and Finn, at an affiliated holding company, is the one who picked it up and engaged, which is the same cc-and-forward dynamic that produced most of today's replies. Second, and more useful: a fresh reader could not tell from the email what was being asked for, and wondered whether we were flipping the contract. The subject line leads with '$12M Equity | 21% IRR' and the body never says the words 'LP equity' until the seventh bullet. That is worth fixing before the next wave - if one reader said it, others thought it and moved on.",
+  "stage": "pass",
+  "ts": "2026-11-15T03:40:32Z",
+  "quote": "What are you asking for? LP capital? Flipping the contract? Do you have a teaser for the property? | 15 Nov 03:40: \"We can't come in at as LP capital. Good luck with it.\"",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "action": "Send him the three-pager tonight and answer the question in one line: LP equity, $11.77M at 90/10, not a contract assignment. Two things worth noting. First, this arrived by forward - Zamir mailed Michael Bickford at Round Hill Capital on 30 Oct and Finn, at an affiliated holding company, is the one who picked it up and engaged, which is the same cc-and-forward dynamic that produced most of today's replies. Second, and more useful: a fresh reader could not tell from the email what was being asked for, and wondered whether we were flipping the contract. The subject line leads with '$12M Equity | 21% IRR' and the body never says the words 'LP equity' until the seventh bullet. That is worth fixing before the next wave - if one reader said it, others thought it and moved on.  15 NOV - CLOSED, AND THE ANSWER IS THE SAME ONE HIS FIRST QUESTION HINTED AT. Finn asked on 2 November 'LP capital? Flipping the contract?' - he got the OM within a minute, sat on it for thirteen days, took a 12 November chase, and has now answered at 3:40 on a Sunday morning: they cannot come in as LP capital. The ambiguity he flagged in the original send was not idle; he was looking for a different structure entirely and the package could not give him one. NOTHING MORE TO DO HERE, but the lesson in his first reply still stands unfixed: the subject line leads with '$12M Equity | 21% IRR' and the body does not say 'LP equity' until the seventh bullet. He is the one reader who said out loud that he could not tell what was being asked for.",
   "followup": {
-   "owed": "them",
-   "lastOut": "2026-11-02",
-   "ask": "Zamir answered in one minute with the OM; Finn said they would take a look. Their move."
+   "owed": "none",
+   "lastOut": "2026-11-12",
+   "ask": "Closed - cannot write LP capital. Nothing owed. Came through a Round Hill Capital forward, so the relationship is Bickford's, not ours."
   },
   "has": "package"
  },
