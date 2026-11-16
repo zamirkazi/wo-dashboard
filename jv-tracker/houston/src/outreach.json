@@ -4235,6 +4235,16 @@
    "sent": "2026-11-04",
    "outcome": "replied",
    "note": "Teaser 4 Nov, follow-ups 9 and 16 Nov; passed 16 Nov - real estate handled directly by an unnamed subsidiary."
+  },
+  {
+   "channel": "direct",
+   "firm": "RPM Living",
+   "person": "Andrew Dick",
+   "email": "Andrew.dick@rpmliving.com",
+   "also": [],
+   "sent": "2026-11-16",
+   "outcome": "silent",
+   "note": "Zamir sent the deck and underwriting model direct, 16 Nov 18:59, subject \"Houston Deal Equity\" - NOT from a ZMR domain but from his PERSONAL GMAIL (zamirkazi87@gmail.com), copying zamir@zmrcapital.com. Sixth sending identity on this raise after zmrcapital.com, zmrcapitaluse.com, getzmrcapital.com, zmrcapitalget.com and todayzmrcapital.com. RPM Living manages 16 of ZMR's properties, so this is the operator relationship being worked as an equity channel rather than a cold LP send. Awaiting reply."
   }
  ],
  "carveouts": [
