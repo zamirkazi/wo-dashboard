@@ -4186,6 +4186,29 @@
    "sent": "2026-11-06",
    "outcome": "replied",
    "note": "Teaser 6 Nov, follow-ups 12 and 16 Nov; passed 16 Nov - B2B software only."
+  },
+  {
+   "channel": "direct",
+   "firm": "LeFrak",
+   "person": "David Twerdun",
+   "email": "dtwerdun@lefrak.com",
+   "also": [
+    "HLeFrak@lefrak.com",
+    "RPAPERT@lefrak.com"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Teaser 6 Nov to Harrison LeFrak, follow-ups 12 and 16 Nov; Twerdun passed 16 Nov - wrong product type and market, but named South Florida, Charlotte and Nashville as targets."
+  },
+  {
+   "channel": "direct",
+   "firm": "SOJE Capital",
+   "person": "John Pinto",
+   "email": "john@sojecapital.com",
+   "also": [],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Teaser 4 Nov, follow-ups 9 and 16 Nov; passed 16 Nov - no longer allocating."
   }
  ],
  "carveouts": [
@@ -4363,6 +4386,16 @@
    "firm": "Parly",
    "person": "Stefano Villa (for the firm)",
    "why": "\"Please do not keep us in mind for any deal - we do not invest in real estate\" - Stefano Villa, 16 Nov 13:31, answering from CC for Michka Kovats with Casper Fluitman also copied. Not a pass but a standing instruction covering FUTURE deals as well as this one, so it belongs here rather than in replies.json. Suppress the parly.ch domain: mk@parly.ch, stefano@parly.ch, casper@parly.ch. Second firm-wide removal today after Lubar & Co, and the seventh CC-over-addressee reply - the 9 Nov teaser went to Kovats with the two decision-makers on copy, then was chased on 16 Nov."
+  },
+  {
+   "firm": "Iron Creek",
+   "person": "John Bingaman (for the firm)",
+   "why": "\"Please remove us. We don't invest in real estate.\" - John Bingaman, 16 Nov 15:41, answering from CC for Jackson Dooling with Jeff Montagna also copied. A firm-wide removal demand, so it belongs here and not in replies.json. Suppress john@ironcreek.com, jackson@ironcreek.com and jeff@ironcreek.com. Third firm-wide removal of 16 Nov after Lubar & Co and Parly, and the ninth CC-over-addressee reply of the day."
+  },
+  {
+   "firm": "Dragonfly Ventures",
+   "person": "Annabelle White, Co-CEO",
+   "why": "\"No thanks, I am not interested. Please remove me from your list.\" - Annabelle White, Co-CEO, 16 Nov 15:23. An explicit removal demand; suppress annabelle@dragonflyventures.ca. NOTE THE .ca DOMAIN: this is a CANADIAN recipient asking to be removed, which is the exact situation that produced the Connelly Capital CASL complaint on 27 Oct. Zamir has been asked three times whether to pull the remaining Canadian family offices from future sends and has not answered; this is the second Canadian removal request since that question was raised."
   }
  ],
  "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",

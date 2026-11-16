@@ -5741,5 +5741,45 @@
    "lastOut": "2026-11-16",
    "ask": "Closed - wrong asset class. Drop from the list."
   }
+ },
+ {
+  "firm": "LeFrak",
+  "person": "David Twerdun",
+  "title": "Managing Director, Acquisitions and Capital Markets",
+  "email": "dtwerdun@lefrak.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-16T15:13:30Z",
+  "quote": "This property does not fit our multifamily investment profile. We are interested in large-format urban Type-1 construction (typically high-rise) multifamily in a few select markets, including South Florida, Charlotte and Nashville.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "THE MOST USEFUL NO OF THE DAY, AND THE ONLY ONE FROM A REAL MULTIFAMILY BUYER. Twerdun runs acquisitions and capital markets at LeFrak and gives the screen precisely: large-format urban Type-1 high-rise, in South Florida, Charlotte and Nashville. A 252-unit garden-style suburban Houston asset fails on product type AND on market, so this is a clean profile miss rather than a view on Houston or on the basis. Worth keeping: he named three target markets, which makes LeFrak a real prospect for a future ZMR deal that fits - ZMR's own Florida book is the obvious overlap. Third touch (6 Nov teaser to Harrison LeFrak, 12 Nov follow-up, 16 Nov call ask), Richard Papert copied; Twerdun answered from CC. Send carried the merge seam \"Hey Hi {Name} and team\" and the sixth number set (21.1% IRR / 2.30x / 9.0% CoC / 5.94% coupon / Mid Jan Close).",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed on product type and market, NOT on Houston. Keep Twerdun for a future urban high-rise deal in South Florida, Charlotte or Nashville."
+  }
+ },
+ {
+  "firm": "SOJE Capital",
+  "person": "John Pinto",
+  "title": null,
+  "email": "john@sojecapital.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-16T15:41:03Z",
+  "quote": "Thanks, but no longer allocating.",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "SOJE Capital LLC / Hinsdale LLC / SOJE Fund LP. \"No longer allocating\" is a fund-cycle state, not a view on the deal - closer to the Timing-Revisit posture than to a pass. Third touch (4 Nov, 9 Nov, 16 Nov). Send carried the merge seam \"Hey Hi {Name} and team\" and the sixth number set (21.1% IRR / 2.30x / 9.0% CoC / 5.94% coupon / Mid Jan Close).",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed because they are not deploying at all. Revisit on a future fund cycle, not this deal."
+  }
  }
 ]
