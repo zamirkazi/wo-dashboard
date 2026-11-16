@@ -4015,6 +4015,20 @@
    "sent": "2026-11-04",
    "outcome": "replied",
    "note": "Teaser 4 Nov, follow-ups 9 and 16 Nov; passed 16 Nov - out of thesis, venture firm."
+  },
+  {
+   "channel": "direct",
+   "firm": "Nicrone UK",
+   "person": "Laura Lavers",
+   "email": "laura.lavers@nicrone.co.uk",
+   "also": [
+    "ben.goldsmith@nicrone.co.uk",
+    "edward.stroud@nicrone.co.uk",
+    "bryony.gee@nicrone.co.uk"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Teaser 6 Nov to Ben Goldsmith, follow-ups 12 and 16 Nov; CEO Laura Lavers passed 16 Nov - US residential not a current priority."
   }
  ],
  "carveouts": [
@@ -4182,6 +4196,11 @@
    "firm": "Bakala Capital (Pierson and Heren only)",
    "person": "Meghan Pierson / Seth Heren",
    "why": "\"Please remove Meghan and Seth from your distribution list\" - Kris Kapoor, CIO, 13 Nov 17:35. A ROUTING REQUEST, NOT AN OPT-OUT: Kapoor says in the same email that he does not mind receiving opportunities himself. Suppress meghan.pierson@bakalacapital.com and seth.heren@bakalacapital.com; KEEP kris.kapoor@bakalacapital.com, whose row sits as a live pass on multifamily exposure. Cause: the 3 Nov send was addressed to Pierson with Kapoor and Heren on CC - the decision-maker was the copy, not the addressee, which is the same fault behind the Brimmers and Sittig routing requests."
+  },
+  {
+   "firm": "Lubar & Co",
+   "person": "Vince Shiely (for the whole firm)",
+   "why": "\"Please remove all of us from distribution.\" - Vince Shiely, 16 Nov 11:01, replying from CC with David Bauer and founder Sheldon Lubar also copied. A FIRM-WIDE OPT-OUT, not a routing request: \"all of us\" covers shiely@lubar.com, Bauer@lubar.com and Shel@lubar.com. Suppress the lubar.com domain. Cause is the same as Brimmers, Sittig, Kapoor and Nicrone - the 6 Nov send went to David Bauer with the seniors on CC, then was chased twice (12 Nov, 16 Nov 02:27) before anyone answered. Lubar is a real Milwaukee investment house, so this is a live LP prospect lost to send cadence rather than to the deal."
   }
  ],
  "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",

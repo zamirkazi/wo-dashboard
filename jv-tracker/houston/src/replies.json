@@ -5463,5 +5463,26 @@
    "lastOut": "2026-11-16",
    "ask": "Closed on thesis. Drop from the list."
   }
+ },
+ {
+  "firm": "Nicrone UK",
+  "person": "Laura Lavers",
+  "title": "Chief Executive Officer",
+  "email": "laura.lavers@nicrone.co.uk",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-16T10:20:31Z",
+  "quote": "Thank you for reaching out with respect to this investment opportunity. We're not currently prioritizing direct investment in US residential real estate, so will not take up your time unnecessarily with a call.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "UK investment house. Third touch (6 Nov teaser to Ben Goldsmith, 12 Nov follow-up, 16 Nov call ask); the CEO answered for the house over the addressee, with Bryony Gee copied - the fifth time in this wave the decision-maker was a CC rather than the To. A courteous allocation no: US residential is not a current priority, nothing about Houston, the basis or the numbers. \"Not currently prioritizing\" leaves the door open for a later cycle, unlike the out-of-thesis names. The send carried the merge seam \"Hey Hi Benjamin and team\" and the sixth number set (21.1% / 2.30x / 9.0% / 5.94% coupon / Mid Jan Close).",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed for this deal on allocation priority, not on the asset. Keep for a future cycle; do not chase."
+  }
  }
 ]
