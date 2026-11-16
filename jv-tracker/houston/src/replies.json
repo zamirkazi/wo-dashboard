@@ -5484,5 +5484,104 @@
    "lastOut": "2026-11-16",
    "ask": "Closed for this deal on allocation priority, not on the asset. Keep for a future cycle; do not chase."
   }
+ },
+ {
+  "firm": "Dom Capital Group",
+  "person": "David Ervin",
+  "title": null,
+  "email": "dervin@domcapitalgroup.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-16T11:55:49Z",
+  "quote": "Thanks for the message. We are not looking for multi family at this time. But keep us posted on future deals in the event that it intersects with our allocation at the time.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 2,
+  "has": "teaser",
+  "action": "The one genuinely useful no in this batch: a real allocator who knows the asset class, is simply not in multifamily right now, and asks to be kept on the list. Third touch (4 Nov teaser to David and Jay, 9 Nov follow-up, 16 Nov call ask), Jay Owen and the deals@ inbox copied. Nothing about Houston, basis or returns - a timing/allocation no. Put him on the next-deal list rather than deleting him. Send carried the merge seam \"Hey Hi {Name} and team\" and the sixth number set (21.1% IRR / 2.30x / 9.0% CoC / 5.94% coupon / Mid Jan Close).",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed for Allen Genoa. He asked to be kept posted on future deals - honour that on the next one."
+  }
+ },
+ {
+  "firm": "NJJ Holding",
+  "person": "Anthony Maarek",
+  "title": null,
+  "email": "amaarek@njjholding.fr",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-16T11:49:22Z",
+  "quote": "sorry I thought I had replied | We are not interested | This is outside of our scope from a geography/asset class perspective",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Xavier Niel's French holding company - telecoms and operating businesses, not US real estate. Maarek answered for Jerome Payelleville, the addressee, with Timothee Camous copied; he believed he had already replied, so the 12 Nov and 16 Nov chases landed on a name that had mentally closed the file. Both geography AND asset class named. Send carried the merge seam \"Hey Hi {Name} and team\" and the sixth number set (21.1% IRR / 2.30x / 9.0% CoC / 5.94% coupon / Mid Jan Close).",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed on geography and asset class. Drop from the list."
+  }
+ },
+ {
+  "firm": "KLIWLA / Klitschko Ventures",
+  "person": "Kostya Kovalchuk",
+  "title": null,
+  "email": "kk@kliwla.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-16T11:42:10Z",
+  "quote": "Thanks for the opportunity. We will kindly pass.",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Wladimir Klitschko's venture vehicle; Klitschko himself and N. Steven were copied. A courteous pass from the phone with no reason named - nothing to learn from it and nothing to answer. Send carried the merge seam \"Hey Hi {Name} and team\" and the sixth number set (21.1% IRR / 2.30x / 9.0% CoC / 5.94% coupon / Mid Jan Close).",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed. No reason given, nothing owed."
+  }
+ },
+ {
+  "firm": "TS Partners",
+  "person": "Joseph Shmidman",
+  "title": "Managing Director",
+  "email": "jshmidman@tspartners.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-16T11:35:07Z",
+  "quote": "Thank you but not relevant for us.",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "US/Israel firm, Managing Director answering directly. Flat relevance no with nothing named - no Houston objection, no number objection. Send carried the merge seam \"Hey Hi {Name} and team\" and the sixth number set (21.1% IRR / 2.30x / 9.0% CoC / 5.94% coupon / Mid Jan Close).",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed. Nothing named, nothing owed."
+  }
+ },
+ {
+  "firm": "Lind Invest",
+  "person": "Henrik Lind",
+  "title": null,
+  "email": "lind@lind-invest.dk",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-16T11:30:29Z",
+  "quote": "Thx, but no interest.",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Danish investment house. The founder answered for Klaus Damkier Mortensen, the addressee, with Jonas Hojhus Jeppesen also copied - the sixth CC-over-addressee reply today. Four words, no reason. Send carried the merge seam \"Hey Hi {Name} and team\" and the sixth number set (21.1% IRR / 2.30x / 9.0% CoC / 5.94% coupon / Mid Jan Close).",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed. Nothing named, nothing owed."
+  }
  }
 ]

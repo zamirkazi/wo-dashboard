@@ -4029,6 +4029,68 @@
    "sent": "2026-11-06",
    "outcome": "replied",
    "note": "Teaser 6 Nov to Ben Goldsmith, follow-ups 12 and 16 Nov; CEO Laura Lavers passed 16 Nov - US residential not a current priority."
+  },
+  {
+   "channel": "direct",
+   "firm": "Dom Capital Group",
+   "person": "David Ervin",
+   "email": "dervin@domcapitalgroup.com",
+   "also": [
+    "jowen@domcapitalgroup.com",
+    "deals@domcapitalgroup.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Teaser 4 Nov to David Ervin and Jay Owen, follow-ups 9 and 16 Nov; passed 16 Nov - not in multifamily now, asked to be kept posted on future deals."
+  },
+  {
+   "channel": "direct",
+   "firm": "NJJ Holding",
+   "person": "Anthony Maarek",
+   "email": "amaarek@njjholding.fr",
+   "also": [
+    "j.payelleville@njjholding.fr",
+    "tcamous@njjholding.fr"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Teaser 6 Nov to Jerome Payelleville, follow-ups 12 and 16 Nov; Maarek passed 16 Nov - outside scope on geography and asset class."
+  },
+  {
+   "channel": "direct",
+   "firm": "KLIWLA / Klitschko Ventures",
+   "person": "Kostya Kovalchuk",
+   "email": "kk@kliwla.com",
+   "also": [
+    "wladimir.klitschko@ir.com",
+    "n.steven@klitschko-ventures.com"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Teaser 6 Nov, follow-ups 12 and 16 Nov; passed 16 Nov with no reason given."
+  },
+  {
+   "channel": "direct",
+   "firm": "TS Partners",
+   "person": "Joseph Shmidman",
+   "email": "jshmidman@tspartners.com",
+   "also": [],
+   "sent": "2026-11-09",
+   "outcome": "replied",
+   "note": "Teaser 9 Nov, follow-up 16 Nov; passed 16 Nov - not relevant."
+  },
+  {
+   "channel": "direct",
+   "firm": "Lind Invest",
+   "person": "Henrik Lind",
+   "email": "lind@lind-invest.dk",
+   "also": [
+    "kdm@lind-invest.dk",
+    "jhj@lind-invest.dk"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Teaser 6 Nov to Klaus Damkier Mortensen, follow-ups 12 and 16 Nov; founder Henrik Lind passed 16 Nov - no interest."
   }
  ],
  "carveouts": [
