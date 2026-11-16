@@ -5379,5 +5379,89 @@
    "lastOut": "2026-11-13",
    "ask": "Closed on portfolio fit. Nothing owed."
   }
+ },
+ {
+  "firm": "Navitas Capital (NL)",
+  "person": "Joey Nieuwland",
+  "title": null,
+  "email": "j.nieuwland@navitascapital.nl",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-16T10:07:51Z",
+  "quote": "Thanks for reaching out and sharing the proposal. As we are a Dutch PE firm with an exclusive focus on Dutch SME's, the proposal does not align with our fund.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Dutch private equity, exclusively Dutch SMEs - not a real estate investor at all. Third touch (6 Nov teaser, 12 Nov follow-up, 16 Nov call ask); Nieuwland answered for Ernst-Jan Koziolek, who was the addressee. A screening failure, not a Houston objection. The send carries the merge seam \"Hey Hi {Name} and team\" again, and the teaser in it is a SIXTH number set: 21.1% IRR / 2.30x / 9.0% stabilized CoC / $11.77M / 5.94% coupon / \"Mid Jan Close\" / Year 1 CoC 11%.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed - wrong asset class entirely. Drop from the list."
+  }
+ },
+ {
+  "firm": "NXMH",
+  "person": "Olov Petersson",
+  "title": null,
+  "email": "opetersson@nxmh.com",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-16T10:07:25Z",
+  "quote": "Thanks for reaching out. This is not within our investment remit.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Brussels-based holding arm of NXC (Korean), buys operating companies - no US multifamily remit. Third touch (6 Nov, 12 Nov, 16 Nov); Petersson answered for Caroline Pleckspaen, who was the addressee, with Agim Yigit copied. Another screening failure. The send carries the merge seam \"Hey Hi {Name} and team\" again, and the teaser in it is a SIXTH number set: 21.1% IRR / 2.30x / 9.0% stabilized CoC / $11.77M / 5.94% coupon / \"Mid Jan Close\" / Year 1 CoC 11%.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed on remit. Drop from the list."
+  }
+ },
+ {
+  "firm": "DIG Ventures",
+  "person": "Andrew Baldwin",
+  "title": null,
+  "email": "andrew@dig.ventures",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-16T09:52:13Z",
+  "quote": "This is not something we'd be looking to pursue.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Early-stage B2B software venture firm - no real estate mandate. Third touch (4 Nov teaser, 9 Nov follow-up, 16 Nov call ask), Olivia and Melissa copied. Flat no with nothing named. The send carries the merge seam \"Hey Hi {Name} and team\" again, and the teaser in it is a SIXTH number set: 21.1% IRR / 2.30x / 9.0% stabilized CoC / $11.77M / 5.94% coupon / \"Mid Jan Close\" / Year 1 CoC 11%.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed. Wrong asset class - drop from the list."
+  }
+ },
+ {
+  "firm": "Euphemia",
+  "person": "Dom Pym",
+  "title": null,
+  "email": "dom@euphemia.com",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-16T09:27:59Z",
+  "quote": "Not interesting for us thanks! Out of thesis.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Australian venture firm (Dom Pym, Up Bank founder) - venture thesis, not real estate. Third touch (4 Nov, 9 Nov, 16 Nov), Judy Pym copied. \"Out of thesis\" in his own words. The send carries the merge seam \"Hey Hi {Name} and team\" again, and the teaser in it is a SIXTH number set: 21.1% IRR / 2.30x / 9.0% stabilized CoC / $11.77M / 5.94% coupon / \"Mid Jan Close\" / Year 1 CoC 11%.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed on thesis. Drop from the list."
+  }
  }
 ]

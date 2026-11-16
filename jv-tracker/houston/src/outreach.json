@@ -3964,6 +3964,57 @@
    "sent": "2026-11-13",
    "outcome": "replied",
    "note": "Cold send 13 Nov to Stella Hinderer; Marie answered for the house 15 Nov - portfolio fit."
+  },
+  {
+   "channel": "direct",
+   "firm": "Navitas Capital (NL)",
+   "person": "Joey Nieuwland",
+   "email": "j.nieuwland@navitascapital.nl",
+   "also": [
+    "ej.koziolek@navitascapital.nl",
+    "e.katoen@navitascapital.nl"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Teaser 6 Nov to Ernst-Jan Koziolek, follow-ups 12 and 16 Nov; Nieuwland passed 16 Nov - Dutch SME PE, wrong asset class."
+  },
+  {
+   "channel": "direct",
+   "firm": "NXMH",
+   "person": "Olov Petersson",
+   "email": "opetersson@nxmh.com",
+   "also": [
+    "cpleckspaen@nxmh.com",
+    "ayigit@nxmh.com"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Teaser 6 Nov to Caroline Pleckspaen, follow-ups 12 and 16 Nov; Petersson passed 16 Nov - outside remit."
+  },
+  {
+   "channel": "direct",
+   "firm": "DIG Ventures",
+   "person": "Andrew Baldwin",
+   "email": "andrew@dig.ventures",
+   "also": [
+    "olivia@dig.ventures",
+    "melissa@dig.ventures"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Teaser 4 Nov, follow-ups 9 and 16 Nov; passed 16 Nov - B2B software VC, no real estate mandate."
+  },
+  {
+   "channel": "direct",
+   "firm": "Euphemia",
+   "person": "Dom Pym",
+   "email": "dom@euphemia.com",
+   "also": [
+    "judy@euphemia.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Teaser 4 Nov, follow-ups 9 and 16 Nov; passed 16 Nov - out of thesis, venture firm."
   }
  ],
  "carveouts": [
