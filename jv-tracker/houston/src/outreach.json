@@ -4222,6 +4222,19 @@
    "sent": "2026-11-04",
    "outcome": "replied",
    "note": "Teaser 4 Nov, follow-ups 10 and 16 Nov; passed 16 Nov after reviewing - praised the deal and left the door open."
+  },
+  {
+   "channel": "direct",
+   "firm": "Hillcrest Holdings",
+   "person": "Ian Smith",
+   "email": "ian.smith@hillcrestholdings.com",
+   "also": [
+    "chris.ditscheit@crbt.com",
+    "stephanie.hurrle@crbt.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Teaser 4 Nov, follow-ups 9 and 16 Nov; passed 16 Nov - real estate handled directly by an unnamed subsidiary."
   }
  ],
  "carveouts": [

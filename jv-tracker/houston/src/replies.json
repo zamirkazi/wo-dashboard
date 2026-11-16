@@ -5800,5 +5800,26 @@
    "lastOut": "2026-11-16",
    "ask": "Closed for this deal but the door is explicitly open - \"right now\", \"on this occasion\". Keep Irelandia on the next-deal list."
   }
+ },
+ {
+  "firm": "Hillcrest Holdings",
+  "person": "Ian Smith",
+  "title": "Managing Director",
+  "email": "ian.smith@hillcrestholdings.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-16T17:59:18Z",
+  "quote": "No thank you, we have a subsidiary that handles all of our RE investments directly.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Iowa holding company; Chris Ditscheit and Stephanie Hurrle at crbt.com (Cedar Rapids Bank & Trust) copied. Unlike most of today's passes this one DOES invest in real estate - just directly, through an unnamed subsidiary, which rules out an LP position by structure rather than by appetite. He does not name the subsidiary and does not offer an introduction, so there is nothing to chase; a direct-buying affiliate is a different conversation from a $11.77M LP cheque anyway. Third touch (4 Nov, 9 Nov, 16 Nov). Send carried the merge seam and the sixth number set (21.1% / 2.30x / 9.0% / 5.94% coupon / Mid Jan Close).",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed by structure - they buy direct through a subsidiary, not as an LP. No name given, nothing to chase."
+  }
  }
 ]
