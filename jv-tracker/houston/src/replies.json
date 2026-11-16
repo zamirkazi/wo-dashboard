@@ -5640,5 +5640,106 @@
    "lastOut": "2026-11-16",
    "ask": "Closed. Nothing named, nothing owed."
   }
+ },
+ {
+  "firm": "Mill Capital",
+  "person": "John Dyson",
+  "title": null,
+  "email": "jdyson@millcap.com",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-16T14:54:15Z",
+  "quote": "We never to real estate",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "\"We never to real estate\" - a typo for \"we never do real estate\", sent from his phone. Third touch (6 Nov, 12 Nov, 16 Nov). Another name on the list that does not buy the asset class at all. Send carried the merge seam \"Hey Hi {Name} and team\" and the sixth number set (21.1% IRR / 2.30x / 9.0% CoC / 5.94% coupon / Mid Jan Close).",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed - wrong asset class. Drop from the list."
+  }
+ },
+ {
+  "firm": "Wallenberg Investments",
+  "person": "Kristian Sildeby",
+  "title": "Head of Industrials",
+  "email": "Kristian.Sildeby@wallenberginvestments.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-16T14:47:34Z",
+  "quote": "thanks, we'll pass.",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "The Wallenberg family's investment arm, Stockholm; Laura Safir at FAM and Richard Nilsson copied. Answered by the HEAD OF INDUSTRIALS - the send reached the industrials desk of a holding company, not a real estate allocator. Three words, nothing named. Send carried the merge seam \"Hey Hi {Name} and team\" and the sixth number set (21.1% IRR / 2.30x / 9.0% CoC / 5.94% coupon / Mid Jan Close).",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed. Nothing named, nothing owed."
+  }
+ },
+ {
+  "firm": "Salvia",
+  "person": "Helmut Jeggle",
+  "title": null,
+  "email": "helmut@salvia.de",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-16T14:42:40Z",
+  "quote": "You were asking for answer if we are interested. That's why we didn't answer .. Sent from my mobile - back to work ...",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "THE CADENCE COMPLAINT IN PLAIN WORDS. Jeggle is pointing out that the teaser asked him to reply only if interested, so his silence WAS the answer - and the chase treated it as an opening. \"Back to work ...\" is irritation. 9 Nov teaser to Fabian Arndt, chased 16 Nov; he answered from CC with Arndt and Isabelle Muldner copied. Read alongside Lubar's removal demand, Parly's standing instruction and Maarek's \"sorry I thought I had replied\": the follow-up template is converting silence into annoyance. Send carried the merge seam \"Hey Hi {Name} and team\" and the sixth number set (21.1% IRR / 2.30x / 9.0% CoC / 5.94% coupon / Mid Jan Close).",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed, and do not chase again. The complaint is about the follow-up cadence, not the deal."
+  }
+ },
+ {
+  "firm": "Mantucket Capital",
+  "person": "Ian McLeod",
+  "title": "Partner, CFA",
+  "email": "ianm@mantucket.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-16T14:31:21Z",
+  "quote": "Thanks for the note but we aren't investing in multi-family. Good luck in the raise.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Greenwood Village, Colorado; Catherine Stanton copied. A partner answering directly: they are not in multifamily at present. Allocation posture, nothing about Houston or the numbers. Send carried the merge seam \"Hey Hi {Name} and team\" and the sixth number set (21.1% IRR / 2.30x / 9.0% CoC / 5.94% coupon / Mid Jan Close).",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed on asset class for now. Could be worth a future cycle; do not chase this deal."
+  }
+ },
+ {
+  "firm": "Moor Holding",
+  "person": "Malin Backlund",
+  "title": null,
+  "email": "malin@moorholding.com",
+  "channel": "direct",
+  "stage": "outofscope",
+  "ts": "2026-11-16T14:29:34Z",
+  "quote": "Thanks for contact. We/Moor focus our non-public investments on B2B software businesses. I wish you good luck in finding the right investors to your Smart Living case.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Swedish holding company; Bjorn Yrlid and Susanne Hallberg copied. B2B software only - the third software investor to answer today after DIG Ventures and Skaala. Gracious, and names the mismatch precisely. Send carried the merge seam \"Hey Hi {Name} and team\" and the sixth number set (21.1% IRR / 2.30x / 9.0% CoC / 5.94% coupon / Mid Jan Close).",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed - wrong asset class. Drop from the list."
+  }
  }
 ]

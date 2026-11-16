@@ -4125,6 +4125,67 @@
    "sent": "2026-11-09",
    "outcome": "replied",
    "note": "Teaser 9 Nov, follow-up 16 Nov; passed 16 Nov with no reason given."
+  },
+  {
+   "channel": "direct",
+   "firm": "Mill Capital",
+   "person": "John Dyson",
+   "email": "jdyson@millcap.com",
+   "also": [],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Teaser 6 Nov, follow-ups 12 and 16 Nov; passed 16 Nov - does not do real estate."
+  },
+  {
+   "channel": "direct",
+   "firm": "Wallenberg Investments",
+   "person": "Kristian Sildeby",
+   "email": "Kristian.Sildeby@wallenberginvestments.com",
+   "also": [
+    "laura.safir@fam.se",
+    "richard.nilsson@wallenberginvestments.com"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Teaser 4 Nov, follow-ups 9 and 16 Nov; Head of Industrials passed 16 Nov."
+  },
+  {
+   "channel": "direct",
+   "firm": "Salvia",
+   "person": "Helmut Jeggle",
+   "email": "helmut@salvia.de",
+   "also": [
+    "fabian@salvia.de",
+    "isabelle@salvia.de"
+   ],
+   "sent": "2026-11-09",
+   "outcome": "replied",
+   "note": "Teaser 9 Nov to Fabian Arndt, chased 16 Nov; Jeggle objected to the chase - the teaser asked for a reply only if interested."
+  },
+  {
+   "channel": "direct",
+   "firm": "Mantucket Capital",
+   "person": "Ian McLeod",
+   "email": "ianm@mantucket.com",
+   "also": [
+    "CatherineS@mantucket.com"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Teaser 6 Nov, follow-ups 12 and 16 Nov; partner passed 16 Nov - not investing in multifamily."
+  },
+  {
+   "channel": "direct",
+   "firm": "Moor Holding",
+   "person": "Malin Backlund",
+   "email": "malin@moorholding.com",
+   "also": [
+    "bjorn@moorholding.com",
+    "susanne@moorholding.com"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Teaser 6 Nov, follow-ups 12 and 16 Nov; passed 16 Nov - B2B software only."
   }
  ],
  "carveouts": [
