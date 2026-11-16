@@ -3763,7 +3763,7 @@
   "followup": {
    "owed": "us",
    "lastOut": "2026-11-13",
-   "ask": "HE HAS ASKED TWICE FOR TUESDAY TIMES AND IS WAITING. Tue 17 Nov free in ET: 2:00-4:00 PM, or 5:30 PM onward. Send one line; he shifts the invite himself."
+   "ask": "HE HAS ASKED TWICE FOR TUESDAY TIMES AND IS WAITING. Tue 17 Nov free in ET: 2:00-4:00 PM, or 5:30 PM onward. Send one line; he shifts the invite himself. | STANDING INVITE NOT YET SHIFTED: MacLennan's original Google Calendar invite, \"Smart Living Allen Genoa project call - AMR Capital and Detailed Capital intros\", still sits on TODAY Mon 16 Nov 2:00-2:45 PM PST with Andy Weber invited, even though he said twice he would move it to Tuesday. It also collides with the KCB 2-4 PM PST option - another reason to take KCB's 10-12 PM PST slot. Either join at 2 PST or tell him to move it; do not leave it unanswered."
   }
  },
  {
@@ -5578,6 +5578,63 @@
   "heat": 1,
   "has": "teaser",
   "action": "Danish investment house. The founder answered for Klaus Damkier Mortensen, the addressee, with Jonas Hojhus Jeppesen also copied - the sixth CC-over-addressee reply today. Four words, no reason. Send carried the merge seam \"Hey Hi {Name} and team\" and the sixth number set (21.1% IRR / 2.30x / 9.0% CoC / 5.94% coupon / Mid Jan Close).",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed. Nothing named, nothing owed."
+  }
+ },
+ {
+  "firm": "Slabotsky Office",
+  "person": "Noah Slabotsky",
+  "title": null,
+  "email": "noah@slabotskyoffice.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-16T14:01:43Z",
+  "quote": "We aren't interested. Best of luck.",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Kansas-area family office, Scott Slabotsky copied. Second touch (9 Nov teaser, 16 Nov follow-up). Four words, no reason named. Send carried the merge seam \"Hey Hi {Name} and team\" and the sixth number set (21.1% IRR / 2.30x / 9.0% CoC / 5.94% coupon / Mid Jan Close).",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed. Nothing named, nothing owed."
+  }
+ },
+ {
+  "firm": "Rabbit Run Partners",
+  "person": "Bradford Beatty",
+  "title": null,
+  "email": "brad@rabbitrunpartners.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-16T13:46:09Z",
+  "quote": "We're not interested. Thanks",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Delia Lalchan copied. Second touch (9 Nov teaser, 16 Nov follow-up). Flat no, nothing named - no Houston objection, no number objection. Send carried the merge seam \"Hey Hi {Name} and team\" and the sixth number set (21.1% IRR / 2.30x / 9.0% CoC / 5.94% coupon / Mid Jan Close).",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed. Nothing named, nothing owed."
+  }
+ },
+ {
+  "firm": "QG Family Office",
+  "person": "Marta Albert",
+  "title": null,
+  "email": "marta@qgfamilyoffice.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-16T13:36:22Z",
+  "quote": "No, not interested, thank you",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Second touch (9 Nov teaser, 16 Nov follow-up), answered within hours of the chase. Flat no with nothing named. Send carried the merge seam \"Hey Hi {Name} and team\" and the sixth number set (21.1% IRR / 2.30x / 9.0% CoC / 5.94% coupon / Mid Jan Close).",
   "followup": {
    "owed": "none",
    "lastOut": "2026-11-16",
