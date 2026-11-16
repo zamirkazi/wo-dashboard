@@ -4964,16 +4964,16 @@
   "email": "tstephen@maxusprop.com",
   "channel": "direct",
   "stage": "meeting",
-  "ts": "2026-11-13T14:04:33Z",
-  "quote": "Thanks Todd (bcc'd) Zamir - It would be good to meet you and hear what you are up to. I'm free this afternoon or Tuesday / Wednesday morning next week.",
+  "ts": "2026-11-16T16:46:40Z",
+  "quote": "Thanks Todd (bcc'd) Zamir - It would be good to meet you and hear what you are up to. I'm free this afternoon or Tuesday / Wednesday morning next week. | 16 Nov 16:46, calendar invite sent: \"Houston connection\", Tuesday 17 Nov, 9:00-9:30 AM PST, Google Meet.",
   "tags": [],
   "heat": 3,
   "has": "none",
   "action": "HANSON'S INTRODUCTION CONVERTED IN TEN HOURS. Stephen replied at 14:04 offering THIS AFTERNOON or Tuesday/Wednesday morning, and bcc'd Todd out of the thread - the courtesy of someone who intends to take the meeting rather than be seen to. HE IS A BUYER, NOT AN LP, AND HIS WORDS CONFIRM IT: 'hear what you are up to', not 'see the deal'. Maxus closed 324 units in NW Houston within the last few weeks, which makes him one of very few people with a current, first-hand read on the exact market roughly 200 LPs have refused in the abstract. That read is worth more today than another maybe. Take the afternoon slot if it is still open - it costs thirty minutes and the intro is warm right now. Lead with the market, let Allen Genoa come up only if he asks.",
   "followup": {
-   "owed": "us",
-   "lastOut": "2026-11-13",
-   "ask": "HE OFFERED THIS AFTERNOON or Tue/Wed morning. Take it. Buyer not LP - lead with his Houston read (324 units in NW Houston just closed), not the $9.53M ask."
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "BOOKED. Zamir asked for Tuesday times at 02:49 on 16 Nov and Stephen sent the invite at 16:46: Tuesday 17 Nov, 9:00-9:30 AM PST, Google Meet. Thirty minutes, and the only item on the calendar this week with a first-hand current read on the Houston market - Maxus closed 324 units in NW Houston within the last few weeks. He is a BUYER, not an LP: lead with the market, let Allen Genoa come up only if he asks. Note it sits the morning before the Corebridge Houston tour on Wednesday 18 Nov, so anything he says about pricing, concessions or buyer cap rates is usable on that tour."
   }
  },
  {
@@ -5780,6 +5780,25 @@
    "owed": "none",
    "lastOut": "2026-11-16",
    "ask": "Closed because they are not deploying at all. Revisit on a future fund cycle, not this deal."
+  }
+ },
+ {
+  "firm": "Irelandia Investments",
+  "person": "Aoife Gallen",
+  "title": null,
+  "email": "aoifegallen@irelandia.ie",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-16T16:39:20Z",
+  "quote": "Thanks for sending this through, and for the follow-ups. Sorry it's taken me a while to get back to you. We've had a look, and this one isn't a fit for us right now, so we'll pass on this occasion. It looks like a strong opportunity, and I'm sure you'll have no trouble filling the equity. Best of luck with the close in January.",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Dublin family office (the Ryan family, Ryanair). The warmest pass of the day and the only one today that says the team ACTUALLY READ IT - \"we've had a look\" - and then praises the deal: \"a strong opportunity, and I'm sure you'll have no trouble filling the equity.\" That is the pattern the whole board is built around, firms praising the basis on their way to no, and this is the first instance of it in the 16 Nov wave. She also apologises for the delay and thanks him for the follow-ups - the opposite of Salvia, Lubar and Parly, which makes it worth noting that the chase is not universally resented, only when it reaches the wrong name. \"Not a fit for us RIGHT NOW\" and \"on this occasion\" both leave the door open. Third touch (4 Nov teaser, 10 Nov follow-up, 16 Nov call ask), Steven Maxwell and Conor O'Sullivan copied. Send carried the merge seam and the sixth number set (21.1% / 2.30x / 9.0% / 5.94% coupon / Mid Jan Close).",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed for this deal but the door is explicitly open - \"right now\", \"on this occasion\". Keep Irelandia on the next-deal list."
   }
  }
 ]
