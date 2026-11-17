@@ -4281,6 +4281,19 @@
    "sent": "2026-11-12",
    "outcome": "replied",
    "note": "Teaser 12 Nov, chase 17 Nov; Brian Scharf (cc) passed 17 Nov - not looking at multifamily, no call wanted."
+  },
+  {
+   "channel": "direct",
+   "firm": "ID Invest",
+   "person": "Barrett Dodd",
+   "email": "barrett@idinvest.net",
+   "also": [
+    "gareth@idinvest.net",
+    "sandy@idinvest.net"
+   ],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Teaser 4 Nov, chase 17 Nov; passed same day - industrial product manufacturing only, multifamily out of scope."
   }
  ],
  "carveouts": [

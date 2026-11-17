@@ -312,15 +312,15 @@
   "email": "laura@wtrshdcap.com",
   "channel": "direct",
   "stage": "conditional",
-  "ts": "2026-10-12T23:36:32Z",
-  "quote": "We'd like to have a good handle on how these properties have been renovated and where cash has gone before we evaluate additional acquisitions together.",
-  "action": "Still the only firm on the board whose gate is ZMR itself rather than the deal. Laura's condition on 12 Oct was explicit - a full reconciliation of the renovation reserve on the existing deals 'before we evaluate additional acquisitions together' - and eighteen days on it is still open. Megan's 30 Oct update names the blocker: the property changed management companies, and accounting systems, three separate times, so the history has to be rebuilt across three charts of accounts, and the team is now trying to reach the prior property manager about 4Q20 activity. NinetyNine44 is the worked example Laura gave - a $4.7M reserve drawn to $638K by year-end 2021 and then showing $1.2M at year-end 2022, which is the increase she wants explained. Laura acknowledged the update today, so the relationship is fine and the thread is live; what is not fine is that Allen Genoa cannot move here until this lands, and the DD clock expires 20 November. Worth deciding whether to put more hands on the reconciliation than Megan alone, because this is an existing LP asking where their capital went - it outranks the raise.",
+  "ts": "2026-11-17T21:46:23Z",
+  "quote": "We'd like to have a good handle on how these properties have been renovated and where cash has gone before we evaluate additional acquisitions together. | 17 Nov 21:46, replying to Megan Burrows: \"Thanks for the update Megan.\"",
+  "action": "Still the only firm on the board whose gate is ZMR itself rather than the deal. Laura's condition on 12 Oct was explicit - a full reconciliation of the renovation reserve on the existing deals 'before we evaluate additional acquisitions together' - and eighteen days on it is still open. Megan's 30 Oct update names the blocker: the property changed management companies, and accounting systems, three separate times, so the history has to be rebuilt across three charts of accounts, and the team is now trying to reach the prior property manager about 4Q20 activity. NinetyNine44 is the worked example Laura gave - a $4.7M reserve drawn to $638K by year-end 2021 and then showing $1.2M at year-end 2022, which is the increase she wants explained. Laura acknowledged the update today, so the relationship is fine and the thread is live; what is not fine is that Allen Genoa cannot move here until this lands, and the DD clock expires 20 November. Worth deciding whether to put more hands on the reconciliation than Megan alone, because this is an existing LP asking where their capital went - it outranks the raise.  17 NOV - THIS ROW WAS WRONG AND IS NOW CORRECTED. It read \"conditional since 13 Oct, Megan emailed 30 Oct, no answer, 36 days silent.\" That is not what happened. Megan Burrows has worked this continuously and Laura has acknowledged every update: 21 Oct (three management companies, three charts of accounts), 30 Oct (still chasing the prior PM on 4Q20), and 16 Nov 19:15 - \"We located the 4Q2020 financials and are now working to incorporate those into our analysis. 9944 will be first on the list making its way over to you and then Parks at Walnut. I'm hoping to have an update for you by this Friday 11/20/26.\" Laura answered tonight. There is an ACTIVE WORKSTREAM here, not silence. WHAT THIS ACTUALLY IS: Wtrshd is an EXISTING ZMR LP, not a prospect being pitched cold - they are in NinetyNine44 and Parks at Walnut. Laura's blocker is a reconciliation of the renovation reserve on those deals, in her words: \"We'd like to have a good handle on how these properties have been renovated and where cash has gone before we evaluate additional acquisitions together.\" The specific problem is NinetyNine44's $4.7M renovation reserve, drawn to $638K by year-end 2021 and then showing $1.2M at year-end 2022, an increase nobody has explained. Allen Genoa is gated behind that reconciliation and nothing else. THE DEADLINE IS FRIDAY 20 NOVEMBER, the same day the EMD goes hard. AND IT NOW CARRIES REFERENCE RISK. Zamir named WTRSHD to Hadley this afternoon as a family office ZMR has worked with, which is true and defensible. But if James Scott rings Laura Whitaker this week he reaches an existing LP who is mid-way through an unresolved balance-sheet reconciliation and has been waiting since 12 October. Megan hitting Friday matters for two deals, not one.",
   "tags": [],
-  "heat": 4,
+  "heat": 3,
   "followup": {
-   "owed": "them",
-   "lastOut": "2026-10-30",
-   "ask": "Conditional since 13 Oct. Megan emailed 30 Oct, no answer."
+   "owed": "us",
+   "lastOut": "2026-11-16",
+   "ask": "NOT SILENT - active workstream. Megan committed to an update by FRIDAY 20 NOV on the NinetyNine44 and Parks at Walnut renovation-reserve reconciliation, including the unexplained $638K-to-$1.2M move from YE2021 to YE2022. Allen Genoa is gated behind it. Also now a reference: Hadley was given WTRSHD as an LP name today, so make sure Megan hits Friday."
   },
   "has": "unclear"
  },
@@ -3474,17 +3474,19 @@
   "title": null,
   "email": "tom.sabin@americo.com",
   "channel": "direct",
-  "stage": "materials",
-  "ts": "2026-11-05T16:33:47Z",
-  "quote": "Zamir, Please send me the full package and I will give you my thoughts on our interest.",
-  "action": "A clean materials request with a promise attached - he will come back with a view on their interest, which is more than most package requests offer. Sabin runs GSSW Real Estate Investments out of Dallas for Americo, an insurance group, so this is balance-sheet money rather than a fund with a cycle, and insurance capital is the one pool that has been largely absent from this raise. Send the package today while the request is warm. One note for the Dallas column: Sabin is the third Texas-based reader this week, and unlike Alpaca and Artisan he has not said anything about geography - he asked to see the deal. Worth watching whether he comes back on the submarket like the others did.  NOTE on sequencing: Zamir's chase went at 15:37:52, Sabin's package request at 16:33:47 - the chase came first, so the request is unanswered. Nothing has been sent.  SENT 5 Nov 18:05: Kevin's package is confirmed in the record - 'our latest underwriting model, updated to reflect our tax consultant's report and the recent movement in Treasuries', plus the deck, T12 and rent roll, with Mike Regan and Chip copied. Ninety minutes from request to delivery. Sabin said he would come back with a view, so this is now his move.",
-  "tags": [],
-  "heat": 4,
+  "stage": "pass",
+  "ts": "2026-11-17T22:00:53Z",
+  "quote": "Zamir, Please send me the full package and I will give you my thoughts on our interest. | 17 Nov 22:00, Tom Sabin: \"We looked at the location of this asset and have determined that it does not meet the quality that we are looking for. Thank you for thinking about us and we look forward to hearing about future opportunities.\"",
+  "action": "A clean materials request with a promise attached - he will come back with a view on their interest, which is more than most package requests offer. Sabin runs GSSW Real Estate Investments out of Dallas for Americo, an insurance group, so this is balance-sheet money rather than a fund with a cycle, and insurance capital is the one pool that has been largely absent from this raise. Send the package today while the request is warm. One note for the Dallas column: Sabin is the third Texas-based reader this week, and unlike Alpaca and Artisan he has not said anything about geography - he asked to see the deal. Worth watching whether he comes back on the submarket like the others did.  NOTE on sequencing: Zamir's chase went at 15:37:52, Sabin's package request at 16:33:47 - the chase came first, so the request is unanswered. Nothing has been sent.  SENT 5 Nov 18:05: Kevin's package is confirmed in the record - 'our latest underwriting model, updated to reflect our tax consultant's report and the recent movement in Treasuries', plus the deck, T12 and rent roll, with Mike Regan and Chip copied. Ninety minutes from request to delivery. Sabin said he would come back with a view, so this is now his move.  17 NOV - PASSED ON LOCATION, AND HE DID WHAT HE SAID HE WOULD. Sabin asked for the package on 5 Nov promising \"I will give you my thoughts on our interest\", Kevin sent model, deck, T12 and rent roll the same evening, and twelve days later the thoughts arrived: the LOCATION does not meet their quality bar. Note what is NOT in that sentence - no mention of Houston as a market, the basis, the vintage, the returns or the sponsor. It is the submarket itself, which is the same place Sabal, Green Pine, Slocumb, Island Capital and now Machine have all landed from different directions. The second of the seven quiet package-holders to be resolved today and the second to resolve as a no. He left the door open for future deals, which is worth taking at face value from an insurance balance sheet - Americo is a Kansas City life company and GSSW is their real estate arm, so a different asset in a different submarket is a real possibility. No re-approach on Allen Genoa.",
+  "tags": [
+   "submarket-conviction"
+  ],
+  "heat": 1,
   "has": "package",
   "followup": {
-   "owed": "them",
+   "owed": "none",
    "lastOut": "2026-11-05",
-   "ask": "Kevin sent the full package at 18:05 - model, deck, T12, rent roll. Sabin promised a view. Their move."
+   "ask": "Closed on submarket quality. Nothing owed. Keep for future deals outside this pocket - he invited them."
   }
  },
  {
@@ -5884,6 +5886,27 @@
    "owed": "none",
    "lastOut": "2026-11-17",
    "ask": "Closed on asset class. Nothing owed and nothing to send - they asked not to be called. Do not chase."
+  }
+ },
+ {
+  "firm": "ID Invest",
+  "person": "Barrett Dodd",
+  "title": null,
+  "email": "barrett@idinvest.net",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-17T21:10:38Z",
+  "quote": "This is way out of our investment scope. I have attached our one-page for your records. Should you have anything that is industrial product manufacturing, we'll be happy to take a look.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "A clean out-of-scope pass with a redirect attached. Dodd did not engage with Houston, the basis or the numbers - ID Invest buys INDUSTRIAL PRODUCT MANUFACTURING and multifamily is simply not what they do. He sent his one-pager back, which is a courteous way of saying update your list rather than mine. Gareth Buxton and Sandy Dalton copied. The teaser reached them 4 Nov and the chase today drew the answer, making this the third firm in six hours to convert from silence to a definitive no once poked. Worth noting for list hygiene rather than for the raise: this is a targeting miss, not a rejection, and the equity list should carry ID Invest as industrial so it does not receive the next multifamily send either.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-17",
+   "ask": "Closed - wrong asset class entirely. Flag ID Invest as industrial on the equity list so they drop off future multifamily sends. Nothing owed."
   }
  }
 ]
