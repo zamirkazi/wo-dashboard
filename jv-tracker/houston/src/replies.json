@@ -5859,5 +5859,26 @@
    "lastOut": "2026-11-16",
    "ask": "Closed on capacity, not on the asset. Nothing owed; a future-cycle name at best."
   }
+ },
+ {
+  "firm": "ZFO",
+  "person": "Brian Scharf",
+  "title": null,
+  "email": "bscharf@zfozell.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-17T15:59:44Z",
+  "quote": "Thank you for your interest in ZFO. We are not looking for multifamily opportunities at this time. A conversation is not necessary at this time.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "A clean asset-class pass, not a Houston pass - ZFO is out of multifamily full stop, and the reply does not touch the basis, the submarket or the numbers. Note the shape: the send went to Chad Fuller with Sophia Ruffolo and Brian Scharf copied, and the CC answered - the eighth CC-over-addressee reply in two days. \"A conversation is not necessary at this time\" also closes the chase, so no third touch. Teaser 12 Nov 04:46, chase 17 Nov 06:05, answered 15:59 the same day. Send carried the merge seam (\"Hey Hi Chad and team\") and the sixth number set (21.1% / 2.30x / 9.0% CoC / 5.94% coupon / Mid Jan Close / Year 1 CoC 11%).",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-17",
+   "ask": "Closed on asset class. Nothing owed and nothing to send - they asked not to be called. Do not chase."
+  }
  }
 ]
