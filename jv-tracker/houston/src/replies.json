@@ -1142,8 +1142,8 @@
   "heat": 5,
   "followup": {
    "owed": "us",
-   "lastOut": "2026-11-04",
-   "ask": "TWO-DAY CLOCK: Livi says he will know within two days whether to throw in the towel. The pref/hybrid-pref answer he asked for on 27 Oct is still unsent - 14 days. Answer it today, even if the answer is no."
+   "lastOut": "2026-11-17",
+   "ask": "Zamir sent \"Any word?\" 17 Nov 15:32 - that chases Livi's progress report, it does NOT answer the pref/hybrid-pref question he has owed since 27 Oct, now 21 days. The carveout lapses ~25 Nov. Answer the question and ask for the substance behind the four \"Taking A Look\" rows in the same email."
   },
   "has": "unclear"
  },
@@ -1176,9 +1176,9 @@
   "tags": [],
   "heat": 4,
   "followup": {
-   "owed": "us",
-   "lastOut": "2026-11-10",
-   "ask": "\"Evaluating, will circle back\" - a holding answer. Do not chase; send the refreshed 11.10.26 OM and model as a reason to re-engage."
+   "owed": "them",
+   "lastOut": "2026-11-17",
+   "ask": "\"Evaluating, will circle back\" 10 Nov; Zamir chased for feedback 17 Nov 18:42. Ball is theirs. The 11.10.26 OM is still the better re-engagement than another chase."
   },
   "has": "package"
  },
@@ -1531,13 +1531,13 @@
   "stage": "conditional",
   "ts": "2026-11-11T20:07:27Z",
   "quote": "Thanks for your message. I'd be interested to discuss this opportunity with you but am about to start a little travel. Would you have time on Friday November 6th after 11am? If not, I can suggest some other times or you can send me some as well. | 11 Nov 20:07: \"Please let me know the timing of the financing. I can start the diligence this week. If there's a data room, please send that. I'd be interested to do a call with you, see prior investment returns, and speak to other co-investors in this and prior deals.\"",
-  "action": "A call request with a slot attached, off the family-office blast rather than the equity list - Kestrel is Mike Kane's own family office and sits on fo_SEND.csv, so this is the blast converting to a meeting rather than a reply. Two days and thirteen hours after the 27 Oct send, which is a considered reply, not a reflex. He proposed Friday 6 November after 11am and offered to take alternatives, so the only thing that can lose this is silence; book it today. Two things to carry into the call: he read the 21.5% / 5.71% set and the current numbers are 21.1% / 2.30x / 9.0% on a 5.94% coupon, so lead with the re-cut rather than let him find it; and the mail he answered says 'three-pager attached' - confirm it actually went, because a family office that asks for a call before seeing the deck will ask for the deck on the call. No objection of any kind in the reply, Houston included.  CORRECTION 4 Nov 16:37: Kane accepted the calendar invite - 'Accepted: Houston Deal - ZMR | Mike Kane (Kestrel)'. The board had this row logged as met on 30 October with nothing scheduled; that was wrong. There is a booked meeting. He still has only the teaser, and his original note answered the 21.5% / 5.71% set while the current numbers are 21.1% / 2.30x / 9.0% on a 5.94% coupon - lead with the re-cut rather than let him find it, and get the package to him before the call.  READY TO START DILIGENCE THIS WEEK - THE MOST FORWARD-LEANING MESSAGE ON THE BOARD. Kane is President of Kestrel and he is not asking whether, he is asking how: the financing timing, a data room, a call, prior investment returns, and conversations with co-investors from this and earlier ZMR deals. That is a man working out how to get to yes. THE CHEQUE IS ALREADY NAMED. Zamir wrote on 10 November that the team had Kestrel at $500K-$1M and offered to make room 'even alongside a large LP'. Against a $12.03M raise that is small, but it is the first row where a number has been agreed from both sides, and small cheques that close are worth more than large ones that review. THREE THINGS HE ASKED FOR THAT ZMR DOES NOT CURRENTLY HAVE READY, and this is the useful part of the row: (1) A DATA ROOM. There isn't one. Lateral wants a CoStar report, Clairmont sent eight diligence questions, Kestrel wants a room - three parties in two days all needing the same organised document set, assembled ad hoc each time. Standing one up now pays for itself by Friday. (2) PRIOR INVESTMENT RETURNS. A written track record, realised, is a different document from a deal deck and nobody has asked for it before. (3) REFERENCES FROM EXISTING LPs. He wants to speak to co-investors in this deal and prior ones. That needs Zamir to pick LPs, ask their permission and line up calls - and 'other co-investors IN THIS deal' means he will learn how much of the $12.03M is actually committed. Decide what that answer is before the call rather than during it. (4) 'TIMING OF THE FINANCING' is the rate-lock question again, now from a third direction after Blue Owl on 4 November and Clairmont yesterday. Walker & Dunlop has produced a debt matrix, not a term sheet. ONE NOTE ON THE HISTORY: the 6 November call did not happen because of a death in Zamir's family, which he explained on 10 November. Kane answered with sympathy and then moved straight to work. The row lost five days and lost nothing else.",
+  "action": "A call request with a slot attached, off the family-office blast rather than the equity list - Kestrel is Mike Kane's own family office and sits on fo_SEND.csv, so this is the blast converting to a meeting rather than a reply. Two days and thirteen hours after the 27 Oct send, which is a considered reply, not a reflex. He proposed Friday 6 November after 11am and offered to take alternatives, so the only thing that can lose this is silence; book it today. Two things to carry into the call: he read the 21.5% / 5.71% set and the current numbers are 21.1% / 2.30x / 9.0% on a 5.94% coupon, so lead with the re-cut rather than let him find it; and the mail he answered says 'three-pager attached' - confirm it actually went, because a family office that asks for a call before seeing the deck will ask for the deck on the call. No objection of any kind in the reply, Houston included.  CORRECTION 4 Nov 16:37: Kane accepted the calendar invite - 'Accepted: Houston Deal - ZMR | Mike Kane (Kestrel)'. The board had this row logged as met on 30 October with nothing scheduled; that was wrong. There is a booked meeting. He still has only the teaser, and his original note answered the 21.5% / 5.71% set while the current numbers are 21.1% / 2.30x / 9.0% on a 5.94% coupon - lead with the re-cut rather than let him find it, and get the package to him before the call.  READY TO START DILIGENCE THIS WEEK - THE MOST FORWARD-LEANING MESSAGE ON THE BOARD. Kane is President of Kestrel and he is not asking whether, he is asking how: the financing timing, a data room, a call, prior investment returns, and conversations with co-investors from this and earlier ZMR deals. That is a man working out how to get to yes. THE CHEQUE IS ALREADY NAMED. Zamir wrote on 10 November that the team had Kestrel at $500K-$1M and offered to make room 'even alongside a large LP'. Against a $12.03M raise that is small, but it is the first row where a number has been agreed from both sides, and small cheques that close are worth more than large ones that review. THREE THINGS HE ASKED FOR THAT ZMR DOES NOT CURRENTLY HAVE READY, and this is the useful part of the row: (1) A DATA ROOM. There isn't one. Lateral wants a CoStar report, Clairmont sent eight diligence questions, Kestrel wants a room - three parties in two days all needing the same organised document set, assembled ad hoc each time. Standing one up now pays for itself by Friday. (2) PRIOR INVESTMENT RETURNS. A written track record, realised, is a different document from a deal deck and nobody has asked for it before. (3) REFERENCES FROM EXISTING LPs. He wants to speak to co-investors in this deal and prior ones. That needs Zamir to pick LPs, ask their permission and line up calls - and 'other co-investors IN THIS deal' means he will learn how much of the $12.03M is actually committed. Decide what that answer is before the call rather than during it. (4) 'TIMING OF THE FINANCING' is the rate-lock question again, now from a third direction after Blue Owl on 4 November and Clairmont yesterday. Walker & Dunlop has produced a debt matrix, not a term sheet. ONE NOTE ON THE HISTORY: the 6 November call did not happen because of a death in Zamir's family, which he explained on 10 November. Kane answered with sympathy and then moved straight to work. The row lost five days and lost nothing else.  17 NOV 19:57 - THE DATA ROOM NOW EXISTS. Kevin: \"I just sent you an invite to our data room for Smart Living Allen Genoa. Let me know if you've received it or if you have any trouble getting in. We'll be adding materials throughout.\" That was the first of Kane's four items and it did not exist this morning. Zamir also asked him for call times at 18:39. THREE ITEMS STILL OWED: written prior returns, LP references for calls, and financing timing. Kane is ready for diligence at $500K-$1M and is the furthest-advanced name on the board, so the remaining three are worth doing properly rather than fast.",
   "tags": [],
   "heat": 5,
   "followup": {
    "owed": "us",
-   "lastOut": "2026-11-10",
-   "ask": "READY FOR DILIGENCE THIS WEEK at $500K-$1M. Needs four things ZMR has not got ready: a data room, written prior returns, LP references for calls, and the financing timing. Answer today - he is the furthest-advanced investor on the board."
+   "lastOut": "2026-11-17",
+   "ask": "DATA ROOM SENT 17 Nov 19:57 by Kevin - one of four done. STILL OWED: written prior returns, LP references for reference calls, and financing timing. Confirm he got into the data room."
   },
   "has": "teaser"
  },
@@ -2004,9 +2004,9 @@
   "heat": 5,
   "action": "The strongest live position on the board. Kevin sent the full package on 30 Oct; Nick Burk, the SVP, came back on 4 Nov saying they are digging in and will return this week with questions and requests, and he put a number on it unprompted: $2M minimum per project with flex to $4M, taken as co-GP rather than LP. Two things follow. First, this is the only group in 184 replies that has named a cheque size without being asked, and $2-4M is 17-34% of the raise. Second, co-GP is a different seat from the one being marketed - it sits beside the GP's $1.3M, shares promote and likely wants approval rights, so it is not a straight fill against the $11.77M LP stack and Zamir has to decide what he is willing to give up before the questions arrive. Nick's own framing is the useful part: he thinks a committed co-GP cheque gives ZMR pricing power with the LPs, which is the first time anyone in this raise has offered leverage rather than asked for it. Prepare the answers now - the model errors Zairick found are fixed, so send the corrected numbers (20.9%/2.27x deal-level, 17.1%/1.97x LP net) rather than letting them underwrite the superseded set that went out with the package. Cheng, Nick and Ryan Snaguski are all on the thread.  5 Nov 19:19: Cheng Chen came back on Zamir's 07:35 chase - 'Sure thing, Zamir. What time works best next week?' So the call is agreed in principle and the only thing missing is a slot from our side. Worth going in with the co-GP question settled: Clairmont has been clear they want co-GP economics and this raise is an LP cheque, so either Zamir is willing to carve that or the call should say so early.  9 NOV 22:10 - THEY ARE NOW CHASING US, WITH A THIRD NAME ON IT. Ryan Snaguski, Senior Associate in Portfolio Management, wrote 'Hey Zamir, What day/time works best for you to discuss?' That is the second time Clairmont has asked for a time - Cheng Chen asked on 5 November and got no answer - and the firm has now put a third person on the thread to ask it again, alongside Chen and Nick Burk. Read the direction of travel. Clairmont is the only group in 268 replies that has named a cheque size unprompted ($2M minimum, flex to $4M), they have the full package, they said on 4 November they were digging in and would come back with questions, and five days later they are still here and still asking to talk. The firm is doing all the work of keeping this alive. The only thing standing between this and a scheduled call is a calendar slot that nobody on the ZMR side has sent. Answer it tonight with two or three specific times. The co-GP point still needs resolving - what they want is not what this raise is structured to take - but that is a conversation to have on the call, not a reason to leave the most engaged counterparty on the board waiting a sixth day.  EIGHT DILIGENCE QUESTIONS - THE DEEPEST READ ANY FIRM HAS GIVEN THIS DEAL, AND IT IS A CO-GP CONVERSATION. Snaguski came back 90 minutes after Zamir's apology with a calendar offer and a numbered diligence list: the real-estate tax assumptions (taxes step up in Year 1 then DECLINE in Year 2 - why, and has a consultant been engaged on reassessment or appeal); the latest lease trade-out report and concession tracker; the bad debt visible in the T-12 and whether it is collections or seasonal; who will manage the asset and whether an initial operating budget exists; where debt quotes stand after recent rate moves and WHETHER THE RATE IS LOCKED; the two nearby lease-ups; the status of the LP raise and who the target LPs are; and a concession report for the primary comps. Zamir's own framing on 10 Nov was 'happy to use the call to work through the CO-GP STRUCTURE as well as the deal itself' - so this is not an LP cheque conversation, it is a partner one. QUESTION SIX IS THE ONE THAT MATTERS. Snaguski names TERRITORY AT GEONA and ARIA AT BURKE as two nearby properties currently in lease-up and wants their occupancy, pace and concessions. Every version of the marketing says Allen Genoa is 'the only new, institutional-quality product in an under-served submarket with an EMPTY PIPELINE'. A prospect has just named two competing lease-ups within reach of it. Either they are outside the relevant trade area and the deck should say so precisely, or the empty-pipeline line needs retiring before another reader checks. This is the first direct challenge to that claim and it came from the most careful reader on the board. TWO QUESTIONS ARE ALREADY OVERDUE ELSEWHERE. 'Have you locked the rate' is exactly what Blue Owl asked on 4 November and has not been answered - and the honest answer is no, Walker & Dunlop has produced a debt matrix rather than a term sheet. 'What is the current status on the LP raise? Target LPs?' is the fourth time that question has been put, after CastleSquare on 22 Oct, Marc Belsky and Jordan Brustein. The no-fly list drafted for Brustein answers all four and is still unsent. SCHEDULING: Zamir declined Thursday 10 AM PT, offered Thursday after 2 PM PT or Friday, and looped Kevin in on the answers. Still owed by us.",
   "followup": {
-   "owed": "us",
-   "lastOut": "2026-11-10",
-   "ask": "TIME ALREADY OFFERED 10 Nov 21:42 - after 2 PM PT Thursday or open Friday, Kevin looped in for the eight questions. Waiting on Clairmont for the slot; the eight written answers are still ours to send."
+   "owed": "them",
+   "lastOut": "2026-11-12",
+   "ask": "Kevin sent ALL EIGHT written answers 12 Nov 14:08, opening with the real-estate-tax step-up. Ball is theirs. A time was offered 10 Nov and they have not picked one."
   },
   "has": "package"
  },
@@ -2077,9 +2077,9 @@
   ],
   "heat": 3,
   "followup": {
-   "owed": "pkg",
-   "lastOut": "2026-11-04",
-   "ask": "Zamir asked Kevin to send on 4 Nov 23:45. Not confirmed out - chase Kevin, not Basis."
+   "owed": "them",
+   "lastOut": "2026-11-17",
+   "ask": "Kevin sent the full package 5 Nov 14:10 - model, deck, T12, rent roll. Twelve days silent through two chases (12 and 17 Nov). Quiet package-holder, not a missing send."
   },
   "has": "pending"
  },
@@ -3203,9 +3203,9 @@
   "tags": [],
   "heat": 3,
   "followup": {
-   "owed": "us",
+   "owed": "them",
    "lastOut": "2026-11-13",
-   "ask": "STOP MAILING malte.sittig@anh-hausbesitz.de (and Bremke/Steigerwald on that thread) - he asked, twice-mailed. He is STILL LIVE on ms@scopehanson.com reviewing the package. A one-line apology on the Scope Hanson thread is worth sending; do not reply on the ANH thread at all."
+   "ask": "Malte replied on the SCOPE HANSON thread 13 Nov: busy week, will come back once he has reviewed what the team shared. Ball is his. Do not reply on the ANH thread - he wrote \"Please stop spamming this one!!\" there the same day."
   },
   "has": "teaser"
  },
@@ -3266,9 +3266,9 @@
   "heat": 3,
   "has": "teaser",
   "followup": {
-   "owed": "pkg",
-   "lastOut": "2026-11-04",
-   "ask": "Reviewing off the bullet email alone. Send the package to Cecilia, Matias Lyon (lithiumcm.com) and Rodrigo Swett."
+   "owed": "them",
+   "lastOut": "2026-11-17",
+   "ask": "Kevin sent model and deck 12 Nov 18:03 to Cecilia, Rodrigo Swett and Matias Lyon. Zamir chased 17 Nov 19:19. Ball is theirs."
   }
  },
  {
@@ -3326,9 +3326,9 @@
   "heat": 5,
   "has": "teaser",
   "followup": {
-   "owed": "us",
+   "owed": "them",
    "lastOut": "2026-11-12",
-   "ask": "TIMES RE-OFFERED after the Wednesday window lapsed: Fri 8:00-9:00 AM PT, or 2:30 / 3:30 PM PT, or Monday afternoon. Awaiting his pick. Matin Roshan and Hayden Millerick copied."
+   "ask": "Zamir offered Fri 8-9 AM PT, 2:30 or 3:30 PM PT, or Monday afternoon on 12 Nov, Roshan and Millerick copied. Awaiting his pick."
   }
  },
  {
@@ -3364,9 +3364,9 @@
   "heat": 4,
   "has": "package",
   "followup": {
-   "owed": "us",
-   "lastOut": "2026-11-05",
-   "ask": "ANSWER TODAY AND MOVE THE TIME: Levy proposed Wed 18 Nov 1 PM ET, which clashes head-on with the Detailed Capital call booked for the identical slot (Wed 10:00-10:45 AM PST) and with the noon Houston Corebridge tour. Offer Levy Wednesday afternoon or Thursday instead. Grant Paley now on the thread - send the 11.10.26 package to him before the call, he has never had it."
+   "owed": "them",
+   "lastOut": "2026-11-17",
+   "ask": "Levy proposed Wed 1 PM ET; Zamir countered \"How about 12 or 2?\" at 19:11, which clears the clash with the Detailed Capital call. Awaiting his pick. SEND THE 11.10.26 PACKAGE TO GRANT PALEY before the call - he is new to the thread and has never had it."
   }
  },
  {
@@ -3465,7 +3465,7 @@
   "followup": {
    "owed": "us",
    "lastOut": "2026-11-12",
-   "ask": "BOOKED Fri 12:30 PM ET / 9:30 AM PT with Andrew Yerger - CFG multifamily ORIGINATION, i.e. debt, not LP equity. Two things before it: make sure Kevin sends lender materials (T12, rent roll, PSA terms, debt request) rather than the LP package, and note it starts the moment Wolverton ends at 9:30 PT."
+   "ask": "Kevin sent the LP EQUITY package 12 Nov 20:55 - model and deal presentation. CFG is DEBT ORIGINATION. Yerger needs T12, rent roll, PSA terms and a debt request instead. Call Fri 12:30 ET, starting the moment the Wolverton call ends."
   }
  },
  {
@@ -3785,9 +3785,9 @@
   "heat": 4,
   "has": "teaser",
   "followup": {
-   "owed": "us",
-   "lastOut": "2026-11-11",
-   "ask": "BOOKED today 2:00 PM PT (his Teams invite, still unaccepted on the calendar). Accept it and send the 11.10.26 package this morning - he walks in with no numbers otherwise."
+   "owed": "them",
+   "lastOut": "2026-11-12",
+   "ask": "Kevin sent model and deck 12 Nov 18:06 - six days ahead of the call, not the morning of. Accept the Teams invite; nothing else owed."
   }
  },
  {
@@ -4640,9 +4640,9 @@
   "heat": 4,
   "has": "pending",
   "followup": {
-   "owed": "us",
-   "lastOut": "2026-11-11",
-   "ask": "SECOND request, now for the CoStar Underwriting Report by name. Package already sent. Send the report today WITH the occupancy and pipeline context rather than letting him find it - he is underwriting two other Houston deals."
+   "owed": "them",
+   "lastOut": "2026-11-17",
+   "ask": "Kevin sent the CoStar Underwriting Report 11 Nov 06:02 with the rent roll - the second request WAS met. Zamir chased for feedback 17 Nov 18:40. Ball is theirs; Kapadia is underwriting two other Houston deals."
   }
  },
  {
@@ -4667,14 +4667,14 @@
   "stage": "materials",
   "ts": "2026-11-17T12:48:14Z",
   "quote": "Thanks for the follow-up. How did you get our contact info and hear about us? Do you or have you worked with any other family offices? | 17 Nov 12:48, James Scott, Partner: \"Thanks for the update. Could you please share the names of the family offices you've worked with? Additionally, please send over the full IM/presentation for the opportunity, along with the equity term sheet, governance structure, and tax details.\"",
-  "action": "THE FIRST TIME ANYONE HAS ASKED WHERE THE LIST CAME FROM, AND IT IS A FAIR QUESTION. Scott is a Partner at Hadley and he is not asking about Houston, the basis or the returns - he is deciding whether this is a real sponsor or a spray. Two questions: how ZMR got their contact details and heard about them, and whether ZMR has worked with other family offices. ANSWER BOTH PLAINLY AND IT BECOMES AN ASSET. ZMR genuinely has family-office relationships and a real track record; saying so with names, and being straightforward that Hadley came off a purchased or compiled family-office list rather than a referral, is the only answer that survives the follow-up question. Anything evasive confirms the suspicion he is already entertaining. He has a Calendly link in his signature, so the cheapest close is to answer the two questions in four lines and book directly. THE SEND ITSELF INVITED THIS. The 4 November email opens 'Hey Hi Elaine and team' - a visible mail-merge seam, with 'Hey' and the template's 'Hi' both left in - addressed to Elaine with Ben and James copied. Six days later the chase went out with the same opening intact. That is what a careful reader notices before they notice the deal, and it is now the second deliverability-class problem of the night after Microsoft flagged Zamir's address as unfamiliar on the Garnier thread. NOTE THE VARIANT: this send carries three bullets no other version has - 'Year 1 CoC 11%, average 9% through hold', 'Depreciation' and 'Accept 1031 Exchange'. Tax-led framing aimed at family offices. It is also built on the 30 October 21.1% / 2.30x / 5.94% set, so an eighth wording of this pitch is in circulation. || MOVED FROM SCREENING TO A MATERIALS REQUEST, 17 NOV. The two screening questions from 10 Nov (how did you get our details, have you worked with other family offices) were answered by Zamir on 12 Nov - contact came from Fintrix, and \"we have worked with several family offices although our capital has mainly been institutional.\" Scott has now come back asking for FIVE things: (1) the NAMES of the family offices ZMR has worked with, (2) the full IM/presentation, (3) the equity term sheet, (4) the governance structure, (5) tax details. Items 2-5 are a standard package request and Kevin can send them today. ITEM 1 IS NOT ROUTINE AND NEEDS ZAMIR: naming existing LPs to a prospect is a reference disclosure, it may touch confidentiality in those LP agreements, and Zamir has just told him the capital has mainly been institutional - so the honest answer may be a short list or none. Decide what can be named before Kevin sends anything, and consider offering references by call instead of names in writing. Note the asymmetry: this is the first reader to ask for GOVERNANCE and an equity TERM SHEET, neither of which exists as a document on this deal.",
+  "action": "THE FIRST TIME ANYONE HAS ASKED WHERE THE LIST CAME FROM, AND IT IS A FAIR QUESTION. Scott is a Partner at Hadley and he is not asking about Houston, the basis or the returns - he is deciding whether this is a real sponsor or a spray. Two questions: how ZMR got their contact details and heard about them, and whether ZMR has worked with other family offices. ANSWER BOTH PLAINLY AND IT BECOMES AN ASSET. ZMR genuinely has family-office relationships and a real track record; saying so with names, and being straightforward that Hadley came off a purchased or compiled family-office list rather than a referral, is the only answer that survives the follow-up question. Anything evasive confirms the suspicion he is already entertaining. He has a Calendly link in his signature, so the cheapest close is to answer the two questions in four lines and book directly. THE SEND ITSELF INVITED THIS. The 4 November email opens 'Hey Hi Elaine and team' - a visible mail-merge seam, with 'Hey' and the template's 'Hi' both left in - addressed to Elaine with Ben and James copied. Six days later the chase went out with the same opening intact. That is what a careful reader notices before they notice the deal, and it is now the second deliverability-class problem of the night after Microsoft flagged Zamir's address as unfamiliar on the Garnier thread. NOTE THE VARIANT: this send carries three bullets no other version has - 'Year 1 CoC 11%, average 9% through hold', 'Depreciation' and 'Accept 1031 Exchange'. Tax-led framing aimed at family offices. It is also built on the 30 October 21.1% / 2.30x / 5.94% set, so an eighth wording of this pitch is in circulation. || MOVED FROM SCREENING TO A MATERIALS REQUEST, 17 NOV. The two screening questions from 10 Nov (how did you get our details, have you worked with other family offices) were answered by Zamir on 12 Nov - contact came from Fintrix, and \"we have worked with several family offices although our capital has mainly been institutional.\" Scott has now come back asking for FIVE things: (1) the NAMES of the family offices ZMR has worked with, (2) the full IM/presentation, (3) the equity term sheet, (4) the governance structure, (5) tax details. Items 2-5 are a standard package request and Kevin can send them today. ITEM 1 IS NOT ROUTINE AND NEEDS ZAMIR: naming existing LPs to a prospect is a reference disclosure, it may touch confidentiality in those LP agreements, and Zamir has just told him the capital has mainly been institutional - so the honest answer may be a short list or none. Decide what can be named before Kevin sends anything, and consider offering references by call instead of names in writing. Note the asymmetry: this is the first reader to ask for GOVERNANCE and an equity TERM SHEET, neither of which exists as a document on this deal.  17 NOV 17:35 - ZAMIR ANSWERED THE LP-NAMES QUESTION HIMSELF AND SENT THE PACKAGE. He named Sun Capital (the Mark Leder / Roger Kraus family office), the Horowitz Family Office in Orange County, and WTRSHD, and the message ran to 31.9 MB so it carried the materials. Two of the five items are therefore delivered: the family-office names and the IM/presentation. ONE THING TO BE AWARE OF, NOT A PROBLEM BY ITSELF: Wtrshd Capital is also a LIVE PROSPECT on this board - Laura Whitaker, conditional since 13 Oct and silent 36 days - so a current prospect has now been cited to another prospect as an existing relationship. That can be entirely true and still be worth knowing if Hadley calls them. STILL OWED, and drafted: the equity term sheet, the governance structure and the tax details.",
   "tags": [],
   "heat": 4,
   "has": "teaser",
   "followup": {
    "owed": "us",
-   "lastOut": "2026-11-12",
-   "ask": "FIVE ITEMS OWED, asked 17 Nov 12:48: names of family offices worked with, full IM/presentation, equity term sheet, governance structure, tax details. The last four Kevin can assemble; the first is a reference-disclosure decision for Zamir and should not go out by reflex. He books through calendly.com/jamesscott-hadley if a call is easier than a document set."
+   "lastOut": "2026-11-17",
+   "ask": "NAMES AND PACKAGE SENT 17 Nov 17:35 - two of five done. STILL OWED: equity term sheet, governance structure, tax details, all three drafted and awaiting the hold-period, removal-without-cause and buy-sell decisions. Reconcile the two IRR sets before the term sheet goes."
   }
  },
  {
@@ -4900,9 +4900,9 @@
   "has": "teaser",
   "action": "A LIVE ASK OUT OF A BOUNCED INTRODUCTION. Zamir mailed katie@workplay.ventures at 10:34 with Mark Pincus (mark@super.io) and Shaurya Mehta copied. Katie Goldstein replied in FIVE SECONDS with an auto-response: 'I am no longer working for Mark. Please reach out to the finance team if you have any questions at niko@workplay.ventures.' Six hours later Mehta - who was only on the CC line - came back himself and asked for the materials. SEND THEM TODAY, AND SEND THEM TO MEHTA AND NIKO, NOT KATIE. The addressee has left; the firm answered anyway. Workplay Ventures is Mark Pincus's family office and Pincus was copied directly on the original, so this is a principal-level audience, not a screening desk. FIFTH MERGE-SEAM INSTANCE. The send opens 'Hey Hi Katie and team' - after Hadley, Guetermann, Graham Partners and Kantara. It did not cost anything here because someone on the CC line was interested enough to look past it, but that is luck, not process, and it is now five for five on a template that has drawn one opt-out and one 'where did you get our details' already.",
   "followup": {
-   "owed": "us",
+   "owed": "them",
    "lastOut": "2026-11-12",
-   "ask": "MATERIALS REQUESTED - send the 11.10.26 package today to shaurya@workplay.ventures and niko@workplay.ventures. Katie Goldstein has left; drop her address. Mark Pincus was on the original send."
+   "ask": "Kevin sent model and deck 12 Nov 18:05 to Shaurya. Ball is theirs."
   }
  },
  {
