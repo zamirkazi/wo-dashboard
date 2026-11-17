@@ -67,6 +67,7 @@ TAG_LABEL = {
     'going-in-yield':        'Going-in yield too thin',
     'negative-leverage':     'Negative leverage at $34M',
     'exit-cap':              'Exit cap too tight at 6.00%',
+    'exit-cap-tax':          'Exit cap not tax-adjusted - 6.00% reads as 5.5% after reassessment',
     'exit-rent-multiple':    'Exit valued off the rent multiple, not the cap rate',
     'price-reduction':       'Asked whether there is more room on the purchase price',
     'fee-drag':              'Returns thin net of fees and waterfall',
@@ -103,7 +104,7 @@ TAG_LABEL = {
 # Which objections are about Houston itself vs. about this deal's economics.
 MARKET_TAGS = {'houston-exposure','houston-sentiment','submarket-demographics','strategy-mismatch','submarket-vacancy','submarket-conviction','climate-risk','submarket-concessions','texas-selective','not-targeted','us-tax-benefit','domestic-only','us-political-risk'}
 DEAL_TAGS   = {'going-in-yield','negative-leverage','exit-cap','fee-drag','occupancy-softness','unit-size','rent-spread','pref-only','competing-deal',
-               'partner-conflict','check-too-small','capital-paused','non-local-sponsor','profile-appetite','check-too-large','raise-progress','year-one-cash','exit-rent-multiple','price-reduction','diligence-bandwidth','feeder-platform','underbid-this-asset','exchange-capital','hold-period','minimum-check','bulk-internet','co-gp-structure','closing-timeline','basis-not-unique'}
+               'partner-conflict','check-too-small','capital-paused','non-local-sponsor','profile-appetite','check-too-large','raise-progress','year-one-cash','exit-rent-multiple','price-reduction','diligence-bandwidth','feeder-platform','underbid-this-asset','exchange-capital','hold-period','minimum-check','bulk-internet','co-gp-structure','closing-timeline','basis-not-unique','exit-cap-tax'}
 
 data = {
     'deal': deal,
