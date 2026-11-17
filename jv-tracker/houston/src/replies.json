@@ -2856,16 +2856,18 @@
   "title": null,
   "email": "frederico@chromoinvest.com",
   "channel": "sfo",
-  "stage": "materials",
-  "ts": "2026-11-03T19:54:50Z",
-  "quote": "Thank you for sharing this opportunity. We would be interested in learning more about the investment. Please feel free to send over the full package so we can review the opportunity in greater detail.",
-  "tags": [],
-  "heat": 4,
-  "action": "THE FIRST CONVERSION OFF THE SFO WAVE, and it arrived under two hours. Zamir mailed Willian Bueno at 16:07 with Tiago Kretzmann and Frederico Becker copied; Becker answered for the firm and put Willian and Marcelo Sanvitto on the reply, so four people at a Brazilian family office are now on the thread. No objection of any kind - not Houston, not the submarket, not size. Send the package, but send the CORRECTED one: they were pitched the 21.1% / Year-1 11% set, and both the equity base and the yield-on-cost in that set are now known to be wrong. A first-contact family office that reads a package and finds three arithmetic errors does not come back, and this is the only thing the SFO list has produced so far. Worth pairing the package with the minimum-cheque answer up front, since a single family office rarely writes $11.77M.",
+  "stage": "pass",
+  "ts": "2026-11-17T17:54:57Z",
+  "quote": "Thank you for sharing this opportunity. We would be interested in learning more about the investment. Please feel free to send over the full package so we can review the opportunity in greater detail. | 17 Nov 17:54, after the chase: \"Thank you for sharing the materials and for following up. After an internal review of the materials, we concluded that this type of opportunity falls outside the scope of our company's activities. Therefore, we will not be moving forward.\"",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "action": "THE FIRST CONVERSION OFF THE SFO WAVE, and it arrived under two hours. Zamir mailed Willian Bueno at 16:07 with Tiago Kretzmann and Frederico Becker copied; Becker answered for the firm and put Willian and Marcelo Sanvitto on the reply, so four people at a Brazilian family office are now on the thread. No objection of any kind - not Houston, not the submarket, not size. Send the package, but send the CORRECTED one: they were pitched the 21.1% / Year-1 11% set, and both the equity base and the yield-on-cost in that set are now known to be wrong. A first-contact family office that reads a package and finds three arithmetic errors does not come back, and this is the only thing the SFO list has produced so far. Worth pairing the package with the minimum-cheque answer up front, since a single family office rarely writes $11.77M.  17 NOV - THE CHASE WORKED, AND THE ANSWER IS NO. Zamir followed up at 14:26 ('Hello there just wanted to follow up on this') and Becker answered three and a half hours later. Two weeks of silence on the full package ended the same afternoon it was poked, which is the useful part: this was the first of the seven quiet package-holders to be chased and it converted straight to a definitive answer. The other six are worth the same treatment, and the 10 November reissue is a better pretext than 'following up'. ON THE SUBSTANCE THERE IS NOTHING TO SALVAGE: 'outside the scope of our company's activities' is a mandate statement, not a view on Houston, the basis or the numbers, and it came after they asked for the package unprompted on 3 November and had it 49 minutes later. A Brazilian family office that requested the full file and then found the asset class out of scope two weeks on was never close; Willian Bueno was the addressee and Becker answered, with Bueno, Sanvitto and three of ZMR copied. No reason to re-approach on this deal.",
   "followup": {
-   "owed": "them",
-   "lastOut": "2026-11-03",
-   "ask": "Kevin sent the full package 3 Nov, 49 minutes after the ask. Their move."
+   "owed": "none",
+   "lastOut": "2026-11-17",
+   "ask": "Closed on mandate. Nothing owed, nothing to send, no re-approach on Allen Genoa."
   },
   "has": "package"
  },
