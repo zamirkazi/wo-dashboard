@@ -4255,6 +4255,19 @@
    "sent": "2026-11-06",
    "outcome": "replied",
    "note": "Teaser 6 Nov, follow-ups 12 and 16 Nov; passed 16 Nov 21:02 - \"at this time\", no reason named."
+  },
+  {
+   "channel": "direct",
+   "firm": "MASV",
+   "person": "Louise Phelan",
+   "email": "louise@masv.com",
+   "also": [
+    "linda@masv.com",
+    "dan@masv.com"
+   ],
+   "sent": "2026-11-09",
+   "outcome": "replied",
+   "note": "Teaser 9 Nov, chase 16 Nov; passed 17 Nov - not in a position to act now."
   }
  ],
  "carveouts": [

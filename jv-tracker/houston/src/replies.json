@@ -5840,5 +5840,24 @@
    "lastOut": "2026-11-16",
    "ask": "Closed for now with no reason given. A real estate buyer saying \"at this time\" is worth a future-deal note, not a chase."
   }
+ },
+ {
+  "firm": "MASV",
+  "person": "Louise Phelan",
+  "title": null,
+  "email": "louise@masv.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-17T10:18:27Z",
+  "quote": "Thanks we are not in a position to do anything now thanks",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Linda and Dan at masv.com copied. A capacity answer rather than a view - \"not in a position to do anything NOW\" says nothing about Houston, the basis or the numbers, and reads closer to SOJE's \"no longer allocating\" than to a verdict on the deal. Second touch (teaser 9 Nov, chase 16 Nov 11:47), answered from the iPad the next morning. Send carried the merge seam and the sixth number set (21.1% / 2.30x / 9.0% / 5.94% coupon / Mid Jan Close).",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-16",
+   "ask": "Closed on capacity, not on the asset. Nothing owed; a future-cycle name at best."
+  }
  }
 ]
