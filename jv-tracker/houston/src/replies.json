@@ -5908,5 +5908,47 @@
    "lastOut": "2026-11-17",
    "ask": "Closed - wrong asset class entirely. Flag ID Invest as industrial on the equity list so they drop off future multifamily sends. Nothing owed."
   }
+ },
+ {
+  "firm": "Holnest",
+  "person": "Jonas Fabre",
+  "title": "Associate",
+  "email": "jfabre@holnest.fr",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-18T08:46:32Z",
+  "quote": "Thanks for reaching us out. We won't move forward on this opportunity as it doesn't fit in our investment strategy.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "A mandate pass from a French family office, answered within hours of the morning send. Holnest is Lyon-based and Fabre signs as Associate, so this is a screening answer rather than a principal's view - but 'doesn't fit in our investment strategy' is the same sentence ZFO, ID Invest and Chromo all used this week, and in every case it closed the file rather than opening a conversation. Nothing in it touches Houston, the basis or the returns. WORTH NOTING FOR THE WAVE RATHER THAN FOR HOLNEST: this is one of three European answers inside twenty minutes this morning, alongside Michael Grabner Media in Austria and a maternity-leave auto-reply from Korys in Belgium. All three are asset-class or availability answers, none engages the deal. European family offices are responding fast and uniformly negative on US multifamily; the hit rate on this segment is worth weighing before more of the list is worked.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-18",
+   "ask": "Closed on mandate. Nothing owed. Screening-level answer from an Associate, so no principal contact to re-approach on this deal."
+  }
+ },
+ {
+  "firm": "Michael Grabner Media",
+  "person": "Gabriel Grabner",
+  "title": null,
+  "email": "gg@michaelgrabner.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-18T08:27:49Z",
+  "quote": "Dear zamir, thanks for reaching out. Unfortunately it is not a space we invest in, hence we have to thankfully pass.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Austrian family office, out of asset class entirely - 'not a space we invest in'. Answered the same morning the teaser went out, with Florian Bernhard copied. Michael Grabner Media is a media-investment house, so US multifamily was never the fit; this is a targeting miss rather than a rejection, and the equity list should carry them accordingly so they drop off future real-estate sends. Courteous and final - no re-approach on this deal.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-18",
+   "ask": "Closed - wrong asset class. Flag on the equity list as media/non-real-estate so they fall off future sends. Nothing owed."
+  }
  }
 ]

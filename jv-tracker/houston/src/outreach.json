@@ -4295,6 +4295,28 @@
    "sent": "2026-11-04",
    "outcome": "replied",
    "note": "Teaser 4 Nov, chase 17 Nov; passed same day - industrial product manufacturing only, multifamily out of scope."
+  },
+  {
+   "channel": "direct",
+   "firm": "Holnest",
+   "person": "Jonas Fabre",
+   "email": "jfabre@holnest.fr",
+   "also": [],
+   "sent": "2026-11-04",
+   "outcome": "replied",
+   "note": "Teaser 4 Nov, chase 18 Nov; passed same morning - outside investment strategy."
+  },
+  {
+   "channel": "direct",
+   "firm": "Michael Grabner Media",
+   "person": "Gabriel Grabner",
+   "email": "gg@michaelgrabner.com",
+   "also": [
+    "fb@michaelgrabner.com"
+   ],
+   "sent": "2026-11-18",
+   "outcome": "replied",
+   "note": "Teaser 18 Nov; passed within the hour - not a space they invest in."
   }
  ],
  "carveouts": [
