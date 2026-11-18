@@ -1169,16 +1169,18 @@
   "title": "Principal, Acquisitions",
   "email": "dylank@erillc.com",
   "channel": "direct",
-  "stage": "materials",
-  "ts": "2026-11-10T21:24:26Z",
-  "quote": "Nice to hear from you. Are you able to send a financial model and any additional materials you've put together? We will review and circle back. | 10 Nov 21:24: \"We are evaluating and will circle back to you.\"",
-  "action": "The first RJL-carveout send to convert, and it converted off the cc line rather than the addressee. Zamir wrote to Paul Coelho at 09:00 copying Mike, Dylan and Bill; Paul came back out-of-office pointing to Joanne Foley and bill@ bounced mailbox-full, so three of the four doors were shut. Dylan Kyriakakis took it four hours later and asked for the model. Zamir pulled Kevin in at 13:09 to send everything. Worth noting the pattern for the six carveout drafts still unsent: copying the bench is what got this one answered. This also closes the question of whether paul@erillc.com was dead after the July postmaster bounce - the address accepts mail, the person is just away.  10 Nov 21:24 - STILL INSIDE, STILL QUIET. Dylan Kyriakakis, a Principal in Acquisitions, answered the chase with one line: evaluating, will circle back. No questions, no timetable, no objection. Paul Coelho stays copied. That is a holding answer rather than progress, but it is the right side of the line and it is the second week they have been in the file. The useful move is not another chase - it is to give them a reason to come back, and the 11.10.26 OM and model issued today are exactly that. Send the refreshed package, note the rate snapshot, and the ball moves without pressure. Note too that Eastham's exit-multiple objection sits in the model Equity Resource is reading right now.",
-  "tags": [],
-  "heat": 4,
+  "stage": "pass",
+  "ts": "2026-11-18T17:20:26Z",
+  "quote": "Nice to hear from you. Are you able to send a financial model and any additional materials you've put together? We will review and circle back. | 10 Nov 21:24: \"We are evaluating and will circle back to you.\" | 18 Nov 17:20: \"We are a pass right now. Houston is challenging for us to get comfortable with.\"",
+  "action": "The first RJL-carveout send to convert, and it converted off the cc line rather than the addressee. Zamir wrote to Paul Coelho at 09:00 copying Mike, Dylan and Bill; Paul came back out-of-office pointing to Joanne Foley and bill@ bounced mailbox-full, so three of the four doors were shut. Dylan Kyriakakis took it four hours later and asked for the model. Zamir pulled Kevin in at 13:09 to send everything. Worth noting the pattern for the six carveout drafts still unsent: copying the bench is what got this one answered. This also closes the question of whether paul@erillc.com was dead after the July postmaster bounce - the address accepts mail, the person is just away.  10 Nov 21:24 - STILL INSIDE, STILL QUIET. Dylan Kyriakakis, a Principal in Acquisitions, answered the chase with one line: evaluating, will circle back. No questions, no timetable, no objection. Paul Coelho stays copied. That is a holding answer rather than progress, but it is the right side of the line and it is the second week they have been in the file. The useful move is not another chase - it is to give them a reason to come back, and the 11.10.26 OM and model issued today are exactly that. Send the refreshed package, note the rate snapshot, and the ball moves without pressure. Note too that Eastham's exit-multiple objection sits in the model Equity Resource is reading right now. \n\n18 NOV - PASSED, AND ON HOUSTON. Twenty-three hours after Zamir's 17 Nov 18:42 chase, Kyriakakis closed it in two sentences: 'We are a pass right now. Houston is challenging for us to get comfortable with.' No deal objection - not the basis, not the exit, not the year-one cash, not the check size. THE MARKET, WHICH IS THE HEADLINE FINDING OF THIS ENTIRE ROUND ARRIVING ONE MORE TIME. THIS IS THE MOST EXPENSIVE LOSS OF THE WEEK FOR THREE REASONS. First, Equity Resource was one of only three firms sitting inside the live model - with ABR and Island Capital - which is the set that would have tested Eastham's rent-multiple objection and Machine's tax-adjusted exit finding in real underwriting. That test set is now down to two. Second, it was THE FIRST AND ONLY RJL-CARVEOUT NAME TO CONVERT, and it converted off the cc line after the addressee was out of office and a fourth mailbox bounced. The carveout lapses around 25 Nov with nothing to show for it. Third, they passed holding the OLDER package: the row has flagged since 10 Nov that the 11.10.26 OM was the better re-engagement than another chase, and what went on 17 Nov was a chase. They never saw the refreshed file. That is not a reason to think the outcome would have changed - 'Houston is challenging for us to get comfortable with' is not a numbers objection and a newer model does not answer it - but it is the second time this week a live reader has been chased rather than re-engaged with the current file. 'Right now' is doing some work in that sentence and Kyriakakis took the deal seriously for three weeks, so he is worth keeping for the next Texas deal. Nothing is owed here.",
+  "tags": [
+   "houston-sentiment"
+  ],
+  "heat": 1,
   "followup": {
-   "owed": "them",
+   "owed": "none",
    "lastOut": "2026-11-17",
-   "ask": "\"Evaluating, will circle back\" 10 Nov; Zamir chased for feedback 17 Nov 18:42. Ball is theirs. The 11.10.26 OM is still the better re-engagement than another chase."
+   "ask": "Closed on Houston, not on the deal. Nothing owed. Keep Kyriakakis for the next one - he worked this file for three weeks and the objection was the market, not the asset."
   },
   "has": "package"
  },
@@ -6008,6 +6010,27 @@
    "owed": "none",
    "lastOut": "2026-11-18",
    "ask": "Closed - a four-word no from the firm's partner. Nothing owed, no re-approach on this deal."
+  }
+ },
+ {
+  "firm": "Hexagon, Inc.",
+  "person": "Ronald A. Bader",
+  "title": "EVP & Chief Investment Officer",
+  "email": "rab@hexagoninc.com",
+  "channel": "direct",
+  "stage": "relationship",
+  "ts": "2026-11-18T17:23:45Z",
+  "quote": "We are chasing our tails at the moment and do not have the capacity right now to meet the timing. However, as a means to becoming more familiar with your firm, feel free to send the deck including information on ZMR Capital.",
+  "tags": [
+   "diligence-bandwidth"
+  ],
+  "heat": 2,
+  "has": "teaser",
+  "action": "THE ONE THIRD-TOUCH REPLY TODAY THAT OPENED A DOOR INSTEAD OF CLOSING ONE. Four firms answered a third email today - Hoegh passed, G-Bar demanded removal, McLeod Cobb said 'not a fit' - and Bader, a chief investment officer at a Wisconsin family office, said no to THIS deal on bandwidth and timing while explicitly asking to be introduced to the FIRM. That is a different thing from a pass and should not be filed as one. It also slightly qualifies the cadence finding: the third touch is producing closures, but it is not producing only closures. WHAT HE ASKED FOR IS NOT THE ALLEN GENOA PACKAGE. He wants 'the deck including information on ZMR Capital' - a firm credentials piece: track record, realised deals, AUM, the team, the thesis. Nothing on this board says ZMR has one assembled and ready to send; what exists is a deal three-pager, an OM and a model. If that credentials deck does not exist, this is the second time it would have been useful (Hadley asked for LP references and governance detail last week) and it is worth building once rather than improvising twice. Sending the Allen Genoa OM instead would miss what he asked for and waste the only open door of the four. On the timing read: he says capacity, not conviction - no view on Houston, the basis or the returns, and he did not ask to be removed. Pewaukee, Wisconsin, so this is a passive allocator rather than an operator. Treat as a next-deal relationship, answer it this week while the thread is warm, and do not re-pitch Allen Genoa inside the same email.",
+  "followup": {
+   "owed": "us",
+   "lastOut": "2026-11-18",
+   "ask": "Send the ZMR Capital firm deck - credentials, track record, team - NOT the Allen Genoa package. He asked to get to know the firm, not the deal. Confirm a firm credentials deck actually exists first; if not, this is the second request for one in a week."
   }
  }
 ]
