@@ -4370,6 +4370,19 @@
    "sent": "2026-11-04",
    "outcome": "replied",
    "note": "Teaser 4 Nov, chase 10 Nov, third touch 18 Nov; Ron Bader (CIO, a CC) answered 18 Nov 17:23 - no capacity for this timing, but asked for the ZMR firm deck to get to know the firm. Next-deal relationship, not a pass."
+  },
+  {
+   "channel": "direct",
+   "firm": "Kemnay USA",
+   "person": "Mike Batal",
+   "email": "mbatal@kemnayusa.com",
+   "also": [
+    "hheinz@kemnayusa.com",
+    "creilly@kemnayusa.com"
+   ],
+   "sent": "2026-11-06",
+   "outcome": "replied",
+   "note": "Teaser 6 Nov, chase 12 Nov, third touch 18 Nov; Heather Heinz (a CC) passed 18 Nov 18:46 - 'not a fit', no reason. Batal never answered."
   }
  ],
  "carveouts": [
