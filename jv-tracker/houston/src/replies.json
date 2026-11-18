@@ -5950,5 +5950,26 @@
    "lastOut": "2026-11-18",
    "ask": "Closed - wrong asset class. Flag on the equity list as media/non-real-estate so they fall off future sends. Nothing owed."
   }
+ },
+ {
+  "firm": "ZHAR",
+  "person": "Abouzar Rahmani",
+  "title": null,
+  "email": "a.rahmani@zhar.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-18T09:12:14Z",
+  "quote": "Thanks for following up. We're not looking at external real estate investments, as we're fully focused on developing our own portfolio.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "A clean principal pass: ZHAR builds and holds its own real estate and does not write LP cheques into other sponsors' deals. That is a structural no, not a view on Houston - the basis, the vintage and the returns go unmentioned. Three colleagues at foodyoung.com and domanifood.com were copied, which places ZHAR as an operating family business with food and property arms rather than an allocator. FIFTH MANDATE PASS IN TWO DAYS, after ZFO, ID Invest, Chromo and Holnest. The sentence varies but the content does not: wrong asset class or wrong role in the capital stack, answered within a day of the touch. The European and operating-family segment of the list is converting to fast noes, not to conversations, and none of these readers has engaged a single deal term. Worth weighing against the remaining unworked names on that segment before more effort goes into it.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-17",
+   "ask": "Closed - they develop their own portfolio and do not invest externally. Nothing owed, no re-approach on this deal."
+  }
  }
 ]

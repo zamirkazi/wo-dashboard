@@ -4317,6 +4317,20 @@
    "sent": "2026-11-18",
    "outcome": "replied",
    "note": "Teaser 18 Nov; passed within the hour - not a space they invest in."
+  },
+  {
+   "channel": "direct",
+   "firm": "ZHAR",
+   "person": "Abouzar Rahmani",
+   "email": "a.rahmani@zhar.com",
+   "also": [
+    "julia@foodyoung.com",
+    "funda@foodyoung.com",
+    "abouzar.rahmani@domanifood.com"
+   ],
+   "sent": "2026-11-10",
+   "outcome": "replied",
+   "note": "Teaser 10 Nov, chase 17 Nov; passed 18 Nov - develops its own portfolio, no external RE investments."
   }
  ],
  "carveouts": [
@@ -4509,6 +4523,11 @@
    "firm": "Light Warrior (Alison Irving's personal address only)",
    "person": "Alison Irving, Chief Financial Officer",
    "why": "\"Would you please direct any future messages to info@lightwarrior.com where they will be attended to by the appropriate team member. Thank you for removing my personal email from any circulation lists.\" - Alison Irving, CFO, 17 Nov 03:48. A ROUTING REQUEST PLUS A PERSONAL-ADDRESS REMOVAL, NOT A FIRM-WIDE OPT-OUT: she does not decline the deal and does not speak for Radek Sali or Stephynee Harper-Paterson, who were both copied. Suppress alison.irving@lightwarrior.com; the firm's own stated route is info@lightwarrior.com. Fourth routing request of the campaign after Brimmers, Sittig and Bakala's Kapoor, and the same cause each time - the send went to a named individual (6 Nov) and was chased twice (12 Nov, 16 Nov) with the principals on CC. Light Warrior is Radek Sali's Australian family office; venture and consumer brands, so an LP cheque here was always unlikely."
+  },
+  {
+   "firm": "MTCH (Hyunju Yang's address only)",
+   "person": "Hyunju Yang",
+   "why": "\"Please remove me from your distribution list\" - Hyunju Yang, 18 Nov 09:14, answering a send made at 08:57 the same morning. An explicit removal demand with no view on the deal; suppress hyunju.yang@mtch.com.tw. Worded as a personal removal rather than a firm-wide opt-out, so it is recorded that way, but nobody else at mtch.com.tw is on the board and there is no reason to go looking - treat the domain as closed in practice. SEVENTEEN MINUTES from send to removal request, which is the fastest on the campaign and says the targeting, not the deal, is what drew it."
   }
  ],
  "deadline": "RAH, the seller, asked on 12 Oct to be under contract this week.",
