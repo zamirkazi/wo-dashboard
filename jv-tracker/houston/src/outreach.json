@@ -4421,6 +4421,19 @@
    "sent": "2026-11-09",
    "outcome": "replied",
    "note": "Mailed at polishednickelcapital.com (teaser 9 Nov, chase 16 Nov, third touch 19 Nov); Eric Storck (a CC) passed 19 Nov 12:16 FROM pncmgroup.com. Firm has moved domains - old one still delivers, roster updated to pncmgroup.com."
+  },
+  {
+   "channel": "direct",
+   "firm": "Olympus Ventures",
+   "person": "Jonathan Busse",
+   "email": "jbusse@olympusventures.com",
+   "also": [
+    "cryan@olympusventures.com",
+    "aberanek@olympusventures.com"
+   ],
+   "sent": "2026-11-09",
+   "outcome": "replied",
+   "note": "Teaser 9 Nov, chase 16 Nov, third touch 19 Nov; Busse passed himself 19 Nov 15:08 - focused on other deals. Bandwidth, not a view on the asset. Minneapolis family office; keep for the next one."
   }
  ],
  "carveouts": [
