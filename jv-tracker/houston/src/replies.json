@@ -6129,5 +6129,26 @@
    "lastOut": "2026-11-19",
    "ask": "Closed on bandwidth, not on the deal - nothing about Allen Genoa was rejected. Nothing owed. Re-approach on the next one."
   }
+ },
+ {
+  "firm": "Scharf Brothers",
+  "person": "Michael J. Scharf",
+  "title": null,
+  "email": "mscharf@scharfbrothers.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-19T16:38:34Z",
+  "quote": "Thank you Zamir. We are not interested. The projected returns are not compelling.",
+  "tags": [
+   "returns-not-compelling"
+  ],
+  "heat": 2,
+  "has": "teaser",
+  "action": "THE FIRST READER IN THIS ENTIRE BATCH TO REJECT THE NUMBERS THEMSELVES. Eight firms closed in two days - Hoegh, G-Bar, McLeod Cobb, Kemnay, Puffin Point, Polished Nickel, LFO and Olympus - and not one engaged a figure. Scharf names the returns and nothing else: not Houston, not the basis, not the submarket, not the check size. On a board whose headline finding is that almost every pass is about Houston rather than the deal, this is the counter-example, and it is worth more attention than the seven reason-free noes put together. WHAT HE ACTUALLY SAW: the 9 Nov direct teaser, which carries 21.1% LEVERED IRR / 2.30x / 9.0% stabilized cash-on-cash, ~6% cap in, 6.00% out, 7.10% untrended yield-on-cost, $11.77M of LP equity at 90/10, Year 1 CoC 11%. A principal calling a 21% headline IRR 'not compelling' means one of three things, and they have different answers: his hurdle is genuinely above it; he does not believe the number; or he read 21.1% as the LP's net return when it is deal-level, and the LP net on the current 11.10.26 file is 16.2% / 1.91x. THE THIRD IS THE MOST LIKELY AND THE MOST FIXABLE. The teaser puts '21.1% levered IRR' in a bullet with no label distinguishing deal-level from LP net, which invites exactly this reading - and if a sophisticated principal made it, others on the 380-name list have made it silently and simply not replied. Worth labelling the two explicitly in the next version of the teaser. He also answered himself, with Andrew Scharf copied - the third addressee in two days to close his own thread, after LFO and Olympus. Teaser 9 Nov 12:39, chase 16 Nov 09:48, third touch today 09:30, pass 16:38. Nothing owed and no re-approach on this deal: a returns objection with no number attached cannot be answered without him offering his hurdle, and he did not.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-19",
+   "ask": "Closed on returns, the only such pass in this batch. Nothing owed. INTERNAL: check whether the teaser's unlabelled '21.1% levered IRR' is being read as LP net - the LP net is 16.2% / 1.91x - and label both in the next version."
+  }
  }
 ]

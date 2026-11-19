@@ -100,11 +100,12 @@ TAG_LABEL = {
     'closing-timeline':      'Needs a longer closing timeline than the contract allows',
     'basis-not-unique':      'Same basis available on similar product in better Houston locations',
     'us-tax-benefit':        'Depreciation / 1031 pitch only works for a US taxpayer',
+    'returns-not-compelling':'Headline returns simply not compelling enough',
 }
 # Which objections are about Houston itself vs. about this deal's economics.
 MARKET_TAGS = {'houston-exposure','houston-sentiment','submarket-demographics','strategy-mismatch','submarket-vacancy','submarket-conviction','climate-risk','submarket-concessions','texas-selective','not-targeted','us-tax-benefit','domestic-only','us-political-risk'}
 DEAL_TAGS   = {'going-in-yield','negative-leverage','exit-cap','fee-drag','occupancy-softness','unit-size','rent-spread','pref-only','competing-deal',
-               'partner-conflict','check-too-small','capital-paused','non-local-sponsor','profile-appetite','check-too-large','raise-progress','year-one-cash','exit-rent-multiple','price-reduction','diligence-bandwidth','feeder-platform','underbid-this-asset','exchange-capital','hold-period','minimum-check','bulk-internet','co-gp-structure','closing-timeline','basis-not-unique','exit-cap-tax'}
+               'partner-conflict','check-too-small','capital-paused','non-local-sponsor','profile-appetite','check-too-large','raise-progress','year-one-cash','exit-rent-multiple','price-reduction','diligence-bandwidth','feeder-platform','underbid-this-asset','exchange-capital','hold-period','minimum-check','bulk-internet','co-gp-structure','closing-timeline','basis-not-unique','exit-cap-tax','returns-not-compelling'}
 
 data = {
     'deal': deal,
