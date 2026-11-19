@@ -6089,5 +6089,24 @@
    "lastOut": "2026-11-19",
    "ask": "Closed - a five-minute no with no reason. Nothing owed, no re-approach on this deal."
   }
+ },
+ {
+  "firm": "Polished Nickel Capital Management",
+  "person": "Eric Storck",
+  "title": null,
+  "email": "estorck@pncmgroup.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-19T12:16:52Z",
+  "quote": "Hi Zamir- At this time we are not interested.",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Teaser 9 Nov 10:57 to Patrick Moore with Storck and Mallory Anderson copied, chase 16 Nov 08:12, third touch today 09:50, pass 12:16 - two and a half hours. Reason-free, and 'at this time' is the only softener; nothing about Houston, basis, returns or size, so there is nothing to answer. Eighth closure on a third touch in two days, twelfth on the campaign, and again it was a copied colleague who ended it while the addressee stayed silent. ONE THING WORTH FIXING ON THE ROSTER: ZMR mailed polishednickelcapital.com and the reply came back from PNCMGROUP.COM. All three names have migrated - pmoore@, estorck@ and manderson@pncmgroup.com. The old domain still delivers, so nothing bounced and nothing was lost here, but the roster is carrying a stale domain for this firm and probably reaches a forwarder rather than their live mail. Update all three addresses before the next deal; a forwarded address is one IT change away from silently dropping mail, and silence on this board is routinely read as disinterest.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-19",
+   "ask": "Closed - reason-free no. Nothing owed. Update the roster from polishednickelcapital.com to pncmgroup.com for Moore, Storck and Anderson before the next deal."
+  }
  }
 ]
