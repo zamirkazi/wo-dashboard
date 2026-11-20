@@ -4483,6 +4483,32 @@
    "sent": "2026-11-10",
    "outcome": "replied",
    "note": "Teaser 10 Nov 16:31, chase 18 Nov 07:35, third touch 20 Nov 08:43; passed 09:12 - 'Not for us', no reason. Two addresses on veddis.com, one on veddis.org; check whether the .org is a foundation before any future send."
+  },
+  {
+   "channel": "direct",
+   "firm": "The Renco Group",
+   "person": "Diana Sadykova",
+   "email": "dsadykova@rencogrp.com",
+   "also": [
+    "dcarus@rencogrp.com",
+    "bdelacruz@rencogrp.com"
+   ],
+   "sent": "2026-11-10",
+   "outcome": "replied",
+   "note": "Teaser 10 Nov 13:37, chase 16 Nov 08:28, third touch 20 Nov 07:49; Belinda Dela Cruz (cc) closed it 13:07 - 'would not be of interest'. Renco's gateway stamped the third email 'Caution: External / First-Time Sender' with a report-spam button."
+  },
+  {
+   "channel": "direct",
+   "firm": "Stonecroft Management",
+   "person": "Jed Lenzner",
+   "email": "jed@stonecroftmanagement.com",
+   "also": [
+    "Olivia@stonecroftmanagement.com",
+    "ryan@stonecroftmanagement.com"
+   ],
+   "sent": "2026-11-10",
+   "outcome": "replied",
+   "note": "Teaser 10 Nov 12:47, chase 16 Nov 07:46, third touch 20 Nov 08:14; Ryan Josephson (cc) closed it 12:25 - 'not a fit for Stonecroft as we are not currently focused on real estate opportunities.'"
   }
  ],
  "carveouts": [

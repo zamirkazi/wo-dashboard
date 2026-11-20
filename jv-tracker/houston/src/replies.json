@@ -6210,5 +6210,46 @@
    "lastOut": "2026-11-20",
    "ask": "Closed - 'Not for us', reason-free. Nothing owed. Before any future send, check whether veddis.org is the foundation rather than the investment arm; a charitable vehicle does not belong on an LP equity list."
   }
+ },
+ {
+  "firm": "The Renco Group",
+  "person": "Belinda Dela Cruz",
+  "title": null,
+  "email": "bdelacruz@rencogrp.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-20T13:07:01Z",
+  "quote": "Good morning Zamir - thank you for reaching out this opportunity but it would not be of interest.",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Eighteen minutes after the third touch, and answered by a copied colleague rather than the addressee - Zamir wrote to Diana Sadykova, Belinda Dela Cruz replied. 'Would not be of interest' names nothing: not Houston, not the basis, not the returns, not the check size, so there is nothing here to answer or to carry into a redraft. Teaser 10 Nov 13:37, chase 16 Nov 08:28, third touch 20 Nov 07:49, close 13:07. THIRTEENTH CLOSURE TRACEABLE TO A THIRD TOUCH AND THE FOURTH TODAY. ONE DELIVERABILITY SIGNAL IS WORTH THE NOTE: Renco's mail gateway stamped this third email 'Caution: External' and 'First-Time Sender' with a 'Report This Email' button, on the THIRD message from the same address in ten days. The sender reputation of zamir@zmrcapital.com is not carrying across to corporate filters - which belongs with the Gmail daily-cap findings on the PCCP and Two Trees rows as part of one picture: the outbound channel itself is degrading, not just the response rate. Nothing owed, no re-approach on Allen Genoa.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-20",
+   "ask": "Closed - 'would not be of interest', reason-free. Nothing owed. Note for any future send: Renco's gateway is flagging zamir@zmrcapital.com as a first-time external sender and offering a report-spam button."
+  }
+ },
+ {
+  "firm": "Stonecroft Management",
+  "person": "Ryan Josephson",
+  "title": null,
+  "email": "ryan@stonecroftmanagement.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-20T12:25:28Z",
+  "quote": "Hi Zamir, Hope all is well. This is not a fit for Stonecroft as we are not currently focused on real estate opportunities. Best of luck with the transaction.",
+  "tags": [
+   "strategy-mismatch",
+   "capital-paused"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Courteous, fast and answered by a copied colleague: Zamir wrote to Jed Lenzner, Ryan Josephson replied nine hours later - teaser 10 Nov 12:47, chase 16 Nov 07:46, third touch 20 Nov 08:14, close 12:25. FOURTEENTH THIRD-TOUCH CLOSURE, FIFTH TODAY. THE REASON IS THE SAME ONE TWO TREES GAVE THREE HOURS EARLIER AND IT IS NEW TO THIS CAMPAIGN: 'not currently focused on real estate opportunities.' Three of the five closures today - Two Trees, Stonecroft and, by implication, Veddis - turned on the asset class itself rather than on Houston. The board's headline finding has been that almost every pass names Houston; this morning's batch does not, and that is because this wave is reaching generalist family offices rather than the screened real estate roster. It is the same targeting problem that produced Full Vision and MTCH, in a politer form: these readers were never real estate allocators, so no number and no number of touches would have moved them. Nothing owed; 'best of luck with the transaction' is a clean close worth keeping for a non-real-estate approach.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-20",
+   "ask": "Closed - not focused on real estate. Nothing owed. Do not re-approach on Allen Genoa or on any other real estate deal until the posture changes."
+  }
  }
 ]
