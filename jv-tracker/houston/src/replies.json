@@ -2397,7 +2397,7 @@
   "quote": "Thanks Zamir. Looping in Brad who covers Houston for us. Moving Barbs/Haber to Bcc. Brad - any interest?",
   "tags": [],
   "heat": 3,
-  "action": "Routed internally to the person who covers Houston and asked the question in the open - 'Brad, any interest?' - which is as good as a cold send gets. Do not reply into the thread chasing Brad today; give it a day, then write to him directly with the package. PCCP writes both debt and equity at scale, so if Brad engages, lead with the basis and be ready on cheque size."
+  "action": "Routed internally to the person who covers Houston and asked the question in the open - 'Brad, any interest?' - which is as good as a cold send gets. Do not reply into the thread chasing Brad today; give it a day, then write to him directly with the package. PCCP writes both debt and equity at scale, so if Brad engages, lead with the basis and be ready on cheque size. CORRECTION, 20 NOV: THE CHASE TO BRAD NEVER LEFT THE BUILDING. Zamir did write to Brad Hartstein, who covers Houston for PCCP, on 16 Nov at 22:27 - 'Thanks Scott. Brad wanted to follow up on this' - to snugent@ with Hartstein and Michael Johnson copied. Gmail refused it twelve seconds later: 'You have reached a limit for sending mail. Your message was not sent.' It was never resent. PCCP therefore has NOT been chased, four days on; Scott's open question to Brad - 'Brad - any interest?' - is still the last thing anyone at PCCP saw. Of every send the daily sending cap blocked this week, this is the only one of consequence that was not recovered: the KCB time-offer (16 Nov 15:12) and the Andrew Dick package at RPM Living (16 Nov 18:56) both bounced and Zamir reissued them from his personal Gmail within four minutes, which is why those two threads live on zamirkazi87@gmail.com. This one simply stopped. Resending it is a two-minute job and it is the whole of what this row needs."
  },
  {
   "firm": "Arete Wealth",
@@ -6168,6 +6168,47 @@
    "owed": "none",
    "lastOut": "2026-11-18",
    "ask": "Closed - 'pass on this deal this time', no reason given. Nothing owed. Keep OUE for the next one: Stephen Riady was copied throughout, so this was read at principal level."
+  }
+ },
+ {
+  "firm": "Two Trees Capital",
+  "person": "Koh Zi Yang",
+  "title": "Investment Associate",
+  "email": "Ziyang.koh@twotreescapital.biz",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-20T10:02:19Z",
+  "quote": "Hi Zamir, We aren't too keen on real estate at the moment. Thank you for reaching out.",
+  "tags": [
+   "strategy-mismatch",
+   "capital-paused"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "THREE MINUTES AND FORTY-SEVEN SECONDS. Zamir's third touch went out at 09:58:32 and Koh answered at 10:02:19 - the fastest reply of the entire campaign, beating Puffin Point's five minutes. A reply that fast is not an evaluation; it is a thread being cleared off a desk. 'Not too keen on real estate AT THE MOMENT' is an appetite statement with a timer on it, and it is the only part worth keeping: Two Trees is a Singapore family office (Centrium Square, Serangoon Road) with Ong Xuanfeng copied throughout, so the file was seen by two people and nothing in the deal was objected to. No Houston, no basis, no returns, no check size - nothing to answer and nothing to fix. THIS ROW ALSO CARRIES THE RATE-LIMIT EVIDENCE: the 16 Nov chase to this address was attempted FIVE times (11:59, 16:02, 20:09, 00:16 and once more) and FOUR of those came straight back from mailer-daemon with 'You have reached a limit for sending mail. Your message was not sent.' The chase only landed on 18 Nov 07:19, two days late, because Google was throttling the zmrcapital.com account - see the PCCP row and the report for the full scope. Keep for a non-real-estate-adjacent follow-up or the next deal; do not chase Allen Genoa again.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-20",
+   "ask": "Closed - real estate appetite paused, no deal objection. Nothing owed. Worth re-approaching on a future deal once the appetite statement has aged; Ong Xuanfeng was copied on every send, so two readers at the firm know the name."
+  }
+ },
+ {
+  "firm": "Veddis",
+  "person": "Manpreet Singh",
+  "title": null,
+  "email": "manpreet@veddis.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-20T09:12:02Z",
+  "quote": "Hi, Not for us,",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "Twenty-nine minutes after the third touch, three words and a comma. 'Not for us' names nothing - not Houston, not the basis, not the returns, not the check size - so there is nothing on this row to answer and nothing to carry into a redraft. Teaser 10 Nov 16:31 to Manpreet Singh with Vaishali and Sudhanshoo copied, chase 18 Nov 07:35, third touch 20 Nov 08:43, pass 09:12. TWELFTH CLOSURE TRACEABLE TO A THIRD TOUCH AND THE THIRD TODAY. Two of the three addresses sit on veddis.com and one on veddis.org, which is the usual signature of a family office sharing a roof with a foundation - worth knowing only in that a philanthropic arm is not an LP prospect and should come off any future send. Nothing owed; no re-approach on Allen Genoa.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-20",
+   "ask": "Closed - 'Not for us', reason-free. Nothing owed. Before any future send, check whether veddis.org is the foundation rather than the investment arm; a charitable vehicle does not belong on an LP equity list."
   }
  }
 ]
