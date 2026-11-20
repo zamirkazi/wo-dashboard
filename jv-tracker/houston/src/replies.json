@@ -6251,5 +6251,26 @@
    "lastOut": "2026-11-20",
    "ask": "Closed - not focused on real estate. Nothing owed. Do not re-approach on Allen Genoa or on any other real estate deal until the posture changes."
   }
+ },
+ {
+  "firm": "THM Management",
+  "person": "AA Bangasser",
+  "title": null,
+  "email": "abangasser@thmngt.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-20T14:14:51Z",
+  "quote": "No thank you, real estate does not fit into our current investment mandate.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "The clearest statement of the day and the fourth time today a reader has said the asset class is the problem: 'real estate does not fit into our current investment mandate.' Not Houston, not the basis, not the price - the mandate. Teaser 10 Nov 14:00 to Anne Amanda Bangasser with Raoul Slavin and David Slavin at Treehouse Investments copied, chase 16 Nov 10:47, third touch 20 Nov 08:17, close 14:14. FIFTEENTH THIRD-TOUCH CLOSURE, SIXTH TODAY. TAKEN WITH TWO TREES, STONECROFT AND VEDDIS THIS IS NO LONGER A COINCIDENCE: four of today's six closures turned on real estate as an asset class, which is a list problem and not a message problem. These names were drawn from the wider family-office file rather than the screened equity roster, and no revision of the teaser - not the LP-net labelling, not the CoC tab, not a price cut - would have changed a single one of these answers. The one useful detail is the Treehouse Investments address on the copy line: it is a second entity in the same orbit and equally not a real estate allocator. Nothing owed, no re-approach.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-20",
+   "ask": "Closed - real estate outside the mandate. Nothing owed. Remove thmngt.com and treehouseinvestments.com from real estate send lists; keep only if ZMR ever raises for something outside the asset class."
+  }
  }
 ]
