@@ -6150,5 +6150,24 @@
    "lastOut": "2026-11-19",
    "ask": "Closed on returns, the only such pass in this batch. Nothing owed. INTERNAL: check whether the teaser's unlabelled '21.1% levered IRR' is being read as LP net - the LP net is 16.2% / 1.91x - and label both in the next version."
   }
+ },
+ {
+  "firm": "OUE Capital",
+  "person": "Timothy Wu",
+  "title": "Portfolio Manager",
+  "email": "timothywu@oue.com.sg",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-20T01:30:55Z",
+  "quote": "Hi Zamir. Sorry for the late reply. We will pass on this deal this time. Thank you",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "A courteous Singapore pass with no reason given - nothing on Houston, the basis, the returns or the check size, so there is nothing to answer. Teaser 6 Nov 12:56 to Timothy Wu with Stephen Riady copied, chase 12 Nov, third touch 18 Nov 09:56, reply 20 Nov 01:30 - about forty hours later, which at Singapore time is the next working morning. TENTH CLOSURE ON A THIRD TOUCH, and the second where the addressee answered himself rather than a copied colleague. 'THIS TIME' IS DOING REAL WORK IN THAT SENTENCE and it is the only thing worth keeping. Wu is a portfolio manager at OUE Capital, the Riady family's Singapore-listed property arm, and Stephen Riady was copied throughout - so the deal reached principal level and came back as a deferral rather than a door closed. Asia is the one segment of this list with almost no coverage on the board; a name that reads the file at that level and answers politely is worth keeping for the next deal, with an eye on the dollar-funding and US-tax questions that make a Singapore LP harder than a domestic one. Nothing owed, and no re-approach on Allen Genoa.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-18",
+   "ask": "Closed - 'pass on this deal this time', no reason given. Nothing owed. Keep OUE for the next one: Stephen Riady was copied throughout, so this was read at principal level."
+  }
  }
 ]
