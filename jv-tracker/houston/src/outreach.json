@@ -4536,6 +4536,15 @@
    "sent": "2026-11-09",
    "outcome": "replied",
    "note": "Iceland. Teaser 9 Nov 10:40, chase 16 Nov 07:56, third touch 19 Nov 08:59; passed 20 Nov 16:21 from kristin@ (ka@ appears to be the same person). 'We have reviewed it... does not fit our investment strategy at the moment.' The only reviewed pass in the 20 Nov batch."
+  },
+  {
+   "channel": "direct",
+   "firm": "Tigmera",
+   "person": "Sandor Straus",
+   "email": "sandor@tigmera.com",
+   "sent": "2026-11-10",
+   "outcome": "replied",
+   "note": "Teaser 10 Nov 13:51, chase 16 Nov 10:40, third touch 20 Nov 06:24; 'Not interested' 20:27. Sole addressee, no colleagues copied."
   }
  ],
  "carveouts": [
