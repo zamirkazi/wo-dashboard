@@ -4545,6 +4545,19 @@
    "sent": "2026-11-10",
    "outcome": "replied",
    "note": "Teaser 10 Nov 13:51, chase 16 Nov 10:40, third touch 20 Nov 06:24; 'Not interested' 20:27. Sole addressee, no colleagues copied."
+  },
+  {
+   "channel": "direct",
+   "firm": "Vlasic Group",
+   "person": "Paul Vlasic",
+   "email": "pav@vlasicgroup.com",
+   "also": [
+    "mvlasic@vlasicgroup.com",
+    "pvlasic@vlasicgroup.com"
+   ],
+   "sent": "2026-11-10",
+   "outcome": "replied",
+   "note": "Single touch 10 Nov 16:45, no chase; Paul passed 21 Nov 14:15. The send to Matthew Vlasic was BLOCKED by their gateway eight minutes after sending; Paul replied from pav@, not the pvlasic@ on file. His gateway also stamped the mail 'originated from UNTRUSTED SOURCE'."
   }
  ],
  "carveouts": [

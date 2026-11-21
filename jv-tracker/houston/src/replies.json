@@ -6312,5 +6312,24 @@
    "lastOut": "2026-11-20",
    "ask": "Closed - 'Not interested', no reason. Nothing owed."
   }
+ },
+ {
+  "firm": "Vlasic Group",
+  "person": "Paul Vlasic",
+  "title": null,
+  "email": "pav@vlasicgroup.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-21T14:15:21Z",
+  "quote": "Zamir, Thanks for reaching out and thinking of us. We appreciate the opportunity, but we're going to pass on this one.",
+  "tags": [],
+  "heat": 1,
+  "has": "teaser",
+  "action": "A courteous pass with no reason, and the ONLY reply on this board that came off a SINGLE touch with no chase behind it. Teaser 10 Nov 16:45, reply 21 Nov 14:15 - eleven days later, unprompted. Against nine closures yesterday that each needed a third email, that is worth holding onto: a reader who was going to answer answered, and the silence in between was not evidence that he had to be chased. TWO THINGS ON THIS ROW ARE ABOUT DELIVERABILITY RATHER THAN THE DEAL, AND THEY MATTER MORE THAN THE PASS. First, the ADDRESSEE NEVER GOT IT: the send to Matthew Vlasic bounced eight minutes later with 'Message blocked. Your message to mvlasic@vlasicgroup.com has been blocked.' - an outright gateway block, not an unknown address. Paul, who was only copied, is the one who read it and replied, and he replied from pav@vlasicgroup.com while ZMR holds pvlasic@. Second, his gateway stamped the mail 'WARNING - This email is originated from UNTRUSTED SOURCE. Do not click any link and do not open attachments unless you can confirm the sender.' TAKEN WITH RENCO'S 'Caution: External / First-Time Sender' AND A REPORT-SPAM BUTTON ON 20 NOV, AND THE GMAIL DAILY-CAP REFUSALS ON 10, 16 AND 17 NOV, THAT IS THREE DISTINCT DELIVERABILITY SIGNALS IN TWO DAYS. The sender reputation of zmrcapital.com is degrading, corporate gateways are flagging or blocking it, and some share of the 'silent' names on this board may never have received anything. That is a campaign-infrastructure problem, not a messaging one, and it is worth a look before the next wave. Nothing owed on the deal; correct the address to pav@ if Vlasic is ever approached again.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-10",
+   "ask": "Closed - courteous pass, no reason, nothing owed. For any future approach: mvlasic@vlasicgroup.com is BLOCKED by their gateway and pav@vlasicgroup.com is Paul's working address, not the pvlasic@ ZMR has on file."
+  }
  }
 ]
