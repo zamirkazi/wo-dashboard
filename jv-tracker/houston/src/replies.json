@@ -6331,5 +6331,26 @@
    "lastOut": "2026-11-10",
    "ask": "Closed - courteous pass, no reason, nothing owed. For any future approach: mvlasic@vlasicgroup.com is BLOCKED by their gateway and pav@vlasicgroup.com is Paul's working address, not the pvlasic@ ZMR has on file."
   }
+ },
+ {
+  "firm": "Wigan Acquisitions",
+  "person": "Patrick Wigan",
+  "title": null,
+  "email": "pw@wiganacq.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-23T08:17:42Z",
+  "quote": "Thanks but we’re Europe focused only",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "A one-line geography pass, fourteen minutes after Zamir's third touch (teaser 12 Nov 10:22, chase 17 Nov 11:43, 'can we get a call on the books' 23 Nov 08:03, reply 08:17 from an iPhone). The reason is NOT Houston and NOT the deal: they invest in Europe only. That is the FIFTH closure in four days to turn on mandate rather than market — Two Trees, Stonecroft, Veddis and THM all said some version of 'not our asset class', and Wigan now says 'not our continent'. Every one of them came off the wider family-office file rather than the screened equity roster, and every one of them cost a third touch to find out. The pattern is a list problem, not a message problem, and it is the single cheapest thing left to fix before the next wave. Nothing owed; do not re-approach on a US deal. Amanda Spring (as@wiganacq.com) was copied throughout and did not reply.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-23",
+   "ask": "Closed — Europe-only mandate, geography not price. Drop both addresses from any US send list; they are not a suppression (no opt-out asked for), just a permanent mismatch."
+  }
  }
 ]

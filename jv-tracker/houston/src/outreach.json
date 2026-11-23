@@ -4558,6 +4558,18 @@
    "sent": "2026-11-10",
    "outcome": "replied",
    "note": "Single touch 10 Nov 16:45, no chase; Paul passed 21 Nov 14:15. The send to Matthew Vlasic was BLOCKED by their gateway eight minutes after sending; Paul replied from pav@, not the pvlasic@ on file. His gateway also stamped the mail 'originated from UNTRUSTED SOURCE'."
+  },
+  {
+   "channel": "direct",
+   "firm": "Wigan Acquisitions",
+   "person": "Patrick Wigan",
+   "email": "pw@wiganacq.com",
+   "also": [
+    "as@wiganacq.com"
+   ],
+   "sent": "2026-11-12",
+   "outcome": "replied",
+   "note": "Three touches 12 Nov / 17 Nov / 23 Nov; passed 23 Nov 08:17 on mandate — Europe focused only. Amanda Spring cc'd throughout, silent. Not an opt-out; simply never a US buyer."
   }
  ],
  "carveouts": [
