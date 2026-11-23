@@ -6353,5 +6353,26 @@
    "lastOut": "2026-11-23",
    "ask": "Closed — Europe-only mandate, geography not price. Drop both addresses from any US send list; they are not a suppression (no opt-out asked for), just a permanent mismatch."
   }
+ },
+ {
+  "firm": "REDO Capital",
+  "person": "Lusa Zhou",
+  "title": "Founder, Managing Partner",
+  "email": "lusa@redo-capital.com",
+  "channel": "direct",
+  "stage": "pass",
+  "ts": "2026-11-23T16:52:11Z",
+  "quote": "Thanks for following up. Real property assets are outside of mandate at REDO Capital as we focus primarily in beauty & personal care growth equity investments. Appreciate you reaching out.",
+  "tags": [
+   "strategy-mismatch"
+  ],
+  "heat": 1,
+  "has": "teaser",
+  "action": "THE CLEAREST LIST-QUALITY DATAPOINT THIS CAMPAIGN HAS PRODUCED. REDO Capital is a BEAUTY AND PERSONAL CARE GROWTH EQUITY firm in Manhattan, and its founder answered a multifamily LP solicitation to say so. This is not a real estate allocator that passed on Houston, nor a family office that happens not to do property - it is a different industry. Three touches went to her (9 Nov, 16 Nov, 19 Nov) and two colleagues at redoventures.com were copied on every one before anybody found out. SIXTH MANDATE PASS IN FOUR DAYS, and the sequence now reads: Two Trees, Stonecroft, Veddis and THM on asset class, Wigan on continent, REDO on industry. Six firms, eighteen-odd touches, not one of them ever a candidate for a $11.77M multifamily LP cheque. Every one came off the wider family-office file rather than the screened equity roster. THE BOARD'S HEADLINE FINDING IS THAT PASSES NAME HOUSTON; THIS CLUSTER NAMES NOTHING ABOUT THE DEAL AT ALL, and it is growing faster than the Houston cluster now. That is worth separating in any read of the numbers: a pass from an allocator who looked and declined is evidence about the asset, and a pass from a beauty-sector growth fund is evidence about the list. Treating them as the same number flatters the message and hides the screen. Courteous answer from a principal; nothing owed, no re-approach on any real estate deal.",
+  "followup": {
+   "owed": "none",
+   "lastOut": "2026-11-19",
+   "ask": "Closed - wrong industry entirely, beauty and personal care growth equity. Not an opt-out, so no suppression needed, but remove lusa@redo-capital.com and the two redoventures.com addresses from any property send list."
+  }
  }
 ]
