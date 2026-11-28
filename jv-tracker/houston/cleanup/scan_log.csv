@@ -1,0 +1,97 @@
+address,verdict,reason,occurrences,wave,firm
+SWhite@angelogordon.com,DEAD,forwards to swhite@tpg.com which does not exist,1,peblast,TPG Angelo Gordon
+achon@madisonint.com,DEAD,550 permanent failure (domain-wide),1,peblast,Madison International Realty
+acontrucci@119th.com,DEAD,550 permanent failure (domain-wide),1,sfo,119th Street Capital
+acquisitions@kcb-partners.com,DEAD,550 permanent failure (domain-wide),1,peblast,KCB Partners
+acquisitions@lremanagementllc.com,DEAD,550 permanent failure,1,peblast,LRE Management
+akamhazi@madisonint.com,DEAD,550 permanent failure (domain-wide),1,peblast,Madison International Realty
+akeith@madisonint.com,DEAD,550 permanent failure (domain-wide),1,peblast,Madison International Realty
+alan_topfer@castletopcapital.com,DEAD,550 permanent failure (domain-wide),1,sfo,CastleTop Capital
+angie.henderson@fairwayamerica.com,DEAD,550 permanent failure (domain-wide),1,peblast,Fairway America
+anne.wessel@deutsche-oppenheim.de,TOOLARGE,message exceeds size limit,1,familyoffice,Deutsche Oppenheim
+anthony@monaco.mc,TOOLARGE,message exceeds size limit,1,familyoffice,Monaco
+apiccio@iconiqcapital.com,DEAD,message blocked (domain-wide),1,familyoffice,ICONIQ Capital
+arifacma@yahoo.com,DEAD,message blocked - personal yahoo address on an institutional list,1,sfo,unknown (Arif)
+bdonnell@churchillcapital.com,DEAD,message blocked,1,peblast,Churchill Capital
+bill@erillc.com,SOFT,mailbox full,1,familyoffice,ERI LLC
+caroline.rios@bnfcapital.co.uk,DEAD,550 permanent failure (domain-wide),1,sfo,BNF Capital
+caspar.rock@cazenovecapital.com,DEAD,message blocked,2,familyoffice,Cazenove Capital
+cchshire@colonialgroupinc.com,DEAD,550 permanent failure,1,familyoffice,Colonial Group
+ccolbath@pasadenapw.com,DEAD,address not found 550,3,familyoffice,Pasadena Private Wealth
+celinegumbiner@monaco.mc,TOOLARGE,message exceeds size limit,1,familyoffice,Monaco
+cflaherty@madisonint.com,DEAD,550 permanent failure (domain-wide),1,peblast,Madison International Realty
+chintu.patel@avtarinvestments.com,DEAD,550 permanent failure (domain-wide),1,sfo,Avtar Investments
+chirag.patel@avtarinvestments.com,DEAD,550 permanent failure (domain-wide),1,sfo,Avtar Investments
+christian@neon.com,DEAD,address not found,2,direct,Neon
+christophergibson@peakhillcapital.com,DEAD,550 permanent failure (domain-wide),1,peblast,Peak Hill Capital
+copp@bnfcapital.co.uk,DEAD,550 permanent failure (domain-wide),1,sfo,BNF Capital
+csbeaumont@linvestment.com,DEAD,message blocked,3,familyoffice,Lifschultz Organization
+debbie.jones@cptcap.com,DEAD,550 permanent failure (domain-wide),1,sfo,CPT Capital
+dmason@jadecap.net,DEAD,message blocked (domain-wide),1,sfo,Jade Capital
+dmoticka@duch.com,DEAD,message blocked,2,peblast,Duchossois Capital
+dnovick@briarhall.com,DEAD,message blocked,2,familyoffice,Briar Hall
+drh@hmpayson.com,DEAD,message blocked,2,familyoffice,H.M. Payson
+ewhite@119th.com,DEAD,550 permanent failure (domain-wide),1,sfo,119th Street Capital
+eyoung@coremixcapital.com,DEAD,message blocked (domain-wide),1,sfo,Coremix Capital
+f.bem@arizona-investissements.com,TOOLARGE,message exceeds size limit,1,familyoffice,Arizona Investissements
+garnold@thearnoldcos.com,DEAD,message blocked,1,familyoffice,The Arnold Companies
+giles.neville@schroders.com,DEAD,message blocked,2,familyoffice,Schroders
+grood@roodinvestments.com,DEAD,550 permanent failure,1,familyoffice,Rood Investments
+gsimon@virtusre.com,TOOLARGE,exceeds recipient size limit,2,peblast,Virtus Real Estate
+gwang@jadecap.net,DEAD,message blocked (domain-wide),1,sfo,Jade Capital
+j.wels@cofraholding.com,DEAD,message blocked,2,familyoffice,COFRA Holding
+james.fogarty@macquarie.com,DEAD,address not found,1,peblast,Macquarie
+jamie.skinner@croataninvestments.com,DEAD,550 permanent failure (domain-wide),1,peblast,Croatan Investments
+jbiel@kayne.com,DEAD,message blocked,2,familyoffice,Kayne Anderson
+jbusnelli@bnfcapital.co.uk,DEAD,550 permanent failure (domain-wide),1,sfo,BNF Capital
+jc@silvercreekdevco.com,DEAD,550 permanent failure,1,peblast,Silver Creek DevCo
+jcraig@iconiqcapital.com,DEAD,message blocked (domain-wide),1,familyoffice,ICONIQ Capital
+jmcdonough@accind.com,DEAD,message blocked,3,familyoffice,Access Industries
+justin@humphreyscapital.com,DEAD,message blocked,1,direct,Humphreys Capital
+jward@cincinnatuspartners.com,DEAD,message blocked (domain-wide),1,sfo,Cincinnatus Partners
+jweaver@quartzlakecap.com,DEAD,message blocked,2,peblast,Quartz Lake Capital
+kdesouza@buildersvision.com,DEAD,550 permanent failure (domain-wide),1,sfo,Builders Vision
+kellen.stevens@fairwayamerica.com,DEAD,550 permanent failure (domain-wide),1,peblast,Fairway America
+khuntmorr@iconiqcapital.com,DEAD,message blocked (domain-wide),1,familyoffice,ICONIQ Capital
+lbelfer@belfermgmt.com,DEAD,message blocked,2,familyoffice,Belfer Management
+lcohen@sevenbridgesadvisors.com,DEAD,message blocked,2,familyoffice,Seven Bridges Advisors
+leila@dlccapmgmt.com,DEAD,message blocked,1,familyoffice,DLC Capital Management
+leo.claeys@cennini.be,DEAD,550 permanent failure,1,familyoffice,Cennini
+lou@iconiqcapital.com,DEAD,message blocked (domain-wide),1,familyoffice,ICONIQ Capital
+marc.heske@deutsche-oppenheim.de,TOOLARGE,message exceeds size limit,1,familyoffice,Deutsche Oppenheim
+martin@triplefive.com,DEAD,message blocked,2,familyoffice,Triple Five Group
+mconcannon@drakerep.com,DEAD,message blocked,2,peblast,Drake Real Estate Partners
+melissaj@castletop.org,DEAD,550 permanent failure (domain-wide),1,sfo,CastleTop Capital
+melody.violton@cptcap.com,DEAD,550 permanent failure (domain-wide),1,sfo,CPT Capital
+mgutnikov@kcb-partners.com,DEAD,550 permanent failure (domain-wide),1,peblast,KCB Partners
+mherrera@chglobalcapital.com,DEAD,550 permanent failure,2,familyoffice,CH Global Capital
+mike@adcapinc.com,DEAD,message blocked,1,familyoffice,AD Capital
+mikew@ceasinvestments.com,DEAD,550 permanent failure (domain-wide),1,sfo,CEAS Investments
+mitchellvoss@windmasscapital.com,TYPO,blocked - correct address is mitchell.voss@windmasscapital.com,1,direct,Windmass Capital
+mmatlock@belmontgroup.com,DEAD,550 permanent failure (domain-wide),1,sfo,Belmont Group
+mmildren@tug-hill.com,DEAD,550 permanent failure,1,peblast,Tug Hill
+mohammed@al-radwan.com,TOOLARGE,message exceeds size limit,1,familyoffice,Al-Radwan
+morten.stakroge@apmoller.com,DEAD,message blocked,1,sfo,A.P. Moller Holding
+nlaing@buildersvision.com,DEAD,550 permanent failure (domain-wide),1,sfo,Builders Vision
+npersaud@southridge.com,DEAD,message blocked 550,3,familyoffice,Southridge
+nugi@iconiqcapital.com,DEAD,message blocked (domain-wide),1,familyoffice,ICONIQ Capital
+osamari@cimgroup.com,DEAD,address not found 550 5.0.0,1,direct,CIM Group
+pascal.daloz@3ds.com,TOOLARGE,message exceeds size limit,1,familyoffice,Dassault Systemes
+paul.van@croataninvestments.com,DEAD,550 permanent failure (domain-wide),1,peblast,Croatan Investments
+pauls@crownway.ie,DEAD,550 permanent failure (domain-wide),1,sfo,Crownway
+pcarasso@remfinance.com,DEAD,550 permanent failure,1,peblast,REM Finance
+per@hmpayson.com,DEAD,message blocked,2,familyoffice,H.M. Payson
+peter.priestley@crownway.ie,DEAD,550 permanent failure (domain-wide),1,sfo,Crownway
+pheydweiller@peakhillcapital.com,DEAD,550 permanent failure,1,peblast,Peak Hill Capital
+pmatthews@belmontgroup.com,DEAD,550 permanent failure (domain-wide),1,sfo,Belmont Group
+reljurdi@kcb-partners.com,DEAD,550 permanent failure (domain-wide),1,peblast,KCB Partners
+ronniej@ceasinvestments.com,DEAD,550 permanent failure (domain-wide),1,sfo,CEAS Investments
+rtalbot@canadaoverseas.com,DEAD,550 permanent failure (domain-wide),1,sfo,Canada Overseas Investments
+russ@settco.com,DEAD,message blocked,1,familyoffice,Settco
+samuelwalsh@gic.com.sg,DEAD,address not found 550 5.1.1,2,peblast,GIC
+scott.mclain@hlinvestments.com,DEAD,550 5.7.0 Local Policy,1,familyoffice,HL Investments
+sdavidson@elysllc.com,DEAD,550 permanent failure,1,peblast,Elys LLC
+skurtzman@iconiqcapital.com,DEAD,message blocked (domain-wide),1,familyoffice,ICONIQ Capital
+tim@reddygroup.com,DEAD,message blocked,2,familyoffice,Reddy Group
+vfernandez@canadaoverseas.com,DEAD,550 permanent failure (domain-wide),1,sfo,Canada Overseas Investments
+wstewart@guptacapitalgroup.com,DEAD,message blocked,3,familyoffice,Gupta Capital Group
